@@ -1,6 +1,6 @@
-# Measurement Framework Support for LabVIEW
+# Measurement Services Support for LabVIEW
 
-This repo contains the necessary LabVIEW client/server, template, and examples to call into the Measurement Framework.
+This repo contains the necessary LabVIEW client/server, template, and examples to call into the Measurement Services.
 
 ## Client
 
