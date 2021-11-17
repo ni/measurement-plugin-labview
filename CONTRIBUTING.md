@@ -1,11 +1,11 @@
-# Contributing to Measurement Framework LabVIEW
+# Contributing to Measurement Services Support for LabVIEW
 
-Contributions to Measurement Framework LabVIEW are welcome from all!
+Contributions to Measurement Services Support for LabVIEW are welcome from all!
 
-Measurement Framework LabVIEW is managed via [git](https://git-scm.com), with the canonical upstream
-repository hosted on [GitHub](https://github.com/ni/measurement-framework-labview/).
+Measurement Services Support for LabVIEW is managed via [git](https://git-scm.com), with the canonical upstream
+repository hosted on [GitHub](https://github.com/ni/measurement-services-labview/).
 
-Measurement Framework LabVIEW follows a pull-request model for development.  If you wish to
+Measurement Services Support for LabVIEW follows a pull-request model for development.  If you wish to
 contribute, you will need to create a GitHub account, fork this project, push a
 branch with your changes to your project, and then submit a pull request.
 
@@ -57,5 +57,5 @@ See [GitHub's official documentation](https://help.github.com/articles/using-pul
 
 (taken from [developercertificate.org](https://developercertificate.org/))
 
-See [LICENSE](https://github.com/ni/measurement-framework-labview/blob/master/LICENSE)
-for details about how Measurement Framework LabVIEW is licensed.
+See [LICENSE](https://github.com/ni/measurement-services-labview/blob/master/LICENSE)
+for details about how Measurement Services Support for LabVIEW is licensed.
