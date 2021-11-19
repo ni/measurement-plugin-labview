@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<GPluginMetadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.ni.com/InstrumentStudio/GPluginMetadata">
+	<Plugins>
+		<PluginData 
+			UniqueName="National Instruments|LabVIEW MF"
+			DisplayName="Measurement Framework"
+			PanelType="MF"
+			GroupName="MF"
+			VIPath="LabVIEW MF\Main.vi"
+			SupportedPanelSizes="Large"
+			DebuggingEnabled="false"
+			ReentrantExecutionEnabled="false"
+			ApplicationContext="Unique" />
+	</Plugins>
+</GPluginMetadata>
