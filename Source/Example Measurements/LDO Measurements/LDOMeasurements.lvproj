@@ -10,8 +10,16 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Reusables" Type="Folder" URL="../Reusables">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="Reusables" Type="Folder">
+			<Item Name="Advanced Settings.ctl" Type="VI" URL="../Reusables/Advanced Settings.ctl"/>
+			<Item Name="Get Range Values[].vi" Type="VI" URL="../Reusables/Get Range Values[].vi"/>
+			<Item Name="Load Output Function.ctl" Type="VI" URL="../Reusables/Load Output Function.ctl"/>
+			<Item Name="Prepare Fn Configurations.ctl" Type="VI" URL="../Reusables/Prepare Fn Configurations.ctl"/>
+			<Item Name="Prepare Load.vi" Type="VI" URL="../Reusables/Prepare Load.vi"/>
+			<Item Name="Prepare Source.vi" Type="VI" URL="../Reusables/Prepare Source.vi"/>
+			<Item Name="Set Load Current.vi" Type="VI" URL="../Reusables/Set Load Current.vi"/>
+			<Item Name="Set Source.vi" Type="VI" URL="../Reusables/Set Source.vi"/>
+			<Item Name="Stimulus And Measure.ctl" Type="VI" URL="../Reusables/Stimulus And Measure.ctl"/>
 		</Item>
 		<Item Name="LineRegulation.lvlib" Type="Library" URL="../Measurement Service/LineRegulation/LineRegulation.lvlib"/>
 		<Item Name="LoadRegulation.lvlib" Type="Library" URL="../Measurement Service/LoadRegulation/LoadRegulation.lvlib"/>
@@ -80,9 +88,6 @@
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-			</Item>
-			<Item Name="mscorlib" Type="VI" URL="mscorlib">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nidcpower_64.dll" Type="Document" URL="nidcpower_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
