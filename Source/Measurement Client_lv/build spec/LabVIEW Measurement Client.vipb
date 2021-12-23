@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-12-23 10:47:06" Modified_Date="2021-12-23 10:48:07" Creator="navin" Comments="" ID="ee990b9c1fa0e9766accb30c485eb3fe">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-12-23 10:47:06" Modified_Date="2021-12-23 12:05:08" Creator="navin" Comments="" ID="da68f031985c064dd71518a43e2477f6">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_LabVIEW_Measurement_Client</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Measurement_client</Library_Source_Folder>
     <Library_Output_Folder>..\build</Library_Output_Folder>
@@ -116,9 +116,6 @@
         <Namespace_Type>Suffix</Namespace_Type>
         <Namespace>-release</Namespace>
       </Namespace_Overrides>
-      <Compile_Exclusions>
-        <Path/>
-      </Compile_Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>

@@ -36,6 +36,9 @@
 		<Item Name="ni_measurements_v1_MeasureResponse" Type="Folder">
 			<Item Name="ni_measurements_v1_MeasureResponse.ctl" Type="VI" URL="../RPC Messages/ni_measurements_v1_MeasureResponse.ctl"/>
 		</Item>
+		<Item Name="ni_measurements_v1_Type" Type="Folder">
+			<Item Name="ni_measurements_v1_Type.ctl" Type="VI" URL="../RPC Messages/ni_measurements_v1_Type.ctl"/>
+		</Item>
 		<Item Name="google_protobuf_Any" Type="Folder">
 			<Item Name="google_protobuf_Any.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Any.ctl"/>
 		</Item>
