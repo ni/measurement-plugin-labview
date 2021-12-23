@@ -21,7 +21,12 @@ See [GitHub's official documentation](https://help.github.com/articles/using-pul
 
 # Getting Started
 
-- TODO: include build steps here.
+Procedure to build the repos: 
+1. All the repo contains a folder called "build specs" which contains a specification file from VIPM.
+2. Open the Specification file using VIPM 2020
+3. Click Build - Built .vip file will be created a in a folder called "build" parallel to "build specs"
+
+TODO: include the build procedure for the "InstrumentStudio G Plugin"
 
 # Testing
 
