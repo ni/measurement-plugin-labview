@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-11-07 13:16:14" Modified_Date="2021-12-23 09:18:13" Creator="navin" Comments="" ID="11c05bb5876bf89e70dd98842b7a91ea">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-11-07 13:16:14" Modified_Date="2021-12-23 11:59:31" Creator="navin" Comments="" ID="2c7ddf8b9adacd18f2c1b4ff40e4a8ef">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_LabVIEW_Measurement_Service_Template</Package_File_Name>
-    <Library_Version>1.1.0.5</Library_Version>
+    <Library_Version>1.1.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\MeasurementTemplate_server</Library_Source_Folder>
     <Library_Output_Folder>..\build</Library_Output_Folder>
