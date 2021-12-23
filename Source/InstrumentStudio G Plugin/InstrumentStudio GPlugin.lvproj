@@ -57,17 +57,16 @@
 			<Item Name="Measurement Client" Type="Folder">
 				<Item Name="Measurement_client-release.lvlib" Type="Library" URL="/&lt;vilib&gt;/TAF/LabVIEW Measurement Client/Measurement_client-release.lvlib"/>
 			</Item>
+			<Item Name="InstrumentStudioPluginSDK.lvlibp" Type="LVLibp" URL="../IS LabVIEW service host/InstrumentStudioPluginSDK.lvlibp">
+				<Item Name="Panel Size.ctl" Type="VI" URL="../IS LabVIEW service host/InstrumentStudioPluginSDK.lvlibp/Panel Size.ctl"/>
+				<Item Name="Setup Session Id.vi" Type="VI" URL="../IS LabVIEW service host/InstrumentStudioPluginSDK.lvlibp/Setup Session Id.vi"/>
+				<Item Name="Plugin Session.lvclass" Type="LVClass" URL="../IS LabVIEW service host/InstrumentStudioPluginSDK.lvlibp/Plugin Session.lvclass"/>
+				<Item Name="Event Registration Refnum.ctl" Type="VI" URL="../IS LabVIEW service host/InstrumentStudioPluginSDK.lvlibp/Event Registration Refnum.ctl"/>
+				<Item Name="Plugin Events Enum.ctl" Type="VI" URL="../IS LabVIEW service host/InstrumentStudioPluginSDK.lvlibp/Plugin Events Enum.ctl"/>
+				<Item Name="Plugin Events.ctl" Type="VI" URL="../IS LabVIEW service host/InstrumentStudioPluginSDK.lvlibp/Plugin Events.ctl"/>
+			</Item>
 		</Item>
 		<Item Name="LabVIEW MF.gplugindata" Type="Document" URL="../IS LabVIEW service host/LabVIEW MF.gplugindata"/>
-		<Item Name="InstrumentStudioPluginSDK.lvlibp" Type="LVLibp" URL="../IS LabVIEW service host/InstrumentStudioPluginSDK.lvlibp">
-			<Item Name="Panel Size.ctl" Type="VI" URL="../IS LabVIEW service host/InstrumentStudioPluginSDK.lvlibp/Panel Size.ctl"/>
-			<Item Name="Setup Session Id.vi" Type="VI" URL="../IS LabVIEW service host/InstrumentStudioPluginSDK.lvlibp/Setup Session Id.vi"/>
-			<Item Name="Plugin Session.lvclass" Type="LVClass" URL="../IS LabVIEW service host/InstrumentStudioPluginSDK.lvlibp/Plugin Session.lvclass"/>
-			<Item Name="Event Registration Refnum.ctl" Type="VI" URL="../IS LabVIEW service host/InstrumentStudioPluginSDK.lvlibp/Event Registration Refnum.ctl"/>
-			<Item Name="Plugin Events Enum.ctl" Type="VI" URL="../IS LabVIEW service host/InstrumentStudioPluginSDK.lvlibp/Plugin Events Enum.ctl"/>
-			<Item Name="Plugin Events.ctl" Type="VI" URL="../IS LabVIEW service host/InstrumentStudioPluginSDK.lvlibp/Plugin Events.ctl"/>
-		</Item>
-		<Item Name="Error Ring.xnode" Type="XNode" URL="/&lt;vilib&gt;/ErrorRing/Error Ring.xnode"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
@@ -105,7 +104,6 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="Equal Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Comparable/Equal Comparable.lvclass"/>
 				<Item Name="Equal Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Functor/Equal Functor.lvclass"/>
@@ -113,29 +111,6 @@
 				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
 				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Unsorted 1D Array.vim"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
-				<Item Name="NIMeasurementServices_RegisterServiceRequest_Data.ctl" Type="VI" URL="/&lt;vilib&gt;/gRPC/Discovery Client/Discovery_client Class/RPC Messages/NIMeasurementServices_RegisterServiceRequest/NIMeasurementServices_RegisterServiceRequest_Data.ctl"/>
-				<Item Name="NIMeasurementServices_ServiceDescriptor_Data.ctl" Type="VI" URL="/&lt;vilib&gt;/gRPC/Discovery Client/Discovery_client Class/RPC Messages/NIMeasurementServices_ServiceDescriptor/NIMeasurementServices_ServiceDescriptor_Data.ctl"/>
-				<Item Name="NIMeasurementServices_ServiceLocation_Data.ctl" Type="VI" URL="/&lt;vilib&gt;/gRPC/Discovery Client/Discovery_client Class/RPC Messages/NIMeasurementServices_ServiceLocation/NIMeasurementServices_ServiceLocation_Data.ctl"/>
-				<Item Name="Create Client.vi" Type="VI" URL="/&lt;vilib&gt;/gRPC/Discovery Client/Discovery_client Class/Client API/Create Client.vi"/>
-				<Item Name="RPC Method NIMeasurementServices_RegistryService_RegisterService.vi" Type="VI" URL="/&lt;vilib&gt;/gRPC/Discovery Client/Discovery_client Class/Client API/RPC Method NIMeasurementServices_RegistryService_RegisterService.vi"/>
-				<Item Name="Destroy Client.vi" Type="VI" URL="/&lt;vilib&gt;/gRPC/Discovery Client/Discovery_client Class/Client API/Destroy Client.vi"/>
-				<Item Name="NIMeasurementServices_EnumerateServicesRequest_Data.ctl" Type="VI" URL="/&lt;vilib&gt;/gRPC/Discovery Client/Discovery_client Class/RPC Messages/NIMeasurementServices_EnumerateServicesRequest/NIMeasurementServices_EnumerateServicesRequest_Data.ctl"/>
-				<Item Name="NIMeasurementServices_ResolveServiceRequest_Data.ctl" Type="VI" URL="/&lt;vilib&gt;/gRPC/Discovery Client/Discovery_client Class/RPC Messages/NIMeasurementServices_ResolveServiceRequest/NIMeasurementServices_ResolveServiceRequest_Data.ctl"/>
-				<Item Name="RPC Method NIMeasurementServices_RegistryService_EnumerateServices.vi" Type="VI" URL="/&lt;vilib&gt;/gRPC/Discovery Client/Discovery_client Class/Client API/RPC Method NIMeasurementServices_RegistryService_EnumerateServices.vi"/>
-				<Item Name="RPC Method NIMeasurementServices_RegistryService_ResolveService.vi" Type="VI" URL="/&lt;vilib&gt;/gRPC/Discovery Client/Discovery_client Class/Client API/RPC Method NIMeasurementServices_RegistryService_ResolveService.vi"/>
-				<Item Name="NI_XNodeSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/XNodeSupport/NI_XNodeSupport.lvlib"/>
-				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
-				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
-				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
-				<Item Name="Draw Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rect.vi"/>
-				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
-				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
-				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
-				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
-				<Item Name="Picture to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Picture to Pixmap.vi"/>
-				<Item Name="Draw Text at Point.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text at Point.vi"/>
-				<Item Name="Draw Text in Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text in Rect.vi"/>
-				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -143,11 +118,6 @@
 			<Item Name="NationalInstruments.VIHost.Interop.dll" Type="Document" URL="NationalInstruments.VIHost.Interop.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="RPC Method Measurement_v1_MeasurementService_Measure.vi" Type="VI" URL="../Measurement_lv_client/Measurement_lv_client Class/Client API/RPC Method Measurement_v1_MeasurementService_Measure.vi"/>
-			<Item Name="Measurement meta details.ctl" Type="VI" URL="../Measurement Client Wrapper/Typedefs/Measurement meta details.ctl"/>
-			<Item Name="Measurement Parameter Details.ctl" Type="VI" URL="../Measurement Client Wrapper/Typedefs/Measurement Parameter Details.ctl"/>
-			<Item Name="Measurement DataType.ctl" Type="VI" URL="../Measurement Client Wrapper/Typedefs/Measurement DataType.ctl"/>
-			<Item Name="Measurement UI Details.ctl" Type="VI" URL="../Measurement Client Wrapper/Typedefs/Measurement UI Details.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="lvmfsd" Type="Source Distribution">
@@ -161,7 +131,7 @@
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">2</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/D/build/lvmfsd/LabVIEW MF</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0FDBE926-AB10-4A30-85F1-EEF188EE368D}</Property>
-				<Property Name="Bld_version.build" Type="Int">20</Property>
+				<Property Name="Bld_version.build" Type="Int">22</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/D/build/lvmfsd/LabVIEW MF</Property>
@@ -185,7 +155,7 @@
 				<Property Name="DestinationCount" Type="Int">6</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[0].itemID" Type="Str">{18ED2539-54AC-428E-BEF9-25A444216732}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3F8902A7-1575-488C-852E-F13ED572B8A4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -195,47 +165,51 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Dependency/Discovery/Discovery_client-release.lvlib/Discovery_client.lvclass</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Client API/Create Client.vi</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[10].type" Type="Str">Library</Property>
+				<Property Name="Source[10].type" Type="Str">VI</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Client API/Client Unary Call.vim</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/CompleteMetadataRegistration.vi</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">VI</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Client API/Close Client.vi</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/CreateSerializationSession.vi</Property>
 				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[12].type" Type="Str">VI</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Client API/Create Client.vi</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/FreeSerializationSession.vi</Property>
 				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[13].type" Type="Str">VI</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/CompleteMetadataRegistration.vi</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/PackToBuffer.vim</Property>
 				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[14].type" Type="Str">VI</Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/CreateSerializationSession.vi</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/UnpackFromBuffer.vim</Property>
 				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[15].type" Type="Str">VI</Property>
+				<Property Name="Source[16].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[16].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/FreeSerializationSession.vi</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Server API/Cluster to gRPC message</Property>
 				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[16].type" Type="Str">VI</Property>
+				<Property Name="Source[16].type" Type="Str">Container</Property>
+				<Property Name="Source[17].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[17].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/PackToBuffer.vim</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Server API/Message Requests</Property>
 				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[17].type" Type="Str">VI</Property>
+				<Property Name="Source[17].type" Type="Str">Container</Property>
+				<Property Name="Source[18].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[18].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/UnpackFromBuffer.vim</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Server API/Server</Property>
 				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[18].type" Type="Str">VI</Property>
-				<Property Name="Source[19].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[19].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[18].type" Type="Str">Container</Property>
 				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[19].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Server API/Cluster to gRPC message</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/Any Support/AnyBuilderAddValue.vim</Property>
 				<Property Name="Source[19].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[19].type" Type="Str">Container</Property>
+				<Property Name="Source[19].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
@@ -243,153 +217,134 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Measurement Client Wrapper</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[20].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[20].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[20].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Server API/Message Requests</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/Any Support/AnyBuilderBegin.vi</Property>
 				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[20].type" Type="Str">Container</Property>
-				<Property Name="Source[21].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[21].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[20].type" Type="Str">VI</Property>
 				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[21].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Server API/Server</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/Any Support/AnyBuilderBeginNestedMessage.vi</Property>
 				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[21].type" Type="Str">Container</Property>
-				<Property Name="Source[22].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[22].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[21].type" Type="Str">VI</Property>
 				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[22].itemID" Type="Ref">/My Computer/Dependency/Discovery/Discovery_client-release.lvlib/Discovery_client.lvclass/RPC Messages</Property>
+				<Property Name="Source[22].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/Any Support/AnyBuilderBeginRepeatedNestedMessage.vi</Property>
 				<Property Name="Source[22].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[22].type" Type="Str">Container</Property>
-				<Property Name="Source[23].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[23].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[22].type" Type="Str">VI</Property>
 				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[23].itemID" Type="Ref">/My Computer/Dependency/Discovery/Discovery_client-release.lvlib/Discovery_client.lvclass/Client API</Property>
+				<Property Name="Source[23].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/Any Support/AnyBuilderBeginRepeatedNestedMessageElement.vi</Property>
 				<Property Name="Source[23].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[23].type" Type="Str">Container</Property>
+				<Property Name="Source[23].type" Type="Str">VI</Property>
 				<Property Name="Source[24].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[24].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/Any Support/AnyBuilderAddValue.vim</Property>
+				<Property Name="Source[24].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/Any Support/AnyBuilderBuild.vi</Property>
 				<Property Name="Source[24].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[24].type" Type="Str">VI</Property>
 				<Property Name="Source[25].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[25].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/Any Support/AnyBuilderBegin.vi</Property>
+				<Property Name="Source[25].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/Any Support/AnyBuilderBuildToBuffer.vi</Property>
 				<Property Name="Source[25].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[25].type" Type="Str">VI</Property>
 				<Property Name="Source[26].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[26].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/Any Support/AnyBuilderBeginNestedMessage.vi</Property>
+				<Property Name="Source[26].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/Any Support/IsAnyOfType.vi</Property>
 				<Property Name="Source[26].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[26].type" Type="Str">VI</Property>
 				<Property Name="Source[27].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[27].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/Any Support/AnyBuilderBeginRepeatedNestedMessage.vi</Property>
+				<Property Name="Source[27].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/Any Support/PackToAny.vim</Property>
 				<Property Name="Source[27].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[27].type" Type="Str">VI</Property>
 				<Property Name="Source[28].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[28].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/Any Support/AnyBuilderBeginRepeatedNestedMessageElement.vi</Property>
+				<Property Name="Source[28].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/Any Support/TryUnpackFromAny.vim</Property>
 				<Property Name="Source[28].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[28].type" Type="Str">VI</Property>
 				<Property Name="Source[29].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[29].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/Any Support/AnyBuilderBuild.vi</Property>
+				<Property Name="Source[29].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/Any Support/UnpackFromAny.vim</Property>
 				<Property Name="Source[29].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[29].type" Type="Str">VI</Property>
-				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[3].itemID" Type="Ref"></Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/IS LabVIEW service host/InstrumentStudioPlugin_RenameMe.lvlib/Main.vi</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[30].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[30].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/Any Support/AnyBuilderBuildToBuffer.vi</Property>
-				<Property Name="Source[30].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[30].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Server API/Cluster to gRPC message/Register Cluster.vi</Property>
 				<Property Name="Source[30].type" Type="Str">VI</Property>
 				<Property Name="Source[31].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[31].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/Any Support/IsAnyOfType.vi</Property>
-				<Property Name="Source[31].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[31].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Server API/Cluster to gRPC message/Cluster to gRPC LabVIEW Message.vi</Property>
 				<Property Name="Source[31].type" Type="Str">VI</Property>
 				<Property Name="Source[32].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[32].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/Any Support/PackToAny.vim</Property>
-				<Property Name="Source[32].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[32].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Server API/Cluster to gRPC message/Apply Package Name.vi</Property>
 				<Property Name="Source[32].type" Type="Str">VI</Property>
 				<Property Name="Source[33].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[33].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/Any Support/TryUnpackFromAny.vim</Property>
-				<Property Name="Source[33].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[33].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Server API/Cluster to gRPC message/Cluster to Element Details.vi</Property>
 				<Property Name="Source[33].type" Type="Str">VI</Property>
 				<Property Name="Source[34].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[34].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Protobuf/Any Support/UnpackFromAny.vim</Property>
-				<Property Name="Source[34].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[34].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Server API/Cluster to gRPC message/LabVIEW DataType to Message Element DataType.vi</Property>
 				<Property Name="Source[34].type" Type="Str">VI</Property>
-				<Property Name="Source[35].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[35].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Server API/Cluster to gRPC message/Register Cluster.vi</Property>
-				<Property Name="Source[35].type" Type="Str">VI</Property>
-				<Property Name="Source[36].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[36].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Server API/Cluster to gRPC message/Cluster to gRPC LabVIEW Message.vi</Property>
-				<Property Name="Source[36].type" Type="Str">VI</Property>
+				<Property Name="Source[35].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[35].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[35].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[35].itemID" Type="Ref">/My Computer/Dependency/gRPC</Property>
+				<Property Name="Source[35].type" Type="Str">Container</Property>
+				<Property Name="Source[36].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[36].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[36].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[36].destinationIndex" Type="Int">5</Property>
+				<Property Name="Source[36].itemID" Type="Ref">/My Computer/Dependency/Discovery Client</Property>
+				<Property Name="Source[36].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[36].type" Type="Str">Container</Property>
 				<Property Name="Source[37].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[37].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Server API/Cluster to gRPC message/Apply Package Name.vi</Property>
-				<Property Name="Source[37].type" Type="Str">VI</Property>
-				<Property Name="Source[38].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[38].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Server API/Cluster to gRPC message/Cluster to Element Details.vi</Property>
-				<Property Name="Source[38].type" Type="Str">VI</Property>
-				<Property Name="Source[39].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[39].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Server API/Cluster to gRPC message/LabVIEW DataType to Message Element DataType.vi</Property>
-				<Property Name="Source[39].type" Type="Str">VI</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/IS LabVIEW service host/InstrumentStudioPlugin_RenameMe.lvlib/Main.vi</Property>
-				<Property Name="Source[4].type" Type="Str">VI</Property>
-				<Property Name="Source[40].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[40].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[40].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[40].itemID" Type="Ref">/My Computer/Dependency/gRPC</Property>
-				<Property Name="Source[40].type" Type="Str">Container</Property>
-				<Property Name="Source[41].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[41].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[41].destinationIndex" Type="Int">5</Property>
-				<Property Name="Source[41].itemID" Type="Ref">/My Computer/Dependency/Discovery Client</Property>
-				<Property Name="Source[41].type" Type="Str">Container</Property>
-				<Property Name="Source[42].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[42].itemID" Type="Ref">/My Computer/LabVIEW MF.gplugindata</Property>
+				<Property Name="Source[37].itemID" Type="Ref">/My Computer/LabVIEW MF.gplugindata</Property>
+				<Property Name="Source[38].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[38].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[38].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[38].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[38].itemID" Type="Ref">/My Computer/Dependency/Measurement Client</Property>
+				<Property Name="Source[38].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[38].type" Type="Str">Container</Property>
+				<Property Name="Source[39].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[39].itemID" Type="Ref">/My Computer/Dependency/InstrumentStudioPluginSDK.lvlibp</Property>
+				<Property Name="Source[39].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[39].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib</Property>
+				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib</Property>
-				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Dependency/gRPC/Libraries</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[5].type" Type="Str">Library</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">5</Property>
-				<Property Name="Source[6].itemID" Type="Ref"></Property>
-				<Property Name="Source[6].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[6].type" Type="Str">Library</Property>
-				<Property Name="Source[7].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="Source[6].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Client API</Property>
+				<Property Name="Source[6].type" Type="Str">Container</Property>
 				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[7].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Dependency/gRPC/Libraries</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/typeDefs</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">Container</Property>
-				<Property Name="Source[8].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[8].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Client API</Property>
-				<Property Name="Source[8].type" Type="Str">Container</Property>
-				<Property Name="Source[9].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Client API/Client Unary Call.vim</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/typeDefs</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Client API/Close Client.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">43</Property>
+				<Property Name="Source[9].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">40</Property>
 			</Item>
-			<Item Name="lv-mf-suppoer-for-is-2021" Type="{E661DAE2-7517-431F-AC41-30807A3BDA38}">
+			<Item Name="lv-mf-support-for-is-2021" Type="{E661DAE2-7517-431F-AC41-30807A3BDA38}">
 				<Property Name="NIPKG_addToFeed" Type="Bool">false</Property>
 				<Property Name="NIPKG_allDependenciesToFeed" Type="Bool">false</Property>
 				<Property Name="NIPKG_allDependenciesToSystemLink" Type="Bool">false</Property>
 				<Property Name="NIPKG_certificates" Type="Bool">true</Property>
 				<Property Name="NIPKG_createInstaller" Type="Bool">false</Property>
-				<Property Name="NIPKG_feedLocation" Type="Path">../builds/NI_AB_PROJECTNAME/lv-mf-suppoer-for-is-2021/Feed</Property>
+				<Property Name="NIPKG_feedLocation" Type="Path">../builds/NI_AB_PROJECTNAME/lv-mf-support-for-is-2021/Feed</Property>
 				<Property Name="NIPKG_feedLocation.Type" Type="Str">relativeToCommon</Property>
 				<Property Name="NIPKG_installerArtifacts" Type="Str"></Property>
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
-				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/lv-mf-suppoer-for-is-2021/Package Installer</Property>
+				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/lv-mf-support-for-is-2021/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">labview-measurement-framework-support-for-instrumentstudio-2021_0.1.1-4_windows_x64.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">labview-measurement-framework-support-for-instrumentstudio-2021_0.1.1-5_windows_x64.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_packageVersion" Type="Bool">false</Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
@@ -398,8 +353,8 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">5</Property>
-				<Property Name="PKG_buildSpecName" Type="Str">lv-mf-suppoer-for-is-2021</Property>
+				<Property Name="PKG_buildNumber" Type="Int">6</Property>
+				<Property Name="PKG_buildSpecName" Type="Str">lv-mf-support-for-is-2021</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">1</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
 				<Property Name="PKG_dependencies[0].MaxVersion" Type="Str"></Property>
