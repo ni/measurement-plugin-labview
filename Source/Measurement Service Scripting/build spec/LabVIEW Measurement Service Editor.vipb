@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-11-07 13:51:59" Modified_Date="2021-11-08 22:40:53" Creator="navin" Comments="" ID="a4950f57b7f66bc8a9a60373318a88d7">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-11-07 13:51:59" Modified_Date="2021-12-23 09:38:37" Creator="navin" Comments="" ID="c693b872da9a40c92fd5c56a25612d58">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_LabVIEW_Measurement_Service_Editor</Package_File_Name>
-    <Library_Version>0.1.0.7</Library_Version>
+    <Library_Version>0.1.0.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
-    <Library_Output_Folder>..\..\..\..\build\lvmseditpkg</Library_Output_Folder>
+    <Library_Output_Folder>..\build</Library_Output_Folder>
     <Company_Name>NI</Company_Name>
     <Library_Summary/>
     <Library_License/>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>ni_lib_labview_measurement_service_template &gt;=1.1.0.2</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_labview_measurement_service_template &gt;=1.1.0.4</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -40,7 +40,7 @@
       <Toolkit_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;vi.lib&gt;\TAF\LabVIEW Measurement Service Editor</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
@@ -73,7 +73,7 @@
       <Tools_Menu>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;project&gt;\gRPC\Measurement Service</Path>
+        <Path>&lt;project&gt;\TAF\Measurement Plugin</Path>
       </Tools_Menu>
       <Help_Menu>
         <LLB>false</LLB>
@@ -122,7 +122,13 @@
         <Path>Measurement Service Scripting.lvproj</Path>
       </Exclusions>
       <Exclusions>
-        <Path>build src</Path>
+        <Path>Start all.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>build spec</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>build</Path>
       </Exclusions>
       <Place_Folder_Contents>
         <Path/>
