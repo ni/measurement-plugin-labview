@@ -143,8 +143,11 @@
 			<Item Name="NationalInstruments.VIHost.Interop.dll" Type="Document" URL="NationalInstruments.VIHost.Interop.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Destroy Client.vi" Type="VI" URL="../Measurement_lv_client/Measurement_lv_client Class/Client API/Destroy Client.vi"/>
 			<Item Name="RPC Method Measurement_v1_MeasurementService_Measure.vi" Type="VI" URL="../Measurement_lv_client/Measurement_lv_client Class/Client API/RPC Method Measurement_v1_MeasurementService_Measure.vi"/>
+			<Item Name="Measurement meta details.ctl" Type="VI" URL="../Measurement Client Wrapper/Typedefs/Measurement meta details.ctl"/>
+			<Item Name="Measurement Parameter Details.ctl" Type="VI" URL="../Measurement Client Wrapper/Typedefs/Measurement Parameter Details.ctl"/>
+			<Item Name="Measurement DataType.ctl" Type="VI" URL="../Measurement Client Wrapper/Typedefs/Measurement DataType.ctl"/>
+			<Item Name="Measurement UI Details.ctl" Type="VI" URL="../Measurement Client Wrapper/Typedefs/Measurement UI Details.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="lvmfsd" Type="Source Distribution">
