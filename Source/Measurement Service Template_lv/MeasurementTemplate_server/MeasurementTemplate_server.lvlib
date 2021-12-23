@@ -82,6 +82,7 @@
 			<Item Name="Register Configuration and Results.vi" Type="VI" URL="../Helper/Register Configuration and Results.vi"/>
 			<Item Name="Update MetaData Details.vi" Type="VI" URL="../Helper/Update MetaData Details.vi"/>
 			<Item Name="Get MetaData from Configurations.vi" Type="VI" URL="../Helper/Get MetaData from Configurations.vi"/>
+			<Item Name="Get MetaData from Results.vi" Type="VI" URL="../Helper/Get MetaData from Results.vi"/>
 			<Item Name="LabVIEW datatype to Measurement datatype.vi" Type="VI" URL="../Helper/LabVIEW datatype to Measurement datatype.vi"/>
 			<Item Name="Get UI Details.vi" Type="VI" URL="../Helper/Get UI Details.vi"/>
 		</Item>
@@ -94,5 +95,4 @@
 	<Item Name="Measurement Logic.vi" Type="VI" URL="../Measurement Logic.vi"/>
 	<Item Name="Measurement Results.ctl" Type="VI" URL="../Measurement Results.ctl"/>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
-	<Item Name="Get MetaData from Results.vi" Type="VI" URL="../Helper/Get MetaData from Results.vi"/>
 </Library>
