@@ -27,7 +27,7 @@
 				<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../IS LabVIEW service host/subVIs/Error Handler - Event Handling Loop.vi"/>
 				<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../IS LabVIEW service host/subVIs/Error Handler - Message Handling Loop.vi"/>
 			</Item>
-			<Item Name="InstrumentStudioPlugin_RenameMe.lvlib" Type="Library" URL="../IS LabVIEW service host/InstrumentStudioPlugin_RenameMe.lvlib"/>
+			<Item Name="InstrumentStudioPlugin.lvlib" Type="Library" URL="../IS LabVIEW service host/InstrumentStudioPlugin.lvlib"/>
 			<Item Name="readme.txt" Type="Document" URL="../IS LabVIEW service host/readme.txt"/>
 		</Item>
 		<Item Name="Dependency" Type="Folder">
@@ -125,7 +125,7 @@
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">2</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/D/build/lvmfsd/LabVIEW MF</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0FDBE926-AB10-4A30-85F1-EEF188EE368D}</Property>
-				<Property Name="Bld_version.build" Type="Int">22</Property>
+				<Property Name="Bld_version.build" Type="Int">24</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/D/build/lvmfsd/LabVIEW MF</Property>
@@ -149,7 +149,7 @@
 				<Property Name="DestinationCount" Type="Int">6</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3F8902A7-1575-488C-852E-F13ED572B8A4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6226B283-D5A3-4FF1-A2E7-CACCA4A04043}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -252,7 +252,7 @@
 				<Property Name="Source[29].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[29].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/IS LabVIEW service host/InstrumentStudioPlugin_RenameMe.lvlib/Main.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/IS LabVIEW service host/InstrumentStudioPlugin.lvlib/Main.vi</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[30].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[30].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib/Server API/Cluster to gRPC message/Register Cluster.vi</Property>
@@ -338,7 +338,7 @@
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/lv-mf-support-for-is-2021/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">labview-measurement-framework-support-for-instrumentstudio-2021_0.1.1-6_windows_x64.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">labview-measurement-framework-support-for-instrumentstudio-2021_0.1.1-7_windows_x64.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_packageVersion" Type="Bool">false</Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
@@ -347,7 +347,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">7</Property>
+				<Property Name="PKG_buildNumber" Type="Int">8</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">lv-mf-support-for-is-2021</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">1</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
