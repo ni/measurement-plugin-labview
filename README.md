@@ -3,7 +3,7 @@
 This repo contains the necessary LabVIEW client/server, template, and examples to call into the Measurement Services.
 
 ## Dependency List
-1. LabVIEW 2020 64 bit (some of the libraries are from LabVIEW 2019 64bit yet)
+1. LabVIEW 2020 64 bit
 2. [LabVIEW gRPC Support](https://github.com/ni/grpc-labview/releases)
 This repo contains the support for LabVIEW gRPC. Download and install the two latest release packages for,
 2.1 ni_lib_labview_grpc_library-x.x.x.x.vip
