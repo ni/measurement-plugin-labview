@@ -70,10 +70,18 @@
 				<Item Name="Set ni_servicemanagement_v1_StopServiceResponse.vi" Type="VI" URL="../RPC Messages/Set ni_servicemanagement_v1_StopServiceResponse.vi"/>
 				<Item Name="Get ni_servicemanagement_v1_StopServiceResponse.vi" Type="VI" URL="../RPC Messages/Get ni_servicemanagement_v1_StopServiceResponse.vi"/>
 			</Item>
-			<Item Name="ni_measurements_v1_Type" Type="Folder">
-				<Item Name="ni_measurements_v1_Type.ctl" Type="VI" URL="../RPC Messages/ni_measurements_v1_Type.ctl"/>
+			<Item Name="ni_measurements_servicemanagement_v1_StopServiceRequest" Type="Folder">
+				<Item Name="ni_measurements_servicemanagement_v1_StopServiceRequest.ctl" Type="VI" URL="../RPC Messages/ni_measurements_servicemanagement_v1_StopServiceRequest.ctl"/>
+				<Item Name="Set ni_measurements_servicemanagement_v1_StopServiceRequest.vi" Type="VI" URL="../RPC Messages/Set ni_measurements_servicemanagement_v1_StopServiceRequest.vi"/>
+				<Item Name="Get ni_measurements_servicemanagement_v1_StopServiceRequest.vi" Type="VI" URL="../RPC Messages/Get ni_measurements_servicemanagement_v1_StopServiceRequest.vi"/>
+			</Item>
+			<Item Name="ni_measurements_servicemanagement_v1_StopServiceResponse" Type="Folder">
+				<Item Name="ni_measurements_servicemanagement_v1_StopServiceResponse.ctl" Type="VI" URL="../RPC Messages/ni_measurements_servicemanagement_v1_StopServiceResponse.ctl"/>
+				<Item Name="Set ni_measurements_servicemanagement_v1_StopServiceResponse.vi" Type="VI" URL="../RPC Messages/Set ni_measurements_servicemanagement_v1_StopServiceResponse.vi"/>
+				<Item Name="Get ni_measurements_servicemanagement_v1_StopServiceResponse.vi" Type="VI" URL="../RPC Messages/Get ni_measurements_servicemanagement_v1_StopServiceResponse.vi"/>
 			</Item>
 			<Item Name="Register gRPC Messages.vi" Type="VI" URL="../RPC Messages/Register gRPC Messages.vi"/>
+			<Item Name="google_protobuf_Field_Kind.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Field_Kind.ctl"/>
 		</Item>
 		<Item Name="Helper" Type="Folder">
 			<Item Name="Register to Discovery Service.vi" Type="VI" URL="../Helper/Register to Discovery Service.vi"/>

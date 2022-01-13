@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-12-23 10:47:06" Modified_Date="2021-12-23 12:05:08" Creator="navin" Comments="" ID="da68f031985c064dd71518a43e2477f6">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-12-23 10:47:06" Modified_Date="2022-01-13 15:19:01" Creator="navin" Comments="" ID="5d63bce163de0bbf83dc798b7731c80b">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_LabVIEW_Measurement_Client</Package_File_Name>
-    <Library_Version>1.0.0.3</Library_Version>
+    <Library_Version>1.0.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Measurement_client</Library_Source_Folder>
     <Library_Output_Folder>..\build</Library_Output_Folder>
@@ -16,7 +16,9 @@
     <Target>LabVIEW</Target>
   </Library_General_Settings>
   <Advanced_Settings>
-    <Package_Dependencies/>
+    <Package_Dependencies>
+      <Additional_External_Dependencies>ni_lib_labview_grpc_library &gt;=0.4.5.5</Additional_External_Dependencies>
+    </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
       <Post-Build_VI/>
