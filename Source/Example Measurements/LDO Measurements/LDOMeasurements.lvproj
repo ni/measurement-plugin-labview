@@ -23,8 +23,8 @@
 			<Item Name="Set Source.vi" Type="VI" URL="../Reusables/Set Source.vi"/>
 			<Item Name="Stimulus And Measure.ctl" Type="VI" URL="../Reusables/Stimulus And Measure.ctl"/>
 		</Item>
-		<Item Name="Line Regulation.lvlib" Type="Library" URL="../Measurements/Line Regulation/Line Regulation.lvlib"/>
-		<Item Name="Load Regulation.lvlib" Type="Library" URL="../Measurements/Load Regulation/Load Regulation.lvlib"/>
+		<Item Name="LineRegulation.lvlib" Type="Library" URL="../Measurements/LineRegulation/LineRegulation.lvlib"/>
+		<Item Name="LoadRegulation.lvlib" Type="Library" URL="../Measurements/LoadRegulation/LoadRegulation.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niDCPower Abort With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Abort With Channels.vi"/>
