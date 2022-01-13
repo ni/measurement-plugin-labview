@@ -46,3 +46,7 @@ Measurement Service and the function calls are similar to how the general LabVIE
 `MeasurementService` is responsible for responding to the MetaData request and calling the `Measurement Logic.vi` when the DoMeasurement request is sent from the frameworks. These implementation can be found in: `Start Sync.vi`
 
 `ServiceManagementService` is responsible for managing the service like triggering stop event when the framework request to stop the service. These implementation can be found in: `Start Sync.vi`
+
+### How to add new UI elements
+
+User Interface is created in `Measurement UI.vi` under the `<LibraryName>.lvlib\`. The control and indicator names in the User Interface should match the `Measurement Configuration` and `Measurement Results`. If the datatype and name matches, then the data from the UI will sent to the logic before execution and the results will be published to UI after measurement is run.
