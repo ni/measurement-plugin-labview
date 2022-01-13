@@ -125,7 +125,7 @@
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">2</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/D/build/lvmfsd/LabVIEW MF</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0FDBE926-AB10-4A30-85F1-EEF188EE368D}</Property>
-				<Property Name="Bld_version.build" Type="Int">24</Property>
+				<Property Name="Bld_version.build" Type="Int">25</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/D/build/lvmfsd/LabVIEW MF</Property>
@@ -338,7 +338,7 @@
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/lv-mf-support-for-is-2021/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">labview-measurement-framework-support-for-instrumentstudio-2021_0.1.1-7_windows_x64.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">labview-measurement-framework-support-for-instrumentstudio-2021_0.1.1-8_windows_x64.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_packageVersion" Type="Bool">false</Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
@@ -347,7 +347,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">8</Property>
+				<Property Name="PKG_buildNumber" Type="Int">9</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">lv-mf-support-for-is-2021</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">1</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
