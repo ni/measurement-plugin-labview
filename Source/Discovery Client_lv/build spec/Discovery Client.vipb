@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-11-01 10:28:06" Modified_Date="2022-01-13 12:26:32" Creator="navin" Comments="" ID="103d3f90c0b87f057635bd44351cc76d">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-11-01 10:28:06" Modified_Date="2022-01-19 14:28:30" Creator="navin" Comments="" ID="56086e92df82b7f3cdf983f55c962174">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_Discovery_Client</Package_File_Name>
-    <Library_Version>1.0.0.7</Library_Version>
+    <Library_Version>0.4.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Discovery_client</Library_Source_Folder>
     <Library_Output_Folder>..\build</Library_Output_Folder>
@@ -243,7 +243,7 @@
         <Path>..\Discovery_client\RPC Service</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8A96BD0B2703FB707D5663E3068067B9</GUID>
+      <GUID>307C6257FC5C50858803193173891A0A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -292,7 +292,7 @@
         <Path>..\Discovery_client\Client API\Destroy Client.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F89464D70102063DDA76AF4050155A7C</GUID>
+      <GUID>B00913A45E3477CE4B894841A264F14B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -327,7 +327,7 @@
         <Path>..\Discovery_client\RPC Messages\Register gRPC Messages.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9B82695DAC71A883A1229804942B43EC</GUID>
+      <GUID>6CCF31B0700B6D10871111170B81DF3E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -362,7 +362,7 @@
         <Path>..\Discovery_client\RPC Service\RegistryService</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E2808B674F065FED1AC478A522BC060E</GUID>
+      <GUID>5A7E9E5A9EDE563CF35A19EB3A4EA537</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -386,20 +386,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Unary NIMeasurementServices_RegistryService_RegisterService.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\Discovery_client\RPC Service\RegistryService\Unary NIMeasurementServices_RegistryService_RegisterService.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Unary NIMeasurementServices_RegistryService_ResolveService.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -411,7 +397,7 @@
         <Path>..\Discovery_client\RPC Service\RegistryService\Unary NIMeasurementServices_RegistryService_ResolveService.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E50CE3B04DB9595E48E5A9BD21D929E6</GUID>
+      <GUID>27F5374EB8B591C62A1CF1F8479846C4</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

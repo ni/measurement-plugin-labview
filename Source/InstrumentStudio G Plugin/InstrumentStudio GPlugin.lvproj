@@ -125,7 +125,7 @@
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">2</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/D/build/lvmfsd/LabVIEW MF</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0FDBE926-AB10-4A30-85F1-EEF188EE368D}</Property>
-				<Property Name="Bld_version.build" Type="Int">25</Property>
+				<Property Name="Bld_version.build" Type="Int">26</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/D/build/lvmfsd/LabVIEW MF</Property>
@@ -347,9 +347,9 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">9</Property>
+				<Property Name="PKG_buildNumber" Type="Int">0</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">lv-mf-support-for-is-2021</Property>
-				<Property Name="PKG_dependencies.Count" Type="Int">1</Property>
+				<Property Name="PKG_dependencies.Count" Type="Int">0</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
 				<Property Name="PKG_dependencies[0].MaxVersion" Type="Str"></Property>
 				<Property Name="PKG_dependencies[0].MaxVersionInclusive" Type="Bool">false</Property>
@@ -399,11 +399,9 @@
 				<Property Name="PKG_sources[1].ID" Type="Ref">/My Computer/LabVIEW MF.gplugindata</Property>
 				<Property Name="PKG_sources[1].Type" Type="Str">File</Property>
 				<Property Name="PKG_synopsis" Type="Str">LabVIEW Measurement Framework Support For InstrumentStudio 2021</Property>
-				<Property Name="PKG_version" Type="Str">0.1.1</Property>
+				<Property Name="PKG_version" Type="Str">0.4.0</Property>
 			</Item>
 			<Item Name="lv-mf-support-for-is" Type="{E661DAE2-7517-431F-AC41-30807A3BDA38}">
-				<Property Name="AB_Class_Path" Type="Path">/C/Program Files/National Instruments/LabVIEW 2020/resource/Framework/Providers/Builds/Package/NIPKG/NIPKG/NIPKG.lvclass</Property>
-				<Property Name="AB_UIClass_Path" Type="Path">/C/Program Files/National Instruments/LabVIEW 2020/resource/Framework/Providers/Builds/Package/Common/UI/PackageUI.lvclass</Property>
 				<Property Name="NIPKG_addToFeed" Type="Bool">false</Property>
 				<Property Name="NIPKG_allDependenciesToFeed" Type="Bool">false</Property>
 				<Property Name="NIPKG_allDependenciesToSystemLink" Type="Bool">false</Property>
@@ -415,7 +413,7 @@
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/lv-mf-support-for-is-2021/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">labview-measurement-framework-support-for-instrumentstudio_0.1.1-9_windows_x64.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">labview-measurement-framework-support-for-instrumentstudio_0.4.0-0_windows_x64.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_packageVersion" Type="Bool">false</Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
@@ -424,7 +422,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">10</Property>
+				<Property Name="PKG_buildNumber" Type="Int">1</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">lv-mf-support-for-is</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">1</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
@@ -476,7 +474,7 @@
 				<Property Name="PKG_sources[1].ID" Type="Ref">/My Computer/LabVIEW MF.gplugindata</Property>
 				<Property Name="PKG_sources[1].Type" Type="Str">File</Property>
 				<Property Name="PKG_synopsis" Type="Str">LabVIEW Measurement Framework Support For InstrumentStudio</Property>
-				<Property Name="PKG_version" Type="Str">0.1.1</Property>
+				<Property Name="PKG_version" Type="Str">0.4.0</Property>
 			</Item>
 		</Item>
 	</Item>
