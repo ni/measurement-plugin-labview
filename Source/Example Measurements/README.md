@@ -9,8 +9,8 @@ This repo contains the example measurements developed using the LabVIEW Measurem
 1. LabVIEW 2020 64 bit
 2. [LabVIEW gRPC Support](https://github.com/ni/grpc-labview/releases)
 This repo contains the support for LabVIEW gRPC. Download and install the two latest release packages for,
-2.1 ni_lib_labview_grpc_library-x.x.x.x.vip
-2.2 ni_lib_labview_grpc_servicer-x.x.x.x.vip
+  - ni_lib_labview_grpc_library-x.x.x.x.vip
+  - ni_lib_labview_grpc_servicer-x.x.x.x.vip
 3. NI-DC Power 21.3
 4. NI-DMM 21.3
 
