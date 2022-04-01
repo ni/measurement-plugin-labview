@@ -18,7 +18,7 @@
 
 ## Introduction
 
-The LabVIEW Measurement services enables measurement developers to quickly create LabVIEW measurements and run them as a service(gRPC). Additionally, the `Measurement Framework` plugin allows such measurement services to be hosted in InstrumentStudio to provide an interactive experience.
+The LabVIEW measurement service packages enable measurement developers to quickly create LabVIEW measurements and run them as a service(gRPC). Additionally, the `Measurement Framework` plugin allows user to interact with measurement services with LabVIEW UI in InstrumentStudio.
 
 ---
 
@@ -50,9 +50,9 @@ Set up the following software before installing the given packages.
 
 ## Installation
 
-Download and install the LabVIEW measurement services packages, the installation order is as follows,
+Download and install the LabVIEW measurement services packages in the following order.
 
-1. `labview-measurement-framework-support-for-instrumentstudio-2021_x.x.x-x_windows_x64.nipkg` - Required for using a LabVIEW measurement service in InstrumentStudio
+1. `labview-measurement-framework-support-for-instrumentstudio-2021_x.x.x-x_windows_x64.nipkg` - Required for using a measurement services with LabVIEW UI in InstrumentStudio
 2. `ni_lib_labview_grpc_library-x.x.x.x.vip` - Required
 3. `ni_lib_labview_grpc_servicer-x.x.x.x.vip` - Required
 4. `ni_lib_discovery_client-x.x.x.x.vip` - Required
@@ -97,7 +97,7 @@ To run the measurements, follow the below steps
 
 1. Open `<MeasurementName>.lvproj` that contains the Measurement Service library.
 
-2. Start the discovery service if not already started, the discovery service will be automatically started when working with TestStand.
+2. Start the discovery service if the measurement is to be used in InstrumentStudio Measurement Framework.
 
 3. Run the `Run Service.vi` from `<MeasurementName>.lvlib` to run the measurement service from `<MeasurementName>.lvproj`
 
@@ -109,7 +109,7 @@ To run the measurements, follow the below steps
 
 The example measurements provided contains the following projects:
 
-- **LDO measurement**: The project performs simple LDO measurements, the type of LDO measurements performed are:
+- **LDO measurement**: The project performs simple LDO measurements. The type of LDO measurements performed are:
   - Line Regulation
   - Load Regulation
 
@@ -125,7 +125,7 @@ To run the measurements, follow the steps mentioned below:
 
 1. Open `LDOMeasurements.lvproj` from examples provided.
 
-2. Start the discovery service if not already started, the discovery service will be automatically started when working with TestStand.
+2. Start the discovery service if the measurement is to be used in InstrumentStudio Measurement Framework.
 
 3. Run the following VI to run the measurement service from `LDOMeasurements.lvproj`
     -To run Line Regulation, run `Run Service.vi` from `LineRegulation.lvlib`
@@ -133,13 +133,13 @@ To run the measurements, follow the steps mentioned below:
 
 4. Use `Measurement Framework` and run the measurements interactively in InstrumentStudio. For more details, please refer to the section [Using the Measurement Framework plugin in InstrumentStudio](#using-the-measurement-framework-plugin-in-instrumentstudio).
 
-Note: The Line and Load regulation measurements have not been tested with real hardware. They have only been tested with the simulated instruments listed above.
+Note: The Line and Load regulation measurements have not been tested with real hardware. They have only been tested with the simulated instruments.
 
 ---
 
 ## Using the Measurement Framework plugin in InstrumentStudio
 
-To host a measurement in InstrumentStudio using the measurement framework plugin, follow the steps mentioned below:
+To interact with a measurement in InstrumentStudio using the measurement framework plugin, follow the steps mentioned below:
 
 1. Once all the packages are installed, open InstrumentStudio and click on `Manual Layout` and create a large panel for `Measurement Framework`.
 
