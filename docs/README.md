@@ -79,13 +79,24 @@ Download and install the LabVIEW measurement services packages in the following 
     - version
     - measurement type
     - product type
+
+    ![Get Measurement Details VI](images/Get%20Measurement%20Details%20VI.png)
+
 4. Add the required controls for the configurations parameters in the `Measurement Configuration.ctl` file. By default, this comes with `Array in` which is a double array.
+
+    ![Measurement Configurations ctl](images/Measurement%20Configurations%20ctl.png)
 
 5. Add the required indicators for the output parameters in the `Measurement Results.ctl` file. By default, this comes with `Array out` parameter which is a double array.
 
+    ![Measurement Results ctl](images/Measurement%20Results%20ctl.png)
+
 6. Provide the measurement logic in the `Measurement Logic.vi` file. This file will have the configuration and the output parameters readily available from `Measurement Configuration.ctl` and `Measurement Results.ctl`. By default, the logic takes the `Array in` and stores it in `Array out`.
 
+    ![Measurement Logic VI](images/Measurement%20Logic%20VI.png)
+
 7. Create the user interface in `Measurement UI.vi` under the `<LibraryName>.lvlib\`. The control and indicator names in the user interface should match the `Measurement Configuration` and `Measurement Results`. If the datatype and name matches, then the data from the UI will send to the logic before execution and the results will be published to UI after measurement is run. By default, the UI file consists of an 'Array In' control and 'Array Out' indicator.
+
+    ![Measurement UI](images/Measurement%20UI.png)
 
 Note: Additional info could be found in the to-do sections in the code, this can be viewed using `Bookmark Manager` - You can open it from LabVIEW → `View` → `Bookmark Manager`. In this window, you can find the bookmark term `#MeasurementToDo`, double-clicking on the items will take you to all the VIs where changes can be done to create a measurement.
 
