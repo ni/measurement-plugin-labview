@@ -18,7 +18,7 @@
 
 ## Introduction
 
-The LabVIEW Measurement services enables measurement developers to quickly create LabVIEW measurements and run them as a service(gRPC). Additionally, the `Measurement Framework` plugin allows such measurement services to be hosted in InstrumentStudio to provide an interactive experience.
+The LabVIEW measurement service packages enable measurement developers to quickly create LabVIEW measurements and run them as a service(gRPC). Additionally, the `Measurement Framework` plugin allows users to interact with measurement services with LabVIEW UI in InstrumentStudio.
 
 ---
 
@@ -50,9 +50,9 @@ Set up the following software before installing the given packages.
 
 ## Installation
 
-Download and install the LabVIEW measurement services packages, the installation order is as follows,
+Download and install the LabVIEW measurement services packages in the following order.
 
-1. `labview-measurement-framework-support-for-instrumentstudio-2021_x.x.x-x_windows_x64.nipkg` - Required for using a LabVIEW measurement service in InstrumentStudio
+1. `labview-measurement-framework-support-for-instrumentstudio-2021_x.x.x-x_windows_x64.nipkg` - Required for using a measurement services with LabVIEW UI in InstrumentStudio
 2. `ni_lib_labview_grpc_library-x.x.x.x.vip` - Required
 3. `ni_lib_labview_grpc_servicer-x.x.x.x.vip` - Required
 4. `ni_lib_discovery_client-x.x.x.x.vip` - Required
@@ -79,13 +79,24 @@ Download and install the LabVIEW measurement services packages, the installation
     - version
     - measurement type
     - product type
+
+    ![Get Measurement Details VI](images/Get%20Measurement%20Details%20VI.png)
+
 4. Add the required controls for the configurations parameters in the `Measurement Configuration.ctl` file. By default, this comes with `Array in` which is a double array.
 
-5. Add the required indicators for the output parameters in the `Measurement Results.ctl` file. By default, this comes with `Array out` parameter which is a double array.
+    ![Measurement Configurations ctl](images/Measurement%20Configurations%20ctl.png)
+
+5. Add the required indicators for the output parameters in the `Measurement Results.ctl` file. By default, this comes with the `Array out` parameter which is a double array.
+
+    ![Measurement Results ctl](images/Measurement%20Results%20ctl.png)
 
 6. Provide the measurement logic in the `Measurement Logic.vi` file. This file will have the configuration and the output parameters readily available from `Measurement Configuration.ctl` and `Measurement Results.ctl`. By default, the logic takes the `Array in` and stores it in `Array out`.
 
-7. Create the user interface in `Measurement UI.vi` under the `<LibraryName>.lvlib\`. The control and indicator names in the user interface should match the `Measurement Configuration` and `Measurement Results`. If the datatype and name matches, then the data from the UI will send to the logic before execution and the results will be published to UI after measurement is run. By default, the UI file consists of an 'Array In' control and 'Array Out' indicator.
+    ![Measurement Logic VI](images/Measurement%20Logic%20VI.png)
+
+7. Create the user interface in `Measurement UI.vi` under the `<LibraryName>.lvlib\`. The control and indicator names in the user interface should match the `Measurement Configuration` and `Measurement Results`. If the data type and name match, then the data from the UI will send to the logic before execution, and the results will be published to UI after the measurement is run. By default, the UI file consists of an 'Array In' control and 'Array Out' indicator.
+
+    ![Measurement UI](images/Measurement%20UI.png)
 
 Note: Additional info could be found in the to-do sections in the code, this can be viewed using `Bookmark Manager` - You can open it from LabVIEW → `View` → `Bookmark Manager`. In this window, you can find the bookmark term `#MeasurementToDo`, double-clicking on the items will take you to all the VIs where changes can be done to create a measurement.
 
@@ -97,19 +108,19 @@ To run the measurements, follow the below steps
 
 1. Open `<MeasurementName>.lvproj` that contains the Measurement Service library.
 
-2. Start the discovery service if not already started, the discovery service will be automatically started when working with TestStand.
+2. Start the discovery service if the measurement is to be used in InstrumentStudio Measurement Framework.
 
 3. Run the `Run Service.vi` from `<MeasurementName>.lvlib` to run the measurement service from `<MeasurementName>.lvproj`
 
-4. To manually stop the service, click on `Stop` button from the front panel of `Run Service.vi`.
+4. To manually stop the service, click on the `Stop` button from the front panel of `Run Service.vi`.
 
 ---
 
 ## Example Measurements
 
-The example measurements provided contains the following projects:
+The example measurements provided contain the following projects:
 
-- **LDO measurement**: The project performs simple LDO measurements, the type of LDO measurements performed are:
+- **LDO measurement**: The project performs simple LDO measurements. The type of LDO measurements performed are:
   - Line Regulation
   - Load Regulation
 
@@ -123,9 +134,9 @@ The example measurements provided contains the following projects:
 
 To run the measurements, follow the steps mentioned below:
 
-1. Open `LDOMeasurements.lvproj` from examples provided.
+1. Open `LDOMeasurements.lvproj` from the examples provided.
 
-2. Start the discovery service if not already started, the discovery service will be automatically started when working with TestStand.
+2. Start the discovery service if the measurement is to be used in InstrumentStudio Measurement Framework.
 
 3. Run the following VI to run the measurement service from `LDOMeasurements.lvproj`
     -To run Line Regulation, run `Run Service.vi` from `LineRegulation.lvlib`
@@ -133,13 +144,13 @@ To run the measurements, follow the steps mentioned below:
 
 4. Use `Measurement Framework` and run the measurements interactively in InstrumentStudio. For more details, please refer to the section [Using the Measurement Framework plugin in InstrumentStudio](#using-the-measurement-framework-plugin-in-instrumentstudio).
 
-Note: The Line and Load regulation measurements have not been tested with real hardware. They have only been tested with the simulated instruments listed above.
+Note: The Line and Load regulation measurements have not been tested with real hardware. They have only been tested with simulated instruments.
 
 ---
 
 ## Using the Measurement Framework plugin in InstrumentStudio
 
-To host a measurement in InstrumentStudio using the measurement framework plugin, follow the steps mentioned below:
+To interact with a measurement in InstrumentStudio using the measurement framework plugin, follow the steps mentioned below:
 
 1. Once all the packages are installed, open InstrumentStudio and click on `Manual Layout` and create a large panel for `Measurement Framework`.
 
