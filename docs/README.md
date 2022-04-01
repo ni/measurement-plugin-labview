@@ -18,7 +18,7 @@
 
 ## Introduction
 
-The LabVIEW measurement service packages enable measurement developers to quickly create LabVIEW measurements and run them as a service(gRPC). Additionally, the `Measurement Framework` plugin allows user to interact with measurement services with LabVIEW UI in InstrumentStudio.
+The LabVIEW measurement service packages enable measurement developers to quickly create LabVIEW measurements and run them as a service(gRPC). Additionally, the `Measurement Framework` plugin allows users to interact with measurement services with LabVIEW UI in InstrumentStudio.
 
 ---
 
@@ -86,7 +86,7 @@ Download and install the LabVIEW measurement services packages in the following 
 
     ![Measurement Configurations ctl](images/Measurement%20Configurations%20ctl.png)
 
-5. Add the required indicators for the output parameters in the `Measurement Results.ctl` file. By default, this comes with `Array out` parameter which is a double array.
+5. Add the required indicators for the output parameters in the `Measurement Results.ctl` file. By default, this comes with the `Array out` parameter which is a double array.
 
     ![Measurement Results ctl](images/Measurement%20Results%20ctl.png)
 
@@ -94,7 +94,7 @@ Download and install the LabVIEW measurement services packages in the following 
 
     ![Measurement Logic VI](images/Measurement%20Logic%20VI.png)
 
-7. Create the user interface in `Measurement UI.vi` under the `<LibraryName>.lvlib\`. The control and indicator names in the user interface should match the `Measurement Configuration` and `Measurement Results`. If the datatype and name matches, then the data from the UI will send to the logic before execution and the results will be published to UI after measurement is run. By default, the UI file consists of an 'Array In' control and 'Array Out' indicator.
+7. Create the user interface in `Measurement UI.vi` under the `<LibraryName>.lvlib\`. The control and indicator names in the user interface should match the `Measurement Configuration` and `Measurement Results`. If the data type and name match, then the data from the UI will send to the logic before execution, and the results will be published to UI after the measurement is run. By default, the UI file consists of an 'Array In' control and 'Array Out' indicator.
 
     ![Measurement UI](images/Measurement%20UI.png)
 
@@ -112,13 +112,13 @@ To run the measurements, follow the below steps
 
 3. Run the `Run Service.vi` from `<MeasurementName>.lvlib` to run the measurement service from `<MeasurementName>.lvproj`
 
-4. To manually stop the service, click on `Stop` button from the front panel of `Run Service.vi`.
+4. To manually stop the service, click on the `Stop` button from the front panel of `Run Service.vi`.
 
 ---
 
 ## Example Measurements
 
-The example measurements provided contains the following projects:
+The example measurements provided contain the following projects:
 
 - **LDO measurement**: The project performs simple LDO measurements. The type of LDO measurements performed are:
   - Line Regulation
@@ -134,7 +134,7 @@ The example measurements provided contains the following projects:
 
 To run the measurements, follow the steps mentioned below:
 
-1. Open `LDOMeasurements.lvproj` from examples provided.
+1. Open `LDOMeasurements.lvproj` from the examples provided.
 
 2. Start the discovery service if the measurement is to be used in InstrumentStudio Measurement Framework.
 
@@ -144,7 +144,7 @@ To run the measurements, follow the steps mentioned below:
 
 4. Use `Measurement Framework` and run the measurements interactively in InstrumentStudio. For more details, please refer to the section [Using the Measurement Framework plugin in InstrumentStudio](#using-the-measurement-framework-plugin-in-instrumentstudio).
 
-Note: The Line and Load regulation measurements have not been tested with real hardware. They have only been tested with the simulated instruments.
+Note: The Line and Load regulation measurements have not been tested with real hardware. They have only been tested with simulated instruments.
 
 ---
 
