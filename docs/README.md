@@ -13,6 +13,8 @@
     - [Dependencies for the example measurements](#dependencies-for-the-example-measurements)
     - [Running the LDO measurement example](#running-the-ldo-measurement-example)
   - [Using the Measurement Framework plugin in InstrumentStudio](#using-the-measurement-framework-plugin-in-instrumentstudio)
+  - [Creating a LabVIEW executable for static registration](#creating-a-labview-executable-for-static-registration)
+  - [Statically registering LabVIEW measurements](#statically-registering-labview-measurements)
 
 ---
 
@@ -79,6 +81,7 @@ Download and install the LabVIEW measurement services packages in the following 
     - version
     - measurement type
     - product type
+    - service id
 
     ![Get Measurement Details VI](images/Get%20Measurement%20Details%20VI.png)
 
@@ -167,3 +170,37 @@ To interact with a measurement in InstrumentStudio using the measurement framewo
 5. Provide the required configurations and click `Run Measurement` to run the measurement.
 
     ![Running the measurement](images/Running%20the%20measurement.png)
+
+---
+
+## Creating a LabVIEW executable for static registration
+
+To create an executable for the measurement service project follow the steps provided below,
+
+1. After creating a measurement service, right-click on the `Build Sepcifications` of the LabVIEW project and select `New`→`Application(EXE)`.
+
+    ![Build Specifications menu](images/Build%20Specifications%20Selection.png)
+
+2. In the `My Application Properties` dialog, provide the necessary details in the  `Information` section.
+
+    ![Build Information Settings](images/Build%20Information.png)
+
+3. Move to the `Source Files` section and set up the `Run Service.vi` as the startup VI. Move all the other files of the measurement library into the `Always Included` section.
+
+    ![Source File Settings](images/Source%20File%20Settings.png)
+
+4. Navigate to the `Pre/Post Build Actions` section and enable the `Execute VI after build` check box.
+5. Select the `Post Build Action. vi` from the `Build Assets` folder that is present in the project.
+
+    ![Post-Build VI selection](images/Post%20build%20vi%20selection.png)
+
+6. Click on `Build` and the desired executable with its required dependencies will be created.
+
+    ![Generated EXE files](images/Generated%20EXE%20Files.png)
+
+---
+
+## Statically registering LabVIEW measurements
+
+- Refer to the [Discovery Service readme]() for statically registering measurements.
+- To create a labview executable refer to [Creating a LabVIEW executables for static registration](#creating-a-labview-executables-for-static-registration) section.
