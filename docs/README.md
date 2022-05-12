@@ -105,7 +105,7 @@ Download and install the LabVIEW measurement services packages in the following 
 Note: 
 
 - Additional info could be found in the to-do sections in the code, this can be viewed using `Bookmark Manager` - You can open it from LabVIEW → `View` → `Bookmark Manager`. In this window, you can find the bookmark term `#MeasurementToDo`, double-clicking on the items will take you to all the VIs where changes can be done to create a measurement.
-- Scalar Datatypes and DoubleArray are supported.
+- Scalars(int,double,uint,sint) and DoubleArray are the supported datatypes for the `Configuration` and `Output` parameters of the measurement.
 
 ---
 
