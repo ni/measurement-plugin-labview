@@ -31,6 +31,7 @@ Set up the following software before installing the given packages.
 - VI Package Manager 2020
 - LabVIEW.
 - Instrument Studio.
+- Measurement Service Runtime(\\argo\ni\nipkg\feeds\ni-m\ni-measurement-services-runtime\22.3.0)
 
 ---
 
@@ -101,7 +102,10 @@ Download and install the LabVIEW measurement services packages in the following 
 
     ![Measurement UI](images/Measurement%20UI.png)
 
-Note: Additional info could be found in the to-do sections in the code, this can be viewed using `Bookmark Manager` - You can open it from LabVIEW → `View` → `Bookmark Manager`. In this window, you can find the bookmark term `#MeasurementToDo`, double-clicking on the items will take you to all the VIs where changes can be done to create a measurement.
+Note: 
+
+- Additional info could be found in the to-do sections in the code, this can be viewed using `Bookmark Manager` - You can open it from LabVIEW → `View` → `Bookmark Manager`. In this window, you can find the bookmark term `#MeasurementToDo`, double-clicking on the items will take you to all the VIs where changes can be done to create a measurement.
+- Array of Type Int32 is currently not supported.
 
 ---
 
