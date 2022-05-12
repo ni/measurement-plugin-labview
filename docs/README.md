@@ -207,4 +207,4 @@ To create an executable for the measurement service project follow the steps pro
 ## Statically registering LabVIEW measurements
 
 - Refer to the [Discovery Service readme]() for statically registering measurements.
-- To create a labview executable refer to [Creating a LabVIEW executables for static registration](#creating-a-labview-executables-for-static-registration) section.
+- To create a labview executable refer to [Creating a LabVIEW executables for static registration](#creating-a-labview-executable-for-static-registration) section.
