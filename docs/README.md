@@ -105,7 +105,7 @@ Download and install the LabVIEW measurement services packages in the following 
 Note: 
 
 - Additional info could be found in the to-do sections in the code, this can be viewed using `Bookmark Manager` - You can open it from LabVIEW → `View` → `Bookmark Manager`. In this window, you can find the bookmark term `#MeasurementToDo`, double-clicking on the items will take you to all the VIs where changes can be done to create a measurement.
-- Scalar Datatypes and DoubleArray are supported.
+- Scalars(int, double, uint, sint, string, boolean) and DoubleArray are the supported datatypes for the `Configuration` and `Output` parameters of the measurement.
 
 ---
 
@@ -207,4 +207,4 @@ To create an executable for the measurement service project follow the steps pro
 ## Statically registering LabVIEW measurements
 
 - Refer to the [Discovery Service readme]() for statically registering measurements.
-- To create a labview executable refer to [Creating a LabVIEW executables for static registration](#creating-a-labview-executable-for-static-registration) section.
+- To create a LabVIEW executable refer to [Creating a LabVIEW executable for static registration](#creating-a-labview-executable-for-static-registration) section.
