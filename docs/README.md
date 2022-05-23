@@ -31,7 +31,7 @@ Set up the following software before installing the given packages.
 - VI Package Manager 2020
 - LabVIEW.
 - Instrument Studio.
-- Measurement Service Runtime(\\argo\ni\nipkg\feeds\ni-m\ni-measurement-services-runtime\22.3.0)
+- Measurement Service Runtime(\\argo\ni\nipkg\feeds\ni-m\ni-measurement-framework\22.3.0)
 
 ---
 
