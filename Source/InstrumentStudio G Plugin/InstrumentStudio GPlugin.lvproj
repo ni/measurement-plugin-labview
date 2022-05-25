@@ -125,7 +125,7 @@
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">2</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/D/build/lvmfsd/LabVIEW MF</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0FDBE926-AB10-4A30-85F1-EEF188EE368D}</Property>
-				<Property Name="Bld_version.build" Type="Int">28</Property>
+				<Property Name="Bld_version.build" Type="Int">29</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/D/build/lvmfsd/LabVIEW MF</Property>
@@ -338,7 +338,7 @@
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/lv-mf-support-for-is-2021/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">labview-measurement-framework-support-for-instrumentstudio-2021_0.6.0-1_windows_x64.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">labview-measurement-framework-support-for-instrumentstudio-2021_0.6.0-2_windows_x64.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_packageVersion" Type="Bool">false</Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
@@ -347,13 +347,13 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">2</Property>
+				<Property Name="PKG_buildNumber" Type="Int">3</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">lv-mf-support-for-is-2021</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">1</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
 				<Property Name="PKG_dependencies[0].MaxVersion" Type="Str"></Property>
 				<Property Name="PKG_dependencies[0].MaxVersionInclusive" Type="Bool">false</Property>
-				<Property Name="PKG_dependencies[0].MinVersion" Type="Str">20.1.0.49152-0+f0</Property>
+				<Property Name="PKG_dependencies[0].MinVersion" Type="Str">20.1.1.49157-0+f5</Property>
 				<Property Name="PKG_dependencies[0].MinVersionType" Type="Str">Inclusive</Property>
 				<Property Name="PKG_dependencies[0].NIPKG.DisplayName" Type="Str">LabVIEW Runtime (64-bit)</Property>
 				<Property Name="PKG_dependencies[0].Package.Name" Type="Str">ni-labview-2020-runtime-engine</Property>
@@ -413,22 +413,22 @@
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/lv-mf-support-for-is-2021/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">labview-measurement-framework-support-for-instrumentstudio_0.6.0-1_windows_x64.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">ni-measurement-framework-instrumentstudio-lv-support_0.6.0-2_windows_x64.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_packageVersion" Type="Bool">false</Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
 				<Property Name="NIPKG_storeProduct" Type="Bool">false</Property>
-				<Property Name="NIPKG_VisibleForRuntimeDeployment" Type="Bool">true</Property>
+				<Property Name="NIPKG_VisibleForRuntimeDeployment" Type="Bool">false</Property>
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">2</Property>
+				<Property Name="PKG_buildNumber" Type="Int">3</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">lv-mf-support-for-is</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">1</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
 				<Property Name="PKG_dependencies[0].MaxVersion" Type="Str"></Property>
 				<Property Name="PKG_dependencies[0].MaxVersionInclusive" Type="Bool">false</Property>
-				<Property Name="PKG_dependencies[0].MinVersion" Type="Str">20.1.0.49152-0+f0</Property>
+				<Property Name="PKG_dependencies[0].MinVersion" Type="Str">20.1.1.49157-0+f5</Property>
 				<Property Name="PKG_dependencies[0].MinVersionType" Type="Str">Inclusive</Property>
 				<Property Name="PKG_dependencies[0].NIPKG.DisplayName" Type="Str">LabVIEW Runtime (64-bit)</Property>
 				<Property Name="PKG_dependencies[0].Package.Name" Type="Str">ni-labview-2020-runtime-engine</Property>
@@ -458,19 +458,19 @@
 				<Property Name="PKG_displayVersion" Type="Str"></Property>
 				<Property Name="PKG_feedDescription" Type="Str"></Property>
 				<Property Name="PKG_feedName" Type="Str"></Property>
-				<Property Name="PKG_homepage" Type="Str"></Property>
+				<Property Name="PKG_homepage" Type="Str">https://www.ni.com</Property>
 				<Property Name="PKG_hostname" Type="Str"></Property>
-				<Property Name="PKG_maintainer" Type="Str">NI &lt;&gt;</Property>
+				<Property Name="PKG_maintainer" Type="Str">National Instruments &lt;support@ni.com&gt;</Property>
 				<Property Name="PKG_output" Type="Path">/D/build/lvmfpkg-is</Property>
-				<Property Name="PKG_packageName" Type="Str">labview-measurement-framework-support-for-instrumentstudio</Property>
+				<Property Name="PKG_packageName" Type="Str">ni-measurement-framework-instrumentstudio-lv-support</Property>
 				<Property Name="PKG_publishToSystemLink" Type="Bool">false</Property>
-				<Property Name="PKG_section" Type="Str">Add-Ons</Property>
+				<Property Name="PKG_section" Type="Str">Infrastructure (hidden)</Property>
 				<Property Name="PKG_shortcuts.Count" Type="Int">0</Property>
 				<Property Name="PKG_sources.Count" Type="Int">2</Property>
 				<Property Name="PKG_sources[0].Destination" Type="Str">{A0A06DA5-2AC3-436B-8C62-AC8EDBFE21B9}</Property>
 				<Property Name="PKG_sources[0].ID" Type="Ref">/My Computer/Build Specifications/lvmfsd</Property>
 				<Property Name="PKG_sources[0].Type" Type="Str">Build</Property>
-				<Property Name="PKG_sources[1].Destination" Type="Str">{16FBD783-2594-40F3-A735-74FEEB7DD785}</Property>
+				<Property Name="PKG_sources[1].Destination" Type="Str">{A0A06DA5-2AC3-436B-8C62-AC8EDBFE21B9}</Property>
 				<Property Name="PKG_sources[1].ID" Type="Ref">/My Computer/LabVIEW MF.gplugindata</Property>
 				<Property Name="PKG_sources[1].Type" Type="Str">File</Property>
 				<Property Name="PKG_synopsis" Type="Str">LabVIEW Measurement Framework Support For InstrumentStudio</Property>
