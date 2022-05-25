@@ -29,9 +29,9 @@ The LabVIEW measurement service packages enable measurement developers to quickl
 Set up the following software before installing the given packages.
 
 - VI Package Manager 2020
-- LabVIEW.
+- LabVIEW 2020 SP1 or higher.
 - Instrument Studio.
-- Measurement Service Runtime(\\argo\ni\nipkg\feeds\ni-m\ni-measurement-services-runtime\22.3.0)
+- Measurement Framework (\\argo\ni\nipkg\feeds\ni-m\ni-measurement-framework\22.3.0)
 
 ---
 
