@@ -3,10 +3,10 @@
 	<Plugins>
 		<PluginData 
 			UniqueName="National Instruments|LabVIEW MF"
-			DisplayName="Measurement Framework"
-			PanelType="MF"
-			GroupName="MF"
-			VIPath="LabVIEW MF\Main.vi"
+			GroupName="Measurement Framework"
+			PanelType="LabVIEW Measurement UIs"
+			DisplayName="Host for LabVIEW Measurement UIs"
+			VIPath="Main.vi"
 			SupportedPanelSizes="Large"
 			DebuggingEnabled="false"
 			ReentrantExecutionEnabled="false"
