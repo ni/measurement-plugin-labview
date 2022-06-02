@@ -31,7 +31,7 @@ Set up the following software before installing the given packages.
 - VI Package Manager 2020
 - LabVIEW 2020 SP1 or higher.
 - Instrument Studio.
-- Measurement Framework (\\argo\ni\nipkg\feeds\ni-m\ni-measurement-framework\22.3.0)
+- Measurement Framework (\\argo\ni\nipkg\feeds\ni-m\ni-measurement-framework\22.5.0)
 
 ---
 
@@ -55,12 +55,11 @@ Set up the following software before installing the given packages.
 
 Download and install the LabVIEW measurement services packages in the following order.
 
-1. `labview-measurement-framework-support-for-instrumentstudio-2021_x.x.x-x_windows_x64.nipkg` - Required for using a measurement services with LabVIEW UI in InstrumentStudio
-2. `ni_lib_labview_grpc_library-x.x.x.x.vip` - Required
-3. `ni_lib_labview_grpc_servicer-x.x.x.x.vip` - Required
-4. `ni_lib_discovery_client-x.x.x.x.vip` - Required
-5. `ni_lib_labview_measurement_service_template-x.x.x.x.vip` - Required
-6. `ni_lib_labview_measurement_service_editor-x.x.x.x.vip` - Required
+1. `ni_lib_labview_grpc_library-x.x.x.x.vip` - Required
+2. `ni_lib_labview_grpc_servicer-x.x.x.x.vip` - Required
+3. `ni_lib_discovery_client-x.x.x.x.vip` - Required
+4. `ni_lib_labview_measurement_service_template-x.x.x.x.vip` - Required
+5. `ni_lib_labview_measurement_service_editor-x.x.x.x.vip` - Required
 
 ---
 
@@ -157,6 +156,8 @@ Note: The Line and Load regulation measurements have not been tested with real h
 
 ## Using the Measurement Framework plugin in InstrumentStudio
 
+For the LabVIEW measurement plugin, install the latest measurement framework package from the network location `\\argo\ni\nipkg\feeds\ni-m\ni-measurement-framework\22.5.0`.
+
 To interact with a measurement in InstrumentStudio using the measurement framework plugin, follow the steps mentioned below:
 
 1. Once all the packages are installed, open InstrumentStudio and click on `Manual Layout` and create a large panel for `Measurement Framework`.
@@ -206,5 +207,5 @@ To create an executable for the measurement service project follow the steps pro
 
 ## Statically registering LabVIEW measurements
 
-- Refer to the [Discovery Service readme]() for statically registering measurements.
+- Refer to the [Static Registration of measurements section]() for statically registering measurements.
 - To create a LabVIEW executable refer to [Creating a LabVIEW executable for static registration](#creating-a-labview-executable-for-static-registration) section.
