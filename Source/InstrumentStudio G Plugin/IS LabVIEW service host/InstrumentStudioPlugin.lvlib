@@ -15,6 +15,8 @@
 	</Item>
 	<Item Name="SubVI" Type="Folder">
 		<Item Name="Discovery Service - Find Service.vi" Type="VI" URL="../subVIs/Discovery Service - Find Service.vi"/>
+		<Item Name="Find And Load Measurement.vi" Type="VI" URL="../subVIs/Find And Load Measurement.vi"/>
+		<Item Name="Retry Call Measure.vi" Type="VI" URL="../subVIs/Retry Call Measure.vi"/>
 	</Item>
 	<Item Name="Utils" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
