@@ -107,7 +107,29 @@
 				<Item Name="Equals.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Equals.vim"/>
 				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
 				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Unsorted 1D Array.vim"/>
-				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="google_protobuf_Field_Kind.ctl" Type="VI" URL="/&lt;vilib&gt;/TAF/LabVIEW Measurement Client/RPC Messages/google_protobuf_Field_Kind.ctl"/>
+				<Item Name="google_protobuf_Any.ctl" Type="VI" URL="/&lt;vilib&gt;/TAF/LabVIEW Measurement Client/RPC Messages/google_protobuf_Any.ctl"/>
+				<Item Name="Create Client.vi" Type="VI" URL="/&lt;vilib&gt;/TAF/LabVIEW Measurement Client/Client API/Create Client.vi"/>
+				<Item Name="Unary ni_measurements_v1_MeasurementService_GetMetadata.vi" Type="VI" URL="/&lt;vilib&gt;/TAF/LabVIEW Measurement Client/RPC Service/MeasurementService/Unary ni_measurements_v1_MeasurementService_GetMetadata.vi"/>
+				<Item Name="Destroy Client.vi" Type="VI" URL="/&lt;vilib&gt;/TAF/LabVIEW Measurement Client/Client API/Destroy Client.vi"/>
+				<Item Name="AnyBuilderBegin.vi" Type="VI" URL="/&lt;vilib&gt;/gRPC/LabVIEW gRPC Library/Server API/Message Requests/AnyBuilderBegin.vi"/>
+				<Item Name="AnyBuilderBuildToBuffer.vi" Type="VI" URL="/&lt;vilib&gt;/gRPC/LabVIEW gRPC Library/Server API/Message Requests/AnyBuilderBuildToBuffer.vi"/>
+				<Item Name="Message Element Type.ctl" Type="VI" URL="/&lt;vilib&gt;/gRPC/LabVIEW gRPC Library/Server API/typeDefs/Message Element Type.ctl"/>
+				<Item Name="AnyBuilderAddValue.vim" Type="VI" URL="/&lt;vilib&gt;/gRPC/LabVIEW gRPC Library/Server API/Message Requests/AnyBuilderAddValue.vim"/>
+				<Item Name="Get Server DLL Path.vi" Type="VI" URL="/&lt;vilib&gt;/gRPC/LabVIEW gRPC Library/Server API/Server/Get Server DLL Path.vi"/>
+				<Item Name="Unary ni_measurements_v1_MeasurementService_Measure.vi" Type="VI" URL="/&lt;vilib&gt;/TAF/LabVIEW Measurement Client/RPC Service/MeasurementService/Unary ni_measurements_v1_MeasurementService_Measure.vi"/>
+				<Item Name="GetUnpackedField.vim" Type="VI" URL="/&lt;vilib&gt;/gRPC/LabVIEW gRPC Library/Server API/GetUnpackedField.vim"/>
+				<Item Name="UnpackFieldsFromBuffer.vi" Type="VI" URL="/&lt;vilib&gt;/gRPC/LabVIEW gRPC Library/Server API/UnpackFieldsFromBuffer.vi"/>
+				<Item Name="FreeUnpackedFields.vi" Type="VI" URL="/&lt;vilib&gt;/gRPC/LabVIEW gRPC Library/Server API/FreeUnpackedFields.vi"/>
+				<Item Name="ni_measurements_discovery_v1_EnumerateServicesRequest.ctl" Type="VI" URL="/&lt;vilib&gt;/TAF/Discovery Client/RPC Messages/ni_measurements_discovery_v1_EnumerateServicesRequest.ctl"/>
+				<Item Name="ni_measurements_discovery_v1_ResolveServiceRequest.ctl" Type="VI" URL="/&lt;vilib&gt;/TAF/Discovery Client/RPC Messages/ni_measurements_discovery_v1_ResolveServiceRequest.ctl"/>
+				<Item Name="Create Client.vi" Type="VI" URL="/&lt;vilib&gt;/TAF/Discovery Client/Client API/Create Client.vi"/>
+				<Item Name="Unary ni_measurements_discovery_v1_RegistryService_EnumerateServices.vi" Type="VI" URL="/&lt;vilib&gt;/TAF/Discovery Client/RPC Service/RegistryService/Unary ni_measurements_discovery_v1_RegistryService_EnumerateServices.vi"/>
+				<Item Name="Unary ni_measurements_discovery_v1_RegistryService_ResolveService.vi" Type="VI" URL="/&lt;vilib&gt;/TAF/Discovery Client/RPC Service/RegistryService/Unary ni_measurements_discovery_v1_RegistryService_ResolveService.vi"/>
+				<Item Name="Destroy Client.vi" Type="VI" URL="/&lt;vilib&gt;/TAF/Discovery Client/Client API/Destroy Client.vi"/>
+				<Item Name="grpcId.ctl" Type="VI" URL="/&lt;vilib&gt;/gRPC/LabVIEW gRPC Library/Server API/typeDefs/grpcId.ctl"/>
+				<Item Name="ni_measurements_v1_MeasurementDetails.ctl" Type="VI" URL="/&lt;vilib&gt;/TAF/LabVIEW Measurement Client/RPC Messages/ni_measurements_v1_MeasurementDetails.ctl"/>
+				<Item Name="ni_measurements_v1_UserInterfaceDetails.ctl" Type="VI" URL="/&lt;vilib&gt;/TAF/LabVIEW Measurement Client/RPC Messages/ni_measurements_v1_UserInterfaceDetails.ctl"/>
 			</Item>
 			<Item Name="NationalInstruments.VIHost.Interop.dll" Type="Document" URL="NationalInstruments.VIHost.Interop.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
