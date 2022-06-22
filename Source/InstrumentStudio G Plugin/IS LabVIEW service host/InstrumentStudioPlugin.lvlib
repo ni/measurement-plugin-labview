@@ -10,9 +10,6 @@
 		<Item Name="Plugin Mode.ctl" Type="VI" URL="../controls/Plugin Mode.ctl"/>
 		<Item Name="UI References.ctl" Type="VI" URL="../controls/UI References.ctl"/>
 	</Item>
-	<Item Name="Popup" Type="Folder">
-		<Item Name="Measurement Picker.vi" Type="VI" URL="../Popup/Measurement Picker.vi"/>
-	</Item>
 	<Item Name="SubVI" Type="Folder">
 		<Item Name="Discovery Service - Find Service.vi" Type="VI" URL="../subVIs/Discovery Service - Find Service.vi"/>
 		<Item Name="Find And Load Measurement.vi" Type="VI" URL="../subVIs/Find And Load Measurement.vi"/>
