@@ -347,7 +347,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">3</Property>
+				<Property Name="PKG_buildNumber" Type="Int">0</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">lv-mf-support-for-is-2021</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">1</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
@@ -399,7 +399,7 @@
 				<Property Name="PKG_sources[1].ID" Type="Ref">/My Computer/LabVIEW MF.gplugindata</Property>
 				<Property Name="PKG_sources[1].Type" Type="Str">File</Property>
 				<Property Name="PKG_synopsis" Type="Str">LabVIEW Measurement Framework Support For InstrumentStudio 2021</Property>
-				<Property Name="PKG_version" Type="Str">0.6.0</Property>
+				<Property Name="PKG_version" Type="Str">0.8.0</Property>
 			</Item>
 			<Item Name="lv-mf-support-for-is" Type="{E661DAE2-7517-431F-AC41-30807A3BDA38}">
 				<Property Name="NIPKG_addToFeed" Type="Bool">false</Property>
@@ -422,7 +422,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">6</Property>
+				<Property Name="PKG_buildNumber" Type="Int">0</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">lv-mf-support-for-is</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">1</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
@@ -474,7 +474,7 @@
 				<Property Name="PKG_sources[1].ID" Type="Ref">/My Computer/LabVIEW MF.gplugindata</Property>
 				<Property Name="PKG_sources[1].Type" Type="Str">File</Property>
 				<Property Name="PKG_synopsis" Type="Str">LabVIEW Measurement Framework Support For InstrumentStudio</Property>
-				<Property Name="PKG_version" Type="Str">0.6.0</Property>
+				<Property Name="PKG_version" Type="Str">0.8.0</Property>
 			</Item>
 		</Item>
 	</Item>
