@@ -52,8 +52,9 @@ Set up the following software before installing the given packages.
 
 ## Installation
 
-1. Install the latest measurement service SDK from the network location `\\argo\ni\nipkg\feeds\ni-m\ni-measurement-sdk\22.5.0`.
-2. Download and install the LabVIEW measurement services packages in the following order.
+1. Install the latest build of InstrumentStudio from `\\argo\ni\nipkg\feeds\ni-i\ni-instrumentstudio\22.5.0`.
+2. Install the latest measurement service SDK from the network location `\\argo\ni\nipkg\feeds\ni-m\ni-measurement-sdk\22.5.0`.
+3. Download and install the LabVIEW measurement services packages in the following order.
     1. `ni_lib_labview_grpc_library-x.x.x.x.vip` - Required
     2. `ni_lib_labview_grpc_servicer-x.x.x.x.vip` - Required
     3. `ni_lib_discovery_client-x.x.x.x.vip` - Required
