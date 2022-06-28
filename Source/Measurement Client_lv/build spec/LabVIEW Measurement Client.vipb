@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-12-23 10:47:06" Modified_Date="2022-06-06 11:18:50" Creator="navin" Comments="" ID="7b30c1b608bc25cca39d8a12dda91012">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-12-23 10:47:06" Modified_Date="2022-06-28 11:16:35" Creator="navin" Comments="" ID="f26861ce53ef706083fc5000af7f8fd0">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_LabVIEW_Measurement_Client</Package_File_Name>
-    <Library_Version>0.6.0.4</Library_Version>
+    <Library_Version>0.8.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Measurement_client</Library_Source_Folder>
     <Library_Output_Folder>..\build</Library_Output_Folder>
