@@ -30,8 +30,8 @@ Set up the following software before installing the given packages.
 
 - VI Package Manager 2020
 - LabVIEW 2020 SP1 or higher.
-- Instrument Studio.
-- Measurement Framework (\\argo\ni\nipkg\feeds\ni-m\ni-measurement-framework\22.5.0)
+- InstrumentStudio(`\\argo\ni\nipkg\feeds\ni-i\ni-instrumentstudio\22.5.0`)
+- Measurement Framework (`\\argo\ni\nipkg\feeds\ni-m\ni-measurement-framework\22.5.0`)
 
 ---
 
@@ -46,20 +46,20 @@ Set up the following software before installing the given packages.
 
 ### Supported version of InstrumentStudio
 
-- [Instrument Studio 2022 Q1](https://www.ni.com/en-us/support/downloads/software-products/download.instrumentstudio.html#442812)
-- [Instrument Studio 2021 Q4](https://www.ni.com/en-us/support/downloads/software-products/download.instrumentstudio.html#428060)
+- InstrumentStudio from `\\argo\ni\nipkg\feeds\ni-i\ni-instrumentstudio\22.5.0`.
 
 ---
 
 ## Installation
 
-Download and install the LabVIEW measurement services packages in the following order.
-
-1. `ni_lib_labview_grpc_library-x.x.x.x.vip` - Required
-2. `ni_lib_labview_grpc_servicer-x.x.x.x.vip` - Required
-3. `ni_lib_discovery_client-x.x.x.x.vip` - Required
-4. `ni_lib_labview_measurement_service_template-x.x.x.x.vip` - Required
-5. `ni_lib_labview_measurement_service_editor-x.x.x.x.vip` - Required
+1. Install the latest build of InstrumentStudio from `\\argo\ni\nipkg\feeds\ni-i\ni-instrumentstudio\22.5.0`.
+2. Install the latest measurement service SDK from the network location `\\argo\ni\nipkg\feeds\ni-m\ni-measurement-sdk\22.5.0`.
+3. Download and install the LabVIEW measurement services packages in the following order.
+    1. `ni_lib_labview_grpc_library-x.x.x.x.vip` - Required
+    2. `ni_lib_labview_grpc_servicer-x.x.x.x.vip` - Required
+    3. `ni_lib_discovery_client-x.x.x.x.vip` - Required
+    4. `ni_lib_labview_measurement_service_template-x.x.x.x.vip` - Required
+    5. `ni_lib_labview_measurement_service_editor-x.x.x.x.vip` - Required
 
 ---
 
@@ -85,7 +85,7 @@ Download and install the LabVIEW measurement services packages in the following 
 
     ![Get Measurement Details VI](images/Get%20Measurement%20Details%20VI.png)
 
-4. Add the required controls for the configurations parameters in the `Measurement Configuration.ctl` file. By default, this comes with `Array in` which is a double array.
+4. Add the required controls for the configuration parameters in the `Measurement Configuration.ctl` file. By default, this comes with `Array in` which is a double array.
 
     ![Measurement Configurations ctl](images/Measurement%20Configurations%20ctl.png)
 
@@ -182,7 +182,7 @@ To interact with a measurement in InstrumentStudio using the measurement framewo
 
 To create an executable for the measurement service project follow the steps provided below,
 
-1. After creating a measurement service, right-click on the `Build Sepcifications` of the LabVIEW project and select `New`→`Application(EXE)`.
+1. After creating a measurement service, right-click on the `Build Specifications` of the LabVIEW project and select `New`→`Application(EXE)`.
 
     ![Build Specifications menu](images/Build%20Specifications%20Selection.png)
 
@@ -207,5 +207,5 @@ To create an executable for the measurement service project follow the steps pro
 
 ## Statically registering LabVIEW measurements
 
-- Refer to the [Static Registration of measurements section]() for statically registering measurements.
-- To create a LabVIEW executable refer to [Creating a LabVIEW executable for static registration](#creating-a-labview-executable-for-static-registration) section.
+- Refer to the [Static Registration of measurements Readme]() for statically registering measurements.
+- To create a LabVIEW executable refer to [Creating a LabVIEW executable for the static registration](#creating-a-labview-executable-for-static-registration) section.
