@@ -30,7 +30,7 @@ Set up the following software before installing the given packages.
 
 - VI Package Manager 2020
 - LabVIEW 2020 SP1 or higher.
-- Instrument Studio(`\\argo\ni\nipkg\feeds\ni-i\ni-instrumentstudio\22.5.0`)
+- InstrumentStudio(`\\argo\ni\nipkg\feeds\ni-i\ni-instrumentstudio\22.5.0`)
 - Measurement Framework (`\\argo\ni\nipkg\feeds\ni-m\ni-measurement-framework\22.5.0`)
 
 ---
@@ -46,7 +46,7 @@ Set up the following software before installing the given packages.
 
 ### Supported version of InstrumentStudio
 
-- Instrument Studio from `\\argo\ni\nipkg\feeds\ni-i\ni-instrumentstudio\22.5.0`.
+- InstrumentStudio from `\\argo\ni\nipkg\feeds\ni-i\ni-instrumentstudio\22.5.0`.
 
 ---
 
