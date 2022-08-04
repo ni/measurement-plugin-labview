@@ -164,7 +164,7 @@ To interact with a measurement in InstrumentStudio, follow the steps mentioned b
 
 2. Choose the desired measurement and create a panel.
 
-    ![Selecting a LaBVIEW measurement](images/SelectingMeasurement.png)
+    ![Selecting a LabVIEW measurement](images/SelectingMeasurement.png)
 
 3. The layout will be populated with the UI created for the measurement, containing the provided parameters.
 
