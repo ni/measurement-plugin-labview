@@ -46,7 +46,7 @@ Set up the following software before installing the given packages.
 
 ### Supported version of InstrumentStudio
 
-- InstrumentStudio from `\\argo\ni\nipkg\feeds\ni-i\ni-instrumentstudio\22.5.0`.
+- InstrumentStudio from `\\argo\ni\nipkg\feeds\ni-i\ni-instrumentstudio\22.8.0`.
 
 ---
 
