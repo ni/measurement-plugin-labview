@@ -12,7 +12,7 @@
   - [Example Measurements](#example-measurements)
     - [Dependencies for the example measurements](#dependencies-for-the-example-measurements)
     - [Running the LDO measurement example](#running-the-ldo-measurement-example)
-  - [Using the Measurement Framework plugin in InstrumentStudio](#using-the-measurement-framework-plugin-in-instrumentstudio)
+  - [Using the measurement in InstrumentStudio](#using-the-measurement-in-instrumentstudio)
   - [Creating a LabVIEW executable for static registration](#creating-a-labview-executable-for-static-registration)
   - [Statically registering LabVIEW measurements](#statically-registering-labview-measurements)
 
@@ -30,8 +30,8 @@ Set up the following software before installing the given packages.
 
 - VI Package Manager 2020
 - LabVIEW 2020 SP1 or higher.
-- InstrumentStudio(`\\argo\ni\nipkg\feeds\ni-i\ni-instrumentstudio\22.5.0`)
-- Measurement Framework (`\\argo\ni\nipkg\feeds\ni-m\ni-measurement-framework\22.5.0`)
+- InstrumentStudio(`\\argo\ni\nipkg\feeds\ni-i\ni-instrumentstudio\22.8.0`)
+- Measurement Framework (`\\argo\ni\nipkg\feeds\ni-m\ni-measurement-framework\22.8.0`)
 
 ---
 
@@ -52,8 +52,8 @@ Set up the following software before installing the given packages.
 
 ## Installation
 
-1. Install the latest build of InstrumentStudio from `\\argo\ni\nipkg\feeds\ni-i\ni-instrumentstudio\22.5.0`.
-2. Install the latest measurement service SDK from the network location `\\argo\ni\nipkg\feeds\ni-m\ni-measurement-sdk\22.5.0`.
+1. Install the latest build of InstrumentStudio from `\\argo\ni\nipkg\feeds\ni-i\ni-instrumentstudio\22.8.0`.
+2. Install the latest measurement service SDK from the network location `\\argo\ni\nipkg\feeds\ni-m\ni-measurement-sdk\22.8.0`.
 3. Download and install the LabVIEW measurement services packages in the following order.
     1. `ni_lib_labview_grpc_library-x.x.x.x.vip` - Required
     2. `ni_lib_labview_grpc_servicer-x.x.x.x.vip` - Required
@@ -154,25 +154,21 @@ Note: The Line and Load regulation measurements have not been tested with real h
 
 ---
 
-## Using the Measurement Framework plugin in InstrumentStudio
+## Using the measurement in InstrumentStudio
 
-For the LabVIEW measurement plugin, install the latest measurement framework package from the network location `\\argo\ni\nipkg\feeds\ni-m\ni-measurement-framework\22.5.0`.
+For the using LabView measurments, install the latest measurement framework package from the network location `\\argo\ni\nipkg\feeds\ni-m\ni-measurement-framework\22.8.0`.
 
-To interact with a measurement in InstrumentStudio using the measurement framework plugin, follow the steps mentioned below:
+To interact with a measurement in InstrumentStudio, follow the steps mentioned below:
 
-1. Once all the packages are installed, open InstrumentStudio and click on `Manual Layout` and create a large panel for `Measurement Framework`.
+1. Once all the packages are installed, open InstrumentStudio and click on `Manual Layout`.
 
-    ![Selecting MF large panel](images/Selecting%20MF%20large%20panel.png)
+2. Choose the desired measurement and create a panel.
 
-2. Once the layout is loaded click on `Measurement Picker`, which opens a dialog box to select a measurement from the list of available measurements.
+    ![Selecting a LaBVIEW measurement](images/SelectingMeasurement.png)
 
-3. Choose the desired measurement and click `Ok`.
+3. The layout will be populated with the UI created for the measurement, containing the provided parameters.
 
-    ![Picking a measurement](images/Picking%20a%20mesurement.png)
-
-4. The layout will be populated with the UI created for the measurement, containing the provided parameters.
-
-5. Provide the required configurations and click `Run Measurement` to run the measurement.
+4. Provide the required configurations and click `Run` to run the measurement.
 
     ![Running the measurement](images/Running%20the%20measurement.png)
 
