@@ -156,7 +156,7 @@ Note: The Line and Load regulation measurements have not been tested with real h
 
 ## Using the measurement in InstrumentStudio
 
-For the using LabView measurments, install the latest measurement framework package from the network location `\\argo\ni\nipkg\feeds\ni-m\ni-measurement-framework\22.8.0`.
+For the using LabVIEW measurments, install the latest measurement framework package from the network location `\\argo\ni\nipkg\feeds\ni-m\ni-measurement-framework\22.8.0`.
 
 To interact with a measurement in InstrumentStudio, follow the steps mentioned below:
 
