@@ -2,7 +2,7 @@
 <GPluginMetadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.ni.com/InstrumentStudio/GPluginMetadata">
 	<Plugins>
 		<PluginData 
-			UniqueName="National Instruments|LabVIEW MF"
+			UniqueName="National Instruments|LabVIEW Measurements"
 			GroupName="Measurement Framework"
 			PanelType="LabVIEW Measurement UIs"
 			DisplayName="Host for LabVIEW Measurement UIs"
