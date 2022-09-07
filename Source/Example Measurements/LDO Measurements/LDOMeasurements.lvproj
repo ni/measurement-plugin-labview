@@ -25,9 +25,7 @@
 			<Item Name="Stimulus And Measure.ctl" Type="VI" URL="../Reusables/Stimulus And Measure.ctl"/>
 		</Item>
 		<Item Name="LineRegulation.lvlib" Type="Library" URL="../Measurements/LineRegulation/LineRegulation.lvlib"/>
-		<Item Name="LineRegulation.serviceconfig" Type="Document" URL="../Measurements/LineRegulation/LineRegulation.serviceconfig"/>
 		<Item Name="LoadRegulation.lvlib" Type="Library" URL="../Measurements/LoadRegulation/LoadRegulation.lvlib"/>
-		<Item Name="LoadRegulation.serviceconfig" Type="Document" URL="../Measurements/LoadRegulation/LoadRegulation.serviceconfig"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niDCPower Abort With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Abort With Channels.vi"/>
@@ -148,7 +146,7 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/LineRegulation.serviceconfig</Property>
+				<Property Name="Source[10].itemID" Type="Ref"></Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/LineRegulation.lvlib/Measurement UI.vi</Property>
@@ -263,7 +261,7 @@
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/LoadRegulation.serviceconfig</Property>
+				<Property Name="Source[9].itemID" Type="Ref"></Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">10</Property>
 				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
