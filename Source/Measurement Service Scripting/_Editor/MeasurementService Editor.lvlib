@@ -5,16 +5,17 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="SubVIs" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Get all Measurement Service.vi" Type="VI" URL="../Get all Measurement Service.vi"/>
-		<Item Name="Run Selected Measurement Service.vi" Type="VI" URL="../Run Selected Measurement Service.vi"/>
-		<Item Name="Get Active Project Details.vi" Type="VI" URL="../Get Active Project Details.vi"/>
-		<Item Name="Open Project.vi" Type="VI" URL="../Open Project.vi"/>
-		<Item Name="Close Project.vi" Type="VI" URL="../Close Project.vi"/>
-		<Item Name="Valid Measurement Service Name.vi" Type="VI" URL="../Valid Measurement Service Name.vi"/>
-		<Item Name="Save As Measurement Service template.vi" Type="VI" URL="../Save As Measurement Service template.vi"/>
-		<Item Name="Include Build Assets.vi" Type="VI" URL="../Include Build Assets.vi"/>
+		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Check if Build Assets Exists.vi" Type="VI" URL="../Check if Build Assets Exists.vi"/>
+		<Item Name="Close Project.vi" Type="VI" URL="../Close Project.vi"/>
+		<Item Name="Get Active Project Details.vi" Type="VI" URL="../Get Active Project Details.vi"/>
+		<Item Name="Get all Measurement Service.vi" Type="VI" URL="../Get all Measurement Service.vi"/>
+		<Item Name="Include Build Assets.vi" Type="VI" URL="../Include Build Assets.vi"/>
+		<Item Name="Open Project.vi" Type="VI" URL="../Open Project.vi"/>
+		<Item Name="Run Selected Measurement Service.vi" Type="VI" URL="../Run Selected Measurement Service.vi"/>
+		<Item Name="Save As Measurement Service template.vi" Type="VI" URL="../Save As Measurement Service template.vi"/>
+		<Item Name="Update Measurement Details.vi" Type="VI" URL="../Update Measurement Details.vi"/>
+		<Item Name="Valid Measurement Service Name.vi" Type="VI" URL="../Valid Measurement Service Name.vi"/>
 	</Item>
 	<Item Name="New.vi" Type="VI" URL="../../New.vi"/>
 	<Item Name="Start all.vi" Type="VI" URL="../../Start all.vi"/>
