@@ -63,7 +63,7 @@
 				<Item Name="Plugin Events.ctl" Type="VI" URL="../IS LabVIEW service host/InstrumentStudioPluginSDK.lvlibp/Plugin Events.ctl"/>
 			</Item>
 		</Item>
-		<Item Name="LabVIEW MF.gplugindata" Type="Document" URL="../IS LabVIEW service host/LabVIEW MF.gplugindata"/>
+		<Item Name="LabVIEW Measurements.gplugindata" Type="Document" URL="../IS LabVIEW service host/LabVIEW Measurements.gplugindata"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
@@ -123,33 +123,28 @@
 				<Property Name="Bld_excludedDirectory[1]" Type="Path">user.lib</Property>
 				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">2</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/D/build/lvmfsd/LabVIEW MF</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/lvmfsd</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0FDBE926-AB10-4A30-85F1-EEF188EE368D}</Property>
-				<Property Name="Bld_version.build" Type="Int">33</Property>
+				<Property Name="Bld_version.build" Type="Int">36</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/D/build/lvmfsd/LabVIEW MF</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/lvmfsd</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/D/build/lvmfsd/LabVIEW MF/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/lvmfsd/data</Property>
 				<Property Name="Destination[2].destName" Type="Str">Data_Client Wrapper</Property>
-				<Property Name="Destination[2].path" Type="Path">/D/build/lvmfsd/LabVIEW MF/Data_CW</Property>
-				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/lvmfsd/Data_Client Wrapper</Property>
 				<Property Name="Destination[3].destName" Type="Str">Data_Measurement Client</Property>
-				<Property Name="Destination[3].path" Type="Path">/D/build/lvmfsd/LabVIEW MF/Data_MC</Property>
-				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[3].path" Type="Path">../builds/NI_AB_PROJECTNAME/lvmfsd/Data_Measurement Client</Property>
 				<Property Name="Destination[4].destName" Type="Str">Data_gRPC</Property>
-				<Property Name="Destination[4].path" Type="Path">/D/build/lvmfsd/LabVIEW MF/Data_gRPC</Property>
-				<Property Name="Destination[4].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[4].path" Type="Path">../builds/NI_AB_PROJECTNAME/lvmfsd/Data_gRPC</Property>
 				<Property Name="Destination[4].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[5].destName" Type="Str">Data_Discovery</Property>
-				<Property Name="Destination[5].path" Type="Path">/D/build/lvmfsd/LabVIEW MF/Data_DSC</Property>
-				<Property Name="Destination[5].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[5].path" Type="Path">../builds/NI_AB_PROJECTNAME/lvmfsd/Data_Discovery</Property>
 				<Property Name="DestinationCount" Type="Int">6</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6226B283-D5A3-4FF1-A2E7-CACCA4A04043}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FC83FB1C-285E-4CE1-BA24-EB91D4ED7B1B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -281,18 +276,19 @@
 				<Property Name="Source[36].itemID" Type="Ref">/My Computer/Dependency/Discovery Client</Property>
 				<Property Name="Source[36].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[36].type" Type="Str">Container</Property>
-				<Property Name="Source[37].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[37].itemID" Type="Ref">/My Computer/LabVIEW MF.gplugindata</Property>
-				<Property Name="Source[38].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[38].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[38].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[38].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[38].itemID" Type="Ref">/My Computer/Dependency/Measurement Client</Property>
+				<Property Name="Source[37].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[37].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[37].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[37].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[37].itemID" Type="Ref">/My Computer/Dependency/Measurement Client</Property>
+				<Property Name="Source[37].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[37].type" Type="Str">Container</Property>
+				<Property Name="Source[38].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[38].itemID" Type="Ref">/My Computer/Dependency/InstrumentStudioPluginSDK.lvlibp</Property>
+				<Property Name="Source[38].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[38].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[38].type" Type="Str">Container</Property>
-				<Property Name="Source[39].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[39].itemID" Type="Ref">/My Computer/Dependency/InstrumentStudioPluginSDK.lvlibp</Property>
-				<Property Name="Source[39].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[39].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[39].itemID" Type="Ref">/My Computer/LabVIEW Measurements.gplugindata</Property>
 				<Property Name="Source[39].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">4</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Dependency/gRPC/gprc-lvsupport-release.lvlib</Property>
@@ -349,7 +345,7 @@
 				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
 				<Property Name="PKG_buildNumber" Type="Int">1</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">lv-mf-support-for-is-2021</Property>
-				<Property Name="PKG_dependencies.Count" Type="Int">1</Property>
+				<Property Name="PKG_dependencies.Count" Type="Int">0</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
 				<Property Name="PKG_dependencies[0].MaxVersion" Type="Str"></Property>
 				<Property Name="PKG_dependencies[0].MaxVersionInclusive" Type="Bool">false</Property>
@@ -372,7 +368,7 @@
 				<Property Name="PKG_destinations[1].Subdir.Parent" Type="Str">{C90F962F-609B-4271-BE89-5C979FA62DAA}</Property>
 				<Property Name="PKG_destinations[1].Type" Type="Str">Subdir</Property>
 				<Property Name="PKG_destinations[2].ID" Type="Str">{A0A06DA5-2AC3-436B-8C62-AC8EDBFE21B9}</Property>
-				<Property Name="PKG_destinations[2].Subdir.Directory" Type="Str">LabVIEW MF</Property>
+				<Property Name="PKG_destinations[2].Subdir.Directory" Type="Str">LabVIEW Measurements</Property>
 				<Property Name="PKG_destinations[2].Subdir.Parent" Type="Str">{16FBD783-2594-40F3-A735-74FEEB7DD785}</Property>
 				<Property Name="PKG_destinations[2].Type" Type="Str">Subdir</Property>
 				<Property Name="PKG_destinations[3].ID" Type="Str">{C90F962F-609B-4271-BE89-5C979FA62DAA}</Property>
@@ -391,12 +387,12 @@
 				<Property Name="PKG_publishToSystemLink" Type="Bool">false</Property>
 				<Property Name="PKG_section" Type="Str">Add-Ons</Property>
 				<Property Name="PKG_shortcuts.Count" Type="Int">0</Property>
-				<Property Name="PKG_sources.Count" Type="Int">2</Property>
+				<Property Name="PKG_sources.Count" Type="Int">1</Property>
 				<Property Name="PKG_sources[0].Destination" Type="Str">{A0A06DA5-2AC3-436B-8C62-AC8EDBFE21B9}</Property>
 				<Property Name="PKG_sources[0].ID" Type="Ref">/My Computer/Build Specifications/lvmfsd</Property>
 				<Property Name="PKG_sources[0].Type" Type="Str">Build</Property>
 				<Property Name="PKG_sources[1].Destination" Type="Str">{16FBD783-2594-40F3-A735-74FEEB7DD785}</Property>
-				<Property Name="PKG_sources[1].ID" Type="Ref">/My Computer/LabVIEW MF.gplugindata</Property>
+				<Property Name="PKG_sources[1].ID" Type="Ref"></Property>
 				<Property Name="PKG_sources[1].Type" Type="Str">File</Property>
 				<Property Name="PKG_synopsis" Type="Str">LabVIEW Measurement Framework Support For InstrumentStudio 2021</Property>
 				<Property Name="PKG_version" Type="Str">0.8.1</Property>
@@ -413,7 +409,7 @@
 				<Property Name="NIPKG_installerBuiltBefore" Type="Bool">false</Property>
 				<Property Name="NIPKG_installerDestination" Type="Path">../builds/NI_AB_PROJECTNAME/lv-mf-support-for-is-2021/Package Installer</Property>
 				<Property Name="NIPKG_installerDestination.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="NIPKG_lastBuiltPackage" Type="Str">ni-measurement-framework-instrumentstudio-lv-support_0.8.1-0_windows_x64.nipkg</Property>
+				<Property Name="NIPKG_lastBuiltPackage" Type="Str">ni-measurement-framework-instrumentstudio-lv-support_0.8.1-3_windows_x64.nipkg</Property>
 				<Property Name="NIPKG_license" Type="Ref"></Property>
 				<Property Name="NIPKG_packageVersion" Type="Bool">false</Property>
 				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
@@ -422,7 +418,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">1</Property>
+				<Property Name="PKG_buildNumber" Type="Int">4</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">lv-mf-support-for-is</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">1</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
@@ -447,7 +443,7 @@
 				<Property Name="PKG_destinations[1].Subdir.Parent" Type="Str">{C90F962F-609B-4271-BE89-5C979FA62DAA}</Property>
 				<Property Name="PKG_destinations[1].Type" Type="Str">Subdir</Property>
 				<Property Name="PKG_destinations[2].ID" Type="Str">{A0A06DA5-2AC3-436B-8C62-AC8EDBFE21B9}</Property>
-				<Property Name="PKG_destinations[2].Subdir.Directory" Type="Str">LabVIEW MF</Property>
+				<Property Name="PKG_destinations[2].Subdir.Directory" Type="Str">LabVIEW Measurements</Property>
 				<Property Name="PKG_destinations[2].Subdir.Parent" Type="Str">{16FBD783-2594-40F3-A735-74FEEB7DD785}</Property>
 				<Property Name="PKG_destinations[2].Type" Type="Str">Subdir</Property>
 				<Property Name="PKG_destinations[3].ID" Type="Str">{C90F962F-609B-4271-BE89-5C979FA62DAA}</Property>
@@ -466,12 +462,12 @@
 				<Property Name="PKG_publishToSystemLink" Type="Bool">false</Property>
 				<Property Name="PKG_section" Type="Str">Infrastructure (hidden)</Property>
 				<Property Name="PKG_shortcuts.Count" Type="Int">0</Property>
-				<Property Name="PKG_sources.Count" Type="Int">2</Property>
+				<Property Name="PKG_sources.Count" Type="Int">1</Property>
 				<Property Name="PKG_sources[0].Destination" Type="Str">{A0A06DA5-2AC3-436B-8C62-AC8EDBFE21B9}</Property>
 				<Property Name="PKG_sources[0].ID" Type="Ref">/My Computer/Build Specifications/lvmfsd</Property>
 				<Property Name="PKG_sources[0].Type" Type="Str">Build</Property>
 				<Property Name="PKG_sources[1].Destination" Type="Str">{A0A06DA5-2AC3-436B-8C62-AC8EDBFE21B9}</Property>
-				<Property Name="PKG_sources[1].ID" Type="Ref">/My Computer/LabVIEW MF.gplugindata</Property>
+				<Property Name="PKG_sources[1].ID" Type="Ref"></Property>
 				<Property Name="PKG_sources[1].Type" Type="Str">File</Property>
 				<Property Name="PKG_synopsis" Type="Str">LabVIEW Measurement Framework Support For InstrumentStudio</Property>
 				<Property Name="PKG_version" Type="Str">0.8.1</Property>
