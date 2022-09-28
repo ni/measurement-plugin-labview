@@ -1,0 +1,13 @@
+[archive]
+build_output_dir = 'build_output'
+archive_location = '\\nirvana\Measurements\daq\CompactRIO\Software\Misc\apeterso\github_builds\measurement-services-labview'
+
+[projects.cd]
+path = 'Source\Discovery Client_lv\Discovery Client.lvproj'
+
+[[build.steps]]
+name = 'Test Discovery Client'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'TestDiscoveryClient'
