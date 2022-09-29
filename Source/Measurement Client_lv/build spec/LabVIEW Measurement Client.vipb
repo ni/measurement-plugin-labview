@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-12-23 10:47:06" Modified_Date="2022-09-28 20:17:29" Creator="navin" Comments="" ID="6a397681cc305436122a4ea57c9d1334">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-12-23 10:47:06" Modified_Date="2022-09-29 20:10:23" Creator="navin" Comments="" ID="618e6b2f7bff7ab7d49ca56801615dfc">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_LabVIEW_Measurement_Client</Package_File_Name>
     <Library_Version>0.9.0.2</Library_Version>

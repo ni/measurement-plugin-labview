@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-11-07 13:51:59" Modified_Date="2022-09-28 20:24:39" Creator="navin" Comments="" ID="80c8517d0aed286fdc59c9a58ea3a473">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-11-07 13:51:59" Modified_Date="2022-09-29 20:16:01" Creator="navin" Comments="" ID="7c4800102771a7e2acd82a8e21758722">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_LabVIEW_Measurement_Service_Editor</Package_File_Name>
     <Library_Version>0.9.0.2</Library_Version>
