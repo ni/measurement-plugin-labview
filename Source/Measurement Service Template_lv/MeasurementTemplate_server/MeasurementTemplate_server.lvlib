@@ -93,6 +93,7 @@
 			<Item Name="Get MetaData from Results.vi" Type="VI" URL="../Helper/Get MetaData from Results.vi"/>
 			<Item Name="LabVIEW datatype to Measurement datatype.vi" Type="VI" URL="../Helper/LabVIEW datatype to Measurement datatype.vi"/>
 			<Item Name="Get UI Details.vi" Type="VI" URL="../Helper/Get UI Details.vi"/>
+			<Item Name="Get Configuration Default.vi" Type="VI" URL="../Helper/Get Configuration Default.vi"/>
 		</Item>
 		<Item Name="MeasurementService.lvclass" Type="LVClass" URL="../RPC Service/MeasurementService/MeasurementService.lvclass"/>
 		<Item Name="ServiceManagementService.lvclass" Type="LVClass" URL="../RPC Service/ServiceManagementService/ServiceManagementService.lvclass"/>
