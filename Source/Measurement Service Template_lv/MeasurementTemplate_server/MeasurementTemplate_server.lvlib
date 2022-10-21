@@ -104,4 +104,5 @@
 	<Item Name="Measurement Logic.vi" Type="VI" URL="../Measurement Logic.vi"/>
 	<Item Name="Measurement Results.ctl" Type="VI" URL="../Measurement Results.ctl"/>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
+	<Item Name="ni_measurements_PinMapContext.ctl" Type="VI" URL="../RPC Messages/ni_measurements_PinMapContext.ctl"/>
 </Library>
