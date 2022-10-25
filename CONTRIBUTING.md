@@ -27,8 +27,6 @@ Procedure to build the repos:
 2. Open the Specification file using VIPM 2020
 3. Click Build - Built .vip file will be created in a folder called "build" parallel to "build specs"
 
-TODO: include the build procedure for the "InstrumentStudio G Plugin"
-
 ## Libraries Maintained in this repo
 
 ### Discovery Client
@@ -61,13 +59,6 @@ TODO: includes instructions for launching the tool after installation.
 This repo contains the client library for the "Measurement Service" that enables communication with the Measurement Service to Get Metadata or Trigger Measurements.
 
 TODO: include the link to build procedure
-
-### InstrumentStudio G Plugin for Measurement Service
-
-This repo contains the code for InstrumentStudio G Plugin that acts as an interface of enumerating the Measurement Service using the Discovery Client, and displaying a selected Measurement Service for users to make measurement interactively. This is dependent on 1, 2.1 from above dependency list and the built library of "Discovery Client", "Measurement Service Client".
-
-TODO: include the link to build procedure
-TODO: include the instruction to load and configure the G Plugin in InstrumentStudio
 
 ### Measurement Service Examples
 
