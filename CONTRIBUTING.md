@@ -54,12 +54,6 @@ This repo contains the Script tool to instantiate a measurement from the "Measur
 TODO: include the link to build procedure
 TODO: includes instructions for launching the tool after installation.
 
-### "Measurement Service" Client
-
-This repo contains the client library for the "Measurement Service" that enables communication with the Measurement Service to Get Metadata or Trigger Measurements.
-
-TODO: include the link to build procedure
-
 ### Measurement Service Examples
 
 This repo contains example measurement routines developed using the "Measurement Service template". This is dependent on 1, 2.1, 2.2 from above dependency list and the built library of "Discovery Client".
