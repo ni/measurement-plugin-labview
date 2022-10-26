@@ -104,4 +104,7 @@
 	<Item Name="Measurement Logic.vi" Type="VI" URL="../Measurement Logic.vi"/>
 	<Item Name="Measurement Results.ctl" Type="VI" URL="../Measurement Results.ctl"/>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
+	<Item Name="Get Discovery Service Address.vi" Type="VI" URL="../Helper/Get Discovery Service Address.vi"/>
+	<Item Name="Read Discovery Service Key File.vi" Type="VI" URL="../Helper/Read Discovery Service Key File.vi"/>
+	<Item Name="Get Discovery Service Key File Path.vi" Type="VI" URL="../Helper/Get Discovery Service Key File Path.vi"/>
 </Library>
