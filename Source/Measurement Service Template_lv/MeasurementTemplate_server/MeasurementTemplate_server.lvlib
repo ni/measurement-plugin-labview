@@ -10,16 +10,6 @@
 </Property>
 	<Item Name="Service" Type="Folder">
 		<Item Name="RPC Messages" Type="Folder">
-			<Item Name="google_protobuf_Any" Type="Folder">
-				<Item Name="google_protobuf_Any.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Any.ctl"/>
-				<Item Name="Set google_protobuf_Any.vi" Type="VI" URL="../RPC Messages/Set google_protobuf_Any.vi"/>
-				<Item Name="Get google_protobuf_Any.vi" Type="VI" URL="../RPC Messages/Get google_protobuf_Any.vi"/>
-			</Item>
-			<Item Name="google_protobuf_SourceContext" Type="Folder">
-				<Item Name="google_protobuf_SourceContext.ctl" Type="VI" URL="../RPC Messages/google_protobuf_SourceContext.ctl"/>
-				<Item Name="Set google_protobuf_SourceContext.vi" Type="VI" URL="../RPC Messages/Set google_protobuf_SourceContext.vi"/>
-				<Item Name="Get google_protobuf_SourceContext.vi" Type="VI" URL="../RPC Messages/Get google_protobuf_SourceContext.vi"/>
-			</Item>
 			<Item Name="google_protobuf_Type" Type="Folder">
 				<Item Name="google_protobuf_Type.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Type.ctl"/>
 				<Item Name="Set google_protobuf_Type.vi" Type="VI" URL="../RPC Messages/Set google_protobuf_Type.vi"/>
@@ -55,35 +45,10 @@
 				<Item Name="Set ni_measurements_v1_GetMetadataRequest.vi" Type="VI" URL="../RPC Messages/Set ni_measurements_v1_GetMetadataRequest.vi"/>
 				<Item Name="Get ni_measurements_v1_GetMetadataRequest.vi" Type="VI" URL="../RPC Messages/Get ni_measurements_v1_GetMetadataRequest.vi"/>
 			</Item>
-			<Item Name="ni_measurements_v1_MeasurementDetails" Type="Folder">
-				<Item Name="ni_measurements_v1_MeasurementDetails.ctl" Type="VI" URL="../RPC Messages/ni_measurements_v1_MeasurementDetails.ctl"/>
-				<Item Name="Set ni_measurements_v1_MeasurementDetails.vi" Type="VI" URL="../RPC Messages/Set ni_measurements_v1_MeasurementDetails.vi"/>
-				<Item Name="Get ni_measurements_v1_MeasurementDetails.vi" Type="VI" URL="../RPC Messages/Get ni_measurements_v1_MeasurementDetails.vi"/>
-			</Item>
-			<Item Name="ni_measurements_v1_MeasurementParameters" Type="Folder">
-				<Item Name="ni_measurements_v1_MeasurementParameters.ctl" Type="VI" URL="../RPC Messages/ni_measurements_v1_MeasurementParameters.ctl"/>
-				<Item Name="Set ni_measurements_v1_MeasurementParameters.vi" Type="VI" URL="../RPC Messages/Set ni_measurements_v1_MeasurementParameters.vi"/>
-				<Item Name="Get ni_measurements_v1_MeasurementParameters.vi" Type="VI" URL="../RPC Messages/Get ni_measurements_v1_MeasurementParameters.vi"/>
-			</Item>
-			<Item Name="ni_measurements_v1_UserInterfaceDetails" Type="Folder">
-				<Item Name="ni_measurements_v1_UserInterfaceDetails.ctl" Type="VI" URL="../RPC Messages/ni_measurements_v1_UserInterfaceDetails.ctl"/>
-				<Item Name="Set ni_measurements_v1_UserInterfaceDetails.vi" Type="VI" URL="../RPC Messages/Set ni_measurements_v1_UserInterfaceDetails.vi"/>
-				<Item Name="Get ni_measurements_v1_UserInterfaceDetails.vi" Type="VI" URL="../RPC Messages/Get ni_measurements_v1_UserInterfaceDetails.vi"/>
-			</Item>
 			<Item Name="ni_measurements_v1_GetMetadataResponse" Type="Folder">
 				<Item Name="ni_measurements_v1_GetMetadataResponse.ctl" Type="VI" URL="../RPC Messages/ni_measurements_v1_GetMetadataResponse.ctl"/>
 				<Item Name="Set ni_measurements_v1_GetMetadataResponse.vi" Type="VI" URL="../RPC Messages/Set ni_measurements_v1_GetMetadataResponse.vi"/>
 				<Item Name="Get ni_measurements_v1_GetMetadataResponse.vi" Type="VI" URL="../RPC Messages/Get ni_measurements_v1_GetMetadataResponse.vi"/>
-			</Item>
-			<Item Name="ni_measurements_v1_ConfigurationParameter" Type="Folder">
-				<Item Name="ni_measurements_v1_ConfigurationParameter.ctl" Type="VI" URL="../RPC Messages/ni_measurements_v1_ConfigurationParameter.ctl"/>
-				<Item Name="Set ni_measurements_v1_ConfigurationParameter.vi" Type="VI" URL="../RPC Messages/Set ni_measurements_v1_ConfigurationParameter.vi"/>
-				<Item Name="Get ni_measurements_v1_ConfigurationParameter.vi" Type="VI" URL="../RPC Messages/Get ni_measurements_v1_ConfigurationParameter.vi"/>
-			</Item>
-			<Item Name="ni_measurements_v1_Output" Type="Folder">
-				<Item Name="ni_measurements_v1_Output.ctl" Type="VI" URL="../RPC Messages/ni_measurements_v1_Output.ctl"/>
-				<Item Name="Set ni_measurements_v1_Output.vi" Type="VI" URL="../RPC Messages/Set ni_measurements_v1_Output.vi"/>
-				<Item Name="Get ni_measurements_v1_Output.vi" Type="VI" URL="../RPC Messages/Get ni_measurements_v1_Output.vi"/>
 			</Item>
 			<Item Name="ni_measurements_v1_MeasureRequest" Type="Folder">
 				<Item Name="ni_measurements_v1_MeasureRequest.ctl" Type="VI" URL="../RPC Messages/ni_measurements_v1_MeasureRequest.ctl"/>
@@ -95,18 +60,53 @@
 				<Item Name="Set ni_measurements_v1_MeasureResponse.vi" Type="VI" URL="../RPC Messages/Set ni_measurements_v1_MeasureResponse.vi"/>
 				<Item Name="Get ni_measurements_v1_MeasureResponse.vi" Type="VI" URL="../RPC Messages/Get ni_measurements_v1_MeasureResponse.vi"/>
 			</Item>
+			<Item Name="ni_measurements_v1_MeasurementDetails" Type="Folder">
+				<Item Name="ni_measurements_v1_MeasurementDetails.ctl" Type="VI" URL="../RPC Messages/ni_measurements_v1_MeasurementDetails.ctl"/>
+				<Item Name="Set ni_measurements_v1_MeasurementDetails.vi" Type="VI" URL="../RPC Messages/Set ni_measurements_v1_MeasurementDetails.vi"/>
+				<Item Name="Get ni_measurements_v1_MeasurementDetails.vi" Type="VI" URL="../RPC Messages/Get ni_measurements_v1_MeasurementDetails.vi"/>
+			</Item>
+			<Item Name="ni_measurements_v1_MeasurementSignature" Type="Folder">
+				<Item Name="ni_measurements_v1_MeasurementSignature.ctl" Type="VI" URL="../RPC Messages/ni_measurements_v1_MeasurementSignature.ctl"/>
+				<Item Name="Set ni_measurements_v1_MeasurementSignature.vi" Type="VI" URL="../RPC Messages/Set ni_measurements_v1_MeasurementSignature.vi"/>
+				<Item Name="Get ni_measurements_v1_MeasurementSignature.vi" Type="VI" URL="../RPC Messages/Get ni_measurements_v1_MeasurementSignature.vi"/>
+			</Item>
+			<Item Name="ni_measurements_v1_UserInterfaceDetails" Type="Folder">
+				<Item Name="ni_measurements_v1_UserInterfaceDetails.ctl" Type="VI" URL="../RPC Messages/ni_measurements_v1_UserInterfaceDetails.ctl"/>
+				<Item Name="Set ni_measurements_v1_UserInterfaceDetails.vi" Type="VI" URL="../RPC Messages/Set ni_measurements_v1_UserInterfaceDetails.vi"/>
+				<Item Name="Get ni_measurements_v1_UserInterfaceDetails.vi" Type="VI" URL="../RPC Messages/Get ni_measurements_v1_UserInterfaceDetails.vi"/>
+			</Item>
+			<Item Name="ni_measurements_v1_ConfigurationParameter" Type="Folder">
+				<Item Name="ni_measurements_v1_ConfigurationParameter.ctl" Type="VI" URL="../RPC Messages/ni_measurements_v1_ConfigurationParameter.ctl"/>
+				<Item Name="Set ni_measurements_v1_ConfigurationParameter.vi" Type="VI" URL="../RPC Messages/Set ni_measurements_v1_ConfigurationParameter.vi"/>
+				<Item Name="Get ni_measurements_v1_ConfigurationParameter.vi" Type="VI" URL="../RPC Messages/Get ni_measurements_v1_ConfigurationParameter.vi"/>
+			</Item>
+			<Item Name="ni_measurements_v1_Output" Type="Folder">
+				<Item Name="ni_measurements_v1_Output.ctl" Type="VI" URL="../RPC Messages/ni_measurements_v1_Output.ctl"/>
+				<Item Name="Set ni_measurements_v1_Output.vi" Type="VI" URL="../RPC Messages/Set ni_measurements_v1_Output.vi"/>
+				<Item Name="Get ni_measurements_v1_Output.vi" Type="VI" URL="../RPC Messages/Get ni_measurements_v1_Output.vi"/>
+			</Item>
+			<Item Name="google_protobuf_Any" Type="Folder">
+				<Item Name="google_protobuf_Any.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Any.ctl"/>
+				<Item Name="Set google_protobuf_Any.vi" Type="VI" URL="../RPC Messages/Set google_protobuf_Any.vi"/>
+				<Item Name="Get google_protobuf_Any.vi" Type="VI" URL="../RPC Messages/Get google_protobuf_Any.vi"/>
+			</Item>
+			<Item Name="google_protobuf_SourceContext" Type="Folder">
+				<Item Name="google_protobuf_SourceContext.ctl" Type="VI" URL="../RPC Messages/google_protobuf_SourceContext.ctl"/>
+				<Item Name="Set google_protobuf_SourceContext.vi" Type="VI" URL="../RPC Messages/Set google_protobuf_SourceContext.vi"/>
+				<Item Name="Get google_protobuf_SourceContext.vi" Type="VI" URL="../RPC Messages/Get google_protobuf_SourceContext.vi"/>
+			</Item>
 			<Item Name="Register gRPC Messages.vi" Type="VI" URL="../RPC Messages/Register gRPC Messages.vi"/>
 			<Item Name="google_protobuf_Field_Kind.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Field_Kind.ctl"/>
 		</Item>
 		<Item Name="Helper" Type="Folder">
-			<Item Name="Register to Discovery Service.vi" Type="VI" URL="../Helper/Register to Discovery Service.vi"/>
+			<Item Name="Generate GUID.vi" Type="VI" URL="../Helper/Generate GUID.vi"/>
 			<Item Name="Get Configuration Default.vi" Type="VI" URL="../Helper/Get Configuration Default.vi"/>
 			<Item Name="Get MetaData from Configurations.vi" Type="VI" URL="../Helper/Get MetaData from Configurations.vi"/>
-			<Item Name="Generate GUID.vi" Type="VI" URL="../Helper/Generate GUID.vi"/>
 			<Item Name="Get MetaData from Results.vi" Type="VI" URL="../Helper/Get MetaData from Results.vi"/>
 			<Item Name="Get UI Details.vi" Type="VI" URL="../Helper/Get UI Details.vi"/>
 			<Item Name="LabVIEW datatype to Measurement datatype.vi" Type="VI" URL="../Helper/LabVIEW datatype to Measurement datatype.vi"/>
 			<Item Name="Register Configuration and Results.vi" Type="VI" URL="../Helper/Register Configuration and Results.vi"/>
+			<Item Name="Register to Discovery Service.vi" Type="VI" URL="../Helper/Register to Discovery Service.vi"/>
 			<Item Name="Register UI Stop Event.vi" Type="VI" URL="../Helper/Register UI Stop Event.vi"/>
 		</Item>
 		<Item Name="MeasurementService.lvclass" Type="LVClass" URL="../RPC Service/MeasurementService/MeasurementService.lvclass"/>
