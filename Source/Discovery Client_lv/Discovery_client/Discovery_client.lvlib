@@ -9,11 +9,11 @@
 
 </Property>
 	<Item Name="RPC Messages" Type="Folder">
-		<Item Name="ni_measurements_discovery_v1_ServiceLocation" Type="Folder">
-			<Item Name="ni_measurements_discovery_v1_ServiceLocation.ctl" Type="VI" URL="../RPC Messages/ni_measurements_discovery_v1_ServiceLocation.ctl"/>
-		</Item>
 		<Item Name="ni_measurements_discovery_v1_ServiceDescriptor" Type="Folder">
 			<Item Name="ni_measurements_discovery_v1_ServiceDescriptor.ctl" Type="VI" URL="../RPC Messages/ni_measurements_discovery_v1_ServiceDescriptor.ctl"/>
+		</Item>
+		<Item Name="ni_measurements_discovery_v1_ServiceLocation" Type="Folder">
+			<Item Name="ni_measurements_discovery_v1_ServiceLocation.ctl" Type="VI" URL="../RPC Messages/ni_measurements_discovery_v1_ServiceLocation.ctl"/>
 		</Item>
 		<Item Name="ni_measurements_discovery_v1_RegisterServiceRequest" Type="Folder">
 			<Item Name="ni_measurements_discovery_v1_RegisterServiceRequest.ctl" Type="VI" URL="../RPC Messages/ni_measurements_discovery_v1_RegisterServiceRequest.ctl"/>
@@ -36,27 +36,21 @@
 		<Item Name="ni_measurements_discovery_v1_ResolveServiceRequest" Type="Folder">
 			<Item Name="ni_measurements_discovery_v1_ResolveServiceRequest.ctl" Type="VI" URL="../RPC Messages/ni_measurements_discovery_v1_ResolveServiceRequest.ctl"/>
 		</Item>
-		<Item Name="ni_measurements_discovery_v1_ResolveMonikerEndpointRequest" Type="Folder">
-			<Item Name="ni_measurements_discovery_v1_ResolveMonikerEndpointRequest.ctl" Type="VI" URL="../RPC Messages/ni_measurements_discovery_v1_ResolveMonikerEndpointRequest.ctl"/>
-		</Item>
 		<Item Name="Register gRPC Messages.vi" Type="VI" URL="../RPC Messages/Register gRPC Messages.vi"/>
 	</Item>
 	<Item Name="RPC Service" Type="Folder">
-		<Item Name="RegistryService" Type="Folder">
-			<Item Name="ni_measurements_discovery_v1_RegistryService_RegisterService" Type="Folder">
-				<Item Name="Unary ni_measurements_discovery_v1_RegistryService_RegisterService.vi" Type="VI" URL="../RPC Service/RegistryService/Unary ni_measurements_discovery_v1_RegistryService_RegisterService.vi"/>
+		<Item Name="DiscoveryService" Type="Folder">
+			<Item Name="DiscoveryService RegisterService" Type="Folder">
+				<Item Name="DiscoveryService RegisterService.vi" Type="VI" URL="../RPC Service/DiscoveryService/DiscoveryService RegisterService.vi"/>
 			</Item>
-			<Item Name="ni_measurements_discovery_v1_RegistryService_UnregisterService" Type="Folder">
-				<Item Name="Unary ni_measurements_discovery_v1_RegistryService_UnregisterService.vi" Type="VI" URL="../RPC Service/RegistryService/Unary ni_measurements_discovery_v1_RegistryService_UnregisterService.vi"/>
+			<Item Name="DiscoveryService UnregisterService" Type="Folder">
+				<Item Name="DiscoveryService UnregisterService.vi" Type="VI" URL="../RPC Service/DiscoveryService/DiscoveryService UnregisterService.vi"/>
 			</Item>
-			<Item Name="ni_measurements_discovery_v1_RegistryService_EnumerateServices" Type="Folder">
-				<Item Name="Unary ni_measurements_discovery_v1_RegistryService_EnumerateServices.vi" Type="VI" URL="../RPC Service/RegistryService/Unary ni_measurements_discovery_v1_RegistryService_EnumerateServices.vi"/>
+			<Item Name="DiscoveryService EnumerateServices" Type="Folder">
+				<Item Name="DiscoveryService EnumerateServices.vi" Type="VI" URL="../RPC Service/DiscoveryService/DiscoveryService EnumerateServices.vi"/>
 			</Item>
-			<Item Name="ni_measurements_discovery_v1_RegistryService_ResolveService" Type="Folder">
-				<Item Name="Unary ni_measurements_discovery_v1_RegistryService_ResolveService.vi" Type="VI" URL="../RPC Service/RegistryService/Unary ni_measurements_discovery_v1_RegistryService_ResolveService.vi"/>
-			</Item>
-			<Item Name="ni_measurements_discovery_v1_RegistryService_ResolveMonikerEndpoint" Type="Folder">
-				<Item Name="Unary ni_measurements_discovery_v1_RegistryService_ResolveMonikerEndpoint.vi" Type="VI" URL="../RPC Service/RegistryService/Unary ni_measurements_discovery_v1_RegistryService_ResolveMonikerEndpoint.vi"/>
+			<Item Name="DiscoveryService ResolveService" Type="Folder">
+				<Item Name="DiscoveryService ResolveService.vi" Type="VI" URL="../RPC Service/DiscoveryService/DiscoveryService ResolveService.vi"/>
 			</Item>
 		</Item>
 	</Item>

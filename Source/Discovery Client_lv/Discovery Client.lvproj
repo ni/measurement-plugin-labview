@@ -15,19 +15,17 @@
 		<Item Name="Discovery_client" Type="Folder">
 			<Item Name="Discovery_client.lvlib" Type="Library" URL="../Discovery_client/Discovery_client.lvlib"/>
 		</Item>
-		<Item Name="Unit Test" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Test_Register Service.vi" Type="VI" URL="../Unit Test/Test_Register Service.vi"/>
-			<Item Name="Test_Enumerate Service.vi" Type="VI" URL="../Unit Test/Test_Enumerate Service.vi"/>
-			<Item Name="Test_Resolve Service.vi" Type="VI" URL="../Unit Test/Test_Resolve Service.vi"/>
-			<Item Name="Test_Unregister Service.vi" Type="VI" URL="../Unit Test/Test_Unregister Service.vi"/>
+		<Item Name="Tests" Type="Folder" URL="../Tests">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="gprc-lvsupport-release.lvlib" Type="Library" URL="/&lt;vilib&gt;/gRPC/LabVIEW gRPC Library/gprc-lvsupport-release.lvlib"/>
+				<Item Name="grpc-lvsupport-release.lvlib" Type="Library" URL="/&lt;vilib&gt;/gRPC/LabVIEW gRPC Library/grpc-lvsupport-release.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
