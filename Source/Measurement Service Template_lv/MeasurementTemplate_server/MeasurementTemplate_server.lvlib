@@ -108,6 +108,9 @@
 			<Item Name="Register Configuration and Results.vi" Type="VI" URL="../Helper/Register Configuration and Results.vi"/>
 			<Item Name="Register to Discovery Service.vi" Type="VI" URL="../Helper/Register to Discovery Service.vi"/>
 			<Item Name="Register UI Stop Event.vi" Type="VI" URL="../Helper/Register UI Stop Event.vi"/>
+			<Item Name="Get Discovery Service Address.vi" Type="VI" URL="../Helper/Get Discovery Service Address.vi"/>
+			<Item Name="Read Discovery Service Key File.vi" Type="VI" URL="../Helper/Read Discovery Service Key File.vi"/>
+			<Item Name="Get Discovery Service Key File Path.vi" Type="VI" URL="../Helper/Get Discovery Service Key File Path.vi"/>
 		</Item>
 		<Item Name="MeasurementService.lvclass" Type="LVClass" URL="../RPC Service/MeasurementService/MeasurementService.lvclass"/>
 	</Item>
