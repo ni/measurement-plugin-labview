@@ -112,6 +112,7 @@
 			<Item Name="Read Discovery Service Key File.vi" Type="VI" URL="../Helper/Read Discovery Service Key File.vi"/>
 			<Item Name="Get Discovery Service Key File Path.vi" Type="VI" URL="../Helper/Get Discovery Service Key File Path.vi"/>
 		</Item>
+		<Item Name="MeasurementContext.lvclass" Type="LVClass" URL="../RPC Service/MeasurementContext/MeasurementContext.lvclass"/>
 		<Item Name="MeasurementService.lvclass" Type="LVClass" URL="../RPC Service/MeasurementService/MeasurementService.lvclass"/>
 	</Item>
 	<Item Name="Run Service.vi" Type="VI" URL="../Run Service.vi"/>
