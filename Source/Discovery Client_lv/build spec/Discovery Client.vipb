@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-11-01 10:28:06" Modified_Date="2022-10-28 09:03:25" Creator="navin" Comments="" ID="a92dc62b8dcca4a8dc7a80f975944060">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-11-01 10:28:06" Modified_Date="2022-11-02 13:23:42" Creator="navin" Comments="" ID="3760c88f8995c950b6c10a69eacbd1d0">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_Discovery_Client</Package_File_Name>
     <Library_Version>0.10.0.2</Library_Version>
@@ -40,7 +40,7 @@
       <Toolkit_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;vi.lib&gt;\TAF\Discovery Client</Path>
+        <Path>&lt;vi.lib&gt;\MeasurementLink\Discovery Client</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
@@ -244,7 +244,7 @@
         <Path>..\Discovery_client\RPC Service</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9B1045CD2D4CC8D51B359CF71D09A7FB</GUID>
+      <GUID>9C618BB1F4EC97498D2BD4F66981DACA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -293,7 +293,7 @@
         <Path>..\Discovery_client\Client API\Destroy Client.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C5ECD56C2A097D408DE656A0F2AB6E7C</GUID>
+      <GUID>0572DE54571B27AB825E28B408F2F7C2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -328,7 +328,7 @@
         <Path>..\Discovery_client\RPC Messages\Register gRPC Messages.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>614D47AF68F9C387AF3B777B23762FEE</GUID>
+      <GUID>48831FCAFAAA9CF17B6716E875776B77</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -363,7 +363,7 @@
         <Path>..\Discovery_client\RPC Service\RegistryService</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>497AF7EC4DA448A2B1FADF7F60B169C7</GUID>
+      <GUID>31FCD584E7D68983052B20FE44E60D90</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -384,7 +384,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>RPC Service\RegistryService</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <GUID>711652668D7DEA927101BF548C514017</GUID>
+      <GUID>8C346439C127EFFFD94E7BF4C8126AAE</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
