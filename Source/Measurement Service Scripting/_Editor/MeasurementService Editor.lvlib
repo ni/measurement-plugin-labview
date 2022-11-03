@@ -11,6 +11,7 @@
 		<Item Name="Create Build Specification.vi" Type="VI" URL="../Create Build Specification.vi"/>
 		<Item Name="Get Active Project Details.vi" Type="VI" URL="../Get Active Project Details.vi"/>
 		<Item Name="Get all Measurement Service.vi" Type="VI" URL="../Get all Measurement Service.vi"/>
+		<Item Name="Get Measurement Library.vi" Type="VI" URL="../Get Measurement Library.vi"/>
 		<Item Name="Include Build Assets.vi" Type="VI" URL="../Include Build Assets.vi"/>
 		<Item Name="Open Project.vi" Type="VI" URL="../Open Project.vi"/>
 		<Item Name="Run Selected Measurement Service.vi" Type="VI" URL="../Run Selected Measurement Service.vi"/>
@@ -19,6 +20,5 @@
 		<Item Name="Valid Measurement Service Name.vi" Type="VI" URL="../Valid Measurement Service Name.vi"/>
 	</Item>
 	<Item Name="Create Measurement Service.vi" Type="VI" URL="../../Create Measurement Service.vi"/>
-	<Item Name="Get Measurement Library.vi" Type="VI" URL="../Get Measurement Library.vi"/>
 	<Item Name="Start all.vi" Type="VI" URL="../../Start all.vi"/>
 </Library>
