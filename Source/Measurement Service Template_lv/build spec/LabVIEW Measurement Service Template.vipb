@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-11-07 13:16:14" Modified_Date="2022-10-28 09:08:03" Creator="navin" Comments="" ID="e9808e60beba7c046d837e0ba014f0f8">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-11-07 13:16:14" Modified_Date="2022-11-02 13:42:31" Creator="navin" Comments="" ID="3106a7fe8eb386819839c55f97bd7710">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_LabVIEW_Measurement_Service_Template</Package_File_Name>
-    <Library_Version>0.10.0.2</Library_Version>
+    <Library_Version>0.10.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\MeasurementTemplate_server</Library_Source_Folder>
     <Library_Output_Folder>..\build</Library_Output_Folder>
@@ -41,7 +41,7 @@
       <Toolkit_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;vi.lib&gt;\TAF\LabVIEW Measurement Service Template</Path>
+        <Path>&lt;vi.lib&gt;\MeasurementLink\LabVIEW Measurement Service Template</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
