@@ -99,7 +99,6 @@
 			<Item Name="google_protobuf_Field_Kind.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Field_Kind.ctl"/>
 		</Item>
 		<Item Name="Helper" Type="Folder">
-			<Item Name="Generate GUID.vi" Type="VI" URL="../Helper/Generate GUID.vi"/>
 			<Item Name="Get Configuration Default.vi" Type="VI" URL="../Helper/Get Configuration Default.vi"/>
 			<Item Name="Get MetaData from Configurations.vi" Type="VI" URL="../Helper/Get MetaData from Configurations.vi"/>
 			<Item Name="Get MetaData from Results.vi" Type="VI" URL="../Helper/Get MetaData from Results.vi"/>
