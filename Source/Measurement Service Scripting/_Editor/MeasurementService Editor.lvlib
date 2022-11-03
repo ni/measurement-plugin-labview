@@ -19,5 +19,6 @@
 		<Item Name="Valid Measurement Service Name.vi" Type="VI" URL="../Valid Measurement Service Name.vi"/>
 	</Item>
 	<Item Name="Create Measurement Service.vi" Type="VI" URL="../../Create Measurement Service.vi"/>
+	<Item Name="Get Measurement Library.vi" Type="VI" URL="../Get Measurement Library.vi"/>
 	<Item Name="Start all.vi" Type="VI" URL="../../Start all.vi"/>
 </Library>
