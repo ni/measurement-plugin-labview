@@ -120,8 +120,8 @@
 		<Item Name="MeasurementContext.lvclass" Type="LVClass" URL="../RPC Service/MeasurementContext/MeasurementContext.lvclass"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
-		<Item Name="TestResults.ctl" Type="VI" URL="../TestResults.ctl"/>
 		<Item Name="TestInputs.ctl" Type="VI" URL="../TestInputs.ctl"/>
+		<Item Name="TestResults.ctl" Type="VI" URL="../TestResults.ctl"/>
 	</Item>
 	<Item Name="Get Measurement Details.vi" Type="VI" URL="../Get Measurement Details.vi"/>
 	<Item Name="Measurement Configuration.ctl" Type="VI" URL="../Measurement Configuration.ctl"/>
