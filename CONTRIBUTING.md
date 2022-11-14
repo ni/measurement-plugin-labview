@@ -1,11 +1,11 @@
-# Contributing to Measurement Services Support for LabVIEW
+# Contributing to MeasurementLink™ LabVIEW Support
 
-Contributions to Measurement Services Support for LabVIEW are welcome from all!
+Contributions to MeasurementLink LabVIEW Support for  are welcome from all!
 
-Measurement Services Support for LabVIEW is managed via [git](https://git-scm.com), with the canonical upstream
+MeasurementLink LabVIEW Support is managed via [git](https://git-scm.com), with the canonical upstream
 repository hosted on [GitHub](https://github.com/ni/measurement-services-labview/).
 
-Measurement Services Support for LabVIEW follows a pull-request model for development.  If you wish to
+MeasurementLink LabVIEW Support follows a pull-request model for development.  If you wish to
 contribute, you will need to create a GitHub account, fork this project, push a
 branch with your changes to your project, and then submit a pull request.
 
@@ -31,7 +31,7 @@ Procedure to build the repos:
 
 ### Discovery Client
 
-The Discovery Client registers and unregisters the measurement services to the Discovery Service and enumerates previously registered measurement services. All the measurements (service) will be registered to the Discovery Service (statically or dynamically), so that Client application can enumerate them.
+The Discovery Client registers and unregisters the MeasurementLink services to the Discovery Service and enumerates previously registered MeasurementLink services. All the measurements (service) will be registered to the Discovery Service (statically or dynamically), so that Client application can enumerate them.
 
 This repo is dependent on 1 & 2.1 from above dependency list.
 
@@ -95,4 +95,4 @@ For additional details on examples please refer the [example measurements docume
 (taken from [developercertificate.org](https://developercertificate.org/))
 
 See [LICENSE](https://github.com/ni/measurement-services-labview/blob/master/LICENSE)
-for details about how Measurement Services Support for LabVIEW is licensed.
+for details about how MeasurementLink LabVIEW Support is licensed.
