@@ -31,7 +31,7 @@ Procedure to build the repos:
 
 ### Discovery Client
 
-The Discovery Client registers and unregisters the MeasurementLink services to the Discovery Service and enumerates previously registered MeasurementLink services. All the measurements (service) will be registered to the Discovery Service (statically or dynamically), so that Client application can enumerate them.
+The Discovery Client registers and unregisters the MeasurementLink services to the Discovery Service and enumerates previously registered MeasurementLink services. All the measurement services will be registered to the Discovery Service (statically or dynamically), so that Client application can enumerate them.
 
 This repo is dependent on 1 & 2.1 from above dependency list.
 
