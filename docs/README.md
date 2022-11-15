@@ -67,7 +67,7 @@ Set up the following software before installing the given packages.
 
 1. Create a new LabVIEW project (say Measurement.lvproj) and open it.
 
-2. From the project window, go to `Tools` → `Measurement Framework` → `Measurement Plugins` → `New...` which opens a new measurement creation dialog.
+2. From the project window, go to `Tools` → `MeasurementLink` → `Create Measurement Service...` which opens a new measurement creation dialog.
     - In the new dialog, enter the `Measurement Service Name` that you would like to give to the measurement and click `Create Measurement Service`.
 
         ![New measurement dialog](images/New%20measurement%20dialog.png)
