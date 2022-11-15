@@ -20,7 +20,7 @@
 
 ## Introduction
 
-The LabVIEW MeasurementLink packages enable measurement developers to quickly create LabVIEW measurements and run them as a service(gRPC). Additionally, the `Measurement Framework` plugin allows users to interact with MeasurementLink services with LabVIEW UI in InstrumentStudio.
+The LabVIEW MeasurementLink packages enable measurement developers to quickly create LabVIEW measurements and run them as a service(gRPC). Additionally, `Measurement Framework` allows users to interact with MeasurementLink services with LabVIEW UI in InstrumentStudio.
 
 ---
 
