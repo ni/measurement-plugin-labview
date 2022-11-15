@@ -1,6 +1,6 @@
-# LabVIEW MeasurementLink™ Services
+# MeasurementLink™ Services LabVIEW Support
 
-- [LabVIEW MeasurementLink™ Services](#labview-measurementlink--services)
+- [MeasurementLink™ Services LabVIEW Support](#measurementlink--services-labview-support)
   - [Introduction](#introduction)
   - [Dependencies](#dependencies)
   - [Software support](#software-support)
@@ -20,7 +20,7 @@
 
 ## Introduction
 
-The LabVIEW MeasurementLink packages enable measurement developers to quickly create LabVIEW measurements and run them as a service(gRPC). Additionally, `ni-measurement-framework` allows users to interact with measurement services with LabVIEW UI in InstrumentStudio.
+The MeasurementLink Services LabVIEW Support packages enable measurement developers to quickly create LabVIEW measurements and run them as a service(gRPC). Additionally, `ni-measurement-framework` allows users to interact with measurement services with LabVIEW UI in InstrumentStudio.
 
 ---
 
@@ -54,7 +54,7 @@ Set up the following software before installing the given packages.
 
 1. Install the latest build of InstrumentStudio from `\\argo\ni\nipkg\feeds\ni-i\ni-instrumentstudio\`.
 2. Install the latest measurement service SDK from the network location `\\argo\ni\nipkg\feeds\ni-m\ni-measurementlink-development\`.
-3. Download and install the LabVIEW MeasurementLink packages in the following order.
+3. Download and install the MeasurementLink Services LabVIEW Support packages in the following order.
     1. `ni_lib_labview_grpc_library-x.x.x.x.vip` - Required
     2. `ni_lib_labview_grpc_servicer-x.x.x.x.vip` - Required
     3. `ni_lib_discovery_client-x.x.x.x.vip` - Required
