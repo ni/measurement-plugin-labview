@@ -1,11 +1,11 @@
-# Contributing to MeasurementLink™ Services LabVIEW Support
+# Contributing to MeasurementLink™ Support for LabVIEW
 
-Contributions to MeasurementLink Services LabVIEW Support are welcome from all!
+Contributions to MeasurementLink Support for LabVIEW are welcome from all!
 
-MeasurementLink Services LabVIEW Support is managed via [git](https://git-scm.com), with the canonical upstream
+MeasurementLink Support for LabVIEW is managed via [git](https://git-scm.com), with the canonical upstream
 repository hosted on [GitHub](https://github.com/ni/measurement-services-labview/).
 
-MeasurementLink Services LabVIEW Support follows a pull-request model for development.  If you wish to
+MeasurementLink Support for LabVIEW follows a pull-request model for development.  If you wish to
 contribute, you will need to create a GitHub account, fork this project, push a
 branch with your changes to your project, and then submit a pull request.
 
@@ -95,4 +95,4 @@ For additional details on examples please refer the [example measurements docume
 (taken from [developercertificate.org](https://developercertificate.org/))
 
 See [LICENSE](https://github.com/ni/measurement-services-labview/blob/master/LICENSE)
-for details about how MeasurementLink Services LabVIEW Support is licensed.
+for details about how MeasurementLink Support for LabVIEW is licensed.
