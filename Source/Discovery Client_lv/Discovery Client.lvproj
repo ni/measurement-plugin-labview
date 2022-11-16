@@ -15,7 +15,10 @@
 		<Item Name="Discovery_client" Type="Folder">
 			<Item Name="Discovery_client.lvlib" Type="Library" URL="../Discovery_client/Discovery_client.lvlib"/>
 		</Item>
-		<Item Name="Tests" Type="Folder" URL="../Tests">
+		<Item Name="Tests.Discovery Client_lv" Type="Folder" URL="../../Tests/Tests.Discovery Client_lv">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="TestUtilities.Discovery Client_lv" Type="Folder" URL="../../TestUtilities/TestUtilities.Discovery Client_lv">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
