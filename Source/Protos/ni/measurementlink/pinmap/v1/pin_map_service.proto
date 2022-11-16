@@ -35,14 +35,14 @@ service PinMapService {
     // - NOT_FOUND: Pin map resource for the specified pin map id is not found
     rpc QueryPins(QueryPinsRequest) returns (QueryPinsResponse);
 
-    // Get instrument resource names, channels, and instrument type for the specified sites, pins or pin groups, instrument type in the registered pin map resource.
+    // Get instrument resource names, channels, and instrument type for the specified sites, pins or pin groups, relays or relay groups, instrument type in the registered pin map resource.
     // Status Codes for errors:
     // - NOT_FOUND:
     //   - Pin map resource for the specified pin map id is not found.
     //   - Specified site number is not in the valid range for the registered pin map.
     // - INVALID_ARGUMENT:
-    //   - Specified pin is not present in the registered pin map resource.
-    //   - Empty string specified for a pin or pin group.
+    //   - Specified pin or relay is not present in the registered pin map resource.
+    //   - Empty string specified for a pin or relay name.
     rpc QueryResourceAccessInformation(QueryResourceAccessInformationRequest) returns (QueryResourceAccessInformationResponse);
 }
 
@@ -80,10 +80,11 @@ message QueryPinsRequest {
     // Optional. Filter pins by instrument type.
     // Pin maps have built in instrument definitions using the following NI driver based instrument type ids:
     //      "niDCPower"
-	//      "niDigitalPattern"
-	//      "niScope"
-	//      "niDMM"
-	//      "niDAQmx".
+    //      "niDigitalPattern"
+    //      "niScope"
+    //      "niDMM"
+    //      "niDAQmx"
+    //      "niFGen"
     // For custom instruments the user defined instrument type id is defined in the pin map file.
     string instrument_type_id = 2;
 }
@@ -124,16 +125,18 @@ message QueryResourceAccessInformationRequest {
     // Optional. The list of sites for which to get instrument resource access information. If unspecified, get instrument resource information for all sites in the registered pin map resource.
     repeated int32 sites = 2;
 
-    // Optional. The list of pins or pin groups for which to get instrument resource access information. If unspecified, get instrument resource information for all pins in the registered pin map resource.
-    repeated string pin_names = 3;
+    // Optional. The list of pins, pin groups, relays, or relay groups for which to get instrument resource access information. If unspecified, get instrument resource information for all pins and relays in the registered pin map resource.
+    repeated string pin_or_relay_names = 3;
 
     // Optional. The instrument type for which to get instrument resource access information. If unspecified, get instrument resource information for all instrument types connected in the registered pin map resource.
     // Pin maps have built in instrument definitions using the following NI driver based instrument type ids:
     //      "niDCPower"
-	//      "niDigitalPattern"
-	//      "niScope"
-	//      "niDMM"
-	//      "niDAQmx".
+    //      "niDigitalPattern"
+    //      "niScope"
+    //      "niDMM"
+    //      "niDAQmx"
+    //      "niFGen"
+    //      "niRelayDriver"
     // For custom instruments the user defined instrument type id is defined in the pin map file.
     string instrument_type_id = 4;
 }
@@ -152,15 +155,18 @@ message QueryResourceAccessInformationResponse {
         // For a resource that represents a group of instruments or channels in the pin map, the channel list is a comma separated list of fully qualified channels in the format <instrument_name>/<channel>, e.g. "DCPower1/0, DCPower1/2, DCPower2/0".
         // For a resource that represents a single instrument in the pin map that is not part of a group, the channel list is a comma separated list of channels, e.g. "0, 1, 2".
         // For NI-Digital Pattern devices, the channel list is a comma separated list of pins in the format <site_number>/<pin>, e.g. "site0/PinA, site1/PinB".
+        // For a resource that represents a relay driver, the channel list is a comma separated list of NISwitch relay names, e.g. "K0, K1, K2".
         string channel_list = 2;
 
         // The instrument type of the instrument resource.
         // Pin maps have built in instrument definitions using the following NI driver based instrument type ids:
         //      "niDCPower"
-	    //      "niDigitalPattern"
-	    //      "niScope"
-	    //      "niDMM"
-	    //      "niDAQmx".
+        //      "niDigitalPattern"
+        //      "niScope"
+        //      "niDMM"
+        //      "niDAQmx"
+        //      "niFGen"
+        //      "niRelayDriver"
         // For custom instruments the user defined instrument type id is defined in the pin map file.
         string instrument_type_id = 3;
     }
