@@ -1,6 +1,6 @@
-# LabVIEW Measurement Services
+# MeasurementLink™ Support for LabVIEW
 
-- [LabVIEW Measurement Services](#labview-measurement-services)
+- [MeasurementLink™ Support for LabVIEW](#measurementlink--support-for-labview)
   - [Introduction](#introduction)
   - [Dependencies](#dependencies)
   - [Software support](#software-support)
@@ -20,7 +20,7 @@
 
 ## Introduction
 
-The LabVIEW measurement service packages enable measurement developers to quickly create LabVIEW measurements and run them as a service(gRPC). Additionally, the `Measurement Framework` plugin allows users to interact with measurement services with LabVIEW UI in InstrumentStudio.
+The MeasurementLink Support for LabVIEW packages enable measurement developers to quickly create LabVIEW measurements and run them as a service(gRPC). Additionally, `ni-measurement-framework` allows users to interact with measurement services with LabVIEW UI in InstrumentStudio.
 
 ---
 
@@ -53,13 +53,13 @@ Set up the following software before installing the given packages.
 ## Installation
 
 1. Install the latest build of InstrumentStudio from `\\argo\ni\nipkg\feeds\ni-i\ni-instrumentstudio\`.
-2. Install the latest measurement service SDK from the network location `\\argo\ni\nipkg\feeds\ni-m\ni-measurement-sdk\`.
-3. Download and install the LabVIEW measurement services packages in the following order.
+2. Install the latest measurement service SDK from the network location `\\argo\ni\nipkg\feeds\ni-m\ni-measurementlink-development\`.
+3. Download and install the MeasurementLink Support for LabVIEW packages in the following order.
     1. `ni_lib_labview_grpc_library-x.x.x.x.vip` - Required
     2. `ni_lib_labview_grpc_servicer-x.x.x.x.vip` - Required
     3. `ni_lib_discovery_client-x.x.x.x.vip` - Required
-    4. `ni_lib_labview_measurement_service_template-x.x.x.x.vip` - Required
-    5. `ni_lib_labview_measurement_service_editor-x.x.x.x.vip` - Required
+    4. `ni_lib_labview_measurementlink_template-x.x.x.x.vip` - Required
+    5. `ni_lib_labview_measurementlink_editor-x.x.x.x.vip` - Required
 
 ---
 
@@ -67,7 +67,7 @@ Set up the following software before installing the given packages.
 
 1. Create a new LabVIEW project (say Measurement.lvproj) and open it.
 
-2. From the project window, go to `Tools` → `Measurement Framework` → `Measurement Plugins` → `New...` which opens a new measurement creation dialog.
+2. From the project window, go to `Tools` → `MeasurementLink` → `Create Measurement Service...` which opens a new measurement creation dialog.
     - In the new dialog, enter the `Measurement Service Name` that you would like to give to the measurement and click `Create Measurement Service`.
 
         ![New measurement dialog](images/New%20measurement%20dialog.png)
