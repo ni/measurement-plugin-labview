@@ -21,11 +21,16 @@ service SessionManagementService {
     // - INVALID_ARGUMENT:
     //     - Pin Map Context references a site number that is not defined in the pin map
     //     - Pin or relay name does not match any pin, pin group, relay, or relay group names in the pin map
+    //     - Timeout specified is less than -1.
     // - NOT_FOUND:
     //     - Pin Map Context has a pin map ID that does not match any pin maps registered with the Pin Map Service.
+    // - UNAVAILABLE:
+    //     - Session(s) were already reserved and didn't become available before the specified timeout expired.
     rpc ReserveSessions(ReserveSessionsRequest) returns (ReserveSessionsResponse);
 
     // Unreserves sessions so they can be accessed by other clients.
+    // - RESOURCE_EXHAUSTED:
+    //     - Error occurred while unreserving sessions.
     rpc UnreserveSessions(UnreserveSessionsRequest) returns (UnreserveSessionsResponse);
 
     // Registers the sessions with this service. Indicates that the sessions are open and will need to be closed later.
@@ -40,6 +45,10 @@ service SessionManagementService {
     rpc UnregisterSessions(UnregisterSessionsRequest) returns (UnregisterSessionsResponse);
 
     // Reserves and gets all sessions currently registered with this service.
+    // - INVALID_ARGUMENT:
+    //     - Timeout specified is less than -1.
+    // - UNAVAILABLE:
+    //     - Session(s) were already reserved and didn't become available before the specified timeout expired.
     rpc ReserveAllRegisteredSessions(ReserveAllRegisteredSessionsRequest) returns (ReserveAllRegisteredSessionsResponse);
 }
 
