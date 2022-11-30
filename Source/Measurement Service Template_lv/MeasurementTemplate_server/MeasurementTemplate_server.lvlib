@@ -104,7 +104,13 @@
 			<Item Name="google_protobuf_Field_Kind.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Field_Kind.ctl"/>
 		</Item>
 		<Item Name="Helper" Type="Folder">
+			<Item Name="TypeDefs" Type="Folder">
+				<Item Name="Type Specialization.ctl" Type="VI" URL="../Helper/TypeDefs/Type Specialization.ctl"/>
+				<Item Name="Key.ctl" Type="VI" URL="../Helper/TypeDefs/Key.ctl"/>
+			</Item>
 			<Item Name="Get Configuration Default.vi" Type="VI" URL="../Helper/Get Configuration Default.vi"/>
+			<Item Name="Get Configuration Metadata.vi" Type="VI" URL="../Helper/Get Configuration Metadata.vi"/>
+			<Item Name="Get Default Values From Type Def.vim" Type="VI" URL="../Helper/Get Default Values From Type Def.vim"/>
 			<Item Name="Get Discovery Service Address.vi" Type="VI" URL="../Helper/Get Discovery Service Address.vi"/>
 			<Item Name="Get Discovery Service Key File Path.vi" Type="VI" URL="../Helper/Get Discovery Service Key File Path.vi"/>
 			<Item Name="Get MetaData from Configurations.vi" Type="VI" URL="../Helper/Get MetaData from Configurations.vi"/>
@@ -121,6 +127,7 @@
 	</Item>
 	<Item Name="Get Measurement Details.vi" Type="VI" URL="../Get Measurement Details.vi"/>
 	<Item Name="Measurement Configuration.ctl" Type="VI" URL="../Measurement Configuration.ctl"/>
+	<Item Name="Configuration Metadata.ctl" Type="VI" URL="../Configuration Metadata.ctl"/>
 	<Item Name="Measurement Logic.vi" Type="VI" URL="../Measurement Logic.vi"/>
 	<Item Name="Measurement Results.ctl" Type="VI" URL="../Measurement Results.ctl"/>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
