@@ -121,6 +121,7 @@
 			<Item Name="Register Configuration and Results.vi" Type="VI" URL="../Helper/Register Configuration and Results.vi"/>
 			<Item Name="Register to Discovery Service.vi" Type="VI" URL="../Helper/Register to Discovery Service.vi"/>
 			<Item Name="Register UI Stop Event.vi" Type="VI" URL="../Helper/Register UI Stop Event.vi"/>
+			<Item Name="Validate Configuration Metadata.vi" Type="VI" URL="../Helper/Validate Configuration Metadata.vi"/>
 		</Item>
 		<Item Name="MeasurementService.lvclass" Type="LVClass" URL="../RPC Service/MeasurementService/MeasurementService.lvclass"/>
 		<Item Name="MeasurementContext.lvclass" Type="LVClass" URL="../RPC Service/MeasurementContext/MeasurementContext.lvclass"/>
