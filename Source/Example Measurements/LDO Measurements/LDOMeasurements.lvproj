@@ -116,12 +116,12 @@
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LineRegulation" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{161D5A7D-3A0F-4A43-BCD1-FFD7DEADF844}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{57725613-6685-43F7-AC76-44EF9C95481C}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{AECD358A-C06B-4424-8E8A-2047045290CD}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{9B730D3F-2732-42E9-AC18-C8AA8A0894DB}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{3A1CC22D-7E1C-41E1-BE28-2317992B312F}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{4325B710-6517-4AF6-B093-F3CB66BB4F1A}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">LineRegulation</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -130,7 +130,8 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build Assets/Post-Build Action.vi</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{265077C2-C023-4D25-8F42-10A6F553ABE0}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{77F7C42D-BA22-485A-BC36-E1625DEF32FB}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LineRegulation.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/LineRegulation/LineRegulation.exe</Property>
@@ -139,7 +140,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/LineRegulation/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E597BD39-EF64-44C9-986C-66C0B10E3ABE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AD51F9A4-0B93-44AB-9D83-70A17A826011}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LineRegulation.lvlib/Get Measurement Details.vi</Property>
@@ -150,39 +151,43 @@
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LineRegulation.lvlib/Measurement Logic.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LineRegulation.lvlib/Configuration Metadata.ctl</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/LineRegulation.lvlib/Measurement Results.ctl</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/LineRegulation.lvlib/Measurement Logic.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/LineRegulation.lvlib/Measurement UI.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/LineRegulation.lvlib/Measurement Results.ctl</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/LineRegulation.lvlib/Run Service.vi</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/LineRegulation.lvlib/Measurement UI.vi</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/LineRegulation.lvlib/Run Service.vi</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">LineRegulation</Property>
 				<Property Name="TgtF_internalName" Type="Str">LineRegulation</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 National Instruments</Property>
 				<Property Name="TgtF_productName" Type="Str">LineRegulation</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{BA185615-1D60-4372-8426-CFC513767C21}</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{4B2E880A-952F-4932-BC2F-31FD433CBF99}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">LineRegulation.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="LoadRegulation" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{63ED3008-178B-48A3-BA43-1A25E5A1E12A}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{C5172A88-3967-4ED7-AD83-9D24E8DB251D}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{A9AEC5BA-D157-4F20-9FB9-4259B9A7437F}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{D21D3EC2-3E48-4AB7-9DB5-EB173A91A7C9}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{31DBD85B-9874-4E09-B843-C5288996A4C7}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{3041B1B7-40B5-4C33-BEC6-109C3588E87F}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">LoadRegulation</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -191,7 +196,8 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build Assets/Post-Build Action.vi</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{34ACC1A8-2DCD-451F-80F7-B04067A6D9D1}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{F2648469-1C4E-485D-8184-03725D5E8702}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LoadRegulation.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/LoadRegulation/LoadRegulation.exe</Property>
@@ -200,7 +206,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/LoadRegulation/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E597BD39-EF64-44C9-986C-66C0B10E3ABE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B7CF08E7-C064-4B93-8B1D-2AD4A34DA6CC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LoadRegulation.lvlib/Get Measurement Details.vi</Property>
@@ -211,28 +217,32 @@
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LoadRegulation.lvlib/Measurement Logic.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LoadRegulation.lvlib/Configuration Metadata.ctl</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/LoadRegulation.lvlib/Measurement Results.ctl</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/LoadRegulation.lvlib/Measurement Logic.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/LoadRegulation.lvlib/Measurement UI.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/LoadRegulation.lvlib/Measurement Results.ctl</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/LoadRegulation.lvlib/Run Service.vi</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/LoadRegulation.lvlib/Measurement UI.vi</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/LoadRegulation.lvlib/Run Service.vi</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">LoadRegulation</Property>
 				<Property Name="TgtF_internalName" Type="Str">LoadRegulation</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 National Instruments</Property>
 				<Property Name="TgtF_productName" Type="Str">LoadRegulation</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{90804665-AC6F-42CE-8EE0-8368CE2DDCE4}</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{2D820610-CF0A-4DCB-879C-A34030185870}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">LoadRegulation.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
