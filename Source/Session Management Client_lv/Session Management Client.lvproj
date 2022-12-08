@@ -19,8 +19,8 @@
 		<Item Name="TestUtilities.Session Management Client_lv" Type="Folder" URL="../../TestUtilities/TestUtilities.Session Management Client_lv">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Session Management Client_v1" Type="Folder">
-			<Item Name="Session Management Client_v1.lvlib" Type="Library" URL="../Session Management Client_v1/Session Management Client_v1.lvlib"/>
+		<Item Name="Session Management_client" Type="Folder">
+			<Item Name="Session Management_client.lvlib" Type="Library" URL="../Session Management_client/Session Management_client.lvlib"/>
 		</Item>
 		<Item Name="Session Management Client Prototype Library.lvlib" Type="Library" URL="../Session Management Client Prototype Library.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -39,12 +39,12 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Pin Map Client_v1.lvlib" Type="Library" URL="../../Pin Map Client_lv/Pin Map Client_v1/Pin Map Client_v1.lvlib"/>
 			<Item Name="Pin Map Server Get Pin Map Service Address.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Pin Map Client_lv/Pin Map Server Get Pin Map Service Address.vi"/>
 			<Item Name="Discovery_client.lvlib" Type="Library" URL="../../Discovery Client_lv/Discovery_client/Discovery_client.lvlib"/>
 			<Item Name="Discovery Client Resolve Service.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Discovery Client_lv/Discovery Client Resolve Service.vi"/>
 			<Item Name="Discovery Server Get Discovery Service Address.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Discovery Client_lv/Discovery Server Get Discovery Service Address.vi"/>
 			<Item Name="Pin Map Client Create or Update Pin Map.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Pin Map Client_lv/Pin Map Client Create or Update Pin Map.vi"/>
+			<Item Name="Pin Map_client.lvlib" Type="Library" URL="../../Pin Map Client_lv/Pin Map_client/Pin Map_client.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
