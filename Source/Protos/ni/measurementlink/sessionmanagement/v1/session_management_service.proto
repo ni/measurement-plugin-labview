@@ -146,6 +146,17 @@ message ReserveAllRegisteredSessionsRequest {
     // Optional. Timeout for the reservation request.
     // Allowed values: 0 (non-blocking, fails immediately if resources cannot be reserved), -1 (infinite timeout), or any other positive numeric value (wait for that number of milliseconds)
     int32 timeout_in_milliseconds = 1;
+
+    // Optional. Instrument type ID of the registered sessions to reserve. If unspecified, reserve sessions for all instrument types connected in the registered pin map resource.
+    // Pin maps have built in instrument definitions using the following NI driver based instrument type ids:
+    //      "niDCPower"
+    //      "niDigitalPattern"
+    //      "niScope"
+    //      "niDMM"
+	//      "niDAQmx"
+	//      "niRelayDriver"
+    // For custom instruments the user defined instrument type id is defined in the pin map file.
+    string instrument_type_id = 2;
 }
 
 message ReserveAllRegisteredSessionsResponse{
