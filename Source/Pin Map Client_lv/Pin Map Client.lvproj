@@ -12,8 +12,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Pin Map_client" Type="Folder">
-			<Item Name="Pin Map_client.lvlib" Type="Library" URL="../Pin Map_client/Pin Map_client.lvlib"/>
+		<Item Name="MeasurementLink Pin Map Client" Type="Folder">
+			<Item Name="MeasurementLink Pin Map Client.lvlib" Type="Library" URL="../MeasurementLink Pin Map Client/MeasurementLink Pin Map Client.lvlib"/>
 		</Item>
 		<Item Name="Tests.Pin Map Client_lv" Type="Folder" URL="../../Tests/Tests.Pin Map Client_lv">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
