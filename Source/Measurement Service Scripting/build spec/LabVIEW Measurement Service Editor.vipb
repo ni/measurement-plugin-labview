@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-11-07 13:51:59" Modified_Date="2022-12-06 13:42:02" Creator="navin" Comments="" ID="49d9771c507e50eeb27b3c0830f02e8e">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-11-07 13:51:59" Modified_Date="2022-12-13 12:35:18" Creator="navin" Comments="" ID="d371af847d48fbe0dda858f86c4ceee2">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_LabVIEW_MeasurementLink_Editor</Package_File_Name>
-    <Library_Version>0.11.3.2</Library_Version>
+    <Library_Version>0.11.4.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\build</Library_Output_Folder>
