@@ -35,6 +35,11 @@ service PinMapService {
     // - NOT_FOUND: Pin map resource for the specified pin map id is not found
     rpc QueryPins(QueryPinsRequest) returns (QueryPinsResponse);
 
+    // Returns list of relays from the registered pin map resource.
+    // Status Codes for errors:
+    // - NOT_FOUND: Pin map resource for the specified pin map id is not found
+    rpc QueryRelays(QueryRelaysRequest) returns (QueryRelaysResponse);
+
     // Get instrument resource names, channels, and instrument type for the specified sites, pins or pin groups, relays or relay groups, instrument type in the registered pin map resource.
     // Status Codes for errors:
     // - NOT_FOUND:
@@ -102,7 +107,7 @@ message QueryPinsResponse {
         // Name of the dut pin.
         string display_name = 1;
 
-        // A boolean that indicates a system pin when 'true', or DUT pin when 'false'.
+        // A boolean that indicates a System pin when 'true', or DUT pin when 'false'.
         bool is_system_pin = 2;
     }
 
@@ -115,6 +120,38 @@ message QueryPinsResponse {
 
         // Distinct union of pins within this pin group, including those within nested pin groups.
         repeated string resolved_pins = 3;
+    }
+}
+
+message QueryRelaysRequest {
+    // Required. The resource id of the registered pin map resource.
+    string pin_map_id = 1;
+}
+
+message QueryRelaysResponse {
+    // List of relays on the registered pin map resource. This list includes both Site relays and System relays.
+    repeated RelayDefinition relays = 1;
+
+    // List of relay groups on the registered pin map resource.
+    repeated RelayGroupDefinition relay_groups = 2;
+
+    message RelayDefinition {
+        // Name of the relay.
+        string display_name = 1;
+
+        // A boolean that indicates a System relay when 'true', or Site relay when 'false'.
+        bool is_system_relay = 2;
+    }
+
+    message RelayGroupDefinition {
+        // Name of the relay group.
+        string display_name = 1;
+
+        // List of other relays or relay groups within this relay group.
+        repeated string relay_or_group_references = 2;
+
+        // Distinct union of relays within this relay group, including those within nested relay groups.
+        repeated string resolved_relays = 3;
     }
 }
 
