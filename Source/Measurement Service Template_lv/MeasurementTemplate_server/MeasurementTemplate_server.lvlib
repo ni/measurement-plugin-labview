@@ -105,7 +105,7 @@
 		</Item>
 		<Item Name="Helper" Type="Folder">
 			<Item Name="TypeDefs" Type="Folder">
-				<Item Name="Type Specializations.ctl" Type="VI" URL="../Helper/TypeDefs/Type Specializations.ctl"/>
+				<Item Name="Parameter Type Specialization.ctl" Type="VI" URL="../Helper/TypeDefs/Parameter Type Specialization.ctl"/>
 				<Item Name="Type Specialization.ctl" Type="VI" URL="../Helper/TypeDefs/Type Specialization.ctl"/>
 				<Item Name="Key.ctl" Type="VI" URL="../Helper/TypeDefs/Key.ctl"/>
 			</Item>
