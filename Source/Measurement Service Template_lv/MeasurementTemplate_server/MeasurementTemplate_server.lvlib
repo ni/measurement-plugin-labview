@@ -105,6 +105,7 @@
 		</Item>
 		<Item Name="Helper" Type="Folder">
 			<Item Name="TypeDefs" Type="Folder">
+				<Item Name="Parameter Type Specialization.ctl" Type="VI" URL="../Helper/TypeDefs/Parameter Type Specialization.ctl"/>
 				<Item Name="Type Specialization.ctl" Type="VI" URL="../Helper/TypeDefs/Type Specialization.ctl"/>
 				<Item Name="Key.ctl" Type="VI" URL="../Helper/TypeDefs/Key.ctl"/>
 			</Item>
@@ -126,9 +127,9 @@
 		<Item Name="MeasurementService.lvclass" Type="LVClass" URL="../RPC Service/MeasurementService/MeasurementService.lvclass"/>
 		<Item Name="MeasurementContext.lvclass" Type="LVClass" URL="../RPC Service/MeasurementContext/MeasurementContext.lvclass"/>
 	</Item>
+	<Item Name="Get Type Specializations.vi" Type="VI" URL="../Get Type Specializations.vi"/>
 	<Item Name="Get Measurement Details.vi" Type="VI" URL="../Get Measurement Details.vi"/>
 	<Item Name="Measurement Configuration.ctl" Type="VI" URL="../Measurement Configuration.ctl"/>
-	<Item Name="Configuration Metadata.ctl" Type="VI" URL="../Configuration Metadata.ctl"/>
 	<Item Name="Measurement Logic.vi" Type="VI" URL="../Measurement Logic.vi"/>
 	<Item Name="Measurement Results.ctl" Type="VI" URL="../Measurement Results.ctl"/>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
