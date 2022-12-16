@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-11-01 10:28:06" Modified_Date="2022-12-16 13:34:34" Creator="navin" Comments="" ID="f1137c731f63e6340dc2982bef75a1fd">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-11-01 10:28:06" Modified_Date="2022-12-16 15:35:11" Creator="navin" Comments="" ID="d35eec3d5ec47531a351fd687e5dbb14">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_Discovery_Client</Package_File_Name>
     <Library_Version>0.11.5.2</Library_Version>
@@ -34,7 +34,7 @@
       <Copyright/>
       <Packager>NI</Packager>
       <URL/>
-      <Release_Notes>This library contains a client interface to the NI MeasurementLink Discovery Service</Release_Notes>
+      <Release_Notes/>
     </Description>
     <Destinations>
       <Toolkit_VIs>

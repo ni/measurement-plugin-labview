@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-11-07 13:16:14" Modified_Date="2022-12-16 13:35:12" Creator="navin" Comments="" ID="99c408511b6960c2c2f0cfa054b95502">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-11-07 13:16:14" Modified_Date="2022-12-16 15:34:41" Creator="navin" Comments="" ID="c341a37c05235bf9e071692dfa5f15f2">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_LabVIEW_MeasurementLink_Template</Package_File_Name>
     <Library_Version>0.11.5.2</Library_Version>
@@ -35,7 +35,7 @@
       <Copyright/>
       <Packager>NI</Packager>
       <URL/>
-      <Release_Notes>This is the Measurement Service template for NI MeasurementLink</Release_Notes>
+      <Release_Notes/>
     </Description>
     <Destinations>
       <Toolkit_VIs>
