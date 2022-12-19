@@ -40,11 +40,11 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Pin Map Server Get Pin Map Service Address.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Pin Map Client_lv/Pin Map Server Get Pin Map Service Address.vi"/>
-			<Item Name="Discovery_client.lvlib" Type="Library" URL="../../Discovery Client_lv/Discovery_client/Discovery_client.lvlib"/>
 			<Item Name="Discovery Client Resolve Service.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Discovery Client_lv/Discovery Client Resolve Service.vi"/>
 			<Item Name="Discovery Server Get Discovery Service Address.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Discovery Client_lv/Discovery Server Get Discovery Service Address.vi"/>
 			<Item Name="Pin Map Client Create or Update Pin Map.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Pin Map Client_lv/Pin Map Client Create or Update Pin Map.vi"/>
 			<Item Name="MeasurementLink Pin Map Client.lvlib" Type="Library" URL="../../Pin Map Client_lv/MeasurementLink Pin Map Client/MeasurementLink Pin Map Client.lvlib"/>
+			<Item Name="MeasurementLink Discovery Client.lvlib" Type="Library" URL="../../Discovery Client_lv/MeasurementLink Discovery Client/MeasurementLink Discovery Client.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
