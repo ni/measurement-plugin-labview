@@ -3,6 +3,7 @@ syntax = "proto3";
 package ni.measurementlink.sessionmanagement.v1;
 
 import "ni/measurementlink/pin_map_context.proto";
+import "nidevice_grpc/session.proto";
 
 option csharp_namespace = "NationalInstruments.MeasurementLink.SessionManagement.V1";
 option go_package = "sessionmanagementv1";
@@ -52,16 +53,10 @@ service SessionManagementService {
     rpc ReserveAllRegisteredSessions(ReserveAllRegisteredSessionsRequest) returns (ReserveAllRegisteredSessionsResponse);
 }
 
-// Session identification information. Used to reference a specific session in NI grpc-device or in any other driver session management system.
-message Session {
-    // Required. Session name to uniquely identify the session in NI grpc-device or other drivers.
-    string name = 1;
-}
-
 message SessionInformation{
     // Session identifier used to identify the session in the session management service, as well as in driver services such as grpc-device.
     // This field is readonly.
-    Session session = 1;
+    nidevice_grpc.Session session = 1;
 
     // Resource name used to open this session in the driver.
     // This field is readonly.
@@ -78,8 +73,9 @@ message SessionInformation{
     //      "niDigitalPattern"
     //      "niScope"
     //      "niDMM"
-	//      "niDAQmx"
-	//      "niRelayDriver"
+    //      "niDAQmx"
+    //      "niFGen"
+    //      "niRelayDriver"
     // For custom instruments the user defined instrument type id is defined in the pin map file.
     // This field is readonly.
     string instrument_type_id = 4;
@@ -87,6 +83,24 @@ message SessionInformation{
     // Indicates whether the session exists in the Session Manager. This indicates whether the session has been created.
     // This field is readonly.
     bool session_exists = 5;
+
+    // List of site and pin/relay mappings that correspond to each channel in the channel_list.
+    // Each item contains a mapping corresponding to a channel in this instrument resource, in the order of the channel_list.
+    // This field is empty for any SessionInformation returned from ReserveAllRegisteredSessions.
+    // This field is readonly.
+    repeated ChannelMapping channel_mappings = 6;
+}
+
+message ChannelMapping {
+    // The pin or relay that is mapped to a channel.
+    string pin_or_relay_name = 1;
+
+    // The site on which the pin or relay is mapped to a channel.
+    // For system pins/relays the site number is -1 since they do not belong to a specific site.
+    int32 site = 2;
+
+    // The channel to which the pin or relay is mapped on this site.
+    string channel = 3;
 }
 
 message ReserveSessionsRequest {
@@ -102,8 +116,9 @@ message ReserveSessionsRequest {
     //      "niDigitalPattern"
     //      "niScope"
     //      "niDMM"
-	//      "niDAQmx"
-	//      "niRelayDriver"
+    //      "niDAQmx"
+    //      "niFGen"
+    //      "niRelayDriver"
     // For custom instruments the user defined instrument type id is defined in the pin map file.
     string instrument_type_id = 3;
 
@@ -153,8 +168,9 @@ message ReserveAllRegisteredSessionsRequest {
     //      "niDigitalPattern"
     //      "niScope"
     //      "niDMM"
-	//      "niDAQmx"
-	//      "niRelayDriver"
+    //      "niDAQmx"
+    //      "niFGen"
+    //      "niRelayDriver"
     // For custom instruments the user defined instrument type id is defined in the pin map file.
     string instrument_type_id = 2;
 }

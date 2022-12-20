@@ -38,7 +38,7 @@
 			</Item>
 			<Item Name="Discovery Client Resolve Service.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Discovery Client_lv/Discovery Client Resolve Service.vi"/>
 			<Item Name="Discovery Server Get Discovery Service Address.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Discovery Client_lv/Discovery Server Get Discovery Service Address.vi"/>
-			<Item Name="Discovery_client.lvlib" Type="Library" URL="../../Discovery Client_lv/Discovery_client/Discovery_client.lvlib"/>
+			<Item Name="MeasurementLink Discovery Client.lvlib" Type="Library" URL="../../Discovery Client_lv/MeasurementLink Discovery Client/MeasurementLink Discovery Client.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
