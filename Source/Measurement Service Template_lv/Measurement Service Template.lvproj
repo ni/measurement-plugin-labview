@@ -16,8 +16,10 @@
 			<Item Name="Post-Build Action.vi" Type="VI" URL="../MeasurementLink Measurement Server/MeasurementTemplate_server/Build Assets/Post-Build Action.vi"/>
 		</Item>
 		<Item Name="MeasurementLink Measurement Server" Type="Folder">
-			<Item Name="MeasurementLink Measurement Server Internal.lvlib" Type="Library" URL="../MeasurementLink Measurement Server Internal/MeasurementLink Measurement Server Internal.lvlib"/>
 			<Item Name="MeasurementLink Measurement Server.lvlib" Type="Library" URL="../MeasurementLink Measurement Server/MeasurementTemplate_server/MeasurementLink Measurement Server.lvlib"/>
+		</Item>
+		<Item Name="MeasurementLink Measurement Server Internal" Type="Folder">
+			<Item Name="MeasurementLink Measurement Server Internal.lvlib" Type="Library" URL="../MeasurementLink Measurement Server Internal/MeasurementLink Measurement Server Internal.lvlib"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -69,6 +71,7 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="google_protobuf_Field_Kind.ctl" Type="VI" URL="../MeasurementLink Measurement Server Internal/RPC Messages/google_protobuf_Field_Kind.ctl"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
