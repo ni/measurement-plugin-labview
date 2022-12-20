@@ -26,11 +26,12 @@
 			<Item Name="Register UI Stop Event.vi" Type="VI" URL="../Helper/Register UI Stop Event.vi"/>
 			<Item Name="Validate Configuration Metadata.vi" Type="VI" URL="../Helper/Validate Configuration Metadata.vi"/>
 		</Item>
-		<Item Name="PutInMeasurementClassOverride" Type="Folder">
-			<Item Name="RPC Method MeasurementService Measure Logic.vi" Type="VI" URL="../PutInMeasurementClassOverride/RPC Method MeasurementService Measure Logic.vi"/>
-			<Item Name="Start Sync.vi" Type="VI" URL="../PutInMeasurementClassOverride/Start Sync.vi"/>
+		<Item Name="Internal" Type="Folder">
+			<Item Name="google_protobuf_Field_Kind.ctl" Type="VI" URL="../RPC Service/MeasurementService/Internal/google_protobuf_Field_Kind.ctl"/>
+			<Item Name="RPC Method MeasurementService Measure Logic.vi" Type="VI" URL="../RPC Service/MeasurementService/Internal/RPC Method MeasurementService Measure Logic.vi"/>
 		</Item>
 		<Item Name="MeasurementContext.lvclass" Type="LVClass" URL="../RPC Service/MeasurementContext/MeasurementContext.lvclass"/>
+		<Item Name="MeasurementService.lvclass" Type="LVClass" URL="../RPC Service/MeasurementService/MeasurementService.lvclass"/>
 	</Item>
 	<Item Name="Get Measurement Details.vi" Type="VI" URL="../Get Measurement Details.vi"/>
 	<Item Name="Get Type Specializations.vi" Type="VI" URL="../Get Type Specializations.vi"/>
