@@ -13,7 +13,6 @@
 			</Item>
 			<Item Name="Get Configuration Default.vi" Type="VI" URL="../Helper/Get Configuration Default.vi"/>
 			<Item Name="Get Configuration Metadata.vi" Type="VI" URL="../Helper/Get Configuration Metadata.vi"/>
-			<Item Name="Get Default Values From Type Def.vim" Type="VI" URL="../Helper/Get Default Values From Type Def.vim"/>
 			<Item Name="Get Discovery Service Address.vi" Type="VI" URL="../Helper/Get Discovery Service Address.vi"/>
 			<Item Name="Get Discovery Service Key File Path.vi" Type="VI" URL="../Helper/Get Discovery Service Key File Path.vi"/>
 			<Item Name="Get MetaData from Configurations.vi" Type="VI" URL="../Helper/Get MetaData from Configurations.vi"/>
