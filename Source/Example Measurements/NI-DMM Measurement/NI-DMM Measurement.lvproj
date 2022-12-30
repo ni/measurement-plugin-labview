@@ -33,7 +33,6 @@
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Destroy Client.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/Session Management Client/Client API/Destroy Client.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
@@ -62,13 +61,9 @@
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
-				<Item Name="ni_measurementlink_PinMapContext.ctl" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/Session Management Client/RPC Messages/ni_measurementlink_PinMapContext.ctl"/>
-				<Item Name="ni_measurementlink_sessionmanagement_v1_ReserveSessionsRequest.ctl" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/Session Management Client/RPC Messages/ni_measurementlink_sessionmanagement_v1_ReserveSessionsRequest.ctl"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="SessionManagementService ReserveSessions.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/Session Management Client/RPC Service/SessionManagementService/SessionManagementService ReserveSessions.vi"/>
-				<Item Name="SessionManagementService UnreserveSessions.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/Session Management Client/RPC Service/SessionManagementService/SessionManagementService UnreserveSessions.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
