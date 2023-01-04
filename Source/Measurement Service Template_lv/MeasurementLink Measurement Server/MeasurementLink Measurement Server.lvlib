@@ -11,8 +11,8 @@
 			<Item Name="Parameter Type Specialization.ctl" Type="VI" URL="../Helpers/TypeDefs/Parameter Type Specialization.ctl"/>
 			<Item Name="Type Specialization.ctl" Type="VI" URL="../Helpers/TypeDefs/Type Specialization.ctl"/>
 		</Item>
-		<Item Name="Get Configuration Default.vi" Type="VI" URL="../Helpers/Get Configuration Default.vi"/>
 		<Item Name="Get Configuration Metadata.vi" Type="VI" URL="../Helpers/Get Configuration Metadata.vi"/>
+		<Item Name="Get Default for Type.vi" Type="VI" URL="../Helpers/Get Default for Type.vi"/>
 		<Item Name="Get Discovery Service Address.vi" Type="VI" URL="../Helpers/Get Discovery Service Address.vi"/>
 		<Item Name="Get Discovery Service Key File Path.vi" Type="VI" URL="../Helpers/Get Discovery Service Key File Path.vi"/>
 		<Item Name="Get MetaData from Configurations.vi" Type="VI" URL="../Helpers/Get MetaData from Configurations.vi"/>
