@@ -25,9 +25,6 @@
 			<Item Name="Register UI Stop Event.vi" Type="VI" URL="../Helper/Register UI Stop Event.vi"/>
 			<Item Name="Validate Configuration Metadata.vi" Type="VI" URL="../Helper/Validate Configuration Metadata.vi"/>
 		</Item>
-		<Item Name="Internal" Type="Folder">
-			<Item Name="RPC Method MeasurementService Measure Logic.vi" Type="VI" URL="../RPC Service/MeasurementService/Internal/RPC Method MeasurementService Measure Logic.vi"/>
-		</Item>
 		<Item Name="MeasurementContext.lvclass" Type="LVClass" URL="../RPC Service/MeasurementContext/MeasurementContext.lvclass"/>
 		<Item Name="MeasurementService.lvclass" Type="LVClass" URL="../RPC Service/MeasurementService/MeasurementService.lvclass"/>
 	</Item>
