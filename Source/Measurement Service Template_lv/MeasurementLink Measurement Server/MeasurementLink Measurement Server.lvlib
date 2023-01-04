@@ -7,6 +7,7 @@
 	<Item Name="Service" Type="Folder">
 		<Item Name="Helper" Type="Folder">
 			<Item Name="TypeDefs" Type="Folder">
+				<Item Name="google_protobuf_Field_Kind.ctl" Type="VI" URL="../Helper/TypeDefs/google_protobuf_Field_Kind.ctl"/>
 				<Item Name="Key.ctl" Type="VI" URL="../Helper/TypeDefs/Key.ctl"/>
 				<Item Name="Parameter Type Specialization.ctl" Type="VI" URL="../Helper/TypeDefs/Parameter Type Specialization.ctl"/>
 				<Item Name="Type Specialization.ctl" Type="VI" URL="../Helper/TypeDefs/Type Specialization.ctl"/>
@@ -25,7 +26,6 @@
 			<Item Name="Validate Configuration Metadata.vi" Type="VI" URL="../Helper/Validate Configuration Metadata.vi"/>
 		</Item>
 		<Item Name="Internal" Type="Folder">
-			<Item Name="google_protobuf_Field_Kind.ctl" Type="VI" URL="../RPC Service/MeasurementService/Internal/google_protobuf_Field_Kind.ctl"/>
 			<Item Name="RPC Method MeasurementService Measure Logic.vi" Type="VI" URL="../RPC Service/MeasurementService/Internal/RPC Method MeasurementService Measure Logic.vi"/>
 		</Item>
 		<Item Name="MeasurementContext.lvclass" Type="LVClass" URL="../RPC Service/MeasurementContext/MeasurementContext.lvclass"/>
