@@ -8,6 +8,7 @@
 		<Item Name="MeasurementPlugin.lvclass" Type="LVClass" URL="../Advanced/MeasurementPlugin.lvclass"/>
 	</Item>
 	<Item Name="Get Measurement Details.vi" Type="VI" URL="../Get Measurement Details.vi"/>
+	<Item Name="Get Type Specializations.vi" Type="VI" URL="../Get Type Specializations.vi"/>
 	<Item Name="Measurement Configuration.ctl" Type="VI" URL="../Measurement Configuration.ctl"/>
 	<Item Name="Measurement Logic.vi" Type="VI" URL="../Measurement Logic.vi"/>
 	<Item Name="Measurement Results.ctl" Type="VI" URL="../Measurement Results.ctl"/>
