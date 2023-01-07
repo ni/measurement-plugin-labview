@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Service" Type="Folder">
 		<Item Name="Helper" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="TypeDefs" Type="Folder">
 				<Item Name="Key.ctl" Type="VI" URL="../Helper/TypeDefs/Key.ctl"/>
 				<Item Name="Parameter Type Specialization.ctl" Type="VI" URL="../Helper/TypeDefs/Parameter Type Specialization.ctl"/>
