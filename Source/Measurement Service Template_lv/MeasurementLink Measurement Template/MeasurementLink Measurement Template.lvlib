@@ -5,6 +5,9 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Advanced" Type="Folder">
+		<Item Name="Build Assets" Type="Folder">
+			<Item Name="Post-Build Action.vi" Type="VI" URL="../Advanced/Build Assets/Post-Build Action.vi"/>
+		</Item>
 		<Item Name="MeasurementPlugin.lvclass" Type="LVClass" URL="../Advanced/MeasurementPlugin.lvclass"/>
 	</Item>
 	<Item Name="Get Measurement Details.vi" Type="VI" URL="../Get Measurement Details.vi"/>
