@@ -21,6 +21,9 @@
 		<Item Name="MeasurementLink Measurement Template" Type="Folder">
 			<Item Name="MeasurementLink Measurement Template.lvlib" Type="Library" URL="../MeasurementLink Measurement Template/MeasurementLink Measurement Template.lvlib"/>
 		</Item>
+		<Item Name="Tests.Measurement Service Template_lv" Type="Folder" URL="../../Tests/Tests.Measurement Service Template_lv">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
