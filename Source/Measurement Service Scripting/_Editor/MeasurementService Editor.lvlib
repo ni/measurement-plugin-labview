@@ -11,7 +11,6 @@
 		<Item Name="Create Build Specification.vi" Type="VI" URL="../Create Build Specification.vi"/>
 		<Item Name="Get Active Project Details.vi" Type="VI" URL="../Get Active Project Details.vi"/>
 		<Item Name="Get Measurement Library.vi" Type="VI" URL="../Get Measurement Library.vi"/>
-		<Item Name="Include Build Assets.vi" Type="VI" URL="../Include Build Assets.vi"/>
 		<Item Name="Open Project.vi" Type="VI" URL="../Open Project.vi"/>
 		<Item Name="Save As Measurement Service template.vi" Type="VI" URL="../Save As Measurement Service template.vi"/>
 		<Item Name="Update Measurement Details.vi" Type="VI" URL="../Update Measurement Details.vi"/>

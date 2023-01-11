@@ -12,14 +12,14 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Build Assets" Type="Folder">
-			<Item Name="Post-Build Action.vi" Type="VI" URL="../MeasurementLink Measurement Server/Build Assets/Post-Build Action.vi"/>
-		</Item>
 		<Item Name="MeasurementLink Measurement Server" Type="Folder">
 			<Item Name="MeasurementLink Measurement Server.lvlib" Type="Library" URL="../MeasurementLink Measurement Server/MeasurementLink Measurement Server.lvlib"/>
 		</Item>
 		<Item Name="MeasurementLink Measurement Server Internal" Type="Folder">
 			<Item Name="MeasurementLink Measurement Server Internal.lvlib" Type="Library" URL="../MeasurementLink Measurement Server Internal/MeasurementLink Measurement Server Internal.lvlib"/>
+		</Item>
+		<Item Name="MeasurementLink Measurement Template" Type="Folder">
+			<Item Name="MeasurementLink Measurement Template.lvlib" Type="Library" URL="../MeasurementLink Measurement Template/MeasurementLink Measurement Template.lvlib"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
