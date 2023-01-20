@@ -10,9 +10,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Build Assets" Type="Folder" URL="../Build Assets">
-			<Item Name="Post-Build Action.vi" Type="VI" URL="../Build Assets/Post-Build Action.vi"/>
-		</Item>
 		<Item Name="CancellableMeasurement.lvlib" Type="Library" URL="../Measurements/CancellableMeasurement/CancellableMeasurement.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -43,12 +40,12 @@
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="grpc-lvsupport-release.lvlib" Type="Library" URL="/&lt;vilib&gt;/gRPC/LabVIEW gRPC Library/grpc-lvsupport-release.lvlib"/>
 				<Item Name="gRPC-servicer-release.lvlib" Type="Library" URL="/&lt;vilib&gt;/gRPC/LabVIEW gRPC Servicer/gRPC-servicer-release.lvlib"/>
-				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="MeasurementLink Discovery Client.lvlib" Type="Library" URL="/&lt;vilib&gt;/MeasurementLink/Discovery Client/MeasurementLink Discovery Client.lvlib"/>
-				<Item Name="MeasurementTemplate_server-release.lvlib" Type="Library" URL="/&lt;vilib&gt;/MeasurementLink/LabVIEW Measurement Service Template/MeasurementTemplate_server-release.lvlib"/>
+				<Item Name="MeasurementLink Measurement Server Internal.lvlib" Type="Library" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server Internal/MeasurementLink Measurement Server Internal.lvlib"/>
+				<Item Name="MeasurementLink Measurement Server.lvlib" Type="Library" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/MeasurementLink Measurement Server.lvlib"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
@@ -73,12 +70,12 @@
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="CancellableMeasurement" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{47C2331B-C322-4118-958B-A1938FEF2FCC}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{10CD467D-1EDF-4F83-8F23-BC1C92DB1ACC}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{83268636-62EF-402D-8C00-5248453F7F3B}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{974FB533-95B6-431D-BD54-974A54D3F79E}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{3DD18BFF-0957-4FC3-A2DA-1BD6DDCB9D00}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{62FC4EF3-E0C7-4F30-8C7A-AA4ACB020442}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">CancellableMeasurement</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -86,8 +83,8 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/CancellableMeasurement</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Build Assets/Post-Build Action.vi</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{008D2872-73D2-4D93-B5B2-1E071758D349}</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/CancellableMeasurement.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{AFB06D57-6253-47DB-B708-84055E4B4137}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">CancellableMeasurement.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/CancellableMeasurement/CancellableMeasurement.exe</Property>
@@ -96,42 +93,47 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/CancellableMeasurement/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DBD10EBD-4E56-4F34-B667-7F72D42698F8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C051C76A-4E07-436D-AC55-88251660447C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CancellableMeasurement.lvlib/Get Measurement Details.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/CancellableMeasurement.lvlib/Measurement Configuration.ctl</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/CancellableMeasurement.lvlib/Get Type Specializations.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/CancellableMeasurement.lvlib/Configuration Metadata.ctl</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/CancellableMeasurement.lvlib/Get UI Details.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/CancellableMeasurement.lvlib/Measurement Logic.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/CancellableMeasurement.lvlib/Measurement Configuration.ctl</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/CancellableMeasurement.lvlib/Measurement Results.ctl</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/CancellableMeasurement.lvlib/Measurement Logic.vi</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/CancellableMeasurement.lvlib/Measurement UI.vi</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/CancellableMeasurement.lvlib/Measurement Results.ctl</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/CancellableMeasurement.lvlib/Run Service.vi</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/CancellableMeasurement.lvlib/Measurement UI.vi</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">8</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/CancellableMeasurement.lvlib/Run Service.vi</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[8].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">9</Property>
+				<Property Name="TgtF_companyName" Type="Str">National Instruments Corporation</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">CancellableMeasurement</Property>
 				<Property Name="TgtF_internalName" Type="Str">CancellableMeasurement</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 </Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 National Instruments Corporation</Property>
 				<Property Name="TgtF_productName" Type="Str">CancellableMeasurement</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{C442DB93-640B-46CB-BF0F-8B8EE615CB9E}</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{82448B19-14A7-477F-B3EA-C048824B5A42}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">CancellableMeasurement.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
