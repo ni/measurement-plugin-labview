@@ -15,4 +15,5 @@
 *.lvlps
 .cache/
 build/
+/Build Output/
 /Source/builds/
