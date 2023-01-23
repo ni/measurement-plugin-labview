@@ -12,12 +12,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="MeasurementLink Measurement Server" Type="Folder">
-			<Item Name="MeasurementLink Measurement Server.lvlib" Type="Library" URL="../MeasurementLink Measurement Server/MeasurementLink Measurement Server.lvlib"/>
-		</Item>
-		<Item Name="MeasurementLink Measurement Server Internal" Type="Folder">
-			<Item Name="MeasurementLink Measurement Server Internal.lvlib" Type="Library" URL="../MeasurementLink Measurement Server Internal/MeasurementLink Measurement Server Internal.lvlib"/>
-		</Item>
 		<Item Name="MeasurementLink Measurement Template" Type="Folder">
 			<Item Name="MeasurementLink Measurement Template.lvlib" Type="Library" URL="../MeasurementLink Measurement Template/MeasurementLink Measurement Template.lvlib"/>
 		</Item>
@@ -77,7 +71,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Measurement UI.vi" Type="VI" URL="../../Measurement Service Template_lv/MeasurementLink Measurement Template/Measurement UI.vi"/>
-			<Item Name="MeasurementLink Discovery Client.lvlib" Type="Library" URL="../MeasurementLink Discovery Client/MeasurementLink Discovery Client.lvlib"/>
+			<Item Name="MeasurementLink Discovery Client.lvlib" Type="Library" URL="../../Runtime/MeasurementLink Discovery Client/MeasurementLink Discovery Client.lvlib"/>
+			<Item Name="MeasurementLink Measurement Server Internal.lvlib" Type="Library" URL="../../Runtime/MeasurementLink Measurement Server Internal/MeasurementLink Measurement Server Internal.lvlib"/>
+			<Item Name="MeasurementLink Measurement Server.lvlib" Type="Library" URL="../../Runtime/MeasurementLink Measurement Server/MeasurementLink Measurement Server.lvlib"/>
 			<Item Name="MeasurementPlugin.lvclass" Type="LVClass" URL="../../Measurement Service Template_lv/MeasurementLink Measurement Template/Advanced/MeasurementPlugin.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
