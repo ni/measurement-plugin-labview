@@ -20,7 +20,7 @@
 	<Property Name="NI.LVClass.IsTransferClass" Type="Bool">false</Property>
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.1</Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="MeasurementLink Measurement Server.lvlib:MeasurementPluginService.lvclass" Type="Parent" URL="../../../../Runtime/MeasurementLink Measurement Server/Classes/MeasurementPluginService/MeasurementPluginService.lvclass"/>
+		<Item Name="MeasurementLink Measurement Server.lvlib:MeasurementPluginService.lvclass" Type="Parent" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Classes/MeasurementPluginService/MeasurementPluginService.lvclass"/>
 	</Item>
 	<Item Name="MeasurementPlugin.ctl" Type="Class Private Data" URL="MeasurementPlugin.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
