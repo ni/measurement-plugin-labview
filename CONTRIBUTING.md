@@ -21,48 +21,64 @@ See [GitHub's official documentation](https://help.github.com/articles/using-pul
 
 ## Getting Started
 
-Procedure to build the repos:
+The repo contains source code and package build specifications to build the two LabVIEW packages for MeasurementLink Support for LabVIEW.
 
-1. All the repo contains a folder called "build spec" which contains a specification file from VIPM.
+The source code can be found under the `Source` directory and the package definition files (.vipb) can be found under the `Build Specs` directory.
+
+## Building the LabVIEW Packages
+
+The source code is built into two LabVIEW packages
+
+* `ni_measurementlink_service`
+* `ni_measurementlink_generator`
+
+To build the packages:
+
+1. Open the desired VIPM specification file (.vipb) under the [`Build Specs`](https://github.com/ni/measurementlink-labview/tree/main/Source/Build%20Specs) folder
 2. Open the Specification file using VIPM 2020
-3. Click Build - Built .vip file will be created in a folder called "build" parallel to "build specs"
+3. Click Build - A .vip will be created in the `Build Output` folder under the repo root directory
 
-## Libraries Maintained in this repo
+## `ni_measurementlink_service` Package
+
+The `ni_measurementlink_service` package contains all of the libraries needed for a LabVIEW MeasurementLink service to run. This includes:
 
 ### Discovery Client
 
-The Discovery Client registers and unregisters the MeasurementLink services to the Discovery Service and enumerates previously registered MeasurementLink services. All the measurement services will be registered to the Discovery Service (statically or dynamically), so that Client application can enumerate them.
+The Discovery Client is a library which registers and unregisters MeasurementLink services with the Discovery Service and enumerates previously registered MeasurementLink services. All the measurement services must be registered with the Discovery Service (statically or dynamically) so that a client application can enumerate them.
 
-This repo is dependent on 1 & 2.1 from above dependency list.
+### Pin Map Client
 
-TODO: include the link to build procedure
+The Pin Map Client is a library which allows applications and services to register a pin map with the pin map service so it can be re-used across applications and services.
+
+### Session Management Client
+
+The MeasurementLink session management service manages driver sessions and driver session access. The driver session management service also allows you to keep driver sessions open and accessible to multiple measurement services while ensuring that only one service has access to a driver session at any given time.
+
+### Measurement Server Libraries
+
+These libraries (MeasurementLink Measurement Server and MeasurementLink Measurement Server Internal) provide shared source code for MeasurementLink services.
+
+## `ni_measurementlink_generator` Package
+
+The `ni_measurementlink_generator` depends on the `ni_measurementlink_service` package and contains these libraries:
 
 ### Measurement Service Template
 
-This repo contains the Measurement Service template, which has predefined functions to publish the metadata and make measurement operations. This also contains placeholder for measurement developers to add the measurement logic and metadata.
+This repo contains the Measurement Service template, which has predefined functions to publish the metadata and perform measurement operations. This also contains a placeholder for measurement developers to add their measurement logic and metadata.
 
-Measurement developers can instantiate a measurement from the template using the "Measurement Instantiation Tool". This repo is dependent on 1, 2.1, 2.2 from above dependency list and the built library of "Discovery Client".
+Measurement developers can instantiate a measurement from the template using the "Measurement Instantiation Tool".
 
-For additional details on measurement service template please refer the [measurements template documentation](source/Measurement%20Service%20Template_lv/README.md)
-
-TODO: include the link to build procedure
+For additional details on measurement service template please refer the [measurements template documentation](source/Generator/README.md)
 
 ### Measurement Instantiation Tool
 
-This repo contains the Script tool to instantiate a measurement from the "Measurement Service Template". This is dependent on 1 and built library of "Measurement Service Template".
+This repo contains a tool which creates a measurement from the "Measurement Service Template".
 
-TODO: include the link to build procedure
-TODO: includes instructions for launching the tool after installation.
-
-### Measurement Service Examples
+## Measurement Service Examples
 
 This repo contains example measurement routines developed using the "Measurement Service template". This is dependent on 1, 2.1, 2.2 from above dependency list and the built library of "Discovery Client".
 
 For additional details on examples please refer the [example measurements documentation](source/Example%20Measurements/README.md)
-
-## Testing
-
-- TODO: include testing steps here.
 
 ## Developer Certificate of Origin (DCO)
 
