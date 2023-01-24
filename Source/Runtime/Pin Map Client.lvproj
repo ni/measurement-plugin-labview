@@ -15,11 +15,10 @@
 		<Item Name="MeasurementLink Pin Map Client" Type="Folder">
 			<Item Name="MeasurementLink Pin Map Client.lvlib" Type="Library" URL="../MeasurementLink Pin Map Client/MeasurementLink Pin Map Client.lvlib"/>
 		</Item>
-		<Item Name="Tests.Pin Map Client_lv" Type="Folder" URL="../../Tests/Tests.Pin Map Client_lv">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
-		<Item Name="TestUtilities.Pin Map Client_lv" Type="Folder" URL="../../TestUtilities/TestUtilities.Pin Map Client_lv">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="Tests.Runtime" Type="Folder">
+			<Item Name="Pin Map Client" Type="Folder" URL="../../Tests/Tests.Runtime/Pin Map Client">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Pin Map Client Prototype Library.lvlib" Type="Library" URL="../Pin Map Client Prototype Library.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -36,9 +35,11 @@
 				<Item Name="Sort 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Sort 1D Array Core.vim"/>
 				<Item Name="Sort 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 1D Array.vim"/>
 			</Item>
-			<Item Name="Discovery Client Resolve Service.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Discovery Client_lv/Discovery Client Resolve Service.vi"/>
-			<Item Name="Discovery Server Get Discovery Service Address.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Discovery Client_lv/Discovery Server Get Discovery Service Address.vi"/>
-			<Item Name="MeasurementLink Discovery Client.lvlib" Type="Library" URL="../../Discovery Client_lv/MeasurementLink Discovery Client/MeasurementLink Discovery Client.lvlib"/>
+			<Item Name="Discovery Client - Resolve Service.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Runtime/Discovery Client - Resolve Service.vi"/>
+			<Item Name="Get Discovery Service Address.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Runtime/Service Lookup/Get Discovery Service Address.vi"/>
+			<Item Name="Get Pin Map Service Address.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Runtime/Service Lookup/Get Pin Map Service Address.vi"/>
+			<Item Name="MeasurementLink Discovery Client.lvlib" Type="Library" URL="../MeasurementLink Discovery Client/MeasurementLink Discovery Client.lvlib"/>
+			<Item Name="Pin Map Client - Create or Update Pin Map.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Runtime/Pin Map Client - Create or Update Pin Map.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
