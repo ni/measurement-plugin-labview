@@ -29,9 +29,9 @@ The MeasurementLink Support for LabVIEW packages enable measurement developers t
 Set up the following software before installing the given packages.
 
 - VI Package Manager 2020
-- LabVIEW 2020 SP1 or higher.
-- InstrumentStudio - Latest available from `\\argo\ni\nipkg\feeds\ni-i\ni-instrumentstudio\`
-- MeasurementLink - Latest available from `\\argo\ni\nipkg\feeds\ni-m\ni-measurementlink\`
+- LabVIEW 2020 SP1 or newer
+- InstrumentStudio - 2023 Q1 or newer
+- MeasurementLink - 2023 Q1 or newer
 
 ---
 
@@ -46,20 +46,19 @@ Set up the following software before installing the given packages.
 
 ### Supported version of InstrumentStudio
 
-- InstrumentStudio from `\\argo\ni\nipkg\feeds\ni-i\ni-instrumentstudio\`.
+- InstrumentStudio 2023 Q1 or newer
 
 ---
 
 ## Installation
 
-1. Install the latest build of InstrumentStudio from `\\argo\ni\nipkg\feeds\ni-i\ni-instrumentstudio\`.
-2. Install the latest measurement service SDK from the network location `\\argo\ni\nipkg\feeds\ni-m\ni-measurementlink-development\`.
+1. Install a supported version of InstrumentStudio
+2. Install a supported version of MeasurementLink
 3. Download and install the MeasurementLink Support for LabVIEW packages in the following order.
     1. `ni_lib_labview_grpc_library-x.x.x.x.vip` - Required
     2. `ni_lib_labview_grpc_servicer-x.x.x.x.vip` - Required
-    3. `ni_lib_discovery_client-x.x.x.x.vip` - Required
-    4. `ni_lib_labview_measurementlink_template-x.x.x.x.vip` - Required
-    5. `ni_lib_labview_measurementlink_editor-x.x.x.x.vip` - Required
+    3. `ni_measurementlink_service-x.x.x.x.vip` - Required
+    4. `ni_measurementlink_generator-x.x.x.x.vip` - Required
 
 ---
 
@@ -148,7 +147,7 @@ To run the measurements, follow the steps mentioned below:
     -To run Line Regulation, run `Run Service.vi` from `LineRegulation.lvlib`
     -To run Load Regulation, run `Run Service.vi` from `LoadRegulation.lvlib`
 
-4. Use the `Measurement Framework` and run the measurements interactively in InstrumentStudio. For more details, please refer to the section [Using the Measurement Framework plugin in InstrumentStudio](#using-the-measurement-framework-plugin-in-instrumentstudio).
+4. Use the `Measurement Framework` and run the measurements interactively in InstrumentStudio. For more details, please refer to the section [Using the measurement in InstrumentStudio](#using-the-measurement-in-instrumentstudio).
 
 Note: The Line and Load regulation measurements have not been tested with real hardware. They have only been tested with simulated instruments.
 
@@ -156,9 +155,9 @@ Note: The Line and Load regulation measurements have not been tested with real h
 
 ## Using the measurement in InstrumentStudio
 
-For the using LabVIEW measurements, install the latest measurement framework package from the network location `\\argo\ni\nipkg\feeds\ni-m\ni-measurement-framework\`.
+For using LabVIEW measurements, install a supported version of latest MeasurementLink
 
-To interact with a measurement in InstrumentStudio, follow the steps mentioned below:
+To interact with a measurement in InstrumentStudio, follow the steps below:
 
 1. Once all the packages are installed, open InstrumentStudio and click on `Manual Layout`.
 
