@@ -14,5 +14,6 @@
 *.aliases
 *.lvlps
 .cache/
-build/
-/Source/builds/
+
+# Builds
+/Build Output/
