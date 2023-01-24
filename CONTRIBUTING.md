@@ -68,7 +68,7 @@ This repo contains the Measurement Service template, which has predefined functi
 
 Measurement developers can instantiate a measurement from the template using the "Measurement Instantiation Tool".
 
-For additional details on measurement service template please refer the [measurements template documentation](source/Generator/README.md)
+For additional details on the measurement service template please refer to the [measurement template documentation](source/Generator/README.md)
 
 ### Measurement Instantiation Tool
 
@@ -76,9 +76,9 @@ This repo contains a tool which creates a measurement from the "Measurement Serv
 
 ## Measurement Service Examples
 
-This repo contains example measurement routines developed using the "Measurement Service template". This is dependent on 1, 2.1, 2.2 from above dependency list and the built library of "Discovery Client".
+This repo contains example measurement services developed using the "Measurement Service Template". They are dependent on the `ni_measurementlink_service` package being installed.
 
-For additional details on examples please refer the [example measurements documentation](source/Example%20Measurements/README.md)
+For additional details on examples please refer to the [example measurements documentation](source/Example%20Measurements/README.md)
 
 ## Developer Certificate of Origin (DCO)
 

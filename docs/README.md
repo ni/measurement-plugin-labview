@@ -52,8 +52,8 @@ Set up the following software before installing the given packages.
 
 ## Installation
 
-1. Install the latest build of InstrumentStudio
-2. Install the latest MeasurementLink
+1. Install a supported version of InstrumentStudio
+2. Install a supported version of MeasurementLink
 3. Download and install the MeasurementLink Support for LabVIEW packages in the following order.
     1. `ni_lib_labview_grpc_library-x.x.x.x.vip` - Required
     2. `ni_lib_labview_grpc_servicer-x.x.x.x.vip` - Required
@@ -147,7 +147,7 @@ To run the measurements, follow the steps mentioned below:
     -To run Line Regulation, run `Run Service.vi` from `LineRegulation.lvlib`
     -To run Load Regulation, run `Run Service.vi` from `LoadRegulation.lvlib`
 
-4. Use the `Measurement Framework` and run the measurements interactively in InstrumentStudio. For more details, please refer to the section [Using the Measurement Framework plugin in InstrumentStudio](#using-the-measurement-framework-plugin-in-instrumentstudio).
+4. Use the `Measurement Framework` and run the measurements interactively in InstrumentStudio. For more details, please refer to the section [Using the measurement in InstrumentStudio](#using-the-measurement-in-instrumentstudio).
 
 Note: The Line and Load regulation measurements have not been tested with real hardware. They have only been tested with simulated instruments.
 
@@ -155,9 +155,9 @@ Note: The Line and Load regulation measurements have not been tested with real h
 
 ## Using the measurement in InstrumentStudio
 
-For the using LabVIEW measurements, install the latest MeasurementLink
+For using LabVIEW measurements, install a supported version of latest MeasurementLink
 
-To interact with a measurement in InstrumentStudio, follow the steps mentioned below:
+To interact with a measurement in InstrumentStudio, follow the steps below:
 
 1. Once all the packages are installed, open InstrumentStudio and click on `Manual Layout`.
 
