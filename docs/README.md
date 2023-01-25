@@ -123,7 +123,7 @@ To run the measurements, follow the below steps
 
 ## Examples
 
-The `Source\Example Measurements` directory contains example measurement services. See the [README.md](https://github.com/ni/measurementlink-labview/blob/main/Source/Example%20Measurements/README.md) file there for more information.
+The `Source\Example Measurements` directory contains example measurement services. See the [README.md](../Source/Example%20Measurements/README.md) file there for more information.
 
 ---
 

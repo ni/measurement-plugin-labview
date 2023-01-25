@@ -3,7 +3,6 @@
 This directory contains these example measurements:
 
 - `CancellableMeasurement`: Demonstrates a simple measurement that takes a specified length of time and can be cancelled while it is running.
-- `NI-DMM Measurement`: Performs a measurement using an NI DMM.
 
 For more details about a specific example, see the `README.md` file included with the example.
 
@@ -24,9 +23,9 @@ Click the Stop button on the front panel of `Run Service.vi`.
 
 ### Make Changes to the Measurement Logic
 
-Measurement logic for the measurements is contained in `Measurement Logic.vi` measurement service library.
+Measurement logic for the measurements is contained in `Measurement Logic.vi`.
 
 ### How to add new UI elements
 
-The User Interface is defined by `Measurement UI.vi` under `<LibraryName>.lvlib\`. The control and indicator names in the User Interface should match the `Measurement Configuration` and `Measurement Results`. If the datatype and name matches, then the data from the UI will
+The User Interface is defined by `Measurement UI.vi`. The control and indicator names in the User Interface should match the `Measurement Configuration` and `Measurement Results`. If the datatype and name matches, then the data from the UI will
 be sent to the logic before execution and the results will be published to UI after the measurement is run.
