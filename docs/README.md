@@ -20,7 +20,7 @@
 
 ## Introduction
 
-The MeasurementLink Support for LabVIEW packages enable measurement developers to quickly create LabVIEW measurements and run them as a service(gRPC). Additionally, `ni-measurement-framework` allows users to interact with measurement services with LabVIEW UI in InstrumentStudio.
+The MeasurementLink Support for LabVIEW packages enable measurement developers to quickly create LabVIEW measurements and run them as a service(gRPC). MeasurementLink allows users to interact with measurement services with a LabVIEW UI in InstrumentStudio.
 
 ---
 
@@ -100,7 +100,7 @@ Set up the following software before installing the given packages.
 
     ![Measurement UI](images/Measurement%20UI.png)
 
-Note: 
+Note:
 
 - Additional info could be found in the to-do sections in the code, this can be viewed using `Bookmark Manager` - You can open it from LabVIEW → `View` → `Bookmark Manager`. In this window, you can find the bookmark term `#MeasurementToDo`, double-clicking on the items will take you to all the VIs where changes can be done to create a measurement.
 - Scalars(int, double, uint, sint, string, boolean) and DoubleArray are the supported datatypes for the `Configuration` and `Output` parameters of the measurement.
@@ -113,7 +113,7 @@ To run the measurements, follow the below steps
 
 1. Open `<MeasurementName>.lvproj` that contains the Measurement Service library.
 
-2. Start the discovery service if the measurement is to be used in InstrumentStudio Measurement Framework.
+2. Start the discovery service if the measurement is to be used in InstrumentStudio.
 
 3. Run the `Run Service.vi` from `<MeasurementName>.lvlib` to run the measurement service from `<MeasurementName>.lvproj`
 
@@ -123,39 +123,49 @@ To run the measurements, follow the below steps
 
 ## Example Measurements
 
-The example measurements provided contain the following projects:
+### **LDO measurement**
 
-- **LDO measurement**: The project performs simple LDO measurements. The type of LDO measurements performed are:
-  - Line Regulation
-  - Load Regulation
+Performs simple LDO measurements. The type of LDO measurements performed are:
 
-### Dependencies for the example measurements
+- Line Regulation
+- Load Regulation
+
+Dependencies
 
 1. LabVIEW 2020 64 bit
 2. NI-DC Power driver.
 3. NI-DMM driver.
 
-### Running the LDO measurement example
+Running the LDO measurement example
 
 To run the measurements, follow the steps mentioned below:
 
 1. Open `LDOMeasurements.lvproj` from the examples provided.
 
-2. Start the discovery service if the measurement is to be used in InstrumentStudio Measurement Framework.
+2. Start the discovery service if the measurement is to be used in InstrumentStudio.
 
 3. Run the following VI to run the measurement service from `LDOMeasurements.lvproj`
     -To run Line Regulation, run `Run Service.vi` from `LineRegulation.lvlib`
     -To run Load Regulation, run `Run Service.vi` from `LoadRegulation.lvlib`
 
-4. Use the `Measurement Framework` and run the measurements interactively in InstrumentStudio. For more details, please refer to the section [Using the measurement in InstrumentStudio](#using-the-measurement-in-instrumentstudio).
+4. Run the measurements interactively in InstrumentStudio. For more details, please refer to the section [Using a measurement in InstrumentStudio](#using-a-measurement-in-instrumentstudio).
 
 Note: The Line and Load regulation measurements have not been tested with real hardware. They have only been tested with simulated instruments.
 
+### Cancellable Measurement
+
+Demonstrates a simple measurement that takes a specified length
+of time and can be cancelled while it is running.
+
+It will run for the amount of time specified with the `Delay (sec)` in the UI unless the `STOP` button is clicked.
+
+Once the measurement completes or is cancelled, it will return a random number.
+
 ---
 
-## Using the measurement in InstrumentStudio
+## Using a measurement in InstrumentStudio
 
-For using LabVIEW measurements, install a supported version of latest MeasurementLink
+For using LabVIEW measurements, install a supported version of MeasurementLink
 
 To interact with a measurement in InstrumentStudio, follow the steps below:
 
