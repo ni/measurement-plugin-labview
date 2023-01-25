@@ -3,7 +3,7 @@
 This directory contains these example measurements:
 
 - `CancellableMeasurement`: Demonstrates a simple measurement that takes a specified length of time and can be cancelled while it is running.
-- `NI-DMM Measurement`: Performs a DMM measurement using NI-VISA and an NI Instrument Simulator v2.0.
+- `NI-DMM Measurement`: Performs a measurement using an NI DMM.
 
 For more details about a specific example, see the `README.md` file included with the example.
 
