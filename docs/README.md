@@ -121,45 +121,14 @@ To run the measurements, follow the below steps
 
 ---
 
-## Example Measurements
+## Examples
 
-### **LDO measurement**
+The `Source\Example Measurements` directory contains the following example projects:  
 
-Performs simple LDO measurements. The type of LDO measurements performed are:
+- `CancellableMeasurement`: Demonstrates a simple measurement that takes a specified length of time and can be cancelled while it is running.
+- `NI-DMM Measurement`: Performs a DMM measurement using NI-VISA and an NI Instrument Simulator v2.0.
 
-- Line Regulation
-- Load Regulation
-
-Dependencies
-
-1. LabVIEW 2020 64 bit
-2. NI-DC Power driver.
-3. NI-DMM driver.
-
-Running the LDO measurement example
-
-To run the measurements, follow the steps mentioned below:
-
-1. Open `LDOMeasurements.lvproj` from the examples provided.
-
-2. Start the discovery service if the measurement is to be used in InstrumentStudio.
-
-3. Run the following VI to run the measurement service from `LDOMeasurements.lvproj`
-    -To run Line Regulation, run `Run Service.vi` from `LineRegulation.lvlib`
-    -To run Load Regulation, run `Run Service.vi` from `LoadRegulation.lvlib`
-
-4. Run the measurements interactively in InstrumentStudio. For more details, please refer to the section [Using a measurement in InstrumentStudio](#using-a-measurement-in-instrumentstudio).
-
-Note: The Line and Load regulation measurements have not been tested with real hardware. They have only been tested with simulated instruments.
-
-### Cancellable Measurement
-
-Demonstrates a simple measurement that takes a specified length
-of time and can be cancelled while it is running.
-
-It will run for the amount of time specified with the `Delay (sec)` in the UI unless the `STOP` button is clicked.
-
-Once the measurement completes or is cancelled, it will return a random number.
+For more details about a specific example, see the `README.md` file included with the example.
 
 ---
 
