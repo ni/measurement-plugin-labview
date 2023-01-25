@@ -1,7 +1,11 @@
 # CancellableMeasurement
 
-This is a MeasurementLink example that demonstrates a simple measurement that
-can be cancelled while it is running.
+This is a MeasurementLink example that demonstrates a measurement
+that takes a specified length of time and can be cancelled while it is running.
+
+It will run for the amount of time specified with the `Delay (sec)` in the UI unless the `STOP` button is clicked.
+
+Once the measurement completes or is cancelled, it will return a random number.
 
 ## Features
 
