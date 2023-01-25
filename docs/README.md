@@ -123,12 +123,7 @@ To run the measurements, follow the below steps
 
 ## Examples
 
-The `Source\Example Measurements` directory contains the following example projects:  
-
-- `CancellableMeasurement`: Demonstrates a simple measurement that takes a specified length of time and can be cancelled while it is running.
-- `NI-DMM Measurement`: Performs a DMM measurement using NI-VISA and an NI Instrument Simulator v2.0.
-
-For more details about a specific example, see the `README.md` file included with the example.
+The `Source\Example Measurements` directory contains example measurement services. See the [README.md](https://github.com/ni/measurementlink-labview/blob/main/Source/Example%20Measurements/README.md) file there for more information.
 
 ---
 
