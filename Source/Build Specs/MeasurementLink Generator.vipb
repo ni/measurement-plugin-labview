@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2023-01-23 16:39:29" Creator="lvadmin" Comments="" ID="7fa7c578cc0f4c71cecbd7c4a682f358">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2023-01-27 11:34:32" Creator="lvadmin" Comments="" ID="664982c683a8ff31ab35301cdf1798a6">
   <Library_General_Settings>
     <Package_File_Name>NI_MeasurementLink_Generator</Package_File_Name>
-    <Library_Version>0.12.1.1</Library_Version>
+    <Library_Version>0.12.1.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Generator</Library_Source_Folder>
     <Library_Output_Folder>..\..\Build Output</Library_Output_Folder>
