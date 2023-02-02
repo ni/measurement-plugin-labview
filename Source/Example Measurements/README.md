@@ -15,7 +15,7 @@ To run the example measurement, follow these steps
 
 1. Open the LabVIEW project (.lvproj) file for the example.
 2. Open and Run the following VI to run the measurement service: `Run Service.vi`
-3. For examples that use a pin map, the name of the device in MAX must match the name of the device in the pin map.
+3. For examples that use a pin map, the name of the device in NI MAX must match the name of the device in the pin map.
 4. For examples that have a TestStand sequence, the LabVIEW adapter configuration must be set to use the LabVIEW development system.
 See the [TestStand help](https://www.ni.com/docs/en-US/bundle/teststand/page/tsref/infotopics/db_lvadapterconfig.htm) for more details.
 
