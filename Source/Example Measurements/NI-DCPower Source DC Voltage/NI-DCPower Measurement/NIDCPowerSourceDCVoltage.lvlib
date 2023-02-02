@@ -14,7 +14,7 @@
 		<Item Name="MeasurementPlugin.lvclass" Type="LVClass" URL="../Advanced/MeasurementPlugin.lvclass"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
-		<Item Name="Convert Location to Address String.vi" Type="VI" URL="../subVIs/Convert Location to Address String.vi"/>
+		<Item Name="Convert Location to Insecure Address.vi" Type="VI" URL="../subVIs/Convert Location to Insecure Address.vi"/>
 		<Item Name="DCPower Specific Logic.vi" Type="VI" URL="../subVIs/DCPower Specific Logic.vi"/>
 		<Item Name="Location to Grpc Device.vi" Type="VI" URL="../subVIs/Location to Grpc Device.vi"/>
 	</Item>
@@ -30,5 +30,6 @@
 	<Item Name="Measurement Logic.vi" Type="VI" URL="../Measurement Logic.vi"/>
 	<Item Name="Measurement Results.ctl" Type="VI" URL="../Measurement Results.ctl"/>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
+	<Item Name="NIDCPowerSourceDCVoltage.measui" Type="Document" URL="../NIDCPowerSourceDCVoltage.measui"/>
 	<Item Name="Run Service.vi" Type="VI" URL="../Run Service.vi"/>
 </Library>
