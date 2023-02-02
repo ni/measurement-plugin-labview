@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="7364509826D5223CB98E18F90D185C064B6E0F29F5AE55C6EC8EA8FD921E9E2C8C105B621B61F12FAA1BB728FA99C6A7F6224634A2F356F3AE97FF6D1A23619C" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="41CFF7E1B66AAC20B6BB19D74A3315F89B3C7395AA5C6B42459B623D4A804F9F9E9C8FD5D392FAB4241FC7163BB3919DF0A4282070EAD06D1207F8C158BCD7F7" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="23.0.0.49859" FeatureSetName="Pin Map" Name="http://www.ni.com/InstrumentFramework/PinMap" OldestCompatibleVersion="21.3.0.0" Version="21.3.0.0" />
 		<ParsableNamespace AssemblyFileVersion="23.0.0.2176" FeatureSetName="InstrumentStudio Measurement UI" Name="http://www.ni.com/InstrumentFramework/ScreenDocument" OldestCompatibleVersion="22.1.0.1" Version="22.1.0.1" />
@@ -31,7 +31,7 @@
 			<DefaultTarget />
 			<FileReference Id="4bacc157c73d4873a743b1a055f4db93" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/PinMap}PinMapDefinition" Name="NIDCPowerSourceDCVoltage.pinmap" StoragePath="NIDCPowerSourceDCVoltage.pinmap" p4:IsActive="True" xmlns:p4="http://www.ni.com/InstrumentFramework/PinMap" />
 			<FileReference Id="15a41629700344d2923b6759febdc0c8" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/PinMap}PinMapDefinition" Name="NIDCPowerSourceDCVoltageMultiSite.pinmap" StoragePath="NIDCPowerSourceDCVoltageMultiSite.pinmap" />
-			<SourceFileReference Id="9136894019dc44cb926c05b24d70e0dd" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/ScreenDocument}Screen" Name="NIDCPowerSourceDCVoltage.measui" StoragePath="NIDCPowerSourceDCVoltage.measui" />
+			<SourceFileReference Id="8d670c4f9ed442e1996f06a2a730d67e" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/ScreenDocument}Screen" Name="NIDCPowerSourceDCVoltage.measui" StoragePath="NI-DCPower Measurement\NIDCPowerSourceDCVoltage.measui" />
 		</NameScopingEnvoy>
 	</Project>
 	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
