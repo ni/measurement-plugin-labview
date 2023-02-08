@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="A2B546FC774B8D1033644DF55A823D7E547AB24E9BA22692B73AAEBF45D6B38E188CC4017AD437989BDA749C7D046BE8D00B0A9BB47CE58FB0AEFAE63CC6C906" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="23.0.0.2176" FeatureSetName="Pin Map" Name="http://www.ni.com/InstrumentFramework/PinMap" OldestCompatibleVersion="21.3.0.0" Version="21.3.0.0" />
+		<ParsableNamespace AssemblyFileVersion="9.7.0.2176" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="23.0.0.2176" Name="InstrumentStudio" PersistenceVersion="22.1.0.0" Version="23.0.0.2176" />
+	</SourceModelFeatureSet>
+	<Project xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="41cfeabfcd4a4367beec12efa26c714f" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="259a6ca2cffe41288cf05798e9c75ae1" ModelDefinitionType="NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager" Name="ProjectExplorer">
+			<ProjectExplorer />
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="204359c652f64a238667aa940faa6649" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
+			<DefaultTarget />
+			<SourceFileReference Bindings="EnvoyManager" Id="78152d6ec134497b89f2ad8bb85f6b5e" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="NIDCPowerSourceDCVoltage.sfp" StoragePath="NIDCPowerSourceDCVoltage.sfp" />
+			<FileReference Id="c3e2edae7e684dfdbf0cf2c0680cfd15" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/PinMap}PinMapDefinition" Name="NIDCPowerSourceDCVoltage.pinmap" StoragePath="NIDCPowerSourceDCVoltage.pinmap" p4:IsActive="False" xmlns:p4="http://www.ni.com/InstrumentFramework/PinMap" />
+			<FileReference Id="84b06cb2bb174277b35913068118face" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/PinMap}PinMapDefinition" Name="NIDCPowerSourceDCVoltageMultiSite.pinmap" StoragePath="NIDCPowerSourceDCVoltageMultiSite.pinmap" p4:IsActive="True" xmlns:p4="http://www.ni.com/InstrumentFramework/PinMap" />
+		</NameScopingEnvoy>
+	</Project>
+	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
+</SourceFile>
