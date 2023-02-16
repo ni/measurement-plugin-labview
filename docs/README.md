@@ -73,14 +73,12 @@ Set up the following software before installing the given packages.
 
     - This will create a new measurement service library in the project with the required assets for developing a measurement service.
 
-        ![Measurement library files](images/Mesurement%20library%20files.png)
+        ![Measurement library files](images/Measurement%20library%20files.png)
 
 3. Add the measurement details in the block diagram of the `Get Measurement Details.vi` including:
     - display name
     - version
-    - measurement type
-    - product type
-    - service id
+    - Service Class
 
     ![Get Measurement Details VI](images/Get%20Measurement%20Details%20VI.png)
 
@@ -92,32 +90,32 @@ Set up the following software before installing the given packages.
 
     ![Measurement Results ctl](images/Measurement%20Results%20ctl.png)
 
-6. Provide the measurement logic in the `Measurement Logic.vi` file. This file will have the configuration and the output parameters readily available from `Measurement Configuration.ctl` and `Measurement Results.ctl`. By default, the logic takes the `Array in` and stores it in `Array out`.
+6. Provide the measurement logic in the `Measurement Logic.vi` block diagram. The diagram has an input cluster including the configuration parameters and an output cluster containing the output parameters from `Measurement Configuration.ctl` and `Measurement Results.ctl`. By default, the logic takes the `Array in` and sends it directly to `Array out`.
 
     ![Measurement Logic VI](images/Measurement%20Logic%20VI.png)
 
-7. Create the user interface in `Measurement UI.vi` under the `<LibraryName>.lvlib\`. The control and indicator names in the user interface should match the `Measurement Configuration` and `Measurement Results`. If the data type and name match, then the data from the UI will send to the logic before execution, and the results will be published to UI after the measurement is run. By default, the UI file consists of an 'Array In' control and 'Array Out' indicator.
+7. Create the user interface in `Measurement UI.vi` under the `<LibraryName>.lvlib\`. The control and indicator names in the user interface should match the `Measurement Configuration` and `Measurement Results`. If the data type and name match, then the data from the controls will be sent to the `Measurement Logic.vi` and the results will be published to the indicators after the measurement is run. By default, the UI file consists of an 'Array In' control and 'Array Out' indicator.
 
     ![Measurement UI](images/Measurement%20UI.png)
 
 Note:
 
-- Additional info could be found in the to-do sections in the code, this can be viewed using `Bookmark Manager` - You can open it from LabVIEW → `View` → `Bookmark Manager`. In this window, you can find the bookmark term `#MeasurementToDo`, double-clicking on the items will take you to all the VIs where changes can be done to create a measurement.
-- Scalars(int, double, uint, sint, string, boolean) and DoubleArray are the supported datatypes for the `Configuration` and `Output` parameters of the measurement.
+- Additional info can be found in the to-do sections in the code, this can be viewed using the `Bookmark Manager` - You can open it from the `View` → `Bookmark Manager` menu. In this window, you can will find the bookmark term `#MeasurementToDo`. Double-clicking on the items will take you to the VI locations where changes need to be made for creating your unique measurement service.
+- Scalars (int, double, uint, sint, string, boolean) and double array are the supported datatypes for the `Configuration` and `Output` parameters of the measurement.
 
 ---
 
 ## Running a LabVIEW measurement
 
-To run the measurements, follow the below steps
+To run the measurement service, follow the steps below
 
 1. Open `<MeasurementName>.lvproj` that contains the Measurement Service library.
 
 2. Start the discovery service if the measurement is to be used in InstrumentStudio.
 
-3. Run the `Run Service.vi` from `<MeasurementName>.lvlib` to run the measurement service from `<MeasurementName>.lvproj`
+3. Run the `Run Service.vi` from `<MeasurementName>.lvlib` to start the measurement service.
 
-4. To manually stop the service, click on the `Stop` button from the front panel of `Run Service.vi`.
+4. To manually stop the service, click on the `STOP` button on the front panel of `Run Service.vi`.
 
 ---
 
@@ -149,7 +147,7 @@ To interact with a measurement in InstrumentStudio, follow the steps below:
 
 ## Creating a LabVIEW executable for static registration
 
-To create an executable for the measurement service project follow the steps provided below,
+A Build Specification is included when the measurement service is created with the generator. To create an executable for the measurement service, simply build the build specification. The following steps are all pre-configured for the build specification, but they show the steps you would need to perform to create your own build spec and executable.
 
 1. After creating a measurement service, right-click on the `Build Specifications` of the LabVIEW project and select `New`→`Application(EXE)`.
 
@@ -164,6 +162,7 @@ To create an executable for the measurement service project follow the steps pro
     ![Source File Settings](images/Source%20File%20Settings.png)
 
 4. Navigate to the `Pre/Post Build Actions` section and enable the `Execute VI after build` check box.
+
 5. Select the `Post Build Action. vi` from the `Build Assets` folder that is present in the project.
 
     ![Post-Build VI selection](images/Post%20build%20vi%20selection.png)
@@ -176,5 +175,5 @@ To create an executable for the measurement service project follow the steps pro
 
 ## Statically registering LabVIEW measurements
 
-- Refer to the Static Registration of measurements Readme for statically registering measurements.
+- Refer to the Static Registration of the MeasurementLink Readme for statically registering measurements.
 - To create a LabVIEW executable refer to [Creating a LabVIEW executable for the static registration](#creating-a-labview-executable-for-static-registration) section.
