@@ -139,7 +139,7 @@ To interact with a measurement in InstrumentStudio, follow the steps below:
 
 3. The layout will be populated with the UI created for the measurement, containing the provided parameters.
 
-4. Provide the required configurations and click `Run` to run the measurement.
+4. Provide the required configurations and click `RUN` to run the measurement.
 
     ![Running the measurement](images/Running%20the%20measurement.png)
 
