@@ -2,17 +2,13 @@
 
 - [MeasurementLink™ Support for LabVIEW](#measurementlink--support-for-labview)
   - [Introduction](#introduction)
-  - [Dependencies](#dependencies)
   - [Software support](#software-support)
   - [Installation](#installation)
   - [Developing a LabVIEW measurement](#developing-a-labview-measurement)
   - [Running a LabVIEW measurement](#running-a-labview-measurement)
-  - [Example Measurements](#example-measurements)
-    - [Dependencies for the example measurements](#dependencies-for-the-example-measurements)
-    - [Running the LDO measurement example](#running-the-ldo-measurement-example)
-  - [Using the measurement in InstrumentStudio](#using-the-measurement-in-instrumentstudio)
+  - [Examples](#examples)
+  - [Using a measurement in InstrumentStudio](#using-a-measurement-in-instrumentstudio)
   - [Creating a LabVIEW executable for static registration](#creating-a-labview-executable-for-static-registration)
-  - [Statically registering LabVIEW measurements](#statically-registering-labview-measurements)
 
 ---
 
