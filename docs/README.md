@@ -4,8 +4,6 @@
   - [Introduction](#introduction)
   - [Dependencies](#dependencies)
   - [Software support](#software-support)
-    - [Supported versions of LabVIEW](#supported-versions-of-labview)
-    - [Supported version of InstrumentStudio](#supported-version-of-instrumentstudio)
   - [Installation](#installation)
   - [Developing a LabVIEW measurement](#developing-a-labview-measurement)
   - [Running a LabVIEW measurement](#running-a-labview-measurement)
