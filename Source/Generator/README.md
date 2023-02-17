@@ -26,7 +26,7 @@ To run the measurements, follow the below steps
 
 ### Stop the Measurement Service
 
-To stop the service manually, click on the `STOP` button on th `Run Service.vi` front panel.
+To stop the service manually, click on the `STOP` button on the `Run Service.vi` front panel.
 
 ### Make changes to the Measurement
 
