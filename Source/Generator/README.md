@@ -5,7 +5,7 @@ This repo contains the LabVIEW Measurement template code
 ## Dependency List
 
 1. LabVIEW 2020 64 bit
-2. [LabVIEW gRPC Support](https://github.com/ni/grpc-labview/releases) This repo contains the support for LabVIEW gRPC. Download and install the two latest release packages for
+2. [LabVIEW gRPC Support](https://github.com/ni/grpc-labview/releases) This repo contains the support for LabVIEW gRPC. We include these grpc-labview packages with our release. Download and install the versions included with the release of `meaurementlink-labview` you are using:
     1. ni_lib_labview_grpc_library-x.x.x.x.vip
     2. ni_lib_labview_grpc_servicer-x.x.x.x.vip
 
@@ -14,9 +14,8 @@ This repo contains the LabVIEW Measurement template code
 ### Instantiate a New Measurement
 
 1. Create a new LabVIEW project (say `Measurement.lvproj`) and open it.
-2. Open the New Measurement Instantiation window, from the project window, goto `Tools` -> `MeasurementLink` -> `Create Measurement Service...`
-    1. In the New window, Enter the `Measurement Service Name` that you would like to give to the measurement and click `Create Measurement Service`.
-    2. This will create a new measurement service library in the project.
+2. From the project window, select `Tools` -> `MeasurementLink` -> `Create Measurement Plug-in...`
+3. In the dialog that appears, enter the `Measurement Plug-in Name` that you would like to give to the measurement, then click `Create Measurement Plug-in`. This will create a new measurement service plug-in library in the project.
 
 ### Run the Measurement Service
 
@@ -27,7 +26,7 @@ To run the measurements, follow the below steps
 
 ### Stop the Measurement Service
 
-The measurement service will be stopped automatically when the client frameworks calls the `ServiceManagementService\Stop Service` method on the measurement service. To stop the service manually, click on the `STOP` button on the front panel.
+To stop the service manually, click on the `STOP` button on th `Run Service.vi` front panel.
 
 ### Make changes to the Measurement
 
@@ -39,4 +38,4 @@ Measurement Logic for the measurement service is located in `Measurement Logic.v
 
 #### How to add new UI elements
 
-The User Interface for a measurement service is defined by the front panel of `Measurement UI.vi` under the `<LibraryName>.lvlib\`. The control and indicator names on the front panel should match the `Measurement Configuration` and `Measurement Results`. If the datatype and name matches, data from the front panel controls will be sent to the logic before execution and the results will be published to the front panel indicators after the measurement is run.
+The User Interface for a measurement service is defined by the front panel of `Measurement UI.vi` under the `<MeasurementName>.lvlib`. The control and indicator labels on the front panel should match the `Measurement Configuration` and `Measurement Results`. If the datatype and name matches, data from the front panel controls will be sent to the logic before execution and the results will be published to the front panel indicators after the measurement is run.

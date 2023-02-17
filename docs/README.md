@@ -66,8 +66,8 @@ Set up the following software before installing the given packages.
 
 1. Create a new LabVIEW project (say Measurement.lvproj) and open it.
 
-2. From the project window, go to `Tools` → `MeasurementLink` → `Create Measurement Service...` which opens a new measurement creation dialog.
-    - In the new dialog, enter the `Measurement Service Name` that you would like to give to the measurement and click `Create Measurement Service`.
+2. From the project window, go to `Tools` → `MeasurementLink` → `Create Measurement Plug-in...` which opens a new measurement creation dialog.
+    - In the new dialog, enter the `Measurement Plug-in Name` that you would like to give to the measurement and click `Create Measurement Plug-in`.
 
         ![New measurement dialog](images/New%20measurement%20dialog.png)
 
@@ -94,13 +94,13 @@ Set up the following software before installing the given packages.
 
     ![Measurement Logic VI](images/Measurement%20Logic%20VI.png)
 
-7. Create the user interface in `Measurement UI.vi` under the `<LibraryName>.lvlib\`. The control and indicator names in the user interface should match the `Measurement Configuration` and `Measurement Results`. If the data type and name match, then the data from the controls will be sent to the `Measurement Logic.vi` and the results will be published to the indicators after the measurement is run. By default, the UI file consists of an 'Array In' control and 'Array Out' indicator.
+7. Create the user interface in `Measurement UI.vi` under the `<MeasurementName>.lvlib`. The control and indicator names in the user interface should match the `Measurement Configuration` and `Measurement Results`. If the data type and name match, then the data from the controls will be sent to the `Measurement Logic.vi` and the results will be published to the indicators after the measurement is run. By default, the UI file consists of an 'Array In' control and 'Array Out' indicator.
 
     ![Measurement UI](images/Measurement%20UI.png)
 
 Note:
 
-- Additional info can be found in the to-do sections in the code, this can be viewed using the `Bookmark Manager` - You can open it from the `View` → `Bookmark Manager` menu. In this window, you can will find the bookmark term `#MeasurementToDo`. Double-clicking on the items will take you to the VI locations where changes need to be made for creating your unique measurement service.
+- Additional info can be found in the to-do sections in the code, which can be viewed using the `Bookmark Manager`. You can open it from the `View` → `Bookmark Manager` menu. In this window, you can will find the bookmark term `#MeasurementToDo`. Double-clicking on the items will take you to the VI locations where changes need to be made for creating your unique measurement service.
 - Scalars (int, double, uint, sint, string, boolean) and double array are the supported datatypes for the `Configuration` and `Output` parameters of the measurement.
 
 ---
@@ -147,33 +147,4 @@ To interact with a measurement in InstrumentStudio, follow the steps below:
 
 ## Creating a LabVIEW executable for static registration
 
-A Build Specification is included when the measurement service is created with the generator. To create an executable for the measurement service, simply build the build specification. The following steps are all pre-configured for the build specification, but they show the steps you would need to perform to create your own build spec and executable.
-
-1. After creating a measurement service, right-click on the `Build Specifications` of the LabVIEW project and select `New`→`Application(EXE)`.
-
-    ![Build Specifications menu](images/Build%20Specifications%20Selection.png)
-
-2. In the `My Application Properties` dialog, provide the necessary details in the  `Information` section.
-
-    ![Build Information Settings](images/Build%20Information.png)
-
-3. Move to the `Source Files` section and set up the `Run Service.vi` as the startup VI. Move all the other files of the measurement library into the `Always Included` section.
-
-    ![Source File Settings](images/Source%20File%20Settings.png)
-
-4. Navigate to the `Pre/Post Build Actions` section and enable the `Execute VI after build` check box.
-
-5. Select the `Post Build Action. vi` from the `Build Assets` folder that is present in the project.
-
-    ![Post-Build VI selection](images/Post%20build%20vi%20selection.png)
-
-6. Click on `Build` and the desired executable with its required dependencies will be created.
-
-    ![Generated EXE files](images/Generated%20EXE%20Files.png)
-
----
-
-## Statically registering LabVIEW measurements
-
-- Refer to the Static Registration of the MeasurementLink Readme for statically registering measurements.
-- To create a LabVIEW executable refer to [Creating a LabVIEW executable for the static registration](#creating-a-labview-executable-for-static-registration) section.
+A Build Specification is included with the generated measurement service. To create an executable for the measurement service, right-click the `<MeasurementName>` build specification and select `Build`.
