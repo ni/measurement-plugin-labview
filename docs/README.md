@@ -24,26 +24,12 @@ The MeasurementLink Support for LabVIEW packages enable measurement developers t
 
 ---
 
-## Dependencies
-
-Set up the following software before installing the given packages.
+## Software support
 
 - InstrumentStudio 2023 Q1 or newer
 - MeasurementLink 2023 Q1 or newer
 - LabVIEW 2020 SP1 or newer
-  - VI Package Manager 2020 or newer
-
----
-
-## Software support
-
-### Supported version of InstrumentStudio
-
-- InstrumentStudio 2023 Q1 or newer
-
-### Supported versions of LabVIEW
-
-- LabVIEW 2020 SP1 or newer
+  - JKI VI Package Manager 2020.1 or newer
 
 ---
 
