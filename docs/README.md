@@ -2,19 +2,13 @@
 
 - [MeasurementLink™ Support for LabVIEW](#measurementlink--support-for-labview)
   - [Introduction](#introduction)
-  - [Dependencies](#dependencies)
   - [Software support](#software-support)
-    - [Supported versions of LabVIEW](#supported-versions-of-labview)
-    - [Supported version of InstrumentStudio](#supported-version-of-instrumentstudio)
   - [Installation](#installation)
   - [Developing a LabVIEW measurement](#developing-a-labview-measurement)
   - [Running a LabVIEW measurement](#running-a-labview-measurement)
-  - [Example Measurements](#example-measurements)
-    - [Dependencies for the example measurements](#dependencies-for-the-example-measurements)
-    - [Running the LDO measurement example](#running-the-ldo-measurement-example)
-  - [Using the measurement in InstrumentStudio](#using-the-measurement-in-instrumentstudio)
+  - [Examples](#examples)
+  - [Using a measurement in InstrumentStudio](#using-a-measurement-in-instrumentstudio)
   - [Creating a LabVIEW executable for static registration](#creating-a-labview-executable-for-static-registration)
-  - [Statically registering LabVIEW measurements](#statically-registering-labview-measurements)
 
 ---
 
@@ -24,29 +18,12 @@ The MeasurementLink Support for LabVIEW packages enable measurement developers t
 
 ---
 
-## Dependencies
-
-Set up the following software before installing the given packages.
-
-- VI Package Manager 2020
-- LabVIEW 2020 SP1 or newer
-- InstrumentStudio - 2023 Q1 or newer
-- MeasurementLink - 2023 Q1 or newer
-
----
-
 ## Software support
 
-### Supported versions of LabVIEW
-
-- [LabVIEW 2020(64-bit)](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html#345658)
-- [LabVIEW 2020 SP1(64-bit)](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html#369659)
-- [LabVIEW 2021(64-bit)](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html#411431)
-- [LabVIEW 2021 SP1(64-bit)](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html#443865)
-
-### Supported version of InstrumentStudio
-
-- InstrumentStudio 2023 Q1 or newer
+- InstrumentStudio 2023 Q1 or later
+- MeasurementLink 2023 Q1 or later
+- LabVIEW 2020 SP1 or later
+  - JKI VI Package Manager 2020.1 or later
 
 ---
 
@@ -54,7 +31,8 @@ Set up the following software before installing the given packages.
 
 1. Install a supported version of InstrumentStudio
 2. Install a supported version of MeasurementLink
-3. Download and install the MeasurementLink Support for LabVIEW packages in the following order.
+3. Install a supported version of LabVIEW
+4. Download and install the MeasurementLink Support for LabVIEW packages in the following order.
     1. `ni_lib_labview_grpc_library-x.x.x.x.vip` - Required
     2. `ni_lib_labview_grpc_servicer-x.x.x.x.vip` - Required
     3. `ni_measurementlink_service-x.x.x.x.vip` - Required
@@ -113,9 +91,11 @@ To run the measurement service, follow the steps below
 
 2. Start the discovery service if the measurement is to be used in InstrumentStudio.
 
-3. Run the `Run Service.vi` from `<MeasurementName>.lvlib` to start the measurement service.
+3. Run the `Run Service.vi` from `<MeasurementName>.lvlib` to start the measurement service.  A new window will appear, which provides basic information about the running service.
 
-4. To manually stop the service, click on the `STOP` button on the front panel of `Run Service.vi`.
+    ![Run Service VI](images/Running%20Run%20Service%20VI.png)
+
+4. To manually stop the service, click on the `STOP` button on the window that appeared when the service was started.
 
 ---
 
