@@ -37,13 +37,13 @@ Set up the following software before installing the given packages.
 
 ## Software support
 
-### Supported versions of LabVIEW
-
-- LabVIEW 2020 SP1 or newer
-
 ### Supported version of InstrumentStudio
 
 - InstrumentStudio 2023 Q1 or newer
+
+### Supported versions of LabVIEW
+
+- LabVIEW 2020 SP1 or newer
 
 ---
 
