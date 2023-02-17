@@ -28,10 +28,10 @@ The MeasurementLink Support for LabVIEW packages enable measurement developers t
 
 Set up the following software before installing the given packages.
 
-- VI Package Manager 2020
+- InstrumentStudio 2023 Q1 or newer
+- MeasurementLink 2023 Q1 or newer
 - LabVIEW 2020 SP1 or newer
-- InstrumentStudio - 2023 Q1 or newer
-- MeasurementLink - 2023 Q1 or newer
+  - VI Package Manager 2020 or newer
 
 ---
 
@@ -39,10 +39,7 @@ Set up the following software before installing the given packages.
 
 ### Supported versions of LabVIEW
 
-- [LabVIEW 2020(64-bit)](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html#345658)
-- [LabVIEW 2020 SP1(64-bit)](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html#369659)
-- [LabVIEW 2021(64-bit)](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html#411431)
-- [LabVIEW 2021 SP1(64-bit)](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html#443865)
+- LabVIEW 2020 SP1 or newer
 
 ### Supported version of InstrumentStudio
 
@@ -54,7 +51,8 @@ Set up the following software before installing the given packages.
 
 1. Install a supported version of InstrumentStudio
 2. Install a supported version of MeasurementLink
-3. Download and install the MeasurementLink Support for LabVIEW packages in the following order.
+3. Install a supported version of LabVIEW
+4. Download and install the MeasurementLink Support for LabVIEW packages in the following order.
     1. `ni_lib_labview_grpc_library-x.x.x.x.vip` - Required
     2. `ni_lib_labview_grpc_servicer-x.x.x.x.vip` - Required
     3. `ni_measurementlink_service-x.x.x.x.vip` - Required
@@ -113,9 +111,11 @@ To run the measurement service, follow the steps below
 
 2. Start the discovery service if the measurement is to be used in InstrumentStudio.
 
-3. Run the `Run Service.vi` from `<MeasurementName>.lvlib` to start the measurement service.
+3. Run the `Run Service.vi` from `<MeasurementName>.lvlib` to start the measurement service.  A new window will appear, which provides basic information about the running service.
 
-4. To manually stop the service, click on the `STOP` button on the front panel of `Run Service.vi`.
+    ![Run Service VI](images/Running%20Run%20Service%20VI.png)
+
+4. To manually stop the service, click on the `STOP` button on the window that appeared when the service was started.
 
 ---
 
