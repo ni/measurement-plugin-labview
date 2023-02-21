@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2023-02-10 08:42:07" Creator="lvadmin" Comments="" ID="2322484e994c8dc40d9f9bbc6b1cd763">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2023-02-21 14:47:10" Creator="lvadmin" Comments="" ID="f386045cfab958841a8273380cfb6894">
   <Library_General_Settings>
     <Package_File_Name>NI_MeasurementLink_Generator</Package_File_Name>
-    <Library_Version>0.12.2.2</Library_Version>
+    <Library_Version>1.0.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Generator</Library_Source_Folder>
     <Library_Output_Folder>..\..\Build Output</Library_Output_Folder>
@@ -18,7 +18,7 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <Additional_External_Dependencies>ni_lib_labview_grpc_library &gt;=1.0.0.1</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_measurementlink_service &gt;=0.12.2.1</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_measurementlink_service &gt;=1.0.0.1</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
