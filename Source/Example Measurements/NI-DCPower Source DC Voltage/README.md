@@ -19,7 +19,7 @@ This is a MeasurementLink example that sources and measures a DC voltage with an
 
 ### Required Driver Software
 
-- NI-DCPower
+- NI-DCPower 2023 Q1 or later
 
 ### Required Hardware
 
