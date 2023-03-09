@@ -10,7 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="CancellableMeasurement.lvlib" Type="Library" URL="../Measurements/CancellableMeasurement/CancellableMeasurement.lvlib"/>
+		<Item Name="CancellableMeasurement.lvlib" Type="Library" URL="../CancellableMeasurement/CancellableMeasurement.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
