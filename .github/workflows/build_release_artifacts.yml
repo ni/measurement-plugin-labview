@@ -19,3 +19,7 @@ jobs:
       id: download_artifacts
       with:
         path: ${{ runner.temp }}\measurementlink-labview-artifacts
+
+    - name: Run Tests
+      run:
+        python ${{runner.workspace}}\measurementlink-labview\Source\Tests\run_tests.py
