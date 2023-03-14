@@ -43,6 +43,10 @@ def run_all_tests():
     test_runner_vi = os.path.join(test_directory , "run_tests.vi")
     _logger.debug(f"Launching {test_runner_vi}.")
     test_result = subprocess.run(["LabVIEWCLI", "-OperationName", "RunVI", "-VIPath", os.path.normpath(test_runner_vi)], capture_output= True)
-    _logger.debug(f"Result: {test_result}.")
+
+    _logger.debug(test_result.stdout.decode())
+    if(test_result.returncode != 0):
+        _logger.error(test_result.stderr.decode())
+
 
 main()
