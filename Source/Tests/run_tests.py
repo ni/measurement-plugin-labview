@@ -12,7 +12,8 @@ handler.setLevel(logging.DEBUG)
 _logger.addHandler(handler)
 
 def main():
-    return run_all_tests()
+    return_code = run_all_tests()
+    exit(return_code)
 
 
 def run_all_tests():
