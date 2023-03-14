@@ -12,10 +12,10 @@ handler.setLevel(logging.DEBUG)
 _logger.addHandler(handler)
 
 def main():
-    _logger.debug(f"Looking for tests")
     run_all_tests()
 
-def run_all_tests():
+
+def run_individual_tests():
     test_directory = os.path.abspath(os.path.dirname(__file__))
     test_list_filename = "Tests.lst"
     test_file = os.path.join(test_directory , test_list_filename)
@@ -37,5 +37,12 @@ def run_test(testVI):
     else:
         _logger.error(f"[FAILED]: `{testVI}` does not exist.")
 
+
+def run_all_tests():
+    test_directory = os.path.abspath(os.path.dirname(__file__))
+    test_runner_vi = os.path.join(test_directory , "run_tests.vi")
+    _logger.debug(f"Launching {test_runner_vi}.")
+    test_result = subprocess.run(["LabVIEWCLI", "-OperationName", "RunVI", "-VIPath", os.path.normpath(test_runner_vi)], capture_output= True)
+    _logger.debug(f"Result: {test_result}.")
 
 main()
