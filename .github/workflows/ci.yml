@@ -13,6 +13,6 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build_release_arifacts:
+  run_g_tests:
     if: ${{ github.repository == 'ni/measurementlink-labview' || github.event.pull_request.head.repo.full_name == 'ni/measurementlink-labview' }}
-    uses: ./.github/workflows/build_release_artifacts.yml
+    uses: ./.github/workflows/run_g_tests.yml
