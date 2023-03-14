@@ -21,11 +21,11 @@ def run_all_tests():
     _logger.debug(f"Launching {test_runner_vi}.")
     test_result = subprocess.run(["LabVIEWCLI", "-OperationName", "RunVI", "-VIPath", os.path.normpath(test_runner_vi)], capture_output= True)
     
-    formatted_output = test_result.stdout.decode().replace('\r\n','\n')
-    _logger.debug(formatted_output)
+    formatted_stdout = test_result.stdout.decode().replace('\r\n','\n').strip()
+    _logger.debug(formatted_stdout)
     if(test_result.returncode != 0):
-        formatted_error = test_result.stderr.decode().replace('\r\n','\n')
-        _logger.error(formatted_error)
+        formatted_stderr = test_result.stderr.decode().replace('\r\n','\n').strip()
+        _logger.error(formatted_stderr)
 
     return test_result.returncode
 
