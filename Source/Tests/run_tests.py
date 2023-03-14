@@ -13,7 +13,7 @@ _logger.addHandler(handler)
 
 def main():
     return_code = run_all_tests()
-    exit(return_code)
+    sys.exit(return_code)
 
 
 def run_all_tests():
