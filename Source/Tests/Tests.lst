@@ -7,4 +7,3 @@ Tests.Runtime\Discovery Client\SingleServiceRegistered_DiscoveryApiRoundTrip_All
 Tests.Runtime\Discovery Client\SingleServiceRegistered_InvalidResolveRequests_Error.vi
 Tests.Runtime\Pin Map Client\CreatePinmapWith3Pins_QueryPins_3PinsReported.vi
 Tests.Runtime\Session Management Client\MultisitePinMapARegistered_SessionManagementApiRoundTrip_AllNodesSucceed.vi
-Tests.Dummy\TestDoesNotActuallyExist.vi
