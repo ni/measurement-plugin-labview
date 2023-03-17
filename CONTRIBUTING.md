@@ -68,7 +68,7 @@ This repo contains the Measurement Service template, which has predefined functi
 
 Measurement developers can instantiate a measurement from the template using the "Measurement Instantiation Tool".
 
-For additional details on the measurement service template please refer to the [measurement template documentation](source/Generator/README.md)
+For additional details on the measurement service template please refer to the [measurement template documentation](Source/Generator/README.md)
 
 ### Measurement Instantiation Tool
 
@@ -78,7 +78,20 @@ This repo contains a tool which creates a measurement from the "Measurement Serv
 
 This repo contains example measurement services developed using the "Measurement Service Template". They are dependent on the `ni_measurementlink_service` package being installed.
 
-For additional details on examples please refer to the [example measurements documentation](source/Example%20Measurements/README.md)
+For additional details on examples please refer to the [example measurements documentation](Source/Example%20Measurements/README.md)
+
+## Tests and Test Workflow
+
+This repo contains some [tests](Source/Tests) which verify proper behavior of certain features.  Tests are exercised automatically by a ["Run G Tests"](.github/workflows/run_g_tests.yml) workflow or can also be run manually.
+
+The Test workflow requires that a self-hosted runner be provisioned as follows:
+  - Instructions for setting up a [self-hosted runner](https://github.com/ni/measurementlink-labview/settings/actions/runners/new) applied to a machine such that it appears in this repo's [runners list](https://github.com/ni/measurementlink-labview/settings/actions/runners) and includes a `self-hosted` tag.
+- Pertinent software installed to the machine, against which the tests will run.  Minimally this might include MeasurementLink and LabVIEW (plus grpc-labview library & servicer .vip packages).
+  - As of 3-17-23, runner [spawningpool](https://github.com/ni/measurementlink-labview/settings/actions/runners/21) has an installation comprised of InstrumentStudio 2023 Q1, TestStand 2022 Q4, MeasurementLink 2023 Q1, LabVIEW 2020 SP1 64-bit, and grpc-labview library & servicer 1.0.0.1.
+- Additional manual setup on runner:
+  - Enable Long Paths via regedit: \[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem\] : "LongPathsEnabled" = 1
+  - Enable VI Server in LabVIEW @ `Tools` > `Options...` > `VI Server` > TCP/IP (under "Protocols")
+  - (Recommended) Add shortcuts to action-runner script (`run.cmd`), LabVIEW (`LabVIEW.exe`) and MeasurementLink Discovery Service (`NationalInstruments.MeasurementLink.DiscoveryService.exe`) to C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp.
 
 ## Developer Certificate of Origin (DCO)
 
