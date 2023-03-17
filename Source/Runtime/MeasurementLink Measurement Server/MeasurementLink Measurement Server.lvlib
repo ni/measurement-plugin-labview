@@ -16,6 +16,7 @@
 			<Item Name="Type Specialization.ctl" Type="VI" URL="../Helpers/TypeDefs/Type Specialization.ctl"/>
 			<Item Name="UI Information.ctl" Type="VI" URL="../Helpers/TypeDefs/UI Information.ctl"/>
 		</Item>
+		<Item Name="Error Strings Global.vi" Type="VI" URL="../Helpers/Error Strings Global.vi"/>
 		<Item Name="Get Configuration Metadata.vi" Type="VI" URL="../Helpers/Get Configuration Metadata.vi"/>
 		<Item Name="Get Default for Type.vi" Type="VI" URL="../Helpers/Get Default for Type.vi"/>
 		<Item Name="Get Discovery Service Address.vi" Type="VI" URL="../Helpers/Get Discovery Service Address.vi"/>
