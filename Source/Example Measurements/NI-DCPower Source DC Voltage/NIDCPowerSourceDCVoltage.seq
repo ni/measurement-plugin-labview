@@ -4432,6 +4432,9 @@
 												</elemproto>
 											</value>
 										</ResultList>
+										<PinMapId classname='Str'>
+											<value/>
+										</PinMapId>
 									</subprops>
 								</Locals>
 								<Main classname='Objs' valueflags='4194304'>
@@ -4799,7 +4802,7 @@
 																					<value>voltage_level</value>
 																				</Name>
 																				<ArgumentValue classname='ExprValue'>
-																					<value>4.45</value>
+																					<value>6</value>
 																				</ArgumentValue>
 																				<Direction classname='Str'>
 																					<value>In</value>
@@ -5009,7 +5012,7 @@
 																					<value>voltage_measurements</value>
 																				</Name>
 																				<ArgumentValue classname='ExprValue'>
-																					<value>StationGlobals.ArrayDouble</value>
+																					<value/>
 																				</ArgumentValue>
 																				<Direction classname='Str'>
 																					<value>Out</value>
@@ -5875,7 +5878,7 @@
 																									<value/>
 																								</Caption>
 																								<ArgVal classname='ExprValue'>
-																									<value>FileGlobals.MeasurementLink.PinMapId</value>
+																									<value>Locals.PinMapId</value>
 																								</ArgVal>
 																								<ArgDisplayVal classname='ExprValue'>
 																									<value/>
@@ -7678,7 +7681,7 @@
 																<value/>
 															</PreExpr>
 															<PostExpr classname='ExprValue'>
-																<value>RunState.Engine.TemporaryGlobals.SetValString("NI.MeasurementLink.PinMapId", 0x1, FileGlobals.MeasurementLink.PinMapId)</value>
+																<value>RunState.Engine.TemporaryGlobals.SetValString("NI.MeasurementLink.PinMapId", 0x1, Locals.PinMapId)</value>
 															</PostExpr>
 															<StatusExpr classname='ExprValue'>
 																<value/>
@@ -9198,11 +9201,8 @@
 								<value>NIDCPowerSourceDCVoltage.pinmap</value>
 							</PinMapFileName>
 							<PinMapPath classname='Str'>
-								<value>D:\TAF\measurement-services-labview\Source\Example Measurements\NI-DCPower Source DC Voltage</value>
-							</PinMapPath>
-							<PinMapId classname='Str'>
 								<value/>
-							</PinMapId>
+							</PinMapPath>
 						</subprops>
 					</MeasurementLink>
 				</subprops>
