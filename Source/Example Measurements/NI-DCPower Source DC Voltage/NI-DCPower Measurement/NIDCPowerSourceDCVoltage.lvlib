@@ -15,8 +15,10 @@
 	</Item>
 	<Item Name="subVIs" Type="Folder">
 		<Item Name="DCPower Specific Logic.vi" Type="VI" URL="../subVIs/DCPower Specific Logic.vi"/>
+		<Item Name="Get Pin Map Path.vi" Type="VI" URL="../subVIs/Get Pin Map Path.vi"/>
 		<Item Name="Location to DCPower Grpc Device.vi" Type="VI" URL="../subVIs/Location to DCPower Grpc Device.vi"/>
 		<Item Name="Location to Insecure Address.vi" Type="VI" URL="../subVIs/Location to Insecure Address.vi"/>
+		<Item Name="Set Pin Map ID.vi" Type="VI" URL="../subVIs/Set Pin Map ID.vi"/>
 	</Item>
 	<Item Name="TestStand Code Modules" Type="Folder">
 		<Item Name="Create and Register Sessions.vi" Type="VI" URL="../TestStand Code Modules/Create and Register Sessions.vi"/>
