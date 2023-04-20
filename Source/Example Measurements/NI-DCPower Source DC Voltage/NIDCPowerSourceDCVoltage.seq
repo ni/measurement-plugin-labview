@@ -8684,7 +8684,7 @@
 								<value>NIDCPowerSourceDCVoltage.pinmap</value>
 							</PinMapFileName>
 							<PinMapPath classname='Str'>
-								<value>D:\TAF\measurement-services-labview\Source\Example Measurements\NI-DCPower Source DC Voltage\NIDCPowerSourceDCVoltage.pinmap</value>
+								<value/>
 							</PinMapPath>
 						</subprops>
 					</MeasurementLink>
