@@ -4432,6 +4432,9 @@
 												</elemproto>
 											</value>
 										</ResultList>
+										<PinMapId classname='Str'>
+											<value/>
+										</PinMapId>
 									</subprops>
 								</Locals>
 								<Main classname='Objs' valueflags='4194304'>
@@ -5152,7 +5155,7 @@
 																				<value/>
 																			</VIDescription>
 																			<TDChecksum classname='Num'>
-																				<value>-258524049</value>
+																				<value>126984223</value>
 																			</TDChecksum>
 																			<NodeLibraryName classname='Str'>
 																				<value/>
@@ -5285,82 +5288,6 @@
 																								</Direction>
 																								<ConnectorNumber classname='Num'>
 																									<value>0</value>
-																								</ConnectorNumber>
-																								<LegacyClusterType classname='Num'>
-																									<value>0</value>
-																								</LegacyClusterType>
-																							</subprops>
-																						</VIParameter>
-																					</value>
-																					<value>
-																						<VIParameter typename='VIParameter' xsi:type='VIParameter' name='Pin Map Name'>
-																							<subprops>
-																								<Label classname='Str'>
-																									<value>Pin Map Name</value>
-																								</Label>
-																								<Caption classname='Str'>
-																									<value/>
-																								</Caption>
-																								<ArgVal classname='ExprValue'>
-																									<value>FileGlobals.MeasurementLink.PinMapFileName</value>
-																								</ArgVal>
-																								<ArgDisplayVal classname='ExprValue'>
-																									<value/>
-																								</ArgDisplayVal>
-																								<Type classname='Num'>
-																									<value>1</value>
-																								</Type>
-																								<WireRequirement classname='Num'>
-																									<value>1</value>
-																								</WireRequirement>
-																								<ArrayType classname='Num'>
-																									<value>50</value>
-																								</ArrayType>
-																								<DefaultArraySize classname='Str'>
-																									<value>[]</value>
-																								</DefaultArraySize>
-																								<ClusterType classname='Num'>
-																									<value>20</value>
-																								</ClusterType>
-																								<NumType classname='Num'>
-																									<value>7</value>
-																								</NumType>
-																								<ReferenceType classname='Num'>
-																									<value>0</value>
-																								</ReferenceType>
-																								<StrPass classname='Num'>
-																									<value>0</value>
-																								</StrPass>
-																								<DisplayType classname='Str'>
-																									<value>ASCII String</value>
-																								</DisplayType>
-																								<UseDefaultValues classname='Bool'>
-																									<value>false</value>
-																								</UseDefaultValues>
-																								<PartiallySpecified classname='Bool'>
-																									<value>false</value>
-																								</PartiallySpecified>
-																								<ArrayClusterEls classname='Objs'>
-																									<value lbound='[0]' ubound='[]'/>
-																								</ArrayClusterEls>
-																								<AdditionalResult classname='LabVIEWParameterResult'>
-																									<subprops>
-																										<Condition classname='ExprValue'>
-																											<value/>
-																										</Condition>
-																										<Flags classname='Num'>
-																											<value>8192</value>
-																										</Flags>
-																										<CheckedState classname='Num'>
-																											<value>1</value>
-																										</CheckedState>
-																									</subprops>
-																								</AdditionalResult>
-																								<Direction classname='Num'>
-																									<value>0</value>
-																								</Direction>
-																								<ConnectorNumber classname='Num'>
-																									<value>1</value>
 																								</ConnectorNumber>
 																								<LegacyClusterType classname='Num'>
 																									<value>0</value>
@@ -5715,6 +5642,82 @@
 																								</Direction>
 																								<ConnectorNumber classname='Num'>
 																									<value>3</value>
+																								</ConnectorNumber>
+																								<LegacyClusterType classname='Num'>
+																									<value>0</value>
+																								</LegacyClusterType>
+																							</subprops>
+																						</VIParameter>
+																					</value>
+																					<value>
+																						<VIParameter typename='VIParameter' xsi:type='VIParameter' name='Pin Map ID'>
+																							<subprops>
+																								<Label classname='Str'>
+																									<value>Pin Map ID</value>
+																								</Label>
+																								<Caption classname='Str'>
+																									<value/>
+																								</Caption>
+																								<ArgVal classname='ExprValue'>
+																									<value>Locals.PinMapId</value>
+																								</ArgVal>
+																								<ArgDisplayVal classname='ExprValue'>
+																									<value/>
+																								</ArgDisplayVal>
+																								<Type classname='Num'>
+																									<value>1</value>
+																								</Type>
+																								<WireRequirement classname='Num'>
+																									<value>1</value>
+																								</WireRequirement>
+																								<ArrayType classname='Num'>
+																									<value>50</value>
+																								</ArrayType>
+																								<DefaultArraySize classname='Str'>
+																									<value>[]</value>
+																								</DefaultArraySize>
+																								<ClusterType classname='Num'>
+																									<value>20</value>
+																								</ClusterType>
+																								<NumType classname='Num'>
+																									<value>7</value>
+																								</NumType>
+																								<ReferenceType classname='Num'>
+																									<value>0</value>
+																								</ReferenceType>
+																								<StrPass classname='Num'>
+																									<value>0</value>
+																								</StrPass>
+																								<DisplayType classname='Str'>
+																									<value>ASCII String</value>
+																								</DisplayType>
+																								<UseDefaultValues classname='Bool'>
+																									<value>false</value>
+																								</UseDefaultValues>
+																								<PartiallySpecified classname='Bool'>
+																									<value>false</value>
+																								</PartiallySpecified>
+																								<ArrayClusterEls classname='Objs'>
+																									<value lbound='[0]' ubound='[]'/>
+																								</ArrayClusterEls>
+																								<AdditionalResult classname='LabVIEWParameterResult'>
+																									<subprops>
+																										<Condition classname='ExprValue'>
+																											<value/>
+																										</Condition>
+																										<Flags classname='Num'>
+																											<value>8192</value>
+																										</Flags>
+																										<CheckedState classname='Num'>
+																											<value>1</value>
+																										</CheckedState>
+																									</subprops>
+																								</AdditionalResult>
+																								<Direction classname='Num'>
+																									<value>1</value>
+																								</Direction>
+																								<ConnectorNumber classname='Num'>
+																									<value>7</value>
 																								</ConnectorNumber>
 																								<LegacyClusterType classname='Num'>
 																									<value>0</value>
@@ -6420,7 +6423,7 @@
 																									<value/>
 																								</Caption>
 																								<ArgVal classname='ExprValue'>
-																									<value>FileGlobals.MeasurementLink.PinMapPath</value>
+																									<value>Locals.PinMapId</value>
 																								</ArgVal>
 																								<ArgDisplayVal classname='ExprValue'>
 																									<value/>
@@ -8680,11 +8683,8 @@
 							<EnableMonitoring classname='Bool'>
 								<value>false</value>
 							</EnableMonitoring>
-							<PinMapFileName classname='Str'>
-								<value>NIDCPowerSourceDCVoltage.pinmap</value>
-							</PinMapFileName>
 							<PinMapPath classname='Str'>
-								<value/>
+								<value>NIDCPowerSourceDCVoltage.pinmap</value>
 							</PinMapPath>
 						</subprops>
 					</MeasurementLink>
