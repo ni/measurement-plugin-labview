@@ -5,7 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Build Assets" Type="Folder">
-		<Item Name="Post-Build Action.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Build Assets/Post-Build Action.vi"/>
+		<Item Name="Post-Build Action.vi" Type="VI" URL="../Build Assets/Post-Build Action.vi"/>
 	</Item>
 	<Item Name="Helpers" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
@@ -37,7 +37,6 @@
 		<Item Name="Read Discovery Service Key File.vi" Type="VI" URL="../Helpers/Read Discovery Service Key File.vi"/>
 		<Item Name="Register Configuration and Results.vi" Type="VI" URL="../Helpers/Register Configuration and Results.vi"/>
 		<Item Name="Register to Discovery Service.vi" Type="VI" URL="../Helpers/Register to Discovery Service.vi"/>
-		<Item Name="Register UI Stop Event.vi" Type="VI" URL="/dev/measurementlink-labview/Source/Runtime/MeasurementLink Measurement Server/Helpers/Register UI Stop Event.vi"/>
 		<Item Name="Validate Configuration Metadata.vi" Type="VI" URL="../Helpers/Validate Configuration Metadata.vi"/>
 	</Item>
 	<Item Name="IMeasurementService.lvclass" Type="LVClass" URL="../Classes/IMeasurementService/IMeasurementService.lvclass"/>
