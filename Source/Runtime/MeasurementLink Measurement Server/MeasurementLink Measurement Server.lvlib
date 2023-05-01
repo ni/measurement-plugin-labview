@@ -5,16 +5,26 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Build Assets" Type="Folder">
-		<Item Name="Post-Build Action.vi" Type="VI" URL="../Build Assets/Post-Build Action.vi"/>
+		<Item Name="Post-Build Action.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Build Assets/Post-Build Action.vi"/>
 	</Item>
 	<Item Name="Helpers" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="TypeDefs" Type="Folder">
+			<Item Name="ConfigurationParameter.ctl" Type="VI" URL="../Helpers/TypeDefs/ConfigurationParameter.ctl"/>
+			<Item Name="ConfigurationParameter_AnnotationsEntry.ctl" Type="VI" URL="../Helpers/TypeDefs/ConfigurationParameter_AnnotationsEntry.ctl"/>
+			<Item Name="GetMetadataResponse.ctl" Type="VI" URL="../Helpers/TypeDefs/GetMetadataResponse.ctl"/>
 			<Item Name="google_protobuf_Field_Kind.ctl" Type="VI" URL="../Helpers/TypeDefs/google_protobuf_Field_Kind.ctl"/>
 			<Item Name="Key.ctl" Type="VI" URL="../Helpers/TypeDefs/Key.ctl"/>
+			<Item Name="MeasurementDetails.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasurementDetails.ctl"/>
+			<Item Name="MeasurementSignature.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasurementSignature.ctl"/>
+			<Item Name="MeasureRequest.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasureRequest.ctl"/>
+			<Item Name="MeasureResponse.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasureResponse.ctl"/>
+			<Item Name="Output.ctl" Type="VI" URL="../Helpers/TypeDefs/Output.ctl"/>
 			<Item Name="Parameter Type Specialization.ctl" Type="VI" URL="../Helpers/TypeDefs/Parameter Type Specialization.ctl"/>
+			<Item Name="PinMapContext.ctl" Type="VI" URL="../Helpers/TypeDefs/PinMapContext.ctl"/>
 			<Item Name="Type Specialization.ctl" Type="VI" URL="../Helpers/TypeDefs/Type Specialization.ctl"/>
 			<Item Name="UI Information.ctl" Type="VI" URL="../Helpers/TypeDefs/UI Information.ctl"/>
+			<Item Name="UserInterfaceDetails.ctl" Type="VI" URL="../Helpers/TypeDefs/UserInterfaceDetails.ctl"/>
 		</Item>
 		<Item Name="Error Strings Global.vi" Type="VI" URL="../Helpers/Error Strings Global.vi"/>
 		<Item Name="Get Configuration Metadata.vi" Type="VI" URL="../Helpers/Get Configuration Metadata.vi"/>
@@ -27,10 +37,12 @@
 		<Item Name="Read Discovery Service Key File.vi" Type="VI" URL="../Helpers/Read Discovery Service Key File.vi"/>
 		<Item Name="Register Configuration and Results.vi" Type="VI" URL="../Helpers/Register Configuration and Results.vi"/>
 		<Item Name="Register to Discovery Service.vi" Type="VI" URL="../Helpers/Register to Discovery Service.vi"/>
-		<Item Name="Register UI Stop Event.vi" Type="VI" URL="../Helpers/Register UI Stop Event.vi"/>
+		<Item Name="Register UI Stop Event.vi" Type="VI" URL="/dev/measurementlink-labview/Source/Runtime/MeasurementLink Measurement Server/Helpers/Register UI Stop Event.vi"/>
 		<Item Name="Validate Configuration Metadata.vi" Type="VI" URL="../Helpers/Validate Configuration Metadata.vi"/>
 	</Item>
+	<Item Name="IMeasurementService.lvclass" Type="LVClass" URL="../Classes/IMeasurementService/IMeasurementService.lvclass"/>
 	<Item Name="MeasurementContext.lvclass" Type="LVClass" URL="../Classes/MeasurementContext/MeasurementContext.lvclass"/>
 	<Item Name="MeasurementPluginService.lvclass" Type="LVClass" URL="../Classes/MeasurementPluginService/MeasurementPluginService.lvclass"/>
+	<Item Name="MeasurementServiceV1.lvclass" Type="LVClass" URL="../Classes/MeasurementServiceV1/MeasurementServiceV1.lvclass"/>
 	<Item Name="Run Service.vi" Type="VI" URL="../Run Service.vi"/>
 </Library>
