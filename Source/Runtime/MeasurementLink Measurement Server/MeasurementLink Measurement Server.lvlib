@@ -43,5 +43,6 @@
 	<Item Name="MeasurementContext.lvclass" Type="LVClass" URL="../Classes/MeasurementContext/MeasurementContext.lvclass"/>
 	<Item Name="MeasurementPluginService.lvclass" Type="LVClass" URL="../Classes/MeasurementPluginService/MeasurementPluginService.lvclass"/>
 	<Item Name="MeasurementServiceV1.lvclass" Type="LVClass" URL="../Classes/MeasurementServiceV1/MeasurementServiceV1.lvclass"/>
+	<Item Name="MeasurementServiceV2.lvclass" Type="LVClass" URL="../Classes/MeasurementServiceV2/MeasurementServiceV2.lvclass"/>
 	<Item Name="Run Service.vi" Type="VI" URL="../Run Service.vi"/>
 </Library>
