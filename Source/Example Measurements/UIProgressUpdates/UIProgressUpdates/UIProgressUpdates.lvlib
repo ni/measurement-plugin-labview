@@ -13,7 +13,6 @@
 	<Item Name="subVIs" Type="Folder">
 		<Item Name="Generate Random Numbers.vi" Type="VI" URL="../subVIs/Generate Random Numbers.vi"/>
 	</Item>
-	<Item Name="Calculate Iterations and Array Size.vi" Type="VI" URL="../subVIs/Calculate Iterations and Array Size.vi"/>
 	<Item Name="Get Measurement Details.vi" Type="VI" URL="../Get Measurement Details.vi"/>
 	<Item Name="Get Type Specializations.vi" Type="VI" URL="../Get Type Specializations.vi"/>
 	<Item Name="Get UI Details.vi" Type="VI" URL="../Get UI Details.vi"/>
