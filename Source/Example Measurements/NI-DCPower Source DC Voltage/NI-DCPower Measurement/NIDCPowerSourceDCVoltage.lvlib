@@ -16,6 +16,7 @@
 	<Item Name="subVIs" Type="Folder">
 		<Item Name="Session management helpers" Type="Folder">
 			<Item Name="Create DCPower session.vi" Type="VI" URL="../subVIs/Session management helpers/Create DCPower session.vi"/>
+			<Item Name="Destroy DCPower session.vi" Type="VI" URL="../subVIs/Session management helpers/Destroy DCPower session.vi"/>
 		</Item>
 		<Item Name="DCPower Specific Logic.vi" Type="VI" URL="../subVIs/DCPower Specific Logic.vi"/>
 		<Item Name="Location to DCPower Grpc Device.vi" Type="VI" URL="../subVIs/Location to DCPower Grpc Device.vi"/>
