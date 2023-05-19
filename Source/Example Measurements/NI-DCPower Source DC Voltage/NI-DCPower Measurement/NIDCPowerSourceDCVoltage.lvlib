@@ -14,6 +14,10 @@
 		<Item Name="MeasurementPlugin.lvclass" Type="LVClass" URL="../Advanced/MeasurementPlugin.lvclass"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
+		<Item Name="Session Management Helpers" Type="Folder">
+			<Item Name="Reserve Sessions.vi" Type="VI" URL="../subVIs/Session management helpers/Reserve Sessions.vi"/>
+			<Item Name="Unreserve Sessions.vi" Type="VI" URL="../subVIs/Session management helpers/Unreserve Sessions.vi"/>
+		</Item>
 		<Item Name="Create DC Power Session.vi" Type="VI" URL="../subVIs/Create DC Power Session.vi"/>
 		<Item Name="DCPower Specific Logic.vi" Type="VI" URL="../subVIs/DCPower Specific Logic.vi"/>
 		<Item Name="Destroy DC Power Session.vi" Type="VI" URL="../subVIs/Destroy DC Power Session.vi"/>
