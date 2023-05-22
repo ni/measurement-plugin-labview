@@ -21,6 +21,7 @@
 		<Item Name="Create DC Power Session.vi" Type="VI" URL="../subVIs/Create DC Power Session.vi"/>
 		<Item Name="DCPower Specific Logic.vi" Type="VI" URL="../subVIs/DCPower Specific Logic.vi"/>
 		<Item Name="Destroy DC Power Session.vi" Type="VI" URL="../subVIs/Destroy DC Power Session.vi"/>
+		<Item Name="Get Pin Based Session Information.vi" Type="VI" URL="../subVIs/Get Pin Based Session Information.vi"/>
 		<Item Name="Location to DCPower Grpc Device.vi" Type="VI" URL="../subVIs/Location to DCPower Grpc Device.vi"/>
 		<Item Name="Location to Insecure Address.vi" Type="VI" URL="../subVIs/Location to Insecure Address.vi"/>
 	</Item>
