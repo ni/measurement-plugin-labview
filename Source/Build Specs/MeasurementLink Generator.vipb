@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2023-03-24 11:51:40" Creator="lvadmin" Comments="" ID="b71b345a684a472d84127809b0d004d5">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2023-05-17 10:59:17" Creator="lvadmin" Comments="" ID="26b145c1192bb8f5b91ab479f5bd74ad">
   <Library_General_Settings>
     <Package_File_Name>NI_MeasurementLink_Generator</Package_File_Name>
-    <Library_Version>1.0.1.2</Library_Version>
+    <Library_Version>1.1.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Generator</Library_Source_Folder>
     <Library_Output_Folder>..\..\Build Output</Library_Output_Folder>
@@ -18,7 +18,7 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <Additional_External_Dependencies>ni_lib_labview_grpc_library &gt;=1.0.0.1</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_measurementlink_service &gt;=1.0.0.1</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_measurementlink_service &gt;=1.1.0.1</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -180,14 +180,14 @@
       <Windows_7>true</Windows_7>
       <Windows_Vista>true</Windows_Vista>
       <Windows_XP>true</Windows_XP>
-      <Mac_OS>true</Mac_OS>
-      <Linux>true</Linux>
+      <Mac_OS>false</Mac_OS>
+      <Linux>false</Linux>
       <Built_LV_Version>false</Built_LV_Version>
       <Built_LV_Version_or_greater>true</Built_LV_Version_or_greater>
       <Windows_8>true</Windows_8>
-      <OS_32-Bit>true</OS_32-Bit>
+      <OS_32-Bit>false</OS_32-Bit>
       <OS_64-Bit>true</OS_64-Bit>
-      <LV_32-Bit>true</LV_32-Bit>
+      <LV_32-Bit>false</LV_32-Bit>
       <LV_64-Bit>true</LV_64-Bit>
     </Install_Requirements>
     <LabVIEW>

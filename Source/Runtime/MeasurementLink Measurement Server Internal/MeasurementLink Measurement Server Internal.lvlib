@@ -102,5 +102,5 @@
 		<Item Name="Register gRPC Messages.vi" Type="VI" URL="../RPC Messages/Register gRPC Messages.vi"/>
 	</Item>
 	<Item Name="Run Service.vi" Type="VI" URL="../Run Service.vi"/>
-	<Item Name="MeasurementService.lvclass" Type="LVClass" URL="../RPC Service/MeasurementService/MeasurementService.lvclass"/>
+	<Item Name="MeasurementServiceBaseV1.lvclass" Type="LVClass" URL="../RPC Service/MeasurementService/MeasurementServiceBaseV1.lvclass"/>
 </Library>

@@ -18,8 +18,8 @@
 		<Item Name="MeasurementLink Measurement Server Internal" Type="Folder">
 			<Item Name="MeasurementLink Measurement Server Internal.lvlib" Type="Library" URL="../MeasurementLink Measurement Server Internal/MeasurementLink Measurement Server Internal.lvlib"/>
 		</Item>
-		<Item Name="MeasurementLink Measurement Service V2" Type="Folder">
-			<Item Name="MeasurementLink Measurement Service V2.lvlib" Type="Library" URL="../MeasurementLink Measurement Service V2_server/MeasurementLink Measurement Service V2.lvlib"/>
+		<Item Name="MeasurementLink Measurement Service Base V2" Type="Folder">
+			<Item Name="MeasurementLink Measurement Service Base V2.lvlib" Type="Library" URL="../MeasurementLink Measurement Service Base V2/MeasurementLink Measurement Service Base V2.lvlib"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
