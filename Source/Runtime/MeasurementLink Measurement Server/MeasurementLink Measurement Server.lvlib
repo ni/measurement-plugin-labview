@@ -39,6 +39,7 @@
 	<Item Name="Public Helpers" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Get Discovery Service Address.vi" Type="VI" URL="../Helpers/Get Discovery Service Address.vi"/>
+		<Item Name="Location to Insecure Address.vi" Type="VI" URL="../Helpers/Location to Insecure Address.vi"/>
 	</Item>
 	<Item Name="Public TypeDefs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
