@@ -38,6 +38,7 @@
 	</Item>
 	<Item Name="Public Helpers" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Create Enum Type Specialization.vi" Type="VI" URL="../Helpers/Create Enum Type Specialization.vi"/>
 		<Item Name="Get Discovery Service Address.vi" Type="VI" URL="../Helpers/Get Discovery Service Address.vi"/>
 	</Item>
 	<Item Name="Public TypeDefs" Type="Folder">
