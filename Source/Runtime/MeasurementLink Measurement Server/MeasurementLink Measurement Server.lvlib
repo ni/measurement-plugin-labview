@@ -17,6 +17,7 @@
 		<Item Name="Get Discovery Service Key File Path.vi" Type="VI" URL="../Helpers/Get Discovery Service Key File Path.vi"/>
 		<Item Name="Get MetaData from Configurations.vi" Type="VI" URL="../Helpers/Get MetaData from Configurations.vi"/>
 		<Item Name="Get MetaData from Results.vi" Type="VI" URL="../Helpers/Get MetaData from Results.vi"/>
+		<Item Name="Get Results Metadata.vi" Type="VI" URL="../Helpers/Get Results Metadata.vi"/>
 		<Item Name="LabVIEW datatype to Measurement datatype.vi" Type="VI" URL="../Helpers/LabVIEW datatype to Measurement datatype.vi"/>
 		<Item Name="Read Discovery Service Key File.vi" Type="VI" URL="../Helpers/Read Discovery Service Key File.vi"/>
 		<Item Name="Register Configuration and Results.vi" Type="VI" URL="../Helpers/Register Configuration and Results.vi"/>
