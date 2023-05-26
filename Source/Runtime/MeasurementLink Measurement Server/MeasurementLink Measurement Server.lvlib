@@ -12,9 +12,11 @@
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Create Measurement Services.vi" Type="VI" URL="../Helpers/Create Measurement Services.vi"/>
 		<Item Name="Error Strings Global.vi" Type="VI" URL="../Helpers/Error Strings Global.vi"/>
+		<Item Name="Filter for Enum Controls.vi" Type="VI" URL="../Helpers/Filter for Enum Controls.vi"/>
 		<Item Name="Get Configuration Metadata.vi" Type="VI" URL="../Helpers/Get Configuration Metadata.vi"/>
 		<Item Name="Get Default for Type.vi" Type="VI" URL="../Helpers/Get Default for Type.vi"/>
 		<Item Name="Get Discovery Service Key File Path.vi" Type="VI" URL="../Helpers/Get Discovery Service Key File Path.vi"/>
+		<Item Name="Get Measurement Configuration Controls.vi" Type="VI" URL="../Helpers/Get Measurement Configuration Controls.vi"/>
 		<Item Name="Get MetaData from Configurations.vi" Type="VI" URL="../Helpers/Get MetaData from Configurations.vi"/>
 		<Item Name="Get MetaData from Results.vi" Type="VI" URL="../Helpers/Get MetaData from Results.vi"/>
 		<Item Name="Get Results Metadata.vi" Type="VI" URL="../Helpers/Get Results Metadata.vi"/>
