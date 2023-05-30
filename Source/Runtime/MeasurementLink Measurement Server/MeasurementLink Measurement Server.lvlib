@@ -10,6 +10,7 @@
 	<Item Name="Private Helpers" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="Create Enum Type Specialization.vi" Type="VI" URL="../Helpers/Create Enum Type Specialization.vi"/>
 		<Item Name="Create Measurement Services.vi" Type="VI" URL="../Helpers/Create Measurement Services.vi"/>
 		<Item Name="Error Strings Global.vi" Type="VI" URL="../Helpers/Error Strings Global.vi"/>
 		<Item Name="Filter for Enum Controls.vi" Type="VI" URL="../Helpers/Filter for Enum Controls.vi"/>
@@ -20,6 +21,9 @@
 		<Item Name="Get MetaData from Configurations.vi" Type="VI" URL="../Helpers/Get MetaData from Configurations.vi"/>
 		<Item Name="Get MetaData from Results.vi" Type="VI" URL="../Helpers/Get MetaData from Results.vi"/>
 		<Item Name="Get Results Metadata.vi" Type="VI" URL="../Helpers/Get Results Metadata.vi"/>
+		<Item Name="IsArrayControl.vi" Type="VI" URL="../Helpers/IsArrayControl.vi"/>
+		<Item Name="IsEnumControl.vi" Type="VI" URL="../Helpers/IsEnumControl.vi"/>
+		<Item Name="IsEnumOrEnumArrayControl.vi" Type="VI" URL="../Helpers/IsEnumOrEnumArrayControl.vi"/>
 		<Item Name="LabVIEW datatype to Measurement datatype.vi" Type="VI" URL="../Helpers/LabVIEW datatype to Measurement datatype.vi"/>
 		<Item Name="Read Discovery Service Key File.vi" Type="VI" URL="../Helpers/Read Discovery Service Key File.vi"/>
 		<Item Name="Register Configuration and Results.vi" Type="VI" URL="../Helpers/Register Configuration and Results.vi"/>
@@ -41,7 +45,6 @@
 	</Item>
 	<Item Name="Public Helpers" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Create Enum Type Specialization.vi" Type="VI" URL="../Helpers/Create Enum Type Specialization.vi"/>
 		<Item Name="Get Discovery Service Address.vi" Type="VI" URL="../Helpers/Get Discovery Service Address.vi"/>
 	</Item>
 	<Item Name="Public TypeDefs" Type="Folder">
