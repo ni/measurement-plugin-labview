@@ -25,7 +25,6 @@
 		<Item Name="Get Results Metadata.vi" Type="VI" URL="../Helpers/Get Results Metadata.vi"/>
 		<Item Name="IsEnumArrayControl.vi" Type="VI" URL="../Helpers/IsEnumArrayControl.vi"/>
 		<Item Name="IsEnumControl.vi" Type="VI" URL="../Helpers/IsEnumControl.vi"/>
-		<Item Name="IsEnumOrEnumArrayControl.vi" Type="VI" URL="../Helpers/IsEnumOrEnumArrayControl.vi"/>
 		<Item Name="LabVIEW datatype to Measurement datatype.vi" Type="VI" URL="../Helpers/LabVIEW datatype to Measurement datatype.vi"/>
 		<Item Name="Read Discovery Service Key File.vi" Type="VI" URL="../Helpers/Read Discovery Service Key File.vi"/>
 		<Item Name="Register Configuration and Results.vi" Type="VI" URL="../Helpers/Register Configuration and Results.vi"/>
