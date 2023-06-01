@@ -33,13 +33,13 @@
 	<Item Name="Private TypeDefs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		<Item Name="ConfigurationParameter.ctl" Type="VI" URL="../Helpers/TypeDefs/ConfigurationParameter.ctl"/>
-		<Item Name="ConfigurationParameter_AnnotationsEntry.ctl" Type="VI" URL="../Helpers/TypeDefs/ConfigurationParameter_AnnotationsEntry.ctl"/>
 		<Item Name="GetMetadataResponse.ctl" Type="VI" URL="../Helpers/TypeDefs/GetMetadataResponse.ctl"/>
 		<Item Name="google_protobuf_Field_Kind.ctl" Type="VI" URL="../Helpers/TypeDefs/google_protobuf_Field_Kind.ctl"/>
 		<Item Name="MeasurementSignature.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasurementSignature.ctl"/>
 		<Item Name="MeasureRequest.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasureRequest.ctl"/>
 		<Item Name="MeasureResponse.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasureResponse.ctl"/>
 		<Item Name="Output.ctl" Type="VI" URL="../Helpers/TypeDefs/Output.ctl"/>
+		<Item Name="Parameter_AnnotationsEntry.ctl" Type="VI" URL="../Helpers/TypeDefs/Parameter_AnnotationsEntry.ctl"/>
 		<Item Name="PinMapContext.ctl" Type="VI" URL="../Helpers/TypeDefs/PinMapContext.ctl"/>
 		<Item Name="UserInterfaceDetails.ctl" Type="VI" URL="../Helpers/TypeDefs/UserInterfaceDetails.ctl"/>
 	</Item>
