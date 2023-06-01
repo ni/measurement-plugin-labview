@@ -14,7 +14,7 @@
 		<Item Name="Create Measurement Services.vi" Type="VI" URL="../Helpers/Create Measurement Services.vi"/>
 		<Item Name="Error Strings Global.vi" Type="VI" URL="../Helpers/Error Strings Global.vi"/>
 		<Item Name="Filter for Enum Controls.vi" Type="VI" URL="../Helpers/Filter for Enum Controls.vi"/>
-		<Item Name="Get Configuration Metadata.vi" Type="VI" URL="../Helpers/Get Configuration Metadata.vi"/>
+		<Item Name="Get Annotations For Parameter.vi" Type="VI" URL="../Helpers/Get Annotations For Parameter.vi"/>
 		<Item Name="Get Default for Type.vi" Type="VI" URL="../Helpers/Get Default for Type.vi"/>
 		<Item Name="Get Discovery Service Key File Path.vi" Type="VI" URL="../Helpers/Get Discovery Service Key File Path.vi"/>
 		<Item Name="Get Enum Type Specializations.vi" Type="VI" URL="../Helpers/Get Enum Type Specializations.vi"/>
@@ -22,7 +22,6 @@
 		<Item Name="Get MetaData from Configurations.vi" Type="VI" URL="../Helpers/Get MetaData from Configurations.vi"/>
 		<Item Name="Get MetaData from Results.vi" Type="VI" URL="../Helpers/Get MetaData from Results.vi"/>
 		<Item Name="Get Metadata.vi" Type="VI" URL="../Helpers/Get Metadata.vi"/>
-		<Item Name="Get Results Metadata.vi" Type="VI" URL="../Helpers/Get Results Metadata.vi"/>
 		<Item Name="IsEnumArrayControl.vi" Type="VI" URL="../Helpers/IsEnumArrayControl.vi"/>
 		<Item Name="IsEnumControl.vi" Type="VI" URL="../Helpers/IsEnumControl.vi"/>
 		<Item Name="LabVIEW datatype to Measurement datatype.vi" Type="VI" URL="../Helpers/LabVIEW datatype to Measurement datatype.vi"/>
