@@ -38,7 +38,7 @@
 		<Item Name="MeasurementSignature.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasurementSignature.ctl"/>
 		<Item Name="MeasureRequest.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasureRequest.ctl"/>
 		<Item Name="MeasureResponse.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasureResponse.ctl"/>
-		<Item Name="Output.ctl" Type="VI" URL="../Helpers/TypeDefs/Output.ctl"/>
+		<Item Name="OutputParameter.ctl" Type="VI" URL="../Helpers/TypeDefs/OutputParameter.ctl"/>
 		<Item Name="Parameter_AnnotationsEntry.ctl" Type="VI" URL="../Helpers/TypeDefs/Parameter_AnnotationsEntry.ctl"/>
 		<Item Name="PinMapContext.ctl" Type="VI" URL="../Helpers/TypeDefs/PinMapContext.ctl"/>
 		<Item Name="UserInterfaceDetails.ctl" Type="VI" URL="../Helpers/TypeDefs/UserInterfaceDetails.ctl"/>
