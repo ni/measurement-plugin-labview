@@ -10,13 +10,20 @@
 	<Item Name="Private Helpers" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="Create Enum Type Specialization.vi" Type="VI" URL="../Helpers/Create Enum Type Specialization.vi"/>
 		<Item Name="Create Measurement Services.vi" Type="VI" URL="../Helpers/Create Measurement Services.vi"/>
 		<Item Name="Error Strings Global.vi" Type="VI" URL="../Helpers/Error Strings Global.vi"/>
-		<Item Name="Get Configuration Metadata.vi" Type="VI" URL="../Helpers/Get Configuration Metadata.vi"/>
+		<Item Name="Filter for Enum Controls.vi" Type="VI" URL="../Helpers/Filter for Enum Controls.vi"/>
+		<Item Name="Get Annotations For Parameter.vi" Type="VI" URL="../Helpers/Get Annotations For Parameter.vi"/>
 		<Item Name="Get Default for Type.vi" Type="VI" URL="../Helpers/Get Default for Type.vi"/>
 		<Item Name="Get Discovery Service Key File Path.vi" Type="VI" URL="../Helpers/Get Discovery Service Key File Path.vi"/>
+		<Item Name="Get Enum Type Specializations.vi" Type="VI" URL="../Helpers/Get Enum Type Specializations.vi"/>
+		<Item Name="Get Measurement Configuration Controls.vi" Type="VI" URL="../Helpers/Get Measurement Configuration Controls.vi"/>
 		<Item Name="Get MetaData from Configurations.vi" Type="VI" URL="../Helpers/Get MetaData from Configurations.vi"/>
 		<Item Name="Get MetaData from Results.vi" Type="VI" URL="../Helpers/Get MetaData from Results.vi"/>
+		<Item Name="Get Metadata.vi" Type="VI" URL="../Helpers/Get Metadata.vi"/>
+		<Item Name="IsEnumArrayControl.vi" Type="VI" URL="../Helpers/IsEnumArrayControl.vi"/>
+		<Item Name="IsEnumControl.vi" Type="VI" URL="../Helpers/IsEnumControl.vi"/>
 		<Item Name="LabVIEW datatype to Measurement datatype.vi" Type="VI" URL="../Helpers/LabVIEW datatype to Measurement datatype.vi"/>
 		<Item Name="Read Discovery Service Key File.vi" Type="VI" URL="../Helpers/Read Discovery Service Key File.vi"/>
 		<Item Name="Register Configuration and Results.vi" Type="VI" URL="../Helpers/Register Configuration and Results.vi"/>
@@ -26,19 +33,18 @@
 	<Item Name="Private TypeDefs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		<Item Name="ConfigurationParameter.ctl" Type="VI" URL="../Helpers/TypeDefs/ConfigurationParameter.ctl"/>
-		<Item Name="ConfigurationParameter_AnnotationsEntry.ctl" Type="VI" URL="../Helpers/TypeDefs/ConfigurationParameter_AnnotationsEntry.ctl"/>
 		<Item Name="GetMetadataResponse.ctl" Type="VI" URL="../Helpers/TypeDefs/GetMetadataResponse.ctl"/>
 		<Item Name="google_protobuf_Field_Kind.ctl" Type="VI" URL="../Helpers/TypeDefs/google_protobuf_Field_Kind.ctl"/>
 		<Item Name="MeasurementSignature.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasurementSignature.ctl"/>
 		<Item Name="MeasureRequest.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasureRequest.ctl"/>
 		<Item Name="MeasureResponse.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasureResponse.ctl"/>
-		<Item Name="Output.ctl" Type="VI" URL="../Helpers/TypeDefs/Output.ctl"/>
+		<Item Name="OutputParameter.ctl" Type="VI" URL="../Helpers/TypeDefs/OutputParameter.ctl"/>
+		<Item Name="Parameter_AnnotationsEntry.ctl" Type="VI" URL="../Helpers/TypeDefs/Parameter_AnnotationsEntry.ctl"/>
 		<Item Name="PinMapContext.ctl" Type="VI" URL="../Helpers/TypeDefs/PinMapContext.ctl"/>
 		<Item Name="UserInterfaceDetails.ctl" Type="VI" URL="../Helpers/TypeDefs/UserInterfaceDetails.ctl"/>
 	</Item>
 	<Item Name="Public Helpers" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Create Enum Type Specialization.vi" Type="VI" URL="../Helpers/Create Enum Type Specialization.vi"/>
 		<Item Name="Get Discovery Service Address.vi" Type="VI" URL="../Helpers/Get Discovery Service Address.vi"/>
 	</Item>
 	<Item Name="Public TypeDefs" Type="Folder">
