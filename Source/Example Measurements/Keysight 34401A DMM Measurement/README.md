@@ -28,10 +28,10 @@ HP/Agilent/Keysight 34401A DMM.
 This example requires an HP/Agilent/Keysight 34401A or compatible DMM.
 
 By default, the pin map included with this example uses the resource name
-`GPIB0::23::INSTR`, which matches the 34401A's factory default settings when
+`GPIB0::22::INSTR`, which matches the 34401A's factory default address when
 connected via GPIB. If this doesn't match your configuration, edit [`Keysight
 34401A DMM Measurement.pinmap`](./Keysight 34401A DMM Measurement.pinmap) and
-replace `GPIB0::23::INSTR` with the desired resource name (e.g. `ASRL1::INSTR`
+replace `GPIB0::22::INSTR` with the desired resource name (e.g. `ASRL1::INSTR`
 or a custom alias).
 
 ### Session Management
