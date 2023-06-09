@@ -5,7 +5,7 @@ HP/Agilent/Keysight 34401A DMM.
 
 ### Features
 
-- Uses the Agilent 34401 LabVIEW plug-and-play (project style) instrument driver
+- Demonstrates how to write a MeasurementLink plug-in that uses instrument drivers and NI-VISA
 - Pin-aware, supporting a custom instrument type and a single session/pin/site
 - Includes InstrumentStudio project file
 - Includes a TestStand sequence showing how to configure the pin map, register
