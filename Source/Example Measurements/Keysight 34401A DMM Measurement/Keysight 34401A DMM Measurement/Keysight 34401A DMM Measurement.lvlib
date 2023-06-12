@@ -20,7 +20,6 @@
 		<Item Name="Keysight 34401A Check For Out of Range.vi" Type="VI" URL="../subVIs/Keysight 34401A Check For Out of Range.vi"/>
 		<Item Name="Keysight 34401A Measurement Logic.vi" Type="VI" URL="../subVIs/Keysight 34401A Measurement Logic.vi"/>
 		<Item Name="Location to Insecure Address.vi" Type="VI" URL="../subVIs/Location to Insecure Address.vi"/>
-		<Item Name="Measurement Events.ctl" Type="VI" URL="../subVIs/Measurement Events.ctl"/>
 		<Item Name="Wait Until Canceled.vi" Type="VI" URL="../subVIs/Wait Until Canceled.vi"/>
 	</Item>
 	<Item Name="TestStand Code Modules" Type="Folder">
