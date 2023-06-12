@@ -16,6 +16,8 @@ HP/Agilent/Keysight 34401A DMM.
     be moved to the `ProcessSetup` and `ProcessCleanup` callbacks.
 - Demonstrates how to share instrument resources with other measurement services
   when running measurements from TestStand, without using NI gRPC Device Server
+- Demonstrates how to cancel a running measurement by calling the instrument driver's
+  `Device Clear` VI to halt the measurement in progress
 
 ### Required Driver Software
 
