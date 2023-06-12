@@ -4728,7 +4728,7 @@
 													<Measurement classname='Obj'>
 														<subprops>
 															<Name classname='Str'>
-																<value>ni.examples.Keysight34401ADMMMeasurement_LabVIEW</value>
+																<value>ni.examples.Keysight34401A_DMMMeasurement_LabVIEW</value>
 															</Name>
 															<Parameters classname='Objs'>
 																<value lbound='[0]' ubound='[4]'>
