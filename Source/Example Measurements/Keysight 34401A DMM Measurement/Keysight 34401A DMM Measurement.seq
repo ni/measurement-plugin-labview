@@ -4731,7 +4731,7 @@
 																<value>ni.examples.Keysight34401A_DMMMeasurement_LabVIEW</value>
 															</Name>
 															<Parameters classname='Objs'>
-																<value lbound='[0]' ubound='[5]'>
+																<value lbound='[0]' ubound='[6]'>
 																	<elemproto>
 																		<_NAME_IN_ATTRIBUTE_ name='' classname='Obj'>
 																			<subprops>
@@ -4826,7 +4826,37 @@
 																		<Obj typename='NI_MeasurementParameter' name=''>
 																			<subprops>
 																				<Name classname='Str'>
-																					<value>range</value>
+																					<value>auto_range</value>
+																				</Name>
+																				<ArgumentValue classname='ExprValue'>
+																					<value>True</value>
+																				</ArgumentValue>
+																				<Direction classname='Str'>
+																					<value>In</value>
+																				</Direction>
+																				<Log classname='Bool'>
+																					<value>true</value>
+																				</Log>
+																				<Dimension classname='Num'>
+																					<value representation='UInt64'>0</value>
+																				</Dimension>
+																				<Type classname='Str'>
+																					<value>TypeBool</value>
+																				</Type>
+																				<ID classname='Num'>
+																					<value representation='Int64'>3</value>
+																				</ID>
+																				<TypeSpecialization classname='Str'>
+																					<value>None</value>
+																				</TypeSpecialization>
+																			</subprops>
+																		</Obj>
+																	</value>
+																	<value>
+																		<Obj typename='NI_MeasurementParameter' name=''>
+																			<subprops>
+																				<Name classname='Str'>
+																					<value>manual_range</value>
 																				</Name>
 																				<ArgumentValue classname='ExprValue'>
 																					<value>1</value>
@@ -4844,7 +4874,7 @@
 																					<value>TypeDouble</value>
 																				</Type>
 																				<ID classname='Num'>
-																					<value representation='Int64'>3</value>
+																					<value representation='Int64'>4</value>
 																				</ID>
 																				<TypeSpecialization classname='Str'>
 																					<value>None</value>
@@ -4874,7 +4904,7 @@
 																					<value>TypeDouble</value>
 																				</Type>
 																				<ID classname='Num'>
-																					<value representation='Int64'>4</value>
+																					<value representation='Int64'>5</value>
 																				</ID>
 																				<TypeSpecialization classname='Str'>
 																					<value>None</value>
