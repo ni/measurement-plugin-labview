@@ -17,6 +17,7 @@
 		<Item Name="Get Function.vi" Type="VI" URL="../subVIs/Get Function.vi"/>
 		<Item Name="Get Session Information.vi" Type="VI" URL="../subVIs/Get Session Information.vi"/>
 		<Item Name="Keysight 34401A Cancellation Logic.vi" Type="VI" URL="../subVIs/Keysight 34401A Cancellation Logic.vi"/>
+		<Item Name="Keysight 34401A Check Range.vi" Type="VI" URL="../subVIs/Keysight 34401A Check Range.vi"/>
 		<Item Name="Keysight 34401A Measurement Logic.vi" Type="VI" URL="../subVIs/Keysight 34401A Measurement Logic.vi"/>
 		<Item Name="Location to Insecure Address.vi" Type="VI" URL="../subVIs/Location to Insecure Address.vi"/>
 		<Item Name="Measurement Events.ctl" Type="VI" URL="../subVIs/Measurement Events.ctl"/>

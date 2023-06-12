@@ -4731,7 +4731,7 @@
 																<value>ni.examples.Keysight34401A_DMMMeasurement_LabVIEW</value>
 															</Name>
 															<Parameters classname='Objs'>
-																<value lbound='[0]' ubound='[4]'>
+																<value lbound='[0]' ubound='[5]'>
 																	<elemproto>
 																		<_NAME_IN_ATTRIBUTE_ name='' classname='Obj'>
 																			<subprops>
@@ -4905,6 +4905,36 @@
 																				</Type>
 																				<ID classname='Num'>
 																					<value representation='Int64'>1</value>
+																				</ID>
+																				<TypeSpecialization classname='Str'>
+																					<value>None</value>
+																				</TypeSpecialization>
+																			</subprops>
+																		</Obj>
+																	</value>
+																	<value>
+																		<Obj typename='NI_MeasurementParameter' name=''>
+																			<subprops>
+																				<Name classname='Str'>
+																					<value>signal_out_of_range</value>
+																				</Name>
+																				<ArgumentValue classname='ExprValue'>
+																					<value/>
+																				</ArgumentValue>
+																				<Direction classname='Str'>
+																					<value>Out</value>
+																				</Direction>
+																				<Log classname='Bool'>
+																					<value>true</value>
+																				</Log>
+																				<Dimension classname='Num'>
+																					<value representation='UInt64'>0</value>
+																				</Dimension>
+																				<Type classname='Str'>
+																					<value>TypeBool</value>
+																				</Type>
+																				<ID classname='Num'>
+																					<value representation='Int64'>2</value>
 																				</ID>
 																				<TypeSpecialization classname='Str'>
 																					<value>None</value>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="904CD46C602759C0DD04D07CA5F54853F42C2194907B80CDA18AC917FEA97461AD86077E2BD4A8895FB5085CFA55FA539B31392F3377D5F916B50E9A4479E877" Timestamp="1D99D43E5288BFF" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="6642E667BB705C18F24F89D0B49E0A31CA63F123120F8B65A5F6A87BE9955BD8B5C8A9EE550281064CC6357C18D726FE3B504D22F8466C3F7E22179C46F6E559" Timestamp="1D99D472B80A87E" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.8.0.50004" FeatureSetName="Configuration Based Software Core" Name="http://www.ni.com/ConfigurationBasedSoftware.Core" OldestCompatibleVersion="6.3.0.49152" Version="6.3.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="23.3.0.50000" FeatureSetName="UnifiedTask" Name="http://www.ni.com/InstrumentFramework/Document/SourceModel/UnifiedSoftFrontPanel" Version="1.0.0.0" />
@@ -12,7 +12,7 @@
 		<EnvoyManagerRootEnvoy Id="68c9fef841540d48e634da2094e51f3" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
 		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="94f0b48f87994a6d95fc1c6f400cfbd5" Name="Keysight 34401A DMM Measurement.sfp" NameTracksFileName="True" />
 		<EmbeddedDefinitionReference Id="ef118f2514c94f0e9398e17c283681bf" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/ScreenDocument}Screen" Name="{http\://www.ni.com/InstrumentFramework/ScreenDocument}Screen.task">
-			<Screen ClientId="{b71b5428-8d85-4d11-afe8-733bbbeb1a09}" ConfigurationParameters="{&quot;@type&quot;:&quot;type.googleapis.com/ConfigurationParameter&quot;,&quot;pinName&quot;:&quot;Pin1&quot;,&quot;measurementType&quot;:&quot;DC Volts&quot;,&quot;range&quot;:1.0,&quot;resolutionDigits&quot;:5.5}" DisplayName="Keysight 34401A DMM Measurement (LV)" Id="2b7356c5a8564a4098b1418637f8ec61" PanelPresentation="ConfigurationWithVisualization" ServiceClass="ni.examples.Keysight34401A_DMMMeasurement_LabVIEW" xmlns="http://www.ni.com/InstrumentFramework/ScreenDocument">
+			<Screen ClientId="{8ed8e831-fae3-4ba4-b3a3-d54076e2f38b}" ConfigurationParameters="{&quot;@type&quot;:&quot;type.googleapis.com/ConfigurationParameter&quot;,&quot;pinName&quot;:&quot;Pin1&quot;,&quot;measurementType&quot;:&quot;DC Volts&quot;,&quot;range&quot;:1.0,&quot;resolutionDigits&quot;:5.5}" DisplayName="Keysight 34401A DMM Measurement (LV)" Id="2b7356c5a8564a4098b1418637f8ec61" PanelPresentation="ConfigurationWithVisualization" ServiceClass="ni.examples.Keysight34401A_DMMMeasurement_LabVIEW" xmlns="http://www.ni.com/InstrumentFramework/ScreenDocument">
 				<ScreenSurface BackgroundColor="[SMSolidColorBrush]#ffffffff" Height="[float]400" Id="8dde76c2d3b54b1fa0686d56cb79fe87" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]800" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core" />
 			</Screen>
 		</EmbeddedDefinitionReference>
