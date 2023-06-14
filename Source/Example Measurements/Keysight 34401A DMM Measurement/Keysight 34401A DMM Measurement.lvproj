@@ -91,15 +91,16 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Keysight 34401A DMM Measurement.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{10C7A19E-ADBC-4742-B617-E2F1EE61FB5A}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Keysight34401ADMMMeasurement.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Keysight 34401A DMM Measurement/Keysight34401ADMMMeasurement.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Keysight 34401A DMM Measurement.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Keysight 34401A DMM Measurement/Keysight 34401A DMM Measurement.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Keysight 34401A DMM Measurement/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{93518E17-B104-40CE-A832-81D91CA76839}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{455316B9-EA9C-4218-A216-BA3ABB98A4AC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Keysight 34401A DMM Measurement.lvlib/Get Measurement Details.vi</Property>
@@ -139,7 +140,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 </Property>
 				<Property Name="TgtF_productName" Type="Str">Keysight 34401A DMM Measurement</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{2BF0A73F-A65E-45D2-A1B4-58DD3892B0A1}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Keysight34401ADMMMeasurement.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Keysight 34401A DMM Measurement.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
