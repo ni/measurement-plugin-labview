@@ -14,9 +14,15 @@
 		<Item Name="MeasurementPlugin.lvclass" Type="LVClass" URL="../Advanced/MeasurementPlugin.lvclass"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
+		<Item Name="Create DC Power Session.vi" Type="VI" URL="../subVIs/Create DC Power Session.vi"/>
 		<Item Name="DCPower Specific Logic.vi" Type="VI" URL="../subVIs/DCPower Specific Logic.vi"/>
+		<Item Name="Destroy DC Power Session.vi" Type="VI" URL="../subVIs/Destroy DC Power Session.vi"/>
+		<Item Name="Get Session Information.vi" Type="VI" URL="../subVIs/Get Session Information.vi"/>
+		<Item Name="GRPC Channel Pool.ctl" Type="VI" URL="../subVIs/GRPC Channel Pool.ctl"/>
 		<Item Name="Location to DCPower Grpc Device.vi" Type="VI" URL="../subVIs/Location to DCPower Grpc Device.vi"/>
 		<Item Name="Location to Insecure Address.vi" Type="VI" URL="../subVIs/Location to Insecure Address.vi"/>
+		<Item Name="Reserve Session(s).vi" Type="VI" URL="../subVIs/Reserve Session(s).vi"/>
+		<Item Name="Unreserve Session(s).vi" Type="VI" URL="../subVIs/Unreserve Session(s).vi"/>
 	</Item>
 	<Item Name="TestStand Code Modules" Type="Folder">
 		<Item Name="subVIs" Type="Folder">
