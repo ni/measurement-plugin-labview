@@ -50,7 +50,9 @@
 	<Item Name="Public TypeDefs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="MeasurementDetails.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasurementDetails.ctl"/>
+		<Item Name="MeasurementLinkServerUserEvents.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasurementLinkServerUserEvents.ctl"/>
 		<Item Name="Parameter Type Specialization.ctl" Type="VI" URL="../Helpers/TypeDefs/Parameter Type Specialization.ctl"/>
+		<Item Name="StopServerUserEvent.ctl" Type="VI" URL="../Helpers/TypeDefs/StopServerUserEvent.ctl"/>
 		<Item Name="Type Specialization Key.ctl" Type="VI" URL="../Helpers/TypeDefs/Type Specialization Key.ctl"/>
 		<Item Name="Type Specialization.ctl" Type="VI" URL="../Helpers/TypeDefs/Type Specialization.ctl"/>
 		<Item Name="UI Information.ctl" Type="VI" URL="../Helpers/TypeDefs/UI Information.ctl"/>
