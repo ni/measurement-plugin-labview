@@ -17,6 +17,7 @@
 		<Item Name="Create DC Power Session.vi" Type="VI" URL="../subVIs/Create DC Power Session.vi"/>
 		<Item Name="DCPower Specific Logic.vi" Type="VI" URL="../subVIs/DCPower Specific Logic.vi"/>
 		<Item Name="Destroy DC Power Session.vi" Type="VI" URL="../subVIs/Destroy DC Power Session.vi"/>
+		<Item Name="Get gRPC Device Location.vi" Type="VI" URL="../subVIs/Get gRPC Device Location.vi"/>
 		<Item Name="Get Session Information.vi" Type="VI" URL="../subVIs/Get Session Information.vi"/>
 		<Item Name="GRPC Channel Pool.ctl" Type="VI" URL="../subVIs/GRPC Channel Pool.ctl"/>
 		<Item Name="Location to DCPower Grpc Device.vi" Type="VI" URL="../subVIs/Location to DCPower Grpc Device.vi"/>
