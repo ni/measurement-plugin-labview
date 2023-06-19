@@ -14,7 +14,8 @@
 		<Item Name="MeasurementPlugin.lvclass" Type="LVClass" URL="../Advanced/MeasurementPlugin.lvclass"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
-		<Item Name="Create NI-DCPower Sessio.vi" Type="VI" URL="../subVIs/Create NI-DCPower Sessio.vi"/>
+		<Item Name="Create Discovery Client.vi" Type="VI" URL="../subVIs/Create Discovery Client.vi"/>
+		<Item Name="Create NI-DCPower Session.vi" Type="VI" URL="../subVIs/Create NI-DCPower Session.vi"/>
 		<Item Name="Destroy NI-DCPower Session.vi" Type="VI" URL="../subVIs/Destroy NI-DCPower Session.vi"/>
 		<Item Name="Get gRPC Device Location.vi" Type="VI" URL="../subVIs/Get gRPC Device Location.vi"/>
 		<Item Name="Get Session Information.vi" Type="VI" URL="../subVIs/Get Session Information.vi"/>
