@@ -95,10 +95,10 @@
 			<Item Name="nidcpower_64.dll" Type="Document" URL="nidcpower_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Reserve Session.vi" Type="VI" URL="../NI-DCPower Measurement/subVIs/Reserve Session.vi"/>
-			<Item Name="Reserve Sessions.vi" Type="VI" URL="../NI-DCPower Measurement/subVIs/Reserve Sessions.vi"/>
-			<Item Name="Unreserve Session.vi" Type="VI" URL="../NI-DCPower Measurement/subVIs/Unreserve Session.vi"/>
-			<Item Name="Unreserve Sessions.vi" Type="VI" URL="../NI-DCPower Measurement/subVIs/Unreserve Sessions.vi"/>
+			<Item Name="Reserve (1 Session).vi" Type="VI" URL="../NI-DCPower Measurement/subVIs/Reserve (1 Session).vi"/>
+			<Item Name="Reserve (N Sessions).vi" Type="VI" URL="../NI-DCPower Measurement/subVIs/Reserve (N Sessions).vi"/>
+			<Item Name="Unreserve (1 Session).vi" Type="VI" URL="../NI-DCPower Measurement/subVIs/Unreserve (1 Session).vi"/>
+			<Item Name="Unreserve (N Sessions).vi" Type="VI" URL="../NI-DCPower Measurement/subVIs/Unreserve (N Sessions).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="NI-DCPower Measurement" Type="EXE">
