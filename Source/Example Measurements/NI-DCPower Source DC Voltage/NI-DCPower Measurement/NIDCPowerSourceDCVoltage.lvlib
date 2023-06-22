@@ -23,7 +23,11 @@
 		<Item Name="Location to DCPower Grpc Device.vi" Type="VI" URL="../subVIs/Location to DCPower Grpc Device.vi"/>
 		<Item Name="Location to Insecure Address.vi" Type="VI" URL="../subVIs/Location to Insecure Address.vi"/>
 		<Item Name="NI-DCPower Specific Logic.vi" Type="VI" URL="../subVIs/NI-DCPower Specific Logic.vi"/>
+		<Item Name="Reserve (1 Session).vi" Type="VI" URL="../subVIs/Reserve (1 Session).vi"/>
+		<Item Name="Reserve (N Sessions).vi" Type="VI" URL="../subVIs/Reserve (N Sessions).vi"/>
 		<Item Name="Reserve (Poly).vi" Type="VI" URL="../subVIs/Reserve (Poly).vi"/>
+		<Item Name="Unreserve (1 Session).vi" Type="VI" URL="../subVIs/Unreserve (1 Session).vi"/>
+		<Item Name="Unreserve (N Sessions).vi" Type="VI" URL="../subVIs/Unreserve (N Sessions).vi"/>
 		<Item Name="Unreserve (Poly).vi" Type="VI" URL="../subVIs/Unreserve (Poly).vi"/>
 	</Item>
 	<Item Name="TestStand Code Modules" Type="Folder">
