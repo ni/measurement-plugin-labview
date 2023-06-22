@@ -14,12 +14,12 @@
 		<Item Name="MeasurementPlugin.lvclass" Type="LVClass" URL="../Advanced/MeasurementPlugin.lvclass"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
+		<Item Name="Close NI-DCPower Session.vi" Type="VI" URL="../subVIs/Close NI-DCPower Session.vi"/>
 		<Item Name="Create Discovery Client.vi" Type="VI" URL="../subVIs/Create Discovery Client.vi"/>
-		<Item Name="Create NI-DCPower Session.vi" Type="VI" URL="../subVIs/Create NI-DCPower Session.vi"/>
-		<Item Name="Destroy NI-DCPower Session.vi" Type="VI" URL="../subVIs/Destroy NI-DCPower Session.vi"/>
 		<Item Name="Get gRPC Device Location.vi" Type="VI" URL="../subVIs/Get gRPC Device Location.vi"/>
 		<Item Name="Get Session Information.vi" Type="VI" URL="../subVIs/Get Session Information.vi"/>
 		<Item Name="GRPC Clients.ctl" Type="VI" URL="../subVIs/GRPC Clients.ctl"/>
+		<Item Name="Initialize NI-DCPower Session.vi" Type="VI" URL="../subVIs/Initialize NI-DCPower Session.vi"/>
 		<Item Name="Location to DCPower Grpc Device.vi" Type="VI" URL="../subVIs/Location to DCPower Grpc Device.vi"/>
 		<Item Name="Location to Insecure Address.vi" Type="VI" URL="../subVIs/Location to Insecure Address.vi"/>
 		<Item Name="NI-DCPower Specific Logic.vi" Type="VI" URL="../subVIs/NI-DCPower Specific Logic.vi"/>
