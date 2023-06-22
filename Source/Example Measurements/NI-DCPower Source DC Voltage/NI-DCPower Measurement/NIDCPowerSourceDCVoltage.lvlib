@@ -19,8 +19,9 @@
 		<Item Name="Get gRPC Device Location.vi" Type="VI" URL="../subVIs/Get gRPC Device Location.vi"/>
 		<Item Name="Get Session Information.vi" Type="VI" URL="../subVIs/Get Session Information.vi"/>
 		<Item Name="GRPC Clients.ctl" Type="VI" URL="../subVIs/GRPC Clients.ctl"/>
+		<Item Name="gRPC Device Options.ctl" Type="VI" URL="../subVIs/gRPC Device Options.ctl"/>
 		<Item Name="Initialize NI-DCPower Session.vi" Type="VI" URL="../subVIs/Initialize NI-DCPower Session.vi"/>
-		<Item Name="Location to DCPower Grpc Device.vi" Type="VI" URL="../subVIs/Location to DCPower Grpc Device.vi"/>
+		<Item Name="Location to Grpc Device.vi" Type="VI" URL="../subVIs/Location to Grpc Device.vi"/>
 		<Item Name="Location to Insecure Address.vi" Type="VI" URL="../subVIs/Location to Insecure Address.vi"/>
 		<Item Name="NI-DCPower Specific Logic.vi" Type="VI" URL="../subVIs/NI-DCPower Specific Logic.vi"/>
 		<Item Name="Reserve (1 Session).vi" Type="VI" URL="../subVIs/Reserve (1 Session).vi"/>
