@@ -18,7 +18,7 @@
 		<Item Name="Create Discovery Client.vi" Type="VI" URL="../subVIs/Create Discovery Client.vi"/>
 		<Item Name="Get gRPC Device Location.vi" Type="VI" URL="../subVIs/Get gRPC Device Location.vi"/>
 		<Item Name="Get Session Information.vi" Type="VI" URL="../subVIs/Get Session Information.vi"/>
-		<Item Name="GRPC Clients.ctl" Type="VI" URL="../subVIs/GRPC Clients.ctl"/>
+		<Item Name="gRPC Clients.ctl" Type="VI" URL="../subVIs/gRPC Clients.ctl"/>
 		<Item Name="gRPC Device Options.ctl" Type="VI" URL="../subVIs/gRPC Device Options.ctl"/>
 		<Item Name="Initialize NI-DCPower Session.vi" Type="VI" URL="../subVIs/Initialize NI-DCPower Session.vi"/>
 		<Item Name="Location to Grpc Device.vi" Type="VI" URL="../subVIs/Location to Grpc Device.vi"/>
