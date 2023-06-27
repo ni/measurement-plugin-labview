@@ -14,6 +14,7 @@
 		<Item Name="Get Library.vi" Type="VI" URL="../Get Library.vi"/>
 		<Item Name="Get Reserved Names.vi" Type="VI" URL="../Get Reserved Names.vi"/>
 		<Item Name="Open Project.vi" Type="VI" URL="../Open Project.vi"/>
+		<Item Name="Save As Measurement Service Helpers.vi" Type="VI" URL="../Save As Measurement Service Helpers.vi"/>
 		<Item Name="Save As Measurement Service template.vi" Type="VI" URL="../Save As Measurement Service template.vi"/>
 		<Item Name="Update Measurement Details.vi" Type="VI" URL="../Update Measurement Details.vi"/>
 		<Item Name="Valid Measurement Service Name.vi" Type="VI" URL="../Valid Measurement Service Name.vi"/>
