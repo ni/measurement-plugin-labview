@@ -4789,6 +4789,9 @@
 																				<TypeSpecialization classname='Str'>
 																					<value>Pin</value>
 																				</TypeSpecialization>
+																				<EnumDefinition classname='Objs'>
+																					<value lbound='[0]' ubound='[]'/>
+																				</EnumDefinition>
 																			</subprops>
 																		</Obj>
 																	</value>
@@ -4799,7 +4802,7 @@
 																					<value>measurement_type</value>
 																				</Name>
 																				<ArgumentValue classname='ExprValue'>
-																					<value>"DC Volts"</value>
+																					<value>0i64</value>
 																				</ArgumentValue>
 																				<Direction classname='Str'>
 																					<value>In</value>
@@ -4811,14 +4814,83 @@
 																					<value representation='UInt64'>0</value>
 																				</Dimension>
 																				<Type classname='Str'>
-																					<value>TypeString</value>
+																					<value>TypeEnum</value>
 																				</Type>
 																				<ID classname='Num'>
 																					<value representation='Int64'>2</value>
 																				</ID>
 																				<TypeSpecialization classname='Str'>
-																					<value>None</value>
+																					<value>Enum</value>
 																				</TypeSpecialization>
+																				<EnumDefinition classname='Objs'>
+																					<value lbound='[0]' ubound='[12]'>
+																						<value>
+																							<Num name='DC Voltage'>
+																								<value representation='Int64'>0</value>
+																							</Num>
+																						</value>
+																						<value>
+																							<Num name='AC Voltage'>
+																								<value representation='Int64'>1</value>
+																							</Num>
+																						</value>
+																						<value>
+																							<Num name='2 - Wire Resistance'>
+																								<value representation='Int64'>2</value>
+																							</Num>
+																						</value>
+																						<value>
+																							<Num name='4 - Wire Resistance'>
+																								<value representation='Int64'>3</value>
+																							</Num>
+																						</value>
+																						<value>
+																							<Num name='DC Current'>
+																								<value representation='Int64'>4</value>
+																							</Num>
+																						</value>
+																						<value>
+																							<Num name='AC Current'>
+																								<value representation='Int64'>5</value>
+																							</Num>
+																						</value>
+																						<value>
+																							<Num name='Frequency'>
+																								<value representation='Int64'>6</value>
+																							</Num>
+																						</value>
+																						<value>
+																							<Num name='Period'>
+																								<value representation='Int64'>7</value>
+																							</Num>
+																						</value>
+																						<value>
+																							<Num name='Continuity'>
+																								<value representation='Int64'>8</value>
+																							</Num>
+																						</value>
+																						<value>
+																							<Num name='Diode Checking'>
+																								<value representation='Int64'>9</value>
+																							</Num>
+																						</value>
+																						<value>
+																							<Num name='VDC:VDC Ratio'>
+																								<value representation='Int64'>10</value>
+																							</Num>
+																						</value>
+																						<value>
+																							<Num name='Temperature'>
+																								<value representation='Int64'>11</value>
+																							</Num>
+																						</value>
+																						<value>
+																							<Num name='Capacitance'>
+																								<value representation='Int64'>12</value>
+																							</Num>
+																						</value>
+																					</value>
+																				</EnumDefinition>
 																			</subprops>
 																		</Obj>
 																	</value>
@@ -4849,6 +4921,9 @@
 																				<TypeSpecialization classname='Str'>
 																					<value>None</value>
 																				</TypeSpecialization>
+																				<EnumDefinition classname='Objs'>
+																					<value lbound='[0]' ubound='[]'/>
+																				</EnumDefinition>
 																			</subprops>
 																		</Obj>
 																	</value>
@@ -4879,6 +4954,9 @@
 																				<TypeSpecialization classname='Str'>
 																					<value>None</value>
 																				</TypeSpecialization>
+																				<EnumDefinition classname='Objs'>
+																					<value lbound='[0]' ubound='[]'/>
+																				</EnumDefinition>
 																			</subprops>
 																		</Obj>
 																	</value>
@@ -4909,6 +4987,9 @@
 																				<TypeSpecialization classname='Str'>
 																					<value>None</value>
 																				</TypeSpecialization>
+																				<EnumDefinition classname='Objs'>
+																					<value lbound='[0]' ubound='[]'/>
+																				</EnumDefinition>
 																			</subprops>
 																		</Obj>
 																	</value>
@@ -4939,6 +5020,9 @@
 																				<TypeSpecialization classname='Str'>
 																					<value>None</value>
 																				</TypeSpecialization>
+																				<EnumDefinition classname='Objs'>
+																					<value lbound='[0]' ubound='[]'/>
+																				</EnumDefinition>
 																			</subprops>
 																		</Obj>
 																	</value>
@@ -4969,6 +5053,9 @@
 																				<TypeSpecialization classname='Str'>
 																					<value>None</value>
 																				</TypeSpecialization>
+																				<EnumDefinition classname='Objs'>
+																					<value lbound='[0]' ubound='[]'/>
+																				</EnumDefinition>
 																			</subprops>
 																		</Obj>
 																	</value>

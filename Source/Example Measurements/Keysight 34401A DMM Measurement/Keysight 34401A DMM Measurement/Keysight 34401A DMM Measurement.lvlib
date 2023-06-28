@@ -14,9 +14,9 @@
 		<Item Name="MeasurementPlugin.lvclass" Type="LVClass" URL="../Advanced/MeasurementPlugin.lvclass"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
-		<Item Name="Get Function.vi" Type="VI" URL="../subVIs/Get Function.vi"/>
 		<Item Name="Keysight 34401A Cancellation Logic.vi" Type="VI" URL="../subVIs/Keysight 34401A Cancellation Logic.vi"/>
 		<Item Name="Keysight 34401A Check For Out of Range.vi" Type="VI" URL="../subVIs/Keysight 34401A Check For Out of Range.vi"/>
+		<Item Name="Keysight 34401A Function.ctl" Type="VI" URL="../subVIs/Keysight 34401A Function.ctl"/>
 		<Item Name="Keysight 34401A Measurement Logic.vi" Type="VI" URL="../subVIs/Keysight 34401A Measurement Logic.vi"/>
 		<Item Name="Wait Until Canceled.vi" Type="VI" URL="../subVIs/Wait Until Canceled.vi"/>
 	</Item>
