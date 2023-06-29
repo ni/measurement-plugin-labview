@@ -18,9 +18,6 @@
 		<Item Name="Keysight 34401A Cancellation Logic.vi" Type="VI" URL="../subVIs/Keysight 34401A Cancellation Logic.vi"/>
 		<Item Name="Keysight 34401A Check For Out of Range.vi" Type="VI" URL="../subVIs/Keysight 34401A Check For Out of Range.vi"/>
 		<Item Name="Keysight 34401A Measurement Logic.vi" Type="VI" URL="../subVIs/Keysight 34401A Measurement Logic.vi"/>
-		<Item Name="Location to Insecure Address.vi" Type="VI" URL="../subVIs/Location to Insecure Address.vi"/>
-		<Item Name="Reserve Session.vi" Type="VI" URL="../subVIs/Reserve Session.vi"/>
-		<Item Name="Unreserve Session.vi" Type="VI" URL="../subVIs/Unreserve Session.vi"/>
 		<Item Name="Wait Until Canceled.vi" Type="VI" URL="../subVIs/Wait Until Canceled.vi"/>
 	</Item>
 	<Item Name="TestStand Code Modules" Type="Folder">
