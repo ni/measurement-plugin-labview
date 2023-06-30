@@ -8,6 +8,9 @@
 
 </Property>
 	<Item Name="Session Management Helpers" Type="Folder">
+		<Item Name="Get Session and Channel (1 Pin).vi" Type="VI" URL="../Get Session and Channel (1 Pin).vi"/>
+		<Item Name="Get Session and Channels (Poly).vi" Type="VI" URL="../Get Session and Channels (Poly).vi"/>
+		<Item Name="Get Sessions and Channels (N Pins).vi" Type="VI" URL="../Get Sessions and Channels (N Pins).vi"/>
 		<Item Name="Reserve (1 Session).vi" Type="VI" URL="../Reserve (1 Session).vi"/>
 		<Item Name="Reserve (N Sessions).vi" Type="VI" URL="../Reserve (N Sessions).vi"/>
 		<Item Name="Reserve (Poly).vi" Type="VI" URL="../Reserve (Poly).vi"/>
