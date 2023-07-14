@@ -35,6 +35,9 @@
 		<Item Name="ni_measurementlink_discovery_v1_ResolveServiceRequest" Type="Folder">
 			<Item Name="ni_measurementlink_discovery_v1_ResolveServiceRequest.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_discovery_v1_ResolveServiceRequest.ctl"/>
 		</Item>
+		<Item Name="ni_measurementlink_discovery_v1_ServiceDescriptor_AnnotationsEntry" Type="Folder">
+			<Item Name="ni_measurementlink_discovery_v1_ServiceDescriptor_AnnotationsEntry.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_discovery_v1_ServiceDescriptor_AnnotationsEntry.ctl"/>
+		</Item>
 		<Item Name="Register gRPC Messages.vi" Type="VI" URL="../RPC Messages/Register gRPC Messages.vi"/>
 	</Item>
 	<Item Name="RPC Service" Type="Folder">
