@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="20008000">
+	<Property Name="Measurement Helpers" Type="Str">Measurement Helpers</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!**!!!*Q(C=\&gt;7`&lt;&gt;N1%-@R8Q)8!6BJAU!LX!JK.)"7O$[67B="QFJ)=UU'U!J;)-7NI$:RR279\XM[SE9+SU"C*)6*(58^_0Z]4$\15N]_3(?;&lt;WX$M^N,LP&gt;0'WHOQ8QZ8):_P$Y-3]W0*U/VHJ?'3``BG@\$\`WP]Z&gt;B/:F@ZP_T[T=WP7VPW\`&gt;\G]OUF&gt;@M_`58E255E%Z:7J4T5G?Z%G?Z%G?Z%%?Z%%?Z%%?Z%\OZ%\OZ%\OZ%:OZ%:OZ%:OZ(UH&amp;\H)21YJG4S:+"EU'3"J$%8*)@%EHM34?0CJR*.Y%E`C34QU5?**0)EH]31?OCHR**\%EXA3$U.V3@;&gt;(%`C98A&amp;HM!4?!*0Y'&amp;+":Y!%%Q7$"Q-!E0"R?!E]!3?Q-/J!E`A#4S"*`"Q79%H]!3?Q".Y[.,P3H2.W]HR-)Q=D_.R0)\(]4#U()`D=4S/R`%QH2S0YX%1TI4/Y"$E&gt;();/$]=D_0B3Y\(]4A?R_.YO.3@E0=\UT2N*]&gt;D?!S0Y4%]BI=B:(A-D_%R0);(976Y$)`B-4S'B[FE?!S0Y4%ARK2-,W-QI[02S!A-$Z__7KQ`J?A3[\N5CV?V+&amp;7,4&lt;7)6)N$^&gt;"6$V0VE&amp;1X8X6464&gt;,&gt;2.5@ZQ+L=+I*F&amp;V&lt;AUV=4R4*_J)D&gt;3?WF%&lt;;EWN7N?`X(#;*JX0:ZV/*RW02YXDK0V_L^VOJ]VGI`6[L&gt;6K&gt;8U.@'3`PB!O\[6\TFM&gt;(HZ_/IR@N^__`_$\]`9Q@&gt;EOVVK^UP`3`_$&gt;K0&gt;[/C\X["=-&gt;X:9!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
