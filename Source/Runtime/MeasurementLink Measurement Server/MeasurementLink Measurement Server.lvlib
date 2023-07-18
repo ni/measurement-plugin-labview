@@ -49,6 +49,7 @@
 	</Item>
 	<Item Name="Public TypeDefs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="MeasurementAnnotations.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasurementAnnotations.ctl"/>
 		<Item Name="MeasurementDetails.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasurementDetails.ctl"/>
 		<Item Name="MeasurementLinkServerUserEvents.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasurementLinkServerUserEvents.ctl"/>
 		<Item Name="Parameter Type Specialization.ctl" Type="VI" URL="../Helpers/TypeDefs/Parameter Type Specialization.ctl"/>
