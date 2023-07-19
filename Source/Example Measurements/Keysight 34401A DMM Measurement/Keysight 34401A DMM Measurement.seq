@@ -4535,13 +4535,13 @@
 																<value/>
 															</CustFalseActTarget>
 															<LoopType classname='Str'>
-																<value>NoLooping</value>
+																<value>FixedNumLoops</value>
 															</LoopType>
 															<LoopWhile classname='ExprValue'>
-																<value/>
+																<value>RunState.LoopIndex &lt; 1000</value>
 															</LoopWhile>
 															<LoopStatus classname='ExprValue'>
-																<value/>
+																<value>RunState.LoopNumPassed / RunState.LoopNumIterations &lt; 1 ? "Failed" : "Passed"</value>
 															</LoopStatus>
 															<LoopIncrement classname='ExprValue'>
 																<value>RunState.LoopIndex += 1</value>
