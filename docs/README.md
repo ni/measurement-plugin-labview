@@ -49,7 +49,7 @@ The MeasurementLink Support for LabVIEW packages enable measurement developers t
 
         ![New measurement dialog](images/New%20measurement%20dialog.png)
 
-    - This will create a new measurement service library in the project with the required assets and helpers (like `Measurement Service Helpers.lvlib`) for developing a measurement service.
+    - This will create a new measurement service library and a helper library that can be used to develop a measurement service.
 
         ![Measurement library files](images/Measurement%20library%20files.png)
 
@@ -80,7 +80,7 @@ Note:
 
 - Additional info can be found in the to-do sections in the code, which can be viewed using the `Bookmark Manager`. You can open it from the `View` → `Bookmark Manager` menu. In this window, you can will find the bookmark term `#MeasurementToDo`. Double-clicking on the items will take you to the VI locations where changes need to be made for creating your unique measurement service.
 - Scalars (int, double, uint, sint, string, boolean) and double array are the supported datatypes for the `Configuration` and `Output` parameters of the measurement.
-- The `Measurement Service Helpers.lvlib` that's included with the `<MeasurementName>.lvlib` contains instrument agnostic functions for Instrument Session Management like to help in Getting Session and Channel(s), Reserving, Unreserving Session(s), and other helper VIs to assist in Creating Discovery Client, fetching the Session Information, etc.
+- The `Measurement Service Helpers.lvlib` included with the `<MeasurementName>.lvlib` contains VIs to help with common tasks such as session management and interacting with MeasurementLink services.
 
 ---
 
