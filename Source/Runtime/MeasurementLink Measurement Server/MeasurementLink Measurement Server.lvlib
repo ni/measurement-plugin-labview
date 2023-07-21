@@ -12,7 +12,7 @@
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Create Enum Type Specialization.vi" Type="VI" URL="../Helpers/Create Enum Type Specialization.vi"/>
 		<Item Name="Create Measurement Services.vi" Type="VI" URL="../Helpers/Create Measurement Services.vi"/>
-		<Item Name="Encode JSON String.vi" Type="VI" URL="../Helpers/Encode JSON String.vi"/>
+		<Item Name="Encode to JSON String.vim" Type="VI" URL="../Helpers/Encode to JSON String.vim"/>
 		<Item Name="Error Strings Global.vi" Type="VI" URL="../Helpers/Error Strings Global.vi"/>
 		<Item Name="Filter for Enum Controls.vi" Type="VI" URL="../Helpers/Filter for Enum Controls.vi"/>
 		<Item Name="Generate Service Config JSON.vi" Type="VI" URL="../Helpers/Generate Service Config JSON.vi"/>
