@@ -48,6 +48,8 @@
 	</Item>
 	<Item Name="Public Helpers" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Add Measurement Annotation.vim" Type="VI" URL="../Helpers/Add Measurement Annotation.vim"/>
+		<Item Name="Create Base Measurement Annotations.vi" Type="VI" URL="../Helpers/Create Base Measurement Annotations.vi"/>
 		<Item Name="Get Discovery Service Address.vi" Type="VI" URL="../Helpers/Get Discovery Service Address.vi"/>
 	</Item>
 	<Item Name="Public TypeDefs" Type="Folder">
