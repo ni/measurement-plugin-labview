@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2023-06-20 08:56:37" Creator="lvadmin" Comments="" ID="9a09b82a5acca4638aef715dd00b5e05">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2023-07-31 09:31:05" Creator="lvadmin" Comments="" ID="9f8de3ff9c2c25b9c1a7622af7f2df9e">
   <Library_General_Settings>
     <Package_File_Name>NI_MeasurementLink_Service</Package_File_Name>
-    <Library_Version>1.1.0.3</Library_Version>
+    <Library_Version>1.2.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Runtime</Library_Source_Folder>
     <Library_Output_Folder>..\..\Build Output</Library_Output_Folder>
