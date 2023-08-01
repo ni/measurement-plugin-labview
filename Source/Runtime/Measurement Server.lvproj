@@ -21,6 +21,11 @@
 		<Item Name="MeasurementLink Measurement Service Base V2" Type="Folder">
 			<Item Name="MeasurementLink Measurement Service Base V2.lvlib" Type="Library" URL="../MeasurementLink Measurement Service Base V2/MeasurementLink Measurement Service Base V2.lvlib"/>
 		</Item>
+		<Item Name="Tests.Runtime" Type="Folder">
+			<Item Name="Measurement Server" Type="Folder" URL="../../Tests/Tests.Runtime/Measurement Server">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
