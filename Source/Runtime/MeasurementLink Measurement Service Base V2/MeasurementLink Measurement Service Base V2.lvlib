@@ -9,11 +9,6 @@
 
 </Property>
 	<Item Name="RPC Messages" Type="Folder">
-		<Item Name="ni_measurementlink_measurement_v2_ConfigurationParameter_AnnotationsEntry" Type="Folder">
-			<Item Name="ni_measurementlink_measurement_v2_ConfigurationParameter_AnnotationsEntry.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_measurement_v2_ConfigurationParameter_AnnotationsEntry.ctl"/>
-			<Item Name="Set ni_measurementlink_measurement_v2_ConfigurationParameter_AnnotationsEntry.vi" Type="VI" URL="../RPC Messages/Set ni_measurementlink_measurement_v2_ConfigurationParameter_AnnotationsEntry.vi"/>
-			<Item Name="Get ni_measurementlink_measurement_v2_ConfigurationParameter_AnnotationsEntry.vi" Type="VI" URL="../RPC Messages/Get ni_measurementlink_measurement_v2_ConfigurationParameter_AnnotationsEntry.vi"/>
-		</Item>
 		<Item Name="ni_measurementlink_measurement_v2_Output_AnnotationsEntry" Type="Folder">
 			<Item Name="ni_measurementlink_measurement_v2_Output_AnnotationsEntry.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_measurement_v2_Output_AnnotationsEntry.ctl"/>
 			<Item Name="Set ni_measurementlink_measurement_v2_Output_AnnotationsEntry.vi" Type="VI" URL="../RPC Messages/Set ni_measurementlink_measurement_v2_Output_AnnotationsEntry.vi"/>
@@ -63,11 +58,6 @@
 			<Item Name="ni_measurementlink_measurement_v2_ConfigurationParameter.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_measurement_v2_ConfigurationParameter.ctl"/>
 			<Item Name="Set ni_measurementlink_measurement_v2_ConfigurationParameter.vi" Type="VI" URL="../RPC Messages/Set ni_measurementlink_measurement_v2_ConfigurationParameter.vi"/>
 			<Item Name="Get ni_measurementlink_measurement_v2_ConfigurationParameter.vi" Type="VI" URL="../RPC Messages/Get ni_measurementlink_measurement_v2_ConfigurationParameter.vi"/>
-		</Item>
-		<Item Name="ni_measurementlink_measurement_v2_Output" Type="Folder">
-			<Item Name="ni_measurementlink_measurement_v2_Output.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_measurement_v2_Output.ctl"/>
-			<Item Name="Set ni_measurementlink_measurement_v2_Output.vi" Type="VI" URL="../RPC Messages/Set ni_measurementlink_measurement_v2_Output.vi"/>
-			<Item Name="Get ni_measurementlink_measurement_v2_Output.vi" Type="VI" URL="../RPC Messages/Get ni_measurementlink_measurement_v2_Output.vi"/>
 		</Item>
 		<Item Name="google_protobuf_Any" Type="Folder">
 			<Item Name="google_protobuf_Any.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Any.ctl"/>

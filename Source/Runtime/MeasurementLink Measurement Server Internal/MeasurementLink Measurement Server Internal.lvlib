@@ -44,11 +44,6 @@
 			<Item Name="Set google_protobuf_SourceContext.vi" Type="VI" URL="../RPC Messages/Set google_protobuf_SourceContext.vi"/>
 			<Item Name="Get google_protobuf_SourceContext.vi" Type="VI" URL="../RPC Messages/Get google_protobuf_SourceContext.vi"/>
 		</Item>
-		<Item Name="ni_measurementlink_measurement_v1_ConfigurationParameter_AnnotationsEntry" Type="Folder">
-			<Item Name="ni_measurementlink_measurement_v1_ConfigurationParameter_AnnotationsEntry.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_measurement_v1_ConfigurationParameter_AnnotationsEntry.ctl"/>
-			<Item Name="Set ni_measurementlink_measurement_v1_ConfigurationParameter_AnnotationsEntry.vi" Type="VI" URL="../RPC Messages/Set ni_measurementlink_measurement_v1_ConfigurationParameter_AnnotationsEntry.vi"/>
-			<Item Name="Get ni_measurementlink_measurement_v1_ConfigurationParameter_AnnotationsEntry.vi" Type="VI" URL="../RPC Messages/Get ni_measurementlink_measurement_v1_ConfigurationParameter_AnnotationsEntry.vi"/>
-		</Item>
 		<Item Name="ni_measurementlink_PinMapContext" Type="Folder">
 			<Item Name="ni_measurementlink_PinMapContext.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_PinMapContext.ctl"/>
 			<Item Name="Set ni_measurementlink_PinMapContext.vi" Type="VI" URL="../RPC Messages/Set ni_measurementlink_PinMapContext.vi"/>
@@ -93,11 +88,6 @@
 			<Item Name="ni_measurementlink_measurement_v1_ConfigurationParameter.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_measurement_v1_ConfigurationParameter.ctl"/>
 			<Item Name="Get ni_measurementlink_measurement_v1_ConfigurationParameter.vi" Type="VI" URL="../RPC Messages/Get ni_measurementlink_measurement_v1_ConfigurationParameter.vi"/>
 			<Item Name="Set ni_measurementlink_measurement_v1_ConfigurationParameter.vi" Type="VI" URL="../RPC Messages/Set ni_measurementlink_measurement_v1_ConfigurationParameter.vi"/>
-		</Item>
-		<Item Name="ni_measurementlink_measurement_v1_Output" Type="Folder">
-			<Item Name="ni_measurementlink_measurement_v1_Output.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_measurement_v1_Output.ctl"/>
-			<Item Name="Set ni_measurementlink_measurement_v1_Output.vi" Type="VI" URL="../RPC Messages/Set ni_measurementlink_measurement_v1_Output.vi"/>
-			<Item Name="Get ni_measurementlink_measurement_v1_Output.vi" Type="VI" URL="../RPC Messages/Get ni_measurementlink_measurement_v1_Output.vi"/>
 		</Item>
 		<Item Name="Register gRPC Messages.vi" Type="VI" URL="../RPC Messages/Register gRPC Messages.vi"/>
 	</Item>
