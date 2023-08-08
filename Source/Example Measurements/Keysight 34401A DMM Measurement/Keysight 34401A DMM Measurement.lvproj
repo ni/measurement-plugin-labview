@@ -69,6 +69,7 @@
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -97,7 +98,6 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Keysight 34401A DMM Measurement.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{10C7A19E-ADBC-4742-B617-E2F1EE61FB5A}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Keysight 34401A DMM Measurement.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Keysight 34401A DMM Measurement/Keysight 34401A DMM Measurement.exe</Property>
@@ -106,7 +106,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Keysight 34401A DMM Measurement/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{455316B9-EA9C-4218-A216-BA3ABB98A4AC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E3E180ED-2C27-4B9C-8099-563ACB69EACD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Keysight 34401A DMM Measurement.lvlib/Get Measurement Details.vi</Property>
@@ -147,6 +147,47 @@
 				<Property Name="TgtF_productName" Type="Str">Keysight 34401A DMM Measurement</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{2BF0A73F-A65E-45D2-A1B4-58DD3892B0A1}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Keysight 34401A DMM Measurement.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Keysight 34401A DMM Measurement UI" Type="Packed Library">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{C7EFC378-D09F-4435-BDEF-C7B83B06E91B}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Keysight 34401A DMM Measurement UI</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{34E58981-12FC-4B65-80DF-C32EC0A02763}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Keysight 34401A DMM Measurement UI.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/Keysight 34401A DMM Measurement UI.lvlibp</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../NI_AB_PROJECTNAME</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E3E180ED-2C27-4B9C-8099-563ACB69EACD}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Keysight 34401A DMM Measurement.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">National Instruments Corporation</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Keysight 34401A DMM Measurement UI</Property>
+				<Property Name="TgtF_internalName" Type="Str">Keysight 34401A DMM Measurement UI</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 National Instruments Corporation</Property>
+				<Property Name="TgtF_productName" Type="Str">Keysight 34401A DMM Measurement UI</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{609BDFD6-5F87-4E97-A973-22A6D286A54F}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Keysight 34401A DMM Measurement UI.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>

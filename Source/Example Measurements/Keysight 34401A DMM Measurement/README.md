@@ -11,13 +11,14 @@ HP/Agilent/Keysight 34401A DMM.
 - Includes a TestStand sequence showing how to configure the pin map, register
   instrument resources with the session management service, and run a measurement
   - For the sake of simplicity, the TestStand sequence handles pin map and session
-    registration and unregistration in the `Setup` and `Cleanup` sections of the main 
+    registration and unregistration in the `Setup` and `Cleanup` sections of the main
     sequence. For **Test UUTs** and batch process model use cases, these steps should
     be moved to the `ProcessSetup` and `ProcessCleanup` callbacks.
 - Demonstrates how to share instrument resources with other measurement services
   when running measurements from TestStand, without using NI gRPC Device Server
 - Demonstrates how to cancel a running measurement by calling the instrument driver's
   `Device Clear` VI to halt the measurement in progress
+- Demonstrates how to use a LabVIEW UI that has external dependencies.
 
 ### Required Driver Software
 
@@ -36,10 +37,16 @@ connected via GPIB. If this doesn't match your configuration, edit [`Keysight
 replace `GPIB0::22::INSTR` with the desired resource name (e.g. `ASRL1::INSTR`
 or a custom alias).
 
+### Using a LabVIEW UI with External Dependencies
+This example uses a LabVIEW UI with external dependencies. In order to display the
+LabVIEW UI in InstrumentStudio, you must first build the `Keysight 34401A DMM Measurement UI`
+packed library build specification. The packed library will contain all of the dependencies that
+the UI needs to load in InstrumentStudio.
+
 ### Session Management
 
 This example has a slightly different approach to session management than the
-examples for NI PXI modular instruments. 
+examples for NI PXI modular instruments.
 
 The examples for NI PXI modular instruments use the NI gRPC Device Server to
 share a single driver session between multiple operating system processes. When running
