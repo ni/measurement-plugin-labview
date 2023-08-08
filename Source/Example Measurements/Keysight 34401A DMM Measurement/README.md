@@ -18,7 +18,8 @@ HP/Agilent/Keysight 34401A DMM.
   when running measurements from TestStand, without using NI gRPC Device Server
 - Demonstrates how to cancel a running measurement by calling the instrument driver's
   `Device Clear` VI to halt the measurement in progress
-- Demonstrates how to use a LabVIEW UI that has external dependencies.
+- Demonstrates how to use a LabVIEW UI that has external dependencies (dependencies not
+  available in the LabVIEW runtime)
 
 ### Required Driver Software
 
@@ -42,6 +43,8 @@ This example uses a LabVIEW UI with external dependencies. In order to display t
 LabVIEW UI in InstrumentStudio, you must first build the `Keysight 34401A DMM Measurement UI`
 packed library build specification. The packed library will contain all of the dependencies that
 the UI needs to load in InstrumentStudio.
+
+If you make changes to `Measurement UI.vi`, you must rebuild the packed library.
 
 ### Session Management
 

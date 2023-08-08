@@ -74,6 +74,8 @@ The MeasurementLink Support for LabVIEW packages enable measurement developers t
 
 7. Create the user interface in `Measurement UI.vi` under the `<MeasurementName>.lvlib`. The control and indicator names in the user interface should match the `Measurement Configuration` and `Measurement Results`. If the data type and name match, then the data from the controls will be sent to the `Measurement Logic.vi` and the results will be published to the indicators after the measurement is run. By default, the UI file consists of an 'Array In' control and 'Array Out' indicator.
 
+If your user interface has dependencies that are not available in the LabVIEW runtime, you will have to build the UI into a packed library. For example, you will have to do this if your UI contains VIs from vi.lib or if your UI depends on user created subVIs or controls. The packed library needs to be located in the same directory as `Measurement Logic.vi`. The [Keysight 34401A DMM Measurement(https://github.com/ni/measurementlink-labview/tree/main/Source/Example%20Measurements/Keysight%2034401A%20DMM%20Measurement)] example demonstrates how to use a packed library user interface.
+
     ![Measurement UI](images/Measurement%20UI.png)
 
 Note:
