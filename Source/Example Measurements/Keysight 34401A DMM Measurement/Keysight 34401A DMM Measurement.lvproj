@@ -106,7 +106,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Keysight 34401A DMM Measurement/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E3E180ED-2C27-4B9C-8099-563ACB69EACD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E8D797B9-F76F-4436-8721-BBAB7E4497B9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Keysight 34401A DMM Measurement.lvlib/Get Measurement Details.vi</Property>
@@ -155,22 +155,22 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Keysight 34401A DMM Measurement UI</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../NI_AB_PROJECTNAME/BuiltUI</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{34E58981-12FC-4B65-80DF-C32EC0A02763}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Keysight 34401A DMM Measurement UI.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/Keysight 34401A DMM Measurement UI.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/Keysight 34401A DMM Measurement UI.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../NI_AB_PROJECTNAME</Property>
+				<Property Name="Destination[1].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E3E180ED-2C27-4B9C-8099-563ACB69EACD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E8D797B9-F76F-4436-8721-BBAB7E4497B9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Keysight 34401A DMM Measurement.lvlib</Property>
