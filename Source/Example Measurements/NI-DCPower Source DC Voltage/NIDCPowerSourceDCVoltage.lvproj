@@ -24,7 +24,6 @@
 				<Item Name="niDCPower Configure Voltage Level.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Voltage Level.vi"/>
 				<Item Name="niDCPower Current Limit Behavior.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Current Limit Behavior.ctl"/>
 				<Item Name="niDCPower Detach gRPC session.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Detach gRPC session.vi"/>
-				<Item Name="niDCPower gRPC Device Server.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower gRPC Device Server.ctl"/>
 				<Item Name="niDCPower Initialize With Independent Channels for gRPC session.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Initialize With Independent Channels for gRPC session.vi"/>
 				<Item Name="niDCPower Initiate With Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Initiate With Channels.vi"/>
 				<Item Name="niDCPower IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower IVI Error Converter.vi"/>
@@ -89,6 +88,7 @@
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -129,23 +129,14 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/NI-DCPower Measurement/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C1E3AED3-A3F5-47F3-96F1-CF665B4667A3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DC265B45-05E7-4A97-9581-839B0B23EB2A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NIDCPowerSourceDCVoltage.lvlib/Get Measurement Details.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/NIDCPowerSourceDCVoltage.lvlib/subVIs/DCPower Specific Logic.vi</Property>
-				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[10].type" Type="Str">VI</Property>
-				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Measurement Service Helpers.lvlib/Location to Grpc Device.vi</Property>
-				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[11].type" Type="Str">VI</Property>
-				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/NIDCPowerSourceDCVoltage.lvlib/NIDCPowerSourceDCVoltage.measui</Property>
-				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/NIDCPowerSourceDCVoltage.lvlib/NIDCPowerSourceDCVoltage.measui</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/NIDCPowerSourceDCVoltage.lvlib/Get Type Specializations.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
@@ -168,17 +159,16 @@
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/NIDCPowerSourceDCVoltage.lvlib/Measurement UI.vi</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/NIDCPowerSourceDCVoltage.lvlib/Run Service.vi</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/NIDCPowerSourceDCVoltage.lvlib/subVIs/Convert Location to Address String.vi</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Measurement Service Helpers.lvlib/Location to Grpc Device.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">13</Property>
+				<Property Name="SourceCount" Type="Int">11</Property>
 				<Property Name="TgtF_companyName" Type="Str">National Instruments Corporation</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">NI-DCPower Measurement</Property>
 				<Property Name="TgtF_internalName" Type="Str">NI-DCPower Measurement</Property>

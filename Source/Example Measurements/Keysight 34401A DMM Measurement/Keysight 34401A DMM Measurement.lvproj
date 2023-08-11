@@ -107,7 +107,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Keysight 34401A DMM Measurement/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8459DDE9-A4F7-498B-9923-04E849755447}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EF8FEDAE-2188-464F-B3C0-DF2C0F4B5757}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Keysight 34401A DMM Measurement.lvlib/Get Measurement Details.vi</Property>
@@ -135,7 +135,6 @@
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Keysight 34401A DMM Measurement UI.lvlib/Measurement UI.vi</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Keysight 34401A DMM Measurement.lvlib/Run Service.vi</Property>
