@@ -41,8 +41,8 @@ or a custom alias).
 ### Using a LabVIEW UI with External Dependencies
 This example uses a LabVIEW UI with external dependencies. In order to display the
 LabVIEW UI in InstrumentStudio, you must first build the `Keysight 34401A DMM Measurement UI`
-packed library build specification. The packed library will contain all of the dependencies that
-the UI needs to load in InstrumentStudio.
+packed library build specification. The packed library and its containing directory will 
+have all of the dependencies that the UI needs to load in InstrumentStudio.
 
 If you make changes to `Measurement UI.vi`, you must rebuild the packed library.
 

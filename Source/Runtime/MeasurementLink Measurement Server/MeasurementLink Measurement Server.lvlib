@@ -6,6 +6,9 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Build Assets" Type="Folder">
 		<Item Name="Post-Build Action.vi" Type="VI" URL="../Build Assets/Post-Build Action.vi"/>
+		<Item Name="UiType.ctl" Type="VI" URL="../Build Assets/UiType.ctl">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 	</Item>
 	<Item Name="Private Helpers" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
