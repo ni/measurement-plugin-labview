@@ -4,6 +4,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Friends List" Type="Friends List">
+		<Item Name="DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi" Type="Friended VI" URL="../../../Tests/Tests.Runtime/Measurement Server/DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi"/>
+	</Item>
 	<Item Name="Build Assets" Type="Folder">
 		<Item Name="Post-Build Action.vi" Type="VI" URL="../Build Assets/Post-Build Action.vi"/>
 		<Item Name="UiType.ctl" Type="VI" URL="../Build Assets/UiType.ctl">
@@ -11,73 +14,32 @@
 		</Item>
 	</Item>
 	<Item Name="Private Helpers" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
-		<Item Name="Add JSON Name Value Pair.vim" Type="VI" URL="../Helpers/Add JSON Name Value Pair.vim">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
-		<Item Name="Create Enum Type Specialization.vi" Type="VI" URL="../Helpers/Create Enum Type Specialization.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
-		<Item Name="Create Measurement Services.vi" Type="VI" URL="../Helpers/Create Measurement Services.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
-		<Item Name="Encode to JSON String.vim" Type="VI" URL="../Helpers/Encode to JSON String.vim">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
+		<Item Name="Add JSON Name Value Pair.vim" Type="VI" URL="../Helpers/Add JSON Name Value Pair.vim"/>
+		<Item Name="Create Enum Type Specialization.vi" Type="VI" URL="../Helpers/Create Enum Type Specialization.vi"/>
+		<Item Name="Create Measurement Services.vi" Type="VI" URL="../Helpers/Create Measurement Services.vi"/>
+		<Item Name="Encode to JSON String.vim" Type="VI" URL="../Helpers/Encode to JSON String.vim"/>
 		<Item Name="Ensure Discovery Service Started.vi" Type="VI" URL="../Helpers/Ensure Discovery Service Started.vi"/>
-		<Item Name="Error Strings Global.vi" Type="VI" URL="../Helpers/Error Strings Global.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
-		<Item Name="Filter for Enum Controls.vi" Type="VI" URL="../Helpers/Filter for Enum Controls.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
-		<Item Name="Generate Service Config JSON.vi" Type="VI" URL="../Helpers/Generate Service Config JSON.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
-		<Item Name="Get Annotations For Parameter.vi" Type="VI" URL="../Helpers/Get Annotations For Parameter.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
-		<Item Name="Get Default for Type.vi" Type="VI" URL="../Helpers/Get Default for Type.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
+		<Item Name="Error Strings Global.vi" Type="VI" URL="../Helpers/Error Strings Global.vi"/>
+		<Item Name="Filter for Enum Controls.vi" Type="VI" URL="../Helpers/Filter for Enum Controls.vi"/>
+		<Item Name="Generate Service Config JSON.vi" Type="VI" URL="../Helpers/Generate Service Config JSON.vi"/>
+		<Item Name="Get Annotations For Parameter.vi" Type="VI" URL="../Helpers/Get Annotations For Parameter.vi"/>
+		<Item Name="Get Default for Type.vi" Type="VI" URL="../Helpers/Get Default for Type.vi"/>
 		<Item Name="Get Discovery Service Key File Path.vi" Type="VI" URL="../Helpers/Get Discovery Service Key File Path.vi"/>
-		<Item Name="Get Enum Type Specializations.vi" Type="VI" URL="../Helpers/Get Enum Type Specializations.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
-		<Item Name="Get Measurement Configuration Controls.vi" Type="VI" URL="../Helpers/Get Measurement Configuration Controls.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
-		<Item Name="Get MetaData from Configurations.vi" Type="VI" URL="../Helpers/Get MetaData from Configurations.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
-		<Item Name="Get MetaData from Results.vi" Type="VI" URL="../Helpers/Get MetaData from Results.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
-		<Item Name="Get Metadata.vi" Type="VI" URL="../Helpers/Get Metadata.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
-		<Item Name="IsEnumArrayControl.vi" Type="VI" URL="../Helpers/IsEnumArrayControl.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
-		<Item Name="IsEnumControl.vi" Type="VI" URL="../Helpers/IsEnumControl.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
-		<Item Name="LabVIEW datatype to Measurement datatype.vi" Type="VI" URL="../Helpers/LabVIEW datatype to Measurement datatype.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
-		<Item Name="Read Discovery Service Key File.vi" Type="VI" URL="../Helpers/Read Discovery Service Key File.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
-		<Item Name="Register Configuration and Results.vi" Type="VI" URL="../Helpers/Register Configuration and Results.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
-		<Item Name="Register to Discovery Service.vi" Type="VI" URL="../Helpers/Register to Discovery Service.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
+		<Item Name="Get Enum Type Specializations.vi" Type="VI" URL="../Helpers/Get Enum Type Specializations.vi"/>
+		<Item Name="Get Measurement Configuration Controls.vi" Type="VI" URL="../Helpers/Get Measurement Configuration Controls.vi"/>
+		<Item Name="Get MetaData from Configurations.vi" Type="VI" URL="../Helpers/Get MetaData from Configurations.vi"/>
+		<Item Name="Get MetaData from Results.vi" Type="VI" URL="../Helpers/Get MetaData from Results.vi"/>
+		<Item Name="Get Metadata.vi" Type="VI" URL="../Helpers/Get Metadata.vi"/>
+		<Item Name="IsEnumArrayControl.vi" Type="VI" URL="../Helpers/IsEnumArrayControl.vi"/>
+		<Item Name="IsEnumControl.vi" Type="VI" URL="../Helpers/IsEnumControl.vi"/>
+		<Item Name="LabVIEW datatype to Measurement datatype.vi" Type="VI" URL="../Helpers/LabVIEW datatype to Measurement datatype.vi"/>
+		<Item Name="Read Discovery Service Key File.vi" Type="VI" URL="../Helpers/Read Discovery Service Key File.vi"/>
+		<Item Name="Register Configuration and Results.vi" Type="VI" URL="../Helpers/Register Configuration and Results.vi"/>
+		<Item Name="Register to Discovery Service.vi" Type="VI" URL="../Helpers/Register to Discovery Service.vi"/>
 		<Item Name="Start Discovery Service.vi" Type="VI" URL="../Helpers/Start Discovery Service.vi"/>
-		<Item Name="Validate Configuration Metadata.vi" Type="VI" URL="../Helpers/Validate Configuration Metadata.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
+		<Item Name="Validate Configuration Metadata.vi" Type="VI" URL="../Helpers/Validate Configuration Metadata.vi"/>
 	</Item>
 	<Item Name="Private TypeDefs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
