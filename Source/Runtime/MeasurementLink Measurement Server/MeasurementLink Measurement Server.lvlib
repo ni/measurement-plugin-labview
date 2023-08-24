@@ -72,7 +72,7 @@
 		<Item Name="Type Specialization.ctl" Type="VI" URL="../Helpers/TypeDefs/Type Specialization.ctl"/>
 		<Item Name="UI Information.ctl" Type="VI" URL="../Helpers/TypeDefs/UI Information.ctl"/>
 	</Item>
-	<Item Name="ClientPool.lvclass" Type="LVClass" URL="../Classes/ClientPool/ClientPool.lvclass"/>
+	<Item Name="GrpcClientPool.lvclass" Type="LVClass" URL="../Classes/GrpcClientPool/GrpcClientPool.lvclass"/>
 	<Item Name="IMeasurementService.lvclass" Type="LVClass" URL="../Classes/IMeasurementService/IMeasurementService.lvclass">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 	</Item>

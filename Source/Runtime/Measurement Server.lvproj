@@ -21,10 +21,8 @@
 		<Item Name="MeasurementLink Measurement Service Base V2" Type="Folder">
 			<Item Name="MeasurementLink Measurement Service Base V2.lvlib" Type="Library" URL="../MeasurementLink Measurement Service Base V2/MeasurementLink Measurement Service Base V2.lvlib"/>
 		</Item>
-		<Item Name="Tests.Runtime" Type="Folder">
-			<Item Name="Measurement Server" Type="Folder" URL="../../Tests/Tests.Runtime/Measurement Server">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
-			</Item>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="MeasurementServerTests.lvlib" Type="Library" URL="../../Tests/Tests.Runtime/Measurement Server/MeasurementServerTests.lvlib"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -77,7 +75,6 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="ConfigurationParameter_AnnotationsEntry.ctl" Type="VI" URL="../MeasurementLink Measurement Server/Helpers/TypeDefs/ConfigurationParameter_AnnotationsEntry.ctl"/>
-			<Item Name="Get Pinmap Client.vi" Type="VI" URL="../MeasurementLink Measurement Server/Classes/ClientPool/Get Pinmap Client.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
