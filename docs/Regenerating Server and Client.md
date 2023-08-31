@@ -1,6 +1,6 @@
 # Regenerating Servers and Clients
 
-The following are instructions for regenerating the grpc-labview code for MeasurementLink servers and client.
+Below are instructions for regenerating the grpc-labview code for MeasurementLink servers and clients.
 
 ## Setup
 
