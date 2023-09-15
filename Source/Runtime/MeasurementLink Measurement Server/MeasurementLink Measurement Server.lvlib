@@ -39,7 +39,7 @@
 		<Item Name="Read Discovery Service Key File.vi" Type="VI" URL="../Helpers/Read Discovery Service Key File.vi"/>
 		<Item Name="Register Configuration and Results.vi" Type="VI" URL="../Helpers/Register Configuration and Results.vi"/>
 		<Item Name="Register to Discovery Service.vi" Type="VI" URL="../Helpers/Register to Discovery Service.vi"/>
-		<Item Name="Service Location FGV.vi" Type="VI" URL="../Classes/GrpcClientPool/Service Location FGV.vi"/>
+		<Item Name="Service Location FGV.vi" Type="VI" URL="../Helpers/Service Location FGV.vi"/>
 		<Item Name="Start Discovery Service.vi" Type="VI" URL="../Helpers/Start Discovery Service.vi"/>
 		<Item Name="Validate Configuration Metadata.vi" Type="VI" URL="../Helpers/Validate Configuration Metadata.vi"/>
 	</Item>
