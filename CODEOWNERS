@@ -1,6 +1,6 @@
 # Default code owner for the repository
-* @dixonjoel @csjall @aepete @pbirkhol-ni
+* @dixonjoel @pbirkhol-ni @jasonmreding
 
 # Add nstokes-nati for documentation
-*.md @dixonjoel @csjall @aepete @pbirkhol-ni @nstokes-nati
-/docs/ @dixonjoel @csjall @aepete @pbirkhol-ni @nstokes-nati
+*.md @dixonjoel @pbirkhol-ni @jasonmreding @nstokes-nati
+/docs/ @dixonjoel @pbirkhol-ni @jasonmreding @nstokes-nati
