@@ -54,6 +54,7 @@
 		<Item Name="OutputParameter.ctl" Type="VI" URL="../Helpers/TypeDefs/OutputParameter.ctl"/>
 		<Item Name="Parameter_AnnotationsEntry.ctl" Type="VI" URL="../Helpers/TypeDefs/Parameter_AnnotationsEntry.ctl"/>
 		<Item Name="PinMapContext.ctl" Type="VI" URL="../Helpers/TypeDefs/PinMapContext.ctl"/>
+		<Item Name="Service Location FGV Action.ctl" Type="VI" URL="../Helpers/TypeDefs/Service Location FGV Action.ctl"/>
 		<Item Name="UserInterfaceDetails.ctl" Type="VI" URL="../Helpers/TypeDefs/UserInterfaceDetails.ctl"/>
 	</Item>
 	<Item Name="Public Helpers" Type="Folder">
