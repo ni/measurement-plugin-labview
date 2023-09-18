@@ -5,7 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Friends List" Type="Friends List">
-		<Item Name="DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi" Type="Friended VI" URL="../../../Tests/Tests.Runtime/Measurement Server/DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi"/>
+		<Item Name="MeasurementServerTests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Runtime/Measurement Server/MeasurementServerTests.lvlib"/>
 	</Item>
 	<Item Name="Build Assets" Type="Folder">
 		<Item Name="Post-Build Action.vi" Type="VI" URL="../Build Assets/Post-Build Action.vi"/>
@@ -39,6 +39,7 @@
 		<Item Name="Read Discovery Service Key File.vi" Type="VI" URL="../Helpers/Read Discovery Service Key File.vi"/>
 		<Item Name="Register Configuration and Results.vi" Type="VI" URL="../Helpers/Register Configuration and Results.vi"/>
 		<Item Name="Register to Discovery Service.vi" Type="VI" URL="../Helpers/Register to Discovery Service.vi"/>
+		<Item Name="Service Location FGV.vi" Type="VI" URL="../Helpers/Service Location FGV.vi"/>
 		<Item Name="Start Discovery Service.vi" Type="VI" URL="../Helpers/Start Discovery Service.vi"/>
 		<Item Name="Validate Configuration Metadata.vi" Type="VI" URL="../Helpers/Validate Configuration Metadata.vi"/>
 	</Item>
@@ -53,6 +54,7 @@
 		<Item Name="OutputParameter.ctl" Type="VI" URL="../Helpers/TypeDefs/OutputParameter.ctl"/>
 		<Item Name="Parameter_AnnotationsEntry.ctl" Type="VI" URL="../Helpers/TypeDefs/Parameter_AnnotationsEntry.ctl"/>
 		<Item Name="PinMapContext.ctl" Type="VI" URL="../Helpers/TypeDefs/PinMapContext.ctl"/>
+		<Item Name="Service Location FGV Action.ctl" Type="VI" URL="../Helpers/TypeDefs/Service Location FGV Action.ctl"/>
 		<Item Name="UserInterfaceDetails.ctl" Type="VI" URL="../Helpers/TypeDefs/UserInterfaceDetails.ctl"/>
 	</Item>
 	<Item Name="Public Helpers" Type="Folder">
