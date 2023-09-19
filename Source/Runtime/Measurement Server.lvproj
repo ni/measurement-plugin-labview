@@ -15,7 +15,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Libraries" Type="Folder">
 			<Item Name="MeasurementLink Measurement Server.lvlib" Type="Library" URL="../MeasurementLink Measurement Server/MeasurementLink Measurement Server.lvlib"/>
-			<Item Name="MeasurementLink Instrument.lvlib" Type="Library" URL="../MeasurementLinkInstrument/MeasurementLink Instrument.lvlib"/>
+			<Item Name="MeasurementLink Instrument.lvlib" Type="Library" URL="../MeasurementLink Instrument/MeasurementLink Instrument.lvlib"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="MeasurementServerTests.lvlib" Type="Library" URL="../../Tests/Tests.Runtime/Measurement Server/MeasurementServerTests.lvlib"/>
