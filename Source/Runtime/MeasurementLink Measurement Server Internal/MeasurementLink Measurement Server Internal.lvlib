@@ -11,226 +11,96 @@
 	<Item Name="RPC Messages" Type="Folder">
 		<Item Name="google_protobuf_Any" Type="Folder">
 			<Item Name="google_protobuf_Any.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Any.ctl"/>
-			<Item Name="FlatToRichgoogle_protobuf_Any.vi" Type="VI" URL="../RPC Messages/FlatToRichgoogle_protobuf_Any.vi"/>
-			<Item Name="RichToFlatgoogle_protobuf_Any.vi" Type="VI" URL="../RPC Messages/RichToFlatgoogle_protobuf_Any.vi"/>
 			<Item Name="Set google_protobuf_Any.vi" Type="VI" URL="../RPC Messages/Set google_protobuf_Any.vi"/>
 			<Item Name="Get google_protobuf_Any.vi" Type="VI" URL="../RPC Messages/Get google_protobuf_Any.vi"/>
 		</Item>
 		<Item Name="google_protobuf_SourceContext" Type="Folder">
 			<Item Name="google_protobuf_SourceContext.ctl" Type="VI" URL="../RPC Messages/google_protobuf_SourceContext.ctl"/>
-			<Item Name="FlatToRichgoogle_protobuf_SourceContext.vi" Type="VI" URL="../RPC Messages/FlatToRichgoogle_protobuf_SourceContext.vi"/>
-			<Item Name="RichToFlatgoogle_protobuf_SourceContext.vi" Type="VI" URL="../RPC Messages/RichToFlatgoogle_protobuf_SourceContext.vi"/>
 			<Item Name="Set google_protobuf_SourceContext.vi" Type="VI" URL="../RPC Messages/Set google_protobuf_SourceContext.vi"/>
 			<Item Name="Get google_protobuf_SourceContext.vi" Type="VI" URL="../RPC Messages/Get google_protobuf_SourceContext.vi"/>
 		</Item>
 		<Item Name="google_protobuf_Type" Type="Folder">
 			<Item Name="google_protobuf_Type.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Type.ctl"/>
-			<Item Name="FlatToRichgoogle_protobuf_Type.vi" Type="VI" URL="../RPC Messages/FlatToRichgoogle_protobuf_Type.vi"/>
-			<Item Name="RichToFlatgoogle_protobuf_Type.vi" Type="VI" URL="../RPC Messages/RichToFlatgoogle_protobuf_Type.vi"/>
 			<Item Name="Set google_protobuf_Type.vi" Type="VI" URL="../RPC Messages/Set google_protobuf_Type.vi"/>
 			<Item Name="Get google_protobuf_Type.vi" Type="VI" URL="../RPC Messages/Get google_protobuf_Type.vi"/>
 		</Item>
 		<Item Name="google_protobuf_Field" Type="Folder">
 			<Item Name="google_protobuf_Field.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Field.ctl"/>
-			<Item Name="FlatToRichgoogle_protobuf_Field.vi" Type="VI" URL="../RPC Messages/FlatToRichgoogle_protobuf_Field.vi"/>
-			<Item Name="RichToFlatgoogle_protobuf_Field.vi" Type="VI" URL="../RPC Messages/RichToFlatgoogle_protobuf_Field.vi"/>
 			<Item Name="Set google_protobuf_Field.vi" Type="VI" URL="../RPC Messages/Set google_protobuf_Field.vi"/>
 			<Item Name="Get google_protobuf_Field.vi" Type="VI" URL="../RPC Messages/Get google_protobuf_Field.vi"/>
 		</Item>
 		<Item Name="google_protobuf_Enum" Type="Folder">
 			<Item Name="google_protobuf_Enum.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Enum.ctl"/>
-			<Item Name="FlatToRichgoogle_protobuf_Enum.vi" Type="VI" URL="../RPC Messages/FlatToRichgoogle_protobuf_Enum.vi"/>
-			<Item Name="RichToFlatgoogle_protobuf_Enum.vi" Type="VI" URL="../RPC Messages/RichToFlatgoogle_protobuf_Enum.vi"/>
 			<Item Name="Set google_protobuf_Enum.vi" Type="VI" URL="../RPC Messages/Set google_protobuf_Enum.vi"/>
 			<Item Name="Get google_protobuf_Enum.vi" Type="VI" URL="../RPC Messages/Get google_protobuf_Enum.vi"/>
 		</Item>
 		<Item Name="google_protobuf_EnumValue" Type="Folder">
 			<Item Name="google_protobuf_EnumValue.ctl" Type="VI" URL="../RPC Messages/google_protobuf_EnumValue.ctl"/>
-			<Item Name="FlatToRichgoogle_protobuf_EnumValue.vi" Type="VI" URL="../RPC Messages/FlatToRichgoogle_protobuf_EnumValue.vi"/>
-			<Item Name="RichToFlatgoogle_protobuf_EnumValue.vi" Type="VI" URL="../RPC Messages/RichToFlatgoogle_protobuf_EnumValue.vi"/>
 			<Item Name="Set google_protobuf_EnumValue.vi" Type="VI" URL="../RPC Messages/Set google_protobuf_EnumValue.vi"/>
 			<Item Name="Get google_protobuf_EnumValue.vi" Type="VI" URL="../RPC Messages/Get google_protobuf_EnumValue.vi"/>
 		</Item>
 		<Item Name="google_protobuf_Option" Type="Folder">
 			<Item Name="google_protobuf_Option.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Option.ctl"/>
-			<Item Name="FlatToRichgoogle_protobuf_Option.vi" Type="VI" URL="../RPC Messages/FlatToRichgoogle_protobuf_Option.vi"/>
-			<Item Name="RichToFlatgoogle_protobuf_Option.vi" Type="VI" URL="../RPC Messages/RichToFlatgoogle_protobuf_Option.vi"/>
 			<Item Name="Set google_protobuf_Option.vi" Type="VI" URL="../RPC Messages/Set google_protobuf_Option.vi"/>
 			<Item Name="Get google_protobuf_Option.vi" Type="VI" URL="../RPC Messages/Get google_protobuf_Option.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_PinMapContext" Type="Folder">
 			<Item Name="ni_measurementlink_PinMapContext.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_PinMapContext.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_PinMapContext.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_PinMapContext.vi"/>
-			<Item Name="RichToFlatni_measurementlink_PinMapContext.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_PinMapContext.vi"/>
 			<Item Name="Set ni_measurementlink_PinMapContext.vi" Type="VI" URL="../RPC Messages/Set ni_measurementlink_PinMapContext.vi"/>
 			<Item Name="Get ni_measurementlink_PinMapContext.vi" Type="VI" URL="../RPC Messages/Get ni_measurementlink_PinMapContext.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_measurement_v1_GetMetadataRequest" Type="Folder">
 			<Item Name="ni_measurementlink_measurement_v1_GetMetadataRequest.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_measurement_v1_GetMetadataRequest.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_measurement_v1_GetMetadataRequest.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_measurement_v1_GetMetadataRequest.vi"/>
-			<Item Name="RichToFlatni_measurementlink_measurement_v1_GetMetadataRequest.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_measurement_v1_GetMetadataRequest.vi"/>
-			<Item Name="Get ni_measurementlink_measurement_v1_GetMetadataRequest.vi" Type="VI" URL="../RPC Messages/Get ni_measurementlink_measurement_v1_GetMetadataRequest.vi"/>
 			<Item Name="Set ni_measurementlink_measurement_v1_GetMetadataRequest.vi" Type="VI" URL="../RPC Messages/Set ni_measurementlink_measurement_v1_GetMetadataRequest.vi"/>
+			<Item Name="Get ni_measurementlink_measurement_v1_GetMetadataRequest.vi" Type="VI" URL="../RPC Messages/Get ni_measurementlink_measurement_v1_GetMetadataRequest.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_measurement_v1_GetMetadataResponse" Type="Folder">
 			<Item Name="ni_measurementlink_measurement_v1_GetMetadataResponse.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_measurement_v1_GetMetadataResponse.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_measurement_v1_GetMetadataResponse.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_measurement_v1_GetMetadataResponse.vi"/>
-			<Item Name="RichToFlatni_measurementlink_measurement_v1_GetMetadataResponse.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_measurement_v1_GetMetadataResponse.vi"/>
 			<Item Name="Set ni_measurementlink_measurement_v1_GetMetadataResponse.vi" Type="VI" URL="../RPC Messages/Set ni_measurementlink_measurement_v1_GetMetadataResponse.vi"/>
 			<Item Name="Get ni_measurementlink_measurement_v1_GetMetadataResponse.vi" Type="VI" URL="../RPC Messages/Get ni_measurementlink_measurement_v1_GetMetadataResponse.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_measurement_v1_MeasureRequest" Type="Folder">
 			<Item Name="ni_measurementlink_measurement_v1_MeasureRequest.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_measurement_v1_MeasureRequest.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_measurement_v1_MeasureRequest.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_measurement_v1_MeasureRequest.vi"/>
-			<Item Name="RichToFlatni_measurementlink_measurement_v1_MeasureRequest.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_measurement_v1_MeasureRequest.vi"/>
 			<Item Name="Set ni_measurementlink_measurement_v1_MeasureRequest.vi" Type="VI" URL="../RPC Messages/Set ni_measurementlink_measurement_v1_MeasureRequest.vi"/>
 			<Item Name="Get ni_measurementlink_measurement_v1_MeasureRequest.vi" Type="VI" URL="../RPC Messages/Get ni_measurementlink_measurement_v1_MeasureRequest.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_measurement_v1_MeasureResponse" Type="Folder">
 			<Item Name="ni_measurementlink_measurement_v1_MeasureResponse.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_measurement_v1_MeasureResponse.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_measurement_v1_MeasureResponse.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_measurement_v1_MeasureResponse.vi"/>
-			<Item Name="RichToFlatni_measurementlink_measurement_v1_MeasureResponse.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_measurement_v1_MeasureResponse.vi"/>
 			<Item Name="Set ni_measurementlink_measurement_v1_MeasureResponse.vi" Type="VI" URL="../RPC Messages/Set ni_measurementlink_measurement_v1_MeasureResponse.vi"/>
 			<Item Name="Get ni_measurementlink_measurement_v1_MeasureResponse.vi" Type="VI" URL="../RPC Messages/Get ni_measurementlink_measurement_v1_MeasureResponse.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_measurement_v1_MeasurementDetails" Type="Folder">
 			<Item Name="ni_measurementlink_measurement_v1_MeasurementDetails.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_measurement_v1_MeasurementDetails.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_measurement_v1_MeasurementDetails.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_measurement_v1_MeasurementDetails.vi"/>
-			<Item Name="RichToFlatni_measurementlink_measurement_v1_MeasurementDetails.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_measurement_v1_MeasurementDetails.vi"/>
 			<Item Name="Set ni_measurementlink_measurement_v1_MeasurementDetails.vi" Type="VI" URL="../RPC Messages/Set ni_measurementlink_measurement_v1_MeasurementDetails.vi"/>
 			<Item Name="Get ni_measurementlink_measurement_v1_MeasurementDetails.vi" Type="VI" URL="../RPC Messages/Get ni_measurementlink_measurement_v1_MeasurementDetails.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_measurement_v1_MeasurementSignature" Type="Folder">
 			<Item Name="ni_measurementlink_measurement_v1_MeasurementSignature.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_measurement_v1_MeasurementSignature.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_measurement_v1_MeasurementSignature.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_measurement_v1_MeasurementSignature.vi"/>
-			<Item Name="RichToFlatni_measurementlink_measurement_v1_MeasurementSignature.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_measurement_v1_MeasurementSignature.vi"/>
 			<Item Name="Set ni_measurementlink_measurement_v1_MeasurementSignature.vi" Type="VI" URL="../RPC Messages/Set ni_measurementlink_measurement_v1_MeasurementSignature.vi"/>
 			<Item Name="Get ni_measurementlink_measurement_v1_MeasurementSignature.vi" Type="VI" URL="../RPC Messages/Get ni_measurementlink_measurement_v1_MeasurementSignature.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_measurement_v1_UserInterfaceDetails" Type="Folder">
 			<Item Name="ni_measurementlink_measurement_v1_UserInterfaceDetails.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_measurement_v1_UserInterfaceDetails.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_measurement_v1_UserInterfaceDetails.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_measurement_v1_UserInterfaceDetails.vi"/>
-			<Item Name="RichToFlatni_measurementlink_measurement_v1_UserInterfaceDetails.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_measurement_v1_UserInterfaceDetails.vi"/>
 			<Item Name="Set ni_measurementlink_measurement_v1_UserInterfaceDetails.vi" Type="VI" URL="../RPC Messages/Set ni_measurementlink_measurement_v1_UserInterfaceDetails.vi"/>
 			<Item Name="Get ni_measurementlink_measurement_v1_UserInterfaceDetails.vi" Type="VI" URL="../RPC Messages/Get ni_measurementlink_measurement_v1_UserInterfaceDetails.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_measurement_v1_ConfigurationParameter" Type="Folder">
 			<Item Name="ni_measurementlink_measurement_v1_ConfigurationParameter.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_measurement_v1_ConfigurationParameter.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_measurement_v1_ConfigurationParameter.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_measurement_v1_ConfigurationParameter.vi"/>
-			<Item Name="RichToFlatni_measurementlink_measurement_v1_ConfigurationParameter.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_measurement_v1_ConfigurationParameter.vi"/>
-			<Item Name="Get ni_measurementlink_measurement_v1_ConfigurationParameter.vi" Type="VI" URL="../RPC Messages/Get ni_measurementlink_measurement_v1_ConfigurationParameter.vi"/>
 			<Item Name="Set ni_measurementlink_measurement_v1_ConfigurationParameter.vi" Type="VI" URL="../RPC Messages/Set ni_measurementlink_measurement_v1_ConfigurationParameter.vi"/>
+			<Item Name="Get ni_measurementlink_measurement_v1_ConfigurationParameter.vi" Type="VI" URL="../RPC Messages/Get ni_measurementlink_measurement_v1_ConfigurationParameter.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_measurement_v1_Output" Type="Folder">
 			<Item Name="ni_measurementlink_measurement_v1_Output.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_measurement_v1_Output.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_measurement_v1_Output.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_measurement_v1_Output.vi"/>
-			<Item Name="RichToFlatni_measurementlink_measurement_v1_Output.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_measurement_v1_Output.vi"/>
 			<Item Name="Set ni_measurementlink_measurement_v1_Output.vi" Type="VI" URL="../RPC Messages/Set ni_measurementlink_measurement_v1_Output.vi"/>
 			<Item Name="Get ni_measurementlink_measurement_v1_Output.vi" Type="VI" URL="../RPC Messages/Get ni_measurementlink_measurement_v1_Output.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_measurement_v1_ConfigurationParameter_AnnotationsEntry" Type="Folder">
 			<Item Name="ni_measurementlink_measurement_v1_ConfigurationParameter_AnnotationsEntry.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_measurement_v1_ConfigurationParameter_AnnotationsEntry.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_measurement_v1_ConfigurationParameter_AnnotationsEntry.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_measurement_v1_ConfigurationParameter_AnnotationsEntry.vi"/>
-			<Item Name="RichToFlatni_measurementlink_measurement_v1_ConfigurationParameter_AnnotationsEntry.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_measurement_v1_ConfigurationParameter_AnnotationsEntry.vi"/>
 			<Item Name="Set ni_measurementlink_measurement_v1_ConfigurationParameter_AnnotationsEntry.vi" Type="VI" URL="../RPC Messages/Set ni_measurementlink_measurement_v1_ConfigurationParameter_AnnotationsEntry.vi"/>
 			<Item Name="Get ni_measurementlink_measurement_v1_ConfigurationParameter_AnnotationsEntry.vi" Type="VI" URL="../RPC Messages/Get ni_measurementlink_measurement_v1_ConfigurationParameter_AnnotationsEntry.vi"/>
 		</Item>
-		<Item Name="google_protobuf_Syntax" Type="Folder">
-			<Item Name="google_protobuf_Syntax.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Syntax.ctl"/>
-			<Item Name="Get Value for google_protobuf_Syntax.vi" Type="VI" URL="../RPC Messages/Get Value for google_protobuf_Syntax.vi"/>
-			<Item Name="Get google_protobuf_Syntax for Value.vi" Type="VI" URL="../RPC Messages/Get google_protobuf_Syntax for Value.vi"/>
-			<Item Name="Set google_protobuf_Syntax.vi" Type="VI" URL="../RPC Messages/Set google_protobuf_Syntax.vi"/>
-			<Item Name="Get google_protobuf_Syntax.vi" Type="VI" URL="../RPC Messages/Get google_protobuf_Syntax.vi"/>
-		</Item>
-		<Item Name="google_protobuf_Field_Kind" Type="Folder">
-			<Item Name="google_protobuf_Field_Kind.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Field_Kind.ctl"/>
-			<Item Name="Get Value for google_protobuf_Field_Kind.vi" Type="VI" URL="../RPC Messages/Get Value for google_protobuf_Field_Kind.vi"/>
-			<Item Name="Get google_protobuf_Field_Kind for Value.vi" Type="VI" URL="../RPC Messages/Get google_protobuf_Field_Kind for Value.vi"/>
-			<Item Name="Set google_protobuf_Field_Kind.vi" Type="VI" URL="../RPC Messages/Set google_protobuf_Field_Kind.vi"/>
-			<Item Name="Get google_protobuf_Field_Kind.vi" Type="VI" URL="../RPC Messages/Get google_protobuf_Field_Kind.vi"/>
-		</Item>
-		<Item Name="google_protobuf_Field_Cardinality" Type="Folder">
-			<Item Name="google_protobuf_Field_Cardinality.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Field_Cardinality.ctl"/>
-			<Item Name="Get Value for google_protobuf_Field_Cardinality.vi" Type="VI" URL="../RPC Messages/Get Value for google_protobuf_Field_Cardinality.vi"/>
-			<Item Name="Get google_protobuf_Field_Cardinality for Value.vi" Type="VI" URL="../RPC Messages/Get google_protobuf_Field_Cardinality for Value.vi"/>
-			<Item Name="Set google_protobuf_Field_Cardinality.vi" Type="VI" URL="../RPC Messages/Set google_protobuf_Field_Cardinality.vi"/>
-			<Item Name="Get google_protobuf_Field_Cardinality.vi" Type="VI" URL="../RPC Messages/Get google_protobuf_Field_Cardinality.vi"/>
-		</Item>
-		<Item Name="google_protobuf_Any_Flat" Type="Folder">
-			<Item Name="google_protobuf_Any_Flat.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Any_Flat.ctl"/>
-		</Item>
-		<Item Name="google_protobuf_SourceContext_Flat" Type="Folder">
-			<Item Name="google_protobuf_SourceContext_Flat.ctl" Type="VI" URL="../RPC Messages/google_protobuf_SourceContext_Flat.ctl"/>
-		</Item>
-		<Item Name="google_protobuf_Type_Flat" Type="Folder">
-			<Item Name="google_protobuf_Type_Flat.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Type_Flat.ctl"/>
-		</Item>
-		<Item Name="google_protobuf_Field_Flat" Type="Folder">
-			<Item Name="google_protobuf_Field_Flat.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Field_Flat.ctl"/>
-		</Item>
-		<Item Name="google_protobuf_Enum_Flat" Type="Folder">
-			<Item Name="google_protobuf_Enum_Flat.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Enum_Flat.ctl"/>
-		</Item>
-		<Item Name="google_protobuf_EnumValue_Flat" Type="Folder">
-			<Item Name="google_protobuf_EnumValue_Flat.ctl" Type="VI" URL="../RPC Messages/google_protobuf_EnumValue_Flat.ctl"/>
-		</Item>
-		<Item Name="google_protobuf_Option_Flat" Type="Folder">
-			<Item Name="google_protobuf_Option_Flat.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Option_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_PinMapContext_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_PinMapContext_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_PinMapContext_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_measurement_v1_GetMetadataRequest_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_measurement_v1_GetMetadataRequest_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_measurement_v1_GetMetadataRequest_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_measurement_v1_GetMetadataResponse_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_measurement_v1_GetMetadataResponse_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_measurement_v1_GetMetadataResponse_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_measurement_v1_MeasureRequest_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_measurement_v1_MeasureRequest_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_measurement_v1_MeasureRequest_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_measurement_v1_MeasureResponse_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_measurement_v1_MeasureResponse_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_measurement_v1_MeasureResponse_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_measurement_v1_MeasurementDetails_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_measurement_v1_MeasurementDetails_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_measurement_v1_MeasurementDetails_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_measurement_v1_MeasurementSignature_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_measurement_v1_MeasurementSignature_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_measurement_v1_MeasurementSignature_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_measurement_v1_UserInterfaceDetails_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_measurement_v1_UserInterfaceDetails_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_measurement_v1_UserInterfaceDetails_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_measurement_v1_ConfigurationParameter_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_measurement_v1_ConfigurationParameter_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_measurement_v1_ConfigurationParameter_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_measurement_v1_Output_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_measurement_v1_Output_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_measurement_v1_Output_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_measurement_v1_ConfigurationParameter_AnnotationsEntry_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_measurement_v1_ConfigurationParameter_AnnotationsEntry_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_measurement_v1_ConfigurationParameter_AnnotationsEntry_Flat.ctl"/>
-		</Item>
-		<Item Name="google_protobuf_Syntax_Flat" Type="Folder">
-			<Item Name="google_protobuf_Syntax_Flat.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Syntax_Flat.ctl"/>
-			<Item Name="Get Value for google_protobuf_Syntax_Flat.vi" Type="VI" URL="../RPC Messages/Get Value for google_protobuf_Syntax_Flat.vi"/>
-			<Item Name="Get google_protobuf_Syntax_Flat for Value.vi" Type="VI" URL="../RPC Messages/Get google_protobuf_Syntax_Flat for Value.vi"/>
-		</Item>
-		<Item Name="google_protobuf_Field_Kind_Flat" Type="Folder">
-			<Item Name="google_protobuf_Field_Kind_Flat.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Field_Kind_Flat.ctl"/>
-			<Item Name="Get Value for google_protobuf_Field_Kind_Flat.vi" Type="VI" URL="../RPC Messages/Get Value for google_protobuf_Field_Kind_Flat.vi"/>
-			<Item Name="Get google_protobuf_Field_Kind_Flat for Value.vi" Type="VI" URL="../RPC Messages/Get google_protobuf_Field_Kind_Flat for Value.vi"/>
-		</Item>
-		<Item Name="google_protobuf_Field_Cardinality_Flat" Type="Folder">
-			<Item Name="google_protobuf_Field_Cardinality_Flat.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Field_Cardinality_Flat.ctl"/>
-			<Item Name="Get Value for google_protobuf_Field_Cardinality_Flat.vi" Type="VI" URL="../RPC Messages/Get Value for google_protobuf_Field_Cardinality_Flat.vi"/>
-			<Item Name="Get google_protobuf_Field_Cardinality_Flat for Value.vi" Type="VI" URL="../RPC Messages/Get google_protobuf_Field_Cardinality_Flat for Value.vi"/>
-		</Item>
 		<Item Name="Register gRPC Messages.vi" Type="VI" URL="../RPC Messages/Register gRPC Messages.vi"/>
 	</Item>
-	<Item Name="Generated Descriptors" Type="Folder">
-		<Item Name="Generated Descriptors.vi" Type="VI" URL="../Generated Descriptors/Generated Descriptors.vi"/>
-	</Item>
 	<Item Name="Run Service.vi" Type="VI" URL="../Run Service.vi"/>
-	<Item Name="Register Descriptors.vi" Type="VI" URL="../RPC Messages/Register Descriptors.vi"/>
 	<Item Name="MeasurementServiceBaseV1.lvclass" Type="LVClass" URL="../RPC Service/MeasurementService/MeasurementServiceBaseV1.lvclass"/>
 </Library>
