@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2023-09-21 08:25:14" Creator="lvadmin" Comments="" ID="f6cb6d37f0e61000cbdedcde6483bcd8">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2023-09-21 09:48:11" Creator="lvadmin" Comments="" ID="95eb6fc7c395ec7b05d27ed5287715a3">
   <Library_General_Settings>
     <Package_File_Name>NI_MeasurementLink_Service</Package_File_Name>
     <Library_Version>1.2.0.4</Library_Version>
@@ -134,6 +134,12 @@
       </Exclusions>
       <Exclusions>
         <Path>Session Management Client Prototype Library.lvlib</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Measurement Service V1.lvproj</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Measurement Service V2.lvproj</Path>
       </Exclusions>
       <Place_Folder_Contents>
         <Path/>
