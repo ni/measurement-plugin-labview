@@ -10,83 +10,33 @@
 	<Item Name="RPC Messages" Type="Folder">
 		<Item Name="ni_measurementlink_discovery_v1_ServiceDescriptor" Type="Folder">
 			<Item Name="ni_measurementlink_discovery_v1_ServiceDescriptor.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_discovery_v1_ServiceDescriptor.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_discovery_v1_ServiceDescriptor.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_discovery_v1_ServiceDescriptor.vi"/>
-			<Item Name="RichToFlatni_measurementlink_discovery_v1_ServiceDescriptor.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_discovery_v1_ServiceDescriptor.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_discovery_v1_ServiceLocation" Type="Folder">
 			<Item Name="ni_measurementlink_discovery_v1_ServiceLocation.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_discovery_v1_ServiceLocation.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_discovery_v1_ServiceLocation.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_discovery_v1_ServiceLocation.vi"/>
-			<Item Name="RichToFlatni_measurementlink_discovery_v1_ServiceLocation.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_discovery_v1_ServiceLocation.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_discovery_v1_RegisterServiceRequest" Type="Folder">
 			<Item Name="ni_measurementlink_discovery_v1_RegisterServiceRequest.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_discovery_v1_RegisterServiceRequest.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_discovery_v1_RegisterServiceRequest.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_discovery_v1_RegisterServiceRequest.vi"/>
-			<Item Name="RichToFlatni_measurementlink_discovery_v1_RegisterServiceRequest.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_discovery_v1_RegisterServiceRequest.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_discovery_v1_RegisterServiceResponse" Type="Folder">
 			<Item Name="ni_measurementlink_discovery_v1_RegisterServiceResponse.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_discovery_v1_RegisterServiceResponse.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_discovery_v1_RegisterServiceResponse.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_discovery_v1_RegisterServiceResponse.vi"/>
-			<Item Name="RichToFlatni_measurementlink_discovery_v1_RegisterServiceResponse.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_discovery_v1_RegisterServiceResponse.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_discovery_v1_UnregisterServiceRequest" Type="Folder">
 			<Item Name="ni_measurementlink_discovery_v1_UnregisterServiceRequest.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_discovery_v1_UnregisterServiceRequest.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_discovery_v1_UnregisterServiceRequest.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_discovery_v1_UnregisterServiceRequest.vi"/>
-			<Item Name="RichToFlatni_measurementlink_discovery_v1_UnregisterServiceRequest.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_discovery_v1_UnregisterServiceRequest.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_discovery_v1_UnregisterServiceResponse" Type="Folder">
 			<Item Name="ni_measurementlink_discovery_v1_UnregisterServiceResponse.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_discovery_v1_UnregisterServiceResponse.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_discovery_v1_UnregisterServiceResponse.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_discovery_v1_UnregisterServiceResponse.vi"/>
-			<Item Name="RichToFlatni_measurementlink_discovery_v1_UnregisterServiceResponse.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_discovery_v1_UnregisterServiceResponse.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_discovery_v1_EnumerateServicesRequest" Type="Folder">
 			<Item Name="ni_measurementlink_discovery_v1_EnumerateServicesRequest.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_discovery_v1_EnumerateServicesRequest.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_discovery_v1_EnumerateServicesRequest.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_discovery_v1_EnumerateServicesRequest.vi"/>
-			<Item Name="RichToFlatni_measurementlink_discovery_v1_EnumerateServicesRequest.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_discovery_v1_EnumerateServicesRequest.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_discovery_v1_EnumerateServicesResponse" Type="Folder">
 			<Item Name="ni_measurementlink_discovery_v1_EnumerateServicesResponse.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_discovery_v1_EnumerateServicesResponse.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_discovery_v1_EnumerateServicesResponse.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_discovery_v1_EnumerateServicesResponse.vi"/>
-			<Item Name="RichToFlatni_measurementlink_discovery_v1_EnumerateServicesResponse.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_discovery_v1_EnumerateServicesResponse.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_discovery_v1_ResolveServiceRequest" Type="Folder">
 			<Item Name="ni_measurementlink_discovery_v1_ResolveServiceRequest.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_discovery_v1_ResolveServiceRequest.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_discovery_v1_ResolveServiceRequest.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_discovery_v1_ResolveServiceRequest.vi"/>
-			<Item Name="RichToFlatni_measurementlink_discovery_v1_ResolveServiceRequest.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_discovery_v1_ResolveServiceRequest.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_discovery_v1_ServiceDescriptor_AnnotationsEntry" Type="Folder">
 			<Item Name="ni_measurementlink_discovery_v1_ServiceDescriptor_AnnotationsEntry.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_discovery_v1_ServiceDescriptor_AnnotationsEntry.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_discovery_v1_ServiceDescriptor_AnnotationsEntry.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_discovery_v1_ServiceDescriptor_AnnotationsEntry.vi"/>
-			<Item Name="RichToFlatni_measurementlink_discovery_v1_ServiceDescriptor_AnnotationsEntry.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_discovery_v1_ServiceDescriptor_AnnotationsEntry.vi"/>
-		</Item>
-		<Item Name="ni_measurementlink_discovery_v1_ServiceDescriptor_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_discovery_v1_ServiceDescriptor_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_discovery_v1_ServiceDescriptor_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_discovery_v1_ServiceLocation_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_discovery_v1_ServiceLocation_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_discovery_v1_ServiceLocation_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_discovery_v1_RegisterServiceRequest_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_discovery_v1_RegisterServiceRequest_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_discovery_v1_RegisterServiceRequest_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_discovery_v1_RegisterServiceResponse_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_discovery_v1_RegisterServiceResponse_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_discovery_v1_RegisterServiceResponse_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_discovery_v1_UnregisterServiceRequest_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_discovery_v1_UnregisterServiceRequest_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_discovery_v1_UnregisterServiceRequest_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_discovery_v1_UnregisterServiceResponse_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_discovery_v1_UnregisterServiceResponse_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_discovery_v1_UnregisterServiceResponse_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_discovery_v1_EnumerateServicesRequest_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_discovery_v1_EnumerateServicesRequest_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_discovery_v1_EnumerateServicesRequest_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_discovery_v1_EnumerateServicesResponse_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_discovery_v1_EnumerateServicesResponse_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_discovery_v1_EnumerateServicesResponse_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_discovery_v1_ResolveServiceRequest_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_discovery_v1_ResolveServiceRequest_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_discovery_v1_ResolveServiceRequest_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_discovery_v1_ServiceDescriptor_AnnotationsEntry_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_discovery_v1_ServiceDescriptor_AnnotationsEntry_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_discovery_v1_ServiceDescriptor_AnnotationsEntry_Flat.ctl"/>
 		</Item>
 		<Item Name="Register gRPC Messages.vi" Type="VI" URL="../RPC Messages/Register gRPC Messages.vi"/>
 	</Item>
