@@ -10,131 +10,51 @@
 	<Item Name="RPC Messages" Type="Folder">
 		<Item Name="ni_measurementlink_pinmap_v1_PinMap" Type="Folder">
 			<Item Name="ni_measurementlink_pinmap_v1_PinMap.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_PinMap.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_pinmap_v1_PinMap.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_pinmap_v1_PinMap.vi"/>
-			<Item Name="RichToFlatni_measurementlink_pinmap_v1_PinMap.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_pinmap_v1_PinMap.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_pinmap_v1_CreatePinMapFromXmlRequest" Type="Folder">
 			<Item Name="ni_measurementlink_pinmap_v1_CreatePinMapFromXmlRequest.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_CreatePinMapFromXmlRequest.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_pinmap_v1_CreatePinMapFromXmlRequest.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_pinmap_v1_CreatePinMapFromXmlRequest.vi"/>
-			<Item Name="RichToFlatni_measurementlink_pinmap_v1_CreatePinMapFromXmlRequest.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_pinmap_v1_CreatePinMapFromXmlRequest.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_pinmap_v1_UpdatePinMapFromXmlRequest" Type="Folder">
 			<Item Name="ni_measurementlink_pinmap_v1_UpdatePinMapFromXmlRequest.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_UpdatePinMapFromXmlRequest.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_pinmap_v1_UpdatePinMapFromXmlRequest.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_pinmap_v1_UpdatePinMapFromXmlRequest.vi"/>
-			<Item Name="RichToFlatni_measurementlink_pinmap_v1_UpdatePinMapFromXmlRequest.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_pinmap_v1_UpdatePinMapFromXmlRequest.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_pinmap_v1_GetPinMapRequest" Type="Folder">
 			<Item Name="ni_measurementlink_pinmap_v1_GetPinMapRequest.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_GetPinMapRequest.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_pinmap_v1_GetPinMapRequest.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_pinmap_v1_GetPinMapRequest.vi"/>
-			<Item Name="RichToFlatni_measurementlink_pinmap_v1_GetPinMapRequest.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_pinmap_v1_GetPinMapRequest.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_pinmap_v1_QueryPinsRequest" Type="Folder">
 			<Item Name="ni_measurementlink_pinmap_v1_QueryPinsRequest.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_QueryPinsRequest.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_pinmap_v1_QueryPinsRequest.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_pinmap_v1_QueryPinsRequest.vi"/>
-			<Item Name="RichToFlatni_measurementlink_pinmap_v1_QueryPinsRequest.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_pinmap_v1_QueryPinsRequest.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_pinmap_v1_QueryPinsResponse" Type="Folder">
 			<Item Name="ni_measurementlink_pinmap_v1_QueryPinsResponse.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_QueryPinsResponse.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_pinmap_v1_QueryPinsResponse.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_pinmap_v1_QueryPinsResponse.vi"/>
-			<Item Name="RichToFlatni_measurementlink_pinmap_v1_QueryPinsResponse.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_pinmap_v1_QueryPinsResponse.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_pinmap_v1_PinDefinition" Type="Folder">
 			<Item Name="ni_measurementlink_pinmap_v1_PinDefinition.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_PinDefinition.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_pinmap_v1_PinDefinition.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_pinmap_v1_PinDefinition.vi"/>
-			<Item Name="RichToFlatni_measurementlink_pinmap_v1_PinDefinition.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_pinmap_v1_PinDefinition.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_pinmap_v1_PinGroupDefinition" Type="Folder">
 			<Item Name="ni_measurementlink_pinmap_v1_PinGroupDefinition.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_PinGroupDefinition.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_pinmap_v1_PinGroupDefinition.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_pinmap_v1_PinGroupDefinition.vi"/>
-			<Item Name="RichToFlatni_measurementlink_pinmap_v1_PinGroupDefinition.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_pinmap_v1_PinGroupDefinition.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_pinmap_v1_QueryRelaysRequest" Type="Folder">
 			<Item Name="ni_measurementlink_pinmap_v1_QueryRelaysRequest.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_QueryRelaysRequest.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_pinmap_v1_QueryRelaysRequest.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_pinmap_v1_QueryRelaysRequest.vi"/>
-			<Item Name="RichToFlatni_measurementlink_pinmap_v1_QueryRelaysRequest.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_pinmap_v1_QueryRelaysRequest.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_pinmap_v1_QueryRelaysResponse" Type="Folder">
 			<Item Name="ni_measurementlink_pinmap_v1_QueryRelaysResponse.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_QueryRelaysResponse.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_pinmap_v1_QueryRelaysResponse.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_pinmap_v1_QueryRelaysResponse.vi"/>
-			<Item Name="RichToFlatni_measurementlink_pinmap_v1_QueryRelaysResponse.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_pinmap_v1_QueryRelaysResponse.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_pinmap_v1_RelayDefinition" Type="Folder">
 			<Item Name="ni_measurementlink_pinmap_v1_RelayDefinition.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_RelayDefinition.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_pinmap_v1_RelayDefinition.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_pinmap_v1_RelayDefinition.vi"/>
-			<Item Name="RichToFlatni_measurementlink_pinmap_v1_RelayDefinition.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_pinmap_v1_RelayDefinition.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_pinmap_v1_RelayGroupDefinition" Type="Folder">
 			<Item Name="ni_measurementlink_pinmap_v1_RelayGroupDefinition.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_RelayGroupDefinition.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_pinmap_v1_RelayGroupDefinition.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_pinmap_v1_RelayGroupDefinition.vi"/>
-			<Item Name="RichToFlatni_measurementlink_pinmap_v1_RelayGroupDefinition.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_pinmap_v1_RelayGroupDefinition.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_pinmap_v1_QueryResourceAccessInformationRequest" Type="Folder">
 			<Item Name="ni_measurementlink_pinmap_v1_QueryResourceAccessInformationRequest.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_QueryResourceAccessInformationRequest.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_pinmap_v1_QueryResourceAccessInformationRequest.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_pinmap_v1_QueryResourceAccessInformationRequest.vi"/>
-			<Item Name="RichToFlatni_measurementlink_pinmap_v1_QueryResourceAccessInformationRequest.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_pinmap_v1_QueryResourceAccessInformationRequest.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_pinmap_v1_QueryResourceAccessInformationResponse" Type="Folder">
 			<Item Name="ni_measurementlink_pinmap_v1_QueryResourceAccessInformationResponse.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_QueryResourceAccessInformationResponse.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_pinmap_v1_QueryResourceAccessInformationResponse.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_pinmap_v1_QueryResourceAccessInformationResponse.vi"/>
-			<Item Name="RichToFlatni_measurementlink_pinmap_v1_QueryResourceAccessInformationResponse.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_pinmap_v1_QueryResourceAccessInformationResponse.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_pinmap_v1_ResourceAccessInformation" Type="Folder">
 			<Item Name="ni_measurementlink_pinmap_v1_ResourceAccessInformation.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_ResourceAccessInformation.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_pinmap_v1_ResourceAccessInformation.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_pinmap_v1_ResourceAccessInformation.vi"/>
-			<Item Name="RichToFlatni_measurementlink_pinmap_v1_ResourceAccessInformation.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_pinmap_v1_ResourceAccessInformation.vi"/>
 		</Item>
 		<Item Name="ni_measurementlink_pinmap_v1_ChannelMapping" Type="Folder">
 			<Item Name="ni_measurementlink_pinmap_v1_ChannelMapping.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_ChannelMapping.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_pinmap_v1_ChannelMapping.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_pinmap_v1_ChannelMapping.vi"/>
-			<Item Name="RichToFlatni_measurementlink_pinmap_v1_ChannelMapping.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_pinmap_v1_ChannelMapping.vi"/>
-		</Item>
-		<Item Name="ni_measurementlink_pinmap_v1_PinMap_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_pinmap_v1_PinMap_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_PinMap_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_pinmap_v1_CreatePinMapFromXmlRequest_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_pinmap_v1_CreatePinMapFromXmlRequest_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_CreatePinMapFromXmlRequest_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_pinmap_v1_UpdatePinMapFromXmlRequest_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_pinmap_v1_UpdatePinMapFromXmlRequest_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_UpdatePinMapFromXmlRequest_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_pinmap_v1_GetPinMapRequest_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_pinmap_v1_GetPinMapRequest_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_GetPinMapRequest_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_pinmap_v1_QueryPinsRequest_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_pinmap_v1_QueryPinsRequest_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_QueryPinsRequest_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_pinmap_v1_QueryPinsResponse_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_pinmap_v1_QueryPinsResponse_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_QueryPinsResponse_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_pinmap_v1_PinDefinition_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_pinmap_v1_PinDefinition_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_PinDefinition_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_pinmap_v1_PinGroupDefinition_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_pinmap_v1_PinGroupDefinition_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_PinGroupDefinition_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_pinmap_v1_QueryRelaysRequest_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_pinmap_v1_QueryRelaysRequest_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_QueryRelaysRequest_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_pinmap_v1_QueryRelaysResponse_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_pinmap_v1_QueryRelaysResponse_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_QueryRelaysResponse_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_pinmap_v1_RelayDefinition_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_pinmap_v1_RelayDefinition_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_RelayDefinition_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_pinmap_v1_RelayGroupDefinition_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_pinmap_v1_RelayGroupDefinition_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_RelayGroupDefinition_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_pinmap_v1_QueryResourceAccessInformationRequest_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_pinmap_v1_QueryResourceAccessInformationRequest_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_QueryResourceAccessInformationRequest_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_pinmap_v1_QueryResourceAccessInformationResponse_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_pinmap_v1_QueryResourceAccessInformationResponse_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_QueryResourceAccessInformationResponse_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_pinmap_v1_ResourceAccessInformation_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_pinmap_v1_ResourceAccessInformation_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_ResourceAccessInformation_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_pinmap_v1_ChannelMapping_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_pinmap_v1_ChannelMapping_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_ChannelMapping_Flat.ctl"/>
 		</Item>
 		<Item Name="Register gRPC Messages.vi" Type="VI" URL="../RPC Messages/Register gRPC Messages.vi"/>
 	</Item>
