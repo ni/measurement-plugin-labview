@@ -1,3 +1,4 @@
+Tests.All\VerifyVIsNotBroken.vi
 Tests.Generator\Dialog\AllowedCharsInName_CheckPluginNameIsValid_NameValid.vi
 Tests.Generator\Dialog\ConflictingNameInProject_CheckPluginNameIsValid_NameInvalid.vi
 Tests.Generator\Dialog\DisallowedCharsInName_CheckPluginNameIsValid_NameInvalid.vi
