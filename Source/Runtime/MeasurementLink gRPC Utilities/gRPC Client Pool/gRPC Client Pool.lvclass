@@ -104,4 +104,14 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Location to Insecure Address.vi" Type="VI" URL="../../Location to Insecure Address.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%V!!!!"Q!%!!!!%%!Q`````Q&gt;":'2S:8.T!"*!-0````])&lt;'^D982J&lt;WY!!":!-0````].;7ZT:7.V=G6@='^S&gt;!!A1$$`````&amp;H.T&lt;&amp;^B&gt;82I:7ZU;7.B&gt;'6E8X"P=H1!!(U!]1!!!!!!!!!#*EVF98.V=G6N:7ZU4'FO;S"%;8.D&lt;X:F=HEA1WRJ:7ZU,GRW&lt;'FC-WZJ8WVF98.V=G6N:7ZU&lt;'FO;V^E;8.D&lt;X:F=HF@&gt;D&amp;@5W6S&gt;GFD:5RP9W&amp;U;7^O,G.U&lt;!!;1&amp;!!!Q!#!!-!"!B-&lt;W.B&gt;'FP&lt;A!!6!$Q!!Q!!!!!!!!!!1!!!!!!!!!!!!!!!!!!!!5#!!"Y!!!!!!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!!!!1!'!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 </LVClass>

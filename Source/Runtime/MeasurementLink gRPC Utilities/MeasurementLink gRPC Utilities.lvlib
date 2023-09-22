@@ -12,7 +12,6 @@
 	</Item>
 	<Item Name="Private Helpers" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		<Item Name="Location to Insecure Address.vi" Type="VI" URL="../Location to Insecure Address.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
