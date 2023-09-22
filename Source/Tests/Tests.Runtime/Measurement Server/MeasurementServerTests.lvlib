@@ -14,7 +14,8 @@
 		<Item Name="Restart Discovery Service.vi" Type="VI" URL="../Helpers/Restart Discovery Service.vi"/>
 	</Item>
 	<Item Name="NI-DCPower" Type="Folder">
-		<Item Name="RemoteSession_CallCloseMeasurementLinkSession_RemoteSessionClosed.vi" Type="VI" URL="../NI-DCPower/RemoteSession_CallCloseMeasurementLinkSession_RemoteSessionClosed.vi"/>
+		<Item Name="RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi" Type="VI" URL="../NI-DCPower/RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi"/>
+		<Item Name="RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../NI-DCPower/RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
 	</Item>
 	<Item Name="ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
 	<Item Name="ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
