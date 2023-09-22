@@ -10,9 +10,6 @@
 	<Item Name="Friends List" Type="Friends List">
 		<Item Name="MeasurementServerTests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Runtime/Measurement Server/MeasurementServerTests.lvlib"/>
 	</Item>
-	<Item Name="Private Helpers" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		<Item Name="Service Location FGV Action.ctl" Type="VI" URL="../TypeDefs/Service Location FGV Action.ctl"/>
