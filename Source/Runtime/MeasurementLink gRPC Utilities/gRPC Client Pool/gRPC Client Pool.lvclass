@@ -30,6 +30,7 @@
 		<Item Name="MeasurementServerTests.lvlib" Type="Friended Library" URL="../../../../Tests/Tests.Runtime/Measurement Server/MeasurementServerTests.lvlib"/>
 		<Item Name="MeasurementLink Measurement Server.lvlib" Type="Friended Library" URL="../../../MeasurementLink Measurement Server/MeasurementLink Measurement Server.lvlib"/>
 		<Item Name="MeasurementLink gRPC Utilities.lvlib" Type="Friended Library" URL="../../MeasurementLink gRPC Utilities.lvlib"/>
+		<Item Name="MeasurementLink Session Management.lvlib:Session Reservation.lvclass" Type="Friended Library" URL="../../../MeasurementLink Session Management/Session Reservation/Session Reservation.lvclass"/>
 	</Item>
 	<Item Name="gRPC Client Pool.ctl" Type="Class Private Data" URL="gRPC Client Pool.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
