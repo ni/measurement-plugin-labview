@@ -8,10 +8,12 @@
 
 </Property>
 	<Item Name="Helpers" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Check If Discovery Service is Running.vi" Type="VI" URL="../Helpers/Check If Discovery Service is Running.vi"/>
 		<Item Name="Get Enum Getters.vi" Type="VI" URL="../Helpers/Get Enum Getters.vi"/>
 		<Item Name="Kill Discovery Service.vi" Type="VI" URL="../Helpers/Kill Discovery Service.vi"/>
 		<Item Name="Restart Discovery Service.vi" Type="VI" URL="../Helpers/Restart Discovery Service.vi"/>
+		<Item Name="Get Remote Connection Options.vi" Type="VI" URL="../Helpers/Get Remote Connection Options.vi"/>
 	</Item>
 	<Item Name="niDCPower" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -23,7 +25,6 @@
 	<Item Name="ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
 	<Item Name="ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
 	<Item Name="DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi" Type="VI" URL="../DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi"/>
-	<Item Name="Get Remote Connection Options.vi" Type="VI" URL="../Helpers/Get Remote Connection Options.vi"/>
 	<Item Name="ServiceLocationPool_DiscoveryServiceUnavailable_GetUncachedLocation_ReturnsError.vi" Type="VI" URL="../ServiceLocationPool_DiscoveryServiceUnavailable_GetUncachedLocation_ReturnsError.vi"/>
 	<Item Name="ServiceLocationPool_GetInvalidServiceTwice_DoesNotCacheInvalidData.vi" Type="VI" URL="../ServiceLocationPool_GetInvalidServiceTwice_DoesNotCacheInvalidData.vi"/>
 	<Item Name="ServiceLocationPool_GetLocation_ReturnsValidLocation.vi" Type="VI" URL="../ServiceLocationPool_GetLocation_ReturnsValidLocation.vi"/>
