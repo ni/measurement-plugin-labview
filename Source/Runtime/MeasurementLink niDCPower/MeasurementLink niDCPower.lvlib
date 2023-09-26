@@ -12,4 +12,5 @@
 	<Item Name="niDCPower Get Connections - 1Pin1Connection.vi" Type="VI" URL="../niDCPower Get Connections - 1Pin1Connection.vi"/>
 	<Item Name="niDCPower Get Connections - 1PinMConnection.vi" Type="VI" URL="../niDCPower Get Connections - 1PinMConnection.vi"/>
 	<Item Name="niDCPower Get Connections - NPinMConnection.vi" Type="VI" URL="../niDCPower Get Connections - NPinMConnection.vi"/>
+	<Item Name="niDCPower Get Connections.vi" Type="VI" URL="../niDCPower Get Connections.vi"/>
 </Library>
