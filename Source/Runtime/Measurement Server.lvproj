@@ -23,7 +23,7 @@
 			<Item Name="MeasurementServerTests.lvlib" Type="Library" URL="../../Tests/Tests.Runtime/Measurement Server/MeasurementServerTests.lvlib"/>
 		</Item>
 		<Item Name="Global VIs" Type="Folder">
-			<Item Name="Error Strings Global.vi" Type="VI" URL="../MeasurementLink Measurement Server/Helpers/Error Strings Global.vi"/>
+			<Item Name="Error Strings Global Internal.vi" Type="VI" URL="../MeasurementLink Measurement Server/Helpers/Error Strings Global Internal.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
