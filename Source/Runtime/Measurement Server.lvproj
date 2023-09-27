@@ -14,9 +14,11 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Libraries" Type="Folder">
-			<Item Name="MeasurementLink niDCPower.lvlib" Type="Library" URL="../MeasurementLink niDCPower/MeasurementLink niDCPower.lvlib"/>
+			<Item Name="Instruments" Type="Folder">
+				<Item Name="MeasurementLink niDCPower.lvlib" Type="Library" URL="../MeasurementLink niDCPower/MeasurementLink niDCPower.lvlib"/>
+				<Item Name="MeasurementLink Instrument.lvlib" Type="Library" URL="../MeasurementLink Instrument/MeasurementLink Instrument.lvlib"/>
+			</Item>
 			<Item Name="MeasurementLink Measurement Server.lvlib" Type="Library" URL="../MeasurementLink Measurement Server/MeasurementLink Measurement Server.lvlib"/>
-			<Item Name="MeasurementLink Instrument.lvlib" Type="Library" URL="../MeasurementLink Instrument/MeasurementLink Instrument.lvlib"/>
 			<Item Name="MeasurementLink Session Management.lvlib" Type="Library" URL="../MeasurementLink Session Management/MeasurementLink Session Management.lvlib"/>
 			<Item Name="MeasurementLink gRPC Utilities.lvlib" Type="Library" URL="../MeasurementLink gRPC Utilities/MeasurementLink gRPC Utilities.lvlib"/>
 		</Item>
@@ -66,6 +68,7 @@
 			<Item Name="nidcpower_64.dll" Type="Document" URL="nidcpower_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="ConfigurationParameter_AnnotationsEntry.ctl" Type="VI" URL="../MeasurementLink Measurement Server/Helpers/TypeDefs/ConfigurationParameter_AnnotationsEntry.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
