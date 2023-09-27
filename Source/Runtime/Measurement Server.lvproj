@@ -71,7 +71,6 @@
 			<Item Name="nidcpower_64.dll" Type="Document" URL="nidcpower_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ConfigurationParameter_AnnotationsEntry.ctl" Type="VI" URL="../MeasurementLink Measurement Server/Helpers/TypeDefs/ConfigurationParameter_AnnotationsEntry.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
