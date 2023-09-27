@@ -14,7 +14,6 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		<Item Name="Service Location FGV Action.ctl" Type="VI" URL="../TypeDefs/Service Location FGV Action.ctl"/>
 	</Item>
-	<Item Name="Error Strings Global.vi" Type="VI" URL="../Error Strings Global.vi"/>
 	<Item Name="gRPC Client Pool.lvclass" Type="LVClass" URL="../gRPC Client Pool/gRPC Client Pool.lvclass"/>
 	<Item Name="Service Location FGV.vi" Type="VI" URL="../Service Location FGV.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
