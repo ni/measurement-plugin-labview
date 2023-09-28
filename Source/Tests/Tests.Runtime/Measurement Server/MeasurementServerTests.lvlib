@@ -8,7 +8,8 @@
 
 </Property>
 	<Item Name="Get Connections" Type="Folder">
-		<Item Name="FirstTest.vi" Type="VI" URL="../Get Connections/FirstTest.vi"/>
+		<Item Name="SinglePinMultiSiteReservation_CallGetConnectionFromPin_ReturnsError.vi" Type="VI" URL="../Get Connections/SinglePinMultiSiteReservation_CallGetConnectionFromPin_ReturnsError.vi"/>
+		<Item Name="SinglePinSingleSiteReservation_CallGetConnectionFromPin_ReturnsSingleConnection.vi" Type="VI" URL="../Get Connections/SinglePinSingleSiteReservation_CallGetConnectionFromPin_ReturnsSingleConnection.vi"/>
 	</Item>
 	<Item Name="Helpers" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -19,6 +20,8 @@
 		<Item Name="Check If Discovery Service is Running.vi" Type="VI" URL="../Helpers/Check If Discovery Service is Running.vi"/>
 		<Item Name="Get Enum Getters.vi" Type="VI" URL="../Helpers/Get Enum Getters.vi"/>
 		<Item Name="Kill Discovery Service.vi" Type="VI" URL="../Helpers/Kill Discovery Service.vi"/>
+		<Item Name="Assert Equal.vim" Type="VI" URL="../Helpers/Assertion Helpers/Assert Equal.vim"/>
+		<Item Name="Simple Channel Mapping to Channel Mapping Cluster.vi" Type="VI" URL="../Helpers/Simple Channel Mapping to Channel Mapping Cluster.vi"/>
 		<Item Name="Restart Discovery Service.vi" Type="VI" URL="../Helpers/Restart Discovery Service.vi"/>
 		<Item Name="Get Remote Connection Options.vi" Type="VI" URL="../Helpers/Get Remote Connection Options.vi"/>
 	</Item>
@@ -29,11 +32,16 @@
 		<Item Name="RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi" Type="VI" URL="../niDCPower/RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi"/>
 		<Item Name="RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../niDCPower/RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
 	</Item>
+	<Item Name="Assert Error Code.vi" Type="VI" URL="../Helpers/Assertion Helpers/Assert Error Code.vi"/>
 	<Item Name="ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
 	<Item Name="ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
+	<Item Name="Create Connection Cluster.vi" Type="VI" URL="../Helpers/Create Connection Cluster.vi"/>
+	<Item Name="Create Private Data for Get Connections Tests.vi" Type="VI" URL="../Helpers/Create Private Data for Get Connections Tests.vi"/>
 	<Item Name="DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi" Type="VI" URL="../DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi"/>
 	<Item Name="ServiceLocationPool_DiscoveryServiceUnavailable_GetUncachedLocation_ReturnsError.vi" Type="VI" URL="../ServiceLocationPool_DiscoveryServiceUnavailable_GetUncachedLocation_ReturnsError.vi"/>
 	<Item Name="ServiceLocationPool_GetInvalidServiceTwice_DoesNotCacheInvalidData.vi" Type="VI" URL="../ServiceLocationPool_GetInvalidServiceTwice_DoesNotCacheInvalidData.vi"/>
 	<Item Name="ServiceLocationPool_GetLocation_ReturnsValidLocation.vi" Type="VI" URL="../ServiceLocationPool_GetLocation_ReturnsValidLocation.vi"/>
 	<Item Name="ServiceLocationPool_GetLocationTwice_ReturnsCachedLocation.vi" Type="VI" URL="../ServiceLocationPool_GetLocationTwice_ReturnsCachedLocation.vi"/>
+	<Item Name="TwoPinsOneSiteReservation_CallGetConnectionsFromPins_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/TwoPinsOneSiteReservation_CallGetConnectionsFromPins_ReturnsTwoConnections.vi"/>
+	<Item Name="TwoPinsTwoInstrumentTypesOneSiteReservation_CallGetConnectionFromPin_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/TwoPinsTwoInstrumentTypesOneSiteReservation_CallGetConnectionFromPin_ReturnsOneConnection.vi"/>
 </Library>
