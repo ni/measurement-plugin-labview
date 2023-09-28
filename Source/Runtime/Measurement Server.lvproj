@@ -16,6 +16,7 @@
 		<Item Name="Libraries" Type="Folder">
 			<Item Name="Instruments" Type="Folder">
 				<Item Name="MeasurementLink niDCPower.lvlib" Type="Library" URL="../MeasurementLink niDCPower/MeasurementLink niDCPower.lvlib"/>
+				<Item Name="MeasurementLink niFGEN.lvlib" Type="Library" URL="../MeasurementLink niFGEN/MeasurementLink niFGEN.lvlib"/>
 				<Item Name="MeasurementLink Instrument.lvlib" Type="Library" URL="../MeasurementLink Instrument/MeasurementLink Instrument.lvlib"/>
 			</Item>
 			<Item Name="MeasurementLink Measurement Server.lvlib" Type="Library" URL="../MeasurementLink Measurement Server/MeasurementLink Measurement Server.lvlib"/>
@@ -59,6 +60,14 @@
 				<Item Name="niDCPower Detach gRPC session.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Detach gRPC session.vi"/>
 				<Item Name="niDCPower IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower IVI Error Converter.vi"/>
 				<Item Name="niDCPower Self Test.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Self Test.vi"/>
+				<Item Name="niFgen Close.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Close.vi"/>
+				<Item Name="niFgen Get Session Reference.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Get Session Reference.vi"/>
+				<Item Name="niFgen Detach gRPC Session.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Detach gRPC Session.vi"/>
+				<Item Name="niFgen Initialize With Channels for gRPC Session.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Initialize With Channels for gRPC Session.vi"/>
+				<Item Name="niFgen gRPC Device Server.ctl" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen gRPC Device Server.ctl"/>
+				<Item Name="niFgen Attach gRPC Session.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Attach gRPC Session.vi"/>
+				<Item Name="niFgen Self-Test.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Self-Test.vi"/>
+				<Item Name="niFgen IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen IVI Error Converter.vi"/>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -69,6 +78,9 @@
 			<Item Name="MeasurementLink Pin Map Client.lvlib" Type="Library" URL="../MeasurementLink Pin Map Client/MeasurementLink Pin Map Client.lvlib"/>
 			<Item Name="MeasurementLink Session Management Client.lvlib" Type="Library" URL="../MeasurementLink Session Management Client/MeasurementLink Session Management Client.lvlib"/>
 			<Item Name="nidcpower_64.dll" Type="Document" URL="nidcpower_64.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="niFgen_64.dll" Type="Document" URL="niFgen_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
