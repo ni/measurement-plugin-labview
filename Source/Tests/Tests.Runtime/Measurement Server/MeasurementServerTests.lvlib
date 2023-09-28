@@ -11,9 +11,23 @@
 		<Item Name="FirstTest.vi" Type="VI" URL="../Get Connections/FirstTest.vi"/>
 	</Item>
 	<Item Name="Helpers" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="IInstrument Assertion Helpers" Type="Folder">
+			<Item Name="Assert Attach Failed.vi" Type="VI" URL="../Helpers/IInstrument Assertion Helpers/Assert Attach Failed.vi"/>
+			<Item Name="Assert No Driver Error.vi" Type="VI" URL="../Helpers/IInstrument Assertion Helpers/Assert No Driver Error.vi"/>
+		</Item>
 		<Item Name="Check If Discovery Service is Running.vi" Type="VI" URL="../Helpers/Check If Discovery Service is Running.vi"/>
 		<Item Name="Get Enum Getters.vi" Type="VI" URL="../Helpers/Get Enum Getters.vi"/>
 		<Item Name="Kill Discovery Service.vi" Type="VI" URL="../Helpers/Kill Discovery Service.vi"/>
+		<Item Name="Restart Discovery Service.vi" Type="VI" URL="../Helpers/Restart Discovery Service.vi"/>
+		<Item Name="Get Remote Connection Options.vi" Type="VI" URL="../Helpers/Get Remote Connection Options.vi"/>
+	</Item>
+	<Item Name="niDCPower" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="DCPowerInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi" Type="VI" URL="../niDCPower/DCPowerInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi"/>
+		<Item Name="RemoteDCPowerSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niDCPower/RemoteDCPowerSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
+		<Item Name="RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi" Type="VI" URL="../niDCPower/RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi"/>
+		<Item Name="RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../niDCPower/RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
 	</Item>
 	<Item Name="ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
 	<Item Name="ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
