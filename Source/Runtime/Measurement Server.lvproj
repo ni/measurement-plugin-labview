@@ -21,6 +21,7 @@
 				<Item Name="MeasurementLink niDigital.lvlib" Type="Library" URL="../MeasurementLink niDigital/MeasurementLink niDigital.lvlib"/>
 				<Item Name="MeasurementLink niDMM.lvlib" Type="Library" URL="../MeasurementLink niDMM/MeasurementLink niDMM.lvlib"/>
 				<Item Name="MeasurementLink niFGEN.lvlib" Type="Library" URL="../MeasurementLink niFGEN/MeasurementLink niFGEN.lvlib"/>
+				<Item Name="MeasurementLink niScope.lvlib" Type="Library" URL="../MeasurementLink niScope/MeasurementLink niScope.lvlib"/>
 			</Item>
 			<Item Name="MeasurementLink Measurement Server.lvlib" Type="Library" URL="../MeasurementLink Measurement Server/MeasurementLink Measurement Server.lvlib"/>
 			<Item Name="MeasurementLink Session Management.lvlib" Type="Library" URL="../MeasurementLink Session Management/MeasurementLink Session Management.lvlib"/>
@@ -75,6 +76,14 @@
 				<Item Name="niFgen Attach gRPC Session.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Attach gRPC Session.vi"/>
 				<Item Name="niFgen Self-Test.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Self-Test.vi"/>
 				<Item Name="niFgen IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen IVI Error Converter.vi"/>
+				<Item Name="niScope Close.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/niScope Close.vi"/>
+				<Item Name="niScope Get Session Reference.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Utility/niScope Get Session Reference.vi"/>
+				<Item Name="niScope Detach gRPC Session.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/niScope Detach gRPC Session.vi"/>
+				<Item Name="niScope Initialize for gRPC Session.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/niScope Initialize for gRPC Session.vi"/>
+				<Item Name="niScope gRPC Device Server.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/niScope gRPC Device Server.ctl"/>
+				<Item Name="niScope Attach gRPC Session.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/niScope Attach gRPC Session.vi"/>
+				<Item Name="niScope Self Test.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Utility/niScope Self Test.vi"/>
+				<Item Name="niScope LabVIEW Error.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Utility/niScope LabVIEW Error.vi"/>
 				<Item Name="niDMM Close.vi" Type="VI" URL="/&lt;instrlib&gt;/niDMM/nidmm.llb/niDMM Close.vi"/>
 				<Item Name="niDMM Detach gRPC Session.vi" Type="VI" URL="/&lt;instrlib&gt;/niDMM/nidmm.llb/niDMM Detach gRPC Session.vi"/>
 				<Item Name="niDMM Initialize for gRPC Session.vi" Type="VI" URL="/&lt;instrlib&gt;/niDMM/nidmm.llb/niDMM Initialize for gRPC Session.vi"/>
@@ -98,6 +107,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nidmm_64.dll" Type="Document" URL="nidmm_64.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="niScope_64.dll" Type="Document" URL="niScope_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
