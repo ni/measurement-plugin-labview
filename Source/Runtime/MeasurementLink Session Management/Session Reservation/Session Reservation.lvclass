@@ -33,7 +33,7 @@
 	</Item>
 	<Item Name="Private Helpers" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Get Connection Information.vi" Type="VI" URL="../Helpers/Get Connection Information.vi">
+		<Item Name="Get gRPC Device Server Location.vi" Type="VI" URL="../Helpers/Get gRPC Device Server Location.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;Z!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!#U!(!!2Q&lt;X*U!!!11$$`````"W&amp;E:(*F=X-!5%"Q!"Y!!$9A476B=X6S:7VF&lt;H2-;7ZL)%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)435FO=X2S&gt;7VF&lt;H1O&lt;(:D&lt;'&amp;T=Q!!$GFO=X2S&gt;7VF&lt;H1A&lt;X6U!!!%!!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!%Z!=!!?!!!W)%VF98.V=G6N:7ZU4'FO;S"*&lt;H.U=H6N:7ZU,GRW&lt;'FC%UF*&lt;H.U=H6N:7ZU,GRW9WRB=X-!!!VJ&lt;H.U=H6N:7ZU)'FO!'%!]!!-!!-!"!!&amp;!!9!"Q!(!!=!"Q!)!!=!"Q!*!Q!!?!!!$1A!!!E!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!I!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
@@ -54,13 +54,13 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Create Sessions.vim" Type="VI" URL="../Create Sessions.vim">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*+!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!(%!Q`````R*Q;7YA&lt;X)A=G6M98EA&lt;G&amp;N:8-!!"J!1!!"`````Q!%$7.I97ZO:7QA&lt;'FT&gt;(-!$E"4#(.F=X.J&lt;WZT!!!71%!!!@````]!"ABT:8.T;7^O=Q!!;%"Q!"Y!!%9I476B=X6S:7VF&lt;H2-;7ZL)&amp;.F=X.J&lt;WYA47&amp;O97&gt;F&lt;76O&gt;#ZM&gt;GRJ9BN4:8.T;7^O)&amp;*F=W6S&gt;G&amp;U;7^O,GRW9WRB=X-!!"&gt;T:8.T;7^O)(*F=W6S&gt;G&amp;U;7^O)'^V&gt;!!%!!!!%E"4$(.F=X.J&lt;WYA&gt;(FQ:1!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!%Z!=!!?!!!W)%VF98.V=G6N:7ZU4'FO;S"*&lt;H.U=H6N:7ZU,GRW&lt;'FC%UF*&lt;H.U=H6N:7ZU,GRW9WRB=X-!!!VJ&lt;H.U=H6N:7ZU)'FO!'B!=!!?!!"'+%VF98.V=G6N:7ZU4'FO;S"4:8.T;7^O)%VB&lt;G&amp;H:7VF&lt;H1O&lt;(:M;7)&lt;5W6T=WFP&lt;C"3:8.F=H:B&gt;'FP&lt;CZM&gt;G.M98.T!!!7=W6T=WFP&lt;C"S:8.F=H:B&gt;'FP&lt;C"J&lt;A!!91$Q!!Q!!Q!&amp;!!=!#!!*!!E!#1!+!!M!#1!-!!U$!!"Y!!!.#!!!#1!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!%!!!!!I!!!!!!!!!%!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!$A!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*+!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!(%!Q`````R*Q;7YA&lt;X)A=G6M98EA&lt;G&amp;N:8-!!"J!1!!"`````Q!%$7.I97ZO:7QA&lt;'FT&gt;(-!$E"4#(.F=X.J&lt;WZT!!!71%!!!@````]!"ABT:8.T;7^O=Q!!;%"Q!"Y!!%9I476B=X6S:7VF&lt;H2-;7ZL)&amp;.F=X.J&lt;WYA47&amp;O97&gt;F&lt;76O&gt;#ZM&gt;GRJ9BN4:8.T;7^O)&amp;*F=W6S&gt;G&amp;U;7^O,GRW9WRB=X-!!"&gt;T:8.T;7^O)(*F=W6S&gt;G&amp;U;7^O)'^V&gt;!!%!!!!%E"4$(.F=X.J&lt;WYA&gt;(FQ:1!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!%Z!=!!?!!!W)%VF98.V=G6N:7ZU4'FO;S"*&lt;H.U=H6N:7ZU,GRW&lt;'FC%UF*&lt;H.U=H6N:7ZU,GRW9WRB=X-!!!VJ&lt;H.U=H6N:7ZU)'FO!'B!=!!?!!"'+%VF98.V=G6N:7ZU4'FO;S"4:8.T;7^O)%VB&lt;G&amp;H:7VF&lt;H1O&lt;(:M;7)&lt;5W6T=WFP&lt;C"3:8.F=H:B&gt;'FP&lt;CZM&gt;G.M98.T!!!7=W6T=WFP&lt;C"S:8.F=H:B&gt;'FP&lt;C"J&lt;A!!91$Q!!Q!!Q!&amp;!!=!#!!*!!E!#1!+!!M!#1!-!!U$!!"Y!!!.#!!!#1!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!%!!!!!I!!!!!!!!!%A!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!$A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">8396816</Property>
 	</Item>
 	<Item Name="Data.ctl" Type="VI" URL="../Data.ctl">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"H!!!!!1"@!0%!!!!!!!!!!SB.:7&amp;T&gt;8*F&lt;76O&gt;%RJ&lt;GMA5W6T=WFP&lt;C".97ZB:W6N:7ZU,GRW&lt;'FC'V.F=X.J&lt;WYA5G6T:8*W982J&lt;WYO&lt;(:D&lt;'&amp;T=QF$&lt;WZU=G^M)$%!#!!!!!%!!!!!!!!</Property>
