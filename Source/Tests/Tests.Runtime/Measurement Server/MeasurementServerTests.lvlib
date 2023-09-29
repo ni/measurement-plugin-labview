@@ -8,8 +8,19 @@
 
 </Property>
 	<Item Name="Get Connections" Type="Folder">
-		<Item Name="SinglePinMultiSiteReservation_CallGetConnectionFromPin_ReturnsError.vi" Type="VI" URL="../Get Connections/SinglePinMultiSiteReservation_CallGetConnectionFromPin_ReturnsError.vi"/>
-		<Item Name="SinglePinSingleSiteReservation_CallGetConnectionFromPin_ReturnsSingleConnection.vi" Type="VI" URL="../Get Connections/SinglePinSingleSiteReservation_CallGetConnectionFromPin_ReturnsSingleConnection.vi"/>
+		<Item Name="Test Cases" Type="Folder">
+			<Item Name="One Session One Pin One Instrument One Site.vi" Type="VI" URL="../Get Connections/Test Cases/One Session One Pin One Instrument One Site.vi"/>
+			<Item Name="One Session One Pin One Instrument Two Sites.vi" Type="VI" URL="../Get Connections/Test Cases/One Session One Pin One Instrument Two Sites.vi"/>
+			<Item Name="One Session Two Pins One Instrument One Site.vi" Type="VI" URL="../Get Connections/Test Cases/One Session Two Pins One Instrument One Site.vi"/>
+			<Item Name="Two Sessions Two Pins Two Instruments One Site.vi" Type="VI" URL="../Get Connections/Test Cases/Two Sessions Two Pins Two Instruments One Site.vi"/>
+		</Item>
+		<Item Name="OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForNonExistentPin_ReturnsError.vi" Type="VI" URL="../Get Connections/OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForNonExistentPin_ReturnsError.vi"/>
+		<Item Name="OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForNonExistentSite_ReturnsError.vi" Type="VI" URL="../Get Connections/OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForNonExistentSite_ReturnsError.vi"/>
+		<Item Name="OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForOnePinAllSites_ReturnsSingleConnection.vi" Type="VI" URL="../Get Connections/OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForOnePinAllSites_ReturnsSingleConnection.vi"/>
+		<Item Name="OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForOnePinOneSite_ReturnsSingleConnection.vi" Type="VI" URL="../Get Connections/OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForOnePinOneSite_ReturnsSingleConnection.vi"/>
+		<Item Name="OneSessOnePinOneInstrTwoSiteReservation_GetConnectionFromPinForOnePinAllSites_ReturnsError.vi" Type="VI" URL="../Get Connections/OneSessOnePinOneInstrTwoSiteReservation_GetConnectionFromPinForOnePinAllSites_ReturnsError.vi"/>
+		<Item Name="OneSessTwoPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForTwoPinsAllSites_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForTwoPinsAllSites_ReturnsTwoConnections.vi"/>
+		<Item Name="TwoPinsTwoSessTwoPinTwoInstrOneSiteReservation_CallGetConnectionFromPinForOnePinAllSites_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/TwoPinsTwoSessTwoPinTwoInstrOneSiteReservation_CallGetConnectionFromPinForOnePinAllSites_ReturnsOneConnection.vi"/>
 	</Item>
 	<Item Name="Helpers" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -17,10 +28,13 @@
 			<Item Name="Assert Attach Failed.vi" Type="VI" URL="../Helpers/IInstrument Assertion Helpers/Assert Attach Failed.vi"/>
 			<Item Name="Assert No Driver Error.vi" Type="VI" URL="../Helpers/IInstrument Assertion Helpers/Assert No Driver Error.vi"/>
 		</Item>
+		<Item Name="Assertion Helpers" Type="Folder">
+			<Item Name="Assert Equal.vim" Type="VI" URL="../Helpers/Assertion Helpers/Assert Equal.vim"/>
+			<Item Name="Assert Error Code.vi" Type="VI" URL="../Helpers/Assertion Helpers/Assert Error Code.vi"/>
+		</Item>
 		<Item Name="Check If Discovery Service is Running.vi" Type="VI" URL="../Helpers/Check If Discovery Service is Running.vi"/>
 		<Item Name="Get Enum Getters.vi" Type="VI" URL="../Helpers/Get Enum Getters.vi"/>
 		<Item Name="Kill Discovery Service.vi" Type="VI" URL="../Helpers/Kill Discovery Service.vi"/>
-		<Item Name="Assert Equal.vim" Type="VI" URL="../Helpers/Assertion Helpers/Assert Equal.vim"/>
 		<Item Name="Simple Channel Mapping to Channel Mapping Cluster.vi" Type="VI" URL="../Helpers/Simple Channel Mapping to Channel Mapping Cluster.vi"/>
 		<Item Name="Restart Discovery Service.vi" Type="VI" URL="../Helpers/Restart Discovery Service.vi"/>
 		<Item Name="Get Remote Connection Options.vi" Type="VI" URL="../Helpers/Get Remote Connection Options.vi"/>
@@ -32,7 +46,6 @@
 		<Item Name="RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi" Type="VI" URL="../niDCPower/RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi"/>
 		<Item Name="RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../niDCPower/RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
 	</Item>
-	<Item Name="Assert Error Code.vi" Type="VI" URL="../Helpers/Assertion Helpers/Assert Error Code.vi"/>
 	<Item Name="ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
 	<Item Name="ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
 	<Item Name="Create Connection Cluster.vi" Type="VI" URL="../Helpers/Create Connection Cluster.vi"/>
@@ -42,6 +55,5 @@
 	<Item Name="ServiceLocationPool_GetInvalidServiceTwice_DoesNotCacheInvalidData.vi" Type="VI" URL="../ServiceLocationPool_GetInvalidServiceTwice_DoesNotCacheInvalidData.vi"/>
 	<Item Name="ServiceLocationPool_GetLocation_ReturnsValidLocation.vi" Type="VI" URL="../ServiceLocationPool_GetLocation_ReturnsValidLocation.vi"/>
 	<Item Name="ServiceLocationPool_GetLocationTwice_ReturnsCachedLocation.vi" Type="VI" URL="../ServiceLocationPool_GetLocationTwice_ReturnsCachedLocation.vi"/>
-	<Item Name="TwoPinsOneSiteReservation_CallGetConnectionsFromPins_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/TwoPinsOneSiteReservation_CallGetConnectionsFromPins_ReturnsTwoConnections.vi"/>
-	<Item Name="TwoPinsTwoInstrumentTypesOneSiteReservation_CallGetConnectionFromPin_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/TwoPinsTwoInstrumentTypesOneSiteReservation_CallGetConnectionFromPin_ReturnsOneConnection.vi"/>
+	<Item Name="Session Reservation Json to Data Cluster.vi" Type="VI" URL="../Helpers/Session Reservation Json to Data Cluster.vi"/>
 </Library>
