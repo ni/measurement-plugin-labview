@@ -33,6 +33,12 @@
 		<Item Name="RemoteDigitalSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../niDigital/RemoteDigitalSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
 		<Item Name="RemoteDigitalSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niDigital/RemoteDigitalSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
 	</Item>
+	<Item Name="niDmm" Type="Folder">
+		<Item Name="DmmInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi" Type="VI" URL="../niDMM/DmmInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi"/>
+		<Item Name="RemoteDmmSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi" Type="VI" URL="../niDMM/RemoteDmmSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi"/>
+		<Item Name="RemoteDmmSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../niDMM/RemoteDmmSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
+		<Item Name="RemoteDmmSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niDMM/RemoteDmmSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
+	</Item>
 	<Item Name="niFGEN" Type="Folder">
 		<Item Name="FgenInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi" Type="VI" URL="../niFGEN/FgenInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi"/>
 		<Item Name="RemoteFgenSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi" Type="VI" URL="../niFGEN/RemoteFgenSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi"/>
