@@ -8,11 +8,14 @@
 
 </Property>
 	<Item Name="Get Connections" Type="Folder">
-		<Item Name="Test Cases" Type="Folder">
-			<Item Name="One Session One Pin One Instrument One Site.vi" Type="VI" URL="../Get Connections/Test Cases/One Session One Pin One Instrument One Site.vi"/>
-			<Item Name="One Session One Pin One Instrument Two Sites.vi" Type="VI" URL="../Get Connections/Test Cases/One Session One Pin One Instrument Two Sites.vi"/>
-			<Item Name="One Session Two Pins One Instrument One Site.vi" Type="VI" URL="../Get Connections/Test Cases/One Session Two Pins One Instrument One Site.vi"/>
-			<Item Name="Two Sessions Two Pins Two Instruments One Site.vi" Type="VI" URL="../Get Connections/Test Cases/Two Sessions Two Pins Two Instruments One Site.vi"/>
+		<Item Name="1 Pin 1 Connection" Type="Folder"/>
+		<Item Name="1 Pin M Connections" Type="Folder"/>
+		<Item Name="N Pins M Connections" Type="Folder"/>
+		<Item Name="Test Inputs" Type="Folder">
+			<Item Name="One Session One Pin One Instrument One Site.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session One Pin One Instrument One Site.vi"/>
+			<Item Name="One Session One Pin One Instrument Two Sites.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session One Pin One Instrument Two Sites.vi"/>
+			<Item Name="One Session Two Pins One Instrument One Site.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument One Site.vi"/>
+			<Item Name="Two Sessions Two Pins Two Instruments One Site.vi" Type="VI" URL="../Get Connections/Test Inputs/Two Sessions Two Pins Two Instruments One Site.vi"/>
 		</Item>
 		<Item Name="OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForNonExistentPin_ReturnsError.vi" Type="VI" URL="../Get Connections/OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForNonExistentPin_ReturnsError.vi"/>
 		<Item Name="OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForNonExistentSite_ReturnsError.vi" Type="VI" URL="../Get Connections/OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForNonExistentSite_ReturnsError.vi"/>
