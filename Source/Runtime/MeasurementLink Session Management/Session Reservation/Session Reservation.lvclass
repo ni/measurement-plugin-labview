@@ -43,6 +43,15 @@
 			<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
 		</Item>
 	</Item>
+	<Item Name="Create Session.vim" Type="VI" URL="../Create Session.vim">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+!!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!&amp;E!Q`````QRD;'&amp;O&lt;G6M)'RJ=X1!!"Y!.`````]!!S!!A!!!!!!"!!1!!!!"!!!!!!!!!$*!=!!0#7ZJ2%.1&lt;X&gt;F=A!"!!5!!#!!A!!!!!!"!!1!!!!"!!!!!!!!"X.F=X.J&lt;WY!;%"Q!"Y!!%9I476B=X6S:7VF&lt;H2-;7ZL)&amp;.F=X.J&lt;WYA47&amp;O97&gt;F&lt;76O&gt;#ZM&gt;GRJ9BN4:8.T;7^O)&amp;*F=W6S&gt;G&amp;U;7^O,GRW9WRB=X-!!"&gt;T:8.T;7^O)(*F=W6S&gt;G&amp;U;7^O)'^V&gt;!!%!!!!1%"Q!!]*&lt;GF%1V"P&gt;W6S!!%!"1!!)!#!!!!!!!%!"!!!!!%!!!!!!!!5;7ZT&gt;(*V&lt;76O&gt;#"I97ZE&lt;'5A;7Y!!":!5!!$!!!!!1!##'6S=G^S)'FO!!"+1(!!(A!!."^.:7&amp;T&gt;8*F&lt;76O&gt;%RJ&lt;GMA&lt;GF%1V"P&gt;W6S,GRW&lt;'FC%EFO=X2S&gt;7VF&lt;H1O&lt;(:D&lt;'&amp;T=Q!!#GFO=X2S&gt;7VF&lt;H1!!'B!=!!?!!"'+%VF98.V=G6N:7ZU4'FO;S"4:8.T;7^O)%VB&lt;G&amp;H:7VF&lt;H1O&lt;(:M;7)&lt;5W6T=WFP&lt;C"3:8.F=H:B&gt;'FP&lt;CZM&gt;G.M98.T!!!7=W6T=WFP&lt;C"S:8.F=H:B&gt;'FP&lt;C"J&lt;A!!91$Q!!Q!!Q!%!!9!"Q!)!!A!#!!*!!I!#!!,!!Q$!!"Y!!!.#!!!#1!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!%!!!!!I!!!!!!!!!%A!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!$1!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">160</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">8400912</Property>
+	</Item>
 	<Item Name="Create Sessions Impl.vi" Type="VI" URL="../Create Sessions Impl.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)W!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!(%!Q`````R*Q;7YA&lt;X)A=G6M98EA&lt;G&amp;N:8-!!"J!1!!"`````Q!%$7.I97ZO:7QA&lt;'FT&gt;(-!$E"4#(.F=X.J&lt;WZT!!!71%!!!@````]!"ABT:8.T;7^O=Q!!;%"Q!"Y!!%9I476B=X6S:7VF&lt;H2-;7ZL)&amp;.F=X.J&lt;WYA47&amp;O97&gt;F&lt;76O&gt;#ZM&gt;GRJ9BN4:8.T;7^O)&amp;*F=W6S&gt;G&amp;U;7^O,GRW9WRB=X-!!"&gt;T:8.T;7^O)(*F=W6S&gt;G&amp;U;7^O)'^V&gt;!!%!!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!%R!=!!?!!!W)%VF98.V=G6N:7ZU4'FO;S"*&lt;H.U=H6N:7ZU,GRW&lt;'FC%UF*&lt;H.U=H6N:7ZU,GRW9WRB=X-!!!JJ&lt;H.U=H6N:7ZU!!"I1(!!(A!!2CB.:7&amp;T&gt;8*F&lt;76O&gt;%RJ&lt;GMA5W6T=WFP&lt;C".97ZB:W6N:7ZU,GRW&lt;'FC'V.F=X.J&lt;WYA5G6T:8*W982J&lt;WYO&lt;(:D&lt;'&amp;T=Q!!&amp;H.F=X.J&lt;WYA=G6T:8*W982J&lt;WYA;7Y!!'%!]!!-!!-!"1!(!!A!#1!*!!E!#1!+!!E!#Q!-!Q!!?!!!$1A!!!E!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!")!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!U!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
