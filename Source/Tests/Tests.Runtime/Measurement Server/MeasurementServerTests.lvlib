@@ -19,6 +19,8 @@
 			<Item Name="OneSessOnePinOneInstrTwoSitesReservation_CallGetConnectionsFromPinForOnePinAllSites_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/OneSessOnePinOneInstrTwoSitesReservation_CallGetConnectionsFromPinForOnePinAllSites_ReturnsTwoConnections.vi"/>
 		</Item>
 		<Item Name="N Pins M Connections" Type="Folder">
+			<Item Name="FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsThreeConnections.vi"/>
+			<Item Name="FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsOneSite_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsOneSite_ReturnsTwoConnections.vi"/>
 			<Item Name="FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentInstr_ReturnsError.vi" Type="VI" URL="../Get Connections/FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentInstr_ReturnsError.vi"/>
 			<Item Name="FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentPin_ReturnsError.vi" Type="VI" URL="../Get Connections/FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentPin_ReturnsError.vi"/>
 			<Item Name="FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentSite_ReturnsError.vi" Type="VI" URL="../Get Connections/FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentSite_ReturnsError.vi"/>
@@ -33,7 +35,6 @@
 			<Item Name="One Session One Pin One Instrument One Site.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session One Pin One Instrument One Site.vi"/>
 			<Item Name="One Session One Pin One Instrument Two Sites.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session One Pin One Instrument Two Sites.vi"/>
 			<Item Name="One Session Two Pins One Instrument One Site.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument One Site.vi"/>
-			<Item Name="Two Sessions Two Pins One Instrument Two Sites.vi" Type="VI" URL="../Get Connections/Test Inputs/Two Sessions Two Pins One Instrument Two Sites.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Helpers" Type="Folder">
@@ -65,7 +66,6 @@
 	<Item Name="ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
 	<Item Name="Create Private Data for Get Connections Tests.vi" Type="VI" URL="../Helpers/Create Private Data for Get Connections Tests.vi"/>
 	<Item Name="DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi" Type="VI" URL="../DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi"/>
-	<Item Name="FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsThreeConnections.vi"/>
 	<Item Name="ServiceLocationPool_DiscoveryServiceUnavailable_GetUncachedLocation_ReturnsError.vi" Type="VI" URL="../ServiceLocationPool_DiscoveryServiceUnavailable_GetUncachedLocation_ReturnsError.vi"/>
 	<Item Name="ServiceLocationPool_GetInvalidServiceTwice_DoesNotCacheInvalidData.vi" Type="VI" URL="../ServiceLocationPool_GetInvalidServiceTwice_DoesNotCacheInvalidData.vi"/>
 	<Item Name="ServiceLocationPool_GetLocation_ReturnsValidLocation.vi" Type="VI" URL="../ServiceLocationPool_GetLocation_ReturnsValidLocation.vi"/>
