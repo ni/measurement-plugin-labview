@@ -9,32 +9,32 @@
 </Property>
 	<Item Name="Get Connections" Type="Folder">
 		<Item Name="1 Pin 1 Connection" Type="Folder">
-			<Item Name="OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForOnePinAllSites_ReturnsSingleConnection.vi" Type="VI" URL="../Get Connections/OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForOnePinAllSites_ReturnsSingleConnection.vi"/>
-			<Item Name="OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForOnePinOneSite_ReturnsSingleConnection.vi" Type="VI" URL="../Get Connections/OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForOnePinOneSite_ReturnsSingleConnection.vi"/>
-			<Item Name="OneSessOnePinOneInstrTwoSiteReservation_GetConnectionFromPinWithMultipleConnections_ReturnsError.vi" Type="VI" URL="../Get Connections/OneSessOnePinOneInstrTwoSiteReservation_GetConnectionFromPinWithMultipleConnections_ReturnsError.vi"/>
-			<Item Name="TwoSessTwoPinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForOnePinAllSites_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/TwoSessTwoPinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForOnePinAllSites_ReturnsOneConnection.vi"/>
-			<Item Name="TwoSessTwoPinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForOnePinOneSite_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/TwoSessTwoPinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForOnePinOneSite_ReturnsOneConnection.vi"/>
+			<Item Name="ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForAllDcPowerPinsOneSite_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForAllDcPowerPinsOneSite_ReturnsOneConnection.vi"/>
+			<Item Name="ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForOneDcPowerPinAllSites_ReturnsMulitpleConnectionsError.vi" Type="VI" URL="../Get Connections/ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForOneDcPowerPinAllSites_ReturnsMulitpleConnectionsError.vi"/>
+			<Item Name="ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForOneDcPowerPinOneSite_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForOneDcPowerPinOneSite_ReturnsOneConnection.vi"/>
 		</Item>
 		<Item Name="1 Pin M Connections" Type="Folder">
-			<Item Name="OneSessOnePinOneInstrTwoSitesReservation_CallGetConnectionsFromPinForOnePinAllSites_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/OneSessOnePinOneInstrTwoSitesReservation_CallGetConnectionsFromPinForOnePinAllSites_ReturnsTwoConnections.vi"/>
+			<Item Name="ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinForAllDcPowerPinsAllSites_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinForAllDcPowerPinsAllSites_ReturnsThreeConnections.vi"/>
+			<Item Name="ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinForOneDcPowerPinAllSites_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinForOneDcPowerPinAllSites_ReturnsTwoConnections.vi"/>
+			<Item Name="ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinForOneDcPowerPinOneSite_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinForOneDcPowerPinOneSite_ReturnsOneConnection.vi"/>
 		</Item>
 		<Item Name="N Pins M Connections" Type="Folder">
-			<Item Name="FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsThreeConnections.vi"/>
-			<Item Name="FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsOneSite_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsOneSite_ReturnsTwoConnections.vi"/>
-			<Item Name="FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentInstr_ReturnsError.vi" Type="VI" URL="../Get Connections/FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentInstr_ReturnsError.vi"/>
-			<Item Name="FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentPin_ReturnsError.vi" Type="VI" URL="../Get Connections/FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentPin_ReturnsError.vi"/>
-			<Item Name="FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentSite_ReturnsError.vi" Type="VI" URL="../Get Connections/FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentSite_ReturnsError.vi"/>
-			<Item Name="FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneDcPowerPinAllSites_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneDcPowerPinAllSites_ReturnsTwoConnections.vi"/>
-			<Item Name="FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneDcPowerPinOneSite_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneDcPowerPinOneSite_ReturnsOneConnection.vi"/>
-			<Item Name="FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneFgenPinAllSites_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneFgenPinAllSites_ReturnsOneConnection.vi"/>
-			<Item Name="FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForTwoDcPowerPinsAllSites_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/FourSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForTwoDcPowerPinsAllSites_ReturnsThreeConnections.vi"/>
-			<Item Name="OneSessTwoPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForTwoPinsAllSites_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForTwoPinsAllSites_ReturnsTwoConnections.vi"/>
+			<Item Name="ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsThreeConnections.vi"/>
+			<Item Name="ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsOneSite_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsOneSite_ReturnsTwoConnections.vi"/>
+			<Item Name="ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentInstr_ReturnsError.vi" Type="VI" URL="../Get Connections/ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentInstr_ReturnsError.vi"/>
+			<Item Name="ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentPin_ReturnsError.vi" Type="VI" URL="../Get Connections/ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentPin_ReturnsError.vi"/>
+			<Item Name="ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentSite_ReturnsError.vi" Type="VI" URL="../Get Connections/ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentSite_ReturnsError.vi"/>
+			<Item Name="ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneDcPowerPinAllSites_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneDcPowerPinAllSites_ReturnsTwoConnections.vi"/>
+			<Item Name="ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneDcPowerPinOneSite_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneDcPowerPinOneSite_ReturnsOneConnection.vi"/>
+			<Item Name="ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneFgenPinAllSites_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneFgenPinAllSites_ReturnsOneConnection.vi"/>
+			<Item Name="ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForTwoDcPowerPinsAllSites_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForTwoDcPowerPinsAllSites_ReturnsThreeConnections.vi"/>
 		</Item>
+		<Item Name="niDCPower" Type="Folder"/>
 		<Item Name="Test Inputs" Type="Folder">
-			<Item Name="Four Sessions Three Pins Two Instruments Two Sites.vi" Type="VI" URL="../Get Connections/Test Inputs/Four Sessions Three Pins Two Instruments Two Sites.vi"/>
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="One Session One Pin One Instrument One Site.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session One Pin One Instrument One Site.vi"/>
-			<Item Name="One Session One Pin One Instrument Two Sites.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session One Pin One Instrument Two Sites.vi"/>
-			<Item Name="One Session Two Pins One Instrument One Site.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument One Site.vi"/>
+			<Item Name="Three Sessions Three Pins Two Instruments Two Sites.vi" Type="VI" URL="../Get Connections/Test Inputs/Three Sessions Three Pins Two Instruments Two Sites.vi"/>
+			<Item Name="One Session Two Pins One Instrument One Site - DCPower.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument One Site - DCPower.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Helpers" Type="Folder">
@@ -66,6 +66,8 @@
 	<Item Name="ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
 	<Item Name="Create Private Data for Get Connections Tests.vi" Type="VI" URL="../Helpers/Create Private Data for Get Connections Tests.vi"/>
 	<Item Name="DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi" Type="VI" URL="../DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi"/>
+	<Item Name="OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForOneDcPowerPinAllSites_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForOneDcPowerPinAllSites_ReturnsOneConnection.vi"/>
+	<Item Name="OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
 	<Item Name="ServiceLocationPool_DiscoveryServiceUnavailable_GetUncachedLocation_ReturnsError.vi" Type="VI" URL="../ServiceLocationPool_DiscoveryServiceUnavailable_GetUncachedLocation_ReturnsError.vi"/>
 	<Item Name="ServiceLocationPool_GetInvalidServiceTwice_DoesNotCacheInvalidData.vi" Type="VI" URL="../ServiceLocationPool_GetInvalidServiceTwice_DoesNotCacheInvalidData.vi"/>
 	<Item Name="ServiceLocationPool_GetLocation_ReturnsValidLocation.vi" Type="VI" URL="../ServiceLocationPool_GetLocation_ReturnsValidLocation.vi"/>
