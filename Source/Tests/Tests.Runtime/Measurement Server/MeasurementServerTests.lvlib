@@ -49,7 +49,7 @@
 		</Item>
 		<Item Name="Check If Discovery Service is Running.vi" Type="VI" URL="../Helpers/Check If Discovery Service is Running.vi"/>
 		<Item Name="Get Enum Getters.vi" Type="VI" URL="../Helpers/Get Enum Getters.vi"/>
-		<Item Name="Create Connection Cluster.vi" Type="VI" URL="../Helpers/Create Connection Cluster.vi"/>
+		<Item Name="Create Connection Cluster.vim" Type="VI" URL="../Helpers/Create Connection Cluster.vim"/>
 		<Item Name="Kill Discovery Service.vi" Type="VI" URL="../Helpers/Kill Discovery Service.vi"/>
 		<Item Name="Simple Channel Mapping to Channel Mapping Cluster.vi" Type="VI" URL="../Helpers/Simple Channel Mapping to Channel Mapping Cluster.vi"/>
 		<Item Name="Restart Discovery Service.vi" Type="VI" URL="../Helpers/Restart Discovery Service.vi"/>
