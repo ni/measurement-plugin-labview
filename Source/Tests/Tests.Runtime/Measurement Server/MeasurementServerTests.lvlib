@@ -9,7 +9,7 @@
 </Property>
 	<Item Name="Get Connections" Type="Folder">
 		<Item Name="1 Pin 1 Connection" Type="Folder">
-			<Item Name="OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForOneDcPowerPinsAllSites_ReturnsOneConnection.vi" Type="VI" URL="../../../../../../../Users/pbirkhol/OneDrive - NI/Documents/OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForOneDcPowerPinsAllSites_ReturnsOneConnection.vi"/>
+			<Item Name="OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForOneDcPowerPinsAllSites_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForOneDcPowerPinsAllSites_ReturnsOneConnection.vi"/>
 			<Item Name="ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForAllDcPowerPinsOneSite_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForAllDcPowerPinsOneSite_ReturnsOneConnection.vi"/>
 			<Item Name="ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForOneDcPowerPinAllSites_ReturnsMulitpleConnectionsError.vi" Type="VI" URL="../Get Connections/ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForOneDcPowerPinAllSites_ReturnsMulitpleConnectionsError.vi"/>
 			<Item Name="ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForOneDcPowerPinOneSite_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForOneDcPowerPinOneSite_ReturnsOneConnection.vi"/>
