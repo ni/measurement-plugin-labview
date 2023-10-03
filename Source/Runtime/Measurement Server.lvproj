@@ -130,6 +130,7 @@
 			<Item Name="niDigital_64.dll" Type="Document" URL="niDigital_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Check for Single Session.vi" Type="VI" URL="../MeasurementLink Session Management/Session Reservation/Helpers/Check for Single Session.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
