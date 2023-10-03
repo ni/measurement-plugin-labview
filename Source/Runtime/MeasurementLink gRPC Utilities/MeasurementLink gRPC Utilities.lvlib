@@ -10,6 +10,7 @@
 	<Item Name="Friends List" Type="Friends List">
 		<Item Name="MeasurementServerTests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Runtime/Measurement Server/MeasurementServerTests.lvlib"/>
 		<Item Name="MeasurementLink Measurement Server.lvlib:IMeasurementService.lvclass" Type="Friended Library" URL="../../MeasurementLink Measurement Server/Classes/IMeasurementService/IMeasurementService.lvclass"/>
+		<Item Name="MeasurementLink Session Management.lvlib:Session Reservation.lvclass" Type="Friended Library" URL="../../MeasurementLink Session Management/Session Reservation/Session Reservation.lvclass"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
