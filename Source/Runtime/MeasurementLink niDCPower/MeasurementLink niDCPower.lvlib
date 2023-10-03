@@ -12,7 +12,7 @@
 	<Item Name="Create Sessions - 1Sess.vi" Type="VI" URL="../Create Sessions - 1Sess.vi"/>
 	<Item Name="Create Sessions - NSess.vi" Type="VI" URL="../Create Sessions - NSess.vi"/>
 	<Item Name="Create Sessions.vi" Type="VI" URL="../Create Sessions.vi"/>
-	<Item Name="niDCPower Connection.ctl" Type="VI" URL="../niDCPower Connection.ctl"/>
+	<Item Name="Connection with Session.ctl" Type="VI" URL="../Connection with Session.ctl"/>
 	<Item Name="niDCPower Get Connections - 1Pin1Connection.vi" Type="VI" URL="../niDCPower Get Connections - 1Pin1Connection.vi"/>
 	<Item Name="niDCPower Get Connections - 1PinMConnection.vi" Type="VI" URL="../niDCPower Get Connections - 1PinMConnection.vi"/>
 	<Item Name="niDCPower Get Connections - NPinMConnection.vi" Type="VI" URL="../niDCPower Get Connections - NPinMConnection.vi"/>
