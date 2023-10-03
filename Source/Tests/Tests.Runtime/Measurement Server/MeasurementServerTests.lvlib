@@ -101,4 +101,5 @@
 	<Item Name="ServiceLocationPool_GetInvalidServiceTwice_DoesNotCacheInvalidData.vi" Type="VI" URL="../ServiceLocationPool_GetInvalidServiceTwice_DoesNotCacheInvalidData.vi"/>
 	<Item Name="ServiceLocationPool_GetLocation_ReturnsValidLocation.vi" Type="VI" URL="../ServiceLocationPool_GetLocation_ReturnsValidLocation.vi"/>
 	<Item Name="ServiceLocationPool_GetLocationTwice_ReturnsCachedLocation.vi" Type="VI" URL="../ServiceLocationPool_GetLocationTwice_ReturnsCachedLocation.vi"/>
+	<Item Name="ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForPinNameWithWrongCase_ReturnsError.vi" Type="VI" URL="../Get Connections/ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForPinNameWithWrongCase_ReturnsError.vi"/>
 </Library>
