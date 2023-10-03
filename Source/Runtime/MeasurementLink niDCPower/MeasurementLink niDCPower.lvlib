@@ -13,8 +13,8 @@
 	<Item Name="Create Sessions - NSess.vi" Type="VI" URL="../Create Sessions - NSess.vi"/>
 	<Item Name="Create Sessions.vi" Type="VI" URL="../Create Sessions.vi"/>
 	<Item Name="Connection with Session.ctl" Type="VI" URL="../Connection with Session.ctl"/>
-	<Item Name="niDCPower Get Connections - 1Pin1Connection.vi" Type="VI" URL="../niDCPower Get Connections - 1Pin1Connection.vi"/>
-	<Item Name="niDCPower Get Connections - 1PinMConnection.vi" Type="VI" URL="../niDCPower Get Connections - 1PinMConnection.vi"/>
-	<Item Name="niDCPower Get Connections - NPinMConnection.vi" Type="VI" URL="../niDCPower Get Connections - NPinMConnection.vi"/>
-	<Item Name="niDCPower Get Connections.vi" Type="VI" URL="../niDCPower Get Connections.vi"/>
+	<Item Name="Get Connections - 1Pin 1Conn.vi" Type="VI" URL="../Get Connections - 1Pin 1Conn.vi"/>
+	<Item Name="Get Connections - 1Pin MConn.vi" Type="VI" URL="../Get Connections - 1Pin MConn.vi"/>
+	<Item Name="Get Connections - NPin MConn.vi" Type="VI" URL="../Get Connections - NPin MConn.vi"/>
+	<Item Name="Get Connections.vi" Type="VI" URL="../Get Connections.vi"/>
 </Library>
