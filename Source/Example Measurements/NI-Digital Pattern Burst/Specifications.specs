@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Specifications xmlns:f="http://www.ni.com/schemas/Semiconductor/Formula.xsd" schemaVersion="1.0" xmlns="http://www.ni.com/schemas/Semiconductor/Specifications.xsd">
+  <Section name="Timing">
+    <f:Formula symbol="Period">
+      <f:Definition>1 µs</f:Definition>
+    </f:Formula>
+  </Section>
+  <Section name="Levels">
+    <f:Formula symbol="High">
+      <f:Definition>5 V</f:Definition>
+    </f:Formula>
+    <f:Formula symbol="Low">
+      <f:Definition>-1 V</f:Definition>
+    </f:Formula>
+  </Section>
+</Specifications>

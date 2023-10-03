@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PinLevelsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" schemaVersion="1.0" xmlns="http://www.ni.com/Semiconductor/PinLevels">
+  <PinLevelsSheet>
+    <DigitalPinLevelSets>
+      <DigitalPinLevelSet pin="AllPins">
+        <Vil>Levels.Low</Vil>
+        <Vih>Levels.High</Vih>
+        <Vol>Levels.Low + ((Levels.High - Levels.Low) * 0.4)</Vol>
+        <Voh>Levels.High - ((Levels.High - Levels.Low) * 0.4)</Voh>
+        <TerminationMode>HighZ</TerminationMode>
+      </DigitalPinLevelSet>
+    </DigitalPinLevelSets>
+  </PinLevelsSheet>
+</PinLevelsFile>
