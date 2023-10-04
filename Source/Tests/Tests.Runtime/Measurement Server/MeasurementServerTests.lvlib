@@ -90,14 +90,14 @@
 		<Item Name="RemoteFgenSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niFGEN/RemoteFgenSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
 	</Item>
 	<Item Name="niScope" Type="Folder">
-		<Item Name="CreateMultipleScopeMultiplePinSingleSiteSessionReservation.vi" Type="VI" URL="../niScope/CreateMultipleScopeMultiplePinSingleSiteSessionReservation.vi"/>
-		<Item Name="CreateSingleScopeSinglePinSingleSiteSessionReservation.vi" Type="VI" URL="../niScope/CreateSingleScopeSinglePinSingleSiteSessionReservation.vi"/>
+		<Item Name="niScope - 1 Session Unregistered.vi" Type="VI" URL="../niScope/Test Inputs/niScope - 1 Session Unregistered.vi"/>
+		<Item Name="niScope - 2 Sessions Unregistered.vi" Type="VI" URL="../niScope/Test Inputs/niScope - 2 Sessions Unregistered.vi"/>
 		<Item Name="RemoteScopeSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi" Type="VI" URL="../niScope/RemoteScopeSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi"/>
 		<Item Name="RemoteScopeSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../niScope/RemoteScopeSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
 		<Item Name="RemoteScopeSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niScope/RemoteScopeSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
-		<Item Name="ScopeInstrument_CallCreateSession_SessionCreated.vi" Type="VI" URL="../niScope/ScopeInstrument_CallCreateSession_SessionCreated.vi"/>
+		<Item Name="ScopeInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../niScope/ScopeInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
 		<Item Name="ScopeInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi" Type="VI" URL="../niScope/ScopeInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi"/>
-		<Item Name="ScopeInstruments_CallCreateNSessions_SessionsCreated.vi" Type="VI" URL="../niScope/ScopeInstruments_CallCreateNSessions_SessionsCreated.vi"/>
+		<Item Name="ScopeInstruments_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../niScope/ScopeInstruments_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
 	</Item>
 	<Item Name="ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
 	<Item Name="ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
