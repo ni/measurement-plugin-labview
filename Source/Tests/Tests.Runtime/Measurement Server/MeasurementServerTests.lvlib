@@ -48,6 +48,7 @@
 		<Item Name="IInstrument Assertion Helpers" Type="Folder">
 			<Item Name="Assert Attach Failed.vi" Type="VI" URL="../Helpers/IInstrument Assertion Helpers/Assert Attach Failed.vi"/>
 			<Item Name="Assert No Driver Error.vi" Type="VI" URL="../Helpers/IInstrument Assertion Helpers/Assert No Driver Error.vi"/>
+			<Item Name="Assert Number of Sessions.vim" Type="VI" URL="../Helpers/Assertion Helpers/Assert Number of Sessions.vim"/>
 		</Item>
 		<Item Name="Assertion Helpers" Type="Folder">
 			<Item Name="Assert Equal.vim" Type="VI" URL="../Helpers/Assertion Helpers/Assert Equal.vim"/>
@@ -65,13 +66,15 @@
 	<Item Name="niDCPower" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Test Inputs" Type="Folder">
-			<Item Name="niDCPower - One Session Unregistered.vi" Type="VI" URL="../niDCPower/Test Inputs/niDCPower - One Session Unregistered.vi"/>
+			<Item Name="niDCPower - 1 Session Unregistered.vi" Type="VI" URL="../niDCPower/Test Inputs/niDCPower - 1 Session Unregistered.vi"/>
+			<Item Name="niDCPower - 3 Sessions Unregistered.vi" Type="VI" URL="../niDCPower/Test Inputs/niDCPower - 3 Sessions Unregistered.vi"/>
 		</Item>
 		<Item Name="DCPowerInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi" Type="VI" URL="../niDCPower/DCPowerInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi"/>
 		<Item Name="RemoteDCPowerSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niDCPower/RemoteDCPowerSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
 		<Item Name="RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi" Type="VI" URL="../niDCPower/RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi"/>
 		<Item Name="RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../niDCPower/RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
 		<Item Name="DCPowerInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../niDCPower/DCPowerInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
+		<Item Name="DCPowerInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../niDCPower/DCPowerInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
 	</Item>
 	<Item Name="niDigital" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
