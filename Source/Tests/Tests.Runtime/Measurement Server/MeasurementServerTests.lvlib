@@ -52,6 +52,7 @@
 		<Item Name="Assertion Helpers" Type="Folder">
 			<Item Name="Assert Equal.vim" Type="VI" URL="../Helpers/Assertion Helpers/Assert Equal.vim"/>
 			<Item Name="Assert Error Code.vi" Type="VI" URL="../Helpers/Assertion Helpers/Assert Error Code.vi"/>
+			<Item Name="Assert Number of Sessions.vim" Type="VI" URL="../Helpers/Assertion Helpers/Assert Number of Sessions.vim"/>
 		</Item>
 		<Item Name="Check If Discovery Service is Running.vi" Type="VI" URL="../Helpers/Check If Discovery Service is Running.vi"/>
 		<Item Name="Get Enum Getters.vi" Type="VI" URL="../Helpers/Get Enum Getters.vi"/>
@@ -89,10 +90,14 @@
 		<Item Name="RemoteFgenSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niFGEN/RemoteFgenSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
 	</Item>
 	<Item Name="niScope" Type="Folder">
+		<Item Name="CreateMultipleScopeMultiplePinSingleSiteSessionReservation.vi" Type="VI" URL="../niScope/CreateMultipleScopeMultiplePinSingleSiteSessionReservation.vi"/>
+		<Item Name="CreateSingleScopeSinglePinSingleSiteSessionReservation.vi" Type="VI" URL="../niScope/CreateSingleScopeSinglePinSingleSiteSessionReservation.vi"/>
 		<Item Name="RemoteScopeSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi" Type="VI" URL="../niScope/RemoteScopeSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi"/>
 		<Item Name="RemoteScopeSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../niScope/RemoteScopeSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
 		<Item Name="RemoteScopeSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niScope/RemoteScopeSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
+		<Item Name="ScopeInstrument_CallCreateSession_SessionCreated.vi" Type="VI" URL="../niScope/ScopeInstrument_CallCreateSession_SessionCreated.vi"/>
 		<Item Name="ScopeInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi" Type="VI" URL="../niScope/ScopeInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi"/>
+		<Item Name="ScopeInstruments_CallCreateNSessions_SessionsCreated.vi" Type="VI" URL="../niScope/ScopeInstruments_CallCreateNSessions_SessionsCreated.vi"/>
 	</Item>
 	<Item Name="ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
 	<Item Name="ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
