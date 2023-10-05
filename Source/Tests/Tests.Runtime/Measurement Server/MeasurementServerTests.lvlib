@@ -14,7 +14,7 @@
 			<Item Name="niDCPower - 3 Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDCPower - 3 Sessions Unregistered.vi"/>
 		</Item>
 		<Item Name="niDCPower" Type="Folder">
-			<Item Name="DCPowerInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../niDCPower/DCPowerInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
+			<Item Name="DCPowerInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/DCPowerInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
 			<Item Name="DCPowerInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../Create Sessions/DCPowerInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
 		</Item>
 	</Item>
