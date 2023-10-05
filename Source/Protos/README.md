@@ -1,6 +1,7 @@
 # NI grpc-device Common Protos
 
 Test
+Test2
 
 This is a subset of the NI grpc-device repository proto files. It is checked into this
 Git repo so that we can reuse common types in our own `.proto` files.
