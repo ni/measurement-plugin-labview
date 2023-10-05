@@ -32,6 +32,7 @@
 	<Item Name="Create Sessions" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Test Inputs" Type="Folder">
+			<Item Name="Fake - 1 Session Registered.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 1 Session Registered.vi"/>
 			<Item Name="Fake - 1 Session Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 1 Session Unregistered.vi"/>
 			<Item Name="niDCPower - 1 Session Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDCPower - 1 Session Unregistered.vi"/>
 			<Item Name="niDCPower - 3 Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDCPower - 3 Sessions Unregistered.vi"/>
