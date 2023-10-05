@@ -36,11 +36,17 @@
 			<Item Name="OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
 			<Item Name="OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
 		</Item>
+		<Item Name="niScope" Type="Folder">
+			<Item Name="OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
+			<Item Name="OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
+			<Item Name="OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
+		</Item>
 		<Item Name="Test Inputs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="One Session One Pin One Instrument One Site.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session One Pin One Instrument One Site.vi"/>
 			<Item Name="Three Sessions Three Pins Two Instruments Two Sites.vi" Type="VI" URL="../Get Connections/Test Inputs/Three Sessions Three Pins Two Instruments Two Sites.vi"/>
 			<Item Name="One Session Two Pins One Instrument Two Sites - DCPower.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument Two Sites - DCPower.vi"/>
+			<Item Name="One Session Two Pins One Instrument Two Sites - Scope.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument Two Sites - Scope.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Helpers" Type="Folder">
