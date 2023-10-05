@@ -64,6 +64,7 @@
 			<Item Name="test_FgenInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/test_FgenInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
 			<Item Name="test_FgenInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../Create Sessions/test_FgenInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
 		</Item>
+		<Item Name="EmptyInstrumentTypeId_CallCreateSessions_ReturnsError.vi" Type="VI" URL="../Create Sessions/EmptyInstrumentTypeId_CallCreateSessions_ReturnsError.vi"/>
 	</Item>
 	<Item Name="Get Connections" Type="Folder">
 		<Item Name="1 Pin 1 Connection" Type="Folder">
