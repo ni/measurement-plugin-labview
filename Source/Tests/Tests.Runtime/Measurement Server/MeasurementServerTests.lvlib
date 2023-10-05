@@ -37,9 +37,9 @@
 			<Item Name="OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
 		</Item>
 		<Item Name="niDigital" Type="Folder">
-			<Item Name="OneSessTwoPinOneInstrOneSiteReservation_CallNiDigitalGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneInstrOneSiteReservation_CallNiDigitalGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
-			<Item Name="OneSessTwoPinOneInstrOneSiteReservation_CallNiDigitalGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneInstrOneSiteReservation_CallNiDigitalGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
-			<Item Name="OneSessTwoPinOneInstrOneSiteReservation_CallNiDigitalGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneInstrOneSiteReservation_CallNiDigitalGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
+			<Item Name="OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
+			<Item Name="OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
+			<Item Name="OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
 		</Item>
 		<Item Name="Test Inputs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
