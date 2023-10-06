@@ -57,6 +57,16 @@
 			<Item Name="test_DigitalInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/test_DigitalInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
 			<Item Name="test_DigitalInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../Create Sessions/test_DigitalInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
 		</Item>
+		<Item Name="Create Sessions VIMs" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="test_EmptyInstrumentTypeId_CallCreateSessions_ReturnsError.vi" Type="VI" URL="../Create Sessions/test_EmptyInstrumentTypeId_CallCreateSessions_ReturnsError.vi"/>
+			<Item Name="test_InstrumentTypeIdNotInReservation_CallCreateSessions_ReturnsErrorFor0Sessions.vi" Type="VI" URL="../Create Sessions/test_InstrumentTypeIdNotInReservation_CallCreateSessions_ReturnsErrorFor0Sessions.vi"/>
+			<Item Name="test_MixedInstrumentReservation_CallCreateSessions_OnlySpecifiedInstrumentSessionsCreated.vi" Type="VI" URL="../Create Sessions/test_MixedInstrumentReservation_CallCreateSessions_OnlySpecifiedInstrumentSessionsCreated.vi"/>
+			<Item Name="test_MultipleSessionsReserved_CallCreateSession_ReturnsErrorForTooManySessions.vi" Type="VI" URL="../Create Sessions/test_MultipleSessionsReserved_CallCreateSession_ReturnsErrorForTooManySessions.vi"/>
+			<Item Name="test_SessionAlreadyCreated_CallCreateSessions_ReturnsError.vi" Type="VI" URL="../Create Sessions/test_SessionAlreadyCreated_CallCreateSessions_ReturnsError.vi"/>
+			<Item Name="test_SessionInitializeErrors_CallCreateSessions_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi" Type="VI" URL="../Create Sessions/test_SessionInitializeErrors_CallCreateSessions_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi"/>
+			<Item Name="test_SomeSessionsRegistered_CallCreateSessions_InitializeCalledWithProperBehavior.vi" Type="VI" URL="../Create Sessions/test_SomeSessionsRegistered_CallCreateSessions_InitializeCalledWithProperBehavior.vi"/>
+		</Item>
 		<Item Name="niDCPower" Type="Folder">
 			<Item Name="test_DCPowerInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/test_DCPowerInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
 			<Item Name="test_DCPowerInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../Create Sessions/test_DCPowerInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
@@ -73,13 +83,6 @@
 			<Item Name="test_FgenInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/test_FgenInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
 			<Item Name="test_FgenInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../Create Sessions/test_FgenInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
 		</Item>
-		<Item Name="EmptyInstrumentTypeId_CallCreateSessions_ReturnsError.vi" Type="VI" URL="../Create Sessions/EmptyInstrumentTypeId_CallCreateSessions_ReturnsError.vi"/>
-		<Item Name="InstrumentTypeIdNotInReservation_CallCreateSessions_ReturnsErrorFor0Sessions.vi" Type="VI" URL="../Create Sessions/InstrumentTypeIdNotInReservation_CallCreateSessions_ReturnsErrorFor0Sessions.vi"/>
-		<Item Name="MixedInstrumentReservation_CallCreateSessions_OnlySpecifiedInstrumentSessionsCreated.vi" Type="VI" URL="../Create Sessions/MixedInstrumentReservation_CallCreateSessions_OnlySpecifiedInstrumentSessionsCreated.vi"/>
-		<Item Name="MultipleSessionsReserved_CallCreateSession_ReturnsErrorForTooManySessions.vi" Type="VI" URL="../Create Sessions/MultipleSessionsReserved_CallCreateSession_ReturnsErrorForTooManySessions.vi"/>
-		<Item Name="SessionAlreadyCreated_CallCreateSessions_ReturnsError.vi" Type="VI" URL="../Create Sessions/SessionAlreadyCreated_CallCreateSessions_ReturnsError.vi"/>
-		<Item Name="SomeSessionsRegistered_CallCreateSessions_InitializeCalledWithProperBehavior.vi" Type="VI" URL="../Create Sessions/SomeSessionsRegistered_CallCreateSessions_InitializeCalledWithProperBehavior.vi"/>
-		<Item Name="SessionInitializeErrors_CallCreateSessions_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi" Type="VI" URL="../Create Sessions/SessionInitializeErrors_CallCreateSessions_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi"/>
 	</Item>
 	<Item Name="Get Connections" Type="Folder">
 		<Item Name="1 Pin 1 Connection" Type="Folder">
