@@ -37,9 +37,9 @@
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Fake - 1 Session Created.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 1 Session Created.vi"/>
 			<Item Name="Fake - 1 Session Registered.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 1 Session Registered.vi"/>
+			<Item Name="Fake - 1 Session Unregistered 3 Sessions Registered Last Session Bad.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 1 Session Unregistered 3 Sessions Registered Last Session Bad.vi"/>
 			<Item Name="Fake - 1 Session Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 1 Session Unregistered.vi"/>
 			<Item Name="Fake - 2 Sessions Unregistered 1 Session Registered.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 2 Sessions Unregistered 1 Session Registered.vi"/>
-			<Item Name="Fake - 2 Sessions Unregistered 2 Sessions Registered Last Session Bad.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 2 Sessions Unregistered 2 Sessions Registered Last Session Bad.vi"/>
 			<Item Name="Fake - 3 Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 3 Sessions Unregistered.vi"/>
 			<Item Name="MixedInstruments - 2 Fake 1 DCPower Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/MixedInstruments - 2 Fake 1 DCPower Sessions Unregistered.vi"/>
 			<Item Name="niDCPower - 1 Session Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDCPower - 1 Session Unregistered.vi"/>
