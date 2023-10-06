@@ -33,10 +33,16 @@
 		<Item Name="Test Inputs" Type="Folder">
 			<Item Name="niDCPower - 1 Session Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDCPower - 1 Session Unregistered.vi"/>
 			<Item Name="niDCPower - 3 Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDCPower - 3 Sessions Unregistered.vi"/>
+			<Item Name="niDMM - 1 Session Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDMM - 1 Session Unregistered.vi"/>
+			<Item Name="niDMM - 3 Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDMM - 3 Sessions Unregistered.vi"/>
 		</Item>
 		<Item Name="niDCPower" Type="Folder">
 			<Item Name="DCPowerInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/DCPowerInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
 			<Item Name="DCPowerInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../Create Sessions/DCPowerInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
+		</Item>
+		<Item Name="niDMM" Type="Folder">
+			<Item Name="DMMInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/DMMInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
+			<Item Name="DMMInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../Create Sessions/DMMInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Get Connections" Type="Folder">
