@@ -18,6 +18,8 @@
 			<Item Name="Assert Number of Sessions.vim" Type="VI" URL="../Helpers/Assertion Helpers/Assert Number of Sessions.vim"/>
 			<Item Name="Assert Equal.vim" Type="VI" URL="../Helpers/Assertion Helpers/Assert Equal.vim"/>
 			<Item Name="Assert Error Code.vi" Type="VI" URL="../Helpers/Assertion Helpers/Assert Error Code.vi"/>
+			<Item Name="Assert Number of Initialize and Close Calls.vi" Type="VI" URL="../Helpers/Assertion Helpers/Assert Number of Initialize and Close Calls.vi"/>
+			<Item Name="Assert Number of Calls.vi" Type="VI" URL="../Helpers/Assertion Helpers/Assert Number of Calls.vi"/>
 		</Item>
 		<Item Name="Check If Discovery Service is Running.vi" Type="VI" URL="../Helpers/Check If Discovery Service is Running.vi"/>
 		<Item Name="Get Enum Getters.vi" Type="VI" URL="../Helpers/Get Enum Getters.vi"/>
@@ -32,9 +34,11 @@
 	<Item Name="Create Sessions" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Test Inputs" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Fake - 1 Session Created.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 1 Session Created.vi"/>
 			<Item Name="Fake - 1 Session Registered.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 1 Session Registered.vi"/>
 			<Item Name="Fake - 1 Session Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 1 Session Unregistered.vi"/>
+			<Item Name="Fake - 2 Sessions Unregistered 1 Session Registered.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 2 Sessions Unregistered 1 Session Registered.vi"/>
 			<Item Name="Fake - 3 Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 3 Sessions Unregistered.vi"/>
 			<Item Name="MixedInstruments - 2 Fake 1 DCPower Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/MixedInstruments - 2 Fake 1 DCPower Sessions Unregistered.vi"/>
 			<Item Name="niDCPower - 1 Session Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDCPower - 1 Session Unregistered.vi"/>
@@ -69,10 +73,11 @@
 			<Item Name="test_FgenInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../Create Sessions/test_FgenInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
 		</Item>
 		<Item Name="EmptyInstrumentTypeId_CallCreateSessions_ReturnsError.vi" Type="VI" URL="../Create Sessions/EmptyInstrumentTypeId_CallCreateSessions_ReturnsError.vi"/>
-		<Item Name="SessionAlreadyCreated_CallCreateSessions_ReturnsError.vi" Type="VI" URL="../Create Sessions/SessionAlreadyCreated_CallCreateSessions_ReturnsError.vi"/>
 		<Item Name="InstrumentTypeIdNotInReservation_CallCreateSessions_ReturnsErrorFor0Sessions.vi" Type="VI" URL="../Create Sessions/InstrumentTypeIdNotInReservation_CallCreateSessions_ReturnsErrorFor0Sessions.vi"/>
-		<Item Name="MultipleSessionsReserved_CallCreateSession_ReturnsErrorForTooManySessions.vi" Type="VI" URL="../Create Sessions/MultipleSessionsReserved_CallCreateSession_ReturnsErrorForTooManySessions.vi"/>
 		<Item Name="MixedInstrumentReservation_CallCreateSessions_OnlySpecifiedInstrumentSessionsCreated.vi" Type="VI" URL="../Create Sessions/MixedInstrumentReservation_CallCreateSessions_OnlySpecifiedInstrumentSessionsCreated.vi"/>
+		<Item Name="MultipleSessionsReserved_CallCreateSession_ReturnsErrorForTooManySessions.vi" Type="VI" URL="../Create Sessions/MultipleSessionsReserved_CallCreateSession_ReturnsErrorForTooManySessions.vi"/>
+		<Item Name="SessionAlreadyCreated_CallCreateSessions_ReturnsError.vi" Type="VI" URL="../Create Sessions/SessionAlreadyCreated_CallCreateSessions_ReturnsError.vi"/>
+		<Item Name="SomeSessionsRegistered_CallCreateSessions_InitializeCalledWithProperBehavior.vi" Type="VI" URL="../Create Sessions/SomeSessionsRegistered_CallCreateSessions_InitializeCalledWithProperBehavior.vi"/>
 	</Item>
 	<Item Name="Get Connections" Type="Folder">
 		<Item Name="1 Pin 1 Connection" Type="Folder">
