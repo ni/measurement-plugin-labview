@@ -37,12 +37,12 @@
 			<Item Name="niDMM - 3 Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDMM - 3 Sessions Unregistered.vi"/>
 		</Item>
 		<Item Name="niDCPower" Type="Folder">
-			<Item Name="DCPowerInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/DCPowerInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
-			<Item Name="DCPowerInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../Create Sessions/DCPowerInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
+			<Item Name="test_DCPowerInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/test_DCPowerInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
+			<Item Name="test_DCPowerInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../Create Sessions/test_DCPowerInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
 		</Item>
 		<Item Name="niDMM" Type="Folder">
-			<Item Name="DMMInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/DMMInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
-			<Item Name="DMMInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../Create Sessions/DMMInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
+			<Item Name="test_DMMInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/test_DMMInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
+			<Item Name="test_DMMInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../Create Sessions/test_DMMInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Get Connections" Type="Folder">
@@ -76,9 +76,9 @@
 			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
 		</Item>
 		<Item Name="niDMM" Type="Folder">
-			<Item Name="ThreeSessTwoPinThreeInstrTwoSiteReservation_CallNiDmmGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/ThreeSessTwoPinThreeInstrTwoSiteReservation_CallNiDmmGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
-			<Item Name="ThreeSessTwoPinThreeInstrTwoSiteReservation_CallNiDmmGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/ThreeSessTwoPinThreeInstrTwoSiteReservation_CallNiDmmGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
-			<Item Name="ThreeSessTwoPinThreeInstrTwoSiteReservation_CallNiDmmGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/ThreeSessTwoPinThreeInstrTwoSiteReservation_CallNiDmmGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
+			<Item Name="test_ThreeSessTwoPinThreeInstrTwoSiteReservation_CallNiDmmGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_ThreeSessTwoPinThreeInstrTwoSiteReservation_CallNiDmmGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
+			<Item Name="test_ThreeSessTwoPinThreeInstrTwoSiteReservation_CallNiDmmGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_ThreeSessTwoPinThreeInstrTwoSiteReservation_CallNiDmmGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
+			<Item Name="test_ThreeSessTwoPinThreeInstrTwoSiteReservation_CallNiDmmGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_ThreeSessTwoPinThreeInstrTwoSiteReservation_CallNiDmmGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
 		</Item>
 		<Item Name="niFGEN" Type="Folder">
 			<Item Name="test_TwoSessTwoPinTwoInstrTwoSiteReservation_CallNiFgenGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_TwoSessTwoPinTwoInstrTwoSiteReservation_CallNiFgenGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
