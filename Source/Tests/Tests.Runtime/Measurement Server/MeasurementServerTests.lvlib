@@ -162,6 +162,7 @@
 		<Item Name="test_RemoteScopeSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niScope/test_RemoteScopeSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
 		<Item Name="test_ScopeInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi" Type="VI" URL="../niScope/test_ScopeInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi"/>
 	</Item>
+	<Item Name="InstrumentTypeIdNotInReservation_CallCreateSessions_ReturnsErrorFor0Sessions.vi" Type="VI" URL="../Create Sessions/InstrumentTypeIdNotInReservation_CallCreateSessions_ReturnsErrorFor0Sessions.vi"/>
 	<Item Name="test_ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../test_ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
 	<Item Name="test_ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../test_ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
 	<Item Name="test_DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi" Type="VI" URL="../test_DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi"/>
