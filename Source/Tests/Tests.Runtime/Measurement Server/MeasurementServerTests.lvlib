@@ -76,9 +76,9 @@
 			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
 		</Item>
 		<Item Name="niScope" Type="Folder">
-			<Item Name="OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
-			<Item Name="OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
-			<Item Name="OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
+			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
+			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
+			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
 		</Item>
 		<Item Name="niDMM" Type="Folder">
 			<Item Name="test_ThreeSessTwoPinThreeInstrTwoSiteReservation_CallNiDmmGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_ThreeSessTwoPinThreeInstrTwoSiteReservation_CallNiDmmGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
