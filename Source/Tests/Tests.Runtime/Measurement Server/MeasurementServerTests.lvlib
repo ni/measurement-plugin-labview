@@ -76,9 +76,9 @@
 			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
 		</Item>
 		<Item Name="niDigital" Type="Folder">
-			<Item Name="OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
-			<Item Name="OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
-			<Item Name="OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
+			<Item Name="test_OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
+			<Item Name="test_OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
+			<Item Name="test_OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
 		</Item>
 		<Item Name="niScope" Type="Folder">
 			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
