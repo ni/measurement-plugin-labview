@@ -21,6 +21,9 @@
 		</Item>
 		<Item Name="N Pins M Connections" Type="Folder">
 			<Item Name="OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSitesWithNoReservePins_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSitesWithNoReservePins_ReturnsOneConnection.vi"/>
+			<Item Name="OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsTwoConnections.vi"/>
+			<Item Name="OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForSystemPinAllSites_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForSystemPinAllSites_ReturnsOneConnection.vi"/>
+			<Item Name="OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForTwoDcPowerPinsAllSites_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForTwoDcPowerPinsAllSites_ReturnsTwoConnections.vi"/>
 			<Item Name="ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsThreeConnections.vi"/>
 			<Item Name="ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsOneSite_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsOneSite_ReturnsTwoConnections.vi"/>
 			<Item Name="ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentInstr_ReturnsError.vi" Type="VI" URL="../Get Connections/ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentInstr_ReturnsError.vi"/>
@@ -29,6 +32,7 @@
 			<Item Name="ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneDcPowerPinAllSites_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneDcPowerPinAllSites_ReturnsTwoConnections.vi"/>
 			<Item Name="ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneDcPowerPinOneSite_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneDcPowerPinOneSite_ReturnsOneConnection.vi"/>
 			<Item Name="ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneFgenPinAllSites_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneFgenPinAllSites_ReturnsOneConnection.vi"/>
+			<Item Name="ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForPinNameWithWrongCase_ReturnsError.vi" Type="VI" URL="../Get Connections/ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForPinNameWithWrongCase_ReturnsError.vi"/>
 			<Item Name="ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForTwoDcPowerPinsAllSites_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForTwoDcPowerPinsAllSites_ReturnsThreeConnections.vi"/>
 		</Item>
 		<Item Name="niDCPower" Type="Folder">
@@ -39,6 +43,7 @@
 		<Item Name="Test Inputs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="One Session One Pin One Instrument One Site.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session One Pin One Instrument One Site.vi"/>
+			<Item Name="One Session Two Pins One Instrument One Site with System Pin.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument One Site with System Pin.vi"/>
 			<Item Name="Three Sessions Three Pins Two Instruments Two Sites.vi" Type="VI" URL="../Get Connections/Test Inputs/Three Sessions Three Pins Two Instruments Two Sites.vi"/>
 			<Item Name="One Session Two Pins One Instrument Two Sites - DCPower.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument Two Sites - DCPower.vi"/>
 		</Item>
@@ -97,10 +102,8 @@
 	<Item Name="ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
 	<Item Name="ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
 	<Item Name="DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi" Type="VI" URL="../DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi"/>
-	<Item Name="One Session Two Pins One Instrument One Site with System Pin.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument One Site with System Pin.vi"/>
 	<Item Name="ServiceLocationPool_DiscoveryServiceUnavailable_GetUncachedLocation_ReturnsError.vi" Type="VI" URL="../ServiceLocationPool_DiscoveryServiceUnavailable_GetUncachedLocation_ReturnsError.vi"/>
 	<Item Name="ServiceLocationPool_GetInvalidServiceTwice_DoesNotCacheInvalidData.vi" Type="VI" URL="../ServiceLocationPool_GetInvalidServiceTwice_DoesNotCacheInvalidData.vi"/>
 	<Item Name="ServiceLocationPool_GetLocation_ReturnsValidLocation.vi" Type="VI" URL="../ServiceLocationPool_GetLocation_ReturnsValidLocation.vi"/>
 	<Item Name="ServiceLocationPool_GetLocationTwice_ReturnsCachedLocation.vi" Type="VI" URL="../ServiceLocationPool_GetLocationTwice_ReturnsCachedLocation.vi"/>
-	<Item Name="ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForPinNameWithWrongCase_ReturnsError.vi" Type="VI" URL="../Get Connections/ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForPinNameWithWrongCase_ReturnsError.vi"/>
 </Library>
