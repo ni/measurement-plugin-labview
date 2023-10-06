@@ -37,6 +37,8 @@
 			<Item Name="niScope - 2 Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niScope - 2 Sessions Unregistered.vi"/>
 			<Item Name="niDMM - 1 Session Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDMM - 1 Session Unregistered.vi"/>
 			<Item Name="niDMM - 3 Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDMM - 3 Sessions Unregistered.vi"/>
+			<Item Name="niFGEN - 1 Session Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niFGEN - 1 Session Unregistered.vi"/>
+			<Item Name="niFGEN - 3 Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niFGEN - 3 Sessions Unregistered.vi"/>
 		</Item>
 		<Item Name="niDCPower" Type="Folder">
 			<Item Name="test_DCPowerInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/test_DCPowerInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
@@ -49,6 +51,10 @@
 		<Item Name="niScope" Type="Folder">
 			<Item Name="test_ScopeInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../Create Sessions/test_ScopeInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
 			<Item Name="test_ScopeInstruments_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/test_ScopeInstruments_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
+		</Item>
+		<Item Name="niFGEN" Type="Folder">
+			<Item Name="test_FgenInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/test_FgenInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
+			<Item Name="test_FgenInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../Create Sessions/test_FgenInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Get Connections" Type="Folder">
