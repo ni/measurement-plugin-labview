@@ -47,8 +47,8 @@
 			<Item Name="test_DMMInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../Create Sessions/test_DMMInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
 		</Item>
 		<Item Name="niScope" Type="Folder">
-			<Item Name="ScopeInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../Create Sessions/ScopeInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
-			<Item Name="ScopeInstruments_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/ScopeInstruments_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
+			<Item Name="test_ScopeInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../Create Sessions/test_ScopeInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
+			<Item Name="test_ScopeInstruments_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/test_ScopeInstruments_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Get Connections" Type="Folder">
