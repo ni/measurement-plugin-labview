@@ -74,6 +74,11 @@
 			<Item Name="OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
 			<Item Name="OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
 		</Item>
+		<Item Name="niDigital" Type="Folder">
+			<Item Name="OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
+			<Item Name="OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
+			<Item Name="OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
+		</Item>
 		<Item Name="niScope" Type="Folder">
 			<Item Name="OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
 			<Item Name="OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
@@ -94,6 +99,7 @@
 			<Item Name="One Session One Pin One Instrument One Site.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session One Pin One Instrument One Site.vi"/>
 			<Item Name="Three Sessions Three Pins Two Instruments Two Sites.vi" Type="VI" URL="../Get Connections/Test Inputs/Three Sessions Three Pins Two Instruments Two Sites.vi"/>
 			<Item Name="One Session Two Pins One Instrument Two Sites - DCPower.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument Two Sites - DCPower.vi"/>
+			<Item Name="One Session Two Pins One Instrument Two Sites - Digital.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument Two Sites - Digital.vi"/>
 			<Item Name="One Session Two Pins One Instrument Two Sites - Scope.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument Two Sites - Scope.vi"/>
 			<Item Name="Two Sessions Two Pins Two Instruments Two Sites - FGEN.vi" Type="VI" URL="../Get Connections/Test Inputs/Two Sessions Two Pins Two Instruments Two Sites - FGEN.vi"/>
 			<Item Name="Three Session Two Pins Three Instrument Two Sites - DMM.vi" Type="VI" URL="../Get Connections/Test Inputs/Three Session Two Pins Three Instrument Two Sites - DMM.vi"/>
