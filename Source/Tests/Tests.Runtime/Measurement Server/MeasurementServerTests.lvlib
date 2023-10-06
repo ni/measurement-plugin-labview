@@ -35,9 +35,10 @@
 			<Item Name="Fake - 1 Session Created.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 1 Session Created.vi"/>
 			<Item Name="Fake - 1 Session Registered.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 1 Session Registered.vi"/>
 			<Item Name="Fake - 1 Session Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 1 Session Unregistered.vi"/>
+			<Item Name="Fake - 3 Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 3 Sessions Unregistered.vi"/>
+			<Item Name="MixedInstruments - 2 Fake 1 DCPower Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/MixedInstruments - 2 Fake 1 DCPower Sessions Unregistered.vi"/>
 			<Item Name="niDCPower - 1 Session Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDCPower - 1 Session Unregistered.vi"/>
 			<Item Name="niDCPower - 3 Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDCPower - 3 Sessions Unregistered.vi"/>
-<<<<<<< HEAD
 			<Item Name="niDigitalPattern - 1 Session Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDigitalPattern - 1 Session Unregistered.vi"/>
 			<Item Name="niDigitalPattern - 3 Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDigitalPattern - 3 Sessions Unregistered.vi"/>
 			<Item Name="niScope - 1 Session Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niScope - 1 Session Unregistered.vi"/>
@@ -50,9 +51,6 @@
 		<Item Name="niDigital" Type="Folder">
 			<Item Name="test_DigitalInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/test_DigitalInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
 			<Item Name="test_DigitalInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../Create Sessions/test_DigitalInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
-=======
-			<Item Name="Fake - 3 Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 3 Sessions Unregistered.vi"/>
->>>>>>> a50b4e3 (Add test for error when expecting one session but multiple sessions created)
 		</Item>
 		<Item Name="niDCPower" Type="Folder">
 			<Item Name="test_DCPowerInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/test_DCPowerInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
@@ -74,6 +72,7 @@
 		<Item Name="SessionAlreadyCreated_CallCreateSessions_ReturnsError.vi" Type="VI" URL="../Create Sessions/SessionAlreadyCreated_CallCreateSessions_ReturnsError.vi"/>
 		<Item Name="InstrumentTypeIdNotInReservation_CallCreateSessions_ReturnsErrorFor0Sessions.vi" Type="VI" URL="../Create Sessions/InstrumentTypeIdNotInReservation_CallCreateSessions_ReturnsErrorFor0Sessions.vi"/>
 		<Item Name="MultipleSessionsReserved_CallCreateSession_ReturnsErrorForTooManySessions.vi" Type="VI" URL="../Create Sessions/MultipleSessionsReserved_CallCreateSession_ReturnsErrorForTooManySessions.vi"/>
+		<Item Name="MixedInstrumentReservation_CallCreateSessions_OnlySpecifiedInstrumentSessionsCreated.vi" Type="VI" URL="../Create Sessions/MixedInstrumentReservation_CallCreateSessions_OnlySpecifiedInstrumentSessionsCreated.vi"/>
 	</Item>
 	<Item Name="Get Connections" Type="Folder">
 		<Item Name="1 Pin 1 Connection" Type="Folder">
