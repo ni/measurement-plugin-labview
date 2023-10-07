@@ -18,6 +18,8 @@
 			<Item Name="Assert Number of Sessions.vim" Type="VI" URL="../Helpers/Assertion Helpers/Assert Number of Sessions.vim"/>
 			<Item Name="Assert Equal.vim" Type="VI" URL="../Helpers/Assertion Helpers/Assert Equal.vim"/>
 			<Item Name="Assert Error Code.vi" Type="VI" URL="../Helpers/Assertion Helpers/Assert Error Code.vi"/>
+			<Item Name="Assert Number of Initialize and Close Calls.vi" Type="VI" URL="../Helpers/Assertion Helpers/Assert Number of Initialize and Close Calls.vi"/>
+			<Item Name="Assert Number of Calls.vi" Type="VI" URL="../Helpers/Assertion Helpers/Assert Number of Calls.vi"/>
 		</Item>
 		<Item Name="Check If Discovery Service is Running.vi" Type="VI" URL="../Helpers/Check If Discovery Service is Running.vi"/>
 		<Item Name="Get Enum Getters.vi" Type="VI" URL="../Helpers/Get Enum Getters.vi"/>
@@ -27,22 +29,59 @@
 		<Item Name="Restart Discovery Service.vi" Type="VI" URL="../Helpers/Restart Discovery Service.vi"/>
 		<Item Name="Session Reservation Json to Data Cluster.vi" Type="VI" URL="../Helpers/Session Reservation Json to Data Cluster.vi"/>
 		<Item Name="Get Remote Connection Options.vi" Type="VI" URL="../Helpers/Get Remote Connection Options.vi"/>
+		<Item Name="Fake Instrument.lvclass" Type="LVClass" URL="../Helpers/Fake Instrument/Fake Instrument.lvclass"/>
 	</Item>
 	<Item Name="Create Sessions" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Test Inputs" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="Fake - 1 Session Created.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 1 Session Created.vi"/>
+			<Item Name="Fake - 1 Session Registered.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 1 Session Registered.vi"/>
+			<Item Name="Fake - 1 Session Unregistered 3 Sessions Registered Last Session Bad.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 1 Session Unregistered 3 Sessions Registered Last Session Bad.vi"/>
+			<Item Name="Fake - 1 Session Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 1 Session Unregistered.vi"/>
+			<Item Name="Fake - 2 Sessions Unregistered 1 Session Registered.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 2 Sessions Unregistered 1 Session Registered.vi"/>
+			<Item Name="Fake - 3 Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 3 Sessions Unregistered.vi"/>
+			<Item Name="MixedInstruments - 2 Fake 1 DCPower Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/MixedInstruments - 2 Fake 1 DCPower Sessions Unregistered.vi"/>
 			<Item Name="niDCPower - 1 Session Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDCPower - 1 Session Unregistered.vi"/>
 			<Item Name="niDCPower - 3 Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDCPower - 3 Sessions Unregistered.vi"/>
+			<Item Name="niDigitalPattern - 1 Session Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDigitalPattern - 1 Session Unregistered.vi"/>
+			<Item Name="niDigitalPattern - 3 Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDigitalPattern - 3 Sessions Unregistered.vi"/>
 			<Item Name="niDMM - 1 Session Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDMM - 1 Session Unregistered.vi"/>
 			<Item Name="niDMM - 3 Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDMM - 3 Sessions Unregistered.vi"/>
+			<Item Name="niFGEN - 1 Session Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niFGEN - 1 Session Unregistered.vi"/>
+			<Item Name="niFGEN - 3 Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niFGEN - 3 Sessions Unregistered.vi"/>
+			<Item Name="niScope - 1 Session Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niScope - 1 Session Unregistered.vi"/>
+			<Item Name="niScope - 2 Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niScope - 2 Sessions Unregistered.vi"/>
+		</Item>
+		<Item Name="Create Sessions VIMs" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="test_EmptyInstrumentTypeId_CallCreateSessions_ReturnsError.vi" Type="VI" URL="../Create Sessions/test_EmptyInstrumentTypeId_CallCreateSessions_ReturnsError.vi"/>
+			<Item Name="test_InstrumentTypeIdNotInReservation_CallCreateSessions_ReturnsErrorFor0Sessions.vi" Type="VI" URL="../Create Sessions/test_InstrumentTypeIdNotInReservation_CallCreateSessions_ReturnsErrorFor0Sessions.vi"/>
+			<Item Name="test_MixedInstrumentReservation_CallCreateSessions_OnlySpecifiedInstrumentSessionsCreated.vi" Type="VI" URL="../Create Sessions/test_MixedInstrumentReservation_CallCreateSessions_OnlySpecifiedInstrumentSessionsCreated.vi"/>
+			<Item Name="test_MultipleSessionsReserved_CallCreateSession_ReturnsErrorForTooManySessions.vi" Type="VI" URL="../Create Sessions/test_MultipleSessionsReserved_CallCreateSession_ReturnsErrorForTooManySessions.vi"/>
+			<Item Name="test_SessionAlreadyCreated_CallCreateSessions_ReturnsError.vi" Type="VI" URL="../Create Sessions/test_SessionAlreadyCreated_CallCreateSessions_ReturnsError.vi"/>
+			<Item Name="test_SessionInitializeErrors_CallCreateSessions_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi" Type="VI" URL="../Create Sessions/test_SessionInitializeErrors_CallCreateSessions_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi"/>
+			<Item Name="test_SomeSessionsRegistered_CallCreateSessions_InitializeCalledWithProperBehavior.vi" Type="VI" URL="../Create Sessions/test_SomeSessionsRegistered_CallCreateSessions_InitializeCalledWithProperBehavior.vi"/>
 		</Item>
 		<Item Name="niDCPower" Type="Folder">
 			<Item Name="test_DCPowerInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/test_DCPowerInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
 			<Item Name="test_DCPowerInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../Create Sessions/test_DCPowerInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
 		</Item>
+		<Item Name="niDigital" Type="Folder">
+			<Item Name="test_DigitalInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/test_DigitalInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
+			<Item Name="test_DigitalInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../Create Sessions/test_DigitalInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
+		</Item>
 		<Item Name="niDMM" Type="Folder">
 			<Item Name="test_DMMInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/test_DMMInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
 			<Item Name="test_DMMInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../Create Sessions/test_DMMInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
+		</Item>
+		<Item Name="niFGEN" Type="Folder">
+			<Item Name="test_FgenInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/test_FgenInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
+			<Item Name="test_FgenInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../Create Sessions/test_FgenInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
+		</Item>
+		<Item Name="niScope" Type="Folder">
+			<Item Name="test_ScopeInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../Create Sessions/test_ScopeInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
+			<Item Name="test_ScopeInstruments_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/test_ScopeInstruments_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Get Connections" Type="Folder">
