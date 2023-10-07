@@ -51,7 +51,7 @@
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 	</Item>
 	<Item Name="Pins to Set.vi" Type="VI" URL="../Pins to Set.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#]!!!!"1!%!!!!'E!Q`````R&amp;Q;7YA&lt;X)A=G6M98EA&lt;G&amp;N:1!=1(-!!26Q;7YA&lt;X)A=G6M98EA&lt;G&amp;N:3"T:81!*E"!!!(`````!!%9='FO)'^S)(*F&lt;'&amp;Z)'ZB&lt;76T)'&amp;S=G&amp;Z!!"5!0!!$!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!Q)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#%A!!!!!"!!1!!!!!</Property>
