@@ -7,7 +7,7 @@
 	</Instruments>
 	<Pins>
 		<DUTPin name="Pin1" />
-		<DUTPin name="Pin2" />
+		<SystemPin name="SystemPin1" />
 	</Pins>
 	<PinGroups></PinGroups>
 	<Sites>
@@ -16,8 +16,7 @@
 	</Sites>
 	<Connections>
 		<Connection pin="Pin1" siteNumber="0" instrument="DCPower1" channel="0" />
-		<Connection pin="Pin1" siteNumber="1" instrument="DCPower1" channel="2" />
-		<Connection pin="Pin2" siteNumber="0" instrument="DCPower1" channel="1" />
-		<Connection pin="Pin2" siteNumber="1" instrument="DCPower1" channel="3" />
+		<Connection pin="Pin1" siteNumber="1" instrument="DCPower1" channel="1" />
+		<SystemConnection pin="SystemPin1" instrument="DCPower1" channel="2" />
 	</Connections>
 </PinMap>

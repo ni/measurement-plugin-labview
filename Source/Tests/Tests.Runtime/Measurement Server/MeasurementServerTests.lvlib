@@ -108,6 +108,11 @@
 			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneFgenPinAllSites_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneFgenPinAllSites_ReturnsOneConnection.vi"/>
 			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForPinNameWithWrongCase_ReturnsError.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForPinNameWithWrongCase_ReturnsError.vi"/>
 			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForTwoDcPowerPinsAllSites_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForTwoDcPowerPinsAllSites_ReturnsThreeConnections.vi"/>
+			<Item Name="test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsTwoConnections.vi"/>
+			<Item Name="test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsOneSite_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsOneSite_ReturnsTwoConnections.vi"/>
+			<Item Name="test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForSystemPinOneSite_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForSystemPinOneSite_ReturnsOneConnection.vi"/>
+			<Item Name="test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForSystemPinAllSites_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForSystemPinAllSites_ReturnsOneConnection.vi"/>
+			<Item Name="test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForTwoDcPowerPinsAllSites_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForTwoDcPowerPinsAllSites_ReturnsTwoConnections.vi"/>
 		</Item>
 		<Item Name="niDCPower" Type="Folder">
 			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
@@ -143,6 +148,7 @@
 			<Item Name="One Session Two Pins One Instrument Two Sites - Scope.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument Two Sites - Scope.vi"/>
 			<Item Name="Two Sessions Two Pins Two Instruments Two Sites - FGEN.vi" Type="VI" URL="../Get Connections/Test Inputs/Two Sessions Two Pins Two Instruments Two Sites - FGEN.vi"/>
 			<Item Name="Three Session Two Pins Three Instrument Two Sites - DMM.vi" Type="VI" URL="../Get Connections/Test Inputs/Three Session Two Pins Three Instrument Two Sites - DMM.vi"/>
+			<Item Name="One Session Two Pins One Instrument One Site with System Pin.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument One Site with System Pin.vi"/>
 		</Item>
 	</Item>
 	<Item Name="niDCPower" Type="Folder">
