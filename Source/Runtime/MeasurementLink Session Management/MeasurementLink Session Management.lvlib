@@ -8,5 +8,8 @@
 
 </Property>
 	<Item Name="Connection Map.lvclass" Type="LVClass" URL="../Connection Map/Connection Map.lvclass"/>
+	<Item Name="IState.lvclass" Type="LVClass" URL="../IState/IState.lvclass"/>
+	<Item Name="Reserved State.lvclass" Type="LVClass" URL="../Reserved State/Reserved State.lvclass"/>
 	<Item Name="Session Reservation.lvclass" Type="LVClass" URL="../Session Reservation/Session Reservation.lvclass"/>
+	<Item Name="Unreserved State.lvclass" Type="LVClass" URL="../Unreserved State/Unreserved State.lvclass"/>
 </Library>

@@ -27,12 +27,15 @@
 		<Item Name="Kill Discovery Service.vi" Type="VI" URL="../Helpers/Kill Discovery Service.vi"/>
 		<Item Name="Simple Channel Mapping to Channel Mapping Cluster.vi" Type="VI" URL="../Helpers/Simple Channel Mapping to Channel Mapping Cluster.vi"/>
 		<Item Name="Restart Discovery Service.vi" Type="VI" URL="../Helpers/Restart Discovery Service.vi"/>
-		<Item Name="Session Reservation Json to Data Cluster.vi" Type="VI" URL="../Helpers/Session Reservation Json to Data Cluster.vi"/>
 		<Item Name="Get Remote Connection Options.vi" Type="VI" URL="../Helpers/Get Remote Connection Options.vi"/>
 		<Item Name="Fake Instrument.lvclass" Type="LVClass" URL="../Helpers/Fake Instrument/Fake Instrument.lvclass"/>
 	</Item>
 	<Item Name="Create Sessions" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Helpers" Type="Folder">
+			<Item Name="Session Json to Data Add State and Session - Create Sessions.vi" Type="VI" URL="../Create Sessions/Helpers/Session Json to Data Add State and Session - Create Sessions.vi"/>
+			<Item Name="Session Json to Data Add State - Create Sessions.vi" Type="VI" URL="../Create Sessions/Helpers/Session Json to Data Add State - Create Sessions.vi"/>
+		</Item>
 		<Item Name="Test Inputs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Fake - 1 Session Created.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 1 Session Created.vi"/>
@@ -85,6 +88,20 @@
 		</Item>
 	</Item>
 	<Item Name="Get Connections" Type="Folder">
+		<Item Name="Test Inputs" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="One Session One Pin One Instrument One Site.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session One Pin One Instrument One Site.vi"/>
+			<Item Name="Three Sessions Three Pins Two Instruments Two Sites.vi" Type="VI" URL="../Get Connections/Test Inputs/Three Sessions Three Pins Two Instruments Two Sites.vi"/>
+			<Item Name="One Session Two Pins One Instrument Two Sites - DCPower.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument Two Sites - DCPower.vi"/>
+			<Item Name="One Session Two Pins One Instrument Two Sites - Digital.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument Two Sites - Digital.vi"/>
+			<Item Name="One Session Two Pins One Instrument Two Sites - Scope.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument Two Sites - Scope.vi"/>
+			<Item Name="Two Sessions Two Pins Two Instruments Two Sites - FGEN.vi" Type="VI" URL="../Get Connections/Test Inputs/Two Sessions Two Pins Two Instruments Two Sites - FGEN.vi"/>
+			<Item Name="Three Session Two Pins Three Instrument Two Sites - DMM.vi" Type="VI" URL="../Get Connections/Test Inputs/Three Session Two Pins Three Instrument Two Sites - DMM.vi"/>
+			<Item Name="One Session Two Pins One Instrument One Site with System Pin.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument One Site with System Pin.vi"/>
+		</Item>
+		<Item Name="Helpers" Type="Folder">
+			<Item Name="Session Json to Data - Get Connections.vi" Type="VI" URL="../Get Connections/Helpers/Session Json to Data - Get Connections.vi"/>
+		</Item>
 		<Item Name="1 Pin 1 Connection" Type="Folder">
 			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForAllDcPowerPinsOneSite_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForAllDcPowerPinsOneSite_ReturnsOneConnection.vi"/>
 			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForOneDcPowerPinAllSites_ReturnsMulitpleConnectionsError.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForOneDcPowerPinAllSites_ReturnsMulitpleConnectionsError.vi"/>
@@ -138,17 +155,6 @@
 			<Item Name="test_TwoSessTwoPinTwoInstrTwoSiteReservation_CallNiFgenGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_TwoSessTwoPinTwoInstrTwoSiteReservation_CallNiFgenGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
 			<Item Name="test_TwoSessTwoPinTwoInstrTwoSiteReservation_CallNiFgenGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_TwoSessTwoPinTwoInstrTwoSiteReservation_CallNiFgenGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
 			<Item Name="test_TwoSessTwoPinTwoInstrTwoSiteReservation_CallNiFgenGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_TwoSessTwoPinTwoInstrTwoSiteReservation_CallNiFgenGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
-		</Item>
-		<Item Name="Test Inputs" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="One Session One Pin One Instrument One Site.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session One Pin One Instrument One Site.vi"/>
-			<Item Name="Three Sessions Three Pins Two Instruments Two Sites.vi" Type="VI" URL="../Get Connections/Test Inputs/Three Sessions Three Pins Two Instruments Two Sites.vi"/>
-			<Item Name="One Session Two Pins One Instrument Two Sites - DCPower.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument Two Sites - DCPower.vi"/>
-			<Item Name="One Session Two Pins One Instrument Two Sites - Digital.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument Two Sites - Digital.vi"/>
-			<Item Name="One Session Two Pins One Instrument Two Sites - Scope.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument Two Sites - Scope.vi"/>
-			<Item Name="Two Sessions Two Pins Two Instruments Two Sites - FGEN.vi" Type="VI" URL="../Get Connections/Test Inputs/Two Sessions Two Pins Two Instruments Two Sites - FGEN.vi"/>
-			<Item Name="Three Session Two Pins Three Instrument Two Sites - DMM.vi" Type="VI" URL="../Get Connections/Test Inputs/Three Session Two Pins Three Instrument Two Sites - DMM.vi"/>
-			<Item Name="One Session Two Pins One Instrument One Site with System Pin.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument One Site with System Pin.vi"/>
 		</Item>
 	</Item>
 	<Item Name="niDCPower" Type="Folder">
