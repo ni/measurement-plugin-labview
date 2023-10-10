@@ -4547,7 +4547,7 @@
 													<Measurement classname='Obj'>
 														<subprops>
 															<Name classname='Str'>
-																<value>ni.examples.NIDigitalSPI_Python</value>
+																<value>ni.examples.NIDigitalSPI_LabVIEW</value>
 															</Name>
 															<Parameters classname='Objs'>
 																<value lbound='[0]' ubound='[6]'>
@@ -4585,7 +4585,7 @@
 																		<Obj typename='NI_MeasurementParameter' name=''>
 																			<subprops>
 																				<Name classname='Str'>
-																					<value>pin_names</value>
+																					<value>Pin names</value>
 																				</Name>
 																				<ArgumentValue classname='ExprValue'>
 																					<value>{"SPI_PINS"}</value>
@@ -4608,6 +4608,9 @@
 																				<TypeSpecialization classname='Str'>
 																					<value>Pin</value>
 																				</TypeSpecialization>
+																				<EnumDefinition classname='Objs'>
+																					<value lbound='[0]' ubound='[]'/>
+																				</EnumDefinition>
 																			</subprops>
 																		</Obj>
 																	</value>
@@ -4615,7 +4618,7 @@
 																		<Obj typename='NI_MeasurementParameter' name=''>
 																			<subprops>
 																				<Name classname='Str'>
-																					<value>specification_file_path</value>
+																					<value>Specifications file</value>
 																				</Name>
 																				<ArgumentValue classname='ExprValue'>
 																					<value>"Specifications.specs"</value>
@@ -4636,8 +4639,11 @@
 																					<value representation='Int64'>2</value>
 																				</ID>
 																				<TypeSpecialization classname='Str'>
-																					<value>Path</value>
+																					<value>None</value>
 																				</TypeSpecialization>
+																				<EnumDefinition classname='Objs'>
+																					<value lbound='[0]' ubound='[]'/>
+																				</EnumDefinition>
 																			</subprops>
 																		</Obj>
 																	</value>
@@ -4645,7 +4651,7 @@
 																		<Obj typename='NI_MeasurementParameter' name=''>
 																			<subprops>
 																				<Name classname='Str'>
-																					<value>levels_file_path</value>
+																					<value>Levels file</value>
 																				</Name>
 																				<ArgumentValue classname='ExprValue'>
 																					<value>"PinLevels.digilevels"</value>
@@ -4666,8 +4672,11 @@
 																					<value representation='Int64'>3</value>
 																				</ID>
 																				<TypeSpecialization classname='Str'>
-																					<value>Path</value>
+																					<value>None</value>
 																				</TypeSpecialization>
+																				<EnumDefinition classname='Objs'>
+																					<value lbound='[0]' ubound='[]'/>
+																				</EnumDefinition>
 																			</subprops>
 																		</Obj>
 																	</value>
@@ -4675,7 +4684,7 @@
 																		<Obj typename='NI_MeasurementParameter' name=''>
 																			<subprops>
 																				<Name classname='Str'>
-																					<value>timing_file_path</value>
+																					<value>Timing file</value>
 																				</Name>
 																				<ArgumentValue classname='ExprValue'>
 																					<value>"Timing.digitiming"</value>
@@ -4696,8 +4705,11 @@
 																					<value representation='Int64'>4</value>
 																				</ID>
 																				<TypeSpecialization classname='Str'>
-																					<value>Path</value>
+																					<value>None</value>
 																				</TypeSpecialization>
+																				<EnumDefinition classname='Objs'>
+																					<value lbound='[0]' ubound='[]'/>
+																				</EnumDefinition>
 																			</subprops>
 																		</Obj>
 																	</value>
@@ -4705,7 +4717,7 @@
 																		<Obj typename='NI_MeasurementParameter' name=''>
 																			<subprops>
 																				<Name classname='Str'>
-																					<value>pattern_file_path</value>
+																					<value>Pattern file</value>
 																				</Name>
 																				<ArgumentValue classname='ExprValue'>
 																					<value>"Pattern.digipat"</value>
@@ -4726,8 +4738,11 @@
 																					<value representation='Int64'>5</value>
 																				</ID>
 																				<TypeSpecialization classname='Str'>
-																					<value>Path</value>
+																					<value>None</value>
 																				</TypeSpecialization>
+																				<EnumDefinition classname='Objs'>
+																					<value lbound='[0]' ubound='[]'/>
+																				</EnumDefinition>
 																			</subprops>
 																		</Obj>
 																	</value>
@@ -4735,7 +4750,7 @@
 																		<Obj typename='NI_MeasurementParameter' name=''>
 																			<subprops>
 																				<Name classname='Str'>
-																					<value>passing_sites</value>
+																					<value>Passing sites</value>
 																				</Name>
 																				<ArgumentValue classname='ExprValue'>
 																					<value/>
@@ -4758,6 +4773,9 @@
 																				<TypeSpecialization classname='Str'>
 																					<value>None</value>
 																				</TypeSpecialization>
+																				<EnumDefinition classname='Objs'>
+																					<value lbound='[0]' ubound='[]'/>
+																				</EnumDefinition>
 																			</subprops>
 																		</Obj>
 																	</value>
@@ -4765,7 +4783,7 @@
 																		<Obj typename='NI_MeasurementParameter' name=''>
 																			<subprops>
 																				<Name classname='Str'>
-																					<value>failing_sites</value>
+																					<value>Failing sites</value>
 																				</Name>
 																				<ArgumentValue classname='ExprValue'>
 																					<value/>
@@ -4788,6 +4806,9 @@
 																				<TypeSpecialization classname='Str'>
 																					<value>None</value>
 																				</TypeSpecialization>
+																				<EnumDefinition classname='Objs'>
+																					<value lbound='[0]' ubound='[]'/>
+																				</EnumDefinition>
 																			</subprops>
 																		</Obj>
 																	</value>
