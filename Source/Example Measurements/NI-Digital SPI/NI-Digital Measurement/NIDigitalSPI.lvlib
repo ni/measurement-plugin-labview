@@ -14,9 +14,7 @@
 		<Item Name="MeasurementPlugin.lvclass" Type="LVClass" URL="../Advanced/MeasurementPlugin.lvclass"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
-		<Item Name="Close NI-Digital Session.vi" Type="VI" URL="../subVIs/Close NI-Digital Session.vi"/>
 		<Item Name="Initialize NI-Digital Session.vi" Type="VI" URL="../subVIs/Initialize NI-Digital Session.vi"/>
-		<Item Name="NI-Digital Specific Logic.vi" Type="VI" URL="../subVIs/NI-Digital Specific Logic.vi"/>
 	</Item>
 	<Item Name="TestStand Code Modules" Type="Folder">
 		<Item Name="subVIs" Type="Folder">
