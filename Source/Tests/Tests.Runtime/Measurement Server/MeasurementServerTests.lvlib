@@ -28,8 +28,8 @@
 		<Item Name="Simple Channel Mapping to Channel Mapping Cluster.vi" Type="VI" URL="../Helpers/Simple Channel Mapping to Channel Mapping Cluster.vi"/>
 		<Item Name="Pin Map XML Strings Global.vi" Type="VI" URL="../Helpers/Pin Map XML Strings Global.vi"/>
 		<Item Name="Register Pin Map.vi" Type="VI" URL="../Helpers/Register Pin Map.vi"/>
-		<Item Name="Restart Discovery Service.vi" Type="VI" URL="../Helpers/Restart Discovery Service.vi"/>
 		<Item Name="Get Remote Connection Options.vi" Type="VI" URL="../Helpers/Get Remote Connection Options.vi"/>
+		<Item Name="Restart Discovery Service.vi" Type="VI" URL="../Helpers/Restart Discovery Service.vi"/>
 		<Item Name="Fake Instrument.lvclass" Type="LVClass" URL="../Helpers/Fake Instrument/Fake Instrument.lvclass"/>
 	</Item>
 	<Item Name="Create Sessions" Type="Folder">
@@ -96,12 +96,14 @@
 			<Item Name="Three Sessions Three Pins Two Instruments Two Sites.vi" Type="VI" URL="../Get Connections/Test Inputs/Three Sessions Three Pins Two Instruments Two Sites.vi"/>
 			<Item Name="One Session Two Pins One Instrument Two Sites - DCPower.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument Two Sites - DCPower.vi"/>
 			<Item Name="One Session Two Pins One Instrument Two Sites - Digital.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument Two Sites - Digital.vi"/>
+			<Item Name="Three Sessions Three Pins Two Instruments Two Sites with No Session in Connection Map.vi" Type="VI" URL="../Get Connections/Test Inputs/Three Sessions Three Pins Two Instruments Two Sites with No Session in Connection Map.vi"/>
 			<Item Name="One Session Two Pins One Instrument Two Sites - Scope.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument Two Sites - Scope.vi"/>
 			<Item Name="Two Sessions Two Pins Two Instruments Two Sites - FGEN.vi" Type="VI" URL="../Get Connections/Test Inputs/Two Sessions Two Pins Two Instruments Two Sites - FGEN.vi"/>
 			<Item Name="Three Session Two Pins Three Instrument Two Sites - DMM.vi" Type="VI" URL="../Get Connections/Test Inputs/Three Session Two Pins Three Instrument Two Sites - DMM.vi"/>
 			<Item Name="One Session Two Pins One Instrument One Site with System Pin.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument One Site with System Pin.vi"/>
 		</Item>
 		<Item Name="Helpers" Type="Folder">
+			<Item Name="Session Json to Data with No Session in Connection Map - Get Connections.vi" Type="VI" URL="../Get Connections/Helpers/Session Json to Data with No Session in Connection Map - Get Connections.vi"/>
 			<Item Name="Session Json to Data - Get Connections.vi" Type="VI" URL="../Get Connections/Helpers/Session Json to Data - Get Connections.vi"/>
 		</Item>
 		<Item Name="1 Pin 1 Connection" Type="Folder">
@@ -130,6 +132,7 @@
 			<Item Name="test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsTwoConnections.vi"/>
 			<Item Name="test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsOneSite_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsOneSite_ReturnsTwoConnections.vi"/>
 			<Item Name="test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForSystemPinOneSite_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForSystemPinOneSite_ReturnsOneConnection.vi"/>
+			<Item Name="test_ReservationWithEmptySessionInConnectionMap_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_ReservationWithEmptySessionInConnectionMap_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsThreeConnections.vi"/>
 			<Item Name="test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForSystemPinAllSites_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForSystemPinAllSites_ReturnsOneConnection.vi"/>
 			<Item Name="test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForTwoDcPowerPinsAllSites_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForTwoDcPowerPinsAllSites_ReturnsTwoConnections.vi"/>
 		</Item>
@@ -159,47 +162,55 @@
 			<Item Name="test_TwoSessTwoPinTwoInstrTwoSiteReservation_CallNiFgenGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_TwoSessTwoPinTwoInstrTwoSiteReservation_CallNiFgenGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
 		</Item>
 	</Item>
-	<Item Name="niDCPower" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="test_DCPowerInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi" Type="VI" URL="../niDCPower/test_DCPowerInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi"/>
-		<Item Name="test_RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi" Type="VI" URL="../niDCPower/test_RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi"/>
-		<Item Name="test_RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../niDCPower/test_RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
-		<Item Name="test_RemoteDCPowerSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niDCPower/test_RemoteDCPowerSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
-	</Item>
-	<Item Name="niDigital" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="test_DigitalInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi" Type="VI" URL="../niDigital/test_DigitalInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi"/>
-		<Item Name="test_RemoteDigitalSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi" Type="VI" URL="../niDigital/test_RemoteDigitalSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi"/>
-		<Item Name="test_RemoteDigitalSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../niDigital/test_RemoteDigitalSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
-		<Item Name="test_RemoteDigitalSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niDigital/test_RemoteDigitalSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
-	</Item>
-	<Item Name="niDmm" Type="Folder">
-		<Item Name="test_DmmInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi" Type="VI" URL="../niDMM/test_DmmInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi"/>
-		<Item Name="test_RemoteDmmSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi" Type="VI" URL="../niDMM/test_RemoteDmmSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi"/>
-		<Item Name="test_RemoteDmmSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../niDMM/test_RemoteDmmSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
-		<Item Name="test_RemoteDmmSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niDMM/test_RemoteDmmSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
-	</Item>
-	<Item Name="niFGEN" Type="Folder">
-		<Item Name="test_FgenInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi" Type="VI" URL="../niFGEN/test_FgenInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi"/>
-		<Item Name="test_RemoteFgenSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi" Type="VI" URL="../niFGEN/test_RemoteFgenSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi"/>
-		<Item Name="test_RemoteFgenSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../niFGEN/test_RemoteFgenSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
-		<Item Name="test_RemoteFgenSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niFGEN/test_RemoteFgenSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
-	</Item>
-	<Item Name="niScope" Type="Folder">
-		<Item Name="test_RemoteScopeSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi" Type="VI" URL="../niScope/test_RemoteScopeSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi"/>
-		<Item Name="test_RemoteScopeSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../niScope/test_RemoteScopeSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
-		<Item Name="test_RemoteScopeSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niScope/test_RemoteScopeSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
-		<Item Name="test_ScopeInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi" Type="VI" URL="../niScope/test_ScopeInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi"/>
-	</Item>
 	<Item Name="Unreserve Sessions" Type="Folder">
 		<Item Name="test_AfterCallUnreserveSessions_SessionReservationReturnsErrorForAnyAction.vi" Type="VI" URL="../Unreserve Sessions/test_AfterCallUnreserveSessions_SessionReservationReturnsErrorForAnyAction.vi"/>
 		<Item Name="test_SessionsReserved_CallUnreserveSessions_AllowsSessionsToBeReservedAgain.vi" Type="VI" URL="../Unreserve Sessions/test_SessionsReserved_CallUnreserveSessions_AllowsSessionsToBeReservedAgain.vi"/>
 	</Item>
-	<Item Name="test_ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../test_ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
-	<Item Name="test_ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../test_ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
-	<Item Name="test_DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi" Type="VI" URL="../test_DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi"/>
-	<Item Name="test_ServiceLocationPool_DiscoveryServiceUnavailable_GetUncachedLocation_ReturnsError.vi" Type="VI" URL="../test_ServiceLocationPool_DiscoveryServiceUnavailable_GetUncachedLocation_ReturnsError.vi"/>
-	<Item Name="test_ServiceLocationPool_GetInvalidServiceTwice_DoesNotCacheInvalidData.vi" Type="VI" URL="../test_ServiceLocationPool_GetInvalidServiceTwice_DoesNotCacheInvalidData.vi"/>
-	<Item Name="test_ServiceLocationPool_GetLocation_ReturnsValidLocation.vi" Type="VI" URL="../test_ServiceLocationPool_GetLocation_ReturnsValidLocation.vi"/>
-	<Item Name="test_ServiceLocationPool_GetLocationTwice_ReturnsCachedLocation.vi" Type="VI" URL="../test_ServiceLocationPool_GetLocationTwice_ReturnsCachedLocation.vi"/>
+	<Item Name="IInstrument" Type="Folder">
+		<Item Name="niScope" Type="Folder">
+			<Item Name="test_RemoteScopeSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi" Type="VI" URL="../niScope/test_RemoteScopeSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi"/>
+			<Item Name="test_RemoteScopeSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../niScope/test_RemoteScopeSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
+			<Item Name="test_RemoteScopeSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niScope/test_RemoteScopeSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
+			<Item Name="test_ScopeInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi" Type="VI" URL="../niScope/test_ScopeInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi"/>
+		</Item>
+		<Item Name="niFGEN" Type="Folder">
+			<Item Name="test_FgenInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi" Type="VI" URL="../niFGEN/test_FgenInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi"/>
+			<Item Name="test_RemoteFgenSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi" Type="VI" URL="../niFGEN/test_RemoteFgenSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi"/>
+			<Item Name="test_RemoteFgenSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../niFGEN/test_RemoteFgenSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
+			<Item Name="test_RemoteFgenSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niFGEN/test_RemoteFgenSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
+		</Item>
+		<Item Name="niDmm" Type="Folder">
+			<Item Name="test_DmmInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi" Type="VI" URL="../niDMM/test_DmmInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi"/>
+			<Item Name="test_RemoteDmmSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi" Type="VI" URL="../niDMM/test_RemoteDmmSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi"/>
+			<Item Name="test_RemoteDmmSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../niDMM/test_RemoteDmmSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
+			<Item Name="test_RemoteDmmSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niDMM/test_RemoteDmmSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
+		</Item>
+		<Item Name="niDigital" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="test_DigitalInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi" Type="VI" URL="../niDigital/test_DigitalInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi"/>
+			<Item Name="test_RemoteDigitalSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi" Type="VI" URL="../niDigital/test_RemoteDigitalSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi"/>
+			<Item Name="test_RemoteDigitalSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../niDigital/test_RemoteDigitalSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
+			<Item Name="test_RemoteDigitalSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niDigital/test_RemoteDigitalSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
+		</Item>
+		<Item Name="niDCPower" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="test_DCPowerInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi" Type="VI" URL="../niDCPower/test_DCPowerInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi"/>
+			<Item Name="test_RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi" Type="VI" URL="../niDCPower/test_RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi"/>
+			<Item Name="test_RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../niDCPower/test_RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
+			<Item Name="test_RemoteDCPowerSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niDCPower/test_RemoteDCPowerSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
+		</Item>
+	</Item>
+	<Item Name="Client Pool" Type="Folder">
+		<Item Name="test_ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../test_ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
+		<Item Name="test_ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../test_ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
+	</Item>
+	<Item Name="Discovery Service" Type="Folder">
+		<Item Name="test_DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi" Type="VI" URL="../test_DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi"/>
+	</Item>
+	<Item Name="Service Location Pool" Type="Folder">
+		<Item Name="test_ServiceLocationPool_DiscoveryServiceUnavailable_GetUncachedLocation_ReturnsError.vi" Type="VI" URL="../test_ServiceLocationPool_DiscoveryServiceUnavailable_GetUncachedLocation_ReturnsError.vi"/>
+		<Item Name="test_ServiceLocationPool_GetInvalidServiceTwice_DoesNotCacheInvalidData.vi" Type="VI" URL="../test_ServiceLocationPool_GetInvalidServiceTwice_DoesNotCacheInvalidData.vi"/>
+		<Item Name="test_ServiceLocationPool_GetLocation_ReturnsValidLocation.vi" Type="VI" URL="../test_ServiceLocationPool_GetLocation_ReturnsValidLocation.vi"/>
+		<Item Name="test_ServiceLocationPool_GetLocationTwice_ReturnsCachedLocation.vi" Type="VI" URL="../test_ServiceLocationPool_GetLocationTwice_ReturnsCachedLocation.vi"/>
+	</Item>
 </Library>
