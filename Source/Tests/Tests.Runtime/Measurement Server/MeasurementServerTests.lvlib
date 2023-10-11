@@ -36,6 +36,7 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Helpers" Type="Folder">
 			<Item Name="Session Json to Data Add State and Session - Create Sessions.vi" Type="VI" URL="../Create Sessions/Helpers/Session Json to Data Add State and Session - Create Sessions.vi"/>
+			<Item Name="Session Json to Data Add State and Connection - Create Sessions.vi" Type="VI" URL="../Create Sessions/Helpers/Session Json to Data Add State and Connection - Create Sessions.vi"/>
 			<Item Name="Session Json to Data Add State - Create Sessions.vi" Type="VI" URL="../Create Sessions/Helpers/Session Json to Data Add State - Create Sessions.vi"/>
 		</Item>
 		<Item Name="Test Inputs" Type="Folder">
@@ -45,6 +46,7 @@
 			<Item Name="Fake - 1 Session Unregistered 3 Sessions Registered Last Session Bad.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 1 Session Unregistered 3 Sessions Registered Last Session Bad.vi"/>
 			<Item Name="Fake - 1 Session Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 1 Session Unregistered.vi"/>
 			<Item Name="Fake - 2 Sessions Unregistered 1 Session Registered.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 2 Sessions Unregistered 1 Session Registered.vi"/>
+			<Item Name="Fake - 2 Sessions with Connection Map.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 2 Sessions with Connection Map.vi"/>
 			<Item Name="Fake - 3 Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 3 Sessions Unregistered.vi"/>
 			<Item Name="MixedInstruments - 2 Fake 1 DCPower Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/MixedInstruments - 2 Fake 1 DCPower Sessions Unregistered.vi"/>
 			<Item Name="niDCPower - 1 Session Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDCPower - 1 Session Unregistered.vi"/>
@@ -63,8 +65,11 @@
 			<Item Name="test_EmptyInstrumentTypeId_CallCreateSessions_ReturnsError.vi" Type="VI" URL="../Create Sessions/test_EmptyInstrumentTypeId_CallCreateSessions_ReturnsError.vi"/>
 			<Item Name="test_InstrumentTypeIdNotInReservation_CallCreateSessions_ReturnsErrorFor0Sessions.vi" Type="VI" URL="../Create Sessions/test_InstrumentTypeIdNotInReservation_CallCreateSessions_ReturnsErrorFor0Sessions.vi"/>
 			<Item Name="test_MixedInstrumentReservation_CallCreateSessions_OnlySpecifiedInstrumentSessionsCreated.vi" Type="VI" URL="../Create Sessions/test_MixedInstrumentReservation_CallCreateSessions_OnlySpecifiedInstrumentSessionsCreated.vi"/>
+			<Item Name="test_MultipleSessionsReserved_CallCreateSession_NothingAddedToCollectionMap.vi" Type="VI" URL="../Create Sessions/test_MultipleSessionsReserved_CallCreateSession_NothingAddedToCollectionMap.vi"/>
 			<Item Name="test_MultipleSessionsReserved_CallCreateSession_ReturnsErrorForTooManySessions.vi" Type="VI" URL="../Create Sessions/test_MultipleSessionsReserved_CallCreateSession_ReturnsErrorForTooManySessions.vi"/>
+			<Item Name="test_MultipleSessionsReserved_CallCreateSessions_SessionsAddedToCollectionMap.vi" Type="VI" URL="../Create Sessions/test_MultipleSessionsReserved_CallCreateSessions_SessionsAddedToCollectionMap.vi"/>
 			<Item Name="test_SessionAlreadyCreated_CallCreateSessions_ReturnsError.vi" Type="VI" URL="../Create Sessions/test_SessionAlreadyCreated_CallCreateSessions_ReturnsError.vi"/>
+			<Item Name="test_SessionInitializationErrors_CallCreateSessions_NothingAddedToCollectionMap.vi" Type="VI" URL="../Create Sessions/test_SessionInitializationErrors_CallCreateSessions_NothingAddedToCollectionMap.vi"/>
 			<Item Name="test_SessionInitializeErrors_CallCreateSessions_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi" Type="VI" URL="../Create Sessions/test_SessionInitializeErrors_CallCreateSessions_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi"/>
 			<Item Name="test_SomeSessionsRegistered_CallCreateSessions_InitializeCalledWithProperBehavior.vi" Type="VI" URL="../Create Sessions/test_SomeSessionsRegistered_CallCreateSessions_InitializeCalledWithProperBehavior.vi"/>
 		</Item>
