@@ -23,6 +23,5 @@
 	<Item Name="Measurement Logic.vi" Type="VI" URL="../Measurement Logic.vi"/>
 	<Item Name="Measurement Results.ctl" Type="VI" URL="../Measurement Results.ctl"/>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
-	<Item Name="NIDigitalSPI.measui" Type="Document" URL="../../NIDigitalSPI.measui"/>
 	<Item Name="Run Service.vi" Type="VI" URL="../Run Service.vi"/>
 </Library>
