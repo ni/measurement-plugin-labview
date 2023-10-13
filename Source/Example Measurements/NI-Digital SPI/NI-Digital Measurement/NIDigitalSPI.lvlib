@@ -13,9 +13,6 @@
 		</Item>
 		<Item Name="MeasurementPlugin.lvclass" Type="LVClass" URL="../Advanced/MeasurementPlugin.lvclass"/>
 	</Item>
-	<Item Name="subVIs" Type="Folder">
-		<Item Name="NI-Digital Specific Logic.vi" Type="VI" URL="../subVIs/NI-Digital Specific Logic.vi"/>
-	</Item>
 	<Item Name="Get Measurement Details.vi" Type="VI" URL="../Get Measurement Details.vi"/>
 	<Item Name="Get Type Specializations.vi" Type="VI" URL="../Get Type Specializations.vi"/>
 	<Item Name="Get UI Details.vi" Type="VI" URL="../Get UI Details.vi"/>
