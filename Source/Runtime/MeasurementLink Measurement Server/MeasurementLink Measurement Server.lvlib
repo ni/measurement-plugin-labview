@@ -81,5 +81,6 @@
 	<Item Name="MeasurementServiceV2.lvclass" Type="LVClass" URL="../Classes/MeasurementServiceV2/MeasurementServiceV2.lvclass">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 	</Item>
+	<Item Name="Reservation Observer.lvclass" Type="LVClass" URL="../Reservation Observer/Reservation Observer.lvclass"/>
 	<Item Name="Run Service.vi" Type="VI" URL="../Run Service.vi"/>
 </Library>
