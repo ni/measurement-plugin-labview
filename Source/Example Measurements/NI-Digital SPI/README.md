@@ -4,9 +4,9 @@ This is a MeasurementLink example that tests an SPI device using an NI Digital P
 
 ### Features
 
-- Uses the `nidigital` package to access the NI-Digital Pattern Driver from LabVIEW
+- Uses the NI-Digital LabVIEW API to access the NI-Digital Pattern Driver from LabVIEW
 - Pin-aware, supporting one session, multiple pins, and multiple selected sites
-- Includes project files for Digital Pattern Editor, InstrumentStudio, MeasurementLink UI Editor
+- Includes project files for Digital Pattern Editor and InstrumentStudio
 - Includes a TestStand sequence showing how to configure the pin map, register
   instrument sessions with the session management service, pre-load files into the NI-Digital
   Pattern Driver, and run a measurement
