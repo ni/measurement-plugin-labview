@@ -97,6 +97,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/NIDigitalSPI.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9E3F645D-40A2-4FDB-8478-AF558764A5CA}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">NI-DigitalSPIMeasurement.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/NI-Digital SPI Measurement/NI-DigitalSPIMeasurement.exe</Property>
@@ -105,7 +106,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/NI-Digital SPI Measurement/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7933B052-24B8-4B96-BF23-F725D9585BE0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{28AEC614-DF48-47F5-A252-4DC189746CC8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NIDigitalSPI.lvlib/Get Measurement Details.vi</Property>
