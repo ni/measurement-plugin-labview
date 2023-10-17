@@ -11,16 +11,8 @@
 	<Item Name="Pin Map ID Global Variable Name.vi" Type="VI" URL="../Pin Map ID Global Variable Name.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Query Resource Access Information - 1Pin 1Rsrc.vi" Type="VI" URL="../Query Resource Access Information - 1Pin 1Rsrc.vi"/>
-	<Item Name="Query Resource Access Information - 1Pin MRsrc.vi" Type="VI" URL="../Query Resource Access Information - 1Pin MRsrc.vi"/>
-	<Item Name="Query Resource Access Information - NPin 1Rsrc.vi" Type="VI" URL="../Query Resource Access Information - NPin 1Rsrc.vi"/>
-	<Item Name="Query Resource Access Information - NPin MRsrc.vi" Type="VI" URL="../Query Resource Access Information - NPin MRsrc.vi"/>
-	<Item Name="Query Resource Access Information.vi" Type="VI" URL="../Query Resource Access Information.vi"/>
 	<Item Name="Resolve Pin Map Path for Sequence.vi" Type="VI" URL="../Resolve Pin Map Path for Sequence.vi"/>
 	<Item Name="Set Pin Map ID for Sequence.vi" Type="VI" URL="../Set Pin Map ID for Sequence.vi"/>
 	<Item Name="Update Pin Map for Sequence.vi" Type="VI" URL="../Update Pin Map for Sequence.vi"/>
 	<Item Name="Update Pin Map from File.vi" Type="VI" URL="../Update Pin Map from File.vi"/>
-	<Item Name="Validate Single Resource.vi" Type="VI" URL="../Validate Single Resource.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
 </Library>
