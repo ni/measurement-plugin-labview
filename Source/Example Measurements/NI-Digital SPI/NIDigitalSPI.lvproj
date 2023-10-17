@@ -12,6 +12,15 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="NI-Digital Files" Type="Folder">
+			<Item Name="Pattern.digipat" Type="Document" URL="../Pattern.digipat"/>
+			<Item Name="PinLevels.digilevels" Type="Document" URL="../PinLevels.digilevels"/>
+			<Item Name="PinMap.pinmap" Type="Document" URL="../PinMap.pinmap"/>
+			<Item Name="Shmoo.digishmoo" Type="Document" URL="../Shmoo.digishmoo"/>
+			<Item Name="Specifications.specs" Type="Document" URL="../Specifications.specs"/>
+			<Item Name="SPI Example.digiproj" Type="Document" URL="../SPI Example.digiproj"/>
+			<Item Name="Timing.digitiming" Type="Document" URL="../Timing.digitiming"/>
+		</Item>
 		<Item Name="NIDigitalSPI.lvlib" Type="Library" URL="../NI-Digital Measurement/NIDigitalSPI.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
@@ -106,7 +115,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/NI-Digital SPI Measurement/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{28AEC614-DF48-47F5-A252-4DC189746CC8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D4D453AD-03A3-4F22-A816-8432F2F8C8BE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NIDigitalSPI.lvlib/Get Measurement Details.vi</Property>
@@ -139,7 +148,13 @@
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/NIDigitalSPI.lvlib/Run Service.vi</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">9</Property>
+				<Property Name="Source[9].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/NI-Digital Files</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">10</Property>
 				<Property Name="TgtF_companyName" Type="Str">National Instruments Corporation</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">NI-Digital SPI Measurement</Property>
 				<Property Name="TgtF_internalName" Type="Str">NI-Digital SPI Measurement</Property>
