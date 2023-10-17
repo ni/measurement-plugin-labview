@@ -260,7 +260,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
-	<Item Name="Reserve Sessions - NPin.vi" Type="VI" URL="../Reserve Sessions - NPin.vi">
+	<Item Name="Reserve Sessions.vi" Type="VI" URL="../Reserve Sessions.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)S!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!'B!=!!?!!"'+%VF98.V=G6N:7ZU4'FO;S"4:8.T;7^O)%VB&lt;G&amp;H:7VF&lt;H1O&lt;(:M;7)&lt;5W6T=WFP&lt;C"3:8.F=H:B&gt;'FP&lt;CZM&gt;G.M98.T!!!8=W6T=WFP&lt;C"S:8.F=H:B&gt;'FP&lt;C"P&gt;81!%U!$!!RU;7VF&lt;X6U)#BN=SE!!":!5!!$!!!!!1!##'6S=G^S)'FO!!!=1$$`````%GFO=X2S&gt;7VF&lt;H1A&gt;(FQ:3"J:!!!'E!Q`````R&amp;1;7YA&lt;X)A5G6M98EA4G&amp;N:1!A1%!!!@````]!#2*Q;7YA&lt;X)A=G6M98EA&lt;G&amp;N:8-!!"2!-0````]+='FO8WVB=&amp;^J:!!!$5!$!!&gt;/&gt;7VF=GFD!"*!1!!"`````Q!-"8.J&gt;'6T!(M!]1!!!!!!!!!#,UVF98.V=G6N:7ZU4'FO;S"4:8.T;7^O)%VB&lt;G&amp;H:7VF&lt;H1A1WRJ:7ZU,GRW&lt;'FC*'ZJ8WVF98.V=G6N:7ZU&lt;'FO;V^1;7Z.98"$&lt;WZU:8BU,G.U&lt;!!?1&amp;!!!A!,!!U0='FO)'VB=#"D&lt;WZU:8BU!&amp;1!]!!-!!-!"!!%!!5!"!!%!!9!"!!(!!A!#A!/!Q!!?!!!$1A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!#!!!!!!!!!!+!!!##!!!!AA!!!!3!!!!!!%!$Q!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">553648256</Property>
