@@ -14,8 +14,6 @@
 		<Item Name="MeasurementPlugin.lvclass" Type="LVClass" URL="../Advanced/MeasurementPlugin.lvclass"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
-		<Item Name="Close NI-DCPower Session.vi" Type="VI" URL="../subVIs/Close NI-DCPower Session.vi"/>
-		<Item Name="Initialize NI-DCPower Session.vi" Type="VI" URL="../subVIs/Initialize NI-DCPower Session.vi"/>
 		<Item Name="NI-DCPower Specific Logic.vi" Type="VI" URL="../subVIs/NI-DCPower Specific Logic.vi"/>
 	</Item>
 	<Item Name="TestStand Code Modules" Type="Folder">
