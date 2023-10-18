@@ -1,6 +1,6 @@
 ## NI-DMM Measurement 
 
-This is a MeasurementLink example that acquires a single measurement from a National Instruments DMM. 
+This is a MeasurementLink example that acquires a single measurement from a NI DMM. 
 
 
 Select the measurement function and range.
@@ -13,7 +13,7 @@ Specify the resolution in digits of precision.
 
 - Uses the NI-DMM LabVIEW API
 - Pin-aware, supporting one session and one pin
-  - Uses the samse selected measrument function and range for all selected pin/site combinations.
+  - Uses the same selected measurement function and range for all selected pin/site combinations.
 - Includes InstrumentStudio project files
 - Includes a TestStand sequence showing how to configure the pin map, register
   instrument sessions with the session management service, and run a measurement.
