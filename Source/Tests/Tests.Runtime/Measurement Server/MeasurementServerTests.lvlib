@@ -28,6 +28,7 @@
 		<Item Name="Simple Channel Mapping to Channel Mapping Cluster.vi" Type="VI" URL="../Helpers/Simple Channel Mapping to Channel Mapping Cluster.vi"/>
 		<Item Name="Pin Map XML Strings Global.vi" Type="VI" URL="../Helpers/Pin Map XML Strings Global.vi"/>
 		<Item Name="Register Pin Map.vi" Type="VI" URL="../Helpers/Register Pin Map.vi"/>
+		<Item Name="Add Sessions to Connection Map.vi" Type="VI" URL="../Helpers/Add Sessions to Connection Map.vi"/>
 		<Item Name="Get Remote Connection Options.vi" Type="VI" URL="../Helpers/Get Remote Connection Options.vi"/>
 		<Item Name="Restart Discovery Service.vi" Type="VI" URL="../Helpers/Restart Discovery Service.vi"/>
 		<Item Name="Fake Instrument.lvclass" Type="LVClass" URL="../Helpers/Fake Instrument/Fake Instrument.lvclass"/>
@@ -217,5 +218,23 @@
 		<Item Name="test_ServiceLocationPool_GetInvalidServiceTwice_DoesNotCacheInvalidData.vi" Type="VI" URL="../test_ServiceLocationPool_GetInvalidServiceTwice_DoesNotCacheInvalidData.vi"/>
 		<Item Name="test_ServiceLocationPool_GetLocation_ReturnsValidLocation.vi" Type="VI" URL="../test_ServiceLocationPool_GetLocation_ReturnsValidLocation.vi"/>
 		<Item Name="test_ServiceLocationPool_GetLocationTwice_ReturnsCachedLocation.vi" Type="VI" URL="../test_ServiceLocationPool_GetLocationTwice_ReturnsCachedLocation.vi"/>
+	</Item>
+	<Item Name="Close Sessions" Type="Folder">
+		<Item Name="Helpers" Type="Folder">
+			<Item Name="Close - Session Json to Data Add Instr State.vi" Type="VI" URL="../Close Sessions/Helpers/Close - Session Json to Data Add Instr State.vi"/>
+			<Item Name="Close - 2 Fake Sessions Registered 1 Fake Session Unregistered First Session Bad.vi" Type="VI" URL="../Close Sessions/Test Inputs/Close - 2 Fake Sessions Registered 1 Fake Session Unregistered First Session Bad.vi"/>
+			<Item Name="Close - Session Json to Data Add Session Instr State Map.vi" Type="VI" URL="../Close Sessions/Helpers/Close - Session Json to Data Add Session Instr State Map.vi"/>
+		</Item>
+		<Item Name="Test Inputs" Type="Folder">
+			<Item Name="Close - 1 Fake Session.vi" Type="VI" URL="../Close Sessions/Test Inputs/Close - 1 Fake Session.vi"/>
+			<Item Name="Close - 2 Fake Sessions Registered 1 Fake Session Unregistered.vi" Type="VI" URL="../Close Sessions/Test Inputs/Close - 2 Fake Sessions Registered 1 Fake Session Unregistered.vi"/>
+		</Item>
+		<Item Name="test_SessionNeverCreated_CallCloseSessions_CloseNotCalled.vi" Type="VI" URL="../Close Sessions/test_SessionNeverCreated_CallCloseSessions_CloseNotCalled.vi"/>
+		<Item Name="test_MultipleSessionsReserved_CallCloseSessions_ConnectionMapSessionsCleared.vi" Type="VI" URL="../Close Sessions/test_MultipleSessionsReserved_CallCloseSessions_ConnectionMapSessionsCleared.vi"/>
+		<Item Name="test_MultipleSessionsReserved_CallCloseSessionsWithErrorInput_SessionsClosed.vi" Type="VI" URL="../Close Sessions/test_MultipleSessionsReserved_CallCloseSessionsWithErrorInput_SessionsClosed.vi"/>
+		<Item Name="test_FirstSessionCloseErrors_CallCloseSessions_CloseCalledForAllSessions.vi" Type="VI" URL="../Close Sessions/test_FirstSessionCloseErrors_CallCloseSessions_CloseCalledForAllSessions.vi"/>
+		<Item Name="test_MultipleSessionsReserved_CallCloseSessionsTwice_CloseNotCalledSecondTime.vi" Type="VI" URL="../Close Sessions/test_MultipleSessionsReserved_CallCloseSessionsTwice_CloseNotCalledSecondTime.vi"/>
+		<Item Name="test_MultipleSessionsReserved_CallCloseSessionsWithErrorInput_ConnectionMapSessionsCleared.vi" Type="VI" URL="../Close Sessions/test_MultipleSessionsReserved_CallCloseSessionsWithErrorInput_ConnectionMapSessionsCleared.vi"/>
+		<Item Name="test_MultipleSessionsReserved_CallCloseSessions_SessionsClosed.vi" Type="VI" URL="../Close Sessions/test_MultipleSessionsReserved_CallCloseSessions_SessionsClosed.vi"/>
 	</Item>
 </Library>
