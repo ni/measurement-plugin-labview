@@ -5,81 +5,86 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Friends List" Type="Friends List">
-		<Item Name="MeasurementServerTests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Runtime/Measurement Server/MeasurementServerTests.lvlib"/>
+		<Item Name="MeasurementServerTests.lvlib" Type="Friended Library" URL="Friended Library"/>
 	</Item>
 	<Item Name="Build Assets" Type="Folder">
-		<Item Name="Post-Build Action.vi" Type="VI" URL="../Build Assets/Post-Build Action.vi"/>
-		<Item Name="UiType.ctl" Type="VI" URL="../Build Assets/UiType.ctl">
+		<Item Name="Post-Build Action.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Build Assets/Post-Build Action.vi"/>
+		<Item Name="UiType.ctl" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Build Assets/UiType.ctl">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 	</Item>
 	<Item Name="Private Helpers" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
-		<Item Name="Add JSON Name Value Pair.vim" Type="VI" URL="../Helpers/Add JSON Name Value Pair.vim"/>
-		<Item Name="Create Enum Type Specialization.vi" Type="VI" URL="../Helpers/Create Enum Type Specialization.vi"/>
-		<Item Name="Create Measurement Services.vi" Type="VI" URL="../Helpers/Create Measurement Services.vi"/>
-		<Item Name="Encode to JSON String.vim" Type="VI" URL="../Helpers/Encode to JSON String.vim"/>
-		<Item Name="Ensure Discovery Service Started.vi" Type="VI" URL="../Helpers/Ensure Discovery Service Started.vi"/>
-		<Item Name="Filter for Enum Controls.vi" Type="VI" URL="../Helpers/Filter for Enum Controls.vi"/>
-		<Item Name="Generate Service Config JSON.vi" Type="VI" URL="../Helpers/Generate Service Config JSON.vi"/>
-		<Item Name="Get Annotations For Parameter.vi" Type="VI" URL="../Helpers/Get Annotations For Parameter.vi"/>
-		<Item Name="Get Default for Type.vi" Type="VI" URL="../Helpers/Get Default for Type.vi"/>
-		<Item Name="Get Discovery Service Key File Path.vi" Type="VI" URL="../Helpers/Get Discovery Service Key File Path.vi"/>
-		<Item Name="Get Enum Type Specializations.vi" Type="VI" URL="../Helpers/Get Enum Type Specializations.vi"/>
-		<Item Name="Get Measurement Configuration Controls.vi" Type="VI" URL="../Helpers/Get Measurement Configuration Controls.vi"/>
-		<Item Name="Get MetaData from Configurations.vi" Type="VI" URL="../Helpers/Get MetaData from Configurations.vi"/>
-		<Item Name="Get MetaData from Results.vi" Type="VI" URL="../Helpers/Get MetaData from Results.vi"/>
-		<Item Name="Get Metadata.vi" Type="VI" URL="../Helpers/Get Metadata.vi"/>
-		<Item Name="IsEnumArrayControl.vi" Type="VI" URL="../Helpers/IsEnumArrayControl.vi"/>
-		<Item Name="IsEnumControl.vi" Type="VI" URL="../Helpers/IsEnumControl.vi"/>
-		<Item Name="LabVIEW datatype to Measurement datatype.vi" Type="VI" URL="../Helpers/LabVIEW datatype to Measurement datatype.vi"/>
-		<Item Name="Read Discovery Service Key File.vi" Type="VI" URL="../Helpers/Read Discovery Service Key File.vi"/>
-		<Item Name="Register Configuration and Results.vi" Type="VI" URL="../Helpers/Register Configuration and Results.vi"/>
-		<Item Name="Register to Discovery Service.vi" Type="VI" URL="../Helpers/Register to Discovery Service.vi"/>
-		<Item Name="Start Discovery Service.vi" Type="VI" URL="../Helpers/Start Discovery Service.vi"/>
-		<Item Name="Validate Configuration Metadata.vi" Type="VI" URL="../Helpers/Validate Configuration Metadata.vi"/>
+		<Item Name="Add JSON Name Value Pair.vim" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/Add JSON Name Value Pair.vim"/>
+		<Item Name="Create Enum Type Specialization.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/Create Enum Type Specialization.vi"/>
+		<Item Name="Create Measurement Services.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/Create Measurement Services.vi"/>
+		<Item Name="Encode to JSON String.vim" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/Encode to JSON String.vim"/>
+		<Item Name="Ensure Discovery Service Started.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/Ensure Discovery Service Started.vi"/>
+		<Item Name="Error Strings Global.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/Error Strings Global.vi"/>
+		<Item Name="Filter for Enum Controls.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/Filter for Enum Controls.vi"/>
+		<Item Name="Generate Service Config JSON.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/Generate Service Config JSON.vi"/>
+		<Item Name="Get Annotations For Parameter.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/Get Annotations For Parameter.vi"/>
+		<Item Name="Get Default for Type.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/Get Default for Type.vi"/>
+		<Item Name="Get Discovery Service Key File Path.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/Get Discovery Service Key File Path.vi"/>
+		<Item Name="Get Enum Type Specializations.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/Get Enum Type Specializations.vi"/>
+		<Item Name="Get Measurement Configuration Controls.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/Get Measurement Configuration Controls.vi"/>
+		<Item Name="Get MetaData from Configurations.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/Get MetaData from Configurations.vi"/>
+		<Item Name="Get MetaData from Results.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/Get MetaData from Results.vi"/>
+		<Item Name="Get Metadata.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/Get Metadata.vi"/>
+		<Item Name="IsEnumArrayControl.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/IsEnumArrayControl.vi"/>
+		<Item Name="IsEnumControl.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/IsEnumControl.vi"/>
+		<Item Name="LabVIEW datatype to Measurement datatype.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/LabVIEW datatype to Measurement datatype.vi"/>
+		<Item Name="Location to Insecure Address.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/Location to Insecure Address.vi"/>
+		<Item Name="Read Discovery Service Key File.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/Read Discovery Service Key File.vi"/>
+		<Item Name="Register Configuration and Results.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/Register Configuration and Results.vi"/>
+		<Item Name="Register to Discovery Service.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/Register to Discovery Service.vi"/>
+		<Item Name="Service Location FGV.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/Service Location FGV.vi"/>
+		<Item Name="Start Discovery Service.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/Start Discovery Service.vi"/>
+		<Item Name="Validate Configuration Metadata.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/Validate Configuration Metadata.vi"/>
 	</Item>
 	<Item Name="Private TypeDefs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		<Item Name="ConfigurationParameter.ctl" Type="VI" URL="../Helpers/TypeDefs/ConfigurationParameter.ctl"/>
-		<Item Name="GetMetadataResponse.ctl" Type="VI" URL="../Helpers/TypeDefs/GetMetadataResponse.ctl"/>
-		<Item Name="google_protobuf_Field_Kind.ctl" Type="VI" URL="../Helpers/TypeDefs/google_protobuf_Field_Kind.ctl"/>
-		<Item Name="MeasurementSignature.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasurementSignature.ctl"/>
-		<Item Name="MeasureRequest.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasureRequest.ctl"/>
-		<Item Name="MeasureResponse.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasureResponse.ctl"/>
-		<Item Name="OutputParameter.ctl" Type="VI" URL="../Helpers/TypeDefs/OutputParameter.ctl"/>
-		<Item Name="Parameter_AnnotationsEntry.ctl" Type="VI" URL="../Helpers/TypeDefs/Parameter_AnnotationsEntry.ctl"/>
-		<Item Name="PinMapContext.ctl" Type="VI" URL="../Helpers/TypeDefs/PinMapContext.ctl"/>
-		<Item Name="UserInterfaceDetails.ctl" Type="VI" URL="../Helpers/TypeDefs/UserInterfaceDetails.ctl"/>
+		<Item Name="ConfigurationParameter.ctl" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/TypeDefs/ConfigurationParameter.ctl"/>
+		<Item Name="GetMetadataResponse.ctl" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/TypeDefs/GetMetadataResponse.ctl"/>
+		<Item Name="google_protobuf_Field_Kind.ctl" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/TypeDefs/google_protobuf_Field_Kind.ctl"/>
+		<Item Name="MeasurementSignature.ctl" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/TypeDefs/MeasurementSignature.ctl"/>
+		<Item Name="MeasureRequest.ctl" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/TypeDefs/MeasureRequest.ctl"/>
+		<Item Name="MeasureResponse.ctl" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/TypeDefs/MeasureResponse.ctl"/>
+		<Item Name="OutputParameter.ctl" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/TypeDefs/OutputParameter.ctl"/>
+		<Item Name="Parameter_AnnotationsEntry.ctl" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/TypeDefs/Parameter_AnnotationsEntry.ctl"/>
+		<Item Name="PinMapContext.ctl" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/TypeDefs/PinMapContext.ctl"/>
+		<Item Name="Service Location FGV Action.ctl" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/TypeDefs/Service Location FGV Action.ctl"/>
+		<Item Name="UserInterfaceDetails.ctl" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/TypeDefs/UserInterfaceDetails.ctl"/>
 	</Item>
 	<Item Name="Public Helpers" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Add Measurement Annotation.vim" Type="VI" URL="../Helpers/Add Measurement Annotation.vim"/>
-		<Item Name="Create Basic Measurement Annotations.vi" Type="VI" URL="../Helpers/Create Basic Measurement Annotations.vi"/>
-		<Item Name="Get Discovery Service Address.vi" Type="VI" URL="../Helpers/Get Discovery Service Address.vi"/>
+		<Item Name="Add Measurement Annotation.vim" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/Add Measurement Annotation.vim"/>
+		<Item Name="Create Basic Measurement Annotations.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/Create Basic Measurement Annotations.vi"/>
+		<Item Name="Get Discovery Service Address.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/Get Discovery Service Address.vi"/>
 	</Item>
 	<Item Name="Public TypeDefs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="MeasurementAnnotation.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasurementAnnotation.ctl"/>
-		<Item Name="MeasurementDetails.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasurementDetails.ctl"/>
-		<Item Name="MeasurementLinkServerUserEvents.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasurementLinkServerUserEvents.ctl"/>
-		<Item Name="Parameter Type Specialization.ctl" Type="VI" URL="../Helpers/TypeDefs/Parameter Type Specialization.ctl"/>
-		<Item Name="StopServerUserEvent.ctl" Type="VI" URL="../Helpers/TypeDefs/StopServerUserEvent.ctl"/>
-		<Item Name="Type Specialization Key.ctl" Type="VI" URL="../Helpers/TypeDefs/Type Specialization Key.ctl"/>
-		<Item Name="Type Specialization.ctl" Type="VI" URL="../Helpers/TypeDefs/Type Specialization.ctl"/>
-		<Item Name="UI Information.ctl" Type="VI" URL="../Helpers/TypeDefs/UI Information.ctl"/>
+		<Item Name="MeasurementAnnotation.ctl" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/TypeDefs/MeasurementAnnotation.ctl"/>
+		<Item Name="MeasurementDetails.ctl" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/TypeDefs/MeasurementDetails.ctl"/>
+		<Item Name="MeasurementLinkServerUserSettings.ctl" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/TypeDefs/MeasurementLinkServerUserSettings.ctl"/>
+		<Item Name="Parameter Type Specialization.ctl" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/TypeDefs/Parameter Type Specialization.ctl"/>
+		<Item Name="StopServerUserEvent.ctl" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/TypeDefs/StopServerUserEvent.ctl"/>
+		<Item Name="Type Specialization Key.ctl" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/TypeDefs/Type Specialization Key.ctl"/>
+		<Item Name="Type Specialization.ctl" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/TypeDefs/Type Specialization.ctl"/>
+		<Item Name="UI Information.ctl" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Helpers/TypeDefs/UI Information.ctl"/>
 	</Item>
-	<Item Name="IMeasurementService.lvclass" Type="LVClass" URL="../Classes/IMeasurementService/IMeasurementService.lvclass">
+	<Item Name="GrpcClientPool.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Classes/GrpcClientPool/GrpcClientPool.lvclass"/>
+	<Item Name="IMeasurementService.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Classes/IMeasurementService/IMeasurementService.lvclass">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 	</Item>
-	<Item Name="MeasurementContext.lvclass" Type="LVClass" URL="../Classes/MeasurementContext/MeasurementContext.lvclass"/>
-	<Item Name="MeasurementPluginService.lvclass" Type="LVClass" URL="../Classes/MeasurementPluginService/MeasurementPluginService.lvclass"/>
-	<Item Name="MeasurementServiceV1.lvclass" Type="LVClass" URL="../Classes/MeasurementServiceV1/MeasurementServiceV1.lvclass">
+	<Item Name="MeasurementContext.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Classes/MeasurementContext/MeasurementContext.lvclass"/>
+	<Item Name="MeasurementPluginService.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Classes/MeasurementPluginService/MeasurementPluginService.lvclass"/>
+	<Item Name="MeasurementServiceV1.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Classes/MeasurementServiceV1/MeasurementServiceV1.lvclass">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 	</Item>
-	<Item Name="MeasurementServiceV2.lvclass" Type="LVClass" URL="../Classes/MeasurementServiceV2/MeasurementServiceV2.lvclass">
+	<Item Name="MeasurementServiceV2.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Classes/MeasurementServiceV2/MeasurementServiceV2.lvclass">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 	</Item>
-	<Item Name="Run Service.vi" Type="VI" URL="../Run Service.vi"/>
+	<Item Name="Run Service.vi" Type="VI" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/Run Service.vi"/>
 </Library>
