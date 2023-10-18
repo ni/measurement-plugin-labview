@@ -222,11 +222,11 @@
 	<Item Name="Close Sessions" Type="Folder">
 		<Item Name="Helpers" Type="Folder">
 			<Item Name="Close - Session Json to Data Add Instr State.vi" Type="VI" URL="../Close Sessions/Helpers/Close - Session Json to Data Add Instr State.vi"/>
-			<Item Name="Close - 2 Fake Sessions Registered 1 Fake Session Unregistered First Session Bad.vi" Type="VI" URL="../Close Sessions/Test Inputs/Close - 2 Fake Sessions Registered 1 Fake Session Unregistered First Session Bad.vi"/>
 			<Item Name="Close - Session Json to Data Add Session Instr State Map.vi" Type="VI" URL="../Close Sessions/Helpers/Close - Session Json to Data Add Session Instr State Map.vi"/>
 		</Item>
 		<Item Name="Test Inputs" Type="Folder">
 			<Item Name="Close - 1 Fake Session.vi" Type="VI" URL="../Close Sessions/Test Inputs/Close - 1 Fake Session.vi"/>
+			<Item Name="Close - 2 Fake Sessions Registered 1 Fake Session Unregistered First Session Bad.vi" Type="VI" URL="../Close Sessions/Test Inputs/Close - 2 Fake Sessions Registered 1 Fake Session Unregistered First Session Bad.vi"/>
 			<Item Name="Close - 2 Fake Sessions Registered 1 Fake Session Unregistered.vi" Type="VI" URL="../Close Sessions/Test Inputs/Close - 2 Fake Sessions Registered 1 Fake Session Unregistered.vi"/>
 		</Item>
 		<Item Name="test_SessionNeverCreated_CallCloseSessions_CloseNotCalled.vi" Type="VI" URL="../Close Sessions/test_SessionNeverCreated_CallCloseSessions_CloseNotCalled.vi"/>
