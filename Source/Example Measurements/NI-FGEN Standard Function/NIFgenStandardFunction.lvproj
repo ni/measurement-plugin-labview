@@ -89,7 +89,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/NIFgenStandardFunction.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0C374A6C-64A6-436A-949A-D35936AD611B}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">NIFgenStandardFunction.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/NIFgenStandardFunction/NIFgenStandardFunction.exe</Property>
@@ -98,7 +98,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/NIFgenStandardFunction/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{88A95EB8-C8E6-4EAB-BBF0-9D8655D770DD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C42CCC91-05A0-4719-9310-34A251796638}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NIFgenStandardFunction.lvlib/Get Measurement Details.vi</Property>
@@ -135,10 +135,7 @@
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/NIFgenStandardFunction.lvlib/subVIs/Wait Until Generation Complete.vi</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
-				<Property Name="Source[9].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/NIFgenStandardFunction.lvlib/Waveform.ctl</Property>
-				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">10</Property>
+				<Property Name="SourceCount" Type="Int">9</Property>
 				<Property Name="TgtF_fastFileFormat" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">NIFgenStandardFunction</Property>
 				<Property Name="TgtF_internalName" Type="Str">NIFgenStandardFunction</Property>
