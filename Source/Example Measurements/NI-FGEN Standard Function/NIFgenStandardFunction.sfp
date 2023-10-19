@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="0AE7101B9C0BE2BCE52F8618E6968A0FD56C07886C4EDC68F52B1B5B1569B5F7229B5DCFCB35AB17F95F19AC513438BD777EB8923023ADC6EEA00CB089708BFB" Timestamp="1DA02AFFDD44358" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="93E56AC526B240B44CCB97D8D77BE1E72D87A2403B3A874897349D10304B93615E4B247D572CECAEF9192103071A523F98BA2DC69CB27F700CF2086538326961" Timestamp="1DA02C462EF7193" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.11.0.1113" FeatureSetName="Configuration Based Software Core" Name="http://www.ni.com/ConfigurationBasedSoftware.Core" OldestCompatibleVersion="6.3.0.49152" Version="9.8.1.49152" />
 		<ParsableNamespace AssemblyFileVersion="24.0.0.1078" FeatureSetName="UnifiedTask" Name="http://www.ni.com/InstrumentFramework/Document/SourceModel/UnifiedSoftFrontPanel" Version="1.0.0.0" />
@@ -12,7 +12,7 @@
 		<EnvoyManagerRootEnvoy Id="e49191230e6344f7962c9f1d1a614903" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
 		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="9eacbb0134d54974b3619ae7a561ccee" Name="NIFgenStandardFunction.sfp" NameTracksFileName="True" />
 		<EmbeddedDefinitionReference Id="a73bbd81912f453aa52aebbae2a18ebd" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/ScreenDocument}Screen" Name="{http\://www.ni.com/InstrumentFramework/ScreenDocument}Screen.task">
-			<Screen ClientId="{c38c1f48-fd94-47f4-a40c-99f1fe886dab}" ConfigurationParameters="{&quot;@type&quot;:&quot;type.googleapis.com/ConfigurationParameter&quot;,&quot;pinName&quot;:&quot;Pin1&quot;,&quot;waveform&quot;:2,&quot;frequency&quot;:1000000.0,&quot;amplitude&quot;:1.0,&quot;duration&quot;:1.0}" DisplayName="NI-FGEN Standard Function (LabVIEW)" Id="8cfefc2aa3804417adfaaa04f5bc994f" PanelPresentation="ConfigurationWithVisualization" ServiceClass="ni.examples.NIFgenStandardFunction_LabVIEW" xmlns="http://www.ni.com/InstrumentFramework/ScreenDocument">
+			<Screen ClientId="{ae1bb90a-e987-4638-b99a-0afdb06d661c}" ConfigurationParameters="{&quot;@type&quot;:&quot;type.googleapis.com/ConfigurationParameter&quot;,&quot;pinName&quot;:&quot;Pin1&quot;,&quot;waveform&quot;:0,&quot;frequency&quot;:1000000.0,&quot;amplitude&quot;:1.0,&quot;duration&quot;:1.0}" DisplayName="NI-FGEN Standard Function (LabVIEW)" Id="8cfefc2aa3804417adfaaa04f5bc994f" PanelPresentation="ConfigurationWithVisualization" ServiceClass="ni.examples.NIFgenStandardFunction_LabVIEW" xmlns="http://www.ni.com/InstrumentFramework/ScreenDocument">
 				<ScreenSurface BackgroundColor="[SMSolidColorBrush]#ffffffff" Height="[float]400" Id="418eadb062164644bed2bc9b29fab827" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]800" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core" />
 			</Screen>
 		</EmbeddedDefinitionReference>
