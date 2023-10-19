@@ -17,6 +17,7 @@
 		<Item Name="Assertion Helpers" Type="Folder">
 			<Item Name="Assert Number of Sessions.vim" Type="VI" URL="../Helpers/Assertion Helpers/Assert Number of Sessions.vim"/>
 			<Item Name="Assert Equal.vim" Type="VI" URL="../Helpers/Assertion Helpers/Assert Equal.vim"/>
+			<Item Name="Assert Session in Connection.vim" Type="VI" URL="../Helpers/Assertion Helpers/Assert Session in Connection.vim"/>
 			<Item Name="Assert Error Code.vi" Type="VI" URL="../Helpers/Assertion Helpers/Assert Error Code.vi"/>
 			<Item Name="Assert Number of Initialize and Close Calls.vi" Type="VI" URL="../Helpers/Assertion Helpers/Assert Number of Initialize and Close Calls.vi"/>
 			<Item Name="Assert Number of Calls.vi" Type="VI" URL="../Helpers/Assertion Helpers/Assert Number of Calls.vi"/>
@@ -28,6 +29,7 @@
 		<Item Name="Simple Channel Mapping to Channel Mapping Cluster.vi" Type="VI" URL="../Helpers/Simple Channel Mapping to Channel Mapping Cluster.vi"/>
 		<Item Name="Pin Map XML Strings Global.vi" Type="VI" URL="../Helpers/Pin Map XML Strings Global.vi"/>
 		<Item Name="Register Pin Map.vi" Type="VI" URL="../Helpers/Register Pin Map.vi"/>
+		<Item Name="Add Sessions to Connection Map.vi" Type="VI" URL="../Helpers/Add Sessions to Connection Map.vi"/>
 		<Item Name="Get Remote Connection Options.vi" Type="VI" URL="../Helpers/Get Remote Connection Options.vi"/>
 		<Item Name="Restart Discovery Service.vi" Type="VI" URL="../Helpers/Restart Discovery Service.vi"/>
 		<Item Name="Fake Instrument.lvclass" Type="LVClass" URL="../Helpers/Fake Instrument/Fake Instrument.lvclass"/>
@@ -65,11 +67,11 @@
 			<Item Name="test_EmptyInstrumentTypeId_CallCreateSessions_ReturnsError.vi" Type="VI" URL="../Create Sessions/test_EmptyInstrumentTypeId_CallCreateSessions_ReturnsError.vi"/>
 			<Item Name="test_InstrumentTypeIdNotInReservation_CallCreateSessions_ReturnsErrorFor0Sessions.vi" Type="VI" URL="../Create Sessions/test_InstrumentTypeIdNotInReservation_CallCreateSessions_ReturnsErrorFor0Sessions.vi"/>
 			<Item Name="test_MixedInstrumentReservation_CallCreateSessions_OnlySpecifiedInstrumentSessionsCreated.vi" Type="VI" URL="../Create Sessions/test_MixedInstrumentReservation_CallCreateSessions_OnlySpecifiedInstrumentSessionsCreated.vi"/>
-			<Item Name="test_MultipleSessionsReserved_CallCreateSession_NothingAddedToCollectionMap.vi" Type="VI" URL="../Create Sessions/test_MultipleSessionsReserved_CallCreateSession_NothingAddedToCollectionMap.vi"/>
+			<Item Name="test_MultipleSessionsReserved_CallCreateSession_NothingAddedToConnectionMap.vi" Type="VI" URL="../Create Sessions/test_MultipleSessionsReserved_CallCreateSession_NothingAddedToConnectionMap.vi"/>
 			<Item Name="test_MultipleSessionsReserved_CallCreateSession_ReturnsErrorForTooManySessions.vi" Type="VI" URL="../Create Sessions/test_MultipleSessionsReserved_CallCreateSession_ReturnsErrorForTooManySessions.vi"/>
-			<Item Name="test_MultipleSessionsReserved_CallCreateSessions_SessionsAddedToCollectionMap.vi" Type="VI" URL="../Create Sessions/test_MultipleSessionsReserved_CallCreateSessions_SessionsAddedToCollectionMap.vi"/>
+			<Item Name="test_MultipleSessionsReserved_CallCreateSessions_SessionsAddedToConnectionMap.vi" Type="VI" URL="../Create Sessions/test_MultipleSessionsReserved_CallCreateSessions_SessionsAddedToConnectionMap.vi"/>
 			<Item Name="test_SessionAlreadyCreated_CallCreateSessions_ReturnsError.vi" Type="VI" URL="../Create Sessions/test_SessionAlreadyCreated_CallCreateSessions_ReturnsError.vi"/>
-			<Item Name="test_SessionInitializationErrors_CallCreateSessions_NothingAddedToCollectionMap.vi" Type="VI" URL="../Create Sessions/test_SessionInitializationErrors_CallCreateSessions_NothingAddedToCollectionMap.vi"/>
+			<Item Name="test_SessionInitializationErrors_CallCreateSessions_NothingAddedToConnectionMap.vi" Type="VI" URL="../Create Sessions/test_SessionInitializationErrors_CallCreateSessions_NothingAddedToConnectionMap.vi"/>
 			<Item Name="test_SessionInitializeErrors_CallCreateSessions_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi" Type="VI" URL="../Create Sessions/test_SessionInitializeErrors_CallCreateSessions_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi"/>
 			<Item Name="test_SomeSessionsRegistered_CallCreateSessions_InitializeCalledWithProperBehavior.vi" Type="VI" URL="../Create Sessions/test_SomeSessionsRegistered_CallCreateSessions_InitializeCalledWithProperBehavior.vi"/>
 		</Item>
@@ -217,5 +219,21 @@
 		<Item Name="test_ServiceLocationPool_GetInvalidServiceTwice_DoesNotCacheInvalidData.vi" Type="VI" URL="../test_ServiceLocationPool_GetInvalidServiceTwice_DoesNotCacheInvalidData.vi"/>
 		<Item Name="test_ServiceLocationPool_GetLocation_ReturnsValidLocation.vi" Type="VI" URL="../test_ServiceLocationPool_GetLocation_ReturnsValidLocation.vi"/>
 		<Item Name="test_ServiceLocationPool_GetLocationTwice_ReturnsCachedLocation.vi" Type="VI" URL="../test_ServiceLocationPool_GetLocationTwice_ReturnsCachedLocation.vi"/>
+	</Item>
+	<Item Name="Close Sessions" Type="Folder">
+		<Item Name="Helpers" Type="Folder">
+			<Item Name="Close - Session Json to Data Add Instr State.vi" Type="VI" URL="../Close Sessions/Helpers/Close - Session Json to Data Add Instr State.vi"/>
+			<Item Name="Close - Session Json to Data Add Session Instr State Map.vi" Type="VI" URL="../Close Sessions/Helpers/Close - Session Json to Data Add Session Instr State Map.vi"/>
+		</Item>
+		<Item Name="Test Inputs" Type="Folder">
+			<Item Name="Close - 1 Fake Session.vi" Type="VI" URL="../Close Sessions/Test Inputs/Close - 1 Fake Session.vi"/>
+			<Item Name="Close - 2 Fake Sessions Registered 1 Fake Session Unregistered First Session Bad.vi" Type="VI" URL="../Close Sessions/Test Inputs/Close - 2 Fake Sessions Registered 1 Fake Session Unregistered First Session Bad.vi"/>
+			<Item Name="Close - 2 Fake Sessions Registered 1 Fake Session Unregistered.vi" Type="VI" URL="../Close Sessions/Test Inputs/Close - 2 Fake Sessions Registered 1 Fake Session Unregistered.vi"/>
+		</Item>
+		<Item Name="test_SessionNeverCreated_CallCloseSessions_CloseNotCalled.vi" Type="VI" URL="../Close Sessions/test_SessionNeverCreated_CallCloseSessions_CloseNotCalled.vi"/>
+		<Item Name="test_MultipleSessionsReserved_CallCloseSessionsWithErrorInput_SessionsClosed.vi" Type="VI" URL="../Close Sessions/test_MultipleSessionsReserved_CallCloseSessionsWithErrorInput_SessionsClosed.vi"/>
+		<Item Name="test_FirstSessionCloseErrors_CallCloseSessions_CloseCalledForAllSessions.vi" Type="VI" URL="../Close Sessions/test_FirstSessionCloseErrors_CallCloseSessions_CloseCalledForAllSessions.vi"/>
+		<Item Name="test_MultipleSessionsReserved_CallCloseSessionsTwice_CloseNotCalledSecondTime.vi" Type="VI" URL="../Close Sessions/test_MultipleSessionsReserved_CallCloseSessionsTwice_CloseNotCalledSecondTime.vi"/>
+		<Item Name="test_MultipleSessionsReserved_CallCloseSessions_SessionsClosed.vi" Type="VI" URL="../Close Sessions/test_MultipleSessionsReserved_CallCloseSessions_SessionsClosed.vi"/>
 	</Item>
 </Library>
