@@ -37,9 +37,9 @@
 	<Item Name="Create Sessions" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Helpers" Type="Folder">
-			<Item Name="Session Json to Data Add State and Session - Create Sessions.vi" Type="VI" URL="../Create Sessions/Helpers/Session Json to Data Add State and Session - Create Sessions.vi"/>
-			<Item Name="Session Json to Data Add State and Connection - Create Sessions.vi" Type="VI" URL="../Create Sessions/Helpers/Session Json to Data Add State and Connection - Create Sessions.vi"/>
-			<Item Name="Session Json to Data Add State - Create Sessions.vi" Type="VI" URL="../Create Sessions/Helpers/Session Json to Data Add State - Create Sessions.vi"/>
+			<Item Name="Session Json to Data - Create Sessions.vi" Type="VI" URL="../Create Sessions/Helpers/Session Json to Data - Create Sessions.vi"/>
+			<Item Name="Session Json to Data Add Connection - Create Sessions.vi" Type="VI" URL="../Create Sessions/Helpers/Session Json to Data Add Connection - Create Sessions.vi"/>
+			<Item Name="Session Json to Data Add Session - Create Sessions.vi" Type="VI" URL="../Create Sessions/Helpers/Session Json to Data Add Session - Create Sessions.vi"/>
 		</Item>
 		<Item Name="Test Inputs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
@@ -222,8 +222,8 @@
 	</Item>
 	<Item Name="Close Sessions" Type="Folder">
 		<Item Name="Helpers" Type="Folder">
-			<Item Name="Close - Session Json to Data Add Instr State.vi" Type="VI" URL="../Close Sessions/Helpers/Close - Session Json to Data Add Instr State.vi"/>
-			<Item Name="Close - Session Json to Data Add Session Instr State Map.vi" Type="VI" URL="../Close Sessions/Helpers/Close - Session Json to Data Add Session Instr State Map.vi"/>
+			<Item Name="Close - Session Json to Data Add Instr.vi" Type="VI" URL="../Close Sessions/Helpers/Close - Session Json to Data Add Instr.vi"/>
+			<Item Name="Close - Session Json to Data Add Session Instr Map.vi" Type="VI" URL="../Close Sessions/Helpers/Close - Session Json to Data Add Session Instr Map.vi"/>
 		</Item>
 		<Item Name="Test Inputs" Type="Folder">
 			<Item Name="Close - 1 Fake Session.vi" Type="VI" URL="../Close Sessions/Test Inputs/Close - 1 Fake Session.vi"/>
