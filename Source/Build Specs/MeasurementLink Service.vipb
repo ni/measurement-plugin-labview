@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2023-10-19 12:50:37" Creator="lvadmin" Comments="" ID="8394dcbc693059a0d9e57d4b99334af3">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2023-10-19 16:52:43" Creator="lvadmin" Comments="" ID="223c39e0402146fd34be30d2e474917a">
   <Library_General_Settings>
     <Package_File_Name>NI_MeasurementLink_Service</Package_File_Name>
-    <Library_Version>1.2.0.14</Library_Version>
+    <Library_Version>1.2.0.16</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Runtime</Library_Source_Folder>
     <Library_Output_Folder>..\..\Build Output</Library_Output_Folder>
@@ -328,7 +328,7 @@
         <Path>..\Runtime\TestStand Support</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8A835B7B4ADFAF760F96B991C46216B4</GUID>
+      <GUID>287D295323E2BE44B34B183163209BC4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -349,7 +349,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path/>
       </Synchronization_Info>
-      <GUID>2D710A8D8C771508F69472EDE304FED8</GUID>
+      <GUID>1EF4CFF05FB4DC8835EEC39765797EBA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -524,7 +524,7 @@
         <Path>..\Runtime\NI-SCOPE</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9D5B65133107EAFB9427C6000CE34CF7</GUID>
+      <GUID>A37C4DE5857903FF3ABA0F63C96F8A5D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -601,7 +601,7 @@
         <Path>..\Runtime\MeasurementLink TestStand Integration\Get Pin Map ID for Sequence.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>260B1256F09898042E1B6F9801F47E4D</GUID>
+      <GUID>B2144F63C4C9CACCDBCD5E1510CAFB21</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -650,7 +650,7 @@
         <Path>&lt;vi.lib&gt;\MeasurementLink\MeasurementLink niDCPower\Get Connections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BB8EB2F26C17E1CF872BB9425FECDFCF</GUID>
+      <GUID>5823EAE25135F1CF8340BCFFC2289976</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -699,7 +699,7 @@
         <Path>&lt;vi.lib&gt;\MeasurementLink\MeasurementLink niDigital\Get Connections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>744B3C525851DC4E3D689D774497F1DE</GUID>
+      <GUID>6EC48E453B83C320A781085AE6349805</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -748,7 +748,7 @@
         <Path>&lt;vi.lib&gt;\MeasurementLink\MeasurementLink niDMM\Get Connections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2BB6314E316D7FB228CCD0B95164FC81</GUID>
+      <GUID>F27B3B3E8CBC5550347C4269456D4E54</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -797,7 +797,7 @@
         <Path>&lt;vi.lib&gt;\MeasurementLink\MeasurementLink niFGEN\Get Connections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>85049235CF25B67BB0AAC6362C253D77</GUID>
+      <GUID>396FB11FE88C16B0978AFED87E0D76F9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -846,7 +846,7 @@
         <Path>..\Runtime\MeasurementLink niScope\Get Connections.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>88D193F457397067E6C05E66E1F54F18</GUID>
+      <GUID>0043AC1791077B74D4BFD9CCCDC92F20</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
