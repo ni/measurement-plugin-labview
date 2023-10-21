@@ -26,6 +26,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1074541056</Property>
 		</Item>
+		<Item Name="Initialize and Close Session Behavior.ctl" Type="VI" URL="../Initialize and Close Session Behavior.ctl">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#U!!!!!1#M!0%!!!!!!!!!!S".:7&amp;T&gt;8*F&lt;76O&gt;%RJ&lt;GMA37ZT&gt;(*V&lt;76O&gt;#ZM&gt;GRJ9B.*37ZT&gt;(*V&lt;76O&gt;#ZM&gt;G.M98.T+5FO;82J97RJ?G5A97ZE)%.M&lt;X.F)&amp;.F=X.J&lt;WYA1G6I98:J&lt;X)O9X2M!%6!&amp;A!#$E.S:7&amp;U:3"4:8.T;7^O$E&amp;U&gt;'&amp;D;#"4:8.T;7^O!"NJ&lt;GFU;7&amp;M;8JF)(.F=X.J&lt;WYA9G6I98:J&lt;X)!!1!!!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074278912</Property>
+		</Item>
 		<Item Name="Initialize Session Behavior.ctl" Type="VI" URL="../Initialize Session Behavior.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"7!!!!!1"/!0%!!!!!!!!!!S".:7&amp;T&gt;8*F&lt;76O&gt;%RJ&lt;GMA37ZT&gt;(*V&lt;76O&gt;#ZM&gt;GRJ9B**&lt;H.U=H6N:7ZU,GRW9WRB=X-*1W^O&gt;(*P&lt;#!R!!A!!!!"!!!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
