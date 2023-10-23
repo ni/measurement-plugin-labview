@@ -12,9 +12,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Keysight 34401A DMM Instrument.lvlib" Type="Library" URL="../Keysight 34401A DMM Instrument/Keysight 34401A DMM Instrument.lvlib"/>
 		<Item Name="Keysight 34401A DMM Measurement UI.lvlib" Type="Library" URL="../Keysight 34401A DMM Measurement UI/Keysight 34401A DMM Measurement UI.lvlib"/>
 		<Item Name="Keysight 34401A DMM Measurement.lvlib" Type="Library" URL="../Keysight 34401A DMM Measurement/Keysight 34401A DMM Measurement.lvlib"/>
-		<Item Name="MeasurementLink 34401.lvlib" Type="Library" URL="../MeasurementLink 34401/MeasurementLink 34401.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Agilent 34401.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent 34401/Agilent 34401.lvlib"/>
