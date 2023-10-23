@@ -20,5 +20,7 @@
 	<Item Name="Measurement Logic.vi" Type="VI" URL="../Measurement Logic.vi"/>
 	<Item Name="Measurement Results.ctl" Type="VI" URL="../Measurement Results.ctl"/>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
+	<Item Name="MeasurementTypes.ctl" Type="VI" URL="../MeasurementTypes.ctl"/>
+	<Item Name="ResolutionInDigits.ctl" Type="VI" URL="../ResolutionInDigits.ctl"/>
 	<Item Name="Run Service.vi" Type="VI" URL="../Run Service.vi"/>
 </Library>
