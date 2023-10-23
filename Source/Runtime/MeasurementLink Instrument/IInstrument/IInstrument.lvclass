@@ -54,6 +54,16 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1074541056</Property>
 		</Item>
 	</Item>
+	<Item Name="Clean Up MeasurementLink Session for Init Error.vi" Type="VI" URL="../Clean Up MeasurementLink Session for Init Error.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(P!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!5!!$!!!!!1!##'6S=G^S)'FO!!$?!0%!!!!!!!!!!S".:7&amp;T&gt;8*F&lt;76O&gt;%RJ&lt;GMA37ZT&gt;(*V&lt;76O&gt;#ZM&gt;GRJ9B.*37ZT&gt;(*V&lt;76O&gt;#ZM&gt;G.M98.T+5FO;82J97RJ?G5A97ZE)%.M&lt;X.F)&amp;.F=X.J&lt;WYA1G6I98:J&lt;X)O9X2M!(&gt;!&amp;A!%%%.S:7&amp;U:3"B&lt;G1A1WRP=W52182U97.I)'&amp;O:#"%:82B9WA21X*F982F)'&amp;O:#"%:82B9WA1182U97.I)'&amp;O:#"$&lt;'^T:1!F;7ZJ&gt;'FB&lt;'F[:3"B&lt;G1A9WRP=W5A=W6T=WFP&lt;C"C:7BB&gt;GFP=A!11&amp;-+=W6T=WFP&lt;C"J&lt;A!!4E"Q!"Y!!$9A476B=X6S:7VF&lt;H2-;7ZL)%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)435FO=X2S&gt;7VF&lt;H1O&lt;(:D&lt;'&amp;T=Q!!$7FO=X2S&gt;7VF&lt;H1A;7Y!6!$Q!!Q!!Q!%!!1!"!!%!!1!"!!%!!5!"A!(!!A$!!"Y!!!.#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!1!!!!%!!!!*!!!!!!!1!*!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.MustOverride" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+	</Item>
 	<Item Name="Close MeasurementLink Session.vi" Type="VI" URL="../Close MeasurementLink Session.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(Z!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!XA$R!!!!!!!!!!-A476B=X6S:7VF&lt;H2-;7ZL)%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)435FO=X2S&gt;7VF&lt;H1O&lt;(:D&lt;'&amp;T=SF*&lt;GFU;7&amp;M;8JF)'&amp;O:#"$&lt;'^T:3"4:8.T;7^O)%*F;'&amp;W;7^S,G.U&lt;!"X1"9!"""$=G6B&gt;'5A97ZE)%.M&lt;X.F%5&amp;U&gt;'&amp;D;#"B&lt;G1A2'6U97.I%5.S:7&amp;U:3"B&lt;G1A2'6U97.I%%&amp;U&gt;'&amp;D;#"B&lt;G1A1WRP=W5!*7FO;82J97RJ?G5A97ZE)'.M&lt;X.F)(.F=X.J&lt;WYA9G6I98:J&lt;X)!%%"4#H.F=X.J&lt;WYA;7Y!!%Z!=!!?!!!W)%VF98.V=G6N:7ZU4'FO;S"*&lt;H.U=H6N:7ZU,GRW&lt;'FC%UF*&lt;H.U=H6N:7ZU,GRW9WRB=X-!!!VJ&lt;H.U=H6N:7ZU)'FO!&amp;1!]!!-!!-!"!!%!!1!"!!%!!1!"!!&amp;!!9!"Q!)!A!!?!!!$1A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!%!!!!"!!!!#1!!!!!!%!#1!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -91,14 +101,14 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
-	<Item Name="To Cleanup Close Session Behavior.vi" Type="VI" URL="../To Cleanup Close Session Behavior.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(8!!!!"!!%!!!!G1$R!!!!!!!!!!-A476B=X6S:7VF&lt;H2-;7ZL)%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)435FO=X2S&gt;7VF&lt;H1O&lt;(:D&lt;'&amp;T=RJ$&lt;'^T:3"4:8.T;7^O)%*F;'&amp;W;7^S,G.U&lt;!""1"9!!AV$&lt;'^T:3"4:8.T;7^O$E2F&gt;'&amp;D;#"4:8.T;7^O!!!79WRP=W5A=W6T=WFP&lt;C"C:7BB&gt;GFP=A!!XA$R!!!!!!!!!!-A476B=X6S:7VF&lt;H2-;7ZL)%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)435FO=X2S&gt;7VF&lt;H1O&lt;(:D&lt;'&amp;T=SF*&lt;GFU;7&amp;M;8JF)'&amp;O:#"$&lt;'^T:3"4:8.T;7^O)%*F;'&amp;W;7^S,G.U&lt;!"X1"9!"""$=G6B&gt;'5A97ZE)%.M&lt;X.F%5&amp;U&gt;'&amp;D;#"B&lt;G1A2'6U97.I%5.S:7&amp;U:3"B&lt;G1A2'6U97.I%%&amp;U&gt;'&amp;D;#"B&lt;G1A1WRP=W5!*7FO;82J97RJ?G5A97ZE)'.M&lt;X.F)(.F=X.J&lt;WYA9G6I98:J&lt;X)!6!$Q!!Q!!!!!!!!!!1!!!!!!!!!!!!!!!!!!!!)#!!"Y!!!!!!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!!!!1!$!!!!!!</Property>
+	<Item Name="To Cleanup Initialize and Close Session Behavior.vi" Type="VI" URL="../To Cleanup Initialize and Close Session Behavior.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)E!!!!"!!%!!!!ZA$R!!!!!!!!!!-A476B=X6S:7VF&lt;H2-;7ZL)%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)435FO=X2S&gt;7VF&lt;H1O&lt;(:D&lt;'&amp;T=SF*&lt;GFU;7&amp;M;8JF)'&amp;O:#"$&lt;'^T:3"4:8.T;7^O)%*F;'&amp;W;7^S,G.U&lt;!"`1"9!"""$=G6B&gt;'5A97ZE)%.M&lt;X.F%5&amp;U&gt;'&amp;D;#"B&lt;G1A2'6U97.I%5.S:7&amp;U:3"B&lt;G1A2'6U97.I%%&amp;U&gt;'&amp;D;#"B&lt;G1A1WRP=W5!,7.M:7&amp;O&gt;8!A;7ZJ&gt;'FB&lt;'F[:3"B&lt;G1A9WRP=W5A=W6T=WFP&lt;C"C:7BB&gt;GFP=A$?!0%!!!!!!!!!!S".:7&amp;T&gt;8*F&lt;76O&gt;%RJ&lt;GMA37ZT&gt;(*V&lt;76O&gt;#ZM&gt;GRJ9B.*37ZT&gt;(*V&lt;76O&gt;#ZM&gt;G.M98.T+5FO;82J97RJ?G5A97ZE)%.M&lt;X.F)&amp;.F=X.J&lt;WYA1G6I98:J&lt;X)O9X2M!(&gt;!&amp;A!%%%.S:7&amp;U:3"B&lt;G1A1WRP=W52182U97.I)'&amp;O:#"%:82B9WA21X*F982F)'&amp;O:#"%:82B9WA1182U97.I)'&amp;O:#"$&lt;'^T:1!F;7ZJ&gt;'FB&lt;'F[:3"B&lt;G1A9WRP=W5A=W6T=WFP&lt;C"C:7BB&gt;GFP=A"5!0!!$!!!!!!!!!!"!!!!!!!!!!!!!!!!!!!!!A)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!!!"!!-!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">160</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1074278912</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
 	<Item Name="To Close Session Behavior.vi" Type="VI" URL="../To Close Session Behavior.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(8!!!!"!!%!!!!G1$R!!!!!!!!!!-A476B=X6S:7VF&lt;H2-;7ZL)%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)435FO=X2S&gt;7VF&lt;H1O&lt;(:D&lt;'&amp;T=RJ$&lt;'^T:3"4:8.T;7^O)%*F;'&amp;W;7^S,G.U&lt;!""1"9!!AV$&lt;'^T:3"4:8.T;7^O$E2F&gt;'&amp;D;#"4:8.T;7^O!!!79WRP=W5A=W6T=WFP&lt;C"C:7BB&gt;GFP=A!!XA$R!!!!!!!!!!-A476B=X6S:7VF&lt;H2-;7ZL)%FO=X2S&gt;7VF&lt;H1O&lt;(:M;7)435FO=X2S&gt;7VF&lt;H1O&lt;(:D&lt;'&amp;T=SF*&lt;GFU;7&amp;M;8JF)'&amp;O:#"$&lt;'^T:3"4:8.T;7^O)%*F;'&amp;W;7^S,G.U&lt;!"X1"9!"""$=G6B&gt;'5A97ZE)%.M&lt;X.F%5&amp;U&gt;'&amp;D;#"B&lt;G1A2'6U97.I%5.S:7&amp;U:3"B&lt;G1A2'6U97.I%%&amp;U&gt;'&amp;D;#"B&lt;G1A1WRP=W5!*7FO;82J97RJ?G5A97ZE)'.M&lt;X.F)(.F=X.J&lt;WYA9G6I98:J&lt;X)!6!$Q!!Q!!!!!!!!!!1!!!!!!!!!!!!!!!!!!!!)#!!"Y!!!!!!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!!!!1!$!!!!!!</Property>
