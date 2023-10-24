@@ -175,7 +175,7 @@
 	</Item>
 	<Item Name="IInstrument" Type="Folder">
 		<Item Name="Helpers" Type="Folder">
-			<Item Name="Session Initialization Details from Resource Name.vi" Type="VI" URL="../Helpers/Session Initialization Details from Resource Name.vi"/>
+			<Item Name="Session Initialization Parameters from Resource Name.vi" Type="VI" URL="../Helpers/Session Initialization Parameters from Resource Name.vi"/>
 		</Item>
 		<Item Name="niScope" Type="Folder">
 			<Item Name="test_RemoteScopeSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi" Type="VI" URL="../niScope/test_RemoteScopeSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi"/>
