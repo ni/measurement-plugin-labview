@@ -129,7 +129,6 @@
 			<Item Name="niFgen_64.dll" Type="Document" URL="niFgen_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Get Connections Dispatcher.vi" Type="VI" URL="../MeasurementLink Session Management/Session Reservation/Get Connections Dispatcher.vi"/>
 			<Item Name="Create Sessions Dispatcher.vi" Type="VI" URL="../MeasurementLink Session Management/Session Reservation/Create Sessions Dispatcher.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
