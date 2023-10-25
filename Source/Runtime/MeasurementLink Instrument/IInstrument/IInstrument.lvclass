@@ -28,7 +28,7 @@
 		</Item>
 	</Item>
 	<Item Name="Optional Overrides" Type="Folder">
-		<Item Name="Clean Up MeasurementLink Session for Init Error.vi" Type="VI" URL="../Clean Up MeasurementLink Session for Init Error.vi">
+		<Item Name="Clean Up After Init Error.vi" Type="VI" URL="../Clean Up After Init Error.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(X!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!5!!$!!!!!1!##'6S=G^S)'FO!!$G!0%!!!!!!!!!!S".:7&amp;T&gt;8*F&lt;76O&gt;%RJ&lt;GMA37ZT&gt;(*V&lt;76O&gt;#ZM&gt;GRJ9B.*37ZT&gt;(*V&lt;76O&gt;#ZM&gt;G.M98.T+5FO;82J97RJ?G5A97ZE)%.M&lt;X.F)&amp;.F=X.J&lt;WYA1G6I98:J&lt;X)O9X2M!(^!&amp;A!%&amp;%FO;82J97RJ?G5A97ZE)%.M&lt;X.F%5&amp;U&gt;'&amp;D;#"B&lt;G1A2'6U97.I&amp;5FO;82J97RJ?G5A97ZE)%2F&gt;'&amp;D;"""&gt;(2B9WAA97ZE)%.M&lt;X.F!#6J&lt;GFU;7&amp;M;8JF)'&amp;O:#"D&lt;'^T:3"T:8.T;7^O)'*F;'&amp;W;7^S!""!5QJT:8.T;7^O)'FO!!"/1(!!(A!!.C".:7&amp;T&gt;8*F&lt;76O&gt;%RJ&lt;GMA37ZT&gt;(*V&lt;76O&gt;#ZM&gt;GRJ9B.*37ZT&gt;(*V&lt;76O&gt;#ZM&gt;G.M98.T!!!.;7ZT&gt;(*V&lt;76O&gt;#"J&lt;A"5!0!!$!!$!!1!"!!%!!1!"!!%!!1!"1!'!!=!#!-!!(A!!!U)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!"!!!!!1!!!!E!!!!!!"!!E!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
