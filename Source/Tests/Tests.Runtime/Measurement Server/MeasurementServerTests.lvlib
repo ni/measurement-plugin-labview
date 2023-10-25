@@ -262,4 +262,9 @@
 		<Item Name="test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithAttachAndClose_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Create and Close Sessions/test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithAttachAndClose_InitializeAndCloseCalledWithProperBehavior.vi"/>
 		<Item Name="test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithAttachAndDetach_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Create and Close Sessions/test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithAttachAndDetach_InitializeAndCloseCalledWithProperBehavior.vi"/>
 	</Item>
+	<Item Name="Reserve Sessions" Type="Folder">
+		<Item Name="test_CallReserveSessionsWithArrayWithEmptyElement_ErrorReturned.vi" Type="VI" URL="../Reserve Sessions/test_CallReserveSessionsWithArrayWithEmptyElement_ErrorReturned.vi"/>
+		<Item Name="test_CallReserveSessionsWithEmptyPin_ErrorReturned.vi" Type="VI" URL="../Reserve Sessions/test_CallReserveSessionsWithEmptyPin_ErrorReturned.vi"/>
+		<Item Name="test_CallReserveSessionsWithZeroElementArray_ErrorReturned.vi" Type="VI" URL="../Reserve Sessions/test_CallReserveSessionsWithZeroElementArray_ErrorReturned.vi"/>
+	</Item>
 </Library>
