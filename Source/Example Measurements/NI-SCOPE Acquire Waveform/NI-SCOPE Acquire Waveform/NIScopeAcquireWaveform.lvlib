@@ -14,11 +14,6 @@
 		<Item Name="MeasurementPlugin.lvclass" Type="LVClass" URL="../Advanced/MeasurementPlugin.lvclass"/>
 	</Item>
 	<Item Name="TestStand Code Modules" Type="Folder">
-		<Item Name="subVIs" Type="Folder">
-			<Item Name="Get Pin Map ID.vi" Type="VI" URL="../TestStand Code Modules/subVIs/Get Pin Map ID.vi"/>
-			<Item Name="Resolve Pin Map Path.vi" Type="VI" URL="../TestStand Code Modules/subVIs/Resolve Pin Map Path.vi"/>
-			<Item Name="Set Pin Map ID.vi" Type="VI" URL="../TestStand Code Modules/subVIs/Set Pin Map ID.vi"/>
-		</Item>
 		<Item Name="Create and Register Sessions.vi" Type="VI" URL="../TestStand Code Modules/Create and Register Sessions.vi"/>
 		<Item Name="Unregister and Destroy Sessions.vi" Type="VI" URL="../TestStand Code Modules/Unregister and Destroy Sessions.vi"/>
 		<Item Name="Update Pin Map.vi" Type="VI" URL="../TestStand Code Modules/Update Pin Map.vi"/>

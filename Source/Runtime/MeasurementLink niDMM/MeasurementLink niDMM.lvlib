@@ -15,6 +15,6 @@
 	<Item Name="Connection with Session.ctl" Type="VI" URL="../Connection with Session.ctl"/>
 	<Item Name="Get Connections - 1Pin 1Conn.vi" Type="VI" URL="../Get Connections - 1Pin 1Conn.vi"/>
 	<Item Name="Get Connections - 1Pin MConn.vi" Type="VI" URL="../Get Connections - 1Pin MConn.vi"/>
-	<Item Name="Get Connections - NPin NConn.vi" Type="VI" URL="../Get Connections - NPin NConn.vi"/>
+	<Item Name="Get Connections - NPin MConn.vi" Type="VI" URL="../Get Connections - NPin MConn.vi"/>
 	<Item Name="Get Connections.vi" Type="VI" URL="../Get Connections.vi"/>
 </Library>
