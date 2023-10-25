@@ -249,4 +249,12 @@
 		<Item Name="test_MultipleSessionsReserved_CallCloseSessionsTwice_CloseNotCalledSecondTime.vi" Type="VI" URL="../Close Sessions/test_MultipleSessionsReserved_CallCloseSessionsTwice_CloseNotCalledSecondTime.vi"/>
 		<Item Name="test_MultipleSessionsReserved_CallCloseSessions_SessionsClosed.vi" Type="VI" URL="../Close Sessions/test_MultipleSessionsReserved_CallCloseSessions_SessionsClosed.vi"/>
 	</Item>
+	<Item Name="Create and Close Sessions" Type="Folder">
+		<Item Name="parameterized_CallCreateSessionsAndCloseSessions_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Create and Close Sessions/parameterized_CallCreateSessionsAndCloseSessions_InitializeAndCloseCalledWithProperBehavior.vi"/>
+		<Item Name="test_SomeSessionsRegistered_CallCreateSessionsAndCloseSessionsWithAuto_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Create and Close Sessions/test_SomeSessionsRegistered_CallCreateSessionsAndCloseSessionsWithAuto_InitializeAndCloseCalledWithProperBehavior.vi"/>
+		<Item Name="test_SomeSessionsRegistered_CallCreateSessionsAndCloseSessionsWithInitializeAndClose_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Create and Close Sessions/test_SomeSessionsRegistered_CallCreateSessionsAndCloseSessionsWithInitializeAndClose_InitializeAndCloseCalledWithProperBehavior.vi"/>
+		<Item Name="test_SomeSessionsRegistered_CallCreateSessionsAndCloseSessionsWithInitializeAndDetach_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Create and Close Sessions/test_SomeSessionsRegistered_CallCreateSessionsAndCloseSessionsWithInitializeAndDetach_InitializeAndCloseCalledWithProperBehavior.vi"/>
+		<Item Name="test_SomeSessionsRegistered_CallCreateSessionsAndCloseSessionsWithAttachAndClose_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Create and Close Sessions/test_SomeSessionsRegistered_CallCreateSessionsAndCloseSessionsWithAttachAndClose_InitializeAndCloseCalledWithProperBehavior.vi"/>
+		<Item Name="test_SomeSessionsRegistered_CallCreateSessionsAndCloseSessionsWithAttachAndDetach_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Create and Close Sessions/test_SomeSessionsRegistered_CallCreateSessionsAndCloseSessionsWithAttachAndDetach_InitializeAndCloseCalledWithProperBehavior.vi"/>
+	</Item>
 </Library>
