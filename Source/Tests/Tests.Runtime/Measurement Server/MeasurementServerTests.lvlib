@@ -11,8 +11,8 @@
 	<Item Name="Helpers" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="ISession Factory Assertion Helpers" Type="Folder">
-			<Item Name="Assert Attach Failed.vi" Type="VI" URL="../Helpers/IInstrument Assertion Helpers/Assert Attach Failed.vi"/>
-			<Item Name="Assert No Driver Error.vi" Type="VI" URL="../Helpers/IInstrument Assertion Helpers/Assert No Driver Error.vi"/>
+			<Item Name="Assert Attach Failed.vi" Type="VI" URL="../Helpers/ISession Factory Assertion Helpers/Assert Attach Failed.vi"/>
+			<Item Name="Assert No Driver Error.vi" Type="VI" URL="../Helpers/ISession Factory Assertion Helpers/Assert No Driver Error.vi"/>
 		</Item>
 		<Item Name="Assertion Helpers" Type="Folder">
 			<Item Name="Assert Number of Sessions.vim" Type="VI" URL="../Helpers/Assertion Helpers/Assert Number of Sessions.vim"/>
