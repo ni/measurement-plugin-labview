@@ -10,7 +10,7 @@
 </Property>
 	<Item Name="Helpers" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="IInstrument Assertion Helpers" Type="Folder">
+		<Item Name="ISession Factory Assertion Helpers" Type="Folder">
 			<Item Name="Assert Attach Failed.vi" Type="VI" URL="../Helpers/IInstrument Assertion Helpers/Assert Attach Failed.vi"/>
 			<Item Name="Assert No Driver Error.vi" Type="VI" URL="../Helpers/IInstrument Assertion Helpers/Assert No Driver Error.vi"/>
 		</Item>
@@ -188,7 +188,7 @@
 		<Item Name="test_AfterCallUnreserveSessions_SessionReservationReturnsErrorForAnyAction.vi" Type="VI" URL="../Unreserve Sessions/test_AfterCallUnreserveSessions_SessionReservationReturnsErrorForAnyAction.vi"/>
 		<Item Name="test_SessionsReserved_CallUnreserveSessions_AllowsSessionsToBeReservedAgain.vi" Type="VI" URL="../Unreserve Sessions/test_SessionsReserved_CallUnreserveSessions_AllowsSessionsToBeReservedAgain.vi"/>
 	</Item>
-	<Item Name="IInstrument" Type="Folder">
+	<Item Name="ISession Factory" Type="Folder">
 		<Item Name="Helpers" Type="Folder">
 			<Item Name="Session Initialization Parameters from Resource Name.vi" Type="VI" URL="../Helpers/Session Initialization Parameters from Resource Name.vi"/>
 		</Item>
