@@ -26,6 +26,7 @@
 			</Item>
 			<Item Name="MeasurementLink gRPC Utilities.lvlib" Type="Library" URL="../MeasurementLink gRPC Utilities/MeasurementLink gRPC Utilities.lvlib"/>
 			<Item Name="MeasurementLink Measurement Server.lvlib" Type="Library" URL="../MeasurementLink Measurement Server/MeasurementLink Measurement Server.lvlib"/>
+			<Item Name="MeasurementLink Session Management Client Wrapper.lvlib" Type="Library" URL="../MeasurementLink Session Management Client Wrapper/MeasurementLink Session Management Client Wrapper.lvlib"/>
 			<Item Name="MeasurementLink Session Management.lvlib" Type="Library" URL="../MeasurementLink Session Management/MeasurementLink Session Management.lvlib"/>
 			<Item Name="MeasurementLink TestStand Integration.lvlib" Type="Library" URL="../MeasurementLink TestStand Integration/MeasurementLink TestStand Integration.lvlib"/>
 		</Item>
@@ -35,6 +36,7 @@
 		<Item Name="Global VIs" Type="Folder">
 			<Item Name="Error Strings Global Internal.vi" Type="VI" URL="../MeasurementLink Measurement Server/Helpers/Error Strings Global Internal.vi"/>
 		</Item>
+		<Item Name="Action.ctl" Type="VI" URL="../MeasurementLink Session Management Client Wrapper/Action.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
@@ -111,9 +113,6 @@
 				<Item Name="niDigital IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niDigital/niDigital.llb/niDigital IVI Error Converter.vi"/>
 				<Item Name="niDMM IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niDMM/nidmm.llb/niDMM IVI Error Converter.vi"/>
 				<Item Name="niFgen IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen IVI Error Converter.vi"/>
-				<Item Name="niDigital gRPC Device Server.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDigital/niDigital.llb/niDigital gRPC Device Server.ctl"/>
-				<Item Name="niDMM gRPC Device Server.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDMM/nidmm.llb/niDMM gRPC Device Server.ctl"/>
-				<Item Name="niFgen gRPC Device Server.ctl" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen gRPC Device Server.ctl"/>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
