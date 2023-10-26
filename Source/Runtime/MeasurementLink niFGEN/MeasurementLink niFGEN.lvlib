@@ -15,5 +15,5 @@
 	<Item Name="Get Connections - 1Pin MConn.vi" Type="VI" URL="../Get Connections - 1Pin MConn.vi"/>
 	<Item Name="Get Connections - NPin MConn.vi" Type="VI" URL="../Get Connections - NPin MConn.vi"/>
 	<Item Name="Get Connections.vi" Type="VI" URL="../Get Connections.vi"/>
-	<Item Name="Session Factory.lvclass" Type="LVClass" URL="../Instrument/Session Factory.lvclass"/>
+	<Item Name="Session Factory.lvclass" Type="LVClass" URL="../Session Factory/Session Factory.lvclass"/>
 </Library>
