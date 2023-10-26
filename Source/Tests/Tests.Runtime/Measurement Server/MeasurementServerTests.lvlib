@@ -236,4 +236,10 @@
 		<Item Name="test_MultipleSessionsReserved_CallCloseSessionsTwice_CloseNotCalledSecondTime.vi" Type="VI" URL="../Close Sessions/test_MultipleSessionsReserved_CallCloseSessionsTwice_CloseNotCalledSecondTime.vi"/>
 		<Item Name="test_MultipleSessionsReserved_CallCloseSessions_SessionsClosed.vi" Type="VI" URL="../Close Sessions/test_MultipleSessionsReserved_CallCloseSessions_SessionsClosed.vi"/>
 	</Item>
+	<Item Name="Get Sessions" Type="Folder">
+		<Item Name="test_ThreeSess_CallGetSession_ReturnsError.vi" Type="VI" URL="../Get Sessions/test_ThreeSess_CallGetSession_ReturnsError.vi"/>
+		<Item Name="test_OneSess_CallGetAllSession_ReturnsOneSession.vi" Type="VI" URL="../Get Sessions/test_OneSess_CallGetAllSession_ReturnsOneSession.vi"/>
+		<Item Name="test_ThreeSess_CallGetAllSession_ReturnsThreeSess.vi" Type="VI" URL="../Get Sessions/test_ThreeSess_CallGetAllSession_ReturnsThreeSess.vi"/>
+		<Item Name="test_OneSess_CallGetSession_ReturnsOneSession.vi" Type="VI" URL="../Get Sessions/test_OneSess_CallGetSession_ReturnsOneSession.vi"/>
+	</Item>
 </Library>
