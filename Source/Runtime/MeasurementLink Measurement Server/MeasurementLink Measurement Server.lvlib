@@ -64,6 +64,7 @@
 		<Item Name="MeasurementAnnotation.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasurementAnnotation.ctl"/>
 		<Item Name="MeasurementDetails.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasurementDetails.ctl"/>
 		<Item Name="MeasurementLinkServerUserEvents.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasurementLinkServerUserEvents.ctl"/>
+		<Item Name="MeasurementServiceVersions.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasurementServiceVersions.ctl"/>
 		<Item Name="Parameter Type Specialization.ctl" Type="VI" URL="../Helpers/TypeDefs/Parameter Type Specialization.ctl"/>
 		<Item Name="StopServerUserEvent.ctl" Type="VI" URL="../Helpers/TypeDefs/StopServerUserEvent.ctl"/>
 		<Item Name="Type Specialization Key.ctl" Type="VI" URL="../Helpers/TypeDefs/Type Specialization Key.ctl"/>

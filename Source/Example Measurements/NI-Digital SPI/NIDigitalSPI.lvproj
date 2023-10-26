@@ -118,7 +118,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/NI-Digital SPI Measurement/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C8BCAB3E-72D9-437D-811E-98F1B1EFE7E3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{00DC4B03-4B6A-4D1A-84FE-4761001527AC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NIDigitalSPI.lvlib/Get Measurement Details.vi</Property>
@@ -149,6 +149,9 @@
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/NIDigitalSPI.lvlib/Run Service.vi</Property>
+				<Property Name="Source[8].properties[0].type" Type="Str">Window run-time position</Property>
+				<Property Name="Source[8].properties[0].value" Type="Str">Minimized</Property>
+				<Property Name="Source[8].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="Source[9].Container.applyInclusion" Type="Bool">true</Property>
