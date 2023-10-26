@@ -10,9 +10,9 @@
 </Property>
 	<Item Name="Helpers" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="IInstrument Assertion Helpers" Type="Folder">
-			<Item Name="Assert Attach Failed.vi" Type="VI" URL="../Helpers/IInstrument Assertion Helpers/Assert Attach Failed.vi"/>
-			<Item Name="Assert No Driver Error.vi" Type="VI" URL="../Helpers/IInstrument Assertion Helpers/Assert No Driver Error.vi"/>
+		<Item Name="ISession Factory Assertion Helpers" Type="Folder">
+			<Item Name="Assert Attach Failed.vi" Type="VI" URL="../Helpers/ISession Factory Assertion Helpers/Assert Attach Failed.vi"/>
+			<Item Name="Assert No Driver Error.vi" Type="VI" URL="../Helpers/ISession Factory Assertion Helpers/Assert No Driver Error.vi"/>
 		</Item>
 		<Item Name="Assertion Helpers" Type="Folder">
 			<Item Name="Assert Number of Sessions.vim" Type="VI" URL="../Helpers/Assertion Helpers/Assert Number of Sessions.vim"/>
@@ -32,7 +32,7 @@
 		<Item Name="Add Sessions to Connection Map.vi" Type="VI" URL="../Helpers/Add Sessions to Connection Map.vi"/>
 		<Item Name="Get Remote Connection Options.vi" Type="VI" URL="../Helpers/Get Remote Connection Options.vi"/>
 		<Item Name="Restart Discovery Service.vi" Type="VI" URL="../Helpers/Restart Discovery Service.vi"/>
-		<Item Name="Fake Instrument.lvclass" Type="LVClass" URL="../Helpers/Fake Instrument/Fake Instrument.lvclass"/>
+		<Item Name="Fake Session Factory.lvclass" Type="LVClass" URL="../Helpers/Fake Session Factory/Fake Session Factory.lvclass"/>
 	</Item>
 	<Item Name="Client Pool" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
@@ -223,7 +223,7 @@
 		<Item Name="test_ThreeSess_CallGetAllSession_ReturnsThreeSess.vi" Type="VI" URL="../Get Sessions/test_ThreeSess_CallGetAllSession_ReturnsThreeSess.vi"/>
 		<Item Name="test_ThreeSess_CallGetSession_ReturnsError.vi" Type="VI" URL="../Get Sessions/test_ThreeSess_CallGetSession_ReturnsError.vi"/>
 	</Item>
-	<Item Name="IInstrument" Type="Folder">
+	<Item Name="ISession Factory" Type="Folder">
 		<Item Name="Helpers" Type="Folder">
 			<Item Name="Session Initialization Parameters from Resource Name.vi" Type="VI" URL="../Helpers/Session Initialization Parameters from Resource Name.vi"/>
 		</Item>
