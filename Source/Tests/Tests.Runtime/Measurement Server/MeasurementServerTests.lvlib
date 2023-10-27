@@ -34,6 +34,35 @@
 		<Item Name="Restart Discovery Service.vi" Type="VI" URL="../Helpers/Restart Discovery Service.vi"/>
 		<Item Name="Fake Session Factory.lvclass" Type="LVClass" URL="../Helpers/Fake Session Factory/Fake Session Factory.lvclass"/>
 	</Item>
+	<Item Name="Client Pool" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="test_ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../test_ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
+		<Item Name="test_ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../test_ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
+	</Item>
+	<Item Name="Close Sessions" Type="Folder">
+		<Item Name="Helpers" Type="Folder">
+			<Item Name="Close - Session Json to Data Add Instr.vi" Type="VI" URL="../Close Sessions/Helpers/Close - Session Json to Data Add Instr.vi"/>
+			<Item Name="Close - Session Json to Data Add Session Instr Map.vi" Type="VI" URL="../Close Sessions/Helpers/Close - Session Json to Data Add Session Instr Map.vi"/>
+		</Item>
+		<Item Name="Test Inputs" Type="Folder">
+			<Item Name="Close - 1 Fake Session.vi" Type="VI" URL="../Close Sessions/Test Inputs/Close - 1 Fake Session.vi"/>
+			<Item Name="Close - 2 Fake Sessions Registered 1 Fake Session Unregistered First Session Bad.vi" Type="VI" URL="../Close Sessions/Test Inputs/Close - 2 Fake Sessions Registered 1 Fake Session Unregistered First Session Bad.vi"/>
+			<Item Name="Close - 2 Fake Sessions Registered 1 Fake Session Unregistered.vi" Type="VI" URL="../Close Sessions/Test Inputs/Close - 2 Fake Sessions Registered 1 Fake Session Unregistered.vi"/>
+		</Item>
+		<Item Name="test_FirstSessionCloseErrors_CallCloseSessions_CloseCalledForAllSessions.vi" Type="VI" URL="../Close Sessions/test_FirstSessionCloseErrors_CallCloseSessions_CloseCalledForAllSessions.vi"/>
+		<Item Name="test_MultipleSessionsReserved_CallCloseSessions_SessionsClosed.vi" Type="VI" URL="../Close Sessions/test_MultipleSessionsReserved_CallCloseSessions_SessionsClosed.vi"/>
+		<Item Name="test_MultipleSessionsReserved_CallCloseSessionsTwice_CloseNotCalledSecondTime.vi" Type="VI" URL="../Close Sessions/test_MultipleSessionsReserved_CallCloseSessionsTwice_CloseNotCalledSecondTime.vi"/>
+		<Item Name="test_MultipleSessionsReserved_CallCloseSessionsWithErrorInput_SessionsClosed.vi" Type="VI" URL="../Close Sessions/test_MultipleSessionsReserved_CallCloseSessionsWithErrorInput_SessionsClosed.vi"/>
+		<Item Name="test_SessionNeverCreated_CallCloseSessions_CloseNotCalled.vi" Type="VI" URL="../Close Sessions/test_SessionNeverCreated_CallCloseSessions_CloseNotCalled.vi"/>
+	</Item>
+	<Item Name="Create and Close Sessions" Type="Folder">
+		<Item Name="parameterized_SomeSessionsRegistered_CallCreateAndCloseSessions_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Create and Close Sessions/parameterized_SomeSessionsRegistered_CallCreateAndCloseSessions_InitializeAndCloseCalledWithProperBehavior.vi"/>
+		<Item Name="test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithAttachAndClose_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Create and Close Sessions/test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithAttachAndClose_InitializeAndCloseCalledWithProperBehavior.vi"/>
+		<Item Name="test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithAttachAndDetach_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Create and Close Sessions/test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithAttachAndDetach_InitializeAndCloseCalledWithProperBehavior.vi"/>
+		<Item Name="test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithAuto_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Create and Close Sessions/test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithAuto_InitializeAndCloseCalledWithProperBehavior.vi"/>
+		<Item Name="test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithInitializeAndClose_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Create and Close Sessions/test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithInitializeAndClose_InitializeAndCloseCalledWithProperBehavior.vi"/>
+		<Item Name="test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithInitializeAndDetach_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Create and Close Sessions/test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithInitializeAndDetach_InitializeAndCloseCalledWithProperBehavior.vi"/>
+	</Item>
 	<Item Name="Create Sessions" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Helpers" Type="Folder">
@@ -106,7 +135,74 @@
 			<Item Name="test_ScopeInstruments_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/test_ScopeInstruments_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
 		</Item>
 	</Item>
+	<Item Name="Discovery Service" Type="Folder">
+		<Item Name="test_DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi" Type="VI" URL="../test_DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi"/>
+	</Item>
 	<Item Name="Get Connections" Type="Folder">
+		<Item Name="1 Pin 1 Connection" Type="Folder">
+			<Item Name="test_OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForOneDcPowerPinsAllSites_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForOneDcPowerPinsAllSites_ReturnsOneConnection.vi"/>
+			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForAllDcPowerPinsOneSite_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForAllDcPowerPinsOneSite_ReturnsOneConnection.vi"/>
+			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForOneDcPowerPinAllSites_ReturnsMulitpleConnectionsError.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForOneDcPowerPinAllSites_ReturnsMulitpleConnectionsError.vi"/>
+			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForOneDcPowerPinOneSite_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForOneDcPowerPinOneSite_ReturnsOneConnection.vi"/>
+		</Item>
+		<Item Name="1 Pin M Connections" Type="Folder">
+			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinForAllDcPowerPinsAllSites_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinForAllDcPowerPinsAllSites_ReturnsThreeConnections.vi"/>
+			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinForOneDcPowerPinAllSites_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinForOneDcPowerPinAllSites_ReturnsTwoConnections.vi"/>
+			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinForOneDcPowerPinOneSite_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinForOneDcPowerPinOneSite_ReturnsOneConnection.vi"/>
+		</Item>
+		<Item Name="Helpers" Type="Folder">
+			<Item Name="Session Json to Data - Get Connections.vi" Type="VI" URL="../Get Connections/Helpers/Session Json to Data - Get Connections.vi"/>
+			<Item Name="Session Json to Data with No Session in Connection Map - Get Connections.vi" Type="VI" URL="../Get Connections/Helpers/Session Json to Data with No Session in Connection Map - Get Connections.vi"/>
+		</Item>
+		<Item Name="N Pins M Connections" Type="Folder">
+			<Item Name="test_OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSitesWithNoReservePins_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSitesWithNoReservePins_ReturnsOneConnection.vi"/>
+			<Item Name="test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsTwoConnections.vi"/>
+			<Item Name="test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsOneSite_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsOneSite_ReturnsTwoConnections.vi"/>
+			<Item Name="test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForSystemPinAllSites_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForSystemPinAllSites_ReturnsOneConnection.vi"/>
+			<Item Name="test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForSystemPinOneSite_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForSystemPinOneSite_ReturnsOneConnection.vi"/>
+			<Item Name="test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForTwoDcPowerPinsAllSites_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForTwoDcPowerPinsAllSites_ReturnsTwoConnections.vi"/>
+			<Item Name="test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsWithSystemPinType_ReturnsError.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsWithSystemPinType_ReturnsError.vi"/>
+			<Item Name="test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsWithSystemPinType_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsWithSystemPinType_ReturnsOneConnection.vi"/>
+			<Item Name="test_ReservationWithEmptySessionInConnectionMap_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_ReservationWithEmptySessionInConnectionMap_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsThreeConnections.vi"/>
+			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsThreeConnections.vi"/>
+			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsOneSite_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsOneSite_ReturnsTwoConnections.vi"/>
+			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentInstr_ReturnsError.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentInstr_ReturnsError.vi"/>
+			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentPin_ReturnsError.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentPin_ReturnsError.vi"/>
+			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentSite_ReturnsError.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentSite_ReturnsError.vi"/>
+			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneDcPowerPinAllSites_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneDcPowerPinAllSites_ReturnsTwoConnections.vi"/>
+			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneDcPowerPinOneSite_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneDcPowerPinOneSite_ReturnsOneConnection.vi"/>
+			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneFgenPinAllSites_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneFgenPinAllSites_ReturnsOneConnection.vi"/>
+			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForPinNameWithWrongCase_ReturnsError.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForPinNameWithWrongCase_ReturnsError.vi"/>
+			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForTwoDcPowerPinsAllSites_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForTwoDcPowerPinsAllSites_ReturnsThreeConnections.vi"/>
+			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForValidPinNotInSite_ReturnsError.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForValidPinNotInSite_ReturnsError.vi"/>
+			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForValidPinWithWrongInstrId_ReturnsError.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForValidPinWithWrongInstrId_ReturnsError.vi"/>
+			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsWithNoMatchingConnections_ReturnsError.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsWithNoMatchingConnections_ReturnsError.vi"/>
+		</Item>
+		<Item Name="niDCPower" Type="Folder">
+			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
+			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
+			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
+		</Item>
+		<Item Name="niDigital" Type="Folder">
+			<Item Name="test_OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
+			<Item Name="test_OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
+			<Item Name="test_OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
+		</Item>
+		<Item Name="niDMM" Type="Folder">
+			<Item Name="test_ThreeSessTwoPinThreeInstrTwoSiteReservation_CallNiDmmGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_ThreeSessTwoPinThreeInstrTwoSiteReservation_CallNiDmmGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
+			<Item Name="test_ThreeSessTwoPinThreeInstrTwoSiteReservation_CallNiDmmGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_ThreeSessTwoPinThreeInstrTwoSiteReservation_CallNiDmmGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
+			<Item Name="test_ThreeSessTwoPinThreeInstrTwoSiteReservation_CallNiDmmGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_ThreeSessTwoPinThreeInstrTwoSiteReservation_CallNiDmmGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
+		</Item>
+		<Item Name="niFGEN" Type="Folder">
+			<Item Name="test_TwoSessTwoPinTwoInstrTwoSiteReservation_CallNiFgenGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_TwoSessTwoPinTwoInstrTwoSiteReservation_CallNiFgenGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
+			<Item Name="test_TwoSessTwoPinTwoInstrTwoSiteReservation_CallNiFgenGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_TwoSessTwoPinTwoInstrTwoSiteReservation_CallNiFgenGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
+			<Item Name="test_TwoSessTwoPinTwoInstrTwoSiteReservation_CallNiFgenGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_TwoSessTwoPinTwoInstrTwoSiteReservation_CallNiFgenGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
+		</Item>
+		<Item Name="niScope" Type="Folder">
+			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
+			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
+			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
+		</Item>
 		<Item Name="Test Inputs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="One Session One Pin One Instrument One Site.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session One Pin One Instrument One Site.vi"/>
@@ -119,103 +215,17 @@
 			<Item Name="Three Session Two Pins Three Instrument Two Sites - DMM.vi" Type="VI" URL="../Get Connections/Test Inputs/Three Session Two Pins Three Instrument Two Sites - DMM.vi"/>
 			<Item Name="One Session Two Pins One Instrument One Site with System Pin.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument One Site with System Pin.vi"/>
 		</Item>
-		<Item Name="Helpers" Type="Folder">
-			<Item Name="Session Json to Data with No Session in Connection Map - Get Connections.vi" Type="VI" URL="../Get Connections/Helpers/Session Json to Data with No Session in Connection Map - Get Connections.vi"/>
-			<Item Name="Session Json to Data - Get Connections.vi" Type="VI" URL="../Get Connections/Helpers/Session Json to Data - Get Connections.vi"/>
-		</Item>
-		<Item Name="1 Pin 1 Connection" Type="Folder">
-			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForAllDcPowerPinsOneSite_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForAllDcPowerPinsOneSite_ReturnsOneConnection.vi"/>
-			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForOneDcPowerPinAllSites_ReturnsMulitpleConnectionsError.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForOneDcPowerPinAllSites_ReturnsMulitpleConnectionsError.vi"/>
-			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForOneDcPowerPinOneSite_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionFromPinForOneDcPowerPinOneSite_ReturnsOneConnection.vi"/>
-			<Item Name="test_OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForOneDcPowerPinsAllSites_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForOneDcPowerPinsAllSites_ReturnsOneConnection.vi"/>
-		</Item>
-		<Item Name="1 Pin M Connections" Type="Folder">
-			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinForAllDcPowerPinsAllSites_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinForAllDcPowerPinsAllSites_ReturnsThreeConnections.vi"/>
-			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinForOneDcPowerPinAllSites_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinForOneDcPowerPinAllSites_ReturnsTwoConnections.vi"/>
-			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinForOneDcPowerPinOneSite_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinForOneDcPowerPinOneSite_ReturnsOneConnection.vi"/>
-		</Item>
-		<Item Name="N Pins M Connections" Type="Folder">
-			<Item Name="test_OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSitesWithNoReservePins_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSitesWithNoReservePins_ReturnsOneConnection.vi"/>
-			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsThreeConnections.vi"/>
-			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsOneSite_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsOneSite_ReturnsTwoConnections.vi"/>
-			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentInstr_ReturnsError.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentInstr_ReturnsError.vi"/>
-			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentSite_ReturnsError.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentSite_ReturnsError.vi"/>
-			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentPin_ReturnsError.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForNonExistentPin_ReturnsError.vi"/>
-			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForValidPinWithWrongInstrId_ReturnsError.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForValidPinWithWrongInstrId_ReturnsError.vi"/>
-			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForValidPinNotInSite_ReturnsError.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForValidPinNotInSite_ReturnsError.vi"/>
-			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForPinNameWithWrongCase_ReturnsError.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForPinNameWithWrongCase_ReturnsError.vi"/>
-			<Item Name="test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsWithSystemPinType_ReturnsError.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsWithSystemPinType_ReturnsError.vi"/>
-			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneDcPowerPinAllSites_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneDcPowerPinAllSites_ReturnsTwoConnections.vi"/>
-			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneDcPowerPinOneSite_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneDcPowerPinOneSite_ReturnsOneConnection.vi"/>
-			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneFgenPinAllSites_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForOneFgenPinAllSites_ReturnsOneConnection.vi"/>
-			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForTwoDcPowerPinsAllSites_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsForTwoDcPowerPinsAllSites_ReturnsThreeConnections.vi"/>
-			<Item Name="test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsTwoConnections.vi"/>
-			<Item Name="test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsOneSite_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsOneSite_ReturnsTwoConnections.vi"/>
-			<Item Name="test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForSystemPinOneSite_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForSystemPinOneSite_ReturnsOneConnection.vi"/>
-			<Item Name="test_ReservationWithEmptySessionInConnectionMap_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_ReservationWithEmptySessionInConnectionMap_CallGetConnectionsFromPinsForAllDcPowerPinsAllSites_ReturnsThreeConnections.vi"/>
-			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsWithNoMatchingConnections_ReturnsError.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsWithNoMatchingConnections_ReturnsError.vi"/>
-			<Item Name="test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsWithSystemPinType_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsWithSystemPinType_ReturnsOneConnection.vi"/>
-			<Item Name="test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForSystemPinAllSites_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForSystemPinAllSites_ReturnsOneConnection.vi"/>
-			<Item Name="test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForTwoDcPowerPinsAllSites_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneSystemPinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForTwoDcPowerPinsAllSites_ReturnsTwoConnections.vi"/>
-		</Item>
-		<Item Name="niDCPower" Type="Folder">
-			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
-			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
-			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
-		</Item>
-		<Item Name="niDigital" Type="Folder">
-			<Item Name="test_OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
-			<Item Name="test_OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
-			<Item Name="test_OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
-		</Item>
-		<Item Name="niScope" Type="Folder">
-			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
-			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
-			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_CallNiScopeGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
-		</Item>
-		<Item Name="niDMM" Type="Folder">
-			<Item Name="test_ThreeSessTwoPinThreeInstrTwoSiteReservation_CallNiDmmGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_ThreeSessTwoPinThreeInstrTwoSiteReservation_CallNiDmmGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
-			<Item Name="test_ThreeSessTwoPinThreeInstrTwoSiteReservation_CallNiDmmGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_ThreeSessTwoPinThreeInstrTwoSiteReservation_CallNiDmmGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
-			<Item Name="test_ThreeSessTwoPinThreeInstrTwoSiteReservation_CallNiDmmGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_ThreeSessTwoPinThreeInstrTwoSiteReservation_CallNiDmmGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
-		</Item>
-		<Item Name="niFGEN" Type="Folder">
-			<Item Name="test_TwoSessTwoPinTwoInstrTwoSiteReservation_CallNiFgenGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_TwoSessTwoPinTwoInstrTwoSiteReservation_CallNiFgenGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
-			<Item Name="test_TwoSessTwoPinTwoInstrTwoSiteReservation_CallNiFgenGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_TwoSessTwoPinTwoInstrTwoSiteReservation_CallNiFgenGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
-			<Item Name="test_TwoSessTwoPinTwoInstrTwoSiteReservation_CallNiFgenGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_TwoSessTwoPinTwoInstrTwoSiteReservation_CallNiFgenGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
-		</Item>
 	</Item>
-	<Item Name="Unreserve Sessions" Type="Folder">
-		<Item Name="test_AfterCallUnreserveSessions_SessionReservationReturnsErrorForAnyAction.vi" Type="VI" URL="../Unreserve Sessions/test_AfterCallUnreserveSessions_SessionReservationReturnsErrorForAnyAction.vi"/>
-		<Item Name="test_SessionsReserved_CallUnreserveSessions_AllowsSessionsToBeReservedAgain.vi" Type="VI" URL="../Unreserve Sessions/test_SessionsReserved_CallUnreserveSessions_AllowsSessionsToBeReservedAgain.vi"/>
+	<Item Name="Get Sessions" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="test_OneSess_CallGetAllSession_ReturnsOneSession.vi" Type="VI" URL="../Get Sessions/test_OneSess_CallGetAllSession_ReturnsOneSession.vi"/>
+		<Item Name="test_OneSess_CallGetSession_ReturnsOneSession.vi" Type="VI" URL="../Get Sessions/test_OneSess_CallGetSession_ReturnsOneSession.vi"/>
+		<Item Name="test_ThreeSess_CallGetAllSession_ReturnsThreeSess.vi" Type="VI" URL="../Get Sessions/test_ThreeSess_CallGetAllSession_ReturnsThreeSess.vi"/>
+		<Item Name="test_ThreeSess_CallGetSession_ReturnsError.vi" Type="VI" URL="../Get Sessions/test_ThreeSess_CallGetSession_ReturnsError.vi"/>
 	</Item>
 	<Item Name="ISession Factory" Type="Folder">
 		<Item Name="Helpers" Type="Folder">
 			<Item Name="Session Initialization Parameters from Resource Name.vi" Type="VI" URL="../Helpers/Session Initialization Parameters from Resource Name.vi"/>
-		</Item>
-		<Item Name="niScope" Type="Folder">
-			<Item Name="test_RemoteScopeSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi" Type="VI" URL="../niScope/test_RemoteScopeSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi"/>
-			<Item Name="test_RemoteScopeSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../niScope/test_RemoteScopeSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
-			<Item Name="test_RemoteScopeSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niScope/test_RemoteScopeSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
-			<Item Name="test_ScopeInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi" Type="VI" URL="../niScope/test_ScopeInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi"/>
-		</Item>
-		<Item Name="niFGEN" Type="Folder">
-			<Item Name="test_FgenInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi" Type="VI" URL="../niFGEN/test_FgenInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi"/>
-			<Item Name="test_RemoteFgenSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi" Type="VI" URL="../niFGEN/test_RemoteFgenSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi"/>
-			<Item Name="test_RemoteFgenSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../niFGEN/test_RemoteFgenSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
-			<Item Name="test_RemoteFgenSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niFGEN/test_RemoteFgenSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
-		</Item>
-		<Item Name="niDmm" Type="Folder">
-			<Item Name="test_DmmInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi" Type="VI" URL="../niDMM/test_DmmInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi"/>
-			<Item Name="test_RemoteDmmSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi" Type="VI" URL="../niDMM/test_RemoteDmmSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi"/>
-			<Item Name="test_RemoteDmmSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../niDMM/test_RemoteDmmSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
-			<Item Name="test_RemoteDmmSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niDMM/test_RemoteDmmSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
-		</Item>
-		<Item Name="niDigital" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="test_DigitalInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi" Type="VI" URL="../niDigital/test_DigitalInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi"/>
-			<Item Name="test_RemoteDigitalSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi" Type="VI" URL="../niDigital/test_RemoteDigitalSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi"/>
-			<Item Name="test_RemoteDigitalSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../niDigital/test_RemoteDigitalSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
-			<Item Name="test_RemoteDigitalSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niDigital/test_RemoteDigitalSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
 		</Item>
 		<Item Name="niDCPower" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -224,13 +234,36 @@
 			<Item Name="test_RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../niDCPower/test_RemoteDCPowerSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
 			<Item Name="test_RemoteDCPowerSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niDCPower/test_RemoteDCPowerSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
 		</Item>
+		<Item Name="niDigital" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="test_DigitalInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi" Type="VI" URL="../niDigital/test_DigitalInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi"/>
+			<Item Name="test_RemoteDigitalSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi" Type="VI" URL="../niDigital/test_RemoteDigitalSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi"/>
+			<Item Name="test_RemoteDigitalSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../niDigital/test_RemoteDigitalSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
+			<Item Name="test_RemoteDigitalSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niDigital/test_RemoteDigitalSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
+		</Item>
+		<Item Name="niDmm" Type="Folder">
+			<Item Name="test_DmmInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi" Type="VI" URL="../niDMM/test_DmmInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi"/>
+			<Item Name="test_RemoteDmmSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi" Type="VI" URL="../niDMM/test_RemoteDmmSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi"/>
+			<Item Name="test_RemoteDmmSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../niDMM/test_RemoteDmmSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
+			<Item Name="test_RemoteDmmSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niDMM/test_RemoteDmmSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
+		</Item>
+		<Item Name="niFGEN" Type="Folder">
+			<Item Name="test_FgenInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi" Type="VI" URL="../niFGEN/test_FgenInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi"/>
+			<Item Name="test_RemoteFgenSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi" Type="VI" URL="../niFGEN/test_RemoteFgenSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi"/>
+			<Item Name="test_RemoteFgenSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../niFGEN/test_RemoteFgenSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
+			<Item Name="test_RemoteFgenSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niFGEN/test_RemoteFgenSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
+		</Item>
+		<Item Name="niScope" Type="Folder">
+			<Item Name="test_RemoteScopeSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi" Type="VI" URL="../niScope/test_RemoteScopeSession_CallCloseMeasurementLinkSessionWithCloseBehavior_RemoteSessionClosed.vi"/>
+			<Item Name="test_RemoteScopeSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../niScope/test_RemoteScopeSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
+			<Item Name="test_RemoteScopeSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niScope/test_RemoteScopeSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
+			<Item Name="test_ScopeInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi" Type="VI" URL="../niScope/test_ScopeInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi"/>
+		</Item>
 	</Item>
-	<Item Name="Client Pool" Type="Folder">
-		<Item Name="test_ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../test_ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
-		<Item Name="test_ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../test_ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
-	</Item>
-	<Item Name="Discovery Service" Type="Folder">
-		<Item Name="test_DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi" Type="VI" URL="../test_DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi"/>
+	<Item Name="Reserve Sessions" Type="Folder">
+		<Item Name="test_CallReserveSessionsWithArrayWithEmptyElement_ErrorReturned.vi" Type="VI" URL="../Reserve Sessions/test_CallReserveSessionsWithArrayWithEmptyElement_ErrorReturned.vi"/>
+		<Item Name="test_CallReserveSessionsWithEmptyPin_ErrorReturned.vi" Type="VI" URL="../Reserve Sessions/test_CallReserveSessionsWithEmptyPin_ErrorReturned.vi"/>
+		<Item Name="test_CallReserveSessionsWithZeroElementArray_ErrorReturned.vi" Type="VI" URL="../Reserve Sessions/test_CallReserveSessionsWithZeroElementArray_ErrorReturned.vi"/>
 	</Item>
 	<Item Name="Service Location Pool" Type="Folder">
 		<Item Name="test_ServiceLocationPool_DiscoveryServiceUnavailable_GetUncachedLocation_ReturnsError.vi" Type="VI" URL="../test_ServiceLocationPool_DiscoveryServiceUnavailable_GetUncachedLocation_ReturnsError.vi"/>
@@ -238,33 +271,8 @@
 		<Item Name="test_ServiceLocationPool_GetLocation_ReturnsValidLocation.vi" Type="VI" URL="../test_ServiceLocationPool_GetLocation_ReturnsValidLocation.vi"/>
 		<Item Name="test_ServiceLocationPool_GetLocationTwice_ReturnsCachedLocation.vi" Type="VI" URL="../test_ServiceLocationPool_GetLocationTwice_ReturnsCachedLocation.vi"/>
 	</Item>
-	<Item Name="Close Sessions" Type="Folder">
-		<Item Name="Helpers" Type="Folder">
-			<Item Name="Close - Session Json to Data Add Instr.vi" Type="VI" URL="../Close Sessions/Helpers/Close - Session Json to Data Add Instr.vi"/>
-			<Item Name="Close - Session Json to Data Add Session Instr Map.vi" Type="VI" URL="../Close Sessions/Helpers/Close - Session Json to Data Add Session Instr Map.vi"/>
-		</Item>
-		<Item Name="Test Inputs" Type="Folder">
-			<Item Name="Close - 1 Fake Session.vi" Type="VI" URL="../Close Sessions/Test Inputs/Close - 1 Fake Session.vi"/>
-			<Item Name="Close - 2 Fake Sessions Registered 1 Fake Session Unregistered First Session Bad.vi" Type="VI" URL="../Close Sessions/Test Inputs/Close - 2 Fake Sessions Registered 1 Fake Session Unregistered First Session Bad.vi"/>
-			<Item Name="Close - 2 Fake Sessions Registered 1 Fake Session Unregistered.vi" Type="VI" URL="../Close Sessions/Test Inputs/Close - 2 Fake Sessions Registered 1 Fake Session Unregistered.vi"/>
-		</Item>
-		<Item Name="test_SessionNeverCreated_CallCloseSessions_CloseNotCalled.vi" Type="VI" URL="../Close Sessions/test_SessionNeverCreated_CallCloseSessions_CloseNotCalled.vi"/>
-		<Item Name="test_MultipleSessionsReserved_CallCloseSessionsWithErrorInput_SessionsClosed.vi" Type="VI" URL="../Close Sessions/test_MultipleSessionsReserved_CallCloseSessionsWithErrorInput_SessionsClosed.vi"/>
-		<Item Name="test_FirstSessionCloseErrors_CallCloseSessions_CloseCalledForAllSessions.vi" Type="VI" URL="../Close Sessions/test_FirstSessionCloseErrors_CallCloseSessions_CloseCalledForAllSessions.vi"/>
-		<Item Name="test_MultipleSessionsReserved_CallCloseSessionsTwice_CloseNotCalledSecondTime.vi" Type="VI" URL="../Close Sessions/test_MultipleSessionsReserved_CallCloseSessionsTwice_CloseNotCalledSecondTime.vi"/>
-		<Item Name="test_MultipleSessionsReserved_CallCloseSessions_SessionsClosed.vi" Type="VI" URL="../Close Sessions/test_MultipleSessionsReserved_CallCloseSessions_SessionsClosed.vi"/>
-	</Item>
-	<Item Name="Create and Close Sessions" Type="Folder">
-		<Item Name="parameterized_SomeSessionsRegistered_CallCreateAndCloseSessions_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Create and Close Sessions/parameterized_SomeSessionsRegistered_CallCreateAndCloseSessions_InitializeAndCloseCalledWithProperBehavior.vi"/>
-		<Item Name="test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithAuto_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Create and Close Sessions/test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithAuto_InitializeAndCloseCalledWithProperBehavior.vi"/>
-		<Item Name="test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithInitializeAndClose_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Create and Close Sessions/test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithInitializeAndClose_InitializeAndCloseCalledWithProperBehavior.vi"/>
-		<Item Name="test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithInitializeAndDetach_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Create and Close Sessions/test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithInitializeAndDetach_InitializeAndCloseCalledWithProperBehavior.vi"/>
-		<Item Name="test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithAttachAndClose_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Create and Close Sessions/test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithAttachAndClose_InitializeAndCloseCalledWithProperBehavior.vi"/>
-		<Item Name="test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithAttachAndDetach_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Create and Close Sessions/test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithAttachAndDetach_InitializeAndCloseCalledWithProperBehavior.vi"/>
-	</Item>
-	<Item Name="Reserve Sessions" Type="Folder">
-		<Item Name="test_CallReserveSessionsWithArrayWithEmptyElement_ErrorReturned.vi" Type="VI" URL="../Reserve Sessions/test_CallReserveSessionsWithArrayWithEmptyElement_ErrorReturned.vi"/>
-		<Item Name="test_CallReserveSessionsWithEmptyPin_ErrorReturned.vi" Type="VI" URL="../Reserve Sessions/test_CallReserveSessionsWithEmptyPin_ErrorReturned.vi"/>
-		<Item Name="test_CallReserveSessionsWithZeroElementArray_ErrorReturned.vi" Type="VI" URL="../Reserve Sessions/test_CallReserveSessionsWithZeroElementArray_ErrorReturned.vi"/>
+	<Item Name="Unreserve Sessions" Type="Folder">
+		<Item Name="test_AfterCallUnreserveSessions_SessionReservationReturnsErrorForAnyAction.vi" Type="VI" URL="../Unreserve Sessions/test_AfterCallUnreserveSessions_SessionReservationReturnsErrorForAnyAction.vi"/>
+		<Item Name="test_SessionsReserved_CallUnreserveSessions_AllowsSessionsToBeReservedAgain.vi" Type="VI" URL="../Unreserve Sessions/test_SessionsReserved_CallUnreserveSessions_AllowsSessionsToBeReservedAgain.vi"/>
 	</Item>
 </Library>
