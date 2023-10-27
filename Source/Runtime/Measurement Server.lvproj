@@ -24,8 +24,10 @@
 				<Item Name="MeasurementLink niFGEN.lvlib" Type="Library" URL="../MeasurementLink niFGEN/MeasurementLink niFGEN.lvlib"/>
 				<Item Name="MeasurementLink niScope.lvlib" Type="Library" URL="../MeasurementLink niScope/MeasurementLink niScope.lvlib"/>
 			</Item>
+			<Item Name="MeasurementLink Discovery Client Wrapper.lvlib" Type="Library" URL="../MeasurementLink Discovery Client Wrapper/MeasurementLink Discovery Client Wrapper.lvlib"/>
 			<Item Name="MeasurementLink gRPC Utilities.lvlib" Type="Library" URL="../MeasurementLink gRPC Utilities/MeasurementLink gRPC Utilities.lvlib"/>
 			<Item Name="MeasurementLink Measurement Server.lvlib" Type="Library" URL="../MeasurementLink Measurement Server/MeasurementLink Measurement Server.lvlib"/>
+			<Item Name="MeasurementLink Pin Map Client Wrapper.lvlib" Type="Library" URL="../MeasurementLink Pin Map Client Wrapper/MeasurementLink Pin Map Client Wrapper.lvlib"/>
 			<Item Name="MeasurementLink Session Management Client Wrapper.lvlib" Type="Library" URL="../MeasurementLink Session Management Client Wrapper/MeasurementLink Session Management Client Wrapper.lvlib"/>
 			<Item Name="MeasurementLink Session Management.lvlib" Type="Library" URL="../MeasurementLink Session Management/MeasurementLink Session Management.lvlib"/>
 			<Item Name="MeasurementLink TestStand Integration.lvlib" Type="Library" URL="../MeasurementLink TestStand Integration/MeasurementLink TestStand Integration.lvlib"/>
@@ -36,7 +38,6 @@
 		<Item Name="Global VIs" Type="Folder">
 			<Item Name="Error Strings Global Internal.vi" Type="VI" URL="../MeasurementLink Measurement Server/Helpers/Error Strings Global Internal.vi"/>
 		</Item>
-		<Item Name="Action.ctl" Type="VI" URL="../MeasurementLink Session Management Client Wrapper/Action.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
