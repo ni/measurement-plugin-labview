@@ -9,8 +9,8 @@
 </Property>
 	<Item Name="Session Management Client Wrapper" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Action.ctl" Type="VI" URL="../Session Management Client Wrapper/Action.ctl"/>
 		<Item Name="Create Client.vi" Type="VI" URL="../Session Management Client Wrapper/Create Client.vi"/>
+		<Item Name="Recreate Client.vi" Type="VI" URL="../Session Management Client Wrapper/Recreate Client.vi"/>
 		<Item Name="Register Sessions.vi" Type="VI" URL="../Session Management Client Wrapper/Register Sessions.vi"/>
 		<Item Name="Reserve Registered Sessions.vi" Type="VI" URL="../Session Management Client Wrapper/Reserve Registered Sessions.vi"/>
 		<Item Name="Reserve Sessions.vi" Type="VI" URL="../Session Management Client Wrapper/Reserve Sessions.vi"/>

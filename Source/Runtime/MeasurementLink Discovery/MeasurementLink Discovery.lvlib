@@ -11,10 +11,13 @@
 		<Item Name="MeasurementLink Session Management.lvlib" Type="Friended Library" URL="../../MeasurementLink Session Management/MeasurementLink Session Management.lvlib"/>
 		<Item Name="MeasurementLink TestStand Integration.lvlib" Type="Friended Library" URL="../../MeasurementLink TestStand Integration/MeasurementLink TestStand Integration.lvlib"/>
 	</Item>
-	<Item Name="Action.ctl" Type="VI" URL="../Action.ctl">
+	<Item Name="Create Client.vi" Type="VI" URL="../Create Client.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Discovery Client FGV.vi" Type="VI" URL="../Discovery Client FGV.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="Recreate Client.vi" Type="VI" URL="../Recreate Client.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Resolve Service.vi" Type="VI" URL="../Resolve Service.vi">

@@ -9,8 +9,9 @@
 </Property>
 	<Item Name="Pin Map Client Wrapper" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Action.ctl" Type="VI" URL="../Pin Map Client Wrapper/Action.ctl"/>
+		<Item Name="Create Client.vi" Type="VI" URL="../Pin Map Client Wrapper/Create Client.vi"/>
 		<Item Name="Pin Map Client FGV.vi" Type="VI" URL="../Pin Map Client Wrapper/Pin Map Client FGV.vi"/>
+		<Item Name="Recreate Client.vi" Type="VI" URL="../Pin Map Client Wrapper/Recreate Client.vi"/>
 		<Item Name="Update Pin Map from XML.vi" Type="VI" URL="../Pin Map Client Wrapper/Update Pin Map from XML.vi"/>
 	</Item>
 	<Item Name="Get Pin Map ID for Sequence.vi" Type="VI" URL="../Get Pin Map ID for Sequence.vi"/>
