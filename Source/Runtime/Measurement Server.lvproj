@@ -27,8 +27,6 @@
 			<Item Name="MeasurementLink Discovery Client Wrapper.lvlib" Type="Library" URL="../MeasurementLink Discovery Client Wrapper/MeasurementLink Discovery Client Wrapper.lvlib"/>
 			<Item Name="MeasurementLink gRPC Utilities.lvlib" Type="Library" URL="../MeasurementLink gRPC Utilities/MeasurementLink gRPC Utilities.lvlib"/>
 			<Item Name="MeasurementLink Measurement Server.lvlib" Type="Library" URL="../MeasurementLink Measurement Server/MeasurementLink Measurement Server.lvlib"/>
-			<Item Name="MeasurementLink Pin Map Client Wrapper.lvlib" Type="Library" URL="../MeasurementLink Pin Map Client Wrapper/MeasurementLink Pin Map Client Wrapper.lvlib"/>
-			<Item Name="MeasurementLink Session Management Client Wrapper.lvlib" Type="Library" URL="../MeasurementLink Session Management Client Wrapper/MeasurementLink Session Management Client Wrapper.lvlib"/>
 			<Item Name="MeasurementLink Session Management.lvlib" Type="Library" URL="../MeasurementLink Session Management/MeasurementLink Session Management.lvlib"/>
 			<Item Name="MeasurementLink TestStand Integration.lvlib" Type="Library" URL="../MeasurementLink TestStand Integration/MeasurementLink TestStand Integration.lvlib"/>
 		</Item>
