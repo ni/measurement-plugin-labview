@@ -18,14 +18,9 @@
 	<Item Name="TypeDefs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		<Item Name="Action.ctl" Type="VI" URL="../gRPC Client Pool Helpers/Action.ctl"/>
-		<Item Name="Service Location FGV Action.ctl" Type="VI" URL="../TypeDefs/Service Location FGV Action.ctl"/>
 		<Item Name="VI References.ctl" Type="VI" URL="../gRPC Client Pool Helpers/VI References.ctl"/>
 	</Item>
 	<Item Name="Generic Client FGV.vi" Type="VI" URL="../gRPC Client Pool Helpers/Generic Client FGV.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-	</Item>
-	<Item Name="gRPC Client Pool.lvclass" Type="LVClass" URL="../gRPC Client Pool/gRPC Client Pool.lvclass"/>
-	<Item Name="Service Location FGV.vi" Type="VI" URL="../Service Location FGV.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 	</Item>
 </Library>

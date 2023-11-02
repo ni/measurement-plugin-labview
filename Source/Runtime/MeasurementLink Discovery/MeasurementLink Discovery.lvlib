@@ -10,17 +10,31 @@
 	<Item Name="Friends List" Type="Friends List">
 		<Item Name="MeasurementLink Session Management.lvlib" Type="Friended Library" URL="../../MeasurementLink Session Management/MeasurementLink Session Management.lvlib"/>
 		<Item Name="MeasurementLink TestStand Integration.lvlib" Type="Friended Library" URL="../../MeasurementLink TestStand Integration/MeasurementLink TestStand Integration.lvlib"/>
+		<Item Name="MeasurementLink Session Management.lvlib:Session Reservation.lvclass" Type="Friended Library" URL="../../MeasurementLink Session Management/Session Reservation/Session Reservation.lvclass"/>
 	</Item>
-	<Item Name="Create Client.vi" Type="VI" URL="../Create Client.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	<Item Name="Discovery Client" Type="Folder">
+		<Item Name="Create Client.vi" Type="VI" URL="../Create Client.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Discovery Client FGV.vi" Type="VI" URL="../Discovery Client FGV.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Recreate Client.vi" Type="VI" URL="../Recreate Client.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Resolve Service.vi" Type="VI" URL="../Resolve Service.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+		</Item>
 	</Item>
-	<Item Name="Discovery Client FGV.vi" Type="VI" URL="../Discovery Client FGV.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
-	<Item Name="Recreate Client.vi" Type="VI" URL="../Recreate Client.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
-	<Item Name="Resolve Service.vi" Type="VI" URL="../Resolve Service.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+	<Item Name="Service Location" Type="Folder">
+		<Item Name="Service Location FGV Action.ctl" Type="VI" URL="../Service Location FGV Action.ctl">
+			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+		</Item>
+		<Item Name="Service Location FGV.vi" Type="VI" URL="../Service Location FGV.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+		</Item>
+		<Item Name="Service Location Value.ctl" Type="VI" URL="../../MeasurementLink gRPC Utilities/TypeDefs/Service Location Value.ctl">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 	</Item>
 </Library>
