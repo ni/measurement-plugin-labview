@@ -225,10 +225,6 @@
 			<Item Name="test_RemoteDCPowerSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niDCPower/test_RemoteDCPowerSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
 		</Item>
 	</Item>
-	<Item Name="Client Pool" Type="Folder">
-		<Item Name="test_ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../test_ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
-		<Item Name="test_ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../test_ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
-	</Item>
 	<Item Name="Discovery Service" Type="Folder">
 		<Item Name="test_DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi" Type="VI" URL="../test_DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi"/>
 	</Item>
