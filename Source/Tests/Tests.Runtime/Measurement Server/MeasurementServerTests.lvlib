@@ -228,12 +228,6 @@
 	<Item Name="Discovery Service" Type="Folder">
 		<Item Name="test_DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi" Type="VI" URL="../test_DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi"/>
 	</Item>
-	<Item Name="Service Location Pool" Type="Folder">
-		<Item Name="test_ServiceLocationPool_DiscoveryServiceUnavailable_GetUncachedLocation_ReturnsError.vi" Type="VI" URL="../test_ServiceLocationPool_DiscoveryServiceUnavailable_GetUncachedLocation_ReturnsError.vi"/>
-		<Item Name="test_ServiceLocationPool_GetInvalidServiceTwice_DoesNotCacheInvalidData.vi" Type="VI" URL="../test_ServiceLocationPool_GetInvalidServiceTwice_DoesNotCacheInvalidData.vi"/>
-		<Item Name="test_ServiceLocationPool_GetLocation_ReturnsValidLocation.vi" Type="VI" URL="../test_ServiceLocationPool_GetLocation_ReturnsValidLocation.vi"/>
-		<Item Name="test_ServiceLocationPool_GetLocationTwice_ReturnsCachedLocation.vi" Type="VI" URL="../test_ServiceLocationPool_GetLocationTwice_ReturnsCachedLocation.vi"/>
-	</Item>
 	<Item Name="Close Sessions" Type="Folder">
 		<Item Name="Helpers" Type="Folder">
 			<Item Name="Close - Session Json to Data Add Instr.vi" Type="VI" URL="../Close Sessions/Helpers/Close - Session Json to Data Add Instr.vi"/>
