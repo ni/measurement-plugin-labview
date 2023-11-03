@@ -33,6 +33,9 @@
 		<Item Name="Tests" Type="Folder">
 			<Item Name="MeasurementServerTests.lvlib" Type="Library" URL="../../Tests/Tests.Runtime/Measurement Server/MeasurementServerTests.lvlib"/>
 		</Item>
+		<Item Name="TestUtilities" Type="Folder">
+			<Item Name="Session Reservation Test Utilities.lvlib" Type="Library" URL="../../TestUtilities/TestUtilities.Runtime/Session Reservation Test Utilities/Session Reservation Test Utilities.lvlib"/>
+		</Item>
 		<Item Name="Global VIs" Type="Folder">
 			<Item Name="Error Strings Global Internal.vi" Type="VI" URL="../MeasurementLink Measurement Server/Helpers/Error Strings Global Internal.vi"/>
 		</Item>
@@ -105,13 +108,6 @@
 				<Item Name="niDCPower IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower IVI Error Converter.vi"/>
 				<Item Name="niScope Get Session Reference.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Utility/niScope Get Session Reference.vi"/>
 				<Item Name="niScope LabVIEW Error.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Utility/niScope LabVIEW Error.vi"/>
-				<Item Name="niDCPower gRPC Device Server.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower gRPC Device Server.ctl"/>
-				<Item Name="niDigital Get Session Reference.vi" Type="VI" URL="/&lt;instrlib&gt;/niDigital/niDigital.llb/niDigital Get Session Reference.vi"/>
-				<Item Name="niFgen Get Session Reference.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Get Session Reference.vi"/>
-				<Item Name="niScope gRPC Device Server.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/niScope gRPC Device Server.ctl"/>
-				<Item Name="niDigital IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niDigital/niDigital.llb/niDigital IVI Error Converter.vi"/>
-				<Item Name="niDMM IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niDMM/nidmm.llb/niDMM IVI Error Converter.vi"/>
-				<Item Name="niFgen IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen IVI Error Converter.vi"/>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -125,15 +121,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="niScope_64.dll" Type="Document" URL="niScope_64.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="niDigital_64.dll" Type="Document" URL="niDigital_64.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="nidmm_64.dll" Type="Document" URL="nidmm_64.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="niFgen_64.dll" Type="Document" URL="niFgen_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
