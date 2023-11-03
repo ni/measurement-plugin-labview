@@ -31,8 +31,7 @@ def main():
         with open('temp_trunk_root.txt', 'w') as temp_trunk_root:
             temp_trunk_root.write(temp_directory.name)
 
-    # return_code = run_full_diff()
-    return_code = 0
+    return_code = run_full_diff()
     sys.exit(return_code)
 
 
