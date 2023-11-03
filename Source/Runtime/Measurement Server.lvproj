@@ -32,6 +32,9 @@
 		<Item Name="Tests" Type="Folder">
 			<Item Name="MeasurementServerTests.lvlib" Type="Library" URL="../../Tests/Tests.Runtime/Measurement Server/MeasurementServerTests.lvlib"/>
 		</Item>
+		<Item Name="TestUtilities" Type="Folder">
+			<Item Name="Session Reservation Test Utilities.lvlib" Type="Library" URL="../../TestUtilities/TestUtilities.Runtime/Session Reservation Test Utilities/Session Reservation Test Utilities.lvlib"/>
+		</Item>
 		<Item Name="Global VIs" Type="Folder">
 			<Item Name="Error Strings Global Internal.vi" Type="VI" URL="../MeasurementLink Measurement Server/Helpers/Error Strings Global Internal.vi"/>
 		</Item>
