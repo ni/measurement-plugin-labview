@@ -3,6 +3,7 @@ import logging
 import os
 import subprocess
 import sys
+from labview_diff import export_repo
 
 _logger = logging.getLogger(__name__)
 _logger.setLevel(logging.DEBUG)
@@ -12,6 +13,10 @@ handler.setLevel(logging.DEBUG)
 _logger.addHandler(handler)
 
 def main():
+    # TODO: recieve target branch name as param from workflow
+    temp_directory = export_repo("origin/main")
+    print(temp_directory)
+
     return_code = run_full_diff()
     sys.exit(return_code)
 
