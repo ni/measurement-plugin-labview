@@ -17,14 +17,15 @@ def main():
     # TODO: recieve target branch name as param from workflow
     target_branch = "origin/main"
 
-    # Returns a set of tuples of changed VIs: 'A' for Add, 'M' for Modified
-    changed_labview_files = list(get_changed_labview_files(target_branch))
+    (added_labview_files, modified_labview_files) = get_changed_labview_files(target_branch)
 
-    for change_type, filename in changed_labview_files:
-        if change_type == 'A':
-            _logger.debug(f"Added file {filename}")
-        if change_type == 'M':
-            _logger.debug(f"Modified file {filename}")
+    with open('added_lv_files.txt', 'w') as added_labview_files_file:
+        for filename in added_labview_files:
+            added_labview_files_file.write(filename + "\n")
+
+    with open('modified_lv_files.txt', 'w') as modified_labview_files_file:
+        for filename in modified_labview_files:
+            modified_labview_files_file.write(filename + "\n")
 
     # Temporarily disable copy of main
     # temp_directory = export_repo(target_branch)

@@ -106,9 +106,17 @@ def get_changed_labview_files(target_ref):
     # https://regex101.com/r/W3riqw/1
     diff_regex = re.compile(r"^(.*\.vi[tm]?)|(.*\.ctl?)$", re.MULTILINE)
 
+
+    added_labview_files = []
+    modified_labview_files = []
     for status, filename in changed_files:
         if re.match(diff_regex, filename):
-            yield status, filename
+            if status == 'A':
+                added_labview_files.append(filename)
+            if status == 'M':
+                modified_labview_files.append(filename)
+
+    return added_labview_files, modified_labview_files
 
 
 def diff_repo(workspace, output_dir, target_branch, lv_version):
