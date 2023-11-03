@@ -73,7 +73,9 @@ def export_repo(target_ref):
     """
 
     directory = tempfile.TemporaryDirectory()
-    shutil.copytree(".git", path.join(directory.name, ".git"))
+    print(directory)
+
+    shutil.copytree("../../.git", path.join(directory.name, ".git"))
     subprocess.check_call(["git", "checkout", "-f", target_ref], cwd=directory.name)
 
     @contextmanager
