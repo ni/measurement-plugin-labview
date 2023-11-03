@@ -265,12 +265,6 @@
 		<Item Name="test_CallReserveSessionsWithEmptyPin_ErrorReturned.vi" Type="VI" URL="../Reserve Sessions/test_CallReserveSessionsWithEmptyPin_ErrorReturned.vi"/>
 		<Item Name="test_CallReserveSessionsWithZeroElementArray_ErrorReturned.vi" Type="VI" URL="../Reserve Sessions/test_CallReserveSessionsWithZeroElementArray_ErrorReturned.vi"/>
 	</Item>
-	<Item Name="Service Location Pool" Type="Folder">
-		<Item Name="test_ServiceLocationPool_DiscoveryServiceUnavailable_GetUncachedLocation_ReturnsError.vi" Type="VI" URL="../test_ServiceLocationPool_DiscoveryServiceUnavailable_GetUncachedLocation_ReturnsError.vi"/>
-		<Item Name="test_ServiceLocationPool_GetInvalidServiceTwice_DoesNotCacheInvalidData.vi" Type="VI" URL="../test_ServiceLocationPool_GetInvalidServiceTwice_DoesNotCacheInvalidData.vi"/>
-		<Item Name="test_ServiceLocationPool_GetLocation_ReturnsValidLocation.vi" Type="VI" URL="../test_ServiceLocationPool_GetLocation_ReturnsValidLocation.vi"/>
-		<Item Name="test_ServiceLocationPool_GetLocationTwice_ReturnsCachedLocation.vi" Type="VI" URL="../test_ServiceLocationPool_GetLocationTwice_ReturnsCachedLocation.vi"/>
-	</Item>
 	<Item Name="Session Management" Type="Folder">
 		<Item Name="Session Reservation Tests.lvlib" Type="Library" URL="../Session Management/Session Reservation/Session Reservation Tests.lvlib"/>
 	</Item>
