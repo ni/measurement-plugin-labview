@@ -3,6 +3,7 @@ import logging
 import os
 import subprocess
 import sys
+from labview_diff import get_changed_labview_files
 from labview_diff import export_repo
 
 _logger = logging.getLogger(__name__)
@@ -14,8 +15,13 @@ _logger.addHandler(handler)
 
 def main():
     # TODO: recieve target branch name as param from workflow
-    temp_directory = export_repo("origin/main")
-    print(temp_directory)
+    # Returns a set of tuples of changed VIs: 'A' for Add, 'M' for Modified
+    diffs = list(get_changed_labview_files("origin/main"))
+    print(diffs)
+    
+    # Temporarily disable copy of main
+    # temp_directory = export_repo("origin/main")
+    # print(temp_directory)
 
     return_code = run_full_diff()
     sys.exit(return_code)
