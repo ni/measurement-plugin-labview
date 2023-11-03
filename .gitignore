@@ -17,3 +17,6 @@
 
 # Builds
 /Build Output/
+
+# Python Cache
+/Source/Tools/__pycache__/
