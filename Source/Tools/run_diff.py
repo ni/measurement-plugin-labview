@@ -19,11 +19,11 @@ def main():
 
     (added_labview_files, modified_labview_files) = get_changed_labview_files(target_branch)
 
-    with open('added_lv_files.txt', 'w') as added_labview_files_file:
+    with open('added_lv_files.lst', 'w') as added_labview_files_file:
         for filename in added_labview_files:
             added_labview_files_file.write(filename + "\n")
 
-    with open('modified_lv_files.txt', 'w') as modified_labview_files_file:
+    with open('modified_lv_files.lst', 'w') as modified_labview_files_file:
         for filename in modified_labview_files:
             modified_labview_files_file.write(filename + "\n")
 
