@@ -27,11 +27,12 @@ def main():
         for filename in modified_labview_files:
             modified_labview_files_file.write(filename + "\n")
 
-    # Temporarily disable copy of main
-    # temp_directory = export_repo(target_branch)
-    # _logger.debug(temp_directory)
+    with export_repo(target_branch) as temp_directory:
+        with open('temp_trunk_root.txt', 'w') as temp_trunk_root:
+            temp_trunk_root.write(temp_directory.name)
 
-    return_code = run_full_diff()
+    # return_code = run_full_diff()
+    return_code = 0
     sys.exit(return_code)
 
 
