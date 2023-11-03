@@ -271,8 +271,7 @@
 		<Item Name="test_ServiceLocationPool_GetLocation_ReturnsValidLocation.vi" Type="VI" URL="../test_ServiceLocationPool_GetLocation_ReturnsValidLocation.vi"/>
 		<Item Name="test_ServiceLocationPool_GetLocationTwice_ReturnsCachedLocation.vi" Type="VI" URL="../test_ServiceLocationPool_GetLocationTwice_ReturnsCachedLocation.vi"/>
 	</Item>
-	<Item Name="Unreserve Sessions" Type="Folder">
-		<Item Name="test_AfterCallUnreserveSessions_SessionReservationReturnsErrorForAnyAction.vi" Type="VI" URL="../Unreserve Sessions/test_AfterCallUnreserveSessions_SessionReservationReturnsErrorForAnyAction.vi"/>
-		<Item Name="test_SessionsReserved_CallUnreserveSessions_AllowsSessionsToBeReservedAgain.vi" Type="VI" URL="../Unreserve Sessions/test_SessionsReserved_CallUnreserveSessions_AllowsSessionsToBeReservedAgain.vi"/>
+	<Item Name="Session Management" Type="Folder">
+		<Item Name="Session Reservation Tests.lvlib" Type="Library" URL="../Session Management/Session Reservation/Session Reservation Tests.lvlib"/>
 	</Item>
 </Library>
