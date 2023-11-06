@@ -39,15 +39,15 @@ def run_full_diff():
     tools_directory = os.path.abspath(os.path.dirname(__file__))
     diff_vi = os.path.join(tools_directory , "run_diff.vi")
     _logger.debug(f"Launching {diff_vi}.")
-    test_result = subprocess.run(["LabVIEWCLI", "-OperationName", "RunVI", "-VIPath", os.path.normpath(diff_vi)], capture_output= True)
+    diff_result = subprocess.run(["LabVIEWCLI", "-OperationName", "RunVI", "-VIPath", os.path.normpath(diff_vi)], capture_output= True)
 
-    formatted_stdout = test_result.stdout.decode().replace('\r\n','\n').strip()
+    formatted_stdout = diff_result.stdout.decode().replace('\r\n','\n').strip()
     _logger.debug(formatted_stdout)
-    if(test_result.returncode != 0):
-        formatted_stderr = test_result.stderr.decode().replace('\r\n','\n').strip()
+    if(diff_result.returncode != 0):
+        formatted_stderr = diff_result.stderr.decode().replace('\r\n','\n').strip()
         _logger.error(formatted_stderr)
 
-    return test_result.returncode
+    return diff_result.returncode
 
 
 main()
