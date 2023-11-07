@@ -39,7 +39,7 @@
 		<Item Name="Global VIs" Type="Folder">
 			<Item Name="Error Strings Global Internal.vi" Type="VI" URL="../MeasurementLink Measurement Server/Helpers/Error Strings Global Internal.vi"/>
 		</Item>
-		<Item Name="Action.ctl" Type="VI" URL="../../Tests/Tests.Runtime/Measurement Server/gRPC Utilities/Action.ctl"/>
+		<Item Name="Fake Location Action.ctl" Type="VI" URL="../../Tests/Tests.Runtime/Measurement Server/gRPC Utilities/Location Pool/Fake Location Action.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>

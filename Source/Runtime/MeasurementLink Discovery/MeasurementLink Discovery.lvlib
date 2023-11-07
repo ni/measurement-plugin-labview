@@ -13,6 +13,7 @@
 		<Item Name="MeasurementLink Session Management.lvlib:Session Reservation.lvclass" Type="Friended Library" URL="../../MeasurementLink Session Management/Session Reservation/Session Reservation.lvclass"/>
 		<Item Name="MeasurementServerTests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Runtime/Measurement Server/MeasurementServerTests.lvlib"/>
 		<Item Name="MeasurementServerTests.lvlib:Session Reservation Tests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Runtime/Measurement Server/Session Management/Session Reservation/Session Reservation Tests.lvlib"/>
+		<Item Name="MeasurementServerTests.lvlib:Discovery Tests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Runtime/Measurement Server/Discovery/Discovery Tests.lvlib"/>
 	</Item>
 	<Item Name="Discovery Client" Type="Folder">
 		<Item Name="Create Client.vi" Type="VI" URL="../Create Client.vi">
@@ -29,14 +30,8 @@
 		</Item>
 	</Item>
 	<Item Name="Service Location" Type="Folder">
-		<Item Name="Service Location FGV Action.ctl" Type="VI" URL="../Service Location FGV Action.ctl">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
 		<Item Name="Service Location FGV.vi" Type="VI" URL="../Service Location FGV.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
-		<Item Name="Service Location Value.ctl" Type="VI" URL="../../MeasurementLink gRPC Utilities/TypeDefs/Service Location Value.ctl">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 	</Item>
 </Library>

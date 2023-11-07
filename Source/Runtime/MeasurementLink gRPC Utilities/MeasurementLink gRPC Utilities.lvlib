@@ -8,20 +8,21 @@
 
 </Property>
 	<Item Name="Friends List" Type="Friends List">
-		<Item Name="MeasurementServerTests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Runtime/Measurement Server/MeasurementServerTests.lvlib"/>
-		<Item Name="MeasurementLink Measurement Server.lvlib:IMeasurementService.lvclass" Type="Friended Library" URL="../../MeasurementLink Measurement Server/Classes/IMeasurementService/IMeasurementService.lvclass"/>
-		<Item Name="MeasurementLink Session Management.lvlib:Session Reservation.lvclass" Type="Friended Library" URL="../../MeasurementLink Session Management/Session Reservation/Session Reservation.lvclass"/>
 		<Item Name="MeasurementLink Session Management.lvlib" Type="Friended Library" URL="../../MeasurementLink Session Management/MeasurementLink Session Management.lvlib"/>
 		<Item Name="MeasurementLink TestStand Integration.lvlib" Type="Friended Library" URL="../../MeasurementLink TestStand Integration/MeasurementLink TestStand Integration.lvlib"/>
 		<Item Name="MeasurementLink Discovery.lvlib" Type="Friended Library" URL="../../MeasurementLink Discovery/MeasurementLink Discovery.lvlib"/>
 		<Item Name="MeasurementServerTests.lvlib:gRPC Utilities Tests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Runtime/Measurement Server/gRPC Utilities/gRPC Utilities Tests.lvlib"/>
+		<Item Name="MeasurementLink Session Management.lvlib:Session Reservation.lvclass" Type="Friended Library" URL="../../MeasurementLink Session Management/Session Reservation/Session Reservation.lvclass"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		<Item Name="Action.ctl" Type="VI" URL="../gRPC Client Pool Helpers/Action.ctl"/>
-		<Item Name="VI References.ctl" Type="VI" URL="../gRPC Client Pool Helpers/VI References.ctl"/>
+		<Item Name="Client Pool FGV Action.ctl" Type="VI" URL="../TypeDefs/Client Pool FGV Action.ctl"/>
+		<Item Name="Client Pool VI References.ctl" Type="VI" URL="../TypeDefs/Client Pool VI References.ctl"/>
+		<Item Name="Service Location FGV Action.ctl" Type="VI" URL="../TypeDefs/Service Location FGV Action.ctl"/>
+		<Item Name="Service Location Value.ctl" Type="VI" URL="../TypeDefs/Service Location Value.ctl"/>
 	</Item>
-	<Item Name="Generic Client FGV.vi" Type="VI" URL="../gRPC Client Pool Helpers/Generic Client FGV.vi">
+	<Item Name="Generic Client FGV.vi" Type="VI" URL="../Generic Client FGV.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 	</Item>
+	<Item Name="Service Location FGV.vi" Type="VI" URL="../Service Location FGV.vi"/>
 </Library>

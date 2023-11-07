@@ -271,4 +271,7 @@
 	<Item Name="TestStand Integration" Type="Folder">
 		<Item Name="TestStand Integration Tests.lvlib" Type="Library" URL="../TestStand Integration/TestStand Integration Tests.lvlib"/>
 	</Item>
+	<Item Name="Discovery" Type="Folder">
+		<Item Name="Discovery Tests.lvlib" Type="Library" URL="../Discovery/Discovery Tests.lvlib"/>
+	</Item>
 </Library>
