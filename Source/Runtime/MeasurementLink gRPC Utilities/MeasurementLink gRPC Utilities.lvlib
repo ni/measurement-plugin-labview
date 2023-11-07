@@ -14,6 +14,7 @@
 		<Item Name="MeasurementLink Session Management.lvlib" Type="Friended Library" URL="../../MeasurementLink Session Management/MeasurementLink Session Management.lvlib"/>
 		<Item Name="MeasurementLink TestStand Integration.lvlib" Type="Friended Library" URL="../../MeasurementLink TestStand Integration/MeasurementLink TestStand Integration.lvlib"/>
 		<Item Name="MeasurementLink Discovery.lvlib" Type="Friended Library" URL="../../MeasurementLink Discovery/MeasurementLink Discovery.lvlib"/>
+		<Item Name="MeasurementServerTests.lvlib:gRPC Utilities Tests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Runtime/Measurement Server/gRPC Utilities/gRPC Utilities Tests.lvlib"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>

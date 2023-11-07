@@ -12,6 +12,7 @@
 		<Item Name="MeasurementLink TestStand Integration.lvlib" Type="Friended Library" URL="../../MeasurementLink TestStand Integration/MeasurementLink TestStand Integration.lvlib"/>
 		<Item Name="MeasurementLink Session Management.lvlib:Session Reservation.lvclass" Type="Friended Library" URL="../../MeasurementLink Session Management/Session Reservation/Session Reservation.lvclass"/>
 		<Item Name="MeasurementServerTests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Runtime/Measurement Server/MeasurementServerTests.lvlib"/>
+		<Item Name="MeasurementServerTests.lvlib:Session Reservation Tests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Runtime/Measurement Server/Session Management/Session Reservation/Session Reservation Tests.lvlib"/>
 	</Item>
 	<Item Name="Discovery Client" Type="Folder">
 		<Item Name="Create Client.vi" Type="VI" URL="../Create Client.vi">

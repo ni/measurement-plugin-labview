@@ -11,6 +11,8 @@
 </Property>
 	<Item Name="Assert All Sessions Exist.vi" Type="VI" URL="../Assert All Sessions Exist.vi"/>
 	<Item Name="Assert Session Count.vi" Type="VI" URL="../Assert Session Count.vi"/>
+	<Item Name="Assert Session Reservation Session Count.vi" Type="VI" URL="../Assert Session Reservation Session Count.vi"/>
+	<Item Name="test_SessionManagerWrapper_StopSessionManagementService_WrapperMethodsWorkWithoutError.vi" Type="VI" URL="../test_SessionManagerWrapper_StopSessionManagementService_WrapperMethodsWorkWithoutError.vi"/>
 	<Item Name="test_SessionsRegistered_ReserveRegisteredSessions_ReservesAllSessions.vi" Type="VI" URL="../test_SessionsRegistered_ReserveRegisteredSessions_ReservesAllSessions.vi"/>
 	<Item Name="test_SessionsRegistered_ReserveSessions_IndicatesSessionsExist.vi" Type="VI" URL="../test_SessionsRegistered_ReserveSessions_IndicatesSessionsExist.vi"/>
 	<Item Name="test_SessionsReserved_ReserveSessions_ReturnsError.vi" Type="VI" URL="../test_SessionsReserved_ReserveSessions_ReturnsError.vi"/>

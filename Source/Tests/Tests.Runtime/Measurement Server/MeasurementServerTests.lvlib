@@ -23,21 +23,17 @@
 			<Item Name="Assert Number of Calls.vi" Type="VI" URL="../Helpers/Assertion Helpers/Assert Number of Calls.vi"/>
 		</Item>
 		<Item Name="Check If Discovery Service is Running.vi" Type="VI" URL="../Helpers/Check If Discovery Service is Running.vi"/>
-		<Item Name="Get Enum Getters.vi" Type="VI" URL="../Helpers/Get Enum Getters.vi"/>
 		<Item Name="Create Connection Cluster.vim" Type="VI" URL="../Helpers/Create Connection Cluster.vim"/>
 		<Item Name="Kill Discovery Service.vi" Type="VI" URL="../Helpers/Kill Discovery Service.vi"/>
 		<Item Name="Simple Channel Mapping to Channel Mapping Cluster.vi" Type="VI" URL="../Helpers/Simple Channel Mapping to Channel Mapping Cluster.vi"/>
 		<Item Name="Pin Map XML Strings Global.vi" Type="VI" URL="../Helpers/Pin Map XML Strings Global.vi"/>
+		<Item Name="Kill Service.vi" Type="VI" URL="../Helpers/Kill Service.vi"/>
+		<Item Name="Kill Session Management Service.vi" Type="VI" URL="../Helpers/Kill Session Management Service.vi"/>
 		<Item Name="Register Pin Map.vi" Type="VI" URL="../Helpers/Register Pin Map.vi"/>
 		<Item Name="Add Sessions to Connection Map.vi" Type="VI" URL="../Helpers/Add Sessions to Connection Map.vi"/>
 		<Item Name="Get Remote Connection Options.vi" Type="VI" URL="../Helpers/Get Remote Connection Options.vi"/>
 		<Item Name="Restart Discovery Service.vi" Type="VI" URL="../Helpers/Restart Discovery Service.vi"/>
 		<Item Name="Fake Session Factory.lvclass" Type="LVClass" URL="../Helpers/Fake Session Factory/Fake Session Factory.lvclass"/>
-	</Item>
-	<Item Name="Client Pool" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">0</Property>
-		<Item Name="test_ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../test_ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
-		<Item Name="test_ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../test_ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
 	</Item>
 	<Item Name="Close Sessions" Type="Folder">
 		<Item Name="Helpers" Type="Folder">
@@ -267,5 +263,8 @@
 	</Item>
 	<Item Name="Session Management" Type="Folder">
 		<Item Name="Session Reservation Tests.lvlib" Type="Library" URL="../Session Management/Session Reservation/Session Reservation Tests.lvlib"/>
+	</Item>
+	<Item Name="gRPC Utilities" Type="Folder">
+		<Item Name="gRPC Utilities Tests.lvlib" Type="Library" URL="../gRPC Utilities/gRPC Utilities Tests.lvlib"/>
 	</Item>
 </Library>
