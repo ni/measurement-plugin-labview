@@ -27,6 +27,7 @@
 	</Item>
 	<Item Name="Location Pool" Type="Folder">
 		<Item Name="Assert Service Location.vi" Type="VI" URL="../Location Pool/Assert Service Location.vi"/>
+		<Item Name="Fake Location Action.ctl" Type="VI" URL="../Location Pool/Fake Location Action.ctl"/>
 		<Item Name="Fake Location FGV.vi" Type="VI" URL="../Location Pool/Fake Location FGV.vi"/>
 		<Item Name="Fake Location Generator.vi" Type="VI" URL="../Location Pool/Fake Location Generator.vi"/>
 		<Item Name="Fake Resolve Service.vi" Type="VI" URL="../Location Pool/Fake Resolve Service.vi"/>
