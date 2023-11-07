@@ -34,6 +34,7 @@
 		<Item Name="Get Remote Connection Options.vi" Type="VI" URL="../Helpers/Get Remote Connection Options.vi"/>
 		<Item Name="Restart Discovery Service.vi" Type="VI" URL="../Helpers/Restart Discovery Service.vi"/>
 		<Item Name="Fake Session Factory.lvclass" Type="LVClass" URL="../Helpers/Fake Session Factory/Fake Session Factory.lvclass"/>
+		<Item Name="Kill Session Pin Map Service.vi" Type="VI" URL="../Helpers/Kill Session Pin Map Service.vi"/>
 	</Item>
 	<Item Name="Close Sessions" Type="Folder">
 		<Item Name="Helpers" Type="Folder">
@@ -266,5 +267,8 @@
 	</Item>
 	<Item Name="gRPC Utilities" Type="Folder">
 		<Item Name="gRPC Utilities Tests.lvlib" Type="Library" URL="../gRPC Utilities/gRPC Utilities Tests.lvlib"/>
+	</Item>
+	<Item Name="TestStand Integration" Type="Folder">
+		<Item Name="TestStand Integration Tests.lvlib" Type="Library" URL="../TestStand Integration/TestStand Integration Tests.lvlib"/>
 	</Item>
 </Library>
