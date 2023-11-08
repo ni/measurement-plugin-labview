@@ -34,14 +34,15 @@ def run_full_diff():
     tools_directory = os.path.abspath(os.path.dirname(__file__))
     diff_vi = os.path.join(tools_directory , "run_diff.vi")
     _logger.debug(f"Launching {diff_vi}.")
-    command_args = ["LabVIEWCLI",
-                                  "-OperationName", "RunVI",
-                                  "-VIPath", os.path.normpath(diff_vi),
-                                  "--added_labview_files", 
-                                  "--modified_labview_files",
-                                  "--target_branch_snapshot_dir", temp_directory.name]
 
-    diff_result = subprocess.run(command_args, capture_output= True)
+    kwargs = ["LabVIEWCLI", "-OperationName", "RunVI", "-VIPath", os.path.normpath(diff_vi)]
+    kwargs.extend(["--added_labview_files"])
+    kwargs.extend(added_labview_files)
+    kwargs.extend(["--modified_labview_files"])
+    kwargs.extend(modified_labview_files)
+    kwargs.extend(["--target_snapshot_dir", temp_directory.name])
+
+    diff_result = subprocess.run(kwargs, capture_output= True)
 
     formatted_stdout = diff_result.stdout.decode().replace('\r\n','\n').strip()
     _logger.debug(formatted_stdout)
