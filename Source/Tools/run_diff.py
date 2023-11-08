@@ -37,8 +37,10 @@ def run_full_diff():
     diff_result = subprocess.run(["LabVIEWCLI",
                                   "-OperationName", "RunVI",
                                   "-VIPath", os.path.normpath(diff_vi),
-                                  "CustomParam1", "CustomParam2", "CustomParam3"
-                                  ], capture_output= True)
+                                  "--added_labview_files", 
+                                  "--modified_labview_files",
+                                  "--target_branch_snapshot_dir", temp_directory.name],
+                                  capture_output= True)
 
     formatted_stdout = diff_result.stdout.decode().replace('\r\n','\n').strip()
     _logger.debug(formatted_stdout)
