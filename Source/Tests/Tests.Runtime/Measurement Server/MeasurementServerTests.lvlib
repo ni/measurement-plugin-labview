@@ -29,6 +29,7 @@
 		<Item Name="Pin Map XML Strings Global.vi" Type="VI" URL="../Helpers/Pin Map XML Strings Global.vi"/>
 		<Item Name="Kill Service.vi" Type="VI" URL="../Helpers/Kill Service.vi"/>
 		<Item Name="Kill Session Management Service.vi" Type="VI" URL="../Helpers/Kill Session Management Service.vi"/>
+		<Item Name="Kill gRPC Device Service.vi" Type="VI" URL="../Helpers/Kill gRPC Device Service.vi"/>
 		<Item Name="Register Pin Map.vi" Type="VI" URL="../Helpers/Register Pin Map.vi"/>
 		<Item Name="Add Sessions to Connection Map.vi" Type="VI" URL="../Helpers/Add Sessions to Connection Map.vi"/>
 		<Item Name="Get Remote Connection Options.vi" Type="VI" URL="../Helpers/Get Remote Connection Options.vi"/>
