@@ -13,7 +13,7 @@ handler = logging.StreamHandler(sys.stdout)
 handler.setLevel(logging.DEBUG)
 _logger.addHandler(handler)
 
-def main():
+def run_full_diff():
     # TODO: recieve target branch name as param from workflow
     target_branch = "origin/main"
 
@@ -31,11 +31,6 @@ def main():
         with open('temp_trunk_root.txt', 'w') as temp_trunk_root:
             temp_trunk_root.write(temp_directory.name)
 
-    return_code = run_full_diff()
-    sys.exit(return_code)
-
-
-def run_full_diff():
     tools_directory = os.path.abspath(os.path.dirname(__file__))
     diff_vi = os.path.join(tools_directory , "run_diff.vi")
     _logger.debug(f"Launching {diff_vi}.")
@@ -52,6 +47,11 @@ def run_full_diff():
         _logger.error(formatted_stderr)
 
     return diff_result.returncode
+
+
+def main():
+    return_code = run_full_diff()
+    sys.exit(return_code)
 
 
 main()
