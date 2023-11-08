@@ -25,7 +25,6 @@
 				<Item Name="MeasurementLink niScope.lvlib" Type="Library" URL="../MeasurementLink niScope/MeasurementLink niScope.lvlib"/>
 			</Item>
 			<Item Name="MeasurementLink Discovery.lvlib" Type="Library" URL="../MeasurementLink Discovery/MeasurementLink Discovery.lvlib"/>
-			<Item Name="MeasurementLink gRPC Utilities.lvlib" Type="Library" URL="../MeasurementLink gRPC Utilities/MeasurementLink gRPC Utilities.lvlib"/>
 			<Item Name="MeasurementLink Measurement Server.lvlib" Type="Library" URL="../MeasurementLink Measurement Server/MeasurementLink Measurement Server.lvlib"/>
 			<Item Name="MeasurementLink Session Management.lvlib" Type="Library" URL="../MeasurementLink Session Management/MeasurementLink Session Management.lvlib"/>
 			<Item Name="MeasurementLink TestStand Integration.lvlib" Type="Library" URL="../MeasurementLink TestStand Integration/MeasurementLink TestStand Integration.lvlib"/>

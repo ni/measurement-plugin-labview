@@ -8,11 +8,8 @@
 
 </Property>
 	<Item Name="Friends List" Type="Friends List">
-		<Item Name="MeasurementLink Session Management.lvlib" Type="Friended Library" URL="../../MeasurementLink Session Management/MeasurementLink Session Management.lvlib"/>
 		<Item Name="MeasurementLink TestStand Integration.lvlib" Type="Friended Library" URL="../../MeasurementLink TestStand Integration/MeasurementLink TestStand Integration.lvlib"/>
 		<Item Name="MeasurementLink Session Management.lvlib:Session Reservation.lvclass" Type="Friended Library" URL="../../MeasurementLink Session Management/Session Reservation/Session Reservation.lvclass"/>
-		<Item Name="MeasurementServerTests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Runtime/Measurement Server/MeasurementServerTests.lvlib"/>
-		<Item Name="MeasurementServerTests.lvlib:Session Reservation Tests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Runtime/Measurement Server/Session Management/Session Reservation/Session Reservation Tests.lvlib"/>
 		<Item Name="MeasurementServerTests.lvlib:Discovery Tests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Runtime/Measurement Server/Discovery/Discovery Tests.lvlib"/>
 	</Item>
 	<Item Name="Discovery Client Wrapper" Type="Folder">
@@ -29,9 +26,29 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		</Item>
 	</Item>
+	<Item Name="gRPC Client Cache" Type="Folder">
+		<Item Name="gRPC Client Cache FGV Action.ctl" Type="VI" URL="../TypeDefs/gRPC Client Cache FGV Action.ctl">
+			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+		</Item>
+		<Item Name="gRPC Client Cache FGV Impl.vi" Type="VI" URL="../gRPC Client Cache FGV Impl.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+		</Item>
+		<Item Name="gRPC Client Cache VI References.ctl" Type="VI" URL="../TypeDefs/gRPC Client Cache VI References.ctl">
+			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+		</Item>
+	</Item>
 	<Item Name="Service Location Pool" Type="Folder">
+		<Item Name="Service Location FGV Action.ctl" Type="VI" URL="../TypeDefs/Service Location FGV Action.ctl">
+			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+		</Item>
+		<Item Name="Service Location FGV Impl.vi" Type="VI" URL="../Service Location FGV Impl.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Service Location FGV.vi" Type="VI" URL="../Service Location FGV.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+		</Item>
+		<Item Name="Service Location Map Value.ctl" Type="VI" URL="../TypeDefs/Service Location Map Value.ctl">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 	</Item>
 </Library>
