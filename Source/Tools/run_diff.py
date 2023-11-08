@@ -19,17 +19,7 @@ def run_full_diff():
 
     (added_labview_files, modified_labview_files) = get_changed_labview_files(target_branch)
 
-    with open('added_lv_files.lst', 'w') as added_labview_files_file:
-        for filename in added_labview_files:
-            added_labview_files_file.write(filename + "\n")
-
-    with open('modified_lv_files.lst', 'w') as modified_labview_files_file:
-        for filename in modified_labview_files:
-            modified_labview_files_file.write(filename + "\n")
-
-    with export_repo(target_branch) as temp_directory:
-        with open('temp_trunk_root.txt', 'w') as temp_trunk_root:
-            temp_trunk_root.write(temp_directory.name)
+    target_snapshot_directory = export_repo(target_branch)
 
     tools_directory = os.path.abspath(os.path.dirname(__file__))
     diff_vi = os.path.join(tools_directory , "run_diff.vi")
@@ -40,7 +30,7 @@ def run_full_diff():
     kwargs.extend(added_labview_files)
     kwargs.extend(["--modified_labview_files"])
     kwargs.extend(modified_labview_files)
-    kwargs.extend(["--target_snapshot_dir", temp_directory.name])
+    kwargs.extend(["--target_snapshot_directory", target_snapshot_directory.name])
 
     diff_result = subprocess.run(kwargs, capture_output= True)
 

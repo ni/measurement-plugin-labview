@@ -78,20 +78,7 @@ def export_repo(target_ref):
     shutil.copytree("../../.git", path.join(directory.name, ".git"))
     subprocess.check_call(["git", "checkout", "-f", target_ref], cwd=directory.name)
 
-    @contextmanager
-    def cleanup_make_all_writeable(directory):
-        try:
-            yield directory
-        finally:
-            # tempfile.TemporaryDirectory has a bug where it fails when readonly files
-            # are present. Clearing the readonly flag manually fixes this.
-            # When https://bugs.python.org/issue26660 is fixed, this code can be removed,
-            # and the temporary directory can be returned directly
-            for root, dirs, files in os.walk(directory.name):
-                for file in files:
-                    os.chmod(root + "/" + file, stat.S_IWRITE)
-
-    return cleanup_make_all_writeable(directory)
+    return (directory)
 
 
 def get_changed_labview_files(target_ref):
