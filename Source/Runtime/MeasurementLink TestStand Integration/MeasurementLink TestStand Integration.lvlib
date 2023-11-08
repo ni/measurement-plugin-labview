@@ -9,6 +9,7 @@
 </Property>
 	<Item Name="Friends List" Type="Friends List">
 		<Item Name="MeasurementServerTests.lvlib:TestStand Integration Tests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Runtime/Measurement Server/TestStand Integration/TestStand Integration Tests.lvlib"/>
+		<Item Name="MeasurementServerTests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Runtime/Measurement Server/MeasurementServerTests.lvlib"/>
 	</Item>
 	<Item Name="Pin Map Client Wrapper" Type="Folder">
 		<Item Name="Create Client.vi" Type="VI" URL="../Pin Map Client Wrapper/Create Client.vi">

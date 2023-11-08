@@ -267,9 +267,6 @@
 	<Item Name="Session Management" Type="Folder">
 		<Item Name="Session Reservation Tests.lvlib" Type="Library" URL="../Session Management/Session Reservation/Session Reservation Tests.lvlib"/>
 	</Item>
-	<Item Name="gRPC Utilities" Type="Folder">
-		<Item Name="gRPC Utilities Tests.lvlib" Type="Library" URL="../gRPC Utilities/gRPC Utilities Tests.lvlib"/>
-	</Item>
 	<Item Name="TestStand Integration" Type="Folder">
 		<Item Name="TestStand Integration Tests.lvlib" Type="Library" URL="../TestStand Integration/TestStand Integration Tests.lvlib"/>
 	</Item>

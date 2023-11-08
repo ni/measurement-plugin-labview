@@ -42,7 +42,7 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		</Item>
 		<Item Name="Service Location FGV Impl.vi" Type="VI" URL="../Service Location FGV Impl.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		</Item>
 		<Item Name="Service Location FGV.vi" Type="VI" URL="../Service Location FGV.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
