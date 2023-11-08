@@ -15,7 +15,7 @@
 		<Item Name="MeasurementServerTests.lvlib:Session Reservation Tests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Runtime/Measurement Server/Session Management/Session Reservation/Session Reservation Tests.lvlib"/>
 		<Item Name="MeasurementServerTests.lvlib:Discovery Tests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Runtime/Measurement Server/Discovery/Discovery Tests.lvlib"/>
 	</Item>
-	<Item Name="Client Pool" Type="Folder">
+	<Item Name="Discovery Client Wrapper" Type="Folder">
 		<Item Name="Create Client.vi" Type="VI" URL="../Create Client.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
