@@ -23,21 +23,19 @@
 			<Item Name="Assert Number of Calls.vi" Type="VI" URL="../Helpers/Assertion Helpers/Assert Number of Calls.vi"/>
 		</Item>
 		<Item Name="Check If Discovery Service is Running.vi" Type="VI" URL="../Helpers/Check If Discovery Service is Running.vi"/>
-		<Item Name="Get Enum Getters.vi" Type="VI" URL="../Helpers/Get Enum Getters.vi"/>
 		<Item Name="Create Connection Cluster.vim" Type="VI" URL="../Helpers/Create Connection Cluster.vim"/>
 		<Item Name="Kill Discovery Service.vi" Type="VI" URL="../Helpers/Kill Discovery Service.vi"/>
 		<Item Name="Simple Channel Mapping to Channel Mapping Cluster.vi" Type="VI" URL="../Helpers/Simple Channel Mapping to Channel Mapping Cluster.vi"/>
 		<Item Name="Pin Map XML Strings Global.vi" Type="VI" URL="../Helpers/Pin Map XML Strings Global.vi"/>
+		<Item Name="Kill Service.vi" Type="VI" URL="../Helpers/Kill Service.vi"/>
+		<Item Name="Kill Session Management Service.vi" Type="VI" URL="../Helpers/Kill Session Management Service.vi"/>
+		<Item Name="Kill gRPC Device Service.vi" Type="VI" URL="../Helpers/Kill gRPC Device Service.vi"/>
 		<Item Name="Register Pin Map.vi" Type="VI" URL="../Helpers/Register Pin Map.vi"/>
 		<Item Name="Add Sessions to Connection Map.vi" Type="VI" URL="../Helpers/Add Sessions to Connection Map.vi"/>
 		<Item Name="Get Remote Connection Options.vi" Type="VI" URL="../Helpers/Get Remote Connection Options.vi"/>
 		<Item Name="Restart Discovery Service.vi" Type="VI" URL="../Helpers/Restart Discovery Service.vi"/>
 		<Item Name="Fake Session Factory.lvclass" Type="LVClass" URL="../Helpers/Fake Session Factory/Fake Session Factory.lvclass"/>
-	</Item>
-	<Item Name="Client Pool" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">0</Property>
-		<Item Name="test_ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../test_ClientPool_CreateDestroyAndRecreateClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
-		<Item Name="test_ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi" Type="VI" URL="../test_ClientPool_GetClients_ClientsCreatedWithNonZeroGrpcId.vi"/>
+		<Item Name="Kill Pin Map Service.vi" Type="VI" URL="../Helpers/Kill Pin Map Service.vi"/>
 	</Item>
 	<Item Name="Close Sessions" Type="Folder">
 		<Item Name="Helpers" Type="Folder">
@@ -108,6 +106,7 @@
 			<Item Name="test_SessionInitializeErrors_CallCreateSessionsWithAuto_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi" Type="VI" URL="../Create Sessions/test_SessionInitializeErrors_CallCreateSessionsWithAuto_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi"/>
 			<Item Name="test_SessionInitializeErrors_CallCreateSessionsWithInitializeAndClose_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi" Type="VI" URL="../Create Sessions/test_SessionInitializeErrors_CallCreateSessionsWithInitializeAndClose_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi"/>
 			<Item Name="test_SessionInitializeErrors_CallCreateSessionsWithInitializeAndDetach_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi" Type="VI" URL="../Create Sessions/test_SessionInitializeErrors_CallCreateSessionsWithInitializeAndDetach_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi"/>
+			<Item Name="test_SessionInitializeErrors_CallInitializeSessionsForRemoteSession_InitializeRetriesAndSucceeds.vi" Type="VI" URL="../Create Sessions/test_SessionInitializeErrors_CallInitializeSessionsForRemoteSession_InitializeRetriesAndSucceeds.vi"/>
 			<Item Name="test_SomeSessionsRegistered_CallCreateSessionsWithAttachAndClose_InitializeCalledWithProperBehavior.vi" Type="VI" URL="../Create Sessions/test_SomeSessionsRegistered_CallCreateSessionsWithAttachAndClose_InitializeCalledWithProperBehavior.vi"/>
 			<Item Name="test_SomeSessionsRegistered_CallCreateSessionsWithAttachAndDetach_InitializeCalledWithProperBehavior.vi" Type="VI" URL="../Create Sessions/test_SomeSessionsRegistered_CallCreateSessionsWithAttachAndDetach_InitializeCalledWithProperBehavior.vi"/>
 			<Item Name="test_SomeSessionsRegistered_CallCreateSessionsWithAuto_InitializeCalledWithProperBehavior.vi" Type="VI" URL="../Create Sessions/test_SomeSessionsRegistered_CallCreateSessionsWithAuto_InitializeCalledWithProperBehavior.vi"/>
@@ -265,13 +264,13 @@
 		<Item Name="test_CallReserveSessionsWithEmptyPin_ErrorReturned.vi" Type="VI" URL="../Reserve Sessions/test_CallReserveSessionsWithEmptyPin_ErrorReturned.vi"/>
 		<Item Name="test_CallReserveSessionsWithZeroElementArray_ErrorReturned.vi" Type="VI" URL="../Reserve Sessions/test_CallReserveSessionsWithZeroElementArray_ErrorReturned.vi"/>
 	</Item>
-	<Item Name="Service Location Pool" Type="Folder">
-		<Item Name="test_ServiceLocationPool_DiscoveryServiceUnavailable_GetUncachedLocation_ReturnsError.vi" Type="VI" URL="../test_ServiceLocationPool_DiscoveryServiceUnavailable_GetUncachedLocation_ReturnsError.vi"/>
-		<Item Name="test_ServiceLocationPool_GetInvalidServiceTwice_DoesNotCacheInvalidData.vi" Type="VI" URL="../test_ServiceLocationPool_GetInvalidServiceTwice_DoesNotCacheInvalidData.vi"/>
-		<Item Name="test_ServiceLocationPool_GetLocation_ReturnsValidLocation.vi" Type="VI" URL="../test_ServiceLocationPool_GetLocation_ReturnsValidLocation.vi"/>
-		<Item Name="test_ServiceLocationPool_GetLocationTwice_ReturnsCachedLocation.vi" Type="VI" URL="../test_ServiceLocationPool_GetLocationTwice_ReturnsCachedLocation.vi"/>
-	</Item>
 	<Item Name="Session Management" Type="Folder">
 		<Item Name="Session Reservation Tests.lvlib" Type="Library" URL="../Session Management/Session Reservation/Session Reservation Tests.lvlib"/>
+	</Item>
+	<Item Name="TestStand Integration" Type="Folder">
+		<Item Name="TestStand Integration Tests.lvlib" Type="Library" URL="../TestStand Integration/TestStand Integration Tests.lvlib"/>
+	</Item>
+	<Item Name="Discovery" Type="Folder">
+		<Item Name="Discovery Tests.lvlib" Type="Library" URL="../Discovery/Discovery Tests.lvlib"/>
 	</Item>
 </Library>
