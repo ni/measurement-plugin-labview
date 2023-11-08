@@ -15,7 +15,7 @@
 		<Item Name="MeasurementServerTests.lvlib:Session Reservation Tests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Runtime/Measurement Server/Session Management/Session Reservation/Session Reservation Tests.lvlib"/>
 		<Item Name="MeasurementServerTests.lvlib:Discovery Tests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Runtime/Measurement Server/Discovery/Discovery Tests.lvlib"/>
 	</Item>
-	<Item Name="Discovery Client" Type="Folder">
+	<Item Name="Client Pool" Type="Folder">
 		<Item Name="Create Client.vi" Type="VI" URL="../Create Client.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
@@ -29,7 +29,7 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		</Item>
 	</Item>
-	<Item Name="Service Location" Type="Folder">
+	<Item Name="Service Location Pool" Type="Folder">
 		<Item Name="Service Location FGV.vi" Type="VI" URL="../Service Location FGV.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		</Item>

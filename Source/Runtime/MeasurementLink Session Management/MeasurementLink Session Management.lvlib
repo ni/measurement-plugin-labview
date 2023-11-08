@@ -9,32 +9,6 @@
 </Property>
 	<Item Name="Friends List" Type="Friends List">
 		<Item Name="MeasurementLink Measurement Server.lvlib:MeasurementContext.lvclass" Type="Friended Library" URL="../../MeasurementLink Measurement Server/Classes/MeasurementContext/MeasurementContext.lvclass"/>
-		<Item Name="MeasurementServerTests.lvlib:Session Reservation Tests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Runtime/Measurement Server/Session Management/Session Reservation/Session Reservation Tests.lvlib"/>
-	</Item>
-	<Item Name="Session Management Client Wrapper" Type="Folder">
-		<Item Name="Helpers" Type="Folder">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			<Item Name="Create Client.vi" Type="VI" URL="../Session Management Client Wrapper/Create Client.vi"/>
-			<Item Name="Recreate Client.vi" Type="VI" URL="../Session Management Client Wrapper/Recreate Client.vi"/>
-		</Item>
-		<Item Name="Register Sessions.vi" Type="VI" URL="../Session Management Client Wrapper/Register Sessions.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
-		<Item Name="Reserve Registered Sessions.vi" Type="VI" URL="../Session Management Client Wrapper/Reserve Registered Sessions.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
-		<Item Name="Reserve Sessions.vi" Type="VI" URL="../Session Management Client Wrapper/Reserve Sessions.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
-		<Item Name="Session Client FGV.vi" Type="VI" URL="../Session Management Client Wrapper/Session Client FGV.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
-		<Item Name="Unregister Sessions.vi" Type="VI" URL="../Session Management Client Wrapper/Unregister Sessions.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
-		<Item Name="Unreserve Sessions.vi" Type="VI" URL="../Session Management Client Wrapper/Unreserve Sessions.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
 	</Item>
 	<Item Name="Connection Map.lvclass" Type="LVClass" URL="../Connection Map/Connection Map.lvclass"/>
 	<Item Name="IReservationObserver.lvclass" Type="LVClass" URL="../IReservationObserver/IReservationObserver.lvclass"/>
