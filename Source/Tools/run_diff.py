@@ -29,7 +29,7 @@ def run_full_diff():
     source_directory = tools_directory.parent
     repo_root_directory = source_directory.parent
 
-    target_snapshot_directory = checkout_target_from_repo(repo_root_directory, target_branch)
+    target_snapshot_directory = copy_target_branch_into_temp_directory(repo_root_directory, target_branch)
 
     diff_vi = os.path.join(tools_directory , "run_diff.vi")
     _logger.debug(f"Launching {diff_vi}.")
@@ -64,13 +64,20 @@ def main():
     sys.exit(return_code)
 
 
-def checkout_target_from_repo(repo_root_directory, target_branch):
+def copy_target_branch_into_temp_directory(repo_root_directory, target_branch):
     temp_directory = tempfile.TemporaryDirectory()
     _logger.debug(temp_directory)
 
-    # Temporarily disable these calls
-    # shutil.copytree(os.path.join(repo_root_directory, ".git"), os.path.join(temp_directory.name, ".git"))
-    # subprocess.check_call(["git", "checkout", "-f", target_branch], cwd=temp_directory.name)
+    # When invoked via workflow, the workflow should have pre-populated the "target" dir already
+    target_branch_from_workflow = os.path.join(repo_root_directory, "target")
+    if os.path.exists(target_branch_from_workflow):
+        # move the copy provided by the workflow into the temp dir
+        pathlib.Path.rmdir(temp_directory.name)
+        os.rename(target_branch_from_workflow, temp_directory.name)
+    else:
+        # use `git checkout` to populate the temp dir with the target branch content
+        shutil.copytree(os.path.join(repo_root_directory, ".git"), os.path.join(temp_directory.name, ".git"))
+        subprocess.check_call(["git", "checkout", "-f", target_branch], cwd=temp_directory.name)
 
     return (temp_directory)
 
