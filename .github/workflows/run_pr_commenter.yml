@@ -9,7 +9,12 @@ jobs:
     name: Run PR Commenter
     runs-on: self-hosted
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
+      with:
+        ref: origin/main
+        path: target
+
+    - uses: actions/checkout@v4
 
     - uses: actions/setup-python@v4
       with:
@@ -17,5 +22,4 @@ jobs:
 
     - name: Run PR Commenter
       run:
-        git diff --name-status --diff-filter=AM origin/main...
         python ${{runner.workspace}}\measurementlink-labview\Source\Tools\run_diff.py
