@@ -51,87 +51,87 @@
 		<Item Name="test_MultipleSessionsReserved_CallCloseSessions_SessionsClosed.vi" Type="VI" URL="../Close Sessions/test_MultipleSessionsReserved_CallCloseSessions_SessionsClosed.vi"/>
 		<Item Name="test_MultipleSessionsReserved_CallCloseSessionsTwice_CloseNotCalledSecondTime.vi" Type="VI" URL="../Close Sessions/test_MultipleSessionsReserved_CallCloseSessionsTwice_CloseNotCalledSecondTime.vi"/>
 		<Item Name="test_MultipleSessionsReserved_CallCloseSessionsWithErrorInput_SessionsClosed.vi" Type="VI" URL="../Close Sessions/test_MultipleSessionsReserved_CallCloseSessionsWithErrorInput_SessionsClosed.vi"/>
-		<Item Name="test_SessionNeverCreated_CallCloseSessions_CloseNotCalled.vi" Type="VI" URL="../Close Sessions/test_SessionNeverCreated_CallCloseSessions_CloseNotCalled.vi"/>
+		<Item Name="test_SessionNeverInitialized_CallCloseSessions_CloseNotCalled.vi" Type="VI" URL="../Close Sessions/test_SessionNeverInitialized_CallCloseSessions_CloseNotCalled.vi"/>
 	</Item>
-	<Item Name="Create and Close Sessions" Type="Folder">
-		<Item Name="parameterized_SomeSessionsRegistered_CallCreateAndCloseSessions_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Create and Close Sessions/parameterized_SomeSessionsRegistered_CallCreateAndCloseSessions_InitializeAndCloseCalledWithProperBehavior.vi"/>
-		<Item Name="test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithAttachAndClose_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Create and Close Sessions/test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithAttachAndClose_InitializeAndCloseCalledWithProperBehavior.vi"/>
-		<Item Name="test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithAttachAndDetach_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Create and Close Sessions/test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithAttachAndDetach_InitializeAndCloseCalledWithProperBehavior.vi"/>
-		<Item Name="test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithAuto_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Create and Close Sessions/test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithAuto_InitializeAndCloseCalledWithProperBehavior.vi"/>
-		<Item Name="test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithInitializeAndClose_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Create and Close Sessions/test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithInitializeAndClose_InitializeAndCloseCalledWithProperBehavior.vi"/>
-		<Item Name="test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithInitializeAndDetach_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Create and Close Sessions/test_SomeSessionsRegistered_CallCreateAndCloseSessionsWithInitializeAndDetach_InitializeAndCloseCalledWithProperBehavior.vi"/>
+	<Item Name="Initialize and Close Sessions" Type="Folder">
+		<Item Name="parameterized_SomeSessionsRegistered_InitializeAndCloseSessions_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Initialize and Close Sessions/parameterized_SomeSessionsRegistered_InitializeAndCloseSessions_InitializeAndCloseCalledWithProperBehavior.vi"/>
+		<Item Name="test_SomeSessionsRegistered_InitializeAndCloseSessionsWithAttachAndClose_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Initialize and Close Sessions/test_SomeSessionsRegistered_InitializeAndCloseSessionsWithAttachAndClose_InitializeAndCloseCalledWithProperBehavior.vi"/>
+		<Item Name="test_SomeSessionsRegistered_InitializeAndCloseSessionsWithAttachAndDetach_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Initialize and Close Sessions/test_SomeSessionsRegistered_InitializeAndCloseSessionsWithAttachAndDetach_InitializeAndCloseCalledWithProperBehavior.vi"/>
+		<Item Name="test_SomeSessionsRegistered_InitializeAndCloseSessionsWithAuto_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Initialize and Close Sessions/test_SomeSessionsRegistered_InitializeAndCloseSessionsWithAuto_InitializeAndCloseCalledWithProperBehavior.vi"/>
+		<Item Name="test_SomeSessionsRegistered_InitializeAndCloseSessionsWithInitializeAndClose_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Initialize and Close Sessions/test_SomeSessionsRegistered_InitializeAndCloseSessionsWithInitializeAndClose_InitializeAndCloseCalledWithProperBehavior.vi"/>
+		<Item Name="test_SomeSessionsRegistered_InitializeAndCloseSessionsWithInitializeAndDetach_InitializeAndCloseCalledWithProperBehavior.vi" Type="VI" URL="../Initialize and Close Sessions/test_SomeSessionsRegistered_InitializeAndCloseSessionsWithInitializeAndDetach_InitializeAndCloseCalledWithProperBehavior.vi"/>
 	</Item>
-	<Item Name="Create Sessions" Type="Folder">
+	<Item Name="Initialize Sessions" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Helpers" Type="Folder">
-			<Item Name="Session Json to Data - Create Sessions.vi" Type="VI" URL="../Create Sessions/Helpers/Session Json to Data - Create Sessions.vi"/>
-			<Item Name="Session Json to Data Add Connection - Create Sessions.vi" Type="VI" URL="../Create Sessions/Helpers/Session Json to Data Add Connection - Create Sessions.vi"/>
-			<Item Name="Session Json to Data Add Session - Create Sessions.vi" Type="VI" URL="../Create Sessions/Helpers/Session Json to Data Add Session - Create Sessions.vi"/>
+			<Item Name="Session Json to Data - Initialize Sessions.vi" Type="VI" URL="../Initialize Sessions/Helpers/Session Json to Data - Initialize Sessions.vi"/>
+			<Item Name="Session Json to Data Add Connection - Initialize Sessions.vi" Type="VI" URL="../Initialize Sessions/Helpers/Session Json to Data Add Connection - Initialize Sessions.vi"/>
+			<Item Name="Session Json to Data Add Session - Initialize Sessions.vi" Type="VI" URL="../Initialize Sessions/Helpers/Session Json to Data Add Session - Initialize Sessions.vi"/>
 		</Item>
 		<Item Name="Test Inputs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
-			<Item Name="Fake - 1 Session Created.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 1 Session Created.vi"/>
-			<Item Name="Fake - 1 Session Registered.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 1 Session Registered.vi"/>
-			<Item Name="Fake - 1 Session Unregistered 3 Sessions Registered Last Session Bad.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 1 Session Unregistered 3 Sessions Registered Last Session Bad.vi"/>
-			<Item Name="Fake - 1 Session Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 1 Session Unregistered.vi"/>
-			<Item Name="Fake - 2 Sessions Unregistered 1 Session Registered.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 2 Sessions Unregistered 1 Session Registered.vi"/>
-			<Item Name="Fake - 2 Sessions with Connection Map.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 2 Sessions with Connection Map.vi"/>
-			<Item Name="Fake - 3 Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/Fake - 3 Sessions Unregistered.vi"/>
-			<Item Name="MixedInstruments - 2 Fake 1 DCPower Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/MixedInstruments - 2 Fake 1 DCPower Sessions Unregistered.vi"/>
-			<Item Name="niDCPower - 1 Session Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDCPower - 1 Session Unregistered.vi"/>
-			<Item Name="niDCPower - 3 Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDCPower - 3 Sessions Unregistered.vi"/>
-			<Item Name="niDigitalPattern - 1 Session Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDigitalPattern - 1 Session Unregistered.vi"/>
-			<Item Name="niDigitalPattern - 3 Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDigitalPattern - 3 Sessions Unregistered.vi"/>
-			<Item Name="niDMM - 1 Session Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDMM - 1 Session Unregistered.vi"/>
-			<Item Name="niDMM - 3 Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niDMM - 3 Sessions Unregistered.vi"/>
-			<Item Name="niFGEN - 1 Session Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niFGEN - 1 Session Unregistered.vi"/>
-			<Item Name="niFGEN - 3 Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niFGEN - 3 Sessions Unregistered.vi"/>
-			<Item Name="niScope - 1 Session Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niScope - 1 Session Unregistered.vi"/>
-			<Item Name="niScope - 2 Sessions Unregistered.vi" Type="VI" URL="../Create Sessions/Test Inputs/niScope - 2 Sessions Unregistered.vi"/>
+			<Item Name="Fake - 1 Session Initialized.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/Fake - 1 Session Initialized.vi"/>
+			<Item Name="Fake - 1 Session Registered.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/Fake - 1 Session Registered.vi"/>
+			<Item Name="Fake - 1 Session Unregistered 3 Sessions Registered Last Session Bad.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/Fake - 1 Session Unregistered 3 Sessions Registered Last Session Bad.vi"/>
+			<Item Name="Fake - 1 Session Unregistered.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/Fake - 1 Session Unregistered.vi"/>
+			<Item Name="Fake - 2 Sessions Unregistered 1 Session Registered.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/Fake - 2 Sessions Unregistered 1 Session Registered.vi"/>
+			<Item Name="Fake - 2 Sessions with Connection Map.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/Fake - 2 Sessions with Connection Map.vi"/>
+			<Item Name="Fake - 3 Sessions Unregistered.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/Fake - 3 Sessions Unregistered.vi"/>
+			<Item Name="MixedInstruments - 2 Fake 1 DCPower Sessions Unregistered.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/MixedInstruments - 2 Fake 1 DCPower Sessions Unregistered.vi"/>
+			<Item Name="niDCPower - 1 Session Unregistered.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/niDCPower - 1 Session Unregistered.vi"/>
+			<Item Name="niDCPower - 3 Sessions Unregistered.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/niDCPower - 3 Sessions Unregistered.vi"/>
+			<Item Name="niDigitalPattern - 1 Session Unregistered.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/niDigitalPattern - 1 Session Unregistered.vi"/>
+			<Item Name="niDigitalPattern - 3 Sessions Unregistered.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/niDigitalPattern - 3 Sessions Unregistered.vi"/>
+			<Item Name="niDMM - 1 Session Unregistered.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/niDMM - 1 Session Unregistered.vi"/>
+			<Item Name="niDMM - 3 Sessions Unregistered.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/niDMM - 3 Sessions Unregistered.vi"/>
+			<Item Name="niFGEN - 1 Session Unregistered.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/niFGEN - 1 Session Unregistered.vi"/>
+			<Item Name="niFGEN - 3 Sessions Unregistered.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/niFGEN - 3 Sessions Unregistered.vi"/>
+			<Item Name="niScope - 1 Session Unregistered.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/niScope - 1 Session Unregistered.vi"/>
+			<Item Name="niScope - 2 Sessions Unregistered.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/niScope - 2 Sessions Unregistered.vi"/>
 		</Item>
-		<Item Name="Create Sessions VIMs" Type="Folder">
+		<Item Name="Initialize Sessions VIMs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
-			<Item Name="parameterized_SessionInitializeErrors_CallCreateSessions_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi" Type="VI" URL="../Create Sessions/parameterized_SessionInitializeErrors_CallCreateSessions_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi"/>
-			<Item Name="parameterized_SomeSessionsRegistered_CallCreateSessions_InitializeCalledWithProperBehavior.vi" Type="VI" URL="../Create Sessions/parameterized_SomeSessionsRegistered_CallCreateSessions_InitializeCalledWithProperBehavior.vi"/>
-			<Item Name="test_EmptyInstrumentTypeId_CallCreateSessions_ReturnsError.vi" Type="VI" URL="../Create Sessions/test_EmptyInstrumentTypeId_CallCreateSessions_ReturnsError.vi"/>
-			<Item Name="test_InstrumentTypeIdNotInReservation_CallCreateSessions_ReturnsErrorFor0Sessions.vi" Type="VI" URL="../Create Sessions/test_InstrumentTypeIdNotInReservation_CallCreateSessions_ReturnsErrorFor0Sessions.vi"/>
-			<Item Name="test_MixedInstrumentReservation_CallCreateSessions_OnlySpecifiedInstrumentSessionsCreated.vi" Type="VI" URL="../Create Sessions/test_MixedInstrumentReservation_CallCreateSessions_OnlySpecifiedInstrumentSessionsCreated.vi"/>
-			<Item Name="test_MultipleSessionsReserved_CallCreateSession_NothingAddedToConnectionMap.vi" Type="VI" URL="../Create Sessions/test_MultipleSessionsReserved_CallCreateSession_NothingAddedToConnectionMap.vi"/>
-			<Item Name="test_MultipleSessionsReserved_CallCreateSession_ReturnsErrorForTooManySessions.vi" Type="VI" URL="../Create Sessions/test_MultipleSessionsReserved_CallCreateSession_ReturnsErrorForTooManySessions.vi"/>
-			<Item Name="test_MultipleSessionsReserved_CallCreateSessions_SessionsAddedToConnectionMap.vi" Type="VI" URL="../Create Sessions/test_MultipleSessionsReserved_CallCreateSessions_SessionsAddedToConnectionMap.vi"/>
-			<Item Name="test_SessionAlreadyCreated_CallCreateSessions_ReturnsError.vi" Type="VI" URL="../Create Sessions/test_SessionAlreadyCreated_CallCreateSessions_ReturnsError.vi"/>
-			<Item Name="test_SessionInitializationErrors_CallCreateSessions_NothingAddedToConnectionMap.vi" Type="VI" URL="../Create Sessions/test_SessionInitializationErrors_CallCreateSessions_NothingAddedToConnectionMap.vi"/>
-			<Item Name="test_SessionInitializeErrors_CallCreateSessionsWithAttachAndClose_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi" Type="VI" URL="../Create Sessions/test_SessionInitializeErrors_CallCreateSessionsWithAttachAndClose_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi"/>
-			<Item Name="test_SessionInitializeErrors_CallCreateSessionsWithAttachAndDetach_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi" Type="VI" URL="../Create Sessions/test_SessionInitializeErrors_CallCreateSessionsWithAttachAndDetach_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi"/>
-			<Item Name="test_SessionInitializeErrors_CallCreateSessionsWithAuto_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi" Type="VI" URL="../Create Sessions/test_SessionInitializeErrors_CallCreateSessionsWithAuto_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi"/>
-			<Item Name="test_SessionInitializeErrors_CallCreateSessionsWithInitializeAndClose_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi" Type="VI" URL="../Create Sessions/test_SessionInitializeErrors_CallCreateSessionsWithInitializeAndClose_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi"/>
-			<Item Name="test_SessionInitializeErrors_CallCreateSessionsWithInitializeAndDetach_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi" Type="VI" URL="../Create Sessions/test_SessionInitializeErrors_CallCreateSessionsWithInitializeAndDetach_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi"/>
-			<Item Name="test_SessionInitializeErrors_CallInitializeSessionsForRemoteSession_InitializeRetriesAndSucceeds.vi" Type="VI" URL="../Create Sessions/test_SessionInitializeErrors_CallInitializeSessionsForRemoteSession_InitializeRetriesAndSucceeds.vi"/>
-			<Item Name="test_SomeSessionsRegistered_CallCreateSessionsWithAttachAndClose_InitializeCalledWithProperBehavior.vi" Type="VI" URL="../Create Sessions/test_SomeSessionsRegistered_CallCreateSessionsWithAttachAndClose_InitializeCalledWithProperBehavior.vi"/>
-			<Item Name="test_SomeSessionsRegistered_CallCreateSessionsWithAttachAndDetach_InitializeCalledWithProperBehavior.vi" Type="VI" URL="../Create Sessions/test_SomeSessionsRegistered_CallCreateSessionsWithAttachAndDetach_InitializeCalledWithProperBehavior.vi"/>
-			<Item Name="test_SomeSessionsRegistered_CallCreateSessionsWithAuto_InitializeCalledWithProperBehavior.vi" Type="VI" URL="../Create Sessions/test_SomeSessionsRegistered_CallCreateSessionsWithAuto_InitializeCalledWithProperBehavior.vi"/>
-			<Item Name="test_SomeSessionsRegistered_CallCreateSessionsWithInitializeAndClose_InitializeCalledWithProperBehavior.vi" Type="VI" URL="../Create Sessions/test_SomeSessionsRegistered_CallCreateSessionsWithInitializeAndClose_InitializeCalledWithProperBehavior.vi"/>
-			<Item Name="test_SomeSessionsRegistered_CallCreateSessionsWithInitializeAndDetach_InitializeCalledWithProperBehavior.vi" Type="VI" URL="../Create Sessions/test_SomeSessionsRegistered_CallCreateSessionsWithInitializeAndDetach_InitializeCalledWithProperBehavior.vi"/>
+			<Item Name="parameterized_SessionInitializeErrors_InitializeSessions_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi" Type="VI" URL="../Initialize Sessions/parameterized_SessionInitializeErrors_InitializeSessions_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi"/>
+			<Item Name="parameterized_SomeSessionsRegistered_InitializeSessions_InitializeCalledWithProperBehavior.vi" Type="VI" URL="../Initialize Sessions/parameterized_SomeSessionsRegistered_InitializeSessions_InitializeCalledWithProperBehavior.vi"/>
+			<Item Name="test_EmptyInstrumentTypeId_InitializeSessions_ReturnsError.vi" Type="VI" URL="../Initialize Sessions/test_EmptyInstrumentTypeId_InitializeSessions_ReturnsError.vi"/>
+			<Item Name="test_InstrumentTypeIdNotInReservation_InitializeSessions_ReturnsErrorFor0Sessions.vi" Type="VI" URL="../Initialize Sessions/test_InstrumentTypeIdNotInReservation_InitializeSessions_ReturnsErrorFor0Sessions.vi"/>
+			<Item Name="test_MixedInstrumentReservation_InitializeSessions_OnlySpecifiedInstrumentSessionsInitialized.vi" Type="VI" URL="../Initialize Sessions/test_MixedInstrumentReservation_InitializeSessions_OnlySpecifiedInstrumentSessionsInitialized.vi"/>
+			<Item Name="test_MultipleSessionsReserved_InitializeSession_NothingAddedToConnectionMap.vi" Type="VI" URL="../Initialize Sessions/test_MultipleSessionsReserved_InitializeSession_NothingAddedToConnectionMap.vi"/>
+			<Item Name="test_MultipleSessionsReserved_InitializeSession_ReturnsErrorForTooManySessions.vi" Type="VI" URL="../Initialize Sessions/test_MultipleSessionsReserved_InitializeSession_ReturnsErrorForTooManySessions.vi"/>
+			<Item Name="test_MultipleSessionsReserved_InitializeSessions_SessionsAddedToConnectionMap.vi" Type="VI" URL="../Initialize Sessions/test_MultipleSessionsReserved_InitializeSessions_SessionsAddedToConnectionMap.vi"/>
+			<Item Name="test_SessionAlreadyInitialized_InitializeSessions_ReturnsError.vi" Type="VI" URL="../Initialize Sessions/test_SessionAlreadyInitialized_InitializeSessions_ReturnsError.vi"/>
+			<Item Name="test_SessionInitializationErrors_InitializeSessions_NothingAddedToConnectionMap.vi" Type="VI" URL="../Initialize Sessions/test_SessionInitializationErrors_InitializeSessions_NothingAddedToConnectionMap.vi"/>
+			<Item Name="test_SessionInitializeErrors_InitializeSessionsForRemoteSession_InitializeRetriesAndSucceeds.vi" Type="VI" URL="../Initialize Sessions/test_SessionInitializeErrors_InitializeSessionsForRemoteSession_InitializeRetriesAndSucceeds.vi"/>
+			<Item Name="test_SessionInitializeErrors_InitializeSessionsWithAttachAndClose_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi" Type="VI" URL="../Initialize Sessions/test_SessionInitializeErrors_InitializeSessionsWithAttachAndClose_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi"/>
+			<Item Name="test_SessionInitializeErrors_InitializeSessionsWithAttachAndDetach_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi" Type="VI" URL="../Initialize Sessions/test_SessionInitializeErrors_InitializeSessionsWithAttachAndDetach_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi"/>
+			<Item Name="test_SessionInitializeErrors_InitializeSessionsWithAuto_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi" Type="VI" URL="../Initialize Sessions/test_SessionInitializeErrors_InitializeSessionsWithAuto_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi"/>
+			<Item Name="test_SessionInitializeErrors_InitializeSessionsWithInitializeAndClose_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi" Type="VI" URL="../Initialize Sessions/test_SessionInitializeErrors_InitializeSessionsWithInitializeAndClose_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi"/>
+			<Item Name="test_SessionInitializeErrors_InitializeSessionsWithInitializeAndDetach_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi" Type="VI" URL="../Initialize Sessions/test_SessionInitializeErrors_InitializeSessionsWithInitializeAndDetach_CloseCalledForPreviouslyInitializedSessionsWithProperBehavior.vi"/>
+			<Item Name="test_SomeSessionsRegistered_InitializeSessionsWithAttachAndClose_InitializeCalledWithProperBehavior.vi" Type="VI" URL="../Initialize Sessions/test_SomeSessionsRegistered_InitializeSessionsWithAttachAndClose_InitializeCalledWithProperBehavior.vi"/>
+			<Item Name="test_SomeSessionsRegistered_InitializeSessionsWithAttachAndDetach_InitializeCalledWithProperBehavior.vi" Type="VI" URL="../Initialize Sessions/test_SomeSessionsRegistered_InitializeSessionsWithAttachAndDetach_InitializeCalledWithProperBehavior.vi"/>
+			<Item Name="test_SomeSessionsRegistered_InitializeSessionsWithAuto_InitializeCalledWithProperBehavior.vi" Type="VI" URL="../Initialize Sessions/test_SomeSessionsRegistered_InitializeSessionsWithAuto_InitializeCalledWithProperBehavior.vi"/>
+			<Item Name="test_SomeSessionsRegistered_InitializeSessionsWithInitializeAndClose_InitializeCalledWithProperBehavior.vi" Type="VI" URL="../Initialize Sessions/test_SomeSessionsRegistered_InitializeSessionsWithInitializeAndClose_InitializeCalledWithProperBehavior.vi"/>
+			<Item Name="test_SomeSessionsRegistered_InitializeSessionsWithInitializeAndDetach_InitializeCalledWithProperBehavior.vi" Type="VI" URL="../Initialize Sessions/test_SomeSessionsRegistered_InitializeSessionsWithInitializeAndDetach_InitializeCalledWithProperBehavior.vi"/>
 		</Item>
 		<Item Name="niDCPower" Type="Folder">
-			<Item Name="test_DCPowerInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/test_DCPowerInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
-			<Item Name="test_DCPowerInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../Create Sessions/test_DCPowerInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
+			<Item Name="test_DCPowerInstrument_InitializeSessionsWithUnregisteredSessionsReserved_RemoteSessionsInitialized.vi" Type="VI" URL="../Initialize Sessions/test_DCPowerInstrument_InitializeSessionsWithUnregisteredSessionsReserved_RemoteSessionsInitialized.vi"/>
+			<Item Name="test_DCPowerInstrument_InitializeSessionWithUnregisteredSessionReserved_RemoteSessionInitialized.vi" Type="VI" URL="../Initialize Sessions/test_DCPowerInstrument_InitializeSessionWithUnregisteredSessionReserved_RemoteSessionInitialized.vi"/>
 		</Item>
 		<Item Name="niDigital" Type="Folder">
-			<Item Name="test_DigitalInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/test_DigitalInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
-			<Item Name="test_DigitalInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../Create Sessions/test_DigitalInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
+			<Item Name="test_DigitalInstrument_InitializeSessionsWithUnregisteredSessionsReserved_RemoteSessionsInitialized.vi" Type="VI" URL="../Initialize Sessions/test_DigitalInstrument_InitializeSessionsWithUnregisteredSessionsReserved_RemoteSessionsInitialized.vi"/>
+			<Item Name="test_DigitalInstrument_InitializeSessionWithUnregisteredSessionReserved_RemoteSessionInitialized.vi" Type="VI" URL="../Initialize Sessions/test_DigitalInstrument_InitializeSessionWithUnregisteredSessionReserved_RemoteSessionInitialized.vi"/>
 		</Item>
 		<Item Name="niDMM" Type="Folder">
-			<Item Name="test_DMMInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/test_DMMInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
-			<Item Name="test_DMMInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../Create Sessions/test_DMMInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
+			<Item Name="test_DMMInstrument_InitializeSessionsWithUnregisteredSessionsReserved_RemoteSessionsInitialized.vi" Type="VI" URL="../Initialize Sessions/test_DMMInstrument_InitializeSessionsWithUnregisteredSessionsReserved_RemoteSessionsInitialized.vi"/>
+			<Item Name="test_DMMInstrument_InitializeSessionWithUnregisteredSessionReserved_RemoteSessionInitialized.vi" Type="VI" URL="../Initialize Sessions/test_DMMInstrument_InitializeSessionWithUnregisteredSessionReserved_RemoteSessionInitialized.vi"/>
 		</Item>
 		<Item Name="niFGEN" Type="Folder">
-			<Item Name="test_FgenInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/test_FgenInstrument_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
-			<Item Name="test_FgenInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../Create Sessions/test_FgenInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
+			<Item Name="test_FgenInstrument_InitializeSessionsWithUnregisteredSessionsReserved_RemoteSessionsInitialized.vi" Type="VI" URL="../Initialize Sessions/test_FgenInstrument_InitializeSessionsWithUnregisteredSessionsReserved_RemoteSessionsInitialized.vi"/>
+			<Item Name="test_FgenInstrument_InitializeSessionWithUnregisteredSessionReserved_RemoteSessionInitialized.vi" Type="VI" URL="../Initialize Sessions/test_FgenInstrument_InitializeSessionWithUnregisteredSessionReserved_RemoteSessionInitialized.vi"/>
 		</Item>
 		<Item Name="niScope" Type="Folder">
-			<Item Name="test_ScopeInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi" Type="VI" URL="../Create Sessions/test_ScopeInstrument_CallCreateSessionWithUnregisteredSessionReserved_RemoteSessionCreated.vi"/>
-			<Item Name="test_ScopeInstruments_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi" Type="VI" URL="../Create Sessions/test_ScopeInstruments_CallCreateSessionsWithUnregisteredSessionsReserved_RemoteSessionsCreated.vi"/>
+			<Item Name="test_ScopeInstrument_InitializeSessionWithUnregisteredSessionReserved_RemoteSessionInitialized.vi" Type="VI" URL="../Initialize Sessions/test_ScopeInstrument_InitializeSessionWithUnregisteredSessionReserved_RemoteSessionInitialized.vi"/>
+			<Item Name="test_ScopeInstruments_InitializeSessionsWithUnregisteredSessionsReserved_RemoteSessionsInitialized.vi" Type="VI" URL="../Initialize Sessions/test_ScopeInstruments_InitializeSessionsWithUnregisteredSessionsReserved_RemoteSessionsInitialized.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Discovery Service" Type="Folder">

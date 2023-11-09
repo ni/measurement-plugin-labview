@@ -9,9 +9,9 @@
 
 </Property>
 	<Item Name="Session Factory.lvclass" Type="LVClass" URL="../Session Factory/Session Factory.lvclass"/>
-	<Item Name="Create Sessions - 1Sess.vi" Type="VI" URL="../Create Sessions - 1Sess.vi"/>
-	<Item Name="Create Sessions - NSess.vi" Type="VI" URL="../Create Sessions - NSess.vi"/>
-	<Item Name="Create Sessions.vi" Type="VI" URL="../Create Sessions.vi"/>
+	<Item Name="Initialize Sessions - 1Sess.vi" Type="VI" URL="../Initialize Sessions - 1Sess.vi"/>
+	<Item Name="Initialize Sessions - NSess.vi" Type="VI" URL="../Initialize Sessions - NSess.vi"/>
+	<Item Name="Initialize Sessions.vi" Type="VI" URL="../Initialize Sessions.vi"/>
 	<Item Name="Connection with Session.ctl" Type="VI" URL="../Connection with Session.ctl"/>
 	<Item Name="Get Connections - 1Pin 1Conn.vi" Type="VI" URL="../Get Connections - 1Pin 1Conn.vi"/>
 	<Item Name="Get Connections - 1Pin MConn.vi" Type="VI" URL="../Get Connections - 1Pin MConn.vi"/>
