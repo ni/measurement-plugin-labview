@@ -72,7 +72,7 @@ def copy_target_branch_into_temp_directory(repo_root_directory, target_branch):
     target_branch_from_workflow = os.path.join(repo_root_directory, "target")
     if os.path.exists(target_branch_from_workflow):
         # move the copy provided by the workflow into the temp dir
-        temp_directory.rmdir()
+        os.rmdir(temp_directory.name)
         os.rename(target_branch_from_workflow, temp_directory.name)
     else:
         # use `git checkout` to populate the temp dir with the target branch content
