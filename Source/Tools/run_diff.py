@@ -50,13 +50,20 @@ def run_full_diff():
 
 
 def main():
+    env_file_path = os.getenv('GITHUB_ENV') # Get the path of the runner file
+    if env_file_path is not None:
+        # debug: read the file
+        with open(env_file_path, "r") as env_file:
+            file_contents = env_file.read()
+            _logger.debug(file_contents)
+
     return_code = run_full_diff()
     sys.exit(return_code)
 
 
 def checkout_target_from_repo(repo_root_directory, target_branch):
     temp_directory = tempfile.TemporaryDirectory()
-    print(temp_directory)
+    _logger.debug(temp_directory)
 
     shutil.copytree(os.path.join(repo_root_directory, ".git"), os.path.join(temp_directory.name, ".git"))
     subprocess.check_call(["git", "checkout", "-f", target_branch], cwd=temp_directory.name)
