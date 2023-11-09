@@ -68,8 +68,9 @@ def checkout_target_from_repo(repo_root_directory, target_branch):
     temp_directory = tempfile.TemporaryDirectory()
     _logger.debug(temp_directory)
 
-    shutil.copytree(os.path.join(repo_root_directory, ".git"), os.path.join(temp_directory.name, ".git"))
-    subprocess.check_call(["git", "checkout", "-f", target_branch], cwd=temp_directory.name)
+    # Temporarily disable these calls
+    # shutil.copytree(os.path.join(repo_root_directory, ".git"), os.path.join(temp_directory.name, ".git"))
+    # subprocess.check_call(["git", "checkout", "-f", target_branch], cwd=temp_directory.name)
 
     return (temp_directory)
 
