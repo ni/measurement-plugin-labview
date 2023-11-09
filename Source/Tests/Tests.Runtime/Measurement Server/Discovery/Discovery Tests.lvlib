@@ -43,4 +43,5 @@
 		<Item Name="test_LocationFGV_ReresolveLocationErrors_LocationNotResolved.vi" Type="VI" URL="../test_LocationFGV_ReresolveLocationErrors_LocationNotResolved.vi"/>
 		<Item Name="test_LocationFGV_ReresolveLocationTwice_LocationResolvedTwice.vi" Type="VI" URL="../test_LocationFGV_ReresolveLocationTwice_LocationResolvedTwice.vi"/>
 	</Item>
+	<Item Name="test_DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi" Type="VI" URL="../test_DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi"/>
 </Library>

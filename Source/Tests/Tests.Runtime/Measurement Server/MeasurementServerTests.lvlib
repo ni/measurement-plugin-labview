@@ -134,9 +134,7 @@
 			<Item Name="test_ScopeInstruments_InitializeSessionsWithUnregisteredSessionsReserved_RemoteSessionsInitialized.vi" Type="VI" URL="../Initialize Sessions/test_ScopeInstruments_InitializeSessionsWithUnregisteredSessionsReserved_RemoteSessionsInitialized.vi"/>
 		</Item>
 	</Item>
-	<Item Name="Discovery Service" Type="Folder">
-		<Item Name="test_DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi" Type="VI" URL="../test_DiscoveryServiceNotRunning_LaunchDiscoveryService_DiscoveryServiceStarted.vi"/>
-	</Item>
+	<Item Name="Discovery Service" Type="Folder"/>
 	<Item Name="Get Connections" Type="Folder">
 		<Item Name="1 Pin 1 Connection" Type="Folder">
 			<Item Name="test_OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForOneDcPowerPinsAllSites_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForOneDcPowerPinsAllSites_ReturnsOneConnection.vi"/>
