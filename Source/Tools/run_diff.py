@@ -20,7 +20,10 @@ def run_full_diff():
     # TODO: recieve target branch name as param from workflow
     target_branch = "origin/main"
 
-    (added_labview_files, modified_labview_files) = get_changed_labview_files(target_branch)
+    added_labview_files = []
+    modified_labview_files = []
+    # Temporarily disable this call
+    # (added_labview_files, modified_labview_files) = get_changed_labview_files(target_branch)
 
     tools_directory = Path(os.path.dirname(__file__))
     source_directory = tools_directory.parent
