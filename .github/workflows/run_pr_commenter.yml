@@ -17,4 +17,5 @@ jobs:
 
     - name: Run PR Commenter
       run:
+        git diff --name-status --diff-filter=AM origin/main...
         python ${{runner.workspace}}\measurementlink-labview\Source\Tools\run_diff.py
