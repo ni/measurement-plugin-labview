@@ -1,1 +1,1 @@
-python run_diff.py --token UNSPECIFIED --pull-req UNSPECIFIED
+python run_diff.py
