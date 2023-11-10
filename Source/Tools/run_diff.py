@@ -87,7 +87,8 @@ def parse_options(args):
 def main(args):
     options = parse_options(args)
     # print(options.token)
-    # print(options.pr)
+    if options.pr is not None:
+        print(f"Running for pull request #{options.pr}.")
 
     return_code = run_full_diff()
 
