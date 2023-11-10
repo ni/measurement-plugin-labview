@@ -23,7 +23,7 @@ jobs:
     - name: Run G Diff
       id: run-diff
       run: |
-        python ${{runner.workspace}}\measurementlink-labview\Source\Tools\run_diff.py > diff-result-file
+        python ${{runner.workspace}}\measurementlink-labview\Source\Tools\run_diff.py --token ${{secrets.GITHUB_TOKEN}} > diff-result-file
 
         echo "diff-result=VI Diff Infomation coming soon." >> $env:GITHUB_OUTPUT
 
