@@ -44,10 +44,13 @@ def run_full_diff():
     diff_result = subprocess.run(kwargs, capture_output= True)
 
     formatted_stdout = diff_result.stdout.decode().replace('\r\n','\n').strip()
-    _logger.debug(formatted_stdout)
-    if(diff_result.returncode != 0):
+    if(diff_result.returncode == 0):
+        _logger.debug(formatted_stdout)
+        print(formatted_stdout)
+    else:
         formatted_stderr = diff_result.stderr.decode().replace('\r\n','\n').strip()
         _logger.error(formatted_stderr)
+        print(f"Error {diff_result.returncode} occured when generating diff.")
 
     return diff_result.returncode
 
