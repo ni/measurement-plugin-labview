@@ -58,7 +58,7 @@ def run_full_diff():
 def parse_options(args):
     import optparse
 
-    parser = optparse.OptionParser("usage: %prog --token TOKEN")
+    parser = optparse.OptionParser("usage: %prog --token TOKEN --pull-req PULLREQUEST")
 
     # Setup parser
     parser.add_option(
@@ -67,6 +67,13 @@ def parse_options(args):
         dest="token",
         metavar="TOKEN",
         help="Github Access token needed to perform write operations",
+    )
+    parser.add_option(
+        "-p",
+        "--pull-req",
+        dest="pr",
+        metavar="PR",
+        help="Github pull request number",
     )
 
     (options, args) = parser.parse_args(args)
@@ -80,6 +87,7 @@ def parse_options(args):
 def main(args):
     options = parse_options(args)
     # print(options.token)
+    # print(options.pr)
 
     return_code = run_full_diff()
 
