@@ -20,9 +20,10 @@ jobs:
       with:
         python-version: '3.10'
 
-    - name: Run PR Commenter
+    - name: Run G Diff
+      id: run-diff
       run:
-        python ${{runner.workspace}}\measurementlink-labview\Source\Tools\run_diff.py
+        diff-result = python ${{runner.workspace}}\measurementlink-labview\Source\Tools\run_diff.py
 
     - uses: actions/github-script@v3
       with:
@@ -32,5 +33,5 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: 'Comment produced from PR Commenter workflow. VI diff information coming soon!'
+              body: 'Comment produced from PR Commenter workflow.\n\n${{ steps.run-diff.outputs.diff-result }}'
           })
