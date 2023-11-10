@@ -23,7 +23,7 @@ jobs:
     - name: Run G Diff
       id: run-diff
       run: |
-        output=$(python ${{runner.workspace}}\measurementlink-labview\Source\Tools\run_diff.py)
+        SET output=$(python ${{runner.workspace}}\measurementlink-labview\Source\Tools\run_diff.py)
         echo "::set-output name=diff-result::$output"
 
     - uses: actions/github-script@v3
