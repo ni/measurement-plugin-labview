@@ -55,15 +55,34 @@ def run_full_diff():
     return diff_result.returncode
 
 
-def main():
-    env_file_path = os.getenv('GITHUB_ENV') # Get the path of the runner file
-    if env_file_path is not None:
-        # debug: read the file
-        with open(env_file_path, "r") as env_file:
-            file_contents = env_file.read()
-            _logger.debug(file_contents)
+def parse_options(args):
+    import optparse
+
+    parser = optparse.OptionParser("usage: %prog --token TOKEN")
+
+    # Setup parser
+    parser.add_option(
+        "-t",
+        "--token",
+        dest="token",
+        metavar="TOKEN",
+        help="Github Access token needed to perform write operations",
+    )
+
+    (options, args) = parser.parse_args(args)
+
+    if args:
+        parser.error("Positional arguments are not supported: %r" % (args,))
+
+    return options
+
+
+def main(args):
+    options = parse_options(args)
+    # print(options.token)
 
     return_code = run_full_diff()
+
     sys.exit(return_code)
 
 
@@ -85,4 +104,6 @@ def copy_target_branch_into_temp_directory(repo_root_directory, target_branch):
     return (temp_directory)
 
 
-main()
+if __name__ == "__main__":
+    retCode = main(sys.argv[1:])
+    sys.exit(retCode)

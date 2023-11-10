@@ -1,1 +1,1 @@
-python run_diff.py
+python run_diff.py --token UNSPECIFIED
