@@ -1,6 +1,7 @@
 
 import logging
 import os
+import requests
 import shutil
 import subprocess
 import sys
@@ -84,17 +85,6 @@ def parse_options(args):
     return options
 
 
-def main(args):
-    options = parse_options(args)
-    # print(options.token)
-    if options.pr is not None:
-        print(f"Running for pull request #{options.pr}.")
-
-    return_code = run_full_diff()
-
-    sys.exit(return_code)
-
-
 def copy_target_branch_into_temp_directory(repo_root_directory, target_branch):
     temp_directory = tempfile.TemporaryDirectory()
     _logger.debug(temp_directory)
@@ -111,6 +101,37 @@ def copy_target_branch_into_temp_directory(repo_root_directory, target_branch):
         subprocess.check_call(["git", "checkout", "-f", target_branch], cwd=temp_directory.name)
 
     return (temp_directory)
+
+
+def create_github_request_header(token):
+    return {"Authorization": "token %s" % token.strip()}
+
+
+def post_github_pr_text_comment(text, pr_number, token):
+    url = f"https://api.github.com/repos/ni/measurementlink-labview/issues/{pr_number}/comments"
+    data = json.dumps({"body": text})
+    header = create_github_request_header(token)
+
+    _logger.debug(f"Posting pr text comment to {url}")
+    r = requests.post(url, data=data, headers=header)
+    if r.ok:
+        _logger.debug(f"Response code: {r.status_code}")
+    else:
+        _logger.error(f"Bad response. url:{url}, code:{r.status_code}, text:{r.text}")
+
+    return r.status_code
+
+
+def main(args):
+    options = parse_options(args)
+    # print(options.token)
+    if options.pr is not None and options.token is not None:
+        print(f"Running for pull request #{options.pr}")
+        post_github_pr_text_comment(f"Comment added via github API from {__file__}", options.pr, options.token)
+
+    return_code = run_full_diff()
+
+    sys.exit(return_code)
 
 
 if __name__ == "__main__":
