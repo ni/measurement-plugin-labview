@@ -31,17 +31,12 @@
 		<Item Name="Kill Session Management Service.vi" Type="VI" URL="../Helpers/Kill Session Management Service.vi"/>
 		<Item Name="Kill gRPC Device Service.vi" Type="VI" URL="../Helpers/Kill gRPC Device Service.vi"/>
 		<Item Name="Register Pin Map.vi" Type="VI" URL="../Helpers/Register Pin Map.vi"/>
-		<Item Name="Add Sessions to Connection Map.vi" Type="VI" URL="../Helpers/Add Sessions to Connection Map.vi"/>
 		<Item Name="Get Remote Connection Options.vi" Type="VI" URL="../Helpers/Get Remote Connection Options.vi"/>
 		<Item Name="Restart Discovery Service.vi" Type="VI" URL="../Helpers/Restart Discovery Service.vi"/>
 		<Item Name="Fake Session Factory.lvclass" Type="LVClass" URL="../Helpers/Fake Session Factory/Fake Session Factory.lvclass"/>
 		<Item Name="Kill Pin Map Service.vi" Type="VI" URL="../Helpers/Kill Pin Map Service.vi"/>
 	</Item>
 	<Item Name="Close Sessions" Type="Folder">
-		<Item Name="Helpers" Type="Folder">
-			<Item Name="Close - Session Json to Data Add Instr.vi" Type="VI" URL="../Close Sessions/Helpers/Close - Session Json to Data Add Instr.vi"/>
-			<Item Name="Close - Session Json to Data Add Session Instr Map.vi" Type="VI" URL="../Close Sessions/Helpers/Close - Session Json to Data Add Session Instr Map.vi"/>
-		</Item>
 		<Item Name="Test Inputs" Type="Folder">
 			<Item Name="Close - 1 Fake Session.vi" Type="VI" URL="../Close Sessions/Test Inputs/Close - 1 Fake Session.vi"/>
 			<Item Name="Close - 2 Fake Sessions Registered 1 Fake Session Unregistered First Session Bad.vi" Type="VI" URL="../Close Sessions/Test Inputs/Close - 2 Fake Sessions Registered 1 Fake Session Unregistered First Session Bad.vi"/>
@@ -63,11 +58,6 @@
 	</Item>
 	<Item Name="Initialize Sessions" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Helpers" Type="Folder">
-			<Item Name="Session Json to Data - Initialize Sessions.vi" Type="VI" URL="../Initialize Sessions/Helpers/Session Json to Data - Initialize Sessions.vi"/>
-			<Item Name="Session Json to Data Add Connection - Initialize Sessions.vi" Type="VI" URL="../Initialize Sessions/Helpers/Session Json to Data Add Connection - Initialize Sessions.vi"/>
-			<Item Name="Session Json to Data Add Session - Initialize Sessions.vi" Type="VI" URL="../Initialize Sessions/Helpers/Session Json to Data Add Session - Initialize Sessions.vi"/>
-		</Item>
 		<Item Name="Test Inputs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Fake - 1 Session Initialized.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/Fake - 1 Session Initialized.vi"/>
@@ -134,7 +124,6 @@
 			<Item Name="test_ScopeInstruments_InitializeSessionsWithUnregisteredSessionsReserved_RemoteSessionsInitialized.vi" Type="VI" URL="../Initialize Sessions/test_ScopeInstruments_InitializeSessionsWithUnregisteredSessionsReserved_RemoteSessionsInitialized.vi"/>
 		</Item>
 	</Item>
-	<Item Name="Discovery Service" Type="Folder"/>
 	<Item Name="Get Connections" Type="Folder">
 		<Item Name="1 Pin 1 Connection" Type="Folder">
 			<Item Name="test_OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForOneDcPowerPinsAllSites_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionFromPinForOneDcPowerPinsAllSites_ReturnsOneConnection.vi"/>
@@ -146,10 +135,6 @@
 			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinForAllDcPowerPinsAllSites_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinForAllDcPowerPinsAllSites_ReturnsThreeConnections.vi"/>
 			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinForOneDcPowerPinAllSites_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinForOneDcPowerPinAllSites_ReturnsTwoConnections.vi"/>
 			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinForOneDcPowerPinOneSite_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinForOneDcPowerPinOneSite_ReturnsOneConnection.vi"/>
-		</Item>
-		<Item Name="Helpers" Type="Folder">
-			<Item Name="Session Json to Data - Get Connections.vi" Type="VI" URL="../Get Connections/Helpers/Session Json to Data - Get Connections.vi"/>
-			<Item Name="Session Json to Data with No Session in Connection Map - Get Connections.vi" Type="VI" URL="../Get Connections/Helpers/Session Json to Data with No Session in Connection Map - Get Connections.vi"/>
 		</Item>
 		<Item Name="N Pins M Connections" Type="Folder">
 			<Item Name="test_OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSitesWithNoReservePins_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessOnePinOneInstrOneSiteReservation_CallGetConnectionsFromPinsForAllDcPowerPinsAllSitesWithNoReservePins_ReturnsOneConnection.vi"/>
