@@ -19,19 +19,16 @@ _logger.addHandler(handler)
 
 
 def run_full_diff():
-    # TODO: recieve target branch name as param from workflow
-    target_branch = "origin/main"
-
     added_labview_files = []
     modified_labview_files = []
     # Temporarily disable this call
-    # (added_labview_files, modified_labview_files) = get_changed_labview_files(target_branch)
+    # (added_labview_files, modified_labview_files) = get_changed_labview_files("origin/main")
 
     tools_directory = Path(os.path.dirname(__file__))
     source_directory = tools_directory.parent
     repo_root_directory = source_directory.parent
 
-    target_snapshot_directory = copy_target_branch_into_temp_directory(repo_root_directory, target_branch)
+    target_snapshot_directory = copy_target_branch_into_temp_directory(repo_root_directory)
 
     diff_vi = os.path.join(tools_directory , "run_diff.vi")
     _logger.debug(f"Launching {diff_vi}.")
@@ -86,7 +83,7 @@ def parse_options(args):
     return options
 
 
-def copy_target_branch_into_temp_directory(repo_root_directory, target_branch):
+def copy_target_branch_into_temp_directory(repo_root_directory):
     temp_directory = tempfile.TemporaryDirectory()
     _logger.debug(temp_directory)
 
@@ -99,7 +96,7 @@ def copy_target_branch_into_temp_directory(repo_root_directory, target_branch):
     else:
         # use `git checkout` to populate the temp dir with the target branch content
         shutil.copytree(os.path.join(repo_root_directory, ".git"), os.path.join(temp_directory.name, ".git"))
-        subprocess.check_call(["git", "checkout", "-f", target_branch], cwd=temp_directory.name)
+        subprocess.check_call(["git", "checkout", "-f", "origin/main"], cwd=temp_directory.name)
 
     return (temp_directory)
 
@@ -128,7 +125,7 @@ def main(args):
     # print(options.token)
     if options.pr is not None and options.token is not None:
         print(f"Running for pull request #{options.pr}")
-        post_github_pr_text_comment(f"Comment added via github API from {__file__}", options.pr, options.token)
+        # post_github_pr_text_comment(f"Comment added via github API from {__file__}", options.pr, options.token)
 
     return_code = run_full_diff()
 
