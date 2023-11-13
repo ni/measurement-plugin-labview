@@ -19,17 +19,17 @@ _logger.addHandler(handler)
 
 
 def run_full_diff(pr_number, token):
+    tools_directory = Path(os.path.dirname(__file__))
+    source_directory = tools_directory.parent
+    repo_root_directory = source_directory.parent
+
     added_labview_files = []
     modified_labview_files = []
     if pr_number is not None and token is not None:
         # Use github rest api to acquire changed file list from PR
         temp = 0
     else:
-        (added_labview_files, modified_labview_files) = get_git_changed_labview_files("origin/main")
-
-    tools_directory = Path(os.path.dirname(__file__))
-    source_directory = tools_directory.parent
-    repo_root_directory = source_directory.parent
+        (added_labview_files, modified_labview_files) = get_git_changed_labview_file_paths(repo_root_directory)
 
     target_snapshot_directory = copy_target_branch_into_temp_directory(repo_root_directory)
 
@@ -104,8 +104,8 @@ def copy_target_branch_into_temp_directory(repo_root_directory):
     return (temp_directory)
 
 
-def get_git_changed_files(target_ref):
-    diff_args = ["git", "diff", "--name-status", "--diff-filter=AM", target_ref + "..."]
+def get_git_changed_files():
+    diff_args = ["git", "diff", "--name-status", "--diff-filter=AM", "origin/main..."]
     diff_output = subprocess.check_output(diff_args).decode("utf-8")
 
     diff_regex = re.compile(r"^([AM])\s+(.*)$", re.MULTILINE)
@@ -114,8 +114,8 @@ def get_git_changed_files(target_ref):
         yield match.group(1), match.group(2)
 
 
-def get_git_changed_labview_files(target_ref):
-    changed_files = get_git_changed_files(target_ref)
+def get_git_changed_labview_file_paths(repo_root_directory):
+    changed_files = get_git_changed_files()
 
     diff_regex = re.compile(r"^(.*\.vi[tm]?)|(.*\.ctl?)$", re.MULTILINE)
 
