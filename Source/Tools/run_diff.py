@@ -2,13 +2,13 @@
 import json
 import logging
 import os
+import re
 import requests
 import shutil
 import subprocess
 import sys
 import tempfile
 from pathlib import Path
-from labview_diff import get_changed_labview_files
 
 _logger = logging.getLogger(__name__)
 _logger.setLevel(logging.DEBUG)
@@ -18,11 +18,14 @@ handler.setLevel(logging.DEBUG)
 _logger.addHandler(handler)
 
 
-def run_full_diff():
+def run_full_diff(pr_number, token):
     added_labview_files = []
     modified_labview_files = []
-    # Temporarily disable this call
-    # (added_labview_files, modified_labview_files) = get_changed_labview_files("origin/main")
+    if pr_number is not None and token is not None:
+        # Use github rest api to acquire changed file list from PR
+        temp = 0
+    else:
+        (added_labview_files, modified_labview_files) = get_git_changed_labview_files("origin/main")
 
     tools_directory = Path(os.path.dirname(__file__))
     source_directory = tools_directory.parent
@@ -101,6 +104,33 @@ def copy_target_branch_into_temp_directory(repo_root_directory):
     return (temp_directory)
 
 
+def get_git_changed_files(target_ref):
+    diff_args = ["git", "diff", "--name-status", "--diff-filter=AM", target_ref + "..."]
+    diff_output = subprocess.check_output(diff_args).decode("utf-8")
+
+    diff_regex = re.compile(r"^([AM])\s+(.*)$", re.MULTILINE)
+
+    for match in re.finditer(diff_regex, diff_output):
+        yield match.group(1), match.group(2)
+
+
+def get_git_changed_labview_files(target_ref):
+    changed_files = get_git_changed_files(target_ref)
+
+    diff_regex = re.compile(r"^(.*\.vi[tm]?)|(.*\.ctl?)$", re.MULTILINE)
+
+    added_labview_files = []
+    modified_labview_files = []
+    for status, filename in changed_files:
+        if re.match(diff_regex, filename):
+            if status == 'A':
+                added_labview_files.append(filename)
+            if status == 'M':
+                modified_labview_files.append(filename)
+
+    return added_labview_files, modified_labview_files
+
+
 def create_github_request_header(token):
     return {"Authorization": "token %s" % token.strip()}
 
@@ -122,12 +152,12 @@ def post_github_pr_text_comment(text, pr_number, token):
 
 def main(args):
     options = parse_options(args)
-    # print(options.token)
+
     if options.pr is not None and options.token is not None:
         print(f"Running for pull request #{options.pr}")
         # post_github_pr_text_comment(f"Comment added via github API from {__file__}", options.pr, options.token)
 
-    return_code = run_full_diff()
+    return_code = run_full_diff(options.pr, options.token)
 
     sys.exit(return_code)
 
