@@ -91,7 +91,7 @@ def copy_target_branch_into_temp_directory(repo_root_directory):
     _logger.debug(temp_directory)
 
     # When invoked via workflow, the workflow should have pre-populated the "target" dir already
-    target_branch_from_workflow = os.path.join(repo_root_directory, "target")
+    target_branch_from_workflow = os.path.join(repo_root_directory, "target_for_diff")
     if os.path.exists(target_branch_from_workflow):
         # move the copy provided by the workflow into the temp dir
         os.rmdir(temp_directory.name)
