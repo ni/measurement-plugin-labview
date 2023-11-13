@@ -123,10 +123,11 @@ def get_git_changed_labview_file_paths(repo_root_directory):
     modified_labview_files = []
     for status, filename in changed_files:
         if re.match(diff_regex, filename):
+            absolute_file_path = os.path.normpath(os.path.join(repo_root_directory, filename))
             if status == 'A':
-                added_labview_files.append(filename)
+                added_labview_files.append(absolute_file_path)
             if status == 'M':
-                modified_labview_files.append(filename)
+                modified_labview_files.append(absolute_file_path)
 
     return added_labview_files, modified_labview_files
 
