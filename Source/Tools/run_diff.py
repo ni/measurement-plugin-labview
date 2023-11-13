@@ -151,6 +151,13 @@ def post_github_pr_text_comment(text, pr_number, token):
 
 
 def get_github_pr_changed_labview_file_paths(pr_number, token):
+    url = f"https://api.github.com/repos/ni/measurementlink-labview/issues/{pr_number}/files"
+    header = create_github_request_header(token)
+
+    _logger.debug(f"Getting files information from {url}")
+    r = requests.get(url, headers=header)
+    print(r);
+
     added_labview_files = []
     modified_labview_files = []
 
