@@ -164,8 +164,10 @@ def get_github_pr_changed_labview_file_paths(pr_number, token):
 
     file_set = response.json()
 
-    for file_info in file_set:
-        print(f"{file_info["filename"]} : {file_info["status"]}")
+    for file_info in file_set:]
+        filename = file_info["filename"]
+        file_status = file_info["status"]
+        print(f"{filename} : {file_status}")
 
     added_labview_files = []
     modified_labview_files = []
