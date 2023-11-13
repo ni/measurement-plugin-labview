@@ -156,8 +156,16 @@ def get_github_pr_changed_labview_file_paths(pr_number, token):
 
     _logger.debug(f"Getting files information from {url}")
     response = requests.get(url, headers=header)
-    print(response);
-    print(response.text);
+    if response.ok:
+        _logger.debug(f"Response code: {response.status_code}")
+    else:
+        _logger.error(f"Bad response. url:{url}, code:{response.status_code}, text:{response.text}")
+        return [], []
+
+    file_set = response.json()
+
+    for(var file_info of file_set)
+        print(f"{file_info["filename"]} : "{file_info["status"]}")
 
     added_labview_files = []
     modified_labview_files = []
