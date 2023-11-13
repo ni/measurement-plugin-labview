@@ -141,11 +141,11 @@ def post_github_pr_text_comment(text, pr_number, token):
     header = create_github_request_header(token)
 
     _logger.debug(f"Posting pr text comment to {url}")
-    r = requests.post(url, data=data, headers=header)
-    if r.ok:
-        _logger.debug(f"Response code: {r.status_code}")
+    response = requests.post(url, data=data, headers=header)
+    if response.ok:
+        _logger.debug(f"Response code: {response.status_code}")
     else:
-        _logger.error(f"Bad response. url:{url}, code:{r.status_code}, text:{r.text}")
+        _logger.error(f"Bad response. url:{url}, code:{response.status_code}, text:{response.text}")
 
     return r.status_code
 
@@ -155,13 +155,15 @@ def get_github_pr_changed_labview_file_paths(pr_number, token):
     header = create_github_request_header(token)
 
     _logger.debug(f"Getting files information from {url}")
-    r = requests.get(url, headers=header)
-    print(r);
+    response = requests.get(url, headers=header)
+    print(response);
+    print(response.text);
 
     added_labview_files = []
     modified_labview_files = []
 
     return added_labview_files, modified_labview_files
+
 
 def main(args):
     options = parse_options(args)
