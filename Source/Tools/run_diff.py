@@ -26,8 +26,7 @@ def run_full_diff(pr_number, token):
     added_labview_files = []
     modified_labview_files = []
     if pr_number is not None and token is not None:
-        # Use github rest api to acquire changed file list from PR
-        temp = 0
+        (added_labview_files, modified_labview_files) = get_github_pr_changed_files()
     else:
         (added_labview_files, modified_labview_files) = get_git_changed_labview_file_paths(repo_root_directory)
 
@@ -150,6 +149,12 @@ def post_github_pr_text_comment(text, pr_number, token):
 
     return r.status_code
 
+
+def get_github_pr_changed_files(pr_number, token):
+    added_labview_files = []
+    modified_labview_files = []
+
+    return added_labview_files, modified_labview_files
 
 def main(args):
     options = parse_options(args)
