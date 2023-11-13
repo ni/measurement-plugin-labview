@@ -26,7 +26,7 @@ def run_full_diff(pr_number, token):
     added_labview_files = []
     modified_labview_files = []
     if pr_number is not None and token is not None:
-        (added_labview_files, modified_labview_files) = get_github_pr_changed_labview_file_paths()
+        (added_labview_files, modified_labview_files) = get_github_pr_changed_labview_file_paths(pr_number, token)
     else:
         (added_labview_files, modified_labview_files) = get_git_changed_labview_file_paths(repo_root_directory)
 
