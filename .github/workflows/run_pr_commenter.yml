@@ -25,16 +25,3 @@ jobs:
       id: run-diff
       run: |
         python ${{runner.workspace}}\measurementlink-labview\Source\Tools\run_diff.py --token ${{secrets.GITHUB_TOKEN}} --pull-req ${{github.event.pull_request.number}}
-
-        echo "diff-result=VI Diff Infomation coming soon." >> $env:GITHUB_OUTPUT
-
-    - uses: actions/github-script@v3
-      with:
-        github-token: ${{secrets.GITHUB_TOKEN}}
-        script: |
-          github.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: 'Comment produced from PR Commenter workflow.\n\n${{ steps.run-diff.outputs.diff-result }}'
-          })
