@@ -23,12 +23,7 @@ def run_full_diff(pr_number, token):
     source_directory = tools_directory.parent
     repo_root_directory = source_directory.parent
 
-    added_labview_files = []
-    modified_labview_files = []
-    if pr_number is not None and token is not None:
-        (added_labview_files, modified_labview_files) = get_github_pr_changed_labview_file_paths(pr_number, token)
-    else:
-        (added_labview_files, modified_labview_files) = get_git_changed_labview_file_paths(repo_root_directory)
+    (added_labview_files, modified_labview_files) = get_changed_labview_file_paths(repo_root_directory, pr_number, token)
 
     target_snapshot_directory = copy_target_branch_into_temp_directory(repo_root_directory)
 
@@ -103,7 +98,7 @@ def copy_target_branch_into_temp_directory(repo_root_directory):
     return (temp_directory)
 
 
-def get_git_changed_files():
+def get_git_diff_changed_files():
     diff_args = ["git", "diff", "--name-status", "--diff-filter=AM", "origin/main..."]
     diff_output = subprocess.check_output(diff_args).decode("utf-8")
 
@@ -113,8 +108,12 @@ def get_git_changed_files():
         yield match.group(1), match.group(2)
 
 
-def get_git_changed_labview_file_paths(repo_root_directory):
-    changed_files = get_git_changed_files()
+def get_changed_labview_file_paths(repo_root_directory, pr_number, token):
+    changed_files = []
+    if pr_number is not None and token is not None:
+        changed_files = get_github_pr_changed_files(pr_number, token)
+    else:
+        changed_files = get_git_diff_changed_files()
 
     diff_regex = re.compile(r"^(.*\.vi[tm]?)|(.*\.ctl?)$", re.MULTILINE)
 
@@ -123,9 +122,9 @@ def get_git_changed_labview_file_paths(repo_root_directory):
     for status, filename in changed_files:
         if re.match(diff_regex, filename):
             absolute_file_path = os.path.normpath(os.path.join(repo_root_directory, filename))
-            if status == 'A':
+            if status == 'A' or status == "added":
                 added_labview_files.append(absolute_file_path)
-            if status == 'M':
+            if status == 'M' or status == "modified":
                 modified_labview_files.append(absolute_file_path)
 
     return added_labview_files, modified_labview_files
@@ -150,7 +149,7 @@ def post_github_pr_text_comment(text, pr_number, token):
     return r.status_code
 
 
-def get_github_pr_changed_labview_file_paths(pr_number, token):
+def get_github_pr_changed_files(pr_number, token):
     url = f"https://api.github.com/repos/ni/measurementlink-labview/pulls/{pr_number}/files"
     header = create_github_request_header(token)
 
@@ -160,19 +159,11 @@ def get_github_pr_changed_labview_file_paths(pr_number, token):
         _logger.debug(f"Response code: {response.status_code}")
     else:
         _logger.error(f"Bad response. url:{url}, code:{response.status_code}, text:{response.text}")
-        return [], []
 
     file_set = response.json()
 
     for file_info in file_set:
-        filename = file_info["filename"]
-        file_status = file_info["status"]
-        print(f"{filename} : {file_status}")
-
-    added_labview_files = []
-    modified_labview_files = []
-
-    return added_labview_files, modified_labview_files
+        yield file_info["status"], file_info["filename"]
 
 
 def main(args):
