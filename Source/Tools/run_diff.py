@@ -159,7 +159,7 @@ def post_github_pr_text_comment(text, pr_number, token):
     else:
         _logger.error(f"Bad response. url:{url}, code:{response.status_code}, text:{response.text}")
 
-    return r.status_code
+    return response.status_code
 
 
 def get_github_pr_changed_files(pr_number, token):
