@@ -40,14 +40,27 @@ def run_full_diff(pr_number, token):
     diff_result = subprocess.run(kwargs, capture_output= True)
 
     formatted_stdout = diff_result.stdout.decode().replace('\r\n','\n').strip()
-    if(diff_result.returncode == 0):
+    if (diff_result.returncode == 0):
         _logger.debug(formatted_stdout)
-        print(formatted_stdout)
-    else:
-        formatted_stderr = diff_result.stderr.decode().replace('\r\n','\n').strip()
-        _logger.error(formatted_stderr)
-        print(f"Error {diff_result.returncode} occured when generating diff.")
 
+        # This might be simpler than the regex
+        idx1 = formatted_stdout.find("Operation output:") + len("Operation output:") + 1
+        idx2 = formatted_stdout.find("Full report stored at:")
+
+        diff_summary = formatted_stdout[idx1: idx2].strip()
+        if pr_number is not None and token is not None:
+            post_github_pr_text_comment(diff_summary, options.pr, options.token)
+        else:
+            _logger.debug(diff_summary)
+        return 0
+    else:
+        _logger.error("Expected return code of zero from LabVIEWCLI call.")
+
+    if pr_number is not None and token is not None:
+        post_github_pr_text_comment("An unexpected failure occurred when attempting automated graphical diff.", options.pr, options.token)
+
+    # Failures in diff workflow shall not flag the PR with a failed PR check
+    # OR do we want to consider this an optional check at the pr level..?
     return diff_result.returncode
 
 
@@ -170,8 +183,7 @@ def main(args):
     options = parse_options(args)
 
     if options.pr is not None and options.token is not None:
-        print(f"Running for pull request #{options.pr}")
-        # post_github_pr_text_comment(f"Comment added via github API from {__file__}", options.pr, options.token)
+        _logger.debug(f"Running for pull request #{options.pr}")
 
     return_code = run_full_diff(options.pr, options.token)
 
