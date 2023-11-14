@@ -49,7 +49,7 @@ def run_full_diff(pr_number, token):
 
         diff_summary = formatted_stdout[idx1: idx2].strip()
         if pr_number is not None and token is not None:
-            post_github_pr_text_comment(diff_summary, options.pr, options.token)
+            post_github_pr_text_comment(diff_summary, pr_number, token)
         else:
             _logger.debug(diff_summary)
         return 0
@@ -57,7 +57,7 @@ def run_full_diff(pr_number, token):
         _logger.error("Expected return code of zero from LabVIEWCLI call.")
 
     if pr_number is not None and token is not None:
-        post_github_pr_text_comment("An unexpected failure occurred when attempting automated graphical diff.", options.pr, options.token)
+        post_github_pr_text_comment("An unexpected failure occurred when attempting automated graphical diff.", pr_number, token)
 
     # Failures in diff workflow shall not flag the PR with a failed PR check
     # OR do we want to consider this an optional check at the pr level..?
