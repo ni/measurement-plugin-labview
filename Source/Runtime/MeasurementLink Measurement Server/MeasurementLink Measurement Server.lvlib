@@ -17,6 +17,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Add JSON Name Value Pair.vim" Type="VI" URL="../Helpers/Add JSON Name Value Pair.vim"/>
+		<Item Name="Cluster Is DoubleXYData.vi" Type="VI" URL="../Helpers/Cluster Is DoubleXYData.vi"/>
 		<Item Name="Create Enum Type Specialization.vi" Type="VI" URL="../Helpers/Create Enum Type Specialization.vi"/>
 		<Item Name="Create Measurement Services.vi" Type="VI" URL="../Helpers/Create Measurement Services.vi"/>
 		<Item Name="Encode to JSON String.vim" Type="VI" URL="../Helpers/Encode to JSON String.vim"/>
