@@ -11,9 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="ni.protobuf.types" Type="Folder">
-			<Item Name="xydata" Type="Folder">
-				<Item Name="ni.protobuf.types.xydata.lvlib" Type="Library" URL="../ni.protobuf.types/xydata/ni.protobuf.types.xydata.lvlib"/>
-			</Item>
+			<Item Name="ni.protobuf.types.lvlib" Type="Library" URL="../ni.protobuf.types.lvlib"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
