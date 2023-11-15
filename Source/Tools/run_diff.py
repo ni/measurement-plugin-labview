@@ -148,7 +148,9 @@ def create_github_request_header(token):
 
 
 def post_github_pr_text_comment(text, pr_number, token):
-    url = f"https://api.github.com/repos/ni/measurementlink-labview/pulls/{pr_number}/comments"
+    # Using "issues" in this url allows for providing a pr-scoped comment.
+    # If using "pulls" instead, subschema infomration (e.g. file or line) is required in the data.
+    url = f"https://api.github.com/repos/ni/measurementlink-labview/issues/{pr_number}/comments"
     data = json.dumps({"body": text})
     header = create_github_request_header(token)
 
