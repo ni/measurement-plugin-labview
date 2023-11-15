@@ -9,5 +9,5 @@ concurrency:
 
 jobs:
   run_pr_commenter:
-    if: ${{ github.repository == 'ni/measurementlink-labview' || github.event.pull_request.head.repo.full_name == 'ni/measurementlink-labview' }}
+    if: ${{contains(github.event.pull_request.body, '@RUN_G_DIFF') && (github.repository == 'ni/measurementlink-labview' || github.event.pull_request.head.repo.full_name == 'ni/measurementlink-labview') }}
     uses: ./.github/workflows/run_pr_commenter.yml
