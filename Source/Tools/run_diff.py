@@ -48,6 +48,8 @@ def run_full_diff(pr_number, token):
         idx2 = formatted_stdout.find("Full report stored at:")
 
         diff_summary = formatted_stdout[idx1: idx2].strip()
+        # Substitution using &nbsp preserves indentation
+        diff_summary = re.sub("  ", "&nbsp&nbsp", diff_summary)
         if pr_number is not None and token is not None:
             post_github_pr_text_comment(diff_summary, pr_number, token)
         else:
