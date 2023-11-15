@@ -17,7 +17,6 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Add JSON Name Value Pair.vim" Type="VI" URL="../Helpers/Add JSON Name Value Pair.vim"/>
-		<Item Name="Cluster Is DoubleXYData.vi" Type="VI" URL="../Helpers/Cluster Is DoubleXYData.vi"/>
 		<Item Name="Create Enum Type Specialization.vi" Type="VI" URL="../Helpers/Create Enum Type Specialization.vi"/>
 		<Item Name="Create Measurement Services.vi" Type="VI" URL="../Helpers/Create Measurement Services.vi"/>
 		<Item Name="Encode to JSON String.vim" Type="VI" URL="../Helpers/Encode to JSON String.vim"/>
@@ -31,6 +30,7 @@
 		<Item Name="Get MetaData from Results.vi" Type="VI" URL="../Helpers/Get MetaData from Results.vi"/>
 		<Item Name="Get Metadata.vi" Type="VI" URL="../Helpers/Get Metadata.vi"/>
 		<Item Name="Get Parameters And Check Data Types.vi" Type="VI" URL="../Helpers/Get Parameters And Check Data Types.vi"/>
+		<Item Name="Is Supported Cluster.vi" Type="VI" URL="../Helpers/Is Supported Cluster.vi"/>
 		<Item Name="IsEnumArrayControl.vi" Type="VI" URL="../Helpers/IsEnumArrayControl.vi"/>
 		<Item Name="IsEnumControl.vi" Type="VI" URL="../Helpers/IsEnumControl.vi"/>
 		<Item Name="LabVIEW datatype to Measurement datatype.vi" Type="VI" URL="../Helpers/LabVIEW datatype to Measurement datatype.vi"/>
