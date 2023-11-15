@@ -6,7 +6,7 @@ on:
 
 jobs:
   run_pr_commenter:
-    if: github.event.issue.pull_request && contains(github.event.comment.body, '@RUN_G_DIFF')
+    if: github.event.issue.pull_request && contains(github.event.pull_request.body, '@RUN_G_DIFF')
     name: Run PR Commenter
     runs-on: self-hosted
     steps:
