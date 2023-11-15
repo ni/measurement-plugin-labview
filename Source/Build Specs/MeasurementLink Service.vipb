@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2023-11-15 09:24:29" Creator="lvadmin" Comments="" ID="b5941390a0c4020150016efb3ea17b0e">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2023-11-14 15:14:33" Creator="lvadmin" Comments="" ID="d6a8d70e3546d75f7536825b8c1e1299">
   <Library_General_Settings>
     <Package_File_Name>NI_MeasurementLink_Service</Package_File_Name>
-    <Library_Version>1.3.0.5</Library_Version>
+    <Library_Version>1.3.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Runtime</Library_Source_Folder>
     <Library_Output_Folder>..\..\Build Output</Library_Output_Folder>
@@ -140,9 +140,6 @@
       </Exclusions>
       <Exclusions>
         <Path>Measurement Service V2.lvproj</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>ni.protobuf.types.lvproj</Path>
       </Exclusions>
       <Place_Folder_Contents>
         <Path/>
@@ -331,7 +328,7 @@
         <Path>..\Runtime\MeasurementLink Measurement Server\Classes\MeasurementContext\Accessor\Read Pin Map Context.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0AAD118D5CA0BDCEA3131F44F5ECA2C5</GUID>
+      <GUID>9E9905D1E17FA35172B0C9453DC342E7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -352,7 +349,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path/>
       </Synchronization_Info>
-      <GUID>6650F36DAE7EFE1E166DB9771DED25EC</GUID>
+      <GUID>8D229E83B4AF8E9B8313438E0C77D506</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -527,7 +524,7 @@
         <Path>..\Runtime\NI-SCOPE</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>304FAE100B6ECB5585A49843E286F29B</GUID>
+      <GUID>01A36E5967D86D047ACD020042760413</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -576,7 +573,7 @@
         <Path>&lt;vi.lib&gt;\MeasurementLink\MeasurementLink TestStand Integration\Get Pin Map ID for Sequence.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FB3E0D713EDA9FA1E7540977837CDE88</GUID>
+      <GUID>73BF64FAA2AE4BBC1BAEDB0B0E77CEDB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -639,7 +636,7 @@
         <Path>&lt;vi.lib&gt;\MeasurementLink\MeasurementLink niDCPower\Instrument Type ID.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4E513407B88DE6C89AFE4A7F4B65D6BD</GUID>
+      <GUID>F8324BA8299CA12A00C9EFB7753ED4B5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -702,7 +699,7 @@
         <Path>&lt;vi.lib&gt;\MeasurementLink\MeasurementLink niDigital\Instrument Type ID.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4E66A4E0EAC85971BB5B089721162A67</GUID>
+      <GUID>8C045495FEFBF284D070429D83ECC8BB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -765,7 +762,7 @@
         <Path>&lt;vi.lib&gt;\MeasurementLink\MeasurementLink niDMM\Instrument Type ID.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>44592362681D32DBEDBAEF2D961BB715</GUID>
+      <GUID>09E52F11FB53ED6387D315871D31DCF8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -828,7 +825,7 @@
         <Path>&lt;vi.lib&gt;\MeasurementLink\MeasurementLink niFGEN\Instrument Type ID.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6B248C29B457A328830A7065612F2FE5</GUID>
+      <GUID>03549BF0A3F5EBC82D7D0F04206EEA81</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -891,7 +888,7 @@
         <Path>&lt;vi.lib&gt;\MeasurementLink\MeasurementLink niScope\Instrument Type ID.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8C43A3343A8CEDAEFFB6B28D1F55C1A4</GUID>
+      <GUID>6C5D0604FACE6997D1D832CFCE3EDAAE</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
