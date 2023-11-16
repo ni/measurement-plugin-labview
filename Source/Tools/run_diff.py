@@ -54,16 +54,14 @@ def run_full_diff(pr_number, token):
             post_github_pr_text_comment(diff_summary, pr_number, token)
         else:
             _logger.debug(diff_summary)
-        return 0
+        return
     else:
         _logger.error("Expected return code of zero from LabVIEWCLI call.")
 
     if pr_number is not None and token is not None:
         post_github_pr_text_comment("An unexpected failure occurred when attempting automated graphical diff.", pr_number, token)
 
-    # Failures in diff workflow shall not flag the PR with a failed PR check
-    # OR do we want to consider this an optional check at the pr level..?
-    return diff_result.returncode
+    return
 
 
 def copy_target_branch_into_temp_directory(repo_root_directory):
@@ -122,7 +120,7 @@ def create_github_request_header(token):
 
 def post_github_pr_text_comment(text, pr_number, token):
     # Using "issues" in this url allows for providing a pr-scoped comment.
-    # If using "pulls" instead, subschema infomration (e.g. file or line) is required in the data.
+    # If using "pulls" instead, subschema information (e.g. file or line) is required in the data.
     url = f"https://api.github.com/repos/ni/measurementlink-labview/issues/{pr_number}/comments"
     data = json.dumps({"body": text})
     header = create_github_request_header(token)
@@ -171,9 +169,9 @@ def main(pull_req, token):
     if pr_number is not None and token is not None:
         _logger.debug(f"Running for pull request #{pr_number} with provided token.")
 
-    return_code = run_full_diff(pr_number, token)
+    run_full_diff(pr_number, token)
 
-    sys.exit(return_code)
+    sys.exit(0)
 
 
 if __name__ == "__main__":
