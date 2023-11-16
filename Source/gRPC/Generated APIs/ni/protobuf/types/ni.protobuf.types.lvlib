@@ -12,6 +12,5 @@
 		<Item Name="ni_protobuf_types_DoubleXYData" Type="Folder">
 			<Item Name="ni_protobuf_types_DoubleXYData.ctl" Type="VI" URL="../RPC Messages/ni_protobuf_types_DoubleXYData.ctl"/>
 		</Item>
-		<Item Name="Register gRPC Messages.vi" Type="VI" URL="../RPC Messages/Register gRPC Messages.vi"/>
 	</Item>
 </Library>
