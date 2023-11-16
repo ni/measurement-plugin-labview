@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 <VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2023-11-16 15:48:19" Creator="lvadmin" Comments="" ID="6c254069c2160bac2299d211ff8e453c">
+=======
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2023-11-16 10:10:39" Creator="lvadmin" Comments="" ID="8e7965136f751ce2ff2ce750b3189051">
+>>>>>>> origin/main
   <Library_General_Settings>
     <Package_File_Name>NI_MeasurementLink_Service</Package_File_Name>
-    <Library_Version>1.3.0.4</Library_Version>
+    <Library_Version>1.3.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Runtime</Library_Source_Folder>
     <Library_Output_Folder>..\..\Build Output</Library_Output_Folder>
@@ -22,10 +26,10 @@
       <Additional_External_Dependencies>ni_protobuf_types &gt;=1.0.0.7</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
-      <Pre-Build_VI/>
-      <Post-Build_VI/>
+      <Pre-Build_VI>Build Custom Actions\Pre-Build Custom Action.vi</Pre-Build_VI>
+      <Post-Build_VI>Build Custom Actions\Post-Build Custom Action.vi</Post-Build_VI>
       <Pre-Install_VI/>
-      <Post-Install_VI/>
+      <Post-Install_VI>Install Custom Actions\Post-Install Custom Action.vi</Post-Install_VI>
       <Pre-Uninstall_VI/>
       <Post-Uninstall_VI/>
     </Custom_Action_VIs>
@@ -97,12 +101,24 @@
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path/>
       </QuickDrop_Plugins>
+      <Additional_Destination>
+        <Name>Palette Files</Name>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path>&lt;menus&gt;\Categories</Path>
+      </Additional_Destination>
     </Destinations>
     <Source_Files>
       <Destination_Overrides>
         <Path>.</Path>
         <Destination>0</Destination>
         <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>MeasurementLink Palette Files/Measurement</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Password_Overrides>
@@ -144,6 +160,9 @@
       </Exclusions>
       <Place_Folder_Contents>
         <Path/>
+      </Place_Folder_Contents>
+      <Place_Folder_Contents>
+        <Path>Palette Files</Path>
       </Place_Folder_Contents>
     </Source_Files>
     <License_Agreement_Filepath/>
@@ -211,6 +230,7 @@
     </VI_Docs>
     <System_Destinations/>
   </Advanced_Settings>
+<<<<<<< HEAD
   <Library_Palette_Definition>
     <Functions_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -892,4 +912,7 @@
       <GUID>F38463DF12B9E376E43EFF7357BC564F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
+=======
+  <Library_Palette_Definition/>
+>>>>>>> origin/main
 </VI_Package_Builder_Settings>
