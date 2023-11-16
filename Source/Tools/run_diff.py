@@ -1,4 +1,4 @@
-
+import click
 import json
 import logging
 import os
@@ -64,32 +64,6 @@ def run_full_diff(pr_number, token):
     # Failures in diff workflow shall not flag the PR with a failed PR check
     # OR do we want to consider this an optional check at the pr level..?
     return diff_result.returncode
-
-
-def parse_arguments():
-    import argparse
-
-    parser = argparse.ArgumentParser()
-
-    # Setup parser
-    parser.add_argument(
-        "-t",
-        "--token",
-        dest="token",
-        metavar="TOKEN",
-        help="Github Access token needed to perform write operations",
-    )
-    parser.add_argument(
-        "-p",
-        "--pull-req",
-        dest="pr",
-        metavar="PR",
-        help="Github pull request number",
-    )
-
-    args = parser.parse_args(sys.argv[1:])
-
-    return args
 
 
 def copy_target_branch_into_temp_directory(repo_root_directory):
@@ -180,13 +154,24 @@ def get_github_pr_changed_files(pr_number, token):
         yield file_info["status"], file_info["filename"]
 
 
-def main():
-    args = parse_arguments()
+@click.command()
+@click.option(
+    "-p",
+    "--pull-req",
+    help="Github pull request number",
+)
+@click.option(
+    "-t",
+    "--token",
+    help="Github Access token needed to perform write operations",
+)
+def main(pull_req, token):
+    pr_number = pull_req
 
-    if args.pr is not None and args.token is not None:
-        _logger.debug(f"Running for pull request #{args.pr} with provided token.")
+    if pr_number is not None and token is not None:
+        _logger.debug(f"Running for pull request #{pr_number} with provided token.")
 
-    return_code = run_full_diff(args.pr, args.token)
+    return_code = run_full_diff(pr_number, token)
 
     sys.exit(return_code)
 
