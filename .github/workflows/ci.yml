@@ -1,7 +1,11 @@
 name: CI
 on:
-  pull_request:
-    types: [opened, synchronize, reopened]
+  push:
+    branches:
+      - main
+      - 'releases/**'
+  workflow_call:
+  workflow_dispatch:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
@@ -9,5 +13,6 @@ concurrency:
 
 jobs:
   run_g_tests:
+    name: Run LabVIEW Tests
     if: ${{ github.repository == 'ni/measurementlink-labview' || github.event.pull_request.head.repo.full_name == 'ni/measurementlink-labview' }}
     uses: ./.github/workflows/run_g_tests.yml
