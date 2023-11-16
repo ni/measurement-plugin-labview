@@ -66,20 +66,20 @@ def run_full_diff(pr_number, token):
     return diff_result.returncode
 
 
-def parse_options(args):
-    import optparse
+def parse_arguments():
+    import argparse
 
-    parser = optparse.OptionParser("usage: %prog --token TOKEN --pull-req PULLREQUEST")
+    parser = argparse.ArgumentParser()
 
     # Setup parser
-    parser.add_option(
+    parser.add_argument(
         "-t",
         "--token",
         dest="token",
         metavar="TOKEN",
         help="Github Access token needed to perform write operations",
     )
-    parser.add_option(
+    parser.add_argument(
         "-p",
         "--pull-req",
         dest="pr",
@@ -87,12 +87,9 @@ def parse_options(args):
         help="Github pull request number",
     )
 
-    (options, args) = parser.parse_args(args)
+    args = parser.parse_args(sys.argv[1:])
 
-    if args:
-        parser.error("Positional arguments are not supported: %r" % (args,))
-
-    return options
+    return args
 
 
 def copy_target_branch_into_temp_directory(repo_root_directory):
@@ -183,17 +180,17 @@ def get_github_pr_changed_files(pr_number, token):
         yield file_info["status"], file_info["filename"]
 
 
-def main(args):
-    options = parse_options(args)
+def main():
+    args = parse_arguments()
 
-    if options.pr is not None and options.token is not None:
-        _logger.debug(f"Running for pull request #{options.pr}")
+    if args.pr is not None and args.token is not None:
+        _logger.debug(f"Running for pull request #{args.pr} with provided token.")
 
-    return_code = run_full_diff(options.pr, options.token)
+    return_code = run_full_diff(args.pr, args.token)
 
     sys.exit(return_code)
 
 
 if __name__ == "__main__":
-    retCode = main(sys.argv[1:])
-    sys.exit(retCode)
+    return_code = main()
+    sys.exit(return_code)
