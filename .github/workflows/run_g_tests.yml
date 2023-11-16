@@ -17,4 +17,4 @@ jobs:
 
     - name: Run G Tests
       run:
-        python ${{runner.workspace}}\measurementlink-labview\Source\Tests\run_tests.py
+        python ${{runner.workspace}}/measurementlink-labview/Source/Tests/run_tests.py
