@@ -36,6 +36,7 @@
 		<Item Name="LabVIEW datatype to Measurement datatype.vi" Type="VI" URL="../Helpers/LabVIEW datatype to Measurement datatype.vi"/>
 		<Item Name="Register Configuration and Results.vi" Type="VI" URL="../Helpers/Register Configuration and Results.vi"/>
 		<Item Name="Register to Discovery Service.vi" Type="VI" URL="../Helpers/Register to Discovery Service.vi"/>
+		<Item Name="Type Definition Name To Message Name.vi" Type="VI" URL="../Helpers/Type Definition Name To Message Name.vi"/>
 		<Item Name="Validate Metadata.vi" Type="VI" URL="../Helpers/Validate Metadata.vi"/>
 	</Item>
 	<Item Name="Private TypeDefs" Type="Folder">
