@@ -9,11 +9,11 @@ in a graph using the Game of Life.
 - `Keysight 34401A DMM Measurement`: Performs a DMM measurement using an
 HP/Agilent/Keysight 34401A DMM.
 - `NI-DCPower Source DC Voltage`: Sources and measures a DC voltage with an NI SMU.
-- 'NI-Digital SPI: Tests an SPI device using an NI Digital Pattern instrument.
-- 'NI-DMM Measurement: Acquires a single measurement from a NI DMM.
-- 'NI-FGEN Standard Function: Generates a waveform using standard function mode
+- `NI-Digital SPI`: Tests an SPI device using an NI Digital Pattern instrument.
+- `NI-DMM Measurement`: Acquires a single measurement from a NI DMM.
+- `NI-FGEN Standard Function`: Generates a waveform using standard function mode
   with an NI FGEN.
-- 'NI_SCOPE Acquire Waveform: Acquires waveforms from an NI SCOPE.
+- `NI_SCOPE Acquire Waveform`: Acquires waveforms from an NI SCOPE.
 - `UIProgressUpdates`: Generates random numbers and updates the measurement UI
   to show progress.
 
