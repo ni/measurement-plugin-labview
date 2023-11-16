@@ -14,9 +14,4 @@
 		</Item>
 		<Item Name="Register gRPC Messages.vi" Type="VI" URL="../RPC Messages/Register gRPC Messages.vi"/>
 	</Item>
-	<Item Name="RPC Service" Type="Folder"/>
-	<Item Name="Client API" Type="Folder">
-		<Item Name="Create Client.vi" Type="VI" URL="../Client API/Create Client.vi"/>
-		<Item Name="Destroy Client.vi" Type="VI" URL="../Client API/Destroy Client.vi"/>
-	</Item>
 </Library>
