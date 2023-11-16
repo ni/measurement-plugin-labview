@@ -14,6 +14,12 @@
 *.aliases
 *.lvlps
 .cache/
+.vs/
 
 # Builds
 /Build Output/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
