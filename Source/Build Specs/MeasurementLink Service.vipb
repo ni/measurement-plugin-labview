@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2023-11-15 13:58:31" Creator="lvadmin" Comments="" ID="4b99d539fb6e6c4af286049031d3747c">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2023-11-16 10:10:39" Creator="lvadmin" Comments="" ID="8e7965136f751ce2ff2ce750b3189051">
   <Library_General_Settings>
     <Package_File_Name>NI_MeasurementLink_Service</Package_File_Name>
-    <Library_Version>1.3.0.8</Library_Version>
+    <Library_Version>1.3.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Runtime</Library_Source_Folder>
     <Library_Output_Folder>..\..\Build Output</Library_Output_Folder>
@@ -24,7 +24,7 @@
       <Pre-Build_VI>Build Custom Actions\Pre-Build Custom Action.vi</Pre-Build_VI>
       <Post-Build_VI>Build Custom Actions\Post-Build Custom Action.vi</Post-Build_VI>
       <Pre-Install_VI/>
-      <Post-Install_VI/>
+      <Post-Install_VI>Install Custom Actions\Post-Install Custom Action.vi</Post-Install_VI>
       <Pre-Uninstall_VI/>
       <Post-Uninstall_VI/>
     </Custom_Action_VIs>
