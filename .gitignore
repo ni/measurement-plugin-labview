@@ -19,5 +19,7 @@
 # Builds
 /Build Output/
 
-# Python Cache
-/Source/Tools/__pycache__/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
