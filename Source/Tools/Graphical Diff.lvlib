@@ -6,7 +6,7 @@
 	<Item Name="subVIs" Type="Folder">
 		<Item Name="Change Type.ctl" Type="VI" URL="../subVIs/Change Type.ctl"/>
 		<Item Name="Parse Diff Report to Text.vi" Type="VI" URL="../subVIs/Parse Diff Report to Text.vi"/>
+		<Item Name="Remove Extraneous Images.vi" Type="VI" URL="../subVIs/Remove Extraneous Images.vi"/>
 	</Item>
-	<Item Name="Remove Extraneous Images.vi" Type="VI" URL="../subVIs/Remove Extraneous Images.vi"/>
 	<Item Name="run_diff.vi" Type="VI" URL="../run_diff.vi"/>
 </Library>
