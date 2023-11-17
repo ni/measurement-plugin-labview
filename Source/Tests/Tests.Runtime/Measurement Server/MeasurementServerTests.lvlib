@@ -241,6 +241,14 @@
 			<Item Name="test_RemoteScopeSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niScope/test_RemoteScopeSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
 			<Item Name="test_ScopeInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi" Type="VI" URL="../niScope/test_ScopeInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi"/>
 		</Item>
+		<Item Name="VISA" Type="Folder">
+			<Item Name="VISA Read TCP Hostname and Assert Valid.vi" Type="VI" URL="../VISA/VISA Read TCP Hostname and Assert Valid.vi"/>
+			<Item Name="TCP URL and Resource Name.vi" Type="VI" URL="../VISA/TCP URL and Resource Name.vi"/>
+			<Item Name="test_VISAFactory_InitializeMeasurementLinkSessionWithInitAndClose_RemoteSessionCreatedAndClosed.vi" Type="VI" URL="../VISA/test_VISAFactory_InitializeMeasurementLinkSessionWithInitAndClose_RemoteSessionCreatedAndClosed.vi"/>
+			<Item Name="test_VISAFactory_InitializeMeasurementLinkSessionWithAttachAndDetach_RemoteSessionAttachedAndDetached.vi" Type="VI" URL="../VISA/test_VISAFactory_InitializeMeasurementLinkSessionWithAttachAndDetach_RemoteSessionAttachedAndDetached.vi"/>
+			<Item Name="test_VISAFactory_InitializeMeasurementLinkSessionWithAttachAndClose_RemoteSessionAttachedAndClosed.vi" Type="VI" URL="../VISA/test_VISAFactory_InitializeMeasurementLinkSessionWithAttachAndClose_RemoteSessionAttachedAndClosed.vi"/>
+			<Item Name="test_VISAFactory_InitializeMeasurementLinkSessionWithInitAndDetach_RemoteSessionCreatedAndDetached.vi" Type="VI" URL="../VISA/test_VISAFactory_InitializeMeasurementLinkSessionWithInitAndDetach_RemoteSessionCreatedAndDetached.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Reserve Sessions" Type="Folder">
 		<Item Name="test_CallReserveSessionsWithArrayWithEmptyElement_ErrorReturned.vi" Type="VI" URL="../Reserve Sessions/test_CallReserveSessionsWithArrayWithEmptyElement_ErrorReturned.vi"/>

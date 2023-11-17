@@ -39,6 +39,8 @@
 		<Item Name="Global VIs" Type="Folder">
 			<Item Name="Error Strings Global Internal.vi" Type="VI" URL="../MeasurementLink Measurement Server/Helpers/Error Strings Global Internal.vi"/>
 		</Item>
+		<Item Name="TCP echo.vi" Type="VI" URL="../../../../../Users/Administrator/Desktop/TCP echo.vi"/>
+		<Item Name="grpc visa bug.vi" Type="VI" URL="../../../../../Users/Administrator/Desktop/grpc visa bug.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
