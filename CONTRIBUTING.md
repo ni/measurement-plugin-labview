@@ -35,7 +35,7 @@ The source code is built into two LabVIEW packages
 To build the packages:
 
 1. Open the desired VIPM specification file (.vipb) under the [`Build Specs`](https://github.com/ni/measurementlink-labview/tree/main/Source/Build%20Specs) folder
-2. Open the Specification file using VIPM 2020
+2. Open the Specification file using VIPM 2023
 3. Click Build - A .vip will be created in the `Build Output` folder under the repo root directory
 
 ## `ni_measurementlink_service` Package
