@@ -9,7 +9,7 @@ jobs:
     name: Run G Tests
     runs-on: self-hosted
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - uses: actions/setup-python@v4
       with:
@@ -17,4 +17,4 @@ jobs:
 
     - name: Run G Tests
       run:
-        python ${{runner.workspace}}\measurementlink-labview\Source\Tests\run_tests.py
+        python ${{runner.workspace}}/measurementlink-labview/Source/Tests/run_tests.py
