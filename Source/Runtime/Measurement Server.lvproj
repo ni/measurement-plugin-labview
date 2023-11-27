@@ -83,6 +83,9 @@
 				<Item Name="VISA gRPC Open Close Behavior.ctl" Type="VI" URL="/&lt;vilib&gt;/NI-VISA/VISA gRPC Open Close Behavior.ctl"/>
 				<Item Name="VISA Open Access Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Open Access Mode.ctl"/>
 				<Item Name="VISA Open for gRPC Session.vi" Type="VI" URL="/&lt;vilib&gt;/NI-VISA/VISA Open for gRPC Session.vi"/>
+				<Item Name="VISA Format gRPC Resource Name.vi" Type="VI" URL="/&lt;vilib&gt;/NI-VISA/VISA Format gRPC Resource Name.vi"/>
+				<Item Name="VISA Format gRPC URI.vi" Type="VI" URL="/&lt;vilib&gt;/NI-VISA/VISA Format gRPC URI.vi"/>
+				<Item Name="VISA gRPC Options.ctl" Type="VI" URL="/&lt;vilib&gt;/NI-VISA/VISA gRPC Options.ctl"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niDCPower Initialize With Independent Channels for gRPC session.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Initialize With Independent Channels for gRPC session.vi"/>
