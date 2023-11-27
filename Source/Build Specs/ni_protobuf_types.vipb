@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2023-11-27 13:46:48" Creator="lvadmin" Comments="" ID="4d808cdd38f10ff4e70d41826ac6cd4f">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2023-11-27 13:47:44" Creator="lvadmin" Comments="" ID="2a6d08d1d469108e8e2b0af2a497cfbc">
   <Library_General_Settings>
     <Package_File_Name>ni_protobuf_types</Package_File_Name>
     <Library_Version>1.0.0.1</Library_Version>
@@ -111,6 +111,9 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
+      <Exclusions>
+        <Path>ni.protobuf.types.lvproj</Path>
+      </Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
