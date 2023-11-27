@@ -4,6 +4,8 @@ This directory contains the following example measurements:
 
 - `CancellableMeasurement`: Demonstrates a simple measurement that takes a
   specified length of time and can be cancelled while it is running.
+- 'Game Of Life': Demonstrates the usage of XY Data
+in a graph using the Game of Life.
 - `Keysight 34401A DMM Measurement`: Performs a DMM measurement using an
 HP/Agilent/Keysight 34401A DMM.
 - `NI-DCPower Source DC Voltage`: Sources and measures a DC voltage with an NI SMU.
