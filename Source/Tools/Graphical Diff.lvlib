@@ -6,10 +6,10 @@
 	<Item Name="subVIs" Type="Folder">
 		<Item Name="Bucket Similar png Files.vi" Type="VI" URL="../subVIs/Bucket Similar png Files.vi"/>
 		<Item Name="Change Type.ctl" Type="VI" URL="../subVIs/Change Type.ctl"/>
+		<Item Name="Collate Diff Images.vi" Type="VI" URL="../subVIs/Collate Diff Images.vi"/>
 		<Item Name="Merge Diff Images.vi" Type="VI" URL="../subVIs/Merge Diff Images.vi"/>
 		<Item Name="Parse Diff Report to Text.vi" Type="VI" URL="../subVIs/Parse Diff Report to Text.vi"/>
 		<Item Name="Process Diff Images.vi" Type="VI" URL="../subVIs/Process Diff Images.vi"/>
-		<Item Name="Remove Extraneous Images.vi" Type="VI" URL="../subVIs/Remove Extraneous Images.vi"/>
 	</Item>
 	<Item Name="run_diff.vi" Type="VI" URL="../run_diff.vi"/>
 </Library>
