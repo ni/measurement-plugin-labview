@@ -1,6 +1,6 @@
 ## NI-DMM Measurement 
 
-This is a MeasurementLink example that acquires a single measurement from a NI DMM. 
+This is a MeasurementLink example that acquires a single measurement from a NI DMM.
 
 
 Select the measurement function and range.
