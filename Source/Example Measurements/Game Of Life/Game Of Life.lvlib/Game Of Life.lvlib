@@ -11,7 +11,6 @@
 		<Item Name="MeasurementPlugin.lvclass" Type="LVClass" URL="../Advanced/MeasurementPlugin.lvclass"/>
 	</Item>
 	<Item Name="Helpers" Type="Folder">
-		<Item Name="Game Board.ctl" Type="VI" URL="../Helpers/Game Board.ctl"/>
 		<Item Name="Get 8 Neighbors.vi" Type="VI" URL="../Helpers/Get 8 Neighbors.vi"/>
 		<Item Name="Get Neighbor Coord.vi" Type="VI" URL="../Helpers/Get Neighbor Coord.vi"/>
 		<Item Name="Get Neighbor Vals.vi" Type="VI" URL="../Helpers/Get Neighbor Vals.vi"/>
