@@ -82,4 +82,5 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 	</Item>
 	<Item Name="Run Service.vi" Type="VI" URL="../Run Service.vi"/>
+	<Item Name="Supported Typedefs FGV.vi" Type="VI" URL="../Helpers/Supported Typedefs FGV.vi"/>
 </Library>
