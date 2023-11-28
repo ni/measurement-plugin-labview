@@ -125,6 +125,28 @@ def create_github_request_header(token):
     return {"Authorization": "token %s" % token.strip()}
 
 
+def _read_picture(file_name):
+    with open(file_name, "rb") as text:
+        return base64.b64encode(text.read()).decode()
+
+
+def _post_file(file_data, folder, file_name, header, picRepo):
+    # put encoded data into json request
+    new_file_data = json.dumps({"message": "commit message", "content": file_data})
+
+    # post a picture to a repo
+    url = "https://api.github.com/repos/%s/contents/%s/%s" % (picRepo, folder, file_name)
+
+    r = requests.put(url, data=new_file_data, headers=header)
+    if r.ok:
+        _moduleLogger.info("Response code: %s", r.status_code)
+    else:
+        _moduleLogger.error("Bad response url: %s", url)
+        _moduleLogger.error("Bad response code: %s", r.status_code)
+        _moduleLogger.error("Bad response text: %s", r.text)
+    return r.json()["content"]["download_url"]
+
+
 def post_github_pr_text_comment(text, pr_number, token):
     # Using "issues" in this url allows for providing a pr-scoped comment.
     # If using "pulls" instead, subschema information (e.g. file or line) is required in the data.
@@ -141,6 +163,30 @@ def post_github_pr_text_comment(text, pr_number, token):
 
     return response.status_code
 
+
+def post_github_pr_file_scoped_comment_with_pictures(token, localPicfileDirectory, pullRequestInfo, prNumber, picRepo):
+    print(
+        "post_pictures_to_pull_request: ###, {0}, {1}, {2}, {3}".format(
+            localPicfileDirectory, pullRequestInfo, prNumber, picRepo
+        )
+    )
+    header = _create_header(token)
+    pics = [f for f in os.listdir(localPicfileDirectory) if f.endswith(".png")]
+    folder = pullRequestInfo + "/" + datetime.datetime.now().strftime("%Y-%m-%d/%H:%M:%S")
+    picUrls = []
+    for pic in pics:
+        picData = _read_picture(os.path.join(localPicfileDirectory, pic))
+        picUrl = _post_file(picData, folder, os.path.split(pic)[1], header, picRepo)
+        picUrls.append((pic, picUrl))
+
+    try:
+        with open(localPicfileDirectory + "\\diff_failures.txt") as file:
+            diffFailures = file.read().splitlines()
+    except IOError:
+        diffFailures = []
+
+    if picUrls or diffFailures:
+        _post_comment_to_pr(picUrls, diffFailures, pullRequestInfo, prNumber, header)
 
 def get_github_pr_changed_files(pr_number, token):
     url = f"https://api.github.com/repos/ni/measurementlink-labview/pulls/{pr_number}/files"
