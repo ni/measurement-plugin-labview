@@ -57,9 +57,8 @@ def run_full_diff(pr_number, token):
 
             # Add file-scoped comments for provided imagery
             matches = re.findall(r'Diff images generated for `(.*)`: (.*)', diff_summary)
-            _logger.debug("\nFound matches...\n")
-            _logger.debug(matches)
-            _logger.debug("\n... end matches.\n")
+            for file_id, image_dir in matches:
+                _logger.debug(f"Diff images for `{file_id}` retrieved from path `{image_dir}`")
         else:
             _logger.debug(diff_summary)
         return
