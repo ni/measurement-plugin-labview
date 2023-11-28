@@ -171,7 +171,7 @@ def post_github_pr_file_scoped_comment_with_images(file_id, directory_with_image
         # else:
         #    _logger.error(f"Bad response. url:{url}, code:{response.status_code}, text:{response.text}")
 
-        text = text + f"![{image_filename}](data:image/png;base64,{image_byte_array})" + "<br><br>"
+        text = text + f"<img src='data:image/png;base64,{image_byte_array}'><br><br>"
 
     # Temporarily post at PR scope...  Add file scope later.
     post_github_pr_text_comment(text, pr_number, token)
