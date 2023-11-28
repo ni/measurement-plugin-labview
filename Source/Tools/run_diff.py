@@ -1,5 +1,6 @@
 import base64
 import click
+import datetime
 import json
 import logging
 import os
@@ -146,11 +147,8 @@ def post_github_pr_text_comment(text, pr_number, token):
 
 def post_github_pr_file_scoped_comment_with_images(file_id, directory_with_images, pr_number, token):
     # First, upload all the pictures into a unique directory
-    unique_id = "1"
-    # TODO: Should come up with a unique directory within the PR.
-    # Veristand uses a timestamp, ala:
-    # timestamp = datetime.datetime.now().strftime("%Y-%m-%d/%H:%M:%S")
-    # Could also use latest commit id hash?
+    # Veristand uses a timestamp...  Could also use latest commit id hash?
+    unique_id = datetime.datetime.now().strftime("%Y-%m-%d/%H:%M:%S")
     # header = create_github_request_header(token)
     images_to_upload = [f for f in os.listdir(directory_with_images) if f.endswith(".png")]
     uploaded_image_urls = []
