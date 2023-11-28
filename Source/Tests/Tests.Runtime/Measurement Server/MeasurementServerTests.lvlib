@@ -28,6 +28,8 @@
 		<Item Name="Simple Channel Mapping to Channel Mapping Cluster.vi" Type="VI" URL="../Helpers/Simple Channel Mapping to Channel Mapping Cluster.vi"/>
 		<Item Name="Pin Map XML Strings Global.vi" Type="VI" URL="../Helpers/Pin Map XML Strings Global.vi"/>
 		<Item Name="Kill Service.vi" Type="VI" URL="../Helpers/Kill Service.vi"/>
+		<Item Name="VISA Read TCP Hostname and Assert Valid.vi" Type="VI" URL="../Helpers/VISA Read TCP Hostname and Assert Valid.vi"/>
+		<Item Name="TCP URL and Resource Name.vi" Type="VI" URL="../Helpers/TCP URL and Resource Name.vi"/>
 		<Item Name="Kill Session Management Service.vi" Type="VI" URL="../Helpers/Kill Session Management Service.vi"/>
 		<Item Name="Kill gRPC Device Service.vi" Type="VI" URL="../Helpers/Kill gRPC Device Service.vi"/>
 		<Item Name="Register Pin Map.vi" Type="VI" URL="../Helpers/Register Pin Map.vi"/>
@@ -78,6 +80,8 @@
 			<Item Name="niFGEN - 3 Sessions Unregistered.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/niFGEN - 3 Sessions Unregistered.vi"/>
 			<Item Name="niScope - 1 Session Unregistered.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/niScope - 1 Session Unregistered.vi"/>
 			<Item Name="niScope - 2 Sessions Unregistered.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/niScope - 2 Sessions Unregistered.vi"/>
+			<Item Name="VISA - 1 Session Unregistered.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/VISA - 1 Session Unregistered.vi"/>
+			<Item Name="VISA - 3 Sessions Unregistered.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/VISA - 3 Sessions Unregistered.vi"/>
 		</Item>
 		<Item Name="Initialize Sessions VIMs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
@@ -122,6 +126,10 @@
 		<Item Name="niScope" Type="Folder">
 			<Item Name="test_ScopeInstrument_InitializeSessionWithUnregisteredSessionReserved_RemoteSessionInitialized.vi" Type="VI" URL="../Initialize Sessions/test_ScopeInstrument_InitializeSessionWithUnregisteredSessionReserved_RemoteSessionInitialized.vi"/>
 			<Item Name="test_ScopeInstruments_InitializeSessionsWithUnregisteredSessionsReserved_RemoteSessionsInitialized.vi" Type="VI" URL="../Initialize Sessions/test_ScopeInstruments_InitializeSessionsWithUnregisteredSessionsReserved_RemoteSessionsInitialized.vi"/>
+		</Item>
+		<Item Name="VISA" Type="Folder">
+			<Item Name="test_VISAInstrument_InitializeSessionsWithUnregisteredSessionsReserved_RemoteSessionsInitialized.vi" Type="VI" URL="../Initialize Sessions/test_VISAInstrument_InitializeSessionsWithUnregisteredSessionsReserved_RemoteSessionsInitialized.vi"/>
+			<Item Name="test_VISAInstrument_InitializeSessionWithUnregisteredSessionReserved_RemoteSessionInitialized.vi" Type="VI" URL="../Initialize Sessions/test_VISAInstrument_InitializeSessionWithUnregisteredSessionReserved_RemoteSessionInitialized.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Get Connections" Type="Folder">
@@ -196,6 +204,12 @@
 			<Item Name="Two Sessions Two Pins Two Instruments Two Sites - FGEN.vi" Type="VI" URL="../Get Connections/Test Inputs/Two Sessions Two Pins Two Instruments Two Sites - FGEN.vi"/>
 			<Item Name="Three Session Two Pins Three Instrument Two Sites - DMM.vi" Type="VI" URL="../Get Connections/Test Inputs/Three Session Two Pins Three Instrument Two Sites - DMM.vi"/>
 			<Item Name="One Session Two Pins One Instrument One Site with System Pin.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument One Site with System Pin.vi"/>
+			<Item Name="One Session Two Pins One Instrument Two Sites - VISA.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument Two Sites - VISA.vi"/>
+		</Item>
+		<Item Name="VISA" Type="Folder">
+			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_VISAGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_VISAGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
+			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_VISAGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_VISAGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
+			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_VISAGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_VISAGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Get Sessions" Type="Folder">
@@ -240,6 +254,12 @@
 			<Item Name="test_RemoteScopeSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi" Type="VI" URL="../niScope/test_RemoteScopeSession_CallCloseMeasurementLinkSessionWithDetachBehavior_RemoteSessionDetached.vi"/>
 			<Item Name="test_RemoteScopeSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi" Type="VI" URL="../niScope/test_RemoteScopeSession_CallInitializeMeasurementLinkSessionWithAttachBehavior_RemoteSessionAttached.vi"/>
 			<Item Name="test_ScopeInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi" Type="VI" URL="../niScope/test_ScopeInstrument_CallInitializeMeasurementLinkSessionWithCreateBehavior_RemoteSessionCreated.vi"/>
+		</Item>
+		<Item Name="VISA" Type="Folder">
+			<Item Name="test_VISAFactory_InitializeMeasurementLinkSessionWithInitAndClose_RemoteSessionCreatedAndClosed.vi" Type="VI" URL="../VISA/test_VISAFactory_InitializeMeasurementLinkSessionWithInitAndClose_RemoteSessionCreatedAndClosed.vi"/>
+			<Item Name="test_VISAFactory_InitializeMeasurementLinkSessionWithAttachAndDetach_RemoteSessionAttachedAndDetached.vi" Type="VI" URL="../VISA/test_VISAFactory_InitializeMeasurementLinkSessionWithAttachAndDetach_RemoteSessionAttachedAndDetached.vi"/>
+			<Item Name="test_VISAFactory_InitializeMeasurementLinkSessionWithAttachAndClose_RemoteSessionAttachedAndClosed.vi" Type="VI" URL="../VISA/test_VISAFactory_InitializeMeasurementLinkSessionWithAttachAndClose_RemoteSessionAttachedAndClosed.vi"/>
+			<Item Name="test_VISAFactory_InitializeMeasurementLinkSessionWithInitAndDetach_RemoteSessionCreatedAndDetached.vi" Type="VI" URL="../VISA/test_VISAFactory_InitializeMeasurementLinkSessionWithInitAndDetach_RemoteSessionCreatedAndDetached.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Reserve Sessions" Type="Folder">

@@ -14,8 +14,8 @@
 		<Item Name="MeasurementPlugin.lvclass" Type="LVClass" URL="../Advanced/MeasurementPlugin.lvclass"/>
 	</Item>
 	<Item Name="TestStand Code Modules" Type="Folder">
-		<Item Name="Create and Register Sessions.vi" Type="VI" URL="../TestStand Code Modules/Create and Register Sessions.vi"/>
-		<Item Name="Unregister and Destroy Sessions.vi" Type="VI" URL="../TestStand Code Modules/Unregister and Destroy Sessions.vi"/>
+		<Item Name="Initialize and Register Sessions.vi" Type="VI" URL="../TestStand Code Modules/Initialize and Register Sessions.vi"/>
+		<Item Name="Unregister and Close Sessions.vi" Type="VI" URL="../TestStand Code Modules/Unregister and Close Sessions.vi"/>
 		<Item Name="Update Pin Map.vi" Type="VI" URL="../TestStand Code Modules/Update Pin Map.vi"/>
 	</Item>
 	<Item Name="Get Measurement Details.vi" Type="VI" URL="../Get Measurement Details.vi"/>
