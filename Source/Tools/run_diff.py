@@ -50,12 +50,16 @@ def run_full_diff(pr_number, token):
         diff_summary = formatted_stdout[idx1: idx2].strip()
         # Substitution using &nbsp preserves indentation
         diff_summary = re.sub("  ", "&nbsp;&nbsp;", diff_summary)
-        if pr_number is not None and token is not None:
+        #if pr_number is not None and token is not None:
+        if True:
             # Add PR-scoped comment for the summary
-            post_github_pr_text_comment(diff_summary, pr_number, token)
+            # post_github_pr_text_comment(diff_summary, pr_number, token)
 
             # Add file-scoped comments for provided imagery
-            # match after "Diff images generated for `"
+            matches = re.findall(r'Diff images generated for `(.*)`: (.*)', diff_summary)
+            _logger.debug("\nFound matches...\n")
+            _logger.debug(matches)
+            _logger.debug("\n... end matches.\n")
         else:
             _logger.debug(diff_summary)
         return
