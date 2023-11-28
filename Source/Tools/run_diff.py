@@ -151,21 +151,30 @@ def post_github_pr_file_scoped_comment_with_images(file_id, directory_with_image
     header = create_github_request_header(token)
     images_to_upload = [f for f in os.listdir(directory_with_images) if f.endswith(".png")]
     uploaded_image_urls = []
+    text = f"Diff Image Data for {file_id} as follows<br><br>"
     for image_filename in images_to_upload:
         _logger.debug(f" - Posting image `{image_filename}`...")
         image_local_path = os.path.join(directory_with_images, image_filename)
         image_byte_array = []
         with open(image_local_path, "rb") as image_binary_data:
             image_byte_array = base64.b64encode(image_binary_data.read()).decode()
-        upload_data = json.dumps({"message": "upload image", "content": image_byte_array})
-        url = f"https://api.github.com/repos/ni/measurementlink-labview/contents/{pr_number}/{unique_id}/{file_id}/{image_filename}"
 
-        _logger.debug(f"   - Posting image to {url}")
-        response = requests.post(url, data=upload_data, headers=header)
-        if response.ok:
-            _logger.debug(f"Response code: {response.status_code}")
-        else:
-            _logger.error(f"Bad response. url:{url}, code:{response.status_code}, text:{response.text}")
+        # Veristand did this part by posting the file into the repo contents.  I'm not sure we want that.
+        # upload_data = json.dumps({"message": "upload image", "content": image_byte_array})
+        # url = f"https://api.github.com/repos/ni/measurementlink-labview/contents/{pr_number}/{unique_id}/{file_id}/{image_filename}"
+
+        #_logger.debug(f"   - Posting image to {url}")
+
+        # response = requests.post(url, data=upload_data, headers=header)
+        # if response.ok:
+        #    _logger.debug(f"Response code: {response.status_code}")
+        # else:
+        #    _logger.error(f"Bad response. url:{url}, code:{response.status_code}, text:{response.text}")
+
+        text = text + image_byte_array + "<br>"
+
+    # Temporarily post at PR scope...  Add file scope later.
+    post_github_pr_text_comment(text, pr_number, token)
 
 
 def get_github_pr_changed_files(pr_number, token):
