@@ -4,7 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="subVIs" Type="Folder">
-		<Item Name="Bucket Similar png Files.vi" Type="VI" URL="../subVIs/Bucket Similar png Files.vi"/>
+		<Item Name="Bucket Similar Diff Images.vi" Type="VI" URL="../subVIs/Bucket Similar Diff Images.vi"/>
 		<Item Name="Change Type.ctl" Type="VI" URL="../subVIs/Change Type.ctl"/>
 		<Item Name="Collate Diff Images.vi" Type="VI" URL="../subVIs/Collate Diff Images.vi"/>
 		<Item Name="Merge Diff Images.vi" Type="VI" URL="../subVIs/Merge Diff Images.vi"/>
