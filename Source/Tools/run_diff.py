@@ -52,10 +52,9 @@ def run_full_diff(pr_number, token):
         diff_summary = formatted_stdout[idx1: idx2].strip()
         # Substitution using &nbsp preserves indentation
         diff_summary = re.sub("  ", "&nbsp;&nbsp;", diff_summary)
-        #if pr_number is not None and token is not None:
-        if True:
+        if pr_number is not None and token is not None:
             # Add PR-scoped comment for the summary
-            # post_github_pr_text_comment(diff_summary, pr_number, token)
+            post_github_pr_text_comment(diff_summary, pr_number, token)
 
             # Add file-scoped comments for provided imagery
             matches = re.findall(r'Diff images generated for `(.*)`: (.*)', diff_summary)
@@ -147,9 +146,9 @@ def post_github_pr_text_comment(text, pr_number, token):
 
 def post_github_pr_file_scoped_comment_with_images(file_id, directory_with_images, pr_number, token):
     # First, upload all the pictures into a unique directory
-    # Veristand uses a timestamp...  Could also use latest commit id hash?
+    # Currently using timestamp for uniqueness...  Could instead use latest commit id hash?
     unique_id = datetime.datetime.now().strftime("%Y-%m-%d/%H:%M:%S")
-    # header = create_github_request_header(token)
+    header = create_github_request_header(token)
     images_to_upload = [f for f in os.listdir(directory_with_images) if f.endswith(".png")]
     uploaded_image_urls = []
     for image_filename in images_to_upload:
@@ -160,7 +159,13 @@ def post_github_pr_file_scoped_comment_with_images(file_id, directory_with_image
             image_byte_array = base64.b64encode(image_binary_data.read()).decode()
         upload_data = json.dumps({"message": "upload image", "content": image_byte_array})
         url = f"https://api.github.com/repos/ni/measurementlink-labview/contents/{pr_number}/{unique_id}/{file_id}/{image_filename}"
-        _logger.debug(f"Posting to {url}")
+
+        _logger.debug(f"   - Posting image to {url}")
+        response = requests.post(url, data=upload_data, headers=header)
+        if response.ok:
+            _logger.debug(f"Response code: {response.status_code}")
+        else:
+            _logger.error(f"Bad response. url:{url}, code:{response.status_code}, text:{response.text}")
 
 
 def get_github_pr_changed_files(pr_number, token):
