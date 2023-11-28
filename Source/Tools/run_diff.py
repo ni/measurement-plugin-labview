@@ -1,3 +1,4 @@
+import base64
 import click
 import json
 import logging
@@ -145,14 +146,23 @@ def post_github_pr_text_comment(text, pr_number, token):
 
 def post_github_pr_file_scoped_comment_with_images(file_id, directory_with_images, pr_number, token):
     # First, upload all the pictures into a unique directory
+    unique_id = "1"
+    # TODO: Should come up with a unique directory within the PR.
     # Veristand uses a timestamp, ala:
     # timestamp = datetime.datetime.now().strftime("%Y-%m-%d/%H:%M:%S")
     # Could also use latest commit id hash?
     # header = create_github_request_header(token)
     images_to_upload = [f for f in os.listdir(directory_with_images) if f.endswith(".png")]
     uploaded_image_urls = []
-    for image in images_to_upload:
-        _logger.debug(f" - Posting image `{image}`...")
+    for image_filename in images_to_upload:
+        _logger.debug(f" - Posting image `{image_filename}`...")
+        image_local_path = os.path.join(directory_with_images, image_filename)
+        image_byte_array = []
+        with open(image_local_path, "rb") as image_binary_data:
+            image_byte_array = base64.b64encode(image_binary_data.read()).decode()
+        upload_data = json.dumps({"message": "upload image", "content": image_byte_array})
+        url = f"https://api.github.com/repos/ni/measurementlink-labview/contents/{pr_number}/{unique_id}/{file_id}/{image_filename}"
+        _logger.debug(f"Posting to {url}")
 
 
 def get_github_pr_changed_files(pr_number, token):
