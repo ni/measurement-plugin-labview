@@ -158,16 +158,16 @@ def post_github_pr_file_scoped_comment_with_images(file_id, directory_with_image
     for image_filename in images_to_upload:
         _logger.debug(f" - Posting image `{image_filename}`...")
         image_local_path = os.path.join(directory_with_images, image_filename)
-        image_byte_array = []
+        raw_binary_data = bytearray()
         with open(image_local_path, "rb") as image_binary_data:
-            image_byte_array = base64.b64encode(image_binary_data.read()).decode()
+            raw_binary_data = image_binary_data.read()
 
         random_guid_filename = f"{str(uuid.uuid4())}.png"
         upload_url = f"https://uploads.github.com/repos/ni/measurementlink-labview/releases/90459463/assets?name={random_guid_filename}"
 
         _logger.debug(f"   - Posting image to {upload_url}")
 
-        response = requests.post(upload_url, data=image_byte_array, headers=upload_header)
+        response = requests.post(upload_url, data=raw_binary_data, headers=upload_header)
         if response.ok:
            _logger.debug(f"Response code: {response.status_code}")
            text = text + f"<img title=\"{image_filename}\" src=\"https://github.com/ni/measurementlink-labview/releases/download/v0.12.1/{random_guid_filename}\"/>"
