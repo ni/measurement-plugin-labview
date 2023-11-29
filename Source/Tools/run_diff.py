@@ -127,6 +127,10 @@ def create_github_request_header(token):
     return {"Authorization": "token %s" % token.strip()}
 
 
+def create_github_request_header_png_upload(token):
+    return {"Authorization": "token %s" % token.strip(), "Content-Type": "image/png"}
+
+
 def post_github_pr_text_comment(text, pr_number, token):
     # Using "issues" in this url allows for providing a pr-scoped comment.
     # If using "pulls" instead, subschema information (e.g. file or line) is required in the data.
@@ -147,7 +151,7 @@ def post_github_pr_text_comment(text, pr_number, token):
 def post_github_pr_file_scoped_comment_with_images(file_id, directory_with_images, pr_number, token, commit_id):
     # First, upload all the images.  Since PRs do not support assets, this code uploads images
     # as assets within an obsolete release, an apparent best-available option at time of writing.
-    header = create_github_request_header(token)
+    upload_header = create_github_request_header_png_upload(token)
     images_to_upload = [f for f in os.listdir(directory_with_images) if f.endswith(".png")]
     uploaded_image_urls = []
     text = f"Diff Image Data for {file_id} as follows<br><br>"
@@ -163,7 +167,7 @@ def post_github_pr_file_scoped_comment_with_images(file_id, directory_with_image
 
         _logger.debug(f"   - Posting image to {upload_url}")
 
-        response = requests.post(upload_url, data=image_byte_array, headers=header)
+        response = requests.post(upload_url, data=image_byte_array, headers=upload_header)
         if response.ok:
            _logger.debug(f"Response code: {response.status_code}")
            text = text + f"<img title=\"{image_filename}\" src=\"https://github.com/ni/measurementlink-labview/releases/download/v0.12.1/{random_guid_filename}\"/>"
