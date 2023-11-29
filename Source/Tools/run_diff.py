@@ -173,8 +173,19 @@ def post_github_pr_file_scoped_comment_with_images(file_id, directory_with_image
 
         text = text + f"<img src=\"data:image/png;base64,{image_byte_array}\"/><br><br>"
 
-    # Temporarily post at PR scope...  Add file scope later.
-    post_github_pr_text_comment(text, pr_number, token)
+    url = f"https://api.github.com/repos/ni/measurementlink-labview/pulls/{pr_number}/comments"
+    # HACK, hardcoded commit ID, since I haven't yet added code to programmatically obtain the prope / latest commit ID.
+    data = json.dumps({"body": text, "subject_type": "file", "path": file_id, "commit_id": "9c680bb4c6c74bf009526e13de26a4211d94059c"})
+    header = create_github_request_header(token)
+
+    _logger.debug(f"Posting pr text comment to {url} (file {file_id})")
+    response = requests.post(url, data=data, headers=header)
+    if response.ok:
+        _logger.debug(f"Response code: {response.status_code}")
+    else:
+        _logger.error(f"Bad response. url:{url}, code:{response.status_code}, text:{response.text}")
+
+    return response.status_code
 
 
 def get_github_pr_changed_files(pr_number, token):
