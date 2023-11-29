@@ -1,6 +1,5 @@
 import base64
 import click
-import datetime
 import json
 import logging
 import os
@@ -10,6 +9,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import uuid
 from pathlib import Path
 
 _logger = logging.getLogger(__name__)
@@ -145,9 +145,8 @@ def post_github_pr_text_comment(text, pr_number, token):
 
 
 def post_github_pr_file_scoped_comment_with_images(file_id, directory_with_images, pr_number, token, commit_id):
-    # First, upload all the pictures into a unique directory
-    # Currently using timestamp for uniqueness...  Could instead use latest commit id hash?
-    unique_id = datetime.datetime.now().strftime("%Y-%m-%d/%H:%M:%S")
+    # First, upload all the images.  Since PRs do not support assets, this code uploads images
+    # as assets within an obsolete release, an apparent best-available option at time of writing.
     header = create_github_request_header(token)
     images_to_upload = [f for f in os.listdir(directory_with_images) if f.endswith(".png")]
     uploaded_image_urls = []
@@ -159,22 +158,19 @@ def post_github_pr_file_scoped_comment_with_images(file_id, directory_with_image
         with open(image_local_path, "rb") as image_binary_data:
             image_byte_array = base64.b64encode(image_binary_data.read()).decode()
 
-        # Veristand did this part by posting the file into the repo contents.  I'm not sure we want that.
-        # upload_data = json.dumps({"message": "upload image", "content": image_byte_array})
-        # url = f"https://api.github.com/repos/ni/measurementlink-labview/contents/{pr_number}/{unique_id}/{file_id}/{image_filename}"
+        random_guid_filename = f"{str(uuid.uuid4())}.png"
+        upload_url = f"https://uploads.github.com/repos/ni/measurementlink-labview/releases/90459463/assets?name={random_guid_filename}"
 
-        #_logger.debug(f"   - Posting image to {url}")
+        _logger.debug(f"   - Posting image to {upload_url}")
 
-        # response = requests.post(url, data=upload_data, headers=header)
-        # if response.ok:
-        #    _logger.debug(f"Response code: {response.status_code}")
-        # else:
-        #    _logger.error(f"Bad response. url:{url}, code:{response.status_code}, text:{response.text}")
-
-        text = text + f"<img src=\"data:image/png;base64,{image_byte_array}\"/><br><br>"
+        response = requests.post(upload_url, data=image_byte_array, headers=header)
+        if response.ok:
+           _logger.debug(f"Response code: {response.status_code}")
+        else:
+           _logger.error(f"Bad response. url:{url}, code:{response.status_code}, text:{response.text}")
+        text = text + f"<img title=\"{image_filename}\" src=\"https://github.com/ni/measurementlink-labview/releases/download/v0.12.1/{random_guid_filename}\"/>"
 
     url = f"https://api.github.com/repos/ni/measurementlink-labview/pulls/{pr_number}/comments"
-    # HACK, hardcoded commit ID, since I haven't yet added code to programmatically obtain the prope / latest commit ID.
     data = json.dumps({"body": text, "subject_type": "file", "path": file_id, "commit_id": commit_id})
     header = create_github_request_header(token)
 
