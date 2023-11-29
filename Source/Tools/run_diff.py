@@ -60,7 +60,7 @@ def run_full_diff(pr_number, token, commit_id):
             matches = re.findall(r'Diff images generated for `(.*)`: (.*)', diff_summary)
             for file_id, image_dir in matches:
                 _logger.debug(f"Diff images for `{file_id}` retrieved from path `{image_dir}`")
-                post_github_pr_file_scoped_comment_with_images(file_id, image_dir, pr_number, token)
+                post_github_pr_file_scoped_comment_with_images(file_id, image_dir, pr_number, token, commit_id)
         else:
             _logger.debug(diff_summary)
         return
@@ -144,7 +144,7 @@ def post_github_pr_text_comment(text, pr_number, token):
     return response.status_code
 
 
-def post_github_pr_file_scoped_comment_with_images(file_id, directory_with_images, pr_number, token):
+def post_github_pr_file_scoped_comment_with_images(file_id, directory_with_images, pr_number, token, commit_id):
     # First, upload all the pictures into a unique directory
     # Currently using timestamp for uniqueness...  Could instead use latest commit id hash?
     unique_id = datetime.datetime.now().strftime("%Y-%m-%d/%H:%M:%S")
@@ -175,7 +175,7 @@ def post_github_pr_file_scoped_comment_with_images(file_id, directory_with_image
 
     url = f"https://api.github.com/repos/ni/measurementlink-labview/pulls/{pr_number}/comments"
     # HACK, hardcoded commit ID, since I haven't yet added code to programmatically obtain the prope / latest commit ID.
-    data = json.dumps({"body": text, "subject_type": "file", "path": file_id, "commit_id": "9c680bb4c6c74bf009526e13de26a4211d94059c"})
+    data = json.dumps({"body": text, "subject_type": "file", "path": file_id, "commit_id": commit_id})
     header = create_github_request_header(token)
 
     _logger.debug(f"Posting pr text comment to {url} (file {file_id})")
