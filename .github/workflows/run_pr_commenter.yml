@@ -24,4 +24,4 @@ jobs:
     - name: Run G Diff
       id: run-diff
       run: |
-        python ${{runner.workspace}}/measurementlink-labview/Source/Tools/run_diff.py --token ${{secrets.GITHUB_TOKEN}} --pull-req ${{github.event.pull_request.number}}
+        python ${{runner.workspace}}/measurementlink-labview/Source/Tools/run_diff.py --token ${{secrets.GITHUB_TOKEN}} --pull-req ${{github.event.pull_request.number}} --commit_id ${{github.event.pull_request.head.sha}}
