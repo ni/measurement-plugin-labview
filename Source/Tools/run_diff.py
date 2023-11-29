@@ -20,7 +20,7 @@ handler.setLevel(logging.DEBUG)
 _logger.addHandler(handler)
 
 
-def run_full_diff(pr_number, token):
+def run_full_diff(pr_number, token, commit_id):
     tools_directory = Path(os.path.dirname(__file__))
     source_directory = tools_directory.parent
     repo_root_directory = source_directory.parent
@@ -216,13 +216,18 @@ def get_github_pr_changed_files(pr_number, token):
     "--token",
     help="Github Access token needed to perform write operations",
 )
-def main(pull_req, token):
+@click.option(
+    "-c",
+    "--commit-id",
+    help="Commit SHA being diffed against",
+)
+def main(pull_req, token, commit_id):
     pr_number = pull_req
 
     if pr_number is not None and token is not None:
         _logger.debug(f"Running for pull request #{pr_number} with provided token.")
 
-    run_full_diff(pr_number, token)
+    run_full_diff(pr_number, token, commit_id)
 
     sys.exit(0)
 
