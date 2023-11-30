@@ -14,7 +14,6 @@
 		<Item Name="MeasurementPlugin.lvclass" Type="LVClass" URL="../Advanced/MeasurementPlugin.lvclass"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
-		<Item Name="Get VISA gRPC Open Close Behavior.vi" Type="VI" URL="../subVIs/Get VISA gRPC Open Close Behavior.vi"/>
 		<Item Name="Keysight 34401A Cancellation Logic.vi" Type="VI" URL="../subVIs/Keysight 34401A Cancellation Logic.vi"/>
 		<Item Name="Keysight 34401A Check For Out of Range.vi" Type="VI" URL="../subVIs/Keysight 34401A Check For Out of Range.vi"/>
 		<Item Name="Keysight 34401A Function.ctl" Type="VI" URL="../subVIs/Keysight 34401A Function.ctl"/>
