@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PinMap xmlns="http://www.ni.com/TestStand/SemiconductorModule/PinMap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.1">
 	<Instruments>
-		<Instrument name="COM3" instrumentTypeId="comVISA">
+		<Instrument name="COM1" instrumentTypeId="comVISA">
 			<Channel id="DummyChannel" />
 		</Instrument>
 	</Instruments>
@@ -13,6 +13,6 @@
 		<Site siteNumber="0" />
 	</Sites>
 	<Connections>
-		<Connection pin="Pin1" siteNumber="0" instrument="COM3" channel="DummyChannel" />
+		<Connection pin="Pin1" siteNumber="0" instrument="COM1" channel="DummyChannel" />
 	</Connections>
 </PinMap>
