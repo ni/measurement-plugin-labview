@@ -14,7 +14,8 @@ HP/Agilent/Keysight 34401A DMM.
 - `NI-DMM Measurement`: Acquires a single measurement from a NI DMM.
 - `NI-FGEN Standard Function`: Generates a waveform using standard function mode
   with an NI FGEN.
-- `NI_SCOPE Acquire Waveform`: Acquires waveforms from an NI SCOPE.
+- `NI-SCOPE Acquire Waveform`: Acquires waveforms from an NI SCOPE.
+- `VISA Measurement`: Writes and reads a value from a serial instrument using VISA.
 - `UIProgressUpdates`: Generates random numbers and updates the measurement UI
   to show progress.
 
