@@ -58,7 +58,7 @@ def run_full_diff(pr_number, token, commit_id):
 
             # Add file-scoped comments for provided imagery
             # The string formatted by LV is: Diff images generated for `%s`.<!--%s-->
-            matches = re.findall(r'Diff images generated for `(.*)`\.<--(.*)-->', diff_summary)
+            matches = re.findall(r'Diff images generated for `(.*)`\.<!--(.*)-->', diff_summary)
             for file_id, image_dir in matches:
                 _logger.debug(f"Diff images for `{file_id}` retrieved from path `{image_dir}`")
                 post_github_pr_file_scoped_comment_with_images(file_id, image_dir, pr_number, token, commit_id)
