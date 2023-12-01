@@ -276,4 +276,8 @@
 	<Item Name="Discovery" Type="Folder">
 		<Item Name="Discovery Tests.lvlib" Type="Library" URL="../Discovery/Discovery Tests.lvlib"/>
 	</Item>
+	<Item Name="Unit Tests" Type="Folder">
+		<Item Name="test_VariousDataTypes_GetParametersAndCheckDataTypes_InvalidParameterNamesMatch.vi" Type="VI" URL="../Unit Tests/test_VariousDataTypes_GetParametersAndCheckDataTypes_InvalidParameterNamesMatch.vi"/>
+		<Item Name="test_VariousDataTypes_GetParameterInformation_MatchesExpectedInformation.vi" Type="VI" URL="../Unit Tests/test_VariousDataTypes_GetParameterInformation_MatchesExpectedInformation.vi"/>
+	</Item>
 </Library>
