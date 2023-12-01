@@ -122,7 +122,7 @@
 			<Item Name="MeasurementLink Measurement Service Base V2.lvlib" Type="Library" URL="../MeasurementLink Measurement Service Base V2/MeasurementLink Measurement Service Base V2.lvlib"/>
 			<Item Name="MeasurementLink Pin Map Client.lvlib" Type="Library" URL="../MeasurementLink Pin Map Client/MeasurementLink Pin Map Client.lvlib"/>
 			<Item Name="MeasurementLink Session Management Client.lvlib" Type="Library" URL="../MeasurementLink Session Management Client/MeasurementLink Session Management Client.lvlib"/>
-			<Item Name="Get Parameter Information.vi" Type="VI" URL="../MeasurementLink Measurement Server/Helpers/Get Parameter Information.vi"/>
+			<Item Name="ni.protobuf.types.lvlib" Type="Library" URL="../../gRPC/Generated APIs/ni/protobuf/types/ni.protobuf.types.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
