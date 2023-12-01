@@ -23,8 +23,9 @@ HP/Agilent/Keysight 34401A DMM.
 
 ### Required Driver Software
 
+- LabVIEW 2021 or later
 - NI-488.2 and/or NI-Serial
-- NI-VISA
+- NI-VISA 2024 Q1 or later
 - [Agilent 34401 LabVIEW Plug-and-Play (project style) Instrument Driver](https://sine.ni.com/apps/utf8/niid_web_display.download_page?p_id_guid=014E7F05D12C6F8BE0440003BA7CCD71)
 
 ### Required Hardware
