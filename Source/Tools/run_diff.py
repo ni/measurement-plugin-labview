@@ -170,11 +170,15 @@ def post_github_pr_file_scoped_comment_with_images(file_id, directory_with_image
 
         response = requests.post(upload_url, data=raw_binary_data, headers=upload_header)
         if response.ok:
-           _logger.debug(f"Response code: {response.status_code}")
-           text = text + f"<img title=\"{image_filename}\" src=\"https://github.com/ni/measurementlink-labview/releases/download/v0.12.1/{random_guid_filename}\"/>"
+            _logger.debug(f"Response code: {response.status_code}")
+            if "before" in image_filename:
+                text = text + "<i>Before</i>:<br>"
+            else:
+                text = text + "<i>After</i>:<br>"
+            text = text + f"<img title=\"{image_filename}\" src=\"https://github.com/ni/measurementlink-labview/releases/download/v0.12.1/{random_guid_filename}\"/><br>"
         else:
-           _logger.error(f"Bad response. url:{upload_url}, code:{response.status_code}, text:{response.text}")
-           text = text + f"Failed to upload image `{image_filename}` as `{random_guid_filename}`<br><br>"
+            _logger.error(f"Bad response. url:{upload_url}, code:{response.status_code}, text:{response.text}")
+            text = text + f"Failed to upload image `{image_filename}` as `{random_guid_filename}`<br><br>"
 
     url = f"https://api.github.com/repos/ni/measurementlink-labview/pulls/{pr_number}/comments"
     data = json.dumps({"body": text, "subject_type": "file", "path": file_id, "commit_id": commit_id})
