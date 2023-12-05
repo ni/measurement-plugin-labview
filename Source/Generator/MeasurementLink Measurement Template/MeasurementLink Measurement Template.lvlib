@@ -8,7 +8,7 @@
 		<Item Name="Build Assets" Type="Folder">
 			<Item Name="Post-Build Action.vi" Type="VI" URL="../Advanced/Build Assets/Post-Build Action.vi"/>
 		</Item>
-		<Item Name="MeasurementPlugin.lvclass" Type="LVClass" URL="../Advanced/MeasurementPlugin.lvclass"/>
+		<Item Name="Measurement Plugin.lvclass" Type="LVClass" URL="../Advanced/Measurement Plugin.lvclass"/>
 	</Item>
 	<Item Name="Get Measurement Details.vi" Type="VI" URL="../Get Measurement Details.vi"/>
 	<Item Name="Get Type Specializations.vi" Type="VI" URL="../Get Type Specializations.vi"/>
