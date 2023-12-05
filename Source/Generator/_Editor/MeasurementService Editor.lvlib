@@ -6,12 +6,17 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="RenameRefactor" Type="Folder">
 		<Item Name="Begins with Qualified Name.vi" Type="VI" URL="../RenameRefactor/Begins with Qualified Name.vi"/>
+		<Item Name="Calculate Refactor Metrics for Project.vi" Type="VI" URL="../RenameRefactor/Calculate Refactor Metrics for Project.vi"/>
 		<Item Name="Calculate Relative Path from Directory.vi" Type="VI" URL="../RenameRefactor/Calculate Relative Path from Directory.vi"/>
+		<Item Name="Filter for Classes.vi" Type="VI" URL="../RenameRefactor/Filter for Classes.vi"/>
+		<Item Name="Get Parent Class Name.vi" Type="VI" URL="../RenameRefactor/Get Parent Class Name.vi"/>
 		<Item Name="Normalize Path.vi" Type="VI" URL="../RenameRefactor/Normalize Path.vi"/>
 		<Item Name="Refactor Dependencies for Project.vi" Type="VI" URL="../RenameRefactor/Refactor Dependencies for Project.vi"/>
+		<Item Name="Refactor Dependencies for Projects.vi" Type="VI" URL="../RenameRefactor/Refactor Dependencies for Projects.vi"/>
 		<Item Name="Refactor Dependencies for VI.vi" Type="VI" URL="../RenameRefactor/Refactor Dependencies for VI.vi"/>
 		<Item Name="Refactor Object for File Rename.vi" Type="VI" URL="../RenameRefactor/Refactor Object for File Rename.vi"/>
 		<Item Name="Refactor Object for Library Rename.vi" Type="VI" URL="../RenameRefactor/Refactor Object for Library Rename.vi"/>
+		<Item Name="Refactor Parent Class Dependency.vi" Type="VI" URL="../RenameRefactor/Refactor Parent Class Dependency.vi"/>
 		<Item Name="Rename and Refactor Dependency for Object.vi" Type="VI" URL="../RenameRefactor/Rename and Refactor Dependency for Object.vi"/>
 		<Item Name="Rename Refactor Data.ctl" Type="VI" URL="../RenameRefactor/Rename Refactor Data.ctl"/>
 		<Item Name="Rename Refactor Mapping Info.ctl" Type="VI" URL="../RenameRefactor/Rename Refactor Mapping Info.ctl"/>
