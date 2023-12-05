@@ -9,8 +9,14 @@ board unless the `STOP` button is clicked.
 
 ## Features
 
+> **Note**
+> Updating the UI while the measurement is running requires MeasurementLink 2023 Q3 or later.
+> With older versions of MeasurementLink, this example only updates the UI at the end of the
+> measurement.
+
 - Displays the Game of Life game board in a graph
 - Allows the user to cancel the game with the `STOP` button
+- Demonstrates how to update the measurement UI while the measurement is running.
 
 ## Required Driver Software
 

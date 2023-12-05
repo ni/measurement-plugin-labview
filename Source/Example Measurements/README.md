@@ -4,8 +4,9 @@ This directory contains the following example measurements:
 
 - `CancellableMeasurement`: Demonstrates a simple measurement that takes a
   specified length of time and can be cancelled while it is running.
-- 'Game Of Life': Demonstrates the usage of XY Data
-in a graph using the Game of Life.
+- `Game Of Life`: Demonstrates the usage of XY Data in a graph using the Game of
+Life. Demonstrates how to update the measurement UI while the measurement is
+running.
 - `Keysight 34401A DMM Measurement`: Performs a DMM measurement using an
 HP/Agilent/Keysight 34401A DMM.
 - `NI-DCPower Source DC Voltage`: Sources and measures a DC voltage with an NI SMU.
@@ -13,9 +14,8 @@ HP/Agilent/Keysight 34401A DMM.
 - `NI-DMM Measurement`: Acquires a single measurement from a NI DMM.
 - `NI-FGEN Standard Function`: Generates a waveform using standard function mode
   with an NI FGEN.
-- `NI_SCOPE Acquire Waveform`: Acquires waveforms from an NI SCOPE.
-- `UIProgressUpdates`: Generates random numbers and updates the measurement UI
-  to show progress.
+- `NI-SCOPE Acquire Waveform`: Acquires waveforms from an NI SCOPE.
+- `VISA Measurement`: Writes and reads a value from a serial instrument using VISA.
 
 For more details about a specific example, see the `README.md` file included
 with the example.
