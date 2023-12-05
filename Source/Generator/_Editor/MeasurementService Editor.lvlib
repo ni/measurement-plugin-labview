@@ -11,6 +11,7 @@
 		<Item Name="Filter for Classes.vi" Type="VI" URL="../RenameRefactor/Filter for Classes.vi"/>
 		<Item Name="Get Parent Class Name.vi" Type="VI" URL="../RenameRefactor/Get Parent Class Name.vi"/>
 		<Item Name="Normalize Path.vi" Type="VI" URL="../RenameRefactor/Normalize Path.vi"/>
+		<Item Name="README.md" Type="Document" URL="../RenameRefactor/README.md"/>
 		<Item Name="Refactor Dependencies for Project.vi" Type="VI" URL="../RenameRefactor/Refactor Dependencies for Project.vi"/>
 		<Item Name="Refactor Dependencies for Projects.vi" Type="VI" URL="../RenameRefactor/Refactor Dependencies for Projects.vi"/>
 		<Item Name="Refactor Dependencies for VI.vi" Type="VI" URL="../RenameRefactor/Refactor Dependencies for VI.vi"/>
