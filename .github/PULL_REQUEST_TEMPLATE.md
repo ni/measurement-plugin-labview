@@ -2,6 +2,8 @@
 
 TODO: Check the above box with an 'x' indicating you've read and followed [CONTRIBUTING.md](https://github.com/ni/measurement-services-labview/blob/main/CONTRIBUTING.md).
 
+- [ ]<G_DIFF_CHECK> Automatically post comments with images for G code changes? (check with an 'x' to enable)
+
 ### What does this Pull Request accomplish?
 
 TODO: Include high-level description of the changes in this pull request.
