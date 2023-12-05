@@ -27,6 +27,17 @@ def run_full_diff(pr_number, token, commit_id):
 
     (added_labview_files, modified_labview_files) = get_changed_labview_file_paths(repo_root_directory, pr_number, token)
 
+    # Artificially constrain the number of files to process for the PR case, in hopes of
+    # avoiding overly spamming PR comments for large changes such as mass compile
+    if pr_number is not None and token is not None:
+        modified_files_limit = 10
+
+        if (len(modified_labview_files) > modified_files_limit):
+            too_many_files_modified_text = f"Our apologies; graphical comparison only supports up to {modified_files_limit} files changed."
+            post_github_pr_text_comment(too_many_files_text, pr_number, token)
+
+            return
+
     target_snapshot_directory = copy_target_branch_into_temp_directory(repo_root_directory)
 
     diff_vi = os.path.join(tools_directory , "run_diff.vi")
