@@ -21,6 +21,7 @@
 			<Item Name="Assert Error Code.vi" Type="VI" URL="../Helpers/Assertion Helpers/Assert Error Code.vi"/>
 			<Item Name="Assert Number of Initialize and Close Calls.vi" Type="VI" URL="../Helpers/Assertion Helpers/Assert Number of Initialize and Close Calls.vi"/>
 			<Item Name="Assert Number of Calls.vi" Type="VI" URL="../Helpers/Assertion Helpers/Assert Number of Calls.vi"/>
+			<Item Name="Assert Connections.vim" Type="VI" URL="../Helpers/Assertion Helpers/Assert Connections.vim"/>
 		</Item>
 		<Item Name="Check If Discovery Service is Running.vi" Type="VI" URL="../Helpers/Check If Discovery Service is Running.vi"/>
 		<Item Name="Create Connection Cluster.vim" Type="VI" URL="../Helpers/Create Connection Cluster.vim"/>
