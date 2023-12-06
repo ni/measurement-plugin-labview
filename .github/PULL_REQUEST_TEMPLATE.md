@@ -1,6 +1,6 @@
 <!-- TODO: Mark the following with an 'x' as applicable -->
-- [x] This contribution adheres to [CONTRIBUTING.md](https://github.com/ni/measurement-services-labview/blob/main/CONTRIBUTING.md). _(Required)_
-- [x] <!--G_DIFF_CHECK--> Automatically post PR comments with images for G code changes? _(Recommended for small changes)_
+- [ ] This contribution adheres to [CONTRIBUTING.md](https://github.com/ni/measurement-services-labview/blob/main/CONTRIBUTING.md). _(Required)_
+- [ ] <!--G_DIFF_CHECK--> Automatically post PR comments with images for G code changes? _(Recommended for small changes)_
 
 ### What does this Pull Request accomplish?
 
