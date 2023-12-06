@@ -11,6 +11,8 @@
 		<Item Name="Calculate Relative Path from Directory.vi" Type="VI" URL="../RenameRefactor/Calculate Relative Path from Directory.vi"/>
 		<Item Name="Filter for Classes.vi" Type="VI" URL="../RenameRefactor/Filter for Classes.vi"/>
 		<Item Name="Get Parent Class Name.vi" Type="VI" URL="../RenameRefactor/Get Parent Class Name.vi"/>
+		<Item Name="Is Nested Typedef.vi" Type="VI" URL="../RenameRefactor/Is Nested Typedef.vi"/>
+		<Item Name="Is Typedef.vim" Type="VI" URL="../RenameRefactor/Is Typedef.vim"/>
 		<Item Name="Normalize Path.vi" Type="VI" URL="../RenameRefactor/Normalize Path.vi"/>
 		<Item Name="README.md" Type="Document" URL="../RenameRefactor/README.md"/>
 		<Item Name="Refactor Dependencies for Project.vi" Type="VI" URL="../RenameRefactor/Refactor Dependencies for Project.vi"/>
