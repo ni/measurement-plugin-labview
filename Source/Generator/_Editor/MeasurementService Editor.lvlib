@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="RenameRefactor" Type="Folder">
 		<Item Name="Begins with Qualified Name.vi" Type="VI" URL="../RenameRefactor/Begins with Qualified Name.vi"/>
+		<Item Name="Build Qualified Name.vi" Type="VI" URL="../RenameRefactor/Build Qualified Name.vi"/>
 		<Item Name="Calculate Refactor Metrics for Project.vi" Type="VI" URL="../RenameRefactor/Calculate Refactor Metrics for Project.vi"/>
 		<Item Name="Calculate Relative Path from Directory.vi" Type="VI" URL="../RenameRefactor/Calculate Relative Path from Directory.vi"/>
 		<Item Name="Filter for Classes.vi" Type="VI" URL="../RenameRefactor/Filter for Classes.vi"/>
@@ -26,6 +27,7 @@
 		<Item Name="Supports Block Diagram.vi" Type="VI" URL="../RenameRefactor/Supports Block Diagram.vi"/>
 		<Item Name="Supports Front Panel.vi" Type="VI" URL="../RenameRefactor/Supports Front Panel.vi"/>
 		<Item Name="Upgrade Refactor Data.vi" Type="VI" URL="../RenameRefactor/Upgrade Refactor Data.vi"/>
+		<Item Name="Valid Replacement Target.vi" Type="VI" URL="../RenameRefactor/Valid Replacement Target.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
