@@ -64,7 +64,7 @@
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Fake - 1 Session Initialized.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/Fake - 1 Session Initialized.vi"/>
 			<Item Name="Fake - 1 Session Registered.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/Fake - 1 Session Registered.vi"/>
-			<Item Name="Fake - 1 Session Unregistered 3 Sessions Registered Last Session Bad.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/Fake - 1 Session Unregistered 3 Sessions Registered Last Session Bad.vi"/>
+			<Item Name="Fake - 1 Session Unregistered 4 Sessions Registered Last Session Bad.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/Fake - 1 Session Unregistered 4 Sessions Registered Last Session Bad.vi"/>
 			<Item Name="Fake - 1 Session Unregistered.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/Fake - 1 Session Unregistered.vi"/>
 			<Item Name="Fake - 2 Sessions Unregistered 1 Session Registered.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/Fake - 2 Sessions Unregistered 1 Session Registered.vi"/>
 			<Item Name="Fake - 2 Sessions with Connection Map.vi" Type="VI" URL="../Initialize Sessions/Test Inputs/Fake - 2 Sessions with Connection Map.vi"/>

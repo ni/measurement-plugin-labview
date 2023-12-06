@@ -8,7 +8,7 @@
 
 </Property>
 	<Item Name="Friends List" Type="Friends List">
-		<Item Name="MeasurementLink Measurement Server.lvlib:MeasurementContext.lvclass" Type="Friended Library" URL="../../MeasurementLink Measurement Server/Classes/MeasurementContext/MeasurementContext.lvclass"/>
+		<Item Name="MeasurementLink Measurement Server.lvlib:Measure Call Context.lvclass" Type="Friended Library" URL="../../MeasurementLink Measurement Server/Measure Call Context/Measure Call Context.lvclass"/>
 	</Item>
 	<Item Name="Connection Map.lvclass" Type="LVClass" URL="../Connection Map/Connection Map.lvclass"/>
 	<Item Name="IReservationObserver.lvclass" Type="LVClass" URL="../IReservationObserver/IReservationObserver.lvclass"/>

@@ -4,6 +4,31 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="RenameRefactor" Type="Folder">
+		<Item Name="Begins with Qualified Name.vi" Type="VI" URL="../RenameRefactor/Begins with Qualified Name.vi"/>
+		<Item Name="Build Qualified Name.vi" Type="VI" URL="../RenameRefactor/Build Qualified Name.vi"/>
+		<Item Name="Calculate Refactor Metrics for Project.vi" Type="VI" URL="../RenameRefactor/Calculate Refactor Metrics for Project.vi"/>
+		<Item Name="Calculate Relative Path from Directory.vi" Type="VI" URL="../RenameRefactor/Calculate Relative Path from Directory.vi"/>
+		<Item Name="Filter for Classes.vi" Type="VI" URL="../RenameRefactor/Filter for Classes.vi"/>
+		<Item Name="Get Parent Class Name.vi" Type="VI" URL="../RenameRefactor/Get Parent Class Name.vi"/>
+		<Item Name="Normalize Path.vi" Type="VI" URL="../RenameRefactor/Normalize Path.vi"/>
+		<Item Name="README.md" Type="Document" URL="../RenameRefactor/README.md"/>
+		<Item Name="Refactor Dependencies for Project.vi" Type="VI" URL="../RenameRefactor/Refactor Dependencies for Project.vi"/>
+		<Item Name="Refactor Dependencies for Projects.vi" Type="VI" URL="../RenameRefactor/Refactor Dependencies for Projects.vi"/>
+		<Item Name="Refactor Dependencies for VI.vi" Type="VI" URL="../RenameRefactor/Refactor Dependencies for VI.vi"/>
+		<Item Name="Refactor Object for File Rename.vi" Type="VI" URL="../RenameRefactor/Refactor Object for File Rename.vi"/>
+		<Item Name="Refactor Object for Library Rename.vi" Type="VI" URL="../RenameRefactor/Refactor Object for Library Rename.vi"/>
+		<Item Name="Refactor Parent Class Dependency.vi" Type="VI" URL="../RenameRefactor/Refactor Parent Class Dependency.vi"/>
+		<Item Name="Rename and Refactor Dependency for Object.vi" Type="VI" URL="../RenameRefactor/Rename and Refactor Dependency for Object.vi"/>
+		<Item Name="Rename Refactor Data.ctl" Type="VI" URL="../RenameRefactor/Rename Refactor Data.ctl"/>
+		<Item Name="Rename Refactor Mapping Info.ctl" Type="VI" URL="../RenameRefactor/Rename Refactor Mapping Info.ctl"/>
+		<Item Name="Rename Refactor Result.ctl" Type="VI" URL="../RenameRefactor/Rename Refactor Result.ctl"/>
+		<Item Name="Strip Qualified Name.vi" Type="VI" URL="../RenameRefactor/Strip Qualified Name.vi"/>
+		<Item Name="Supports Block Diagram.vi" Type="VI" URL="../RenameRefactor/Supports Block Diagram.vi"/>
+		<Item Name="Supports Front Panel.vi" Type="VI" URL="../RenameRefactor/Supports Front Panel.vi"/>
+		<Item Name="Upgrade Refactor Data.vi" Type="VI" URL="../RenameRefactor/Upgrade Refactor Data.vi"/>
+		<Item Name="Valid Replacement Target.vi" Type="VI" URL="../RenameRefactor/Valid Replacement Target.vi"/>
+	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Add Library To Project.vi" Type="VI" URL="../Add Library To Project.vi"/>
