@@ -33,7 +33,7 @@ def run_full_diff(pr_number, token, commit_id):
         modified_files_limit = 10
 
         if (len(modified_labview_files) > modified_files_limit):
-            too_many_files_modified_text = f"Our apologies; graphical comparison only supports up to {modified_files_limit} files changed."
+            too_many_files_modified_text = f"Graphical comparison currenly only supports up to {modified_files_limit} G files changed."
             post_github_pr_text_comment(too_many_files_modified_text, pr_number, token)
 
             return
