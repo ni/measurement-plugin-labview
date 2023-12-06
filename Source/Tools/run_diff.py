@@ -1,3 +1,4 @@
+import base64
 import click
 import json
 import logging
@@ -8,6 +9,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import uuid
 from pathlib import Path
 
 _logger = logging.getLogger(__name__)
@@ -18,7 +20,7 @@ handler.setLevel(logging.DEBUG)
 _logger.addHandler(handler)
 
 
-def run_full_diff(pr_number, token):
+def run_full_diff(pr_number, token, commit_id):
     tools_directory = Path(os.path.dirname(__file__))
     source_directory = tools_directory.parent
     repo_root_directory = source_directory.parent
@@ -51,7 +53,15 @@ def run_full_diff(pr_number, token):
         # Substitution using &nbsp preserves indentation
         diff_summary = re.sub("  ", "&nbsp;&nbsp;", diff_summary)
         if pr_number is not None and token is not None:
+            # Add PR-scoped comment for the summary
             post_github_pr_text_comment(diff_summary, pr_number, token)
+
+            # Add file-scoped comments for provided imagery
+            # The string formatted by LV is: Diff images generated for `%s`.<!--%s-->
+            matches = re.findall(r'Diff images generated for `(.*)`\.<!--(.*)-->', diff_summary)
+            for file_id, image_dir in matches:
+                _logger.debug(f"Diff images for `{file_id}` retrieved from path `{image_dir}`")
+                post_github_pr_file_scoped_comment_with_images(file_id, image_dir, pr_number, token, commit_id)
         else:
             _logger.debug(diff_summary)
         return
@@ -118,6 +128,10 @@ def create_github_request_header(token):
     return {"Authorization": "token %s" % token.strip()}
 
 
+def create_github_request_header_png_upload(token):
+    return {"Authorization": "token %s" % token.strip(), "Content-Type": "image/png"}
+
+
 def post_github_pr_text_comment(text, pr_number, token):
     # Using "issues" in this url allows for providing a pr-scoped comment.
     # If using "pulls" instead, subschema information (e.g. file or line) is required in the data.
@@ -126,6 +140,51 @@ def post_github_pr_text_comment(text, pr_number, token):
     header = create_github_request_header(token)
 
     _logger.debug(f"Posting pr text comment to {url}")
+    response = requests.post(url, data=data, headers=header)
+    if response.ok:
+        _logger.debug(f"Response code: {response.status_code}")
+    else:
+        _logger.error(f"Bad response. url:{url}, code:{response.status_code}, text:{response.text}")
+
+    return response.status_code
+
+
+def post_github_pr_file_scoped_comment_with_images(file_id, directory_with_images, pr_number, token, commit_id):
+    # First, upload all the images.  Since PRs do not support assets, this code uploads images
+    # as assets within an obsolete release, an apparent best-available option at time of writing.
+    upload_header = create_github_request_header_png_upload(token)
+    images_to_upload = [f for f in os.listdir(directory_with_images) if f.endswith(".png")]
+    uploaded_image_urls = []
+    text = f"Diff Image Data for {file_id} as follows<br><br>"
+    for image_filename in images_to_upload:
+        _logger.debug(f" - Posting image `{image_filename}`...")
+        image_local_path = os.path.join(directory_with_images, image_filename)
+        raw_binary_data = bytearray()
+        with open(image_local_path, "rb") as image_binary_data:
+            raw_binary_data = image_binary_data.read()
+
+        random_guid_filename = f"{str(uuid.uuid4())}.png"
+        upload_url = f"https://uploads.github.com/repos/ni/measurementlink-labview/releases/90459463/assets?name={random_guid_filename}"
+
+        _logger.debug(f"   - Posting image to {upload_url}")
+
+        response = requests.post(upload_url, data=raw_binary_data, headers=upload_header)
+        if response.ok:
+            _logger.debug(f"Response code: {response.status_code}")
+            if "before" in image_filename:
+                text = text + "<i>Before</i>:<br>"
+            else:
+                text = text + "<i>After</i>:<br>"
+            text = text + f"<img title=\"{image_filename}\" src=\"https://github.com/ni/measurementlink-labview/releases/download/v0.12.1/{random_guid_filename}\"/><br>"
+        else:
+            _logger.error(f"Bad response. url:{upload_url}, code:{response.status_code}, text:{response.text}")
+            text = text + f"Failed to upload image `{image_filename}` as `{random_guid_filename}`<br><br>"
+
+    url = f"https://api.github.com/repos/ni/measurementlink-labview/pulls/{pr_number}/comments"
+    data = json.dumps({"body": text, "subject_type": "file", "path": file_id, "commit_id": commit_id})
+    header = create_github_request_header(token)
+
+    _logger.debug(f"Posting pr text comment to {url} (file {file_id})")
     response = requests.post(url, data=data, headers=header)
     if response.ok:
         _logger.debug(f"Response code: {response.status_code}")
@@ -163,13 +222,18 @@ def get_github_pr_changed_files(pr_number, token):
     "--token",
     help="Github Access token needed to perform write operations",
 )
-def main(pull_req, token):
+@click.option(
+    "-c",
+    "--commit-id",
+    help="Commit SHA being diffed against",
+)
+def main(pull_req, token, commit_id):
     pr_number = pull_req
 
     if pr_number is not None and token is not None:
         _logger.debug(f"Running for pull request #{pr_number} with provided token.")
 
-    run_full_diff(pr_number, token)
+    run_full_diff(pr_number, token, commit_id)
 
     sys.exit(0)
 

@@ -16,7 +16,7 @@ jobs:
         ref: main
         path: target_for_diff
 
-    - uses: actions/setup-python@v4
+    - uses: actions/setup-python@v5
       with:
         python-version: '3.10'
     - run: pip install click requests
@@ -24,4 +24,4 @@ jobs:
     - name: Run G Diff
       id: run-diff
       run: |
-        python ${{runner.workspace}}/measurementlink-labview/Source/Tools/run_diff.py --token ${{secrets.GITHUB_TOKEN}} --pull-req ${{github.event.pull_request.number}}
+        python ${{runner.workspace}}/measurementlink-labview/Source/Tools/run_diff.py --token ${{secrets.GITHUB_TOKEN}} --pull-req ${{github.event.pull_request.number}} --commit-id ${{github.event.pull_request.head.sha}}
