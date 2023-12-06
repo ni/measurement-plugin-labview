@@ -73,8 +73,8 @@
 	<Item Name="IMeasurementService.lvclass" Type="LVClass" URL="../Classes/IMeasurementService/IMeasurementService.lvclass">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 	</Item>
+	<Item Name="Measure Call Context.lvclass" Type="LVClass" URL="../Measure Call Context/Measure Call Context.lvclass"/>
 	<Item Name="Measurement Plugin Service.lvclass" Type="LVClass" URL="../Measurement Plugin Service/Measurement Plugin Service.lvclass"/>
-	<Item Name="MeasurementContext.lvclass" Type="LVClass" URL="../Classes/MeasurementContext/MeasurementContext.lvclass"/>
 	<Item Name="MeasurementServiceV1.lvclass" Type="LVClass" URL="../Classes/MeasurementServiceV1/MeasurementServiceV1.lvclass">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 	</Item>
