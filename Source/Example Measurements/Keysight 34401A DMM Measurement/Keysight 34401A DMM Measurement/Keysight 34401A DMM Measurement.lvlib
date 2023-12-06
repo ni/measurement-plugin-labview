@@ -11,7 +11,7 @@
 		<Item Name="Build Assets" Type="Folder">
 			<Item Name="Post-Build Action.vi" Type="VI" URL="../Advanced/Build Assets/Post-Build Action.vi"/>
 		</Item>
-		<Item Name="MeasurementPlugin.lvclass" Type="LVClass" URL="../Advanced/MeasurementPlugin.lvclass"/>
+		<Item Name="Measurement Plugin.lvclass" Type="LVClass" URL="../Advanced/Measurement Plugin.lvclass"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
 		<Item Name="Keysight 34401A Cancellation Logic.vi" Type="VI" URL="../subVIs/Keysight 34401A Cancellation Logic.vi"/>
