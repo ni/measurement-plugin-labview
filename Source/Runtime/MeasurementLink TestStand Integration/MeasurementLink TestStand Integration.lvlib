@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="20008000">
-	<Property Name="NI.Lib.DefaultMenu" Type="Str">teststandIntegration.mnu</Property>
+	<Property Name="NI.Lib.DefaultMenu" Type="Str">MeasurementLink TestStand Integration.mnu</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)?!!!*Q(C=\&gt;4.51*"%-8RJ_8"+RF9J.!H\K2!#JU#6Y[E]&amp;)A"6,I&amp;%C"%-4`DAV3Z?&gt;"KST,71;8.TM^0W?X6BLN8LL4YW&gt;N]7%\DWNU^&gt;HZ_WJ=YX/:^WK]DX'G=[WX[[OP?7.=7OCKVMPY_`Z0GP\&lt;@`P&lt;&lt;80[1PN:QIUUL8%[&amp;&gt;XUJ)?G:5^&amp;8O2&amp;8O2&amp;8O1G.\H*47ZSES&gt;ZEC&gt;ZEC&gt;ZEA&gt;ZE!&gt;ZE!&gt;ZE)_$8/1C&amp;TGE9P&amp;CI;*I5;#Y')K+L]*4?!J0Y?'H#E`B+4S&amp;J`"QC1J0Y3E]B;@Q-%W&amp;J`!5HM*4?#AV*$5/=DS&amp;B`)S(O-R(O-R(J;5]2C!7=Q5.E6AS!S;%_-R(O0B6-:D0-:D0-&lt;$M)T(?)T(?)S(+7.80$4419[(-EI]C3@R**\%1WEFHM34?"*0YG%Z*:\%ES#3":0C%*2-3CZ)@C3?R--@*:\%EXA34_*B;.SB($MT;;;$(%`A#4S"*`!%(EII]!3?Q".Y!A^F&amp;8A#4_!*0)'(J22Y!E`A#3$"ICSPI&amp;AQ-&lt;AI#!)0H`'UR,B,(J)9B^10L`KB6$^M[I&gt;)`8#I&lt;\L[:KJPEHLTV:OKXCTV*KD`/46;D6%PIJY]8;ADXQ@[HL[D&lt;_FL_IK_J-`JMWHK.V^Y0"ZV/"SUX__VW_WUX7[V8K_V7KWU8#YVH]]VG]UOLY%(DMM,Y@G^N/(]P@\T\[8@]'\5L;\89)_?!0)_,,%!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
@@ -27,12 +27,12 @@
 		</Item>
 	</Item>
 	<Item Name="Get Pin Map ID for Sequence.vi" Type="VI" URL="../Get Pin Map ID for Sequence.vi"/>
+	<Item Name="MeasurementLink TestStand Integration.mnu" Type="Document" URL="../MeasurementLink TestStand Integration.mnu"/>
 	<Item Name="Pin Map ID Global Variable Name.vi" Type="VI" URL="../Pin Map ID Global Variable Name.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Resolve Pin Map Path for Sequence.vi" Type="VI" URL="../Resolve Pin Map Path for Sequence.vi"/>
 	<Item Name="Set Pin Map ID for Sequence.vi" Type="VI" URL="../Set Pin Map ID for Sequence.vi"/>
-	<Item Name="teststandIntegration.mnu" Type="Document" URL="../teststandIntegration.mnu"/>
 	<Item Name="Update Pin Map for Sequence.vi" Type="VI" URL="../Update Pin Map for Sequence.vi"/>
 	<Item Name="Update Pin Map from File.vi" Type="VI" URL="../Update Pin Map from File.vi"/>
 </Library>
