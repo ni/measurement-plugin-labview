@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="20008000">
-	<Property Name="NI.Lib.DefaultMenu" Type="Str">VISA.mnu</Property>
+	<Property Name="NI.Lib.DefaultMenu" Type="Str">MeasurementLink VISA.mnu</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)J!!!*Q(C=\&gt;3^&lt;3-R%-8R:_/#3^7"I2;G"&lt;7Q6]*EDJ5K6!MP&gt;+LY!!&gt;K96J1#UIO^`J0CB!-!XNWY$/-AUF2(Y_\H*_YCZ6[_SH^U..&lt;&lt;@@8&gt;JV8\TO7&lt;7^,]Z?*Z@E_&gt;8G^GL_G;D77ZL6]`J,`D;&lt;P^NX_\\;&lt;X^(_,?&amp;';D8GO2BG*#05SMZ&amp;8O2&amp;8O2&amp;8O1G.\H*47ZSES&gt;ZEC&gt;ZEC&gt;ZEA&gt;ZE!&gt;ZE!&gt;ZE0&gt;/,H+2CRR35&lt;QI6#R;,&amp;!=$%8&amp;7_%J0)7H]0"4B;@Q&amp;*\#5XAY2)7H]"3?QF.Y/%W&amp;J`!5HM*4?&amp;CK3[JX=DS&amp;B_6F0-:D0-:D0*35]2C!+797.IP!E*EU8YT(?)S(LT)?YT%?YT%?JG5]RG-]RG-]H.*XR6X4/DE?FF(C34S**`%E(J:7YEE]C3@R*"\++@%EHA32&amp;%Q7B[$EJ/3!Z%@C34R]+0%EHM34?")05`U+:&gt;_:JGG&gt;(%`A#4S"*`!%(J:1Y!E]A3@Q""[76?!*0)%H]!1?3CHQ"*\!%U##IJ28M&amp;BQ9H"1%!1?8PVOC8[6X#82OT2O8IW&lt;5O.GU\C*.'Y/D9OO=4%V,J,'ZGNMKM:G;7S#RJ`41'NA.)JIH.Q/V*HX%_0)/$$WD#VD9GQ9;];KH@L""Z\0:ZV/*RW02RU/"_XX?WWX7UX4J-VGI`6[L&gt;6K&gt;8U-X.'P$Y18T[6@8.TJ$Z`X]`TY--_`\T`JO@16HIW[V=M;\.%T:!:R71!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
@@ -16,6 +16,6 @@
 	<Item Name="Initialize Sessions - 1Sess.vi" Type="VI" URL="../Initialize Sessions - 1Sess.vi"/>
 	<Item Name="Initialize Sessions - NSess.vi" Type="VI" URL="../Initialize Sessions - NSess.vi"/>
 	<Item Name="Initialize Sessions.vi" Type="VI" URL="../Initialize Sessions.vi"/>
+	<Item Name="MeasurementLink VISA.mnu" Type="Document" URL="../MeasurementLink VISA.mnu"/>
 	<Item Name="Session Factory.lvclass" Type="LVClass" URL="../Session Factory/Session Factory.lvclass"/>
-	<Item Name="VISA.mnu" Type="Document" URL="../VISA.mnu"/>
 </Library>

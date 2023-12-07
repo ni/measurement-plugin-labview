@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="20008000">
-	<Property Name="NI.Lib.DefaultMenu" Type="Str">niFgen.mnu</Property>
+	<Property Name="NI.Lib.DefaultMenu" Type="Str">MeasurementLink niFGEN.mnu</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*!!!!*Q(C=\&gt;5RDB."%)8B"S)A^1W1LV"8=-)"@)6+/)!$EAUH*U$P"%C_A!0@!&amp;6%;-F8M,32Q_7@&gt;O&amp;&amp;OR*/!#'U-S\P_(60^_??];QUNL@3'TX=WOZ_O&gt;'O/V[;0T$GZ7X5()^W8&gt;O\,A@[U&gt;Y^ROP*Q:0R,[8(A_@NT_?`Y&lt;_R[76\W@\P\@;0Y)``$FZJ@B"22:F++D20_V$E26\E26\E27ZSEZP=Z#9X?:)H?:)H?:)H?:!(?:!(?:!(_&gt;D*23ZSE5-K*C]G+A9N"CA[1V(R6HA+4_%J0(R5Y3E]B;@Q&amp;"[[K0!5HM*4?!I0J[HQ&amp;*\#5XA+$U-.39W&gt;(%`B98A:D`%9D`%9$V0+?!T!4'9'.I0!E'EU"]:D0-&lt;$I9T(?)T(?)S(:BG0]2C0]2A0JYR6]&gt;$-/TE?BF(C34S**`%E(I:7YEE]C3@R*"[G5_**0!ECG4!:()+3EZ)/S9@%EXDYI]34?"*0YEE].)ULF'.F:MW]E_-*0)%H]!3?Q--1#DS"*`!%HM$$M!I]A3@Q"*\!QV1+0)%H]!319&amp;+G6T"9=',1+1A#$[^RN]3Y3B[3',P5.[`[JF4@&lt;/K&lt;3(VTK#_[_G+K,Z*[]&gt;7,KFYM^3+IPZQ;L=;I*V'@0(@5C@=DN;?WV%2NK$7VIJ&lt;59D\V.X=]H5Y[(I`;\`@;&lt;L?;JEG&lt;T5&lt;L^6KLV5L,Z6+,R?,['(D(@HUA0$[8$P@4\OPZY_&gt;PH^Z`/:Q`\!\H;@?8`D``!]^'P&gt;&lt;0=\"'XQ&amp;#O70:!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
@@ -17,6 +17,6 @@
 	<Item Name="Initialize Sessions - NSess.vi" Type="VI" URL="../Initialize Sessions - NSess.vi"/>
 	<Item Name="Initialize Sessions.vi" Type="VI" URL="../Initialize Sessions.vi"/>
 	<Item Name="Instrument Type ID.vi" Type="VI" URL="../Instrument Type ID.vi"/>
-	<Item Name="niFgen.mnu" Type="Document" URL="../niFgen.mnu"/>
+	<Item Name="MeasurementLink niFGEN.mnu" Type="Document" URL="../MeasurementLink niFGEN.mnu"/>
 	<Item Name="Session Factory.lvclass" Type="LVClass" URL="../Session Factory/Session Factory.lvclass"/>
 </Library>
