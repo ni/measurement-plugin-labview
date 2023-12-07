@@ -60,21 +60,21 @@
 	</Item>
 	<Item Name="Public TypeDefs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="MeasurementAnnotation.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasurementAnnotation.ctl"/>
-		<Item Name="MeasurementDetails.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasurementDetails.ctl"/>
-		<Item Name="MeasurementLinkServerUserEvents.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasurementLinkServerUserEvents.ctl"/>
-		<Item Name="MeasurementServiceVersions.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasurementServiceVersions.ctl"/>
+		<Item Name="Measurement Annotation.ctl" Type="VI" URL="../Helpers/TypeDefs/Measurement Annotation.ctl"/>
+		<Item Name="Measurement Details.ctl" Type="VI" URL="../Helpers/TypeDefs/Measurement Details.ctl"/>
+		<Item Name="Measurement Server User Settings.ctl" Type="VI" URL="../Helpers/TypeDefs/Measurement Server User Settings.ctl"/>
+		<Item Name="Measurement Service Version.ctl" Type="VI" URL="../Helpers/TypeDefs/Measurement Service Version.ctl"/>
 		<Item Name="Parameter Type Specialization.ctl" Type="VI" URL="../Helpers/TypeDefs/Parameter Type Specialization.ctl"/>
-		<Item Name="StopServerUserEvent.ctl" Type="VI" URL="../Helpers/TypeDefs/StopServerUserEvent.ctl"/>
+		<Item Name="Stop Server User Event.ctl" Type="VI" URL="../Helpers/TypeDefs/Stop Server User Event.ctl"/>
 		<Item Name="Type Specialization Key.ctl" Type="VI" URL="../Helpers/TypeDefs/Type Specialization Key.ctl"/>
 		<Item Name="Type Specialization.ctl" Type="VI" URL="../Helpers/TypeDefs/Type Specialization.ctl"/>
-		<Item Name="UI Information.ctl" Type="VI" URL="../Helpers/TypeDefs/UI Information.ctl"/>
+		<Item Name="User Interface Information.ctl" Type="VI" URL="../Helpers/TypeDefs/User Interface Information.ctl"/>
 	</Item>
 	<Item Name="IMeasurementService.lvclass" Type="LVClass" URL="../Classes/IMeasurementService/IMeasurementService.lvclass">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 	</Item>
-	<Item Name="MeasurementContext.lvclass" Type="LVClass" URL="../Classes/MeasurementContext/MeasurementContext.lvclass"/>
-	<Item Name="MeasurementPluginService.lvclass" Type="LVClass" URL="../Classes/MeasurementPluginService/MeasurementPluginService.lvclass"/>
+	<Item Name="Measure Call Context.lvclass" Type="LVClass" URL="../Measure Call Context/Measure Call Context.lvclass"/>
+	<Item Name="Measurement Plugin Service.lvclass" Type="LVClass" URL="../Measurement Plugin Service/Measurement Plugin Service.lvclass"/>
 	<Item Name="MeasurementServiceV1.lvclass" Type="LVClass" URL="../Classes/MeasurementServiceV1/MeasurementServiceV1.lvclass">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 	</Item>

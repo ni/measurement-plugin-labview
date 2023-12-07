@@ -11,7 +11,7 @@
 		<Item Name="Build Assets" Type="Folder">
 			<Item Name="Post-Build Action.vi" Type="VI" URL="../Advanced/Build Assets/Post-Build Action.vi"/>
 		</Item>
-		<Item Name="MeasurementPlugin.lvclass" Type="LVClass" URL="../Advanced/MeasurementPlugin.lvclass"/>
+		<Item Name="Measurement Plugin.lvclass" Type="LVClass" URL="../Advanced/Measurement Plugin.lvclass"/>
 	</Item>
 	<Item Name="TestStand Code Modules" Type="Folder">
 		<Item Name="Initialize and Register Sessions.vi" Type="VI" URL="../TestStand Code Modules/Initialize and Register Sessions.vi"/>
