@@ -11,6 +11,6 @@
 		<Item Name="MeasurementLink Measurement Server.lvlib:Measure Call Context.lvclass" Type="Friended Library" URL="../../MeasurementLink Measurement Server/Measure Call Context/Measure Call Context.lvclass"/>
 	</Item>
 	<Item Name="Connection Map.lvclass" Type="LVClass" URL="../Connection Map/Connection Map.lvclass"/>
-	<Item Name="IReservationObserver.lvclass" Type="LVClass" URL="../IReservationObserver/IReservationObserver.lvclass"/>
+	<Item Name="IReservation Observer.lvclass" Type="LVClass" URL="../IReservation Observer/IReservation Observer.lvclass"/>
 	<Item Name="Session Reservation.lvclass" Type="LVClass" URL="../Session Reservation/Session Reservation.lvclass"/>
 </Library>
