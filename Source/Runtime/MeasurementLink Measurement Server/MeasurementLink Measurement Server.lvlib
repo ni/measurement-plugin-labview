@@ -71,15 +71,15 @@
 		<Item Name="Type Specialization.ctl" Type="VI" URL="../Helpers/TypeDefs/Type Specialization.ctl"/>
 		<Item Name="User Interface Information.ctl" Type="VI" URL="../Helpers/TypeDefs/User Interface Information.ctl"/>
 	</Item>
-	<Item Name="IMeasurementService.lvclass" Type="LVClass" URL="../Classes/IMeasurementService/IMeasurementService.lvclass">
+	<Item Name="IMeasurement Service.lvclass" Type="LVClass" URL="../IMeasurement Service/IMeasurement Service.lvclass">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 	</Item>
 	<Item Name="Measure Call Context.lvclass" Type="LVClass" URL="../Measure Call Context/Measure Call Context.lvclass"/>
 	<Item Name="Measurement Plugin Service.lvclass" Type="LVClass" URL="../Measurement Plugin Service/Measurement Plugin Service.lvclass"/>
-	<Item Name="MeasurementServiceV1.lvclass" Type="LVClass" URL="../Classes/MeasurementServiceV1/MeasurementServiceV1.lvclass">
+	<Item Name="Measurement Service V1.lvclass" Type="LVClass" URL="../Measurement Service V1/Measurement Service V1.lvclass">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 	</Item>
-	<Item Name="MeasurementServiceV2.lvclass" Type="LVClass" URL="../Classes/MeasurementServiceV2/MeasurementServiceV2.lvclass">
+	<Item Name="Measurement Service V2.lvclass" Type="LVClass" URL="../Measurement Service V2/Measurement Service V2.lvclass">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 	</Item>
 	<Item Name="Run Service.vi" Type="VI" URL="../Run Service.vi"/>

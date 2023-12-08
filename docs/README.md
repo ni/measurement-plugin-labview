@@ -29,10 +29,10 @@ The MeasurementLink Support for LabVIEW packages enable measurement developers t
 
 ## Installation
 
-1. Install a supported version of InstrumentStudio
-2. Install a supported version of MeasurementLink
-3. Install a supported version of LabVIEW
-4. Download and install the MeasurementLink Support for LabVIEW packages in the following order.
+1. Install a supported version of [InstrumentStudio](https://www.ni.com/en/support/downloads/software-products/download.instrumentstudio.html#494650)
+2. Install a supported version of [MeasurementLink](https://www.ni.com/en/support/downloads/software-products/download.measurementlink.html#494508)
+3. Install a supported version of [LabVIEW](https://www.ni.com/en/support/downloads/software-products/download.labview.html#487445)
+4. Download and install the [MeasurementLink Support for LabVIEW packages](https://github.com/ni/measurementlink-labview/releases) in the following order.
     1. `ni_lib_labview_grpc_library-x.x.x.x.vip` - Required
     2. `ni_lib_labview_grpc_servicer-x.x.x.x.vip` - Required
     3. `ni_measurementlink_service-x.x.x.x.vip` - Required
