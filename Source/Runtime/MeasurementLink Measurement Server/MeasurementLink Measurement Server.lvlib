@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Friends List" Type="Friends List">
 		<Item Name="MeasurementServerTests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Runtime/Measurement Server/MeasurementServerTests.lvlib"/>
+		<Item Name="MeasurementServerTests.lvlib:Measurement Plugin Service Tests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Runtime/Measurement Server/Measurement Plugin Service/Measurement Plugin Service Tests.lvlib"/>
 	</Item>
 	<Item Name="Build Assets" Type="Folder">
 		<Item Name="Post-Build Action.vi" Type="VI" URL="../Build Assets/Post-Build Action.vi"/>

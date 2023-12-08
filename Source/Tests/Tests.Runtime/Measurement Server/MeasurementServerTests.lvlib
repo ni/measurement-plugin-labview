@@ -280,4 +280,7 @@
 		<Item Name="test_VariousDataTypes_GetParametersAndCheckDataTypes_InvalidParameterNamesMatch.vi" Type="VI" URL="../Unit Tests/test_VariousDataTypes_GetParametersAndCheckDataTypes_InvalidParameterNamesMatch.vi"/>
 		<Item Name="test_VariousDataTypes_GetParameterInformation_MatchesExpectedInformation.vi" Type="VI" URL="../Unit Tests/test_VariousDataTypes_GetParameterInformation_MatchesExpectedInformation.vi"/>
 	</Item>
+	<Item Name="Measurement Plugin Service" Type="Folder">
+		<Item Name="Measurement Plugin Service Tests.lvlib" Type="Library" URL="../Measurement Plugin Service/Measurement Plugin Service Tests.lvlib"/>
+	</Item>
 </Library>
