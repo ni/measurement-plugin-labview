@@ -31,8 +31,4 @@
 	<Item Name="Pin Map ID Global Variable Name.vi" Type="VI" URL="../Pin Map ID Global Variable Name.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Resolve Pin Map Path for Sequence.vi" Type="VI" URL="../Resolve Pin Map Path for Sequence.vi"/>
-	<Item Name="Set Pin Map ID for Sequence.vi" Type="VI" URL="../Set Pin Map ID for Sequence.vi"/>
-	<Item Name="Update Pin Map for Sequence.vi" Type="VI" URL="../Update Pin Map for Sequence.vi"/>
-	<Item Name="Update Pin Map from File.vi" Type="VI" URL="../Update Pin Map from File.vi"/>
 </Library>
