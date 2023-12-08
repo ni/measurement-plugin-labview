@@ -22,6 +22,12 @@
 			<Item Name="Assert Number of Initialize and Close Calls.vi" Type="VI" URL="../Helpers/Assertion Helpers/Assert Number of Initialize and Close Calls.vi"/>
 			<Item Name="Assert Number of Calls.vi" Type="VI" URL="../Helpers/Assertion Helpers/Assert Number of Calls.vi"/>
 		</Item>
+		<Item Name="Pin Map Client Wrapper" Type="Folder">
+			<Item Name="Create Client.vi" Type="VI" URL="../Helpers/Create Client.vi"/>
+			<Item Name="Recreate Client.vi" Type="VI" URL="../Helpers/Recreate Client.vi"/>
+			<Item Name="Pin Map Client FGV.vi" Type="VI" URL="../Helpers/Pin Map Client FGV.vi"/>
+			<Item Name="Update Pin Map from XML.vi" Type="VI" URL="../Helpers/Update Pin Map from XML.vi"/>
+		</Item>
 		<Item Name="Check If Discovery Service is Running.vi" Type="VI" URL="../Helpers/Check If Discovery Service is Running.vi"/>
 		<Item Name="Create Connection Cluster.vim" Type="VI" URL="../Helpers/Create Connection Cluster.vim"/>
 		<Item Name="Kill Discovery Service.vi" Type="VI" URL="../Helpers/Kill Discovery Service.vi"/>
@@ -269,9 +275,6 @@
 	</Item>
 	<Item Name="Session Management" Type="Folder">
 		<Item Name="Session Reservation Tests.lvlib" Type="Library" URL="../Session Management/Session Reservation/Session Reservation Tests.lvlib"/>
-	</Item>
-	<Item Name="TestStand Integration" Type="Folder">
-		<Item Name="TestStand Integration Tests.lvlib" Type="Library" URL="../TestStand Integration/TestStand Integration Tests.lvlib"/>
 	</Item>
 	<Item Name="Discovery" Type="Folder">
 		<Item Name="Discovery Tests.lvlib" Type="Library" URL="../Discovery/Discovery Tests.lvlib"/>
