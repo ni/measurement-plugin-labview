@@ -5,16 +5,27 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="RenameRefactor" Type="Folder">
+		<Item Name="typedefs" Type="Folder">
+			<Item Name="Refactor Dynamic Dispatch Member Result.ctl" Type="VI" URL="../RenameRefactor/Refactor Dynamic Dispatch Member Result.ctl"/>
+			<Item Name="Refactor Object Result.ctl" Type="VI" URL="../RenameRefactor/Refactor Object Result.ctl"/>
+			<Item Name="Refactor Project Result.ctl" Type="VI" URL="../RenameRefactor/Refactor Project Result.ctl"/>
+			<Item Name="Rename Refactor Data.ctl" Type="VI" URL="../RenameRefactor/Rename Refactor Data.ctl"/>
+			<Item Name="Rename Refactor Mapping Info.ctl" Type="VI" URL="../RenameRefactor/Rename Refactor Mapping Info.ctl"/>
+		</Item>
+		<Item Name="Add Dynamic to Static Dispatch Mappings.vi" Type="VI" URL="../RenameRefactor/Add Dynamic to Static Dispatch Mappings.vi"/>
 		<Item Name="Begins with Qualified Name.vi" Type="VI" URL="../RenameRefactor/Begins with Qualified Name.vi"/>
 		<Item Name="Build Qualified Name.vi" Type="VI" URL="../RenameRefactor/Build Qualified Name.vi"/>
 		<Item Name="Calculate Refactor Metrics for Project.vi" Type="VI" URL="../RenameRefactor/Calculate Refactor Metrics for Project.vi"/>
 		<Item Name="Calculate Relative Path from Directory.vi" Type="VI" URL="../RenameRefactor/Calculate Relative Path from Directory.vi"/>
 		<Item Name="Filter for Classes.vi" Type="VI" URL="../RenameRefactor/Filter for Classes.vi"/>
 		<Item Name="Get Parent Class Name.vi" Type="VI" URL="../RenameRefactor/Get Parent Class Name.vi"/>
+		<Item Name="Is Descendant of Class.vi" Type="VI" URL="../RenameRefactor/Is Descendant of Class.vi"/>
 		<Item Name="Is Nested Typedef.vi" Type="VI" URL="../RenameRefactor/Is Nested Typedef.vi"/>
 		<Item Name="Is Typedef.vim" Type="VI" URL="../RenameRefactor/Is Typedef.vim"/>
 		<Item Name="Normalize Path.vi" Type="VI" URL="../RenameRefactor/Normalize Path.vi"/>
 		<Item Name="README.md" Type="Document" URL="../RenameRefactor/README.md"/>
+		<Item Name="Refactor Class Dynamic Dispatch Membersvi.vi" Type="VI" URL="../RenameRefactor/Refactor Class Dynamic Dispatch Membersvi.vi"/>
+		<Item Name="Refactor Classes in Project.vi" Type="VI" URL="../RenameRefactor/Refactor Classes in Project.vi"/>
 		<Item Name="Refactor Dependencies for Project.vi" Type="VI" URL="../RenameRefactor/Refactor Dependencies for Project.vi"/>
 		<Item Name="Refactor Dependencies for Projects.vi" Type="VI" URL="../RenameRefactor/Refactor Dependencies for Projects.vi"/>
 		<Item Name="Refactor Dependencies for VI.vi" Type="VI" URL="../RenameRefactor/Refactor Dependencies for VI.vi"/>
@@ -22,9 +33,7 @@
 		<Item Name="Refactor Object for Library Rename.vi" Type="VI" URL="../RenameRefactor/Refactor Object for Library Rename.vi"/>
 		<Item Name="Refactor Parent Class Dependency.vi" Type="VI" URL="../RenameRefactor/Refactor Parent Class Dependency.vi"/>
 		<Item Name="Rename and Refactor Dependency for Object.vi" Type="VI" URL="../RenameRefactor/Rename and Refactor Dependency for Object.vi"/>
-		<Item Name="Rename Refactor Data.ctl" Type="VI" URL="../RenameRefactor/Rename Refactor Data.ctl"/>
-		<Item Name="Rename Refactor Mapping Info.ctl" Type="VI" URL="../RenameRefactor/Rename Refactor Mapping Info.ctl"/>
-		<Item Name="Rename Refactor Result.ctl" Type="VI" URL="../RenameRefactor/Rename Refactor Result.ctl"/>
+		<Item Name="Rename Dynamic Dispatch Member.vi" Type="VI" URL="../RenameRefactor/Rename Dynamic Dispatch Member.vi"/>
 		<Item Name="Strip Qualified Name.vi" Type="VI" URL="../RenameRefactor/Strip Qualified Name.vi"/>
 		<Item Name="Supports Block Diagram.vi" Type="VI" URL="../RenameRefactor/Supports Block Diagram.vi"/>
 		<Item Name="Supports Front Panel.vi" Type="VI" URL="../RenameRefactor/Supports Front Panel.vi"/>
