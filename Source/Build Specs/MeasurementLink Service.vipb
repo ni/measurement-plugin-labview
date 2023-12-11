@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2023-11-30 14:50:51" Creator="lvadmin" Comments="" ID="6f658e47fd1765b869d8f036546875c3">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2023-12-11 13:34:34" Creator="lvadmin" Comments="" ID="1b8d16b55143d1aaee78e1bd3e7685a7">
   <Library_General_Settings>
     <Package_File_Name>NI_MeasurementLink_Service</Package_File_Name>
     <Library_Version>1.3.0.3</Library_Version>
@@ -17,8 +17,8 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>ni_lib_labview_grpc_library =1.0.0.1</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_lib_labview_grpc_servicer =1.0.0.1</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_labview_grpc_library &gt;=1.0.1.1</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_labview_grpc_servicer &gt;=1.0.1.1</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_protobuf_types &gt;=1.0.0.1</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
