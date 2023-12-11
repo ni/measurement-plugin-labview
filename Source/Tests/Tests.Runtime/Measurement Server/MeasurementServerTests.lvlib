@@ -21,6 +21,7 @@
 			<Item Name="Assert Error Code.vi" Type="VI" URL="../Helpers/Assertion Helpers/Assert Error Code.vi"/>
 			<Item Name="Assert Number of Initialize and Close Calls.vi" Type="VI" URL="../Helpers/Assertion Helpers/Assert Number of Initialize and Close Calls.vi"/>
 			<Item Name="Assert Number of Calls.vi" Type="VI" URL="../Helpers/Assertion Helpers/Assert Number of Calls.vi"/>
+			<Item Name="Assert Connections.vim" Type="VI" URL="../Helpers/Assertion Helpers/Assert Connections.vim"/>
 		</Item>
 		<Item Name="Pin Map Client Wrapper" Type="Folder">
 			<Item Name="Create Client.vi" Type="VI" URL="../Helpers/Create Client.vi"/>
