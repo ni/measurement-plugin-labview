@@ -17,9 +17,9 @@ def main():
 
 def run_all_tests():
     test_directory = os.path.abspath(os.path.dirname(__file__))
-    test_runner_vi = os.path.join(test_directory , "run_tests.vi")
-    _logger.debug(f"Launching {test_runner_vi}.")
-    kwargs = ["LabVIEWCLI", "-OperationName", "RunVIAnalyzer", "-VIPath", os.path.normpath(test_runner_vi)]
+    vi_analyzer_config = os.path.join(test_directory, "VIAnalyzer", "Tools_AllChecks.viancfg")
+    _logger.debug(f"Analyzing VIs per {vi_analyzer_config}.")
+    kwargs = ["LabVIEWCLI", "-OperationName", "RunVIAnalyzer", "-ConfigPath", vi_analyzer_config, "-ReportPath", "c:\\temp\\vi_analyzer_report.txt"]
     test_result = subprocess.run(kwargs, capture_output= True)
     
     formatted_stdout = test_result.stdout.decode().replace('\r\n','\n').strip()
