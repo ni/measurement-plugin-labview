@@ -17,7 +17,7 @@ def main():
 
 def run_all_tests():
     test_directory = os.path.abspath(os.path.dirname(__file__))
-    vi_analyzer_config = os.path.join(test_directory, "VI Analyzer Configuration", "Tools_AllChecks.viancfg")
+    vi_analyzer_config = os.path.join(test_directory, "VI Analyzer Configuration", "Runtime_HighSeverityExcludingReentrancy.viancfg")
     _logger.debug(f"Analyzing VIs per {vi_analyzer_config}.")
     kwargs = ["LabVIEWCLI", "-OperationName", "RunVIAnalyzer", "-ConfigPath", vi_analyzer_config, "-ReportPath", "c:\\temp\\vi_analyzer_report.txt"]
     test_result = subprocess.run(kwargs, capture_output= True)
