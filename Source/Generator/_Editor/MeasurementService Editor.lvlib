@@ -37,7 +37,7 @@
 		<Item Name="Strip Qualified Name.vi" Type="VI" URL="../RenameRefactor/Strip Qualified Name.vi"/>
 		<Item Name="Supports Block Diagram.vi" Type="VI" URL="../RenameRefactor/Supports Block Diagram.vi"/>
 		<Item Name="Supports Front Panel.vi" Type="VI" URL="../RenameRefactor/Supports Front Panel.vi"/>
-		<Item Name="Upgrade Refactor Data.vi" Type="VI" URL="../RenameRefactor/Upgrade Refactor Data.vi"/>
+		<Item Name="V2 Upgrade Refactor Data.vi" Type="VI" URL="../RenameRefactor/V2 Upgrade Refactor Data.vi"/>
 		<Item Name="Valid Replacement Target.vi" Type="VI" URL="../RenameRefactor/Valid Replacement Target.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
