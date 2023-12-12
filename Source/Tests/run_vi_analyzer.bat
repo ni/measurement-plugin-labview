@@ -1,1 +1,0 @@
-python run_vi_analyzer.py
