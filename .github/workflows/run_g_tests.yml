@@ -6,7 +6,7 @@ on:
 
 jobs:
   run_g_tests:
-    name: Run G Tests  LV${{ matrix.version }}
+    name: Run G Tests LV${{ matrix.version }}
     runs-on: 
       - self-hosted
       - windows
