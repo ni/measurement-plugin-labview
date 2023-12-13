@@ -18,6 +18,9 @@ jobs:
       fail-fast: false
     timeout-minutes: 90
     steps:
+    - name: Enable git long paths
+      run: "C:\Program Files\Git\cmd\git.exe" config  --global core.longpaths true
+      
     - uses: actions/checkout@v4
 
     - uses: actions/setup-python@v5
