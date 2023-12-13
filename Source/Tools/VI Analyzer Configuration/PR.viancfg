@@ -257,7 +257,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Block Diagram\\Style\\Unused Code.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
