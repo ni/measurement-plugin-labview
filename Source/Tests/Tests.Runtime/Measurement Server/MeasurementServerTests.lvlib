@@ -21,6 +21,7 @@
 			<Item Name="Assert Error Code.vi" Type="VI" URL="../Helpers/Assertion Helpers/Assert Error Code.vi"/>
 			<Item Name="Assert Number of Initialize and Close Calls.vi" Type="VI" URL="../Helpers/Assertion Helpers/Assert Number of Initialize and Close Calls.vi"/>
 			<Item Name="Assert Number of Calls.vi" Type="VI" URL="../Helpers/Assertion Helpers/Assert Number of Calls.vi"/>
+			<Item Name="Assert Connections.vim" Type="VI" URL="../Helpers/Assertion Helpers/Assert Connections.vim"/>
 		</Item>
 		<Item Name="Pin Map Client Wrapper" Type="Folder">
 			<Item Name="Create Client.vi" Type="VI" URL="../Helpers/Create Client.vi"/>
@@ -282,5 +283,8 @@
 	<Item Name="Unit Tests" Type="Folder">
 		<Item Name="test_VariousDataTypes_GetParametersAndCheckDataTypes_InvalidParameterNamesMatch.vi" Type="VI" URL="../Unit Tests/test_VariousDataTypes_GetParametersAndCheckDataTypes_InvalidParameterNamesMatch.vi"/>
 		<Item Name="test_VariousDataTypes_GetParameterInformation_MatchesExpectedInformation.vi" Type="VI" URL="../Unit Tests/test_VariousDataTypes_GetParameterInformation_MatchesExpectedInformation.vi"/>
+	</Item>
+	<Item Name="Measurement Plugin Service" Type="Folder">
+		<Item Name="Measurement Plugin Service Tests.lvlib" Type="Library" URL="../Measurement Plugin Service/Measurement Plugin Service Tests.lvlib"/>
 	</Item>
 </Library>

@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Friends List" Type="Friends List">
 		<Item Name="MeasurementServerTests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Runtime/Measurement Server/MeasurementServerTests.lvlib"/>
+		<Item Name="MeasurementServerTests.lvlib:Measurement Plugin Service Tests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Runtime/Measurement Server/Measurement Plugin Service/Measurement Plugin Service Tests.lvlib"/>
 	</Item>
 	<Item Name="Build Assets" Type="Folder">
 		<Item Name="Post-Build Action.vi" Type="VI" URL="../Build Assets/Post-Build Action.vi"/>
@@ -37,6 +38,7 @@
 		<Item Name="LabVIEW datatype to Measurement datatype.vi" Type="VI" URL="../Helpers/LabVIEW datatype to Measurement datatype.vi"/>
 		<Item Name="Register Configuration and Results.vi" Type="VI" URL="../Helpers/Register Configuration and Results.vi"/>
 		<Item Name="Register to Discovery Service.vi" Type="VI" URL="../Helpers/Register to Discovery Service.vi"/>
+		<Item Name="Validate Enum Strings.vi" Type="VI" URL="../Helpers/Validate Enum Strings.vi"/>
 		<Item Name="Validate Metadata.vi" Type="VI" URL="../Helpers/Validate Metadata.vi"/>
 	</Item>
 	<Item Name="Private TypeDefs" Type="Folder">
