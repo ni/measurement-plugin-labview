@@ -2,6 +2,7 @@ import logging
 import os
 import subprocess
 import sys
+import tempfile
 
 _logger = logging.getLogger(__name__)
 _logger.setLevel(logging.DEBUG)
@@ -16,10 +17,11 @@ def main():
 
 
 def run_all_tests():
-    test_directory = os.path.abspath(os.path.dirname(__file__))
-    vi_analyzer_config = os.path.join(test_directory, "VI Analyzer Configuration", "PR.viancfg")
-    _logger.debug(f"Analyzing VIs per {vi_analyzer_config}.")
-    kwargs = ["LabVIEWCLI", "-OperationName", "RunVIAnalyzer", "-ConfigPath", vi_analyzer_config, "-ReportPath", "c:\\temp\\vi_analyzer_report.txt"]
+    tools_directory = os.path.abspath(os.path.dirname(__file__))
+    vi_analyzer_config_path = os.path.join(tools_directory, "PR.viancfg")
+    _logger.debug(f"Analyzing VIs per {vi_analyzer_config_path}.")
+    vi_analyzer_output_path = tempfile.TemporaryFile()
+    kwargs = ["LabVIEWCLI", "-OperationName", "RunVIAnalyzer", "-ConfigPath", vi_analyzer_config_path, "-ReportPath", vi_analyzer_output_path]
     test_result = subprocess.run(kwargs, capture_output= True)
     
     formatted_stdout = test_result.stdout.decode().replace('\r\n','\n').strip()
@@ -27,6 +29,8 @@ def run_all_tests():
     if(test_result.returncode != 0):
         formatted_stderr = test_result.stderr.decode().replace('\r\n','\n').strip()
         _logger.error(formatted_stderr)
+        with open(vi_analyzer_output_path, "r") as vi_analyzer_output:
+            _logger.error(vi_analyzer_output.read())
 
     return test_result.returncode
 
