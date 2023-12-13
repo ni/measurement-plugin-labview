@@ -6,7 +6,7 @@
 <TargetIndex>0</TargetIndex>
 <ItemsToAnalyze>
 	<Item>
-		<Path>"..\\..\\Runtime"</Path>
+		<Path>"..\\Runtime"</Path>
 		<Removed>FALSE</Removed>
 	</Item>
 </ItemsToAnalyze>

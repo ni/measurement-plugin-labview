@@ -20,7 +20,7 @@ def run_all_tests():
     tools_directory = os.path.abspath(os.path.dirname(__file__))
     vi_analyzer_config_path = os.path.join(tools_directory, "PR.viancfg")
     _logger.debug(f"Analyzing VIs per {vi_analyzer_config_path}.")
-    vi_analyzer_output_path = tempfile.TemporaryFile()
+    vi_analyzer_output_path = tempfile.TemporaryFile().name
     kwargs = ["LabVIEWCLI", "-OperationName", "RunVIAnalyzer", "-ConfigPath", vi_analyzer_config_path, "-ReportPath", vi_analyzer_output_path]
     test_result = subprocess.run(kwargs, capture_output= True)
     
