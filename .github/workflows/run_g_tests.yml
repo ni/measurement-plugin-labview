@@ -6,8 +6,17 @@ on:
 
 jobs:
   run_g_tests:
-    name: Run G Tests
-    runs-on: self-hosted
+    name: Run G Tests  LV${{ matrix.version }}
+    runs-on: 
+      - self-hosted
+      - windows
+      - x64
+      - rdss-measlinkbot-win-10-lv64
+    strategy:
+      matrix:
+        version: ["2020", "2021", "2022", "2023"]
+      fail-fast: false
+    timeout-minutes: 90
     steps:
     - uses: actions/checkout@v4
 
@@ -15,6 +24,23 @@ jobs:
       with:
         python-version: '3.10'
 
+    - name: Generate port number
+      id: port_number
+      run: |
+        case "${{ matrix.version }}" in
+          "2020")
+            echo "::set-output name=port::3363"
+            ;;
+          "2021")
+            echo "::set-output name=port::3364"
+            ;;
+          "2022")
+            echo "::set-output name=port::3365"
+            ;;
+          "2023")
+            echo "::set-output name=port::3366"
+            ;;
+        esac
     - name: Run G Tests
       run:
-        python ${{runner.workspace}}/measurementlink-labview/Source/Tests/run_tests.py
+        python ${{runner.workspace}}/measurementlink-labview/Source/Tests/run_tests.py --labview-path "C:\Program Files\National Instruments\LabVIEW ${{ matrix.version }}\LabVIEW.exe" --port-number ${{ steps.port_number.outputs.port }}
