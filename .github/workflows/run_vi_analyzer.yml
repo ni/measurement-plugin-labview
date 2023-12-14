@@ -1,0 +1,20 @@
+name: Run VI Analyzer
+
+on:
+  workflow_call:
+  workflow_dispatch:
+
+jobs:
+  run_vi_analyzer:
+    name: Run VI Analyzer
+    runs-on: self-hosted
+    steps:
+    - uses: actions/checkout@v4
+
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Run VI Analyzer
+      run:
+        python ${{runner.workspace}}/measurementlink-labview/Source/Tools/run_vi_analyzer.py
