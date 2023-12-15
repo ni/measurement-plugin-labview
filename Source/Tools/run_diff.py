@@ -109,7 +109,7 @@ def get_changed_labview_file_paths(repo_root_directory, pr_number, token):
     else:
         changed_files = get_git_diff_changed_files()
 
-    diff_regex = re.compile(r"^(.*\.vi[tm]?)|(.*\.ctl?)$", re.MULTILINE)
+    diff_regex = re.compile(r"^.*\.(vi|vit|vim|ctl)$", re.MULTILINE)
 
     added_labview_files = []
     modified_labview_files = []
@@ -156,6 +156,8 @@ def post_github_pr_file_scoped_comment_with_images(file_id, directory_with_image
     images_to_upload = [f for f in os.listdir(directory_with_images) if f.endswith(".png")]
     uploaded_image_urls = []
     text = f"Diff Image Data for {file_id} as follows<br><br>"
+    if not images_to_upload:
+        text = text + f"No images produced. This is indicative of no functional changes, e.g. resaved, mass-compiled, or cosmetic changes only.<br><br>"
     for image_filename in images_to_upload:
         _logger.debug(f" - Posting image `{image_filename}`...")
         image_local_path = os.path.join(directory_with_images, image_filename)
