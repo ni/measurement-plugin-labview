@@ -23,7 +23,7 @@
 		</Item>
 		<Item Name="Find and Call MeasurementLink Plugin.vi" Type="VI" URL="../Find and Call MeasurementLink Plugin.vi"/>
 		<Item Name="MeasurementLink Discovery Client.lvlib" Type="Library" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Discovery Client/MeasurementLink Discovery Client.lvlib"/>
-		<Item Name="PackToAnyNotMaleable.vi" Type="VI" URL="../MeasurementLink measurement_client/PackToAnyNotMaleable.vi"/>
+		<Item Name="Pack to Any.vi" Type="VI" URL="../MeasurementLink measurement_client/Pack to Any.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
