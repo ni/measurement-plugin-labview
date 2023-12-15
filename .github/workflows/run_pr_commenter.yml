@@ -33,3 +33,6 @@ jobs:
       id: run-diff
       run: |
         python ${{runner.workspace}}/measurementlink-labview/Source/Tools/run_diff.py --token ${{secrets.GITHUB_TOKEN}} --pull-req ${{github.event.pull_request.number}} --commit-id ${{github.event.pull_request.head.sha}}
+
+    - name: Close LabVIEW 2020
+      run: LabVIEWCLI -OperationName "CloseLabVIEW" -LabVIEWPath "C:\Program Files\National Instruments\LabVIEW 2020\LabVIEW.exe"

@@ -43,3 +43,6 @@ jobs:
     - name: Run VI Analyzer
       run:
         python ${{runner.workspace}}/measurementlink-labview/Source/Tools/run_vi_analyzer.py --labview-path "C:\Program Files\National Instruments\LabVIEW ${{ matrix.version }}\LabVIEW.exe" --port-number ${{ steps.port_number.outputs.port }}
+
+    - name: Close LabVIEW ${{ matrix.version }}
+      run: LabVIEWCLI -OperationName "CloseLabVIEW" -LabVIEWPath "C:\Program Files\National Instruments\LabVIEW ${{ matrix.version }}\LabVIEW.exe" -PortNumber ${{ steps.port_number.outputs.port }}
