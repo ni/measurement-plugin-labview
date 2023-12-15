@@ -1058,5 +1058,21 @@
 	</Test>
 </TestConfigData>
 <ExclusionData>
+	<Item>
+		<Path>"..\\Runtime\\MeasurementLink Session Management Client\\RPC Messages"</Path>
+		<ExcludedTests>"Unused Code"</ExcludedTests>
+	</Item>
+	<Item>
+		<Path>"..\\Runtime\\MeasurementLink Measurement Service Base V2\\RPC Messages"</Path>
+		<ExcludedTests>"Unused Code"</ExcludedTests>
+	</Item>
+	<Item>
+		<Path>"..\\Runtime\\MeasurementLink Measurement Server Internal\\RPC Messages"</Path>
+		<ExcludedTests>"Unused Code"</ExcludedTests>
+	</Item>
+	<Item>
+		<Path>"..\\Runtime\\MeasurementLink Discovery Client\\RPC Messages"</Path>
+		<ExcludedTests>"Unused Code"</ExcludedTests>
+	</Item>
 </ExclusionData>
 </Config>
