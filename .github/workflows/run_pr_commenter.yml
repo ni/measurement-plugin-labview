@@ -7,7 +7,12 @@ on:
 jobs:
   run_pr_commenter:
     name: Run PR Commenter
-    runs-on: self-hosted
+    runs-on: 
+      - self-hosted
+      - windows
+      - x64
+      - rdss-measlinkbot-win-10-lv64
+    timeout-minutes: 90
     steps:
     - uses: actions/checkout@v4
 

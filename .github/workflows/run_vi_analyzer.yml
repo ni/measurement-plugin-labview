@@ -7,7 +7,16 @@ on:
 jobs:
   run_vi_analyzer:
     name: Run VI Analyzer
-    runs-on: self-hosted
+    runs-on: 
+      - self-hosted
+      - windows
+      - x64
+      - rdss-measlinkbot-win-10-lv64
+    strategy:
+      matrix:
+        version: ["2020", "2021", "2022", "2023"]
+      fail-fast: false
+    timeout-minutes: 90
     steps:
     - uses: actions/checkout@v4
 
@@ -15,6 +24,19 @@ jobs:
       with:
         python-version: '3.10'
 
+    - name: Generate port number
+      id: port_number
+      run: |
+        if (${{ matrix.version }} -eq "2020") {
+          echo "port=3363" >> $env:GITHUB_OUTPUT
+        } elseif (${{ matrix.version }} -eq "2021") {
+          echo "port=3364" >> $env:GITHUB_OUTPUT
+        } elseif (${{ matrix.version }} -eq "2022") {
+          echo "port=3365" >> $env:GITHUB_OUTPUT
+        } else {
+          echo "port=3366" >> $env:GITHUB_OUTPUT
+        }
+
     - name: Run VI Analyzer
       run:
-        python ${{runner.workspace}}/measurementlink-labview/Source/Tools/run_vi_analyzer.py
+        python ${{runner.workspace}}/measurementlink-labview/Source/Tools/run_vi_analyzer.py --labview-path "C:\Program Files\National Instruments\LabVIEW ${{ matrix.version }}\LabVIEW.exe" --port-number ${{ steps.port_number.outputs.port }}
