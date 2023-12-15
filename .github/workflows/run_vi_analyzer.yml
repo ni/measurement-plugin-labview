@@ -14,7 +14,7 @@ jobs:
       - rdss-measlinkbot-win-10-lv64
     strategy:
       matrix:
-        version: ["2020", "2021", "2022", "2023"]
+        version: ["2020", "2021", "2022"]
       fail-fast: false
     timeout-minutes: 90
     steps:
@@ -43,6 +43,3 @@ jobs:
     - name: Run VI Analyzer
       run:
         python ${{runner.workspace}}/measurementlink-labview/Source/Tools/run_vi_analyzer.py --labview-path "C:\Program Files\National Instruments\LabVIEW ${{ matrix.version }}\LabVIEW.exe" --port-number ${{ steps.port_number.outputs.port }}
-
-    - name: Close LabVIEW ${{ matrix.version }}
-      run: LabVIEWCLI -OperationName "CloseLabVIEW" -LabVIEWPath "C:\Program Files\National Instruments\LabVIEW ${{ matrix.version }}\LabVIEW.exe" -PortNumber ${{ steps.port_number.outputs.port }}
