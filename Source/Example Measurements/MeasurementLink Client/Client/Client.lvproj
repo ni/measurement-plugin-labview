@@ -14,13 +14,7 @@
 		<Item Name="Measurement Service Client V2" Type="Folder">
 			<Item Name="Measurement Service Client V2.lvlib" Type="Library" URL="../Measurement Service Client V2/Measurement Service Client V2.lvlib"/>
 		</Item>
-		<Item Name="Plugin Configuration and Results Datatype" Type="Folder">
-			<Item Name="Measurement Configuration.ctl" Type="VI" URL="../Measurement Configuration.ctl"/>
-			<Item Name="Measurement Results.ctl" Type="VI" URL="../Measurement Results.ctl"/>
-		</Item>
-		<Item Name="Find and Call MeasurementLink Plugin.vi" Type="VI" URL="../Find and Call MeasurementLink Plugin.vi"/>
-		<Item Name="Get Service Address.vi" Type="VI" URL="../Get Service Address.vi"/>
-		<Item Name="Pack to Any.vi" Type="VI" URL="../Pack to Any.vi"/>
+		<Item Name="Client.lvlib" Type="Library" URL="../Client/Client.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
