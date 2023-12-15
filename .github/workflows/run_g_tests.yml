@@ -14,7 +14,7 @@ jobs:
       - rdss-measlinkbot-win-10-lv64
     strategy:
       matrix:
-        version: ["2020", "2021", "2022"]
+        version: ["2020", "2021", "2022", "2023"]
       fail-fast: false
     timeout-minutes: 90
     steps:
