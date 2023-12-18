@@ -7,6 +7,8 @@ Life. Also demonstrates how to update the measurement UI while the measurement i
 running and how to cancel a measurement while it is running.
 - `Keysight 34401A DMM Measurement`: Performs a DMM measurement using an
 HP/Agilent/Keysight 34401A DMM.
+- `MeasurementLink Client`: Demonstrates how to write a MeasurementLink client. 
+Includes an example measurement service.
 - `NI-DCPower Source DC Voltage`: Sources and measures a DC voltage with an NI SMU.
 - `NI-Digital SPI`: Tests an SPI device using an NI Digital Pattern instrument.
 - `NI-DMM Measurement`: Acquires a single measurement from a NI DMM.
