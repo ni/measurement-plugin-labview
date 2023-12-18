@@ -11,6 +11,9 @@
 			<Item Name="Refactor Project Result.ctl" Type="VI" URL="../RenameRefactor/Refactor Project Result.ctl"/>
 			<Item Name="Rename Refactor Data.ctl" Type="VI" URL="../RenameRefactor/Rename Refactor Data.ctl"/>
 			<Item Name="Rename Refactor Mapping Info.ctl" Type="VI" URL="../RenameRefactor/Rename Refactor Mapping Info.ctl"/>
+			<Item Name="Rename String Mapping.ctl" Type="VI" URL="../RenameRefactor/Rename String Mapping.ctl"/>
+			<Item Name="Rename String Result.ctl" Type="VI" URL="../RenameRefactor/Rename String Result.ctl"/>
+			<Item Name="Rename String.ctl" Type="VI" URL="../RenameRefactor/Rename String.ctl"/>
 		</Item>
 		<Item Name="Add Dynamic to Static Dispatch Mappings.vi" Type="VI" URL="../RenameRefactor/Add Dynamic to Static Dispatch Mappings.vi"/>
 		<Item Name="Begins with Qualified Name.vi" Type="VI" URL="../RenameRefactor/Begins with Qualified Name.vi"/>
@@ -37,6 +40,8 @@
 		<Item Name="Strip Qualified Name.vi" Type="VI" URL="../RenameRefactor/Strip Qualified Name.vi"/>
 		<Item Name="Supports Block Diagram.vi" Type="VI" URL="../RenameRefactor/Supports Block Diagram.vi"/>
 		<Item Name="Supports Front Panel.vi" Type="VI" URL="../RenameRefactor/Supports Front Panel.vi"/>
+		<Item Name="Update Control Labels.vi" Type="VI" URL="../Update Control Labels.vi"/>
+		<Item Name="Update String Constants.vi" Type="VI" URL="../Update String Constants.vi"/>
 		<Item Name="V2 Upgrade Refactor Data.vi" Type="VI" URL="../RenameRefactor/V2 Upgrade Refactor Data.vi"/>
 		<Item Name="Valid Replacement Target.vi" Type="VI" URL="../RenameRefactor/Valid Replacement Target.vi"/>
 	</Item>
