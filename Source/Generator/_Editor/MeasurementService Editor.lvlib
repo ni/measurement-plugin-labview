@@ -11,9 +11,9 @@
 			<Item Name="Refactor Project Result.ctl" Type="VI" URL="../RenameRefactor/Refactor Project Result.ctl"/>
 			<Item Name="Rename Refactor Data.ctl" Type="VI" URL="../RenameRefactor/Rename Refactor Data.ctl"/>
 			<Item Name="Rename Refactor Mapping Info.ctl" Type="VI" URL="../RenameRefactor/Rename Refactor Mapping Info.ctl"/>
+			<Item Name="Rename String Mapping.ctl" Type="VI" URL="../RenameRefactor/Rename String Mapping.ctl"/>
 			<Item Name="Rename String Result.ctl" Type="VI" URL="../RenameRefactor/Rename String Result.ctl"/>
 			<Item Name="Rename String.ctl" Type="VI" URL="../RenameRefactor/Rename String.ctl"/>
-			<Item Name="String Rename Mapping.ctl" Type="VI" URL="../../../../../../Users/Administrator/Desktop/String Rename Mapping.ctl"/>
 		</Item>
 		<Item Name="Add Dynamic to Static Dispatch Mappings.vi" Type="VI" URL="../RenameRefactor/Add Dynamic to Static Dispatch Mappings.vi"/>
 		<Item Name="Begins with Qualified Name.vi" Type="VI" URL="../RenameRefactor/Begins with Qualified Name.vi"/>
