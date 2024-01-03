@@ -17,7 +17,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Block Diagram\\Performance\\Arrays and Strings in Loops.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -27,7 +27,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Block Diagram\\Performance\\Coercion Dots.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -47,7 +47,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Block Diagram\\Performance\\In Place Element Structure Usage.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
