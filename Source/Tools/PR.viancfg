@@ -489,6 +489,11 @@
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Complexity Metrics\\Depth of Nesting of Structures.llb"</RelativePath>
 		<Selected>TRUE</Selected>
 		<Controls>
+			<Control>
+				<Name>"Maximum Nesting Depth"</Name>
+				<Type>"Int"</Type>
+				<Value>8</Value>
+			</Control>
 		</Controls>
 	</Test>
 	<Test>
