@@ -41,6 +41,9 @@
 		<Item Name="Start Discovery Service.vi" Type="VI" URL="../Start Discovery Service.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		</Item>
+		<Item Name="Wait For Key File.vi" Type="VI" URL="../Wait For Key File.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 	</Item>
 	<Item Name="gRPC Client Cache" Type="Folder">
 		<Item Name="gRPC Client Cache FGV Action.ctl" Type="VI" URL="../TypeDefs/gRPC Client Cache FGV Action.ctl">
