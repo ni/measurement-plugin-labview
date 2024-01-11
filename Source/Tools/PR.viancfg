@@ -492,7 +492,7 @@
 			<Control>
 				<Name>"Maximum Nesting Depth"</Name>
 				<Type>"Int"</Type>
-				<Value>11</Value>
+				<Value>8</Value>
 			</Control>
 		</Controls>
 	</Test>
@@ -502,7 +502,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Complexity Metrics\\Fan In.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -512,7 +512,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Complexity Metrics\\Fan Out.llb"</RelativePath>
-		<Selected>TRUE</Selected>
+		<Selected>FALSE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
