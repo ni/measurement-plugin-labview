@@ -58,11 +58,11 @@ The MeasurementLink Support for LabVIEW packages enable measurement developers t
 
     ![Get Measurement Details VI](images/Get%20Measurement%20Details%20VI.png)
 
-4. Add the required configuration parameters to `Measurement Configuration.ctl`. By default, there is a single double array called `array in`.
+4. Add the required configuration parameters to `Measurement Configuration.ctl`. By default, there is a double array called `array in`.
 
     ![Measurement Configurations ctl](images/Measurement%20Configurations%20ctl.png)
 
-5. Add the required output parameters to `Measurement Results.ctl`. By default, there is a single double array called `array out`.
+5. Add the required output parameters to `Measurement Results.ctl`. By default, there is a double array called `array out`.
 
     ![Measurement Results ctl](images/Measurement%20Results%20ctl.png)
 
