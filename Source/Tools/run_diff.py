@@ -20,7 +20,7 @@ handler.setLevel(logging.DEBUG)
 _logger.addHandler(handler)
 
 
-def run_full_diff(pr_number, token, commit_id):
+def run_full_diff(pr_number, token, commit_id, labview_path, port_number):
     tools_directory = Path(os.path.dirname(__file__))
     source_directory = tools_directory.parent
     repo_root_directory = source_directory.parent
@@ -32,7 +32,7 @@ def run_full_diff(pr_number, token, commit_id):
     diff_vi = os.path.join(tools_directory , "run_diff.vi")
     _logger.debug(f"Launching {diff_vi}.")
 
-    kwargs = ["LabVIEWCLI", "-OperationName", "RunVI", "-VIPath", os.path.normpath(diff_vi), "-LabVIEWPath", "C:\\Program Files\\National Instruments\\LabVIEW 2020\\LabVIEW.exe"]
+    kwargs = ["LabVIEWCLI", "-OperationName", "RunVI", "-VIPath", os.path.normpath(diff_vi), "-LabVIEWPath", labview_path, "-PortNumber", port_number]
     kwargs.extend(["--added_labview_files"])
     kwargs.extend(added_labview_files)
     kwargs.extend(["--modified_labview_files"])
@@ -229,13 +229,13 @@ def get_github_pr_changed_files(pr_number, token):
     "--commit-id",
     help="Commit SHA being diffed against",
 )
-def main(pull_req, token, commit_id):
+def main(pull_req, token, commit_id, labview_path, port_number):
     pr_number = pull_req
 
     if pr_number is not None and token is not None:
         _logger.debug(f"Running for pull request #{pr_number} with provided token.")
 
-    run_full_diff(pr_number, token, commit_id)
+    run_full_diff(pr_number, token, commit_id, labview_path, port_number)
 
     sys.exit(0)
 
