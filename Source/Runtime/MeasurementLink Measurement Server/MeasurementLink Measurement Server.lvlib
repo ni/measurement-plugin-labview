@@ -10,7 +10,7 @@
 	</Item>
 	<Item Name="Build Assets" Type="Folder">
 		<Item Name="Post-Build Action.vi" Type="VI" URL="../Build Assets/Post-Build Action.vi"/>
-		<Item Name="UiType.ctl" Type="VI" URL="../Build Assets/UiType.ctl">
+		<Item Name="User Interface Type.ctl" Type="VI" URL="../Build Assets/User Interface Type.ctl">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 	</Item>
@@ -32,10 +32,10 @@
 		<Item Name="Get Metadata.vi" Type="VI" URL="../Helpers/Get Metadata.vi"/>
 		<Item Name="Get Parameter Information.vi" Type="VI" URL="../Helpers/Get Parameter Information.vi"/>
 		<Item Name="Get Parameters And Check Data Types.vi" Type="VI" URL="../Helpers/Get Parameters And Check Data Types.vi"/>
+		<Item Name="Is Enum Array Control.vi" Type="VI" URL="../Helpers/Is Enum Array Control.vi"/>
+		<Item Name="Is Enum Control.vi" Type="VI" URL="../Helpers/Is Enum Control.vi"/>
 		<Item Name="Is Supported Cluster.vi" Type="VI" URL="../Helpers/Is Supported Cluster.vi"/>
-		<Item Name="IsEnumArrayControl.vi" Type="VI" URL="../Helpers/IsEnumArrayControl.vi"/>
-		<Item Name="IsEnumControl.vi" Type="VI" URL="../Helpers/IsEnumControl.vi"/>
-		<Item Name="LabVIEW datatype to Measurement datatype.vi" Type="VI" URL="../Helpers/LabVIEW datatype to Measurement datatype.vi"/>
+		<Item Name="LabVIEW Data Type to Measurement Data Type.vi" Type="VI" URL="../Helpers/LabVIEW Data Type to Measurement Data Type.vi"/>
 		<Item Name="Register Configuration and Results.vi" Type="VI" URL="../Helpers/Register Configuration and Results.vi"/>
 		<Item Name="Register to Discovery Service.vi" Type="VI" URL="../Helpers/Register to Discovery Service.vi"/>
 		<Item Name="Validate Enum Strings.vi" Type="VI" URL="../Helpers/Validate Enum Strings.vi"/>
@@ -43,16 +43,15 @@
 	</Item>
 	<Item Name="Private TypeDefs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		<Item Name="ConfigurationParameter.ctl" Type="VI" URL="../Helpers/TypeDefs/ConfigurationParameter.ctl"/>
-		<Item Name="GetMetadataResponse.ctl" Type="VI" URL="../Helpers/TypeDefs/GetMetadataResponse.ctl"/>
-		<Item Name="google_protobuf_Field_Kind.ctl" Type="VI" URL="../Helpers/TypeDefs/google_protobuf_Field_Kind.ctl"/>
-		<Item Name="MeasurementSignature.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasurementSignature.ctl"/>
-		<Item Name="MeasureRequest.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasureRequest.ctl"/>
-		<Item Name="MeasureResponse.ctl" Type="VI" URL="../Helpers/TypeDefs/MeasureResponse.ctl"/>
-		<Item Name="OutputParameter.ctl" Type="VI" URL="../Helpers/TypeDefs/OutputParameter.ctl"/>
-		<Item Name="Parameter_AnnotationsEntry.ctl" Type="VI" URL="../Helpers/TypeDefs/Parameter_AnnotationsEntry.ctl"/>
-		<Item Name="PinMapContext.ctl" Type="VI" URL="../Helpers/TypeDefs/PinMapContext.ctl"/>
-		<Item Name="UserInterfaceDetails.ctl" Type="VI" URL="../Helpers/TypeDefs/UserInterfaceDetails.ctl"/>
+		<Item Name="Configuration Parameter.ctl" Type="VI" URL="../Helpers/TypeDefs/Configuration Parameter.ctl"/>
+		<Item Name="Get Metadata Response.ctl" Type="VI" URL="../Helpers/TypeDefs/Get Metadata Response.ctl"/>
+		<Item Name="Google Protobuf Field Kind.ctl" Type="VI" URL="../Helpers/TypeDefs/Google Protobuf Field Kind.ctl"/>
+		<Item Name="Measure Request.ctl" Type="VI" URL="../Helpers/TypeDefs/Measure Request.ctl"/>
+		<Item Name="Measure Response.ctl" Type="VI" URL="../Helpers/TypeDefs/Measure Response.ctl"/>
+		<Item Name="Measurement Signature.ctl" Type="VI" URL="../Helpers/TypeDefs/Measurement Signature.ctl"/>
+		<Item Name="Output Parameter.ctl" Type="VI" URL="../Helpers/TypeDefs/Output Parameter.ctl"/>
+		<Item Name="Parameter Annotations Entry.ctl" Type="VI" URL="../Helpers/TypeDefs/Parameter Annotations Entry.ctl"/>
+		<Item Name="User Interface Details.ctl" Type="VI" URL="../Helpers/TypeDefs/User Interface Details.ctl"/>
 	</Item>
 	<Item Name="Public Helpers" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
@@ -67,6 +66,7 @@
 		<Item Name="Measurement Server User Settings.ctl" Type="VI" URL="../Helpers/TypeDefs/Measurement Server User Settings.ctl"/>
 		<Item Name="Measurement Service Version.ctl" Type="VI" URL="../Helpers/TypeDefs/Measurement Service Version.ctl"/>
 		<Item Name="Parameter Type Specialization.ctl" Type="VI" URL="../Helpers/TypeDefs/Parameter Type Specialization.ctl"/>
+		<Item Name="Pin Map Context.ctl" Type="VI" URL="../Helpers/TypeDefs/Pin Map Context.ctl"/>
 		<Item Name="Stop Server User Event.ctl" Type="VI" URL="../Helpers/TypeDefs/Stop Server User Event.ctl"/>
 		<Item Name="Type Specialization Key.ctl" Type="VI" URL="../Helpers/TypeDefs/Type Specialization Key.ctl"/>
 		<Item Name="Type Specialization.ctl" Type="VI" URL="../Helpers/TypeDefs/Type Specialization.ctl"/>

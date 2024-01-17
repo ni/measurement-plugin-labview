@@ -17,7 +17,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Block Diagram\\Performance\\Arrays and Strings in Loops.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -27,7 +27,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Block Diagram\\Performance\\Coercion Dots.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -47,7 +47,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Block Diagram\\Performance\\In Place Element Structure Usage.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -57,7 +57,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Block Diagram\\Performance\\Inlinable VIs.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -87,7 +87,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Block Diagram\\Performance\\Prepend Scalar With Build Array.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -97,7 +97,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Block Diagram\\Performance\\Redundant Boolean Operations.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -107,7 +107,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Block Diagram\\Performance\\Value Property Usage.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -127,7 +127,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Block Diagram\\Performance\\Wired Terminals in Subdiagrams.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -167,7 +167,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Block Diagram\\Style\\Code Simplification.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -197,7 +197,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Block Diagram\\Style\\Diagram Disable Structures.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -207,7 +207,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Block Diagram\\Style\\Mixed Terminal Styles.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -217,7 +217,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Block Diagram\\Style\\Poor Names of Enum Items.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -227,7 +227,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Block Diagram\\Style\\Sequence Structure Usage.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
@@ -237,7 +237,7 @@
 		<MaxFailures>5</MaxFailures>
 		<BasePath>"LabVIEW"</BasePath>
 		<RelativePath>"project\\_VI Analyzer\\_tests\\Block Diagram\\Style\\String Constant Style.llb"</RelativePath>
-		<Selected>FALSE</Selected>
+		<Selected>TRUE</Selected>
 		<Controls>
 		</Controls>
 	</Test>
