@@ -122,7 +122,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Keysight 34401A DMM Measurement/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3F5784FB-5089-462E-95F4-1CEB878F3474}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{20DB9378-AF06-46D5-A245-4774365C3A16}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Keysight 34401A DMM Measurement.lvlib/Get Measurement Details.vi</Property>
@@ -153,6 +153,9 @@
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Keysight 34401A DMM Measurement.lvlib/Run Service.vi</Property>
+				<Property Name="Source[8].properties[0].type" Type="Str">Window run-time position</Property>
+				<Property Name="Source[8].properties[0].value" Type="Str">Minimized</Property>
+				<Property Name="Source[8].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">9</Property>
