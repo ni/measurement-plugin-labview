@@ -79,6 +79,46 @@
 			<Item Name="FlatToRichni_measurementlink_PinMapContext.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_PinMapContext.vi"/>
 			<Item Name="RichToFlatni_measurementlink_PinMapContext.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_PinMapContext.vi"/>
 		</Item>
+		<Item Name="ni_measurementlink_sessionmanagement_v1_RegisterMultiplexerSessionsRequest" Type="Folder">
+			<Item Name="ni_measurementlink_sessionmanagement_v1_RegisterMultiplexerSessionsRequest.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_sessionmanagement_v1_RegisterMultiplexerSessionsRequest.ctl"/>
+			<Item Name="FlatToRichni_measurementlink_sessionmanagement_v1_RegisterMultiplexerSessionsRequest.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_sessionmanagement_v1_RegisterMultiplexerSessionsRequest.vi"/>
+			<Item Name="RichToFlatni_measurementlink_sessionmanagement_v1_RegisterMultiplexerSessionsRequest.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_sessionmanagement_v1_RegisterMultiplexerSessionsRequest.vi"/>
+		</Item>
+		<Item Name="ni_measurementlink_sessionmanagement_v1_RegisterMultiplexerSessionsResponse" Type="Folder">
+			<Item Name="ni_measurementlink_sessionmanagement_v1_RegisterMultiplexerSessionsResponse.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_sessionmanagement_v1_RegisterMultiplexerSessionsResponse.ctl"/>
+			<Item Name="FlatToRichni_measurementlink_sessionmanagement_v1_RegisterMultiplexerSessionsResponse.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_sessionmanagement_v1_RegisterMultiplexerSessionsResponse.vi"/>
+			<Item Name="RichToFlatni_measurementlink_sessionmanagement_v1_RegisterMultiplexerSessionsResponse.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_sessionmanagement_v1_RegisterMultiplexerSessionsResponse.vi"/>
+		</Item>
+		<Item Name="ni_measurementlink_sessionmanagement_v1_UnregisterMultiplexerSessionsRequest" Type="Folder">
+			<Item Name="ni_measurementlink_sessionmanagement_v1_UnregisterMultiplexerSessionsRequest.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_sessionmanagement_v1_UnregisterMultiplexerSessionsRequest.ctl"/>
+			<Item Name="FlatToRichni_measurementlink_sessionmanagement_v1_UnregisterMultiplexerSessionsRequest.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_sessionmanagement_v1_UnregisterMultiplexerSessionsRequest.vi"/>
+			<Item Name="RichToFlatni_measurementlink_sessionmanagement_v1_UnregisterMultiplexerSessionsRequest.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_sessionmanagement_v1_UnregisterMultiplexerSessionsRequest.vi"/>
+		</Item>
+		<Item Name="ni_measurementlink_sessionmanagement_v1_UnregisterMultiplexerSessionsResponse" Type="Folder">
+			<Item Name="ni_measurementlink_sessionmanagement_v1_UnregisterMultiplexerSessionsResponse.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_sessionmanagement_v1_UnregisterMultiplexerSessionsResponse.ctl"/>
+			<Item Name="FlatToRichni_measurementlink_sessionmanagement_v1_UnregisterMultiplexerSessionsResponse.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_sessionmanagement_v1_UnregisterMultiplexerSessionsResponse.vi"/>
+			<Item Name="RichToFlatni_measurementlink_sessionmanagement_v1_UnregisterMultiplexerSessionsResponse.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_sessionmanagement_v1_UnregisterMultiplexerSessionsResponse.vi"/>
+		</Item>
+		<Item Name="ni_measurementlink_sessionmanagement_v1_GetMultiplexerSessionsRequest" Type="Folder">
+			<Item Name="ni_measurementlink_sessionmanagement_v1_GetMultiplexerSessionsRequest.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_sessionmanagement_v1_GetMultiplexerSessionsRequest.ctl"/>
+			<Item Name="FlatToRichni_measurementlink_sessionmanagement_v1_GetMultiplexerSessionsRequest.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_sessionmanagement_v1_GetMultiplexerSessionsRequest.vi"/>
+			<Item Name="RichToFlatni_measurementlink_sessionmanagement_v1_GetMultiplexerSessionsRequest.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_sessionmanagement_v1_GetMultiplexerSessionsRequest.vi"/>
+		</Item>
+		<Item Name="ni_measurementlink_sessionmanagement_v1_GetMultiplexerSessionsResponse" Type="Folder">
+			<Item Name="ni_measurementlink_sessionmanagement_v1_GetMultiplexerSessionsResponse.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_sessionmanagement_v1_GetMultiplexerSessionsResponse.ctl"/>
+			<Item Name="FlatToRichni_measurementlink_sessionmanagement_v1_GetMultiplexerSessionsResponse.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_sessionmanagement_v1_GetMultiplexerSessionsResponse.vi"/>
+			<Item Name="RichToFlatni_measurementlink_sessionmanagement_v1_GetMultiplexerSessionsResponse.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_sessionmanagement_v1_GetMultiplexerSessionsResponse.vi"/>
+		</Item>
+		<Item Name="ni_measurementlink_sessionmanagement_v1_GetAllRegisteredMultiplexerSessionsRequest" Type="Folder">
+			<Item Name="ni_measurementlink_sessionmanagement_v1_GetAllRegisteredMultiplexerSessionsRequest.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_sessionmanagement_v1_GetAllRegisteredMultiplexerSessionsRequest.ctl"/>
+			<Item Name="FlatToRichni_measurementlink_sessionmanagement_v1_GetAllRegisteredMultiplexerSessionsRequest.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_sessionmanagement_v1_GetAllRegisteredMultiplexerSessionsRequest.vi"/>
+			<Item Name="RichToFlatni_measurementlink_sessionmanagement_v1_GetAllRegisteredMultiplexerSessionsRequest.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_sessionmanagement_v1_GetAllRegisteredMultiplexerSessionsRequest.vi"/>
+		</Item>
+		<Item Name="ni_measurementlink_sessionmanagement_v1_GetAllRegisteredMultiplexerSessionsResponse" Type="Folder">
+			<Item Name="ni_measurementlink_sessionmanagement_v1_GetAllRegisteredMultiplexerSessionsResponse.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_sessionmanagement_v1_GetAllRegisteredMultiplexerSessionsResponse.ctl"/>
+			<Item Name="FlatToRichni_measurementlink_sessionmanagement_v1_GetAllRegisteredMultiplexerSessionsResponse.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_sessionmanagement_v1_GetAllRegisteredMultiplexerSessionsResponse.vi"/>
+			<Item Name="RichToFlatni_measurementlink_sessionmanagement_v1_GetAllRegisteredMultiplexerSessionsResponse.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_sessionmanagement_v1_GetAllRegisteredMultiplexerSessionsResponse.vi"/>
+		</Item>
 		<Item Name="nidevice_grpc_Session" Type="Folder">
 			<Item Name="nidevice_grpc_Session.ctl" Type="VI" URL="../RPC Messages/nidevice_grpc_Session.ctl"/>
 			<Item Name="FlatToRichnidevice_grpc_Session.vi" Type="VI" URL="../RPC Messages/FlatToRichnidevice_grpc_Session.vi"/>
@@ -131,6 +171,30 @@
 		<Item Name="ni_measurementlink_PinMapContext_Flat" Type="Folder">
 			<Item Name="ni_measurementlink_PinMapContext_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_PinMapContext_Flat.ctl"/>
 		</Item>
+		<Item Name="ni_measurementlink_sessionmanagement_v1_RegisterMultiplexerSessionsRequest_Flat" Type="Folder">
+			<Item Name="ni_measurementlink_sessionmanagement_v1_RegisterMultiplexerSessionsRequest_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_sessionmanagement_v1_RegisterMultiplexerSessionsRequest_Flat.ctl"/>
+		</Item>
+		<Item Name="ni_measurementlink_sessionmanagement_v1_RegisterMultiplexerSessionsResponse_Flat" Type="Folder">
+			<Item Name="ni_measurementlink_sessionmanagement_v1_RegisterMultiplexerSessionsResponse_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_sessionmanagement_v1_RegisterMultiplexerSessionsResponse_Flat.ctl"/>
+		</Item>
+		<Item Name="ni_measurementlink_sessionmanagement_v1_UnregisterMultiplexerSessionsRequest_Flat" Type="Folder">
+			<Item Name="ni_measurementlink_sessionmanagement_v1_UnregisterMultiplexerSessionsRequest_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_sessionmanagement_v1_UnregisterMultiplexerSessionsRequest_Flat.ctl"/>
+		</Item>
+		<Item Name="ni_measurementlink_sessionmanagement_v1_UnregisterMultiplexerSessionsResponse_Flat" Type="Folder">
+			<Item Name="ni_measurementlink_sessionmanagement_v1_UnregisterMultiplexerSessionsResponse_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_sessionmanagement_v1_UnregisterMultiplexerSessionsResponse_Flat.ctl"/>
+		</Item>
+		<Item Name="ni_measurementlink_sessionmanagement_v1_GetMultiplexerSessionsRequest_Flat" Type="Folder">
+			<Item Name="ni_measurementlink_sessionmanagement_v1_GetMultiplexerSessionsRequest_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_sessionmanagement_v1_GetMultiplexerSessionsRequest_Flat.ctl"/>
+		</Item>
+		<Item Name="ni_measurementlink_sessionmanagement_v1_GetMultiplexerSessionsResponse_Flat" Type="Folder">
+			<Item Name="ni_measurementlink_sessionmanagement_v1_GetMultiplexerSessionsResponse_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_sessionmanagement_v1_GetMultiplexerSessionsResponse_Flat.ctl"/>
+		</Item>
+		<Item Name="ni_measurementlink_sessionmanagement_v1_GetAllRegisteredMultiplexerSessionsRequest_Flat" Type="Folder">
+			<Item Name="ni_measurementlink_sessionmanagement_v1_GetAllRegisteredMultiplexerSessionsRequest_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_sessionmanagement_v1_GetAllRegisteredMultiplexerSessionsRequest_Flat.ctl"/>
+		</Item>
+		<Item Name="ni_measurementlink_sessionmanagement_v1_GetAllRegisteredMultiplexerSessionsResponse_Flat" Type="Folder">
+			<Item Name="ni_measurementlink_sessionmanagement_v1_GetAllRegisteredMultiplexerSessionsResponse_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_sessionmanagement_v1_GetAllRegisteredMultiplexerSessionsResponse_Flat.ctl"/>
+		</Item>
 		<Item Name="nidevice_grpc_Session_Flat" Type="Folder">
 			<Item Name="nidevice_grpc_Session_Flat.ctl" Type="VI" URL="../RPC Messages/nidevice_grpc_Session_Flat.ctl"/>
 		</Item>
@@ -157,6 +221,18 @@
 			</Item>
 			<Item Name="SessionManagementService ReserveAllRegisteredSessions" Type="Folder">
 				<Item Name="SessionManagementService ReserveAllRegisteredSessions.vi" Type="VI" URL="../RPC Service/SessionManagementService/SessionManagementService ReserveAllRegisteredSessions.vi"/>
+			</Item>
+			<Item Name="SessionManagementService RegisterMultiplexerSessions" Type="Folder">
+				<Item Name="SessionManagementService RegisterMultiplexerSessions.vi" Type="VI" URL="../RPC Service/SessionManagementService/SessionManagementService RegisterMultiplexerSessions.vi"/>
+			</Item>
+			<Item Name="SessionManagementService UnregisterMultiplexerSessions" Type="Folder">
+				<Item Name="SessionManagementService UnregisterMultiplexerSessions.vi" Type="VI" URL="../RPC Service/SessionManagementService/SessionManagementService UnregisterMultiplexerSessions.vi"/>
+			</Item>
+			<Item Name="SessionManagementService GetMultiplexerSessions" Type="Folder">
+				<Item Name="SessionManagementService GetMultiplexerSessions.vi" Type="VI" URL="../RPC Service/SessionManagementService/SessionManagementService GetMultiplexerSessions.vi"/>
+			</Item>
+			<Item Name="SessionManagementService GetAllRegisteredMultiplexerSessions" Type="Folder">
+				<Item Name="SessionManagementService GetAllRegisteredMultiplexerSessions.vi" Type="VI" URL="../RPC Service/SessionManagementService/SessionManagementService GetAllRegisteredMultiplexerSessions.vi"/>
 			</Item>
 		</Item>
 	</Item>
