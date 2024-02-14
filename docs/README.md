@@ -79,7 +79,7 @@ If your user interface has dependencies that are not available in the LabVIEW ru
 Note:
 
 - Additional information can be found in the to-do sections in the code, which can be viewed using the `Bookmark Manager`. You can open it from the `View` → `Bookmark Manager` menu. In this window, you will find the bookmark term `#MeasurementToDo`. Double-clicking on the items will take you to the VI locations where changes need to be made for creating your unique measurement service.
-- Scalars (int, double, uint, sint, string, boolean) and double array are the supported datatypes for the `Configuration` and `Output` parameters of the measurement.
+- A list of supported datatypes for the `Configuration` and `Output` parameters of the measurement can be found in the MeasurementLink manual [here](https://www.ni.com/docs/en-US/bundle/measurementlink/page/supported-datatypes.html)
 
 ---
 
