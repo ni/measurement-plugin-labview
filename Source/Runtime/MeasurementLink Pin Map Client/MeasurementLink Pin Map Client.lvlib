@@ -88,6 +88,16 @@
 			<Item Name="FlatToRichni_measurementlink_pinmap_v1_ChannelMapping.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_pinmap_v1_ChannelMapping.vi"/>
 			<Item Name="RichToFlatni_measurementlink_pinmap_v1_ChannelMapping.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_pinmap_v1_ChannelMapping.vi"/>
 		</Item>
+		<Item Name="ni_measurementlink_pinmap_v1_ResolvedPinsOrRelays" Type="Folder">
+			<Item Name="ni_measurementlink_pinmap_v1_ResolvedPinsOrRelays.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_ResolvedPinsOrRelays.ctl"/>
+			<Item Name="FlatToRichni_measurementlink_pinmap_v1_ResolvedPinsOrRelays.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_pinmap_v1_ResolvedPinsOrRelays.vi"/>
+			<Item Name="RichToFlatni_measurementlink_pinmap_v1_ResolvedPinsOrRelays.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_pinmap_v1_ResolvedPinsOrRelays.vi"/>
+		</Item>
+		<Item Name="ni_measurementlink_pinmap_v1_QueryResourceAccessInformationResponse_GroupMappingsEntry" Type="Folder">
+			<Item Name="ni_measurementlink_pinmap_v1_QueryResourceAccessInformationResponse_GroupMappingsEntry.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_QueryResourceAccessInformationResponse_GroupMappingsEntry.ctl"/>
+			<Item Name="FlatToRichni_measurementlink_pinmap_v1_QueryResourceAccessInformationResponse_GroupMappingsEntry.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_pinmap_v1_QueryResourceAccessInformationResponse_GroupMappingsEntry.vi"/>
+			<Item Name="RichToFlatni_measurementlink_pinmap_v1_QueryResourceAccessInformationResponse_GroupMappingsEntry.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_pinmap_v1_QueryResourceAccessInformationResponse_GroupMappingsEntry.vi"/>
+		</Item>
 		<Item Name="ni_measurementlink_pinmap_v1_PinMap_Flat" Type="Folder">
 			<Item Name="ni_measurementlink_pinmap_v1_PinMap_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_PinMap_Flat.ctl"/>
 		</Item>
@@ -135,6 +145,12 @@
 		</Item>
 		<Item Name="ni_measurementlink_pinmap_v1_ChannelMapping_Flat" Type="Folder">
 			<Item Name="ni_measurementlink_pinmap_v1_ChannelMapping_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_ChannelMapping_Flat.ctl"/>
+		</Item>
+		<Item Name="ni_measurementlink_pinmap_v1_ResolvedPinsOrRelays_Flat" Type="Folder">
+			<Item Name="ni_measurementlink_pinmap_v1_ResolvedPinsOrRelays_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_ResolvedPinsOrRelays_Flat.ctl"/>
+		</Item>
+		<Item Name="ni_measurementlink_pinmap_v1_QueryResourceAccessInformationResponse_GroupMappingsEntry_Flat" Type="Folder">
+			<Item Name="ni_measurementlink_pinmap_v1_QueryResourceAccessInformationResponse_GroupMappingsEntry_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_pinmap_v1_QueryResourceAccessInformationResponse_GroupMappingsEntry_Flat.ctl"/>
 		</Item>
 		<Item Name="Register gRPC Messages.vi" Type="VI" URL="../RPC Messages/Register gRPC Messages.vi"/>
 	</Item>
