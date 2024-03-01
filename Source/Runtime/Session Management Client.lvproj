@@ -66,6 +66,7 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="OneOfTemplate.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/gRPC/gRPC Server and Client Template [2]/Oneof Template/OneOfTemplate.lvclass"/>
 			</Item>
 			<Item Name="MeasurementLink Pin Map Client.lvlib" Type="Library" URL="../MeasurementLink Pin Map Client/MeasurementLink Pin Map Client.lvlib"/>
 			<Item Name="Get Pin Map Service Address.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Runtime/Service Lookup/Get Pin Map Service Address.vi"/>

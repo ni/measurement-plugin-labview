@@ -250,6 +250,15 @@
 				<Item Name="SessionManagementService GetAllRegisteredMultiplexerSessions.vi" Type="VI" URL="../RPC Service/SessionManagementService/SessionManagementService GetAllRegisteredMultiplexerSessions.vi"/>
 			</Item>
 		</Item>
+		<Item Name="Unary UnaryTemplate.vi" Type="VI" URL="../RPC Service/Unary UnaryTemplate.vi"/>
+		<Item Name="Begin ClientStreamTemplate.vi" Type="VI" URL="../RPC Service/Begin ClientStreamTemplate.vi"/>
+		<Item Name="WriteStream ClientStreamTemplate.vi" Type="VI" URL="../RPC Service/WriteStream ClientStreamTemplate.vi"/>
+		<Item Name="End ClientStreamTemplate.vi" Type="VI" URL="../RPC Service/End ClientStreamTemplate.vi"/>
+		<Item Name="Begin ServerStreamTemplate.vi" Type="VI" URL="../RPC Service/Begin ServerStreamTemplate.vi"/>
+		<Item Name="ReadStream ServerStreamTemplate.vi" Type="VI" URL="../RPC Service/ReadStream ServerStreamTemplate.vi"/>
+		<Item Name="End ServerStreamTemplate.vi" Type="VI" URL="../RPC Service/End ServerStreamTemplate.vi"/>
+		<Item Name="Begin BidirectionalStreamTemplate.vi" Type="VI" URL="../RPC Service/Begin BidirectionalStreamTemplate.vi"/>
+		<Item Name="End BidirectionalStreamTemplate.vi" Type="VI" URL="../RPC Service/End BidirectionalStreamTemplate.vi"/>
 	</Item>
 	<Item Name="Client API" Type="Folder">
 		<Item Name="Create Client.vi" Type="VI" URL="../Client API/Create Client.vi"/>
