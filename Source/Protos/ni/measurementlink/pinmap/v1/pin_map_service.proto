@@ -238,6 +238,6 @@ message ChannelMapping {
 }
 
 message ResolvedPinsOrRelays {
-  // List of pin or relay names in the pin or relay group.
-  repeated string pin_or_relay_names = 1;
+    // List of pin or relay names in the pin or relay group.
+    repeated string pin_or_relay_names = 1;
 }
