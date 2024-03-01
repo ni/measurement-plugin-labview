@@ -118,6 +118,11 @@
 			<Item Name="FlatToRichni_measurementlink_sessionmanagement_v1_ResolvedPinsOrRelays.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_sessionmanagement_v1_ResolvedPinsOrRelays.vi"/>
 			<Item Name="RichToFlatni_measurementlink_sessionmanagement_v1_ResolvedPinsOrRelays.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_sessionmanagement_v1_ResolvedPinsOrRelays.vi"/>
 		</Item>
+		<Item Name="ni_measurementlink_sessionmanagement_v1_ReserveSessionsResponse_GroupMappingsEntry" Type="Folder">
+			<Item Name="ni_measurementlink_sessionmanagement_v1_ReserveSessionsResponse_GroupMappingsEntry.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_sessionmanagement_v1_ReserveSessionsResponse_GroupMappingsEntry.ctl"/>
+			<Item Name="FlatToRichni_measurementlink_sessionmanagement_v1_ReserveSessionsResponse_GroupMappingsEntry.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_sessionmanagement_v1_ReserveSessionsResponse_GroupMappingsEntry.vi"/>
+			<Item Name="RichToFlatni_measurementlink_sessionmanagement_v1_ReserveSessionsResponse_GroupMappingsEntry.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_sessionmanagement_v1_ReserveSessionsResponse_GroupMappingsEntry.vi"/>
+		</Item>
 		<Item Name="ni_measurementlink_PinMapContext" Type="Folder">
 			<Item Name="ni_measurementlink_PinMapContext.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_PinMapContext.ctl"/>
 			<Item Name="FlatToRichni_measurementlink_PinMapContext.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_PinMapContext.vi"/>
@@ -127,11 +132,6 @@
 			<Item Name="nidevice_grpc_Session.ctl" Type="VI" URL="../RPC Messages/nidevice_grpc_Session.ctl"/>
 			<Item Name="FlatToRichnidevice_grpc_Session.vi" Type="VI" URL="../RPC Messages/FlatToRichnidevice_grpc_Session.vi"/>
 			<Item Name="RichToFlatnidevice_grpc_Session.vi" Type="VI" URL="../RPC Messages/RichToFlatnidevice_grpc_Session.vi"/>
-		</Item>
-		<Item Name="ni_measurementlink_sessionmanagement_v1_ReserveSessionsResponse_GroupMappingsEntry" Type="Folder">
-			<Item Name="ni_measurementlink_sessionmanagement_v1_ReserveSessionsResponse_GroupMappingsEntry.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_sessionmanagement_v1_ReserveSessionsResponse_GroupMappingsEntry.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_sessionmanagement_v1_ReserveSessionsResponse_GroupMappingsEntry.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_sessionmanagement_v1_ReserveSessionsResponse_GroupMappingsEntry.vi"/>
-			<Item Name="RichToFlatni_measurementlink_sessionmanagement_v1_ReserveSessionsResponse_GroupMappingsEntry.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_sessionmanagement_v1_ReserveSessionsResponse_GroupMappingsEntry.vi"/>
 		</Item>
 		<Item Name="nidevice_grpc_SessionInitializationBehavior" Type="Folder">
 			<Item Name="nidevice_grpc_SessionInitializationBehavior.ctl" Type="VI" URL="../RPC Messages/nidevice_grpc_SessionInitializationBehavior.ctl"/>
@@ -204,14 +204,14 @@
 		<Item Name="ni_measurementlink_sessionmanagement_v1_ResolvedPinsOrRelays_Flat" Type="Folder">
 			<Item Name="ni_measurementlink_sessionmanagement_v1_ResolvedPinsOrRelays_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_sessionmanagement_v1_ResolvedPinsOrRelays_Flat.ctl"/>
 		</Item>
+		<Item Name="ni_measurementlink_sessionmanagement_v1_ReserveSessionsResponse_GroupMappingsEntry_Flat" Type="Folder">
+			<Item Name="ni_measurementlink_sessionmanagement_v1_ReserveSessionsResponse_GroupMappingsEntry_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_sessionmanagement_v1_ReserveSessionsResponse_GroupMappingsEntry_Flat.ctl"/>
+		</Item>
 		<Item Name="ni_measurementlink_PinMapContext_Flat" Type="Folder">
 			<Item Name="ni_measurementlink_PinMapContext_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_PinMapContext_Flat.ctl"/>
 		</Item>
 		<Item Name="nidevice_grpc_Session_Flat" Type="Folder">
 			<Item Name="nidevice_grpc_Session_Flat.ctl" Type="VI" URL="../RPC Messages/nidevice_grpc_Session_Flat.ctl"/>
-		</Item>
-		<Item Name="ni_measurementlink_sessionmanagement_v1_ReserveSessionsResponse_GroupMappingsEntry_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_sessionmanagement_v1_ReserveSessionsResponse_GroupMappingsEntry_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_sessionmanagement_v1_ReserveSessionsResponse_GroupMappingsEntry_Flat.ctl"/>
 		</Item>
 		<Item Name="nidevice_grpc_SessionInitializationBehavior_Flat" Type="Folder">
 			<Item Name="nidevice_grpc_SessionInitializationBehavior_Flat.ctl" Type="VI" URL="../RPC Messages/nidevice_grpc_SessionInitializationBehavior_Flat.ctl"/>
@@ -250,15 +250,6 @@
 				<Item Name="SessionManagementService GetAllRegisteredMultiplexerSessions.vi" Type="VI" URL="../RPC Service/SessionManagementService/SessionManagementService GetAllRegisteredMultiplexerSessions.vi"/>
 			</Item>
 		</Item>
-		<Item Name="Unary UnaryTemplate.vi" Type="VI" URL="../RPC Service/Unary UnaryTemplate.vi"/>
-		<Item Name="Begin ClientStreamTemplate.vi" Type="VI" URL="../RPC Service/Begin ClientStreamTemplate.vi"/>
-		<Item Name="WriteStream ClientStreamTemplate.vi" Type="VI" URL="../RPC Service/WriteStream ClientStreamTemplate.vi"/>
-		<Item Name="End ClientStreamTemplate.vi" Type="VI" URL="../RPC Service/End ClientStreamTemplate.vi"/>
-		<Item Name="Begin ServerStreamTemplate.vi" Type="VI" URL="../RPC Service/Begin ServerStreamTemplate.vi"/>
-		<Item Name="ReadStream ServerStreamTemplate.vi" Type="VI" URL="../RPC Service/ReadStream ServerStreamTemplate.vi"/>
-		<Item Name="End ServerStreamTemplate.vi" Type="VI" URL="../RPC Service/End ServerStreamTemplate.vi"/>
-		<Item Name="Begin BidirectionalStreamTemplate.vi" Type="VI" URL="../RPC Service/Begin BidirectionalStreamTemplate.vi"/>
-		<Item Name="End BidirectionalStreamTemplate.vi" Type="VI" URL="../RPC Service/End BidirectionalStreamTemplate.vi"/>
 	</Item>
 	<Item Name="Client API" Type="Folder">
 		<Item Name="Create Client.vi" Type="VI" URL="../Client API/Create Client.vi"/>
