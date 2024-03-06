@@ -179,6 +179,8 @@
 			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
 			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
 			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
+			<Item Name="test_OneSessOnePinGroupOneInstrOneSiteReservation_CallNiDcPowerGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_OneSessOnePinGroupOneInstrOneSiteReservation_CallNiDcPowerGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
+			<Item Name="test_OneSessOnePinGroupWithMorePinsOneInstrOneSiteReservation_CallNiDcPowerGetConnections1Pin1Connections_ReturnsError.vi" Type="VI" URL="../Get Connections/test_OneSessOnePinGroupWithMorePinsOneInstrOneSiteReservation_CallNiDcPowerGetConnections1Pin1Connections_ReturnsError.vi"/>
 		</Item>
 		<Item Name="niDigital" Type="Folder">
 			<Item Name="test_OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
@@ -212,6 +214,7 @@
 			<Item Name="Three Session Two Pins Three Instrument Two Sites - DMM.vi" Type="VI" URL="../Get Connections/Test Inputs/Three Session Two Pins Three Instrument Two Sites - DMM.vi"/>
 			<Item Name="One Session Two Pins One Instrument One Site with System Pin.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument One Site with System Pin.vi"/>
 			<Item Name="One Session Two Pins One Instrument Two Sites - VISA.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session Two Pins One Instrument Two Sites - VISA.vi"/>
+			<Item Name="One Session One Pin Group One Instrument One Site - DCPower.vi" Type="VI" URL="../Get Connections/Test Inputs/One Session One Pin Group One Instrument One Site - DCPower.vi"/>
 		</Item>
 		<Item Name="VISA" Type="Folder">
 			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_VISAGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_VISAGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
