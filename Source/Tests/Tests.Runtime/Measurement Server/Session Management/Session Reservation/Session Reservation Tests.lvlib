@@ -12,6 +12,13 @@
 	<Item Name="Client Wrapper Tests" Type="Folder">
 		<Item Name="test_SessionManagerWrapper_StopSessionManagementService_WrapperMethodsWorkWithoutError.vi" Type="VI" URL="../test_SessionManagerWrapper_StopSessionManagementService_WrapperMethodsWorkWithoutError.vi"/>
 	</Item>
+	<Item Name="Pin Group" Type="Folder">
+		<Item Name="test_ReserveSessionForPin_ReceiveEmptyGroupMappingInformation.vi" Type="VI" URL="../test_ReserveSessionForPin_ReceiveEmptyGroupMappingInformation.vi"/>
+		<Item Name="test_ReserveSessionForPinGroup_ReceiveGroupMappingInformation.vi" Type="VI" URL="../test_ReserveSessionForPinGroup_ReceiveGroupMappingInformation.vi"/>
+		<Item Name="test_ReserveSessionForPinGroup_ReserveSuccessForPinsInGroup.vi" Type="VI" URL="../test_ReserveSessionForPinGroup_ReserveSuccessForPinsInGroup.vi"/>
+		<Item Name="test_ReserveSessionForPinGroupAndPin_ReserveSuccessForPinsInGroupAndPins.vi" Type="VI" URL="../test_ReserveSessionForPinGroupAndPin_ReserveSuccessForPinsInGroupAndPins.vi"/>
+		<Item Name="test_ReserveSessionForPinGroupAndPinInSameGroup_ReserveSuccessForNonDuplicatePins.vi" Type="VI" URL="../test_ReserveSessionForPinGroupAndPinInSameGroup_ReserveSuccessForNonDuplicatePins.vi"/>
+	</Item>
 	<Item Name="Assert All Sessions Exist.vi" Type="VI" URL="../Assert All Sessions Exist.vi"/>
 	<Item Name="Assert Session Count.vi" Type="VI" URL="../Assert Session Count.vi"/>
 	<Item Name="Assert Session Reservation Session Count.vi" Type="VI" URL="../Assert Session Reservation Session Count.vi"/>

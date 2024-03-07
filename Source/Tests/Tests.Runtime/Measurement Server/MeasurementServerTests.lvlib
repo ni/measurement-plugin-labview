@@ -176,11 +176,13 @@
 			<Item Name="test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsWithNoMatchingConnections_ReturnsError.vi" Type="VI" URL="../Get Connections/test_ThreeSessThreePinTwoInstrTwoSiteReservation_CallGetConnectionsFromPinsWithNoMatchingConnections_ReturnsError.vi"/>
 		</Item>
 		<Item Name="niDCPower" Type="Folder">
+			<Item Name="Pin Groups" Type="Folder">
+				<Item Name="test_OneSessOnePinGroupOneInstrOneSiteReservation_CallNiDcPowerGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_OneSessOnePinGroupOneInstrOneSiteReservation_CallNiDcPowerGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
+				<Item Name="test_OneSessOnePinGroupWithMorePinsOneInstrOneSiteReservation_CallNiDcPowerGetConnections1Pin1Connections_ReturnsError.vi" Type="VI" URL="../Get Connections/test_OneSessOnePinGroupWithMorePinsOneInstrOneSiteReservation_CallNiDcPowerGetConnections1Pin1Connections_ReturnsError.vi"/>
+			</Item>
 			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
 			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
 			<Item Name="test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrOneSiteReservation_CallNiDcPowerGetConnectionsNPinsMConnections_ReturnsThreeConnections.vi"/>
-			<Item Name="test_OneSessOnePinGroupOneInstrOneSiteReservation_CallNiDcPowerGetConnections1PinMConnections_ReturnsTwoConnections.vi" Type="VI" URL="../Get Connections/test_OneSessOnePinGroupOneInstrOneSiteReservation_CallNiDcPowerGetConnections1PinMConnections_ReturnsTwoConnections.vi"/>
-			<Item Name="test_OneSessOnePinGroupWithMorePinsOneInstrOneSiteReservation_CallNiDcPowerGetConnections1Pin1Connections_ReturnsError.vi" Type="VI" URL="../Get Connections/test_OneSessOnePinGroupWithMorePinsOneInstrOneSiteReservation_CallNiDcPowerGetConnections1Pin1Connections_ReturnsError.vi"/>
 		</Item>
 		<Item Name="niDigital" Type="Folder">
 			<Item Name="test_OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnections1Pin1Connection_ReturnsOneConnection.vi" Type="VI" URL="../Get Connections/test_OneSessTwoPinOneInstrTwoSiteReservation_CallNiDigitalGetConnections1Pin1Connection_ReturnsOneConnection.vi"/>
