@@ -13,11 +13,12 @@
 		<Item Name="test_SessionManagerWrapper_StopSessionManagementService_WrapperMethodsWorkWithoutError.vi" Type="VI" URL="../test_SessionManagerWrapper_StopSessionManagementService_WrapperMethodsWorkWithoutError.vi"/>
 	</Item>
 	<Item Name="Pin Group" Type="Folder">
-		<Item Name="test_ReserveSessionForPin_ReceiveEmptyGroupMappingInformation.vi" Type="VI" URL="../test_ReserveSessionForPin_ReceiveEmptyGroupMappingInformation.vi"/>
-		<Item Name="test_ReserveSessionForPinGroup_ReceiveGroupMappingInformation.vi" Type="VI" URL="../test_ReserveSessionForPinGroup_ReceiveGroupMappingInformation.vi"/>
-		<Item Name="test_ReserveSessionForPinGroup_ReserveSuccessForPinsInGroup.vi" Type="VI" URL="../test_ReserveSessionForPinGroup_ReserveSuccessForPinsInGroup.vi"/>
-		<Item Name="test_ReserveSessionForPinGroupAndPin_ReserveSuccessForPinsInGroupAndPins.vi" Type="VI" URL="../test_ReserveSessionForPinGroupAndPin_ReserveSuccessForPinsInGroupAndPins.vi"/>
-		<Item Name="test_ReserveSessionForPinGroupAndPinInSameGroup_ReserveSuccessForNonDuplicatePins.vi" Type="VI" URL="../test_ReserveSessionForPinGroupAndPinInSameGroup_ReserveSuccessForNonDuplicatePins.vi"/>
+		<Item Name="test_PinGroup_ReserveSessions_GroupMappingsContainsPinGroup.vi" Type="VI" URL="../test_PinGroup_ReserveSessions_GroupMappingsContainsPinGroup.vi"/>
+		<Item Name="test_PinGroup_ReserveSessions_ChannelMappingsContainsAllPinsFromPinGroup.vi" Type="VI" URL="../test_PinGroup_ReserveSessions_ChannelMappingsContainsAllPinsFromPinGroup.vi"/>
+		<Item Name="test_PinAndPinGroupContainingSamePin_ReserveSessions_ChannelMappingsDoesNotContainDuplicatePins.vi" Type="VI" URL="../test_PinAndPinGroupContainingSamePin_ReserveSessions_ChannelMappingsDoesNotContainDuplicatePins.vi"/>
+	</Item>
+	<Item Name="TestAssests" Type="Folder">
+		<Item Name="PinGroupSupport-NIDCPowerSourceDCVoltage.pinmap" Type="Document" URL="../TestAssets/PinGroupSupport-NIDCPowerSourceDCVoltage.pinmap"/>
 	</Item>
 	<Item Name="Assert All Sessions Exist.vi" Type="VI" URL="../Assert All Sessions Exist.vi"/>
 	<Item Name="Assert Session Count.vi" Type="VI" URL="../Assert Session Count.vi"/>
