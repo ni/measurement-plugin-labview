@@ -30,8 +30,8 @@
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>MeasurementLink Generator.vipc</VI_Package_Configuration_File>
     <Description>
-      <One_Line_Description_Summary>Contains a tool which generates a plugin template</One_Line_Description_Summary>
-      <Description>Contains a tool which generates a measurementlink plugin template.  Accessable from the LabVIEW tools menu.</Description>
+      <One_Line_Description_Summary>Provides tooling for creating MeasurementLink measurements from a template.</One_Line_Description_Summary>
+      <Description>This package provides tooling for creating MeasurementLink measurements from a template project. The template project contains build specs for building the measurement along with TODO notes indicating where custom code to implement the measurement will typically need to be inserted. The generator can be accessed from the LabVIEW Tools menu.</Description>
       <Copyright/>
       <Packager>NI</Packager>
       <URL>https://github.com/ni/measurementlink-labview</URL>

@@ -31,8 +31,8 @@
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>MeasurementLink Service.vipc</VI_Package_Configuration_File>
     <Description>
-      <One_Line_Description_Summary>Contains the VIs needed to development measurements</One_Line_Description_Summary>
-      <Description>Contains the VIs needed to development measurements</Description>
+      <One_Line_Description_Summary>Provides runtime libraries needed to edit and run MeasurementLink measurements.</One_Line_Description_Summary>
+      <Description>This package provides libraries and APIs that simplify implementing and running MeasurementLink measurements. The APIs can be found under the "Measurement I/O -> MeasurementLink" category on the functions palette.</Description>
       <Copyright/>
       <Packager>NI</Packager>
       <URL>https://github.com/ni/measurementlink-labview</URL>
