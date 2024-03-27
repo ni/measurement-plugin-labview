@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="5823C85F2DA51BBF1EF770E1B3724A48FD2FD9BA3B519FAD974AF5A47684EC5990DA7070D132E51B46BD660505DD2472D797C30F69EF848CF037052F630AE99E" Timestamp="1DA7EDF16ECD722" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="D4D0C462BEF7BF74D59EE886429E8CCF9D29E4B5B536D53AD92AD39583617CA67AA609D2BE03E64F99D2A0A3D2C5DE829C95F3AEF108731FA6CA4EC68C6CF94E" Timestamp="1DA7F68436E59AA" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.12.0.1497" FeatureSetName="Configuration Based Software Core" Name="http://www.ni.com/ConfigurationBasedSoftware.Core" OldestCompatibleVersion="6.3.0.49152" Version="9.8.1.49152" />
 		<ParsableNamespace AssemblyFileVersion="24.3.0.1497" FeatureSetName="UnifiedTask" Name="http://www.ni.com/InstrumentFramework/Document/SourceModel/UnifiedSoftFrontPanel" Version="1.0.0.0" />
@@ -12,7 +12,7 @@
 		<EnvoyManagerRootEnvoy Id="6f397f2a4c3c48a180f39d270d7dca05" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
 		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="65a7887aa3974fbe8938b4e3cd0c75d5" Name="DmmMeasurement.sfp" NameTracksFileName="True" />
 		<EmbeddedDefinitionReference Id="a680993f45724f5fbd290f4888f4201d" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/ScreenDocument}Screen" Name="{http\://www.ni.com/InstrumentFramework/ScreenDocument}Screen_2.task">
-			<Screen ClientId="{0632a9d0-1d25-41b4-b34e-dde6ac1efe03}" ConfigurationParameters="{&quot;@type&quot;:&quot;type.googleapis.com/ConfigurationParameter&quot;,&quot;pinName&quot;:&quot;Pin1&quot;,&quot;range&quot;:10.0,&quot;measurement type&quot;:0,&quot;resolution in digits&quot;:2}" DisplayName="NI-DMM Measurement (LabVIEW)" Id="ede6d5423e0a4055bae9e345802fb317" PanelPresentation="ConfigurationWithVisualization" ServiceClass="ni.examples.NIDmmMeasurement_LabVIEW" xmlns="http://www.ni.com/InstrumentFramework/ScreenDocument">
+			<Screen ClientId="{8139de88-4477-4381-a1de-5a06dadbbe66}" ConfigurationParameters="{&quot;@type&quot;:&quot;type.googleapis.com/ConfigurationParameter&quot;,&quot;pinName&quot;:&quot;Pin1&quot;,&quot;range&quot;:10.0,&quot;measurement type&quot;:0,&quot;resolution in digits&quot;:2}" DisplayName="NI-DMM Measurement (LabVIEW)" Id="ede6d5423e0a4055bae9e345802fb317" PanelPresentation="ConfigurationWithVisualization" ServiceClass="ni.examples.NIDmmMeasurement_LabVIEW" xmlns="http://www.ni.com/InstrumentFramework/ScreenDocument">
 				<ScreenSurface BackgroundColor="[SMSolidColorBrush]#ffffffff" Height="[float]400" Id="22b3f2aedc5c439ab1de1d9f40449437" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]800" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core" />
 			</Screen>
 		</EmbeddedDefinitionReference>
