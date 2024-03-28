@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="2822708A41326106E953BD985B47CB780FD3F2958839FF36C024BDACCB34CB75DEA3FB514DCE4073AE27A4287F8B43A3CFB9D8F404A118390AC31A6CAAD61AD2" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="1434F2C56763EB8E20C2C7D860A969DCE5808D5D007E22ED0B8AC95A86B94C4E73A1DFE521B7D8B4B531AFB0CDD17EFB51B2718CD1EC7993D2E59940973FB82B" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="23.8.0.1886" FeatureSetName="Pin Map" Name="http://www.ni.com/InstrumentFramework/PinMap" OldestCompatibleVersion="21.3.0.0" Version="21.3.0.0" />
-		<ParsableNamespace AssemblyFileVersion="9.10.0.1886" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
-		<ApplicationVersionInfo Build="23.8.0.1886" Name="InstrumentStudio" PersistenceVersion="22.1.0.0" Version="23.8.0.1886" />
+		<ParsableNamespace AssemblyFileVersion="24.0.0.49505" FeatureSetName="Pin Map" Name="http://www.ni.com/InstrumentFramework/PinMap" OldestCompatibleVersion="21.3.0.0" Version="21.3.0.0" />
+		<ParsableNamespace AssemblyFileVersion="9.11.0.49505" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="24.0.0.49505" Name="InstrumentStudio" PersistenceVersion="22.1.0.0" Version="24.0.0.49505" />
 	</SourceModelFeatureSet>
 	<Project xmlns="http://www.ni.com/PlatformFramework">
 		<EnvoyManagerRootEnvoy Id="736390d4acb7488497c6109883446e81" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
@@ -12,8 +12,8 @@
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="8baea853190942178dea15b0ac766676" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
 			<DefaultTarget />
-			<SourceFileReference Bindings="EnvoyManager" Id="e0caf09b5296440799e2e445aa7fe573" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="NIScopeAcquireWaveform.sfp" StoragePath="NIScopeAcquireWaveform.sfp" />
 			<FileReference Id="db481ab50bdc4e91a49cc318e2a55cef" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/PinMap}PinMapDefinition" Name="NIScopeAcquireWaveform.pinmap" StoragePath="NIScopeAcquireWaveform.pinmap" p4:IsActive="True" xmlns:p4="http://www.ni.com/InstrumentFramework/PinMap" />
+			<SourceFileReference Bindings="EnvoyManager" Id="ea0f8ea088b649dbad72ff0a0e995c5d" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="NIScopeAcquireWaveform.sfp" StoragePath="NIScopeAcquireWaveform.sfp" />
 		</NameScopingEnvoy>
 	</Project>
 	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
