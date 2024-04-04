@@ -35,10 +35,10 @@ This example requires :
 - Requires an HP/Agilent/Keysight 34401A or compatible DMM.
 
 By default, the pin map included with this example uses the resource name
-`GPIB0::22::INSTR`, which matches the 34401A's factory default address when
+`VISA-DMM`, which matches the 34401A's factory default address when
 connected via GPIB. If this doesn't match your configuration, edit [`Keysight
 34401A DMM Measurement.pinmap`](./Keysight 34401A DMM Measurement.pinmap) and
-replace `GPIB0::22::INSTR` with the desired resource name (e.g. `ASRL1::INSTR`
+replace `VISA-DMM` with the desired resource name (e.g. `ASRL1::INSTR`
 or a custom alias).
 
 ### To simulate NI or Keysight DMM in software
@@ -55,7 +55,7 @@ We can either simulate through Virtual COM port or VISA-TCP\IP port.
 
 - VISA-TCP\IP simulation:
   
-  - Run the `DMM Measurement\DmmMeasurement\HAL\AbstractDMM\Keysight_34401A-DMM\SubVI\Simulate_Keysight_34401a_TCP.vi` with port `50000` and desired timeout in ms.
+  - Run the `DMM Measurement\DmmMeasurement\HAL\Abstract_Instrument\Keysight_34401A-DMM\SubVI\Simulate_Keysight_34401a_TCP.vi` with port `50000` and desired timeout in ms.
   - Open `NI-Max` application.
   - Create a new `VISA TCP/IP Resource` under `Devices and Interfaces -> NetworkDevices`.
   - Select `manual entry of raw socket` and click next
@@ -66,6 +66,6 @@ We can either simulate through Virtual COM port or VISA-TCP\IP port.
 
 - Virtual COM port simulation:
   - Create a `virtual com port pair` called `COM1 and COM2` using the virtual port drivers available online.
-  - Now run the `DMM Measurement\DmmMeasurement\HAL\AbstractDMM\Keysight_34401A-DMM\SubVI\Simulate_Keysight_34401a.vi` to simulate the responses.
+  - Now run the `DMM Measurement\DmmMeasurement\HAL\Abstract_Instrument\Keysight_34401A-DMM\SubVI\Simulate_Keysight_34401a.vi` to simulate the responses.
   - Select `COM2` in this vi before running.
   - In map change the custom instrument name to `COM1`
