@@ -12,10 +12,10 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="HAL" Type="Folder">
-			<Item Name="Keysight 34401A DMM Instrument.lvlib" Type="Library" URL="../DmmMeasurement/HAL/AbstractDMM/Keysight_34401A-DMM/Keysight 34401A DMM Instrument.lvlib"/>
-			<Item Name="AbstractDMM.lvlib" Type="Library" URL="../DmmMeasurement/HAL/AbstractDMM/Base/AbstractDMM.lvlib"/>
+			<Item Name="Abstract_Instrument.lvlib" Type="Library" URL="../DmmMeasurement/HAL/Abstract_Instrument/Base/Abstract_Instrument.lvlib"/>
 			<Item Name="DMMFactory.lvlib" Type="Library" URL="../DmmMeasurement/HAL/DMMFactory/DMMFactory.lvlib"/>
 		</Item>
+		<Item Name="MeasurementLink niDMM.lvlib" Type="Library" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink niDMM/MeasurementLink niDMM.lvlib"/>
 		<Item Name="DmmMeasurement.lvlib" Type="Library" URL="../DmmMeasurement/DmmMeasurement.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
@@ -80,7 +80,6 @@
 				<Item Name="MeasurementLink Measurement Server Internal.lvlib" Type="Library" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server Internal/MeasurementLink Measurement Server Internal.lvlib"/>
 				<Item Name="MeasurementLink Measurement Server.lvlib" Type="Library" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Server/MeasurementLink Measurement Server.lvlib"/>
 				<Item Name="MeasurementLink Measurement Service Base V2.lvlib" Type="Library" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Measurement Service Base V2/MeasurementLink Measurement Service Base V2.lvlib"/>
-				<Item Name="MeasurementLink niDMM.lvlib" Type="Library" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink niDMM/MeasurementLink niDMM.lvlib"/>
 				<Item Name="MeasurementLink Session Management Client.lvlib" Type="Library" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Session Management Client/MeasurementLink Session Management Client.lvlib"/>
 				<Item Name="MeasurementLink TestStand Integration.lvlib" Type="Library" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink TestStand Integration/MeasurementLink TestStand Integration.lvlib"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
