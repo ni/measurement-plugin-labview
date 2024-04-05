@@ -10,7 +10,12 @@
 </Property>
 	<Item Name="RPC Messages" Type="Folder">
 		<Item Name="ni_protobuf_types_DoubleXYData" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="ni_protobuf_types_DoubleAnalogWaveform.ctl" Type="VI" URL="../RPC Messages/ni_protobuf_types_DoubleAnalogWaveform.ctl"/>
+			<Item Name="ni_protobuf_types_DoubleAnalogWaveform_AttributesEntry.ctl" Type="VI" URL="../RPC Messages/ni_protobuf_types_DoubleAnalogWaveform_AttributesEntry.ctl"/>
 			<Item Name="ni_protobuf_types_DoubleXYData.ctl" Type="VI" URL="../RPC Messages/ni_protobuf_types_DoubleXYData.ctl"/>
+			<Item Name="ni_protobuf_types_PrecisionTimestamp.ctl" Type="VI" URL="../RPC Messages/ni_protobuf_types_PrecisionTimestamp.ctl"/>
+			<Item Name="ni_protobuf_types_WaveformAttributeValue.ctl" Type="VI" URL="../RPC Messages/ni_protobuf_types_WaveformAttributeValue.ctl"/>
 		</Item>
 	</Item>
 </Library>

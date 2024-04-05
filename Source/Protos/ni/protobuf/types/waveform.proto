@@ -1,0 +1,64 @@
+//---------------------------------------------------------------------
+//---------------------------------------------------------------------
+syntax = "proto3";
+
+//---------------------------------------------------------------------
+//---------------------------------------------------------------------
+package ni.protobuf.types;
+
+import "ni/protobuf/types/precision_timestamp.proto";
+
+//---------------------------------------------------------------------
+//---------------------------------------------------------------------
+option csharp_namespace = "NationalInstruments.Protobuf.Types";
+option go_package = "types";
+option java_multiple_files = true;
+option java_outer_classname = "WaveformProto";
+option java_package = "com.ni.protobuf.types";
+option objc_class_prefix = "NIPT";
+option php_namespace = "NI\\PROTOBUF\\TYPES";
+option ruby_package = "NI::Protobuf::Types";
+
+// DoubleAnalogWaveform datatype.
+message DoubleAnalogWaveform
+{
+  // The trigger time of the waveform.
+  PrecisionTimestamp t0 = 1;
+
+  // The time interval in seconds between data points in the waveform.
+  double dt = 2;
+
+  // The data values of the waveform.
+  repeated double y_data = 3;
+
+  // The names and values of all waveform attributes.
+  // A waveform attribute is metadata attached to a waveform.
+  // It is represented in this message as a map associating the name of the attribute with the value described by WaveformAttributeValue.
+  // The NI-DAQmx driver sets the following string attributes:
+  // NI_ChannelName: the name of the virtual channel producing the waveform.
+  // NI_LineNames: the name of the digital line in the waveform.
+  // NI_UnitDescription: the units of measure for the waveform.
+  // NI_dBReference: the reference value to use when converting measurement levels to decibel.
+  // For additional information on waveform attributes, please visit https://www.ni.com/docs/en-US/bundle/labview-api-ref/page/functions/get-waveform-attribute.html
+  map<string, WaveformAttributeValue> attributes = 4;
+}
+
+// Waveform Attribute Value
+message WaveformAttributeValue
+{
+  // The kind of attribute value.
+  oneof attribute
+  {
+    // Represents a bool attribute.
+    bool bool_value = 1;
+
+    // Represents an integer attribute.
+    int32 integer_value = 2;
+
+    // Represents a double attribute.
+    double double_value = 3;
+
+    // Represents a string attribute.
+    string string_value = 4;
+  }
+}
