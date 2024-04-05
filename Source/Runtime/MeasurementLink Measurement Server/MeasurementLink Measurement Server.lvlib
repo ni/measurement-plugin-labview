@@ -18,7 +18,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Add JSON Name Value Pair.vim" Type="VI" URL="../Helpers/Add JSON Name Value Pair.vim"/>
-		<Item Name="Check For Latched Booleans.vi" Type="VI" URL="../Check For Latched Booleans.vi"/>
+		<Item Name="Check For Latched Booleans.vi" Type="VI" URL="../Helpers/Check For Latched Booleans.vi"/>
 		<Item Name="Copy UI Files Into Destination.vi" Type="VI" URL="../Helpers/Copy UI Files Into Destination.vi"/>
 		<Item Name="Create Enum Type Specialization.vi" Type="VI" URL="../Helpers/Create Enum Type Specialization.vi"/>
 		<Item Name="Create Measurement Services.vi" Type="VI" URL="../Helpers/Create Measurement Services.vi"/>
@@ -36,12 +36,14 @@
 		<Item Name="Get Parameters And Check Data Types.vi" Type="VI" URL="../Helpers/Get Parameters And Check Data Types.vi"/>
 		<Item Name="Is Enum Array Control.vi" Type="VI" URL="../Helpers/Is Enum Array Control.vi"/>
 		<Item Name="Is Enum Control.vi" Type="VI" URL="../Helpers/Is Enum Control.vi"/>
+		<Item Name="Is Latched Boolean.vi" Type="VI" URL="../Helpers/Is Latched Boolean.vi"/>
 		<Item Name="Is Supported Cluster.vi" Type="VI" URL="../Helpers/Is Supported Cluster.vi"/>
 		<Item Name="LabVIEW Data Type to Measurement Data Type.vi" Type="VI" URL="../Helpers/LabVIEW Data Type to Measurement Data Type.vi"/>
 		<Item Name="Register Configuration and Results.vi" Type="VI" URL="../Helpers/Register Configuration and Results.vi"/>
 		<Item Name="Register to Discovery Service.vi" Type="VI" URL="../Helpers/Register to Discovery Service.vi"/>
 		<Item Name="Validate Enum Strings.vi" Type="VI" URL="../Helpers/Validate Enum Strings.vi"/>
 		<Item Name="Validate Metadata.vi" Type="VI" URL="../Helpers/Validate Metadata.vi"/>
+		<Item Name="Validate Parameters.vi" Type="VI" URL="../Helpers/Validate Parameters.vi"/>
 	</Item>
 	<Item Name="Private TypeDefs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
