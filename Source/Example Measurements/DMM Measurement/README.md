@@ -2,7 +2,7 @@
 
 This is a MeasurementLink example that acquires a single measurement from either NI-DMM or Keysight_34401A DMM.
 
-Select the Pin name as Pin1 to acquire from NI-DMM or select Pin2 to acquire from Keysight_34401A-DMM.
+Select the Pin name as Pin1 to measure from NI-DMM or select Pin2 to measure from Keysight_34401A-DMM.
 Select the measurement function and range.
 Specify the resolution in digits of precision.
   The measured value will be displayed in the Measurement indicator.
@@ -35,9 +35,7 @@ This example requires :
 - Requires an HP/Agilent/Keysight 34401A or compatible DMM.
 
 By default, the pin map included with this example uses the resource name
-`VISA-DMM`, which matches the 34401A's factory default address when
-connected via GPIB. If this doesn't match your configuration, edit [`Keysight
-34401A DMM Measurement.pinmap`](./Keysight 34401A DMM Measurement.pinmap) and
+`VISA-DMM`. If this doesn't match your configuration, edit [`Source\Example Measurements\DMM Measurement\DmmMeasurement.pinmap`](./DmmMeasurement.pinmap) and
 replace `VISA-DMM` with the desired resource name (e.g. `ASRL1::INSTR`
 or a custom alias).
 
