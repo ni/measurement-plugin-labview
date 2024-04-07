@@ -24,13 +24,13 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
 	<Item Name="Measure_Voltage.vi" Type="VI" URL="../Methods/Measure_Voltage.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;5!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"&amp;!#A!+2%.@6G^M&gt;'&amp;H:1!!.E"Q!"Y!!"E8476B=X6S:6^7&lt;WRU97&gt;F,GRW9WRB=X-!%UVF98.V=G6@6G^M&gt;'&amp;H:3"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!;1&amp;-6476B=X6S:6^$&lt;WZG;7&gt;V=G&amp;U;7^O!$:!=!!?!!!:&amp;UVF98.V=G6@6G^M&gt;'&amp;H:3ZM&gt;G.M98.T!"*.:7&amp;T&gt;8*F8V:P&lt;(2B:W5A;7Y!!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!#!!*!A!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!A!!!#1!!!!!!%!#A!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;G!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%E!B$%^V&gt;#"P:C"397ZH:1!!%5!+!!J%1V^7&lt;WRU97&gt;F!!!W1(!!(A!!'2&gt;.:7&amp;T&gt;8*F8V:P&lt;(2B:W5O&lt;(:D&lt;'&amp;T=Q!4476B=X6S:6^7&lt;WRU97&gt;F)'^V&gt;!!%!!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!;1&amp;-6476B=X6S:6^$&lt;WZG;7&gt;V=G&amp;U;7^O!$:!=!!?!!!:&amp;UVF98.V=G6@6G^M&gt;'&amp;H:3ZM&gt;G.M98.T!"*.:7&amp;T&gt;8*F8V:P&lt;(2B:W5A;7Y!!&amp;1!]!!-!!-!"!!&amp;!!9!"Q!(!!=!"Q!)!!=!#1!+!A!!?!!!$1A!!!E!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!A!!!#1!!!!!!%!#Q!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.MustOverride" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
 </LVClass>

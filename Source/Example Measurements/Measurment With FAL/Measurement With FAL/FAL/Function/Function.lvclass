@@ -13,12 +13,12 @@
 
 </Property>
 	<Item Name="Measure_Voltage.vi" Type="VI" URL="../Methods/Measure_Voltage.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;-!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"&amp;!#A!+2%.@6G^M&gt;'&amp;H:1!!/%"Q!"Y!!#%/2H6O9X2J&lt;WYO&lt;(:M;7)12H6O9X2J&lt;WYO&lt;(:D&lt;'&amp;T=Q!-2H6O9X2J&lt;WYA&lt;X6U!!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!'E"4&amp;5VF98.V=G6@1W^O:GFH&gt;8*B&gt;'FP&lt;A!W1(!!(A!!)1Z'&gt;7ZD&gt;'FP&lt;CZM&gt;GRJ9B"'&gt;7ZD&gt;'FP&lt;CZM&gt;G.M98.T!!N'&gt;7ZD&gt;'FP&lt;C"J&lt;A"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!A!#1)!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!)!!!!E!!!!!!"!!I!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;?!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%E!B$%^V&gt;#"P:C"397ZH:1!!%5!+!!J%1V^7&lt;WRU97&gt;F!!!Y1(!!(A!!)1Z'&gt;7ZD&gt;'FP&lt;CZM&gt;GRJ9B"'&gt;7ZD&gt;'FP&lt;CZM&gt;G.M98.T!!R'&gt;7ZD&gt;'FP&lt;C"P&gt;81!!!1!!!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!'E"4&amp;5VF98.V=G6@1W^O:GFH&gt;8*B&gt;'FP&lt;A!W1(!!(A!!)1Z'&gt;7ZD&gt;'FP&lt;CZM&gt;GRJ9B"'&gt;7ZD&gt;'FP&lt;CZM&gt;G.M98.T!!N'&gt;7ZD&gt;'FP&lt;C"J&lt;A"5!0!!$!!$!!1!"1!'!!=!"Q!(!!=!#!!(!!E!#A)!!(A!!!U)!!!*!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!)!!!!E!!!!!!"!!M!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
 </LVClass>
