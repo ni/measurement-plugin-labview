@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<PinMap xmlns="http://www.ni.com/TestStand/SemiconductorModule/PinMap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.1">
+<PinMap xmlns="http://www.ni.com/TestStand/SemiconductorModule/PinMap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.6">
 	<Instruments>
 		<NIDmmInstrument name="DMM1" />
+		<NIDCPowerInstrument name="DCPower1" numberOfChannels="4">
+			<ChannelGroup name="CommonDCPowerChannelGroup" />
+		</NIDCPowerInstrument>
 		<Instrument name="VISA-DMM" instrumentTypeId="Keysight34401A_DMM">
 			<Channel id="0" />
 		</Instrument>
@@ -16,6 +19,6 @@
 	</Sites>
 	<Connections>
 		<Connection pin="Pin1" siteNumber="0" instrument="DMM1" channel="0" />
-		<Connection pin="Pin2" siteNumber="0" instrument="VISA-DMM" channel="0" />
+		<Connection pin="Pin2" siteNumber="0" instrument="DCPower1" channel="0" />
 	</Connections>
 </PinMap>
