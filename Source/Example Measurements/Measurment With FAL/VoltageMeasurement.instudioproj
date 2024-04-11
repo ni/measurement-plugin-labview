@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="118FAC298EC7CC5D80BCF3CF083F927EFB33DFDBF60E97A43EE642772577F090741088AAFA8494C59C14A5EEB0E662EDFEB4F64B548D1D24989C185E8208C848" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="A892AB31FF5D61129A8ED38FCB6EF2E6939D46FA55226C05A44ECADC34AF1D0929A33AED1EA14E9DF8A9EB919FC6A48437D0ED4C306753F3B6662D3EB35C0530" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="24.0.0.49505" FeatureSetName="Pin Map" Name="http://www.ni.com/InstrumentFramework/PinMap" OldestCompatibleVersion="21.3.0.0" Version="21.3.0.0" />
 		<ParsableNamespace AssemblyFileVersion="9.11.0.49505" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -13,7 +13,7 @@
 		<NameScopingEnvoy Id="204359c652f64a238667aa940faa6649" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
 			<DefaultTarget />
 			<FileReference Id="67accbcb946440b9baae27e2c7d05715" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/PinMap}PinMapDefinition" Name="VoltageMeasurement.pinmap" StoragePath="VoltageMeasurement.pinmap" p4:IsActive="True" xmlns:p4="http://www.ni.com/InstrumentFramework/PinMap" />
-			<SourceFileReference Bindings="EnvoyManager" Id="c24a343dfeb14fe48ad7e328152d03bc" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="VoltageMeasurement.sfp" StoragePath="VoltageMeasurement.sfp" />
+			<SourceFileReference Bindings="EnvoyManager" Id="258ec6dc4a2b437ca6d254020c8195f8" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="VoltageMeasurement.sfp" StoragePath="VoltageMeasurement.sfp" />
 		</NameScopingEnvoy>
 	</Project>
 	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
