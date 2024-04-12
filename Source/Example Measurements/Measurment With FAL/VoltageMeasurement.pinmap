@@ -5,9 +5,6 @@
 		<NIDCPowerInstrument name="DCPower1" numberOfChannels="4">
 			<ChannelGroup name="CommonDCPowerChannelGroup" />
 		</NIDCPowerInstrument>
-		<Instrument name="VISA-DMM" instrumentTypeId="Keysight34401A_DMM">
-			<Channel id="0" />
-		</Instrument>
 	</Instruments>
 	<Pins>
 		<DUTPin name="Pin1" />
