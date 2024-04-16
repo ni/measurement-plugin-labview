@@ -6,25 +6,12 @@ on:
 
 jobs:
   run_g_tests:
-    name: Run G Tests LV${{ matrix.version }}
+    name: Run G Tests
     runs-on: 
       - self-hosted
       - windows
       - x64
       - rdss-measlinkbot-win-10-lv64
-    strategy:
-      matrix:
-        version: ["2020", "2021", "2022", "2023"]
-        include: 
-          - version: 2020
-            port: "3363"
-          - version: 2021
-            port: "3364"
-          - version: 2022
-            port: "3365"
-          - version: 2023
-            port: "3366"
-    timeout-minutes: 90
     steps:
     - name: Enable git long paths
       run: git config  --global core.longpaths true
@@ -35,6 +22,19 @@ jobs:
       with:
         python-version: '3.9'
 
-    - name: Run G Tests
+    - name: Run G Tests LV2020
       run:
-        python ${{runner.workspace}}/measurementlink-labview/Source/Tests/run_tests.py --labview-path "C:\Program Files\National Instruments\LabVIEW ${{ matrix.version }}\LabVIEW.exe" --port-number ${{ matrix.port }}
+        python ${{runner.workspace}}/measurementlink-labview/Source/Tests/run_tests.py --labview-path "C:\Program Files\National Instruments\LabVIEW 2020\LabVIEW.exe" --port-number 3363
+
+    - name: Run G Tests LV2021
+      run:
+        python ${{runner.workspace}}/measurementlink-labview/Source/Tests/run_tests.py --labview-path "C:\Program Files\National Instruments\LabVIEW 2021\LabVIEW.exe" --port-number 3364
+
+    - name: Run G Tests LV2022
+      run:
+        python ${{runner.workspace}}/measurementlink-labview/Source/Tests/run_tests.py --labview-path "C:\Program Files\National Instruments\LabVIEW 2022\LabVIEW.exe" --port-number 3365
+
+    - name: Run G Tests LV2023
+      run:
+        python ${{runner.workspace}}/measurementlink-labview/Source/Tests/run_tests.py --labview-path "C:\Program Files\National Instruments\LabVIEW 2023\LabVIEW.exe" --port-number 3366
+  
