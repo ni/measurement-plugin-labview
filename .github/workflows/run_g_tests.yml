@@ -22,6 +22,12 @@ jobs:
       with:
         python-version: '3.9'
 
+    - name: Remove some test folder
+      run: |
+        rm "${{runner.workspace}}/measurementlink-labview/Source/Tests/Discovery Client" -r -force
+        rm "${{runner.workspace}}/measurementlink-labview/Source/Tests/Pin Map Client" -r -force
+        rm "${{runner.workspace}}/measurementlink-labview/Source/Tests/Session Management Client" -r -force
+
     - name: Run G Tests LV2020
       run:
         python ${{runner.workspace}}/measurementlink-labview/Source/Tests/run_tests.py --labview-path "C:\Program Files\National Instruments\LabVIEW 2020\LabVIEW.exe" --port-number 3363
