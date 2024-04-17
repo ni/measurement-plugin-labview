@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="F737C7D4AE1674F12094767627C04DD7C7B787A05C9C9084D84FF7C326655821C365BC896F0E075B2FA2C87B6A379626103F78C13771E2A8C3B38C56DC1954D4" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="4854AC90993EFF2AD9D7B4B7ED2EC099E54433CA47C3FD82C892AFED464C250CEEB47E6CCE1E091128F0DDFB6FC43CD8B1C0668CBB1EFD02333AC1A4BA05792A" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="24.3.0.1497" FeatureSetName="Pin Map" Name="http://www.ni.com/InstrumentFramework/PinMap" OldestCompatibleVersion="21.3.0.0" Version="21.3.0.0" />
-		<ParsableNamespace AssemblyFileVersion="9.12.0.1497" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
-		<ApplicationVersionInfo Build="24.3.0.1497" Name="InstrumentStudio" PersistenceVersion="22.1.0.0" Version="24.3.0.1497" />
+		<ParsableNamespace AssemblyFileVersion="24.0.0.49505" FeatureSetName="Pin Map" Name="http://www.ni.com/InstrumentFramework/PinMap" OldestCompatibleVersion="21.3.0.0" Version="21.3.0.0" />
+		<ParsableNamespace AssemblyFileVersion="9.11.0.49505" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="24.0.0.49505" Name="InstrumentStudio" PersistenceVersion="22.1.0.0" Version="24.0.0.49505" />
 	</SourceModelFeatureSet>
 	<Project xmlns="http://www.ni.com/PlatformFramework">
 		<EnvoyManagerRootEnvoy Id="41cfeabfcd4a4367beec12efa26c714f" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
@@ -13,7 +13,7 @@
 		<NameScopingEnvoy Id="204359c652f64a238667aa940faa6649" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
 			<DefaultTarget />
 			<FileReference Id="67accbcb946440b9baae27e2c7d05715" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/PinMap}PinMapDefinition" Name="DmmMeasurement.pinmap" StoragePath="DmmMeasurement.pinmap" p4:IsActive="True" xmlns:p4="http://www.ni.com/InstrumentFramework/PinMap" />
-			<SourceFileReference Bindings="EnvoyManager" Id="c24a343dfeb14fe48ad7e328152d03bc" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="DmmMeasurement.sfp" StoragePath="DmmMeasurement.sfp" />
+			<SourceFileReference Bindings="EnvoyManager" Id="eb1a4404594f49c0bd87f360d9cbdadb" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="DmmMeasurement.sfp" StoragePath="DmmMeasurement.sfp" />
 		</NameScopingEnvoy>
 	</Project>
 	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
