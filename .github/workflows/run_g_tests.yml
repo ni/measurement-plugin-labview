@@ -24,8 +24,7 @@ jobs:
 
     - name: Remove some test folder
       run: |
-        rm "${{runner.workspace}}/measurementlink-labview/Source/Tests/Tests.Generator" -r -force
-        rm "${{runner.workspace}}/measurementlink-labview/Source/Tests/Tests.Runtime/Discovery Client" -r -force
+        rm "${{runner.workspace}}/measurementlink-labview/Source/Tests/Tests.Runtime" -r -force
 
     - name: Run G Tests LV2020
       run:
