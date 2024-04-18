@@ -26,8 +26,6 @@ jobs:
       run: |
         rm "${{runner.workspace}}/measurementlink-labview/Source/Tests/Tests.Generator" -r -force
         rm "${{runner.workspace}}/measurementlink-labview/Source/Tests/Tests.Runtime/Discovery Client" -r -force
-        rm "${{runner.workspace}}/measurementlink-labview/Source/Tests/Tests.Runtime/Pin Map Client" -r -force
-        rm "${{runner.workspace}}/measurementlink-labview/Source/Tests/Tests.Runtime/Session Management Client" -r -force
 
     - name: Run G Tests LV2020
       run:
