@@ -31,32 +31,14 @@ jobs:
       run:
         LabVIEWCLI.exe -OperationName "RunVI" -VIPath "${{runner.workspace}}\measurementlink-labview\Source\Tests\run_tests.vi" -LabVIEWPath "C:\Program Files\National Instruments\LabVIEW 2020\LabVIEW.exe" -PortNumber 3363 -Verbosity Detailed
       
-    - name: Close LV2020
-      run:
-        LabVIEWCLI.exe -OperationName "CloseLabVIEW" -LabVIEWPath "C:\Program Files\National Instruments\LabVIEW 2020\LabVIEW.exe" -PortNumber 3363
-        
     - name: Run G Tests LV2021
       run:
         LabVIEWCLI.exe -OperationName "RunVI" -VIPath "${{runner.workspace}}\measurementlink-labview\Source\Tests\run_tests.vi" -LabVIEWPath "C:\Program Files\National Instruments\LabVIEW 2021\LabVIEW.exe" -PortNumber 3364 -Verbosity Detailed
         
-    - name: Close LV2021
-      run:
-        LabVIEWCLI.exe -OperationName "CloseLabVIEW" -LabVIEWPath "C:\Program Files\National Instruments\LabVIEW 2021\LabVIEW.exe" -PortNumber 3364 
-  
     - name: Run G Tests LV2022
       run:
         LabVIEWCLI.exe -OperationName "RunVI" -VIPath "${{runner.workspace}}\measurementlink-labview\Source\Tests\run_tests.vi" -LabVIEWPath "C:\Program Files\National Instruments\LabVIEW 2022\LabVIEW.exe" -PortNumber 3365 -Verbosity Detailed
 
-    - name: Close LV2022
-      run:
-        LabVIEWCLI.exe -OperationName "CloseLabVIEW" -LabVIEWPath "C:\Program Files\National Instruments\LabVIEW 2022\LabVIEW.exe" -PortNumber 3365
-  
     - name: Run G Tests LV2023
       run:
         LabVIEWCLI.exe -OperationName "RunVI" -VIPath "${{runner.workspace}}\measurementlink-labview\Source\Tests\run_tests.vi" -LabVIEWPath "C:\Program Files\National Instruments\LabVIEW 2023\LabVIEW.exe" -PortNumber 3366 -Verbosity Detailed
-
-    - name: Close LV2023
-      run:
-        LabVIEWCLI.exe -OperationName "CloseLabVIEW" -LabVIEWPath "C:\Program Files\National Instruments\LabVIEW 2023\LabVIEW.exe" -PortNumber 3366
-  
-  
