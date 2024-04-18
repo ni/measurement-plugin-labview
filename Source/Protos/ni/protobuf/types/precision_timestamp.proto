@@ -1,0 +1,33 @@
+//---------------------------------------------------------------------
+//---------------------------------------------------------------------
+syntax = "proto3";
+
+//---------------------------------------------------------------------
+//---------------------------------------------------------------------
+package ni.protobuf.types;
+
+//---------------------------------------------------------------------
+//---------------------------------------------------------------------
+option csharp_namespace = "NationalInstruments.Protobuf.Types";
+option go_package = "types";
+option java_multiple_files = true;
+option java_outer_classname = "PrecisionTimeProto";
+option java_package = "com.ni.protobuf.types";
+option objc_class_prefix = "NIPT";
+option php_namespace = "NI\\PROTOBUF\\TYPES";
+option ruby_package = "NI::Protobuf::Types";
+
+// A PrecisionTimestamp represents a point in time expressed in NI Binary Time Format (NI-BTF).
+// https://www.ni.com/docs/en-US/bundle/labwindows-cvi/page/cvi/libref/ni-btf.htm
+// NI-BTF stores time values in Coordinated Universal Time (UTC) format.
+// A PrecisionTimestamp is encoded as a count of seconds and fractions of seconds at
+// 2^-64 resolution. The count is relative to an epoch of January 1, 1904.
+message PrecisionTimestamp
+{
+  // Represents the number of seconds since the epoch
+  // 1904-01-01T00:00:00Z.
+  int64 seconds = 1;
+
+  // Non-negative fractions of a second at 2^-64 resolution.
+  uint64 fractional_seconds = 2;
+}
