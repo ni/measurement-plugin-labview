@@ -6,38 +6,33 @@ on:
 
 jobs:
   run_g_tests:
-    name: Run G Tests
+    name: Run G Tests LV${{ matrix.version }}
     runs-on: 
       - self-hosted
       - windows
       - x64
       - rdss-measlinkbot-win-10-lv64
+    strategy:
+      matrix:
+        version: ["2020", "2021", "2022", "2023"]
+        include: 
+          - version: 2020
+            port: "3363"
+          - version: 2021
+            port: "3364"
+          - version: 2022
+            port: "3365"
+          - version: 2023
+            port: "3366"
+    timeout-minutes: 90
     steps:
-    - name: Enable git long paths
-      run: git config  --global core.longpaths true
-
-    - uses: actions/checkout@v4
-
-    - uses: actions/setup-python@v5
-      with:
-        python-version: '3.9'
-
-    - name: Remove some test folder
-      run: |
-        rm "${{runner.workspace}}/measurementlink-labview/Source/Tests/Tests.Runtime/Discovery Client" -r -force
-
-    - name: Run G Tests LV2020
-      run:
-        LabVIEWCLI.exe -OperationName "RunVI" -VIPath "${{runner.workspace}}\measurementlink-labview\Source\Tests\run_tests.vi" -LabVIEWPath "C:\Program Files\National Instruments\LabVIEW 2020\LabVIEW.exe" -PortNumber 3363 -Verbosity Detailed
-      
-    - name: Run G Tests LV2021
-      run:
-        LabVIEWCLI.exe -OperationName "RunVI" -VIPath "${{runner.workspace}}\measurementlink-labview\Source\Tests\run_tests.vi" -LabVIEWPath "C:\Program Files\National Instruments\LabVIEW 2021\LabVIEW.exe" -PortNumber 3364 -Verbosity Detailed
-        
-    - name: Run G Tests LV2022
-      run:
-        LabVIEWCLI.exe -OperationName "RunVI" -VIPath "${{runner.workspace}}\measurementlink-labview\Source\Tests\run_tests.vi" -LabVIEWPath "C:\Program Files\National Instruments\LabVIEW 2022\LabVIEW.exe" -PortNumber 3365 -Verbosity Detailed
-
-    - name: Run G Tests LV2023
-      run:
-        LabVIEWCLI.exe -OperationName "RunVI" -VIPath "${{runner.workspace}}\measurementlink-labview\Source\Tests\run_tests.vi" -LabVIEWPath "C:\Program Files\National Instruments\LabVIEW 2023\LabVIEW.exe" -PortNumber 3366 -Verbosity Detailed
+      - name: Enable git long paths
+        run: git config  --global core.longpaths true
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+  
+      - name: Run G Tests
+        run:
+          python ${{runner.workspace}}/measurementlink-labview/Source/Tests/run_tests.py --labview-path "C:\Program Files\National Instruments\LabVIEW ${{ matrix.version }}\LabVIEW.exe" --port-number ${{ matrix.port }}
