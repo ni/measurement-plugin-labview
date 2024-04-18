@@ -22,10 +22,10 @@ jobs:
       with:
         python-version: '3.9'
 
-    # - name: Remove some test folder
-    #   run: |
-    #     rm "${{runner.workspace}}/measurementlink-labview/Source/Tests/Tests.Generator" -r -force
-    #     rm "${{runner.workspace}}/measurementlink-labview/Source/Tests/Tests.Runtime/Discovery Client" -r -force
+    - name: Remove some test folder
+      run: |
+        rm "${{runner.workspace}}/measurementlink-labview/Source/Tests/Tests.Generator" -r -force
+        rm "${{runner.workspace}}/measurementlink-labview/Source/Tests/Tests.Runtime/Discovery Client" -r -force
 
     - name: Run G Tests LV2020
       run:
