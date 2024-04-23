@@ -40,3 +40,4 @@ jobs:
       - name: Close LabVIEW
         run: 
           wmic process where name="LabVIEW.exe" call terminate
+        shell: cmd
