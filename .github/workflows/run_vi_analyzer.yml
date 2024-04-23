@@ -7,8 +7,16 @@ on:
 jobs:
   run_vi_analyzer:
     name: Run VI Analyzer
-    runs-on: self-hosted
+    runs-on: 
+      - self-hosted
+      - windows
+      - x64
+      - rdss-measlinkbot-win-10-lv64
+    timeout-minutes: 90
     steps:
+    - name: Enable git long paths
+      run: git config  --global core.longpaths true
+
     - uses: actions/checkout@v4
 
     - uses: actions/setup-python@v5
@@ -17,4 +25,4 @@ jobs:
 
     - name: Run VI Analyzer
       run:
-        python ${{runner.workspace}}/measurementlink-labview/Source/Tools/run_vi_analyzer.py
+        python ${{runner.workspace}}/measurementlink-labview/Source/Tools/run_vi_analyzer.py --labview-path "C:\Program Files\National Instruments\LabVIEW 2023\LabVIEW.exe" --port-number 3366
