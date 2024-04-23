@@ -36,3 +36,7 @@ jobs:
       - name: Run G Tests
         run:
           python ${{runner.workspace}}/measurementlink-labview/Source/Tests/run_tests.py --labview-path "C:\Program Files\National Instruments\LabVIEW ${{ matrix.version }}\LabVIEW.exe" --port-number ${{ matrix.port }}
+
+      - name: Close LabVIEW
+        run: 
+          wmic process where name="LabVIEW.exe" call terminate
