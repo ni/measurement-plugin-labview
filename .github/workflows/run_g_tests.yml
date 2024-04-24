@@ -32,6 +32,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.9'
+
+      - name: Start Discovery service
+        run: Start-Process "C:\\Program Files\\National Instruments\\Shared\\MeasurementLink\\Discovery\\NationalInstruments.MeasurementLink.DiscoveryService.exe"
   
       - name: Open LabVIEW ${{ matrix.version }}
         run: |
