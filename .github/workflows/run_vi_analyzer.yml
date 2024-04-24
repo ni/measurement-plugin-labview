@@ -32,3 +32,9 @@ jobs:
       run:
         python ${{runner.workspace}}/measurementlink-labview/Source/Tools/run_vi_analyzer.py
       timeout-minutes: 20
+
+    - name: Close LabVIEW 2023
+      run: 
+        wmic process where name="LabVIEW.exe" call terminate
+      shell: cmd
+      if: always()
