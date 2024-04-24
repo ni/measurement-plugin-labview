@@ -6,15 +6,47 @@ on:
 
 jobs:
   run_g_tests:
-    name: Run G Tests
-    runs-on: self-hosted
+    name: Run G Tests LV${{ matrix.version }}
+    runs-on: 
+      - self-hosted
+      - windows
+      - x64
+      - rdss-measlinkbot-win-10-lv64
+    strategy:
+      matrix:
+        version: ["2020", "2021", "2022", "2023"]
+        include: 
+          - version: 2020
+            port: "3363"
+          - version: 2021
+            port: "3364"
+          - version: 2022
+            port: "3365"
+          - version: 2023
+            port: "3366"
+    timeout-minutes: 30
     steps:
+    - name: Enable git long paths
+      run: git config  --global core.longpaths true
+
     - uses: actions/checkout@v4
 
     - uses: actions/setup-python@v5
       with:
-        python-version: '3.10'
+        python-version: '3.9'
+
+    - name: Open LabVIEW ${{ matrix.version }}
+      run: |
+        Start-Process "C:\\Program Files\\National Instruments\\LabVIEW ${{ matrix.version }}\\LabVIEW.exe"
+        Start-Sleep 60
 
     - name: Run G Tests
       run:
-        python ${{runner.workspace}}/measurementlink-labview/Source/Tests/run_tests.py
+        python ${{runner.workspace}}/measurementlink-labview/Source/Tests/run_tests.py --labview-path "C:\Program Files\National Instruments\LabVIEW ${{ matrix.version }}\LabVIEW.exe" --port-number ${{ matrix.port }}
+      timeout-minutes: 20
+
+    - name: Close LabVIEW ${{ matrix.version }}
+      run: 
+        wmic process where name="LabVIEW.exe" call terminate
+      shell: cmd
+      if: always()
