@@ -6,24 +6,12 @@ on:
 
 jobs:
   run_g_tests:
-    name: Run G Tests LV${{ matrix.version }}
+    name: Run G Tests
     runs-on: 
       - self-hosted
       - windows
       - x64
       - rdss-measlinkbot-win-10-lv64
-    strategy:
-      matrix:
-        version: ["2020", "2021", "2022", "2023"]
-        include: 
-          - version: 2020
-            port: "3363"
-          - version: 2021
-            port: "3364"
-          - version: 2022
-            port: "3365"
-          - version: 2023
-            port: "3366"
     timeout-minutes: 90
     steps:
       - name: Enable git long paths
@@ -36,16 +24,61 @@ jobs:
       - name: Start Discovery service
         run: Start-Process "C:\\Program Files\\National Instruments\\Shared\\MeasurementLink\\Discovery\\NationalInstruments.MeasurementLink.DiscoveryService.exe"
   
-      - name: Open LabVIEW ${{ matrix.version }}
+      - name: Open LabVIEW 2020
         run: |
-          Start-Process "C:\\Program Files\\National Instruments\\LabVIEW ${{ matrix.version }}\\LabVIEW.exe"
+          Start-Process "C:\\Program Files\\National Instruments\\LabVIEW 2020\\LabVIEW.exe"
           Start-Sleep 60
 
-      - name: Run G Tests
+      - name: Run G Tests 2020
         run:
-          python ${{runner.workspace}}/measurementlink-labview/Source/Tests/run_tests.py --labview-path "C:\Program Files\National Instruments\LabVIEW ${{ matrix.version }}\LabVIEW.exe" --port-number ${{ matrix.port }}
+          python ${{runner.workspace}}/measurementlink-labview/Source/Tests/run_tests.py --labview-path "C:\Program Files\National Instruments\LabVIEW 2020\LabVIEW.exe" --port-number 3363
 
-      - name: Close LabVIEW ${{ matrix.version }}
+      - name: Close LabVIEW 2020
+        run: 
+          wmic process where name="LabVIEW.exe" call terminate
+        shell: cmd
+        if: always()
+
+      - name: Open LabVIEW 2021
+        run: |
+          Start-Process "C:\\Program Files\\National Instruments\\LabVIEW 2021\\LabVIEW.exe"
+          Start-Sleep 60
+
+      - name: Run G Tests 2021
+        run:
+          python ${{runner.workspace}}/measurementlink-labview/Source/Tests/run_tests.py --labview-path "C:\Program Files\National Instruments\LabVIEW 2021\LabVIEW.exe" --port-number 3364
+
+      - name: Close LabVIEW 2021
+        run: 
+          wmic process where name="LabVIEW.exe" call terminate
+        shell: cmd
+        if: always()
+
+      - name: Open LabVIEW 2022
+        run: |
+          Start-Process "C:\\Program Files\\National Instruments\\LabVIEW 2022\\LabVIEW.exe"
+          Start-Sleep 60
+
+      - name: Run G Tests 2022
+        run:
+          python ${{runner.workspace}}/measurementlink-labview/Source/Tests/run_tests.py --labview-path "C:\Program Files\National Instruments\LabVIEW 2022\LabVIEW.exe" --port-number 3365
+
+      - name: Close LabVIEW 2022
+        run: 
+          wmic process where name="LabVIEW.exe" call terminate
+        shell: cmd
+        if: always()
+
+      - name: Open LabVIEW 2023
+        run: |
+          Start-Process "C:\\Program Files\\National Instruments\\LabVIEW 2023\\LabVIEW.exe"
+          Start-Sleep 60
+
+      - name: Run G Tests 2023
+        run:
+          python ${{runner.workspace}}/measurementlink-labview/Source/Tests/run_tests.py --labview-path "C:\Program Files\National Instruments\LabVIEW 2023\LabVIEW.exe" --port-number 3366
+
+      - name: Close LabVIEW 2023
         run: 
           wmic process where name="LabVIEW.exe" call terminate
         shell: cmd
