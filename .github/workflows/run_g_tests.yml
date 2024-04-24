@@ -34,7 +34,7 @@ jobs:
           python-version: '3.9'
   
       - name: Open LabVIEW ${{ matrix.version }}
-        run:
+        run: |
           "C:\\Program Files\\National Instruments\\LabVIEW ${{ matrix.version }}\\LabVIEW.exe"
         shell: cmd
 
