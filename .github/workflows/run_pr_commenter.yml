@@ -7,8 +7,16 @@ on:
 jobs:
   run_pr_commenter:
     name: Run PR Commenter
-    runs-on: self-hosted
+    runs-on: 
+      - self-hosted
+      - windows
+      - x64
+      - rdss-measlinkbot-win-10-lv64
+    timeout-minutes: 20
     steps:
+    - name: Enable git long paths
+      run: git config  --global core.longpaths true
+
     - uses: actions/checkout@v4
 
     - uses: actions/checkout@v4
@@ -21,7 +29,13 @@ jobs:
         python-version: '3.10'
     - run: pip install click requests
 
+    - name: Open LabVIEW 2023
+      run: |
+        Start-Process "C:\\Program Files\\National Instruments\\LabVIEW 2023\\LabVIEW.exe"
+        Start-Sleep 60
+
     - name: Run G Diff
       id: run-diff
       run: |
         python ${{runner.workspace}}/measurementlink-labview/Source/Tools/run_diff.py --token ${{secrets.GITHUB_TOKEN}} --pull-req ${{github.event.pull_request.number}} --commit-id ${{github.event.pull_request.head.sha}}
+      timeout-minutes: 10
