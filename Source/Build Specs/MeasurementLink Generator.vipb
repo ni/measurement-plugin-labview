@@ -18,7 +18,7 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <Additional_External_Dependencies>ni_lib_labview_grpc_library &gt;=1.0.1.1</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_measurementlink_service &gt;=2.0.0.2</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_measurementlink_service &gt;=2.2.0.1</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
