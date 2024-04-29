@@ -12,6 +12,14 @@
 	<Item Name="Client Wrapper Tests" Type="Folder">
 		<Item Name="test_SessionManagerWrapper_StopSessionManagementService_WrapperMethodsWorkWithoutError.vi" Type="VI" URL="../test_SessionManagerWrapper_StopSessionManagementService_WrapperMethodsWorkWithoutError.vi"/>
 	</Item>
+	<Item Name="Pin Group" Type="Folder">
+		<Item Name="test_PinGroup_ReserveSessions_GroupMappingsContainsPinGroup.vi" Type="VI" URL="../test_PinGroup_ReserveSessions_GroupMappingsContainsPinGroup.vi"/>
+		<Item Name="test_PinGroup_ReserveSessions_ChannelMappingsContainsAllPinsFromPinGroup.vi" Type="VI" URL="../test_PinGroup_ReserveSessions_ChannelMappingsContainsAllPinsFromPinGroup.vi"/>
+		<Item Name="test_PinAndPinGroupContainingSamePin_ReserveSessions_ChannelMappingsDoesNotContainDuplicatePins.vi" Type="VI" URL="../test_PinAndPinGroupContainingSamePin_ReserveSessions_ChannelMappingsDoesNotContainDuplicatePins.vi"/>
+	</Item>
+	<Item Name="TestAssests" Type="Folder">
+		<Item Name="PinGroupSupport-NIDCPowerSourceDCVoltage.pinmap" Type="Document" URL="../TestAssets/PinGroupSupport-NIDCPowerSourceDCVoltage.pinmap"/>
+	</Item>
 	<Item Name="Assert All Sessions Exist.vi" Type="VI" URL="../Assert All Sessions Exist.vi"/>
 	<Item Name="Assert Session Count.vi" Type="VI" URL="../Assert Session Count.vi"/>
 	<Item Name="Assert Session Reservation Session Count.vi" Type="VI" URL="../Assert Session Reservation Session Count.vi"/>

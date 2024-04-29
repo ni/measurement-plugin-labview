@@ -7,14 +7,34 @@ on:
 jobs:
   run_vi_analyzer:
     name: Run VI Analyzer
-    runs-on: self-hosted
+    runs-on: 
+      - self-hosted
+      - windows
+      - x64
+      - rdss-measlinkbot-win-10-lv64
+    timeout-minutes: 30
     steps:
+    - name: Enable git long paths
+      run: git config  --global core.longpaths true
+
     - uses: actions/checkout@v4
 
     - uses: actions/setup-python@v5
       with:
         python-version: '3.10'
 
+    - name: Open LabVIEW 2023
+      run: |
+        Start-Process "C:\\Program Files\\National Instruments\\LabVIEW 2023\\LabVIEW.exe"
+        Start-Sleep 60
+
     - name: Run VI Analyzer
       run:
         python ${{runner.workspace}}/measurementlink-labview/Source/Tools/run_vi_analyzer.py
+      timeout-minutes: 20
+
+    - name: Close LabVIEW 2023
+      run: 
+        wmic process where name="LabVIEW.exe" call terminate
+      shell: cmd
+      if: always()
