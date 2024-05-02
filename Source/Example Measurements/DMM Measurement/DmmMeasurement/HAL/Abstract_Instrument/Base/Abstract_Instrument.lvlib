@@ -6,5 +6,5 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Abstract_Instrument.lvclass" Type="LVClass" URL="../Abstract_Instrument.lvclass"/>
 	<Item Name="Keysight_34401A-DMM.lvclass" Type="LVClass" URL="../../Keysight_34401A-DMM/Keysight_34401A-DMM.lvclass"/>
-	<Item Name="NI-DMM.lvclass" Type="LVClass" URL="../../NI-DMM/NI-DMM.lvclass"/>
+	<Item Name="niDMM.lvclass" Type="LVClass" URL="../../niDMM/niDMM.lvclass"/>
 </Library>

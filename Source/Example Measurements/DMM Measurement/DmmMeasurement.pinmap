@@ -2,7 +2,7 @@
 <PinMap xmlns="http://www.ni.com/TestStand/SemiconductorModule/PinMap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.1">
 	<Instruments>
 		<NIDmmInstrument name="DMM1" />
-		<Instrument name="VISA-DMM" instrumentTypeId="Keysight34401A_DMM">
+		<Instrument name="VISA-DMM" instrumentTypeId="Keysight_34401A-DMM">
 			<Channel id="0" />
 		</Instrument>
 	</Instruments>

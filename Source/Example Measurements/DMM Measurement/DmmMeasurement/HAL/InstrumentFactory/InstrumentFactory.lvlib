@@ -4,5 +4,5 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="DMMFactory.lvclass" Type="LVClass" URL="../DMMFactory.lvclass"/>
+	<Item Name="InstrumentFactory.lvclass" Type="LVClass" URL="../InstrumentFactory.lvclass"/>
 </Library>
