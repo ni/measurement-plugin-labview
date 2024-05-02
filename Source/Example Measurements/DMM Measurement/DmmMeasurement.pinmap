@@ -7,15 +7,15 @@
 		</Instrument>
 	</Instruments>
 	<Pins>
-		<DUTPin name="Pin1" />
-		<DUTPin name="Pin2" />
+		<DUTPin name="NI_DMM" />
+		<DUTPin name="Keysight_34401A_DMM" />
 	</Pins>
 	<PinGroups></PinGroups>
 	<Sites>
 		<Site siteNumber="0" />
 	</Sites>
 	<Connections>
-		<Connection pin="Pin1" siteNumber="0" instrument="DMM1" channel="0" />
-		<Connection pin="Pin2" siteNumber="0" instrument="VISA-DMM" channel="0" />
+		<Connection pin="NI_DMM" siteNumber="0" instrument="DMM1" channel="0" />
+		<Connection pin="Keysight_34401A_DMM" siteNumber="0" instrument="VISA-DMM" channel="0" />
 	</Connections>
 </PinMap>
