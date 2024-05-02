@@ -58,7 +58,7 @@ Let's consider that we are in need to create a measurement for a visa dmm instru
 Let's consider a scenario where want implement hardware abstraction for different vendor DC power instruments. In this case we will need some additional steps to follow compare to [Section](#steps-to-create-new-instrument-model-with-help-of-existing-hal-libraries)
 
 1. Each measurement is maintained under a LabVIEW library in a LabVIEW project in MeasurementLink. Since we need different instrument type clone the "[NIDCPowerSourceDCVoltage.lvlib](https://github.com/ni/measurementlink-labview/blob/main/Source/Example%20Measurements/NI-DCPower%20Source%20DC%20Voltage/NI-DCPower%20Measurement/NIDCPowerSourceDCVoltage.lvlib)" into new project, add the [Abtract_Instrument.lvlib](https://github.com/ni/measurementlink-labview/blob/users/prem/dmm-hal-implementation/Source/Example%20Measurements/DMM%20Measurement/DmmMeasurement/HAL/Abstract_Instrument/Base/Abstract_Instrument.lvlib), [InstrumentFactory.lvlib](https://github.com/ni/measurementlink-labview/blob/users/prem/dmm-hal-implementation/Source/Example%20Measurements/DMM%20Measurement/DmmMeasurement/HAL/DMMFactory/DMMFactory.lvlib)" into the new LabVIEW project. Typically instruments that follow same configuration and results can be added into same project. But when a new instrument type is required with different template create new project as mentioned above.
-2. Follow steps under [Section](#steps-to-create-new-instrument-model-with-help-of-existing-hal-libraries)
+2. Follow steps under [section](#steps-to-create-new-instrument-model-with-help-of-existing-hal-libraries)
 
 ### Steps to migrate HAL implementations from other frameworks
 
@@ -78,4 +78,4 @@ Now let's consider there is a HAL implementation in another framework which has 
    4. Close MeasurementLink Session.vi
    5. Measure.vi
    6. ConfigureMeasurementParameters.vi
-7. Follow steps under [Section](#steps-to-create-new-instrument-model-with-help-of-existing-hal-libraries)
+7. Follow steps under [section](#steps-to-create-new-instrument-model-with-help-of-existing-hal-libraries)
