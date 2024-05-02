@@ -29,8 +29,11 @@ The HAL library implementation involves the following modules or classes:
 Let's consider that we are in need to create a measurement for a visa dmm instrument to acquire a single dc voltage. We already have an keysight - 34401A model dmm implementation in the DmmMeasurement example. The following workflow will help us integrate the new dmm instrument model.
 
 1. Clone the "Keysight_34401A-DMM.lvclass" and rename it to necessary name. This name should be used as instrument type id in pin map file.
-![alt text](<Instrument Class.png>)
+
+    ![alt text](<Instrument Class.png>)
 2. Copy the class name to string constant in "Get Instrument Type ID.vi of the instrument class.
+
+    ![alt text](InstrumentTypeId.JPG)
 3. Edit the class attributes in cloned class ctl file to accommodate the instrument specific data if required.
 4. Enter the provided interface in string constant in Get Provided Interface and Service Class.vi. This step can be skipped if we are just working on visa instrument, since we are already cloning from a keysight dmm class which also uses visa driver.
 5. Edit the `Initialize_Information.ctl` type definition to include the common settings that we will get from `Measurement Logic.vi`. The `Measurment Logic.vi` is the main measurement vi that will cal the hal API's to perform the measurement. Note that this data is expected to come from `Measurment Logic.vi`. So we might need to maintain the common settings that we might expect across different instrument models of same instrument type here. If we include unique instrument settings here we might need to pass it in `Measurment Logic.vi`. But when we want a different instrument model we might need to change the parameters passed in `Measurment Logic.vi`. So if want to configure unique settings we can have it as constant instead of adding it to `Initialize_Information.ctl`.
