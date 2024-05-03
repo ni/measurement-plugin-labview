@@ -49,7 +49,7 @@ To simulate an Keysight 34001A in software:
 We can either simulate through Virtual COM port or VISA-TCP\IP port.
 
 - VISA-TCP\IP simulation:
-  - Run the `DMM Measurement\DmmMeasurement\HAL\Abstract_Instrument\Keysight_34401A-DMM\SubVI\Simulate_Keysight_34401a_TCP.vi` with port `50000` and desired timeout in ms.
+  - Run the `DMM Measurement\DmmMeasurement\HAL\Instruments\Keysight_34401A-DMM\SubVI\Simulate_Keysight_34401a_TCP.vi` with port `50000` and desired timeout in ms.
   - Open `NI-Max` application.
   - Create a new `VISA TCP/IP Resource` under `Devices and Interfaces -> NetworkDevices`.
   - Select `manual entry of raw socket` and click next
@@ -60,6 +60,6 @@ We can either simulate through Virtual COM port or VISA-TCP\IP port.
 
 - Virtual COM port simulation:
   - Create a `virtual com port pair` called `COM1 and COM2` using the virtual port drivers available online.
-  - Now run the `DMM Measurement\DmmMeasurement\HAL\Abstract_Instrument\Keysight_34401A-DMM\SubVI\Simulate_Keysight_34401a.vi` to simulate the responses.
+  - Now run the `DMM Measurement\DmmMeasurement\HAL\Instruments\Keysight_34401A-DMM\SubVI\Simulate_Keysight_34401a.vi` to simulate the responses.
   - Select `COM2` in this vi before running.
   - In map change the custom instrument name to `COM1`
