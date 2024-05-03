@@ -12,7 +12,7 @@ A new instrument model can be included with help of existing HAL libraries in th
 
 ## Existing HAL Helper Libraries in MeasurmentLink
 
-The `DmmMeasurement' example in https://github.com/ni/measurementlink-labview/tree/users/prem/dmm-hal-implementation/Source/Example%20Measurements/DMM%20Measurement repository implements HAL for different dmm instruments.
+The `DmmMeasurement' example in [Github](https://github.com/ni/measurementlink-labview/tree/users/prem/dmm-hal-implementation/Source/Example%20Measurements/DMM%20Measurement) repository implements HAL for different dmm instruments.
 
 We can reuse this hal library to implement our own instrument implementation.
 
@@ -20,6 +20,8 @@ The HAL library implementation involves the following modules or classes:
 
 * Abstract_Instrument - The base template for the actual instrument models. It is also a factory class which follows factory design pattern to call the instrument model functions based on the pin we are selecting in measurement UI.
 * Instrument Model - The specific instrument model implementations.
+
+  ![alt text](Abstract_Instrument_Hierarchy.png)
 
 ## Measurement creation with Hardware Abstraction
 
@@ -78,4 +80,4 @@ Now let's consider there is a HAL implementation in another framework which has 
    4. Close MeasurementLink Session.vi
    5. Measure.vi
    6. ConfigureMeasurementParameters.vi
-8. Follow steps under [section](#steps-to-create-new-instrument-model-with-help-of-existing-hal-libraries)
+8. Follow from second step under [section](#steps-to-create-new-instrument-model-with-help-of-existing-hal-libraries).

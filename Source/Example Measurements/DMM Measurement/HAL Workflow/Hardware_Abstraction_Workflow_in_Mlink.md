@@ -25,6 +25,8 @@ The HAL library implementation involves the following modules or classes:
 
 ## Workflow
 
+![alt text](HAL_Flow.png)
+
 ### Create new instrument model with help of existing HAL libraries
 
 1. Create new blank LabVIEW project to include the new measurement if required.
@@ -32,15 +34,24 @@ The HAL library implementation involves the following modules or classes:
 3. Add [HAL reusable of MLink](https://github.com/ni/measurementlink-labview/tree/users/prem/dmm-hal-implementation/Source/Example%20Measurements/DMM%20Measurement/DmmMeasurement/HAL) into the project.
 4. Create or clone the most relatable instrument model child and implement the overriding methods according to instrument.
 5. Please ensure that any child classes you create inherit from the [base class](https://github.com/ni/measurementlink-labview/blob/users/prem/dmm-hal-implementation/Source/Example%20Measurements/DMM%20Measurement/DmmMeasurement/HAL/Instruments/Base/Abstract_Instrument.lvclass) following the factory design pattern.
-6. Make changes to `Measurement Logic.vi` of the example library to send in the inputs to measurement API's like `Initialize, Configure, Measure`.
-7. Make the measurement UI changes (inputs and output results of measurement) in the example library.
-8. Run service.
-9. Use InstrumentStudio or Teststand to start the measurement.
+6. Implement the overriding methods from the Abstract_Instrument base class.
+7. Make changes to `Measurement Logic.vi` of the example library to send in the inputs to measurement API's like `Initialize, Configure, Measure`.
+8. Make the measurement UI changes (inputs and output results of measurement) in the example library.
+9. Run service.
+10. Use InstrumentStudio or Teststand to start the measurement.
 
-### Port the instrument abstraction hierarchy of another framework
+### Migrate the instrument abstraction hierarchy of another framework to MLink
 
 1. Create new blank LabVIEW project to include the new measurement if required.
 2. Clone most relatable example measurement library of [MeasurementLink Repository](https://github.com/ni/measurementlink-labview/tree/main/Source/Example%20Measurements) and add it to the project.
 3. Add [HAL reusable of MLink](https://github.com/ni/measurementlink-labview/tree/users/prem/dmm-hal-implementation/Source/Example%20Measurements/DMM%20Measurement/DmmMeasurement/HAL) into the project.
+4. Add the older framework instrument abstraction and its reusable to the project.
+5. Ensure that the instrument base class inherit [Abstract_Instrument Factory](https://github.com/ni/measurementlink-labview/blob/users/prem/dmm-hal-implementation/Source/Example%20Measurements/DMM%20Measurement/DmmMeasurement/HAL/Instruments/Base/Abstract_Instrument.lvclass).
+6. Modify the `\Abstract_Instrument\Base\Utility\Get_Instrument_Path.vi` to form the instrument model class path suppose if the folder structure of the other framework HAL classes is different.
+7. Create and implement the overriding methods from the Abstract_Instrument base class.
+8. Make changes to `Measurement Logic.vi` of the example library to send in the inputs to measurement API's like `Initialize, Configure, Measure`.
+9. Make the measurement UI changes (inputs and output results of measurement) in the example library.
+10. Run service.
+11. Use InstrumentStudio or Teststand to start the measurement.
 
-`NOTE :` For more detailed information on workflow check [DDetailed_HAL_Workflow_in_MLink.md]()
+`NOTE :` For more detailed information on workflow check [Detailed_HAL_Workflow_in_MLink.md](https://github.com/ni/measurementlink-labview/blob/users/prem/dmm-hal-implementation/Source/Example%20Measurements/DMM%20Measurement/HAL%20Workflow/Detailed_HAL_Workflow_in_MLink.md).
