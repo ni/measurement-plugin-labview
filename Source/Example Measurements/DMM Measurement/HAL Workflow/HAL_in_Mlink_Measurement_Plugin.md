@@ -70,12 +70,13 @@ Now let's consider there is a HAL implementation in another framework which has 
 2. In this case add [Abtract_Instrument.lvlib](https://github.com/ni/measurementlink-labview/blob/users/prem/dmm-hal-implementation/Source/Example%20Measurements/DMM%20Measurement/DmmMeasurement/HAL/Abstract_Instrument/Base/Abstract_Instrument.lvlib), [InstrumentFactory.lvlib](https://github.com/ni/measurementlink-labview/blob/users/prem/dmm-hal-implementation/Source/Example%20Measurements/DMM%20Measurement/DmmMeasurement/HAL/DMMFactory/DMMFactory.lvlib) to the example project.
 3. Clone most relatable measurement link instrument example library and add to the project.​
 4. Copy the HAL abstraction libraries along with its reusable dependencies to the project.
-5. Edit the properties of the HAL abstraction base class from other framework to add [Abstract_Instrument.lvclass](https://github.com/ni/measurementlink-labview/blob/users/prem/dmm-hal-implementation/Source/Example%20Measurements/DMM%20Measurement/DmmMeasurement/HAL/Abstract_Instrument/Base/Abstract_Instrument.lvclass) as the Parent Class.​
-6. Create following override methods from Abstract_Instrument to the AHL instrument base class we have.
+5. Modify the `\Abstract_Instrument\Base\Utility\Get_Instrument_Path.vi` to form the instrument model class path suppose if the folder structure of the other framework HAL classes is different.
+6. Edit the properties of the HAL abstraction base class from other framework to add [Abstract_Instrument.lvclass](https://github.com/ni/measurementlink-labview/blob/users/prem/dmm-hal-implementation/Source/Example%20Measurements/DMM%20Measurement/DmmMeasurement/HAL/Abstract_Instrument/Base/Abstract_Instrument.lvclass) as the Parent Class.​
+7. Create following override methods from Abstract_Instrument to the AHL instrument base class we have.
    1. Initialize MeasurementLink Session.vi
    2. Get Provided Interface and Service Class.vi
    3. Get Instrument Type ID.vi
    4. Close MeasurementLink Session.vi
    5. Measure.vi
    6. ConfigureMeasurementParameters.vi
-7. Follow steps under [section](#steps-to-create-new-instrument-model-with-help-of-existing-hal-libraries)
+8. Follow steps under [section](#steps-to-create-new-instrument-model-with-help-of-existing-hal-libraries)
