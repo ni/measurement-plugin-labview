@@ -1,14 +1,14 @@
-# HAL in MeasurementLink examples - Workflow for measurement creation or porting existing HAL
+# HAL in MeasurementLink examples - Workflow for measurement creation or migrating existing HAL
 
-The measurements in MeasurementLink can be easily modified to implement hardware abstraction to switch between different instrument models of same instrument type easily via pinmap file.
+A MeasurementLink compatible Hardware Abstraction Layer (HAL) for Instruments can be implemented using OOP leveraging PinMap with minimal effort.
 
-A new instrument model can be included with help of existing HAL libraries in the `DmmMeasurement' example or an existing HAL implementation in different framework can be ported.
+A new instrument model can be included with help of existing HAL libraries in the `DmmMeasurement' example or an existing object-oriented class based HAL implementation can be migrated into MeasurementLink measurements.
 
 ## Pre-requisites
 
-* Basic MeasurementLink plugin workflow understanding.
-* LabVIEW experience.
-* Basic understanding of existing HAL implementation in case of porting existing HAL implementation from other framework.
+* Familiar with creating and debugging measurement plugins in MeasurementLink.
+* Familiar with LabVIEW object-oriented programming and familiar with class based HAL implementation.
+* Deep knowledge of architecture and implementation of existing HAL (migrate to use with MeasurementLink measurements).
 
 ## Existing HAL Helper Libraries in MeasurmentLink
 
@@ -65,7 +65,7 @@ Let's consider a scenario where we want implement hardware abstraction for diffe
 
 Currently for any new instrument model we don't have any intermediate parent module for specific instrument type. Hence it is enough to follow [section](#steps-to-create-new-instrument-model-with-help-of-existing-hal-libraries) to create fresh instrument model implementation.
 
-Now let's consider there is a HAL implementation in another framework which has its own instrument base class for abstraction. Follow below workflow for porting existing HAL libraries of another framework. This is possible only if the hal libraries are not tightly coupled with any other servers, session management apis and other instrument managers.
+Now let's consider there is a HAL implementation in another framework which has its own instrument base class for abstraction. Follow below workflow for migrating existing HAL libraries of another framework. This is possible only if the hal libraries are not tightly coupled with any other servers, session management apis and other instrument managers.
 
 1. Create new LabVIEW project.
 2. In this case add [Abstract_Instrument.lvlib](https://github.com/ni/measurementlink-labview/blob/users/prem/dmm-hal-implementation/Source/Example%20Measurements/DMM%20Measurement/DmmMeasurement/HAL/Instruments/Base/Abstract_Instrument.lvlib) to the example project.

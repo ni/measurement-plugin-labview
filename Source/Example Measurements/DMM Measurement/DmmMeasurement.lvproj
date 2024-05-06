@@ -16,6 +16,7 @@
 				<Item Name="Abstract_Instrument.lvlib" Type="Library" URL="../DmmMeasurement/HAL/Instruments/Base/Abstract_Instrument.lvlib"/>
 			</Item>
 			<Item Name="DMM_Models" Type="Folder">
+				<Item Name="DMM_Base.lvclass" Type="LVClass" URL="../DmmMeasurement/HAL/Instruments/DMM_Base/DMM_Base.lvclass"/>
 				<Item Name="Keysight_34401A-DMM.lvclass" Type="LVClass" URL="../DmmMeasurement/HAL/Instruments/Keysight_34401A-DMM/Keysight_34401A-DMM.lvclass"/>
 				<Item Name="niDMM.lvclass" Type="LVClass" URL="../DmmMeasurement/HAL/Instruments/niDMM/niDMM.lvclass"/>
 			</Item>
