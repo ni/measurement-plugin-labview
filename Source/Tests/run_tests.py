@@ -20,7 +20,7 @@ def main():
 
 def run_all_tests(labview_path: str, port_number: int):
     test_directory = os.path.abspath(os.path.dirname(__file__))
-    test_runner_vi = os.path.join(test_directory , "run_tests.vi")
+    test_runner_vi = os.path.join(test_directory , "run_tests_with_detailed_report.vi")
     _logger.debug(f"Launching {test_runner_vi}.")
     kwargs = ["LabVIEWCLI", "-OperationName", "RunVI", "-VIPath", os.path.normpath(test_runner_vi), "-PortNumber", str(port_number)]
     if labview_path:
