@@ -7,7 +7,7 @@ A new instrument model can be included with help of existing HAL libraries in th
 ## Pre-requisites
 
 * Familiar with creating and debugging measurement plugins in MeasurementLink.
-* Familiar with LabVIEW object-oriented programming and familiar with class based HAL implementation.
+* Familiar with LabVIEW object-oriented programming and familiar with class based hardware abstractions.
 * Deep knowledge of architecture and implementation of existing HAL (migrate to use with MeasurementLink measurements).
 
 ## Existing HAL Helper Libraries in MeasurmentLink

@@ -7,14 +7,14 @@ A new instrument model can be included with help of existing HAL libraries in th
 ## Pre-requisites
 
 * Familiar with creating and debugging measurement plugins in MeasurementLink.
-* Familiar with LabVIEW object-oriented programming and familiar with class based HAL implementation.
+* Familiar with LabVIEW object-oriented programming and familiar with class based hardware abstractions.
 * Deep knowledge of architecture and implementation of existing HAL (migrate to use with MeasurementLink measurements).
 
 ## Existing HAL Helper Libraries in MeasurmentLink
 
-The `DmmMeasurement` example in [Github](https://github.com/ni/measurementlink-labview/tree/users/prem/dmm-hal-implementation/Source/Example%20Measurements/DMM%20Measurement) repository implements HAL for different dmm instruments.
+The `DmmMeasurement` example in [Github](https://github.com/ni/measurementlink-labview/tree/users/prem/dmm-hal-implementation/Source/Example%20Measurements/DMM%20Measurement) repository uses HAL for different dmm instruments.
 
-We can reuse this object-oriented HAL library to implement our own instrument implementation.
+The object-oriented HAL library can be used to implement our own instrument implementation.
 
 The HAL library implementation involves the following modules or classes:
 
@@ -23,7 +23,7 @@ The HAL library implementation involves the following modules or classes:
 
     ![alt text](Abstract_Instrument_Hierarchy.png)
 
-## Workflow
+## HAL Workflow
 
 ![alt text](HAL_Flow.png)
 

@@ -18,8 +18,17 @@ The Boolean indicator will indicate if the measured value is out of range.
 - Uses the NI gRPC Device Server to allow sharing instrument sessions with other 
   measurement services when running measurements from TestStand
 
-### Required Driver Software
+### Required Softwares and Drivers
 
+- LabVIEW 64 bit - 2020 or later
+- [MeasurementLink VI Packages](https://github.com/ni/measurementlink-labview/releases/tag/v2.1.0.2)
+  - LabVIEW gRPC Library - 1.0.1.1
+  - LabVIEW gRPC Servicer - 1.0.1.1
+  - NI gRPC Types - 1.0.0.1
+  - MeasurementLink Service - 2.1.0.2
+  - MeasurementLink Generator - 2.1.0.2
+- MeasurementLink 2024 Q2
+- InstrumentStudio 2024 Q2
 - NI-DMM 2023 Q1 or later
 - NI-VISA 2024 Q1 or later
 - NI-488.2 and/or NI-Serial
