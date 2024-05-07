@@ -28,7 +28,7 @@ The HAL library implementation involves the following modules or classes:
 
 ### Steps to create new instrument model with help of existing HAL libraries
 
-1. Clone the most relatable instrument model class and rename. The class name should be same as instrument type id in pin map file. This enables the [factory class](https://en.wikipedia.org/wiki/Factory_method_pattern) [method](https://github.com/ni/measurementlink-labview/blob/users/prem/dmm-hal-implementation/Source/Example%20Measurements/DMM%20Measurement/DmmMeasurement/HAL/Instruments/Base/Utility/Get_Instrument_Instances.vi) to dynamically initialize the instrument model classes based on the pin selected in measurement UI.
+1. Clone the most relatable instrument model class and rename. The class name should be same as instrument type id in pin map file. This enables the [factory class](https://en.wikipedia.org/wiki/Factory_method_pattern) [method](https://github.com/ni/measurementlink-labview/blob/users/prem/dmm-hal-implementation/Source/Example%20Measurements/DMM%20Measurement/DmmMeasurement/HAL/Instruments/Base/Utility/Get_Instrument_Instances.vi) to dynamically load the instrument model classes based on the pin selected in measurement UI.
     ![alt text](<Instrument_Type_Id.png>)
     ![alt text](<Instrument Class.png>)
 2. Ensure the instrument model child classes created inherits the instrument type base class. For example , [DMM instrument type base class](https://github.com/ni/measurementlink-labview/blob/users/prem/dmm-hal-implementation/Source/Example%20Measurements/DMM%20Measurement/DmmMeasurement/HAL/Instruments/DMM_Base/DMM_Base.lvclass) for DMM instruments.
