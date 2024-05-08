@@ -36,10 +36,8 @@ The HAL library implementation involves the following modules or classes:
       1. Initialize MeasurementLink Session.vi
       2. Get Provided Interface and Service Class.vi
       3. Close MeasurementLink Session.vi
-   2. Overriding methods from `Instrument type` base class
-      1. Initialize
-      2. Configure
-      3. Measure
+   2. Overriding instrument measurement methods from `Instrument type` base class
+      1. Configure, Measure and so on (Methods varies for each instrument types).
 
 ### New instrument type base with help of existing HAL libraries
 
@@ -62,8 +60,6 @@ The HAL library implementation involves the following modules or classes:
       2. Get Provided Interface and Service Class.vi
       3. Close MeasurementLink Session.vi
    2. Overriding methods from `Instrument type` base class
-      1. Initialize
-      2. Configure
-      3. Measure
+      1. Configure, Measure and so on (Methods varies for each instrument types).
 
 `NOTE :` For more detailed information on workflow check [Detailed_HAL_Workflow_in_MeasurementLink.md](https://github.com/ni/measurementlink-labview/blob/users/prem/dmm-hal-implementation/Source/Example%20Measurements/DMM%20Measurement/HAL%20Workflow/Detailed_HAL_Workflow_in_MeasurementLink.md).

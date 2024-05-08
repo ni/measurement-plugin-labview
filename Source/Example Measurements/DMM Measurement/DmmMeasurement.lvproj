@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="21008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -130,7 +130,7 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="NIDmmMeasurement" Type="EXE">
+			<Item Name="DmmMeasurement" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{08978901-187F-4F55-A47E-4C1FB1466F71}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{74FC51C2-FECF-41CA-9528-E38F853A1153}</Property>
@@ -138,27 +138,27 @@
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{BF7A9E05-6C3E-4EA6-AEFC-E0E83529B598}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">NIDmmMeasurement</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">DmmMeasurement</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NIDmmMeasurement</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/DmmMeasurement.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8C52D4A0-59A0-4677-A230-D56E841374D6}</Property>
-				<Property Name="Bld_version.build" Type="Int">21</Property>
+				<Property Name="Bld_version.build" Type="Int">50</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">NIDmmMeasurement.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/NIDmmMeasurement/NIDmmMeasurement.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">DmmMeasurement.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/DmmMeasurement.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/NIDmmMeasurement/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Destination[2].destName" Type="Str">Controls</Property>
-				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/NIDmmMeasurement</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D7612108-7DF0-4D2D-8E0D-88E5AFD08DA6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{62CD60BE-07EB-4515-8502-DB84A43993A1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DmmMeasurement.lvlib/Run Service.vi</Property>
@@ -167,6 +167,28 @@
 				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/HAL/DMM_Models/DMM_Base.lvclass</Property>
+				<Property Name="Source[10].type" Type="Str">Library</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/HAL/Base/Abstract_Instrument.lvlib</Property>
+				<Property Name="Source[11].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[11].type" Type="Str">Library</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/HAL/Base/Abstract_Instrument.lvlib/Abstract_Instrument.lvclass</Property>
+				<Property Name="Source[12].type" Type="Str">Library</Property>
+				<Property Name="Source[13].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[13].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/HAL</Property>
+				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[13].type" Type="Str">Container</Property>
+				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/HAL/DMM_Models/Keysight_34401A-DMM.lvclass</Property>
+				<Property Name="Source[14].type" Type="Str">Library</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/HAL/DMM_Models/niDMM.lvclass</Property>
+				<Property Name="Source[15].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/DmmMeasurement.lvlib/Get Measurement Details.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
@@ -199,15 +221,73 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/DmmMeasurement.lvlib/ResolutionInDigits.ctl</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">10</Property>
+				<Property Name="SourceCount" Type="Int">16</Property>
 				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
 				<Property Name="TgtF_fastFileFormat" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">NIDmmMeasurement</Property>
-				<Property Name="TgtF_internalName" Type="Str">NIDmmMeasurement</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">DmmMeasurement</Property>
+				<Property Name="TgtF_internalName" Type="Str">DmmMeasurement</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023</Property>
-				<Property Name="TgtF_productName" Type="Str">NIDmmMeasurement</Property>
+				<Property Name="TgtF_productName" Type="Str">DmmMeasurement</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{F71EE2D1-CC60-4788-96FA-FDACF35EC2C5}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">NIDmmMeasurement.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">DmmMeasurement.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="KeysightDMMSimulation" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{0198C2E0-C266-4DDC-93B2-348831451B77}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{6E5E1A8E-6A2B-4FF2-A120-475AEAB9FAC5}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{C5BAF482-4A2B-4BFD-AD59-2D3BB3058A21}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">KeysightDMMSimulation</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds1/KeysightDmmSimulation</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{F88251C3-467A-4051-830C-695D85E8E750}</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">KeysightDMMSimulation.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds1/KeysightDmmSimulation/KeysightDMMSimulation.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds1/KeysightDmmSimulation</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{62CD60BE-07EB-4515-8502-DB84A43993A1}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/HAL/DMM_Models/Keysight_34401A-DMM.lvclass/SubVI/Simulate Keysight 34401a TCP.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/HAL/DMM_Models/Keysight_34401A-DMM.lvclass</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/HAL/DMM_Models/DMM_Base.lvclass</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Library</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/HAL/Base/Abstract_Instrument.lvlib</Property>
+				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/HAL/Base/Abstract_Instrument.lvlib/Abstract_Instrument.lvclass</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">KeysightDMMSimulation</Property>
+				<Property Name="TgtF_internalName" Type="Str">KeysightDMMSimulation</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 National Instruments</Property>
+				<Property Name="TgtF_productName" Type="Str">KeysightDMMSimulation</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{E94F0BB9-808C-48B3-B3B6-034B56EE6B40}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">KeysightDMMSimulation.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>

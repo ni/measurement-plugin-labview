@@ -38,14 +38,14 @@ The HAL library implementation involves the following modules or classes:
    1. Overriding methods from `Abstract_Instrument` class
       1. `Initialize MeasurementLink Session.vi` - Implement the gRPC instrument initialization.
         ![alt text](<Initialize MeasurementLink Session.png>)
-      2. Get Provided Interface and Service Class.vi - Enter the MeasurementLink service `provided interface` name and `service class` name in string constant of `Get Provided Interface and Service Class.vi`.
+      2. `Get Provided Interface and Service Class.vi` - Enter the MeasurementLink service `provided interface` name and `service class` name in string constant of `Get Provided Interface and Service Class.vi`.
       ![alt text](<Get Provided Interface.PNG>)
-      3. Close MeasurementLink Session.vi - Implement the instrument session close.
-   2. Overriding methods from `Instrument type` base class
-      1. Initialize - Wrapper method to call the Initialize sessions MeasurementLink API which in turn will call the `Initialize MeasurementLink Session.vi`.![alt text](<Initialize.png>)
-      2. Configure
+      3. `Close MeasurementLink Session.vi` - Implement the instrument session close.
+   2. Overriding methods from `Instrument type` base class. (Configure, Measure and so on. Methods varies for each instrument types). In DMM example following methods are implemented.
+      1. `Initialize_DMM.vi` - Wrapper method to call the Initialize sessions MeasurementLink API which in turn will call the `Initialize MeasurementLink Session.vi`.![alt text](<Initialize.png>)
+      2. `Configure_DMM.vi`
       ![alt text](<Configure_DMM.png>)
-      3. Measure
+      3. `Measure_DMM.vi`
       ![alt text](<Measure_With_Compliance.png>)
 
 ### New instrument type base with help of existing HAL libraries
@@ -69,6 +69,4 @@ The HAL library implementation involves the following modules or classes:
       2. Get Provided Interface and Service Class.vi
       3. Close MeasurementLink Session.vi
    2. Overriding methods from `Instrument type` base class
-      1. Initialize
-      2. Configure
-      3. Measure
+      1. Configure, Measure and so on (Methods varies for each instrument types).
