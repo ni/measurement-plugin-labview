@@ -50,3 +50,11 @@ jobs:
         wmic process where name="LabVIEW.exe" call terminate
       shell: cmd
       if: always()
+
+    - name: Get contents of log files
+      run: |
+        Get-Content "C:\info.txt"
+        Get-Content "C:\sub.txt"
+        Get-Content "C:\grpcid.txt"
+        Get-Content "C:\sm.txt"
+      if: always()
