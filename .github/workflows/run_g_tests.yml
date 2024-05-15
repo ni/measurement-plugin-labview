@@ -40,6 +40,11 @@ jobs:
         Start-Process "C:\\Program Files\\National Instruments\\LabVIEW ${{ matrix.version }}\\LabVIEW.exe"
         Start-Sleep 60
 
+    - name: Run Discovery Service
+      run: |
+        Start-Process -FilePath "C:\\Program Files\\National Instruments\\Shared\\MeasurementLink\\Discovery\\NationalInstruments.MeasurementLink.DiscoveryService.exe" -WorkingDirectory "C:\\Program Files\\National Instruments\\Shared\\MeasurementLink\\Discovery"
+        Start-Sleep 10
+    
     - name: Run G Tests
       run:
         python ${{runner.workspace}}/measurementlink-labview/Source/Tests/run_tests.py --labview-path "C:\Program Files\National Instruments\LabVIEW ${{ matrix.version }}\LabVIEW.exe" --port-number ${{ matrix.port }}
