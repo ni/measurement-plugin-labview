@@ -42,7 +42,7 @@ jobs:
 
     - name: Run Discovery Service
       run: |
-        Start-Process "C:\\Program Files\\National Instruments\\Shared\\MeasurementLink\\Discovery\\NationalInstruments.MeasurementLink.DiscoveryService.exe"
+        Start-Process -FilePath "C:\\Program Files\\National Instruments\\Shared\\MeasurementLink\\Discovery\\NationalInstruments.MeasurementLink.DiscoveryService.exe" -WorkingDirectory "C:\\Program Files\\National Instruments\\Shared\\MeasurementLink\\Discovery"
         Start-Sleep 10
     
     - name: Run G Tests
