@@ -4,5 +4,5 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="LVAnalogWaveformToProtobufDoubleAnalogWaveform.vi" Type="VI" URL="/&lt;vilib&gt;/gRPC/Extensions/LVAnalogWaveformToProtobufDoubleAnalogWaveform.vi"/>
-	<Item Name="ProtobufDoubleAnalogWaveformToLVAnalogWaveform.vi" Type="VI" URL="/D/github/ni/measurementlink-labview/Source/.gRPC/Extensions/ProtobufDoubleAnalogWaveformToLVAnalogWaveform.vi"/>
+	<Item Name="ProtobufDoubleAnalogWaveformToLVAnalogWaveform.vi" Type="VI" URL="/&lt;vilib&gt;/gRPC/Extensions/ProtobufDoubleAnalogWaveformToLVAnalogWaveform.vi"/>
 </Library>
