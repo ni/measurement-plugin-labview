@@ -16,6 +16,7 @@ Includes an example measurement service.
   with an NI FGEN.
 - `NI-SCOPE Acquire Waveform`: Acquires waveforms from an NI SCOPE.
 - `VISA Measurement`: Writes and reads a value from a serial instrument using VISA.
+- `Waveform Measurement`: Demonstrates the usage of the waveform data type in a graph.
 
 For more details about a specific example, see the `README.md` file included
 with the example.
