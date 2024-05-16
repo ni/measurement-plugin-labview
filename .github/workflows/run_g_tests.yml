@@ -55,3 +55,8 @@ jobs:
         wmic process where name="LabVIEW.exe" call terminate
       shell: cmd
       if: always()
+
+    - name: Get contents of log file
+      run: |
+        Get-Content "C:\time.txt"
+      if: always()
