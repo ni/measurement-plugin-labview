@@ -56,10 +56,9 @@ jobs:
       shell: cmd
       if: always()
 
-    # - name: Get contents of log files
-    #   run: |
-    #     Get-Content "C:\info.txt"
-    #     Get-Content "C:\sub.txt"
-    #     Get-Content "C:\grpcid.txt"
-    #     Get-Content "C:\sm.txt"
-    #   if: always()
+    - name: Get contents of log files
+      run: |
+        Get-Content "C:\1.txt"
+        Get-Content "C:\2.txt"
+        Get-Content "C:\3.txt"
+      if: always()
