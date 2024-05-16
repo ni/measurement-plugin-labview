@@ -58,6 +58,7 @@ jobs:
 
     - name: Get contents of log files
       run: |
+        Get-Content "C:\time.txt"
         Get-Content "C:\1.txt"
         Get-Content "C:\2.txt"
         Get-Content "C:\3.txt"
