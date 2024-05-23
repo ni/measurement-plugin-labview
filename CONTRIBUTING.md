@@ -27,10 +27,12 @@ The source code can be found under the `Source` directory. The package definitio
 
 ## Building the LabVIEW Packages
 
-The source code is built into three LabVIEW packages
+The source code is built into five LabVIEW packages
 
 * `ni_measurementlink_service`
 * `ni_measurementlink_generator`
+* `ni_measurementlink`
+* `ni_measurementlink_examples`
 * `ni_protobuf_types`
 
 To build the packages:
@@ -78,6 +80,18 @@ The `MeasurementLink Measurement Template` library contains the VIs and controls
 ### MeasurementService Editor
 
 The `MeasurementService Editor` library contains the scripting code required to generate a measurement. It starts with the `MeasurementLink Measurement Template` as the base library and then customizes it for a specific measurement. It also contains a script that can help when updating measurements between incompatible versions. See more details [here.](docs/Upgrading%20to%20Version%202.0.md)
+
+## `ni_measurementlink` Package
+
+This is simply a top-level package that has dependencies on the other `ni_measurementlink_*` packages so installing this should also bring along the other 3 packages.
+
+## `ni_measurementlink_examples` Package
+
+This package contains all of the example projects from the repository. They are installed to the `examples` folder under the LabVIEW root directory.
+
+## `ni_protobuf_types` Package
+
+This package contains common types that are used in measurement plug-ins such as the Waveform and Double XY Data types.
 
 ## Examples
 
