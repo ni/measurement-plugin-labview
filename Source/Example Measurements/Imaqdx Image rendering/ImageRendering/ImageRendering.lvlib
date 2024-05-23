@@ -11,6 +11,7 @@
 		<Item Name="Measurement Plugin.lvclass" Type="LVClass" URL="../Advanced/Measurement Plugin.lvclass"/>
 	</Item>
 	<Item Name="AcquireImage.vi" Type="VI" URL="../AcquireImage.vi"/>
+	<Item Name="Calculate Frame Per Second.vi" Type="VI" URL="../Calculate Frame Per Second.vi"/>
 	<Item Name="Get Measurement Details.vi" Type="VI" URL="../Get Measurement Details.vi"/>
 	<Item Name="Get Type Specializations.vi" Type="VI" URL="../Get Type Specializations.vi"/>
 	<Item Name="Get UI Details.vi" Type="VI" URL="../Get UI Details.vi"/>
