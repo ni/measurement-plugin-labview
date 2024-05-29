@@ -180,6 +180,15 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="ni.protobuf.types.lvlib" Type="Library" URL="../../gRPC/Generated APIs/ni/protobuf/types/ni.protobuf.types.lvlib"/>
+			<Item Name="Discovery Client - Register Service.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Runtime/Discovery Client - Register Service.vi"/>
+			<Item Name="Get Discovery Service Address.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Runtime/Service Lookup/Get Discovery Service Address.vi"/>
+			<Item Name="Discovery Client - Enumerate Services.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Runtime/Discovery Client - Enumerate Services.vi"/>
+			<Item Name="Discovery Client - Resolve Service.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Runtime/Discovery Client - Resolve Service.vi"/>
+			<Item Name="Discovery Client - Unregister Service.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Runtime/Discovery Client - Unregister Service.vi"/>
+			<Item Name="Get Pin Map Service Address.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Runtime/Service Lookup/Get Pin Map Service Address.vi"/>
+			<Item Name="Pin Map Client - Create or Update Pin Map.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Runtime/Pin Map Client - Create or Update Pin Map.vi"/>
+			<Item Name="Get Session Management Service Address.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Runtime/Service Lookup/Get Session Management Service Address.vi"/>
+			<Item Name="helper_GetRegistrationInfo-MultisitePinMapA.vi" Type="VI" URL="../../Tests/Tests.Runtime/Session Management Client/Helpers/helper_GetRegistrationInfo-MultisitePinMapA.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
