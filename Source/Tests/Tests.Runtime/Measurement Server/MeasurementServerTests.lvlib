@@ -44,8 +44,6 @@
 		<Item Name="Restart Discovery Service.vi" Type="VI" URL="../Helpers/Restart Discovery Service.vi"/>
 		<Item Name="Fake Session Factory.lvclass" Type="LVClass" URL="../Helpers/Fake Session Factory/Fake Session Factory.lvclass"/>
 		<Item Name="Kill Pin Map Service.vi" Type="VI" URL="../Helpers/Kill Pin Map Service.vi"/>
-		<Item Name="Wait For Key File.vi" Type="VI" URL="../Helpers/Wait For Key File.vi"/>
-		<Item Name="Start Discovery Service.vi" Type="VI" URL="../Helpers/Start Discovery Service.vi"/>
 	</Item>
 	<Item Name="Close Sessions" Type="Folder">
 		<Item Name="Test Inputs" Type="Folder">
