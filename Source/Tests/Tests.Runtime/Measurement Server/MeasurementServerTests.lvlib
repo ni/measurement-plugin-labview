@@ -294,4 +294,12 @@
 	<Item Name="Measurement Plugin Service" Type="Folder">
 		<Item Name="Measurement Plugin Service Tests.lvlib" Type="Library" URL="../Measurement Plugin Service/Measurement Plugin Service Tests.lvlib"/>
 	</Item>
+	<Item Name="Integration Tests" Type="Folder">
+		<Item Name="NoServicesRegistered_InvalidRegisterRequests_Error.vi" Type="VI" URL="../../Discovery Client/NoServicesRegistered_InvalidRegisterRequests_Error.vi"/>
+		<Item Name="SingleServiceRegistered_DiscoveryApiRoundTrip_AllNodesSucceed.vi" Type="VI" URL="../../Discovery Client/SingleServiceRegistered_DiscoveryApiRoundTrip_AllNodesSucceed.vi"/>
+		<Item Name="SingleServiceRegistered_InvalidResolveRequests_Error.vi" Type="VI" URL="../../Discovery Client/SingleServiceRegistered_InvalidResolveRequests_Error.vi"/>
+		<Item Name="CreatePinmapWith3Pins_QueryPins_3PinsReported.vi" Type="VI" URL="../../Pin Map Client/CreatePinmapWith3Pins_QueryPins_3PinsReported.vi"/>
+		<Item Name="MultisitePinMapARegistered_ReserveSessionTwice_SecondReserveFails.vi" Type="VI" URL="../../Session Management Client/MultisitePinMapARegistered_ReserveSessionTwice_SecondReserveFails.vi"/>
+		<Item Name="MultisitePinMapARegistered_SessionManagementApiRoundTrip_AllNodesSucceed.vi" Type="VI" URL="../../Session Management Client/MultisitePinMapARegistered_SessionManagementApiRoundTrip_AllNodesSucceed.vi"/>
+	</Item>
 </Library>
