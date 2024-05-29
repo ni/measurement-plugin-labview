@@ -29,11 +29,11 @@
 	</Item>
 	<Item Name="Discovery Service Helpers" Type="Folder">
 		<Item Name="Ensure Discovery Service Started.vi" Type="VI" URL="../Ensure Discovery Service Started.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Get Discovery Service Address.vi" Type="VI" URL="../Get Discovery Service Address.vi"/>
 		<Item Name="Get Discovery Service Key File Path.vi" Type="VI" URL="../Get Discovery Service Key File Path.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Read Discovery Service Key File.vi" Type="VI" URL="../Read Discovery Service Key File.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
