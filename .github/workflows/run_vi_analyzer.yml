@@ -23,9 +23,9 @@ jobs:
       with:
         python-version: '3.10'
 
-    - name: Open LabVIEW 2023
+    - name: Open LabVIEW 2020
       run: |
-        Start-Process "C:\\Program Files\\National Instruments\\LabVIEW 2023\\LabVIEW.exe"
+        Start-Process "C:\\Program Files\\National Instruments\\LabVIEW 2020\\LabVIEW.exe"
         Start-Sleep 60
 
     - name: Run VI Analyzer
@@ -33,7 +33,7 @@ jobs:
         python ${{runner.workspace}}/measurementlink-labview/Source/Tools/run_vi_analyzer.py
       timeout-minutes: 20
 
-    - name: Close LabVIEW 2023
+    - name: Close LabVIEW 2020
       run: 
         wmic process where name="LabVIEW.exe" call terminate
       shell: cmd
