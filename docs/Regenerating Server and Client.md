@@ -4,7 +4,7 @@ Below are instructions for regenerating the grpc-labview code for MeasurementLin
 
 ## Setup
 
-- Install LabVIEW 2020 SP1
+- Install LabVIEW 2021
 - Install all `grpc-labview` VI packages from the desired `grpc-labview` [release](https://github.com/ni/grpc-labview/releases)
 - Clone the `measurementlink-labview` github repo
 

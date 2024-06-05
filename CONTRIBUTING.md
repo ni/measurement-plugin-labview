@@ -104,7 +104,7 @@ This repo contains [tests](Source/Tests) which verify proper behavior of certain
 The test workflow requires a self-hosted runner, which can be configured as follows:
   - Set up a [self-hosted runner](https://github.com/ni/measurementlink-labview/settings/actions/runners/new) so that it appears in the repo's [runners list](https://github.com/ni/measurementlink-labview/settings/actions/runners) and includes a `self-hosted` tag.
   - Install required software to the machine. Below is the required software with minimum versions. 
-      - LabVIEW 2020 SP1 64-bit
+      - LabVIEW 2021 64-bit
       - MeasurementLink 2023 Q1
       - JKI VI Package Manager 2023
           - grpc-labview 1.0.0.1
