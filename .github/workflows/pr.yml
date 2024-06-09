@@ -12,18 +12,18 @@ concurrency:
 jobs:
   run_g_tests:
     name: Run LabVIEW Tests
-    if: ${{ github.repository == 'ni/measurementlink-labview' || github.event.pull_request.head.repo.full_name == 'ni/measurementlink-labview' }}
+    if: ${{ github.repository == 'ni/measurement-plugin-labview' || github.event.pull_request.head.repo.full_name == 'ni/measurement-plugin-labview' }}
     uses: ./.github/workflows/run_g_tests.yml
 
   run_vi_analyzer:
     name: Run VI Analyzer
-    if: ${{ github.repository == 'ni/measurementlink-labview' || github.event.pull_request.head.repo.full_name == 'ni/measurementlink-labview' }}
+    if: ${{ github.repository == 'ni/measurement-plugin-labview' || github.event.pull_request.head.repo.full_name == 'ni/measurement-plugin-labview' }}
     uses: ./.github/workflows/run_vi_analyzer.yml
 
   run_pr_commenter:
     name: Run PR Commenter
     if: ${{(contains(github.event.pull_request.body, 'RUN_G_DIFF_CHECK') ||
             contains(github.event.pull_request.body, '[x] <!--G_DIFF_CHECK-->')) &&
-           (github.repository == 'ni/measurementlink-labview' ||
-            github.event.pull_request.head.repo.full_name == 'ni/measurementlink-labview') }}
+           (github.repository == 'ni/measurement-plugin-labview' ||
+            github.event.pull_request.head.repo.full_name == 'ni/measurement-plugin-labview') }}
     uses: ./.github/workflows/run_pr_commenter.yml
