@@ -30,7 +30,7 @@ jobs:
 
     - name: Run VI Analyzer
       run:
-        python ${{runner.workspace}}/measurementlink-labview/Source/Tools/run_vi_analyzer.py
+        python ${{runner.workspace}}/measurement-plugin-labview/Source/Tools/run_vi_analyzer.py
       timeout-minutes: 20
 
     - name: Close LabVIEW 2020

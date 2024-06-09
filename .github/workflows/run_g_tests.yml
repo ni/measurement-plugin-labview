@@ -42,7 +42,7 @@ jobs:
 
     - name: Run G Tests
       run:
-        python ${{runner.workspace}}/measurementlink-labview/Source/Tests/run_tests.py --labview-path "C:\Program Files\National Instruments\LabVIEW ${{ matrix.version }}\LabVIEW.exe" --port-number ${{ matrix.port }}
+        python ${{runner.workspace}}/measurement-plugin-labview/Source/Tests/run_tests.py --labview-path "C:\Program Files\National Instruments\LabVIEW ${{ matrix.version }}\LabVIEW.exe" --port-number ${{ matrix.port }}
       timeout-minutes: 20
 
     - name: Close LabVIEW ${{ matrix.version }}
