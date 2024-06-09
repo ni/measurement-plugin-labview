@@ -29,10 +29,14 @@ def run_full_diff(pr_number, token, commit_id):
 
     target_snapshot_directory = copy_target_branch_into_temp_directory(repo_root_directory)
 
+    print(added_labview_files)
+    print(modified_labview_files)
+    print(target_snapshot_directory)
+
     diff_vi = os.path.join(tools_directory , "run_diff.vi")
     _logger.debug(f"Launching {diff_vi}.")
 
-    kwargs = ["LabVIEWCLI", "-OperationName", "RunVI", "-VIPath", os.path.normpath(diff_vi), "-LabVIEWPath", "C:\\Program Files\\National Instruments\\LabVIEW 2021\\LabVIEW.exe", "-PortNumber", "3364"]
+    kwargs = ["LabVIEWCLI", "-OperationName", "RunVI", "-VIPath", os.path.normpath(diff_vi), "-LabVIEWPath", "C:\\Program Files\\National Instruments\\LabVIEW 2020\\LabVIEW.exe", "-PortNumber", "3363"]
     kwargs.extend(["--added_labview_files"])
     kwargs.extend(added_labview_files)
     kwargs.extend(["--modified_labview_files"])
