@@ -15,15 +15,15 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Libraries" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
-			<Item Name="Instruments" Type="Folder">
+			<Item Name="Sessions" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
-				<Item Name="MeasurementLink Instrument.lvlib" Type="Library" URL="../MeasurementLink Instrument/MeasurementLink Instrument.lvlib"/>
-				<Item Name="MeasurementLink niDCPower.lvlib" Type="Library" URL="../MeasurementLink niDCPower/MeasurementLink niDCPower.lvlib"/>
-				<Item Name="MeasurementLink niDigital.lvlib" Type="Library" URL="../MeasurementLink niDigital/MeasurementLink niDigital.lvlib"/>
-				<Item Name="MeasurementLink niDMM.lvlib" Type="Library" URL="../MeasurementLink niDMM/MeasurementLink niDMM.lvlib"/>
-				<Item Name="MeasurementLink niFGEN.lvlib" Type="Library" URL="../MeasurementLink niFGEN/MeasurementLink niFGEN.lvlib"/>
-				<Item Name="MeasurementLink niScope.lvlib" Type="Library" URL="../MeasurementLink niScope/MeasurementLink niScope.lvlib"/>
-				<Item Name="MeasurementLink VISA.lvlib" Type="Library" URL="../MeasurementLink VISA/MeasurementLink VISA.lvlib"/>
+				<Item Name="Instrument Sessions.lvlib" Type="Library" URL="../Sessions/Instrument Sessions/Instrument Sessions.lvlib"/>
+				<Item Name="niDCPower Sessions.lvlib" Type="Library" URL="../Sessions/niDCPower Sessions/niDCPower Sessions.lvlib"/>
+				<Item Name="niDigital Sessions.lvlib" Type="Library" URL="../Sessions/niDigital Sessions/niDigital Sessions.lvlib"/>
+				<Item Name="niDMM Sessions.lvlib" Type="Library" URL="../Sessions/niDMM Sessions/niDMM Sessions.lvlib"/>
+				<Item Name="niFGEN Sessions.lvlib" Type="Library" URL="../Sessions/niFGEN Sessions/niFGEN Sessions.lvlib"/>
+				<Item Name="niScope Sessions.lvlib" Type="Library" URL="../Sessions/niScope Sessions/niScope Sessions.lvlib"/>
+				<Item Name="VISA Sessions.lvlib" Type="Library" URL="../Sessions/VISA Sessions/VISA Sessions.lvlib"/>
 			</Item>
 			<Item Name="Measurement Plugin Discovery V1.lvlib" Type="Library" URL="../Measurement Plugin Discovery V1/Measurement Plugin Discovery V1.lvlib"/>
 			<Item Name="Measurement Plugin Measurement Server.lvlib" Type="Library" URL="../Measurement Plugin Measurement Server/Measurement Plugin Measurement Server.lvlib"/>
