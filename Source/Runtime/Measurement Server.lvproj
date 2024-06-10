@@ -25,10 +25,10 @@
 				<Item Name="MeasurementLink niScope.lvlib" Type="Library" URL="../MeasurementLink niScope/MeasurementLink niScope.lvlib"/>
 				<Item Name="MeasurementLink VISA.lvlib" Type="Library" URL="../MeasurementLink VISA/MeasurementLink VISA.lvlib"/>
 			</Item>
-			<Item Name="MeasurementLink Discovery V1.lvlib" Type="Library" URL="../MeasurementLink Discovery V1/MeasurementLink Discovery V1.lvlib"/>
-			<Item Name="MeasurementLink Measurement Server.lvlib" Type="Library" URL="../MeasurementLink Measurement Server/MeasurementLink Measurement Server.lvlib"/>
-			<Item Name="MeasurementLink Session Management V1.lvlib" Type="Library" URL="../MeasurementLink Session Management V1/MeasurementLink Session Management V1.lvlib"/>
-			<Item Name="MeasurementLink TestStand Integration.lvlib" Type="Library" URL="../MeasurementLink TestStand Integration/MeasurementLink TestStand Integration.lvlib"/>
+			<Item Name="Measurement Plugin Discovery V1.lvlib" Type="Library" URL="../Measurement Plugin Discovery V1/Measurement Plugin Discovery V1.lvlib"/>
+			<Item Name="Measurement Plugin Measurement Server.lvlib" Type="Library" URL="../Measurement Plugin Measurement Server/Measurement Plugin Measurement Server.lvlib"/>
+			<Item Name="Measurement Plugin Session Management V1.lvlib" Type="Library" URL="../Measurement Plugin Session Management V1/Measurement Plugin Session Management V1.lvlib"/>
+			<Item Name="Measurement Plugin TestStand Integration.lvlib" Type="Library" URL="../Measurement Plugin TestStand Integration/Measurement Plugin TestStand Integration.lvlib"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="MeasurementServerTests.lvlib" Type="Library" URL="../../Tests/Tests.Runtime/Measurement Server/MeasurementServerTests.lvlib"/>
@@ -37,7 +37,7 @@
 			<Item Name="Session Reservation Test Utilities.lvlib" Type="Library" URL="../../TestUtilities/TestUtilities.Runtime/Session Reservation Test Utilities/Session Reservation Test Utilities.lvlib"/>
 		</Item>
 		<Item Name="Global VIs" Type="Folder">
-			<Item Name="Error Strings Global Internal.vi" Type="VI" URL="../MeasurementLink Measurement Server/Helpers/Error Strings Global Internal.vi"/>
+			<Item Name="Error Strings Global Internal.vi" Type="VI" URL="../Measurement Plugin Measurement Server/Helpers/Error Strings Global Internal.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -114,7 +114,6 @@
 				<Item Name="VISA gRPC Options.ctl" Type="VI" URL="/&lt;vilib&gt;/NI-VISA/VISA gRPC Options.ctl"/>
 				<Item Name="VISA Format gRPC Resource Name.vi" Type="VI" URL="/&lt;vilib&gt;/NI-VISA/VISA Format gRPC Resource Name.vi"/>
 				<Item Name="VISA Format gRPC URI.vi" Type="VI" URL="/&lt;vilib&gt;/NI-VISA/VISA Format gRPC URI.vi"/>
-				<Item Name="ni.protobuf.types.lvlib" Type="Library" URL="/&lt;vilib&gt;/gRPC/Generated APIs/ni/protobuf/types/ni.protobuf.types.lvlib"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niDCPower Initialize With Independent Channels for gRPC session.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Initialize With Independent Channels for gRPC session.vi"/>
@@ -159,11 +158,11 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="MeasurementLink Discovery Client.lvlib" Type="Library" URL="../MeasurementLink Discovery Client/MeasurementLink Discovery Client.lvlib"/>
-			<Item Name="MeasurementLink Measurement Server Internal.lvlib" Type="Library" URL="../MeasurementLink Measurement Server Internal/MeasurementLink Measurement Server Internal.lvlib"/>
-			<Item Name="MeasurementLink Measurement Service Base V2.lvlib" Type="Library" URL="../MeasurementLink Measurement Service Base V2/MeasurementLink Measurement Service Base V2.lvlib"/>
-			<Item Name="MeasurementLink Pin Map Client.lvlib" Type="Library" URL="../MeasurementLink Pin Map Client/MeasurementLink Pin Map Client.lvlib"/>
-			<Item Name="MeasurementLink Session Management Client.lvlib" Type="Library" URL="../MeasurementLink Session Management Client/MeasurementLink Session Management Client.lvlib"/>
+			<Item Name="Measurement Plugin Discovery Client.lvlib" Type="Library" URL="../Measurement Plugin Discovery Client/Measurement Plugin Discovery Client.lvlib"/>
+			<Item Name="Measurement Plugin Measurement Server Internal.lvlib" Type="Library" URL="../Measurement Plugin Measurement Server Internal/Measurement Plugin Measurement Server Internal.lvlib"/>
+			<Item Name="Measurement Plugin Measurement Service Base V2.lvlib" Type="Library" URL="../Measurement Plugin Measurement Service Base V2/Measurement Plugin Measurement Service Base V2.lvlib"/>
+			<Item Name="Measurement Plugin Pin Map Client.lvlib" Type="Library" URL="../Measurement Plugin Pin Map Client/Measurement Plugin Pin Map Client.lvlib"/>
+			<Item Name="Measurement Plugin Session Management Client.lvlib" Type="Library" URL="../Measurement Plugin Session Management Client/Measurement Plugin Session Management Client.lvlib"/>
 			<Item Name="nidcpower_64.dll" Type="Document" URL="nidcpower_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
