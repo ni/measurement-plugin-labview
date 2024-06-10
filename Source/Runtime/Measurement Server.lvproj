@@ -17,18 +17,18 @@
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Instruments" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
-				<Item Name="MeasurementLink Instrument.lvlib" Type="Library" URL="../MeasurementLink Instrument/MeasurementLink Instrument.lvlib"/>
-				<Item Name="MeasurementLink niDCPower.lvlib" Type="Library" URL="../MeasurementLink niDCPower/MeasurementLink niDCPower.lvlib"/>
-				<Item Name="MeasurementLink niDigital.lvlib" Type="Library" URL="../MeasurementLink niDigital/MeasurementLink niDigital.lvlib"/>
-				<Item Name="MeasurementLink niDMM.lvlib" Type="Library" URL="../MeasurementLink niDMM/MeasurementLink niDMM.lvlib"/>
-				<Item Name="MeasurementLink niFGEN.lvlib" Type="Library" URL="../MeasurementLink niFGEN/MeasurementLink niFGEN.lvlib"/>
-				<Item Name="MeasurementLink niScope.lvlib" Type="Library" URL="../MeasurementLink niScope/MeasurementLink niScope.lvlib"/>
-				<Item Name="MeasurementLink VISA.lvlib" Type="Library" URL="../MeasurementLink VISA/MeasurementLink VISA.lvlib"/>
+				<Item Name="Instrument Sessions.lvlib" Type="Library" URL="../Sessions/Instrument Sessions/Instrument Sessions.lvlib"/>
+				<Item Name="niDCPower Sessions.lvlib" Type="Library" URL="../Sessions/niDCPower Sessions/niDCPower Sessions.lvlib"/>
+				<Item Name="niDigital Sessions.lvlib" Type="Library" URL="../Sessions/niDigital Sessions/niDigital Sessions.lvlib"/>
+				<Item Name="niDMM Sessions.lvlib" Type="Library" URL="../Sessions/niDMM Sessions/niDMM Sessions.lvlib"/>
+				<Item Name="niFGEN Sessions.lvlib" Type="Library" URL="../Sessions/niFGEN Sessions/niFGEN Sessions.lvlib"/>
+				<Item Name="niScope Sessions.lvlib" Type="Library" URL="../Sessions/niScope Sessions/niScope Sessions.lvlib"/>
+				<Item Name="VISA Sessions.lvlib" Type="Library" URL="../Sessions/VISA Sessions/VISA Sessions.lvlib"/>
 			</Item>
-			<Item Name="MeasurementLink Discovery V1.lvlib" Type="Library" URL="../MeasurementLink Discovery V1/MeasurementLink Discovery V1.lvlib"/>
-			<Item Name="MeasurementLink Measurement Server.lvlib" Type="Library" URL="../MeasurementLink Measurement Server/MeasurementLink Measurement Server.lvlib"/>
-			<Item Name="MeasurementLink Session Management V1.lvlib" Type="Library" URL="../MeasurementLink Session Management V1/MeasurementLink Session Management V1.lvlib"/>
-			<Item Name="MeasurementLink TestStand Integration.lvlib" Type="Library" URL="../MeasurementLink TestStand Integration/MeasurementLink TestStand Integration.lvlib"/>
+			<Item Name="Measurement Plugin Discovery V1.lvlib" Type="Library" URL="../Measurements/Measurement Plugin Discovery V1/Measurement Plugin Discovery V1.lvlib"/>
+			<Item Name="Measurement Plugin Measurement Server.lvlib" Type="Library" URL="../Measurements/Measurement Plugin Measurement Server/Measurement Plugin Measurement Server.lvlib"/>
+			<Item Name="Measurement Plugin Session Management V1.lvlib" Type="Library" URL="../Measurements/Measurement Plugin Session Management V1/Measurement Plugin Session Management V1.lvlib"/>
+			<Item Name="Measurement Plugin TestStand Integration.lvlib" Type="Library" URL="../Measurements/Measurement Plugin TestStand Integration/Measurement Plugin TestStand Integration.lvlib"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="MeasurementServerTests.lvlib" Type="Library" URL="../../Tests/Tests.Runtime/Measurement Server/MeasurementServerTests.lvlib"/>
@@ -37,7 +37,7 @@
 			<Item Name="Session Reservation Test Utilities.lvlib" Type="Library" URL="../../TestUtilities/TestUtilities.Runtime/Session Reservation Test Utilities/Session Reservation Test Utilities.lvlib"/>
 		</Item>
 		<Item Name="Global VIs" Type="Folder">
-			<Item Name="Error Strings Global Internal.vi" Type="VI" URL="../MeasurementLink Measurement Server/Helpers/Error Strings Global Internal.vi"/>
+			<Item Name="Error Strings Global Internal.vi" Type="VI" URL="../Measurements/Measurement Plugin Measurement Server/Helpers/Error Strings Global Internal.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
