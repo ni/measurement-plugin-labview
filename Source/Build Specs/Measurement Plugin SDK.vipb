@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2024-06-07 13:03:22" Creator="lvadmin" Comments="" ID="675f6b7348c482a53da4563206cef6bb">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2024-06-10 11:07:34" Creator="lvadmin" Comments="" ID="acb5f4034f54b18921cb6588110b975c">
   <Library_General_Settings>
     <Package_File_Name>ni_measurement_plugin_sdk</Package_File_Name>
     <Library_Version>3.0.0.2</Library_Version>
