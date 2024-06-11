@@ -14,35 +14,31 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Tests.Runtime" Type="Folder">
-			<Item Name="Discovery Client" Type="Folder" URL="../../Tests/Tests.Runtime/Discovery Client">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
+			<Item Name="Discovery Client" Type="Folder">
+				<Item Name="NoServicesRegistered_InvalidRegisterRequests_Error.vi" Type="VI" URL="../../../Tests/Tests.Runtime/Discovery Client/NoServicesRegistered_InvalidRegisterRequests_Error.vi"/>
+				<Item Name="SingleServiceRegistered_DiscoveryApiRoundTrip_AllNodesSucceed.vi" Type="VI" URL="../../../Tests/Tests.Runtime/Discovery Client/SingleServiceRegistered_DiscoveryApiRoundTrip_AllNodesSucceed.vi"/>
+				<Item Name="SingleServiceRegistered_InvalidResolveRequests_Error.vi" Type="VI" URL="../../../Tests/Tests.Runtime/Discovery Client/SingleServiceRegistered_InvalidResolveRequests_Error.vi"/>
 			</Item>
 		</Item>
 		<Item Name="MeasurementLink Discovery Client" Type="Folder">
-			<Item Name="MeasurementLink Discovery Client.lvlib" Type="Library" URL="../MeasurementLink Discovery Client/MeasurementLink Discovery Client.lvlib"/>
+			<Item Name="Measurement Plugin Discovery Client.lvlib" Type="Library" URL="../Measurement Plugin Discovery Client/Measurement Plugin Discovery Client.lvlib"/>
 		</Item>
 		<Item Name="Discovery Client Prototype Library.lvlib" Type="Library" URL="../Discovery Client Prototype Library.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="grpc-lvsupport-release.lvlib" Type="Library" URL="/&lt;vilib&gt;/gRPC/LabVIEW gRPC Library/grpc-lvsupport-release.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
-				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
@@ -50,6 +46,7 @@
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
@@ -61,12 +58,17 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="grpc-lvsupport-release.lvlib" Type="Library" URL="/&lt;vilib&gt;/gRPC/LabVIEW gRPC Library/grpc-lvsupport-release.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 			</Item>
-			<Item Name="Discovery Client - Register Service.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Runtime/Discovery Client - Register Service.vi"/>
-			<Item Name="Get Discovery Service Address.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Runtime/Service Lookup/Get Discovery Service Address.vi"/>
-			<Item Name="Discovery Client - Enumerate Services.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Runtime/Discovery Client - Enumerate Services.vi"/>
-			<Item Name="Discovery Client - Resolve Service.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Runtime/Discovery Client - Resolve Service.vi"/>
-			<Item Name="Discovery Client - Unregister Service.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Runtime/Discovery Client - Unregister Service.vi"/>
+			<Item Name="Discovery Client - Register Service.vi" Type="VI" URL="../../../TestUtilities/TestUtilities.Runtime/Discovery Client - Register Service.vi"/>
+			<Item Name="Get Discovery Service Address.vi" Type="VI" URL="../../../TestUtilities/TestUtilities.Runtime/Service Lookup/Get Discovery Service Address.vi"/>
+			<Item Name="Discovery Client - Enumerate Services.vi" Type="VI" URL="../../../TestUtilities/TestUtilities.Runtime/Discovery Client - Enumerate Services.vi"/>
+			<Item Name="Discovery Client - Resolve Service.vi" Type="VI" URL="../../../TestUtilities/TestUtilities.Runtime/Discovery Client - Resolve Service.vi"/>
+			<Item Name="Discovery Client - Unregister Service.vi" Type="VI" URL="../../../TestUtilities/TestUtilities.Runtime/Discovery Client - Unregister Service.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
