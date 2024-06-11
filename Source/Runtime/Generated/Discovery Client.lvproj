@@ -14,10 +14,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Tests.Runtime" Type="Folder">
-			<Item Name="Discovery Client" Type="Folder">
-				<Item Name="NoServicesRegistered_InvalidRegisterRequests_Error.vi" Type="VI" URL="../../../Tests/Tests.Runtime/Discovery Client/NoServicesRegistered_InvalidRegisterRequests_Error.vi"/>
-				<Item Name="SingleServiceRegistered_DiscoveryApiRoundTrip_AllNodesSucceed.vi" Type="VI" URL="../../../Tests/Tests.Runtime/Discovery Client/SingleServiceRegistered_DiscoveryApiRoundTrip_AllNodesSucceed.vi"/>
-				<Item Name="SingleServiceRegistered_InvalidResolveRequests_Error.vi" Type="VI" URL="../../../Tests/Tests.Runtime/Discovery Client/SingleServiceRegistered_InvalidResolveRequests_Error.vi"/>
+			<Item Name="Discovery Client" Type="Folder" URL="../../../Tests/Tests.Runtime/Discovery Client">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="MeasurementLink Discovery Client" Type="Folder">
