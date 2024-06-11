@@ -10,7 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="ImageRendering.lvlib" Type="Library" URL="../ImageRendering/ImageRendering.lvlib"/>
+		<Item Name="ImageStreamRendering.lvlib" Type="Library" URL="../ImageRendering/ImageStreamRendering.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
@@ -53,7 +53,10 @@
 				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 				<Item Name="IMAQ WindDraw" Type="VI" URL="/&lt;vilib&gt;/vision/Display.llb/IMAQ WindDraw"/>
+				<Item Name="IMAQ WindSetup" Type="VI" URL="/&lt;vilib&gt;/vision/Display.llb/IMAQ WindSetup"/>
 				<Item Name="IMAQ WindShow" Type="VI" URL="/&lt;vilib&gt;/vision/Display.llb/IMAQ WindShow"/>
+				<Item Name="IMAQ WindToolsSetup" Type="VI" URL="/&lt;vilib&gt;/vision/Tools Menu.llb/IMAQ WindToolsSetup"/>
+				<Item Name="IMAQ WindToolsShow" Type="VI" URL="/&lt;vilib&gt;/vision/Tools Menu.llb/IMAQ WindToolsShow"/>
 				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
@@ -120,7 +123,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/ImageRendering</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/ImageRendering.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/ImageStreamRendering.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9BC5A717-B178-4017-86D1-3D8FC5CD7D96}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ImageRendering.exe</Property>
@@ -133,31 +136,31 @@
 				<Property Name="Source[0].itemID" Type="Str">{502FAFAE-38EB-43BD-990F-44C098E21D3B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ImageRendering.lvlib/Get Measurement Details.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ImageStreamRendering.lvlib/Get Measurement Details.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/ImageRendering.lvlib/Get Type Specializations.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/ImageStreamRendering.lvlib/Get Type Specializations.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/ImageRendering.lvlib/Get UI Details.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/ImageStreamRendering.lvlib/Get UI Details.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/ImageRendering.lvlib/Measurement Configuration.ctl</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/ImageStreamRendering.lvlib/Measurement Configuration.ctl</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/ImageRendering.lvlib/Measurement Logic.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/ImageStreamRendering.lvlib/Measurement Logic.vi</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/ImageRendering.lvlib/Measurement Results.ctl</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/ImageStreamRendering.lvlib/Measurement Results.ctl</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/ImageRendering.lvlib/Run Service.vi</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/ImageStreamRendering.lvlib/Run Service.vi</Property>
 				<Property Name="Source[7].properties[0].type" Type="Str">Window run-time position</Property>
 				<Property Name="Source[7].properties[0].value" Type="Str">Minimized</Property>
 				<Property Name="Source[7].propertiesCount" Type="Int">1</Property>
