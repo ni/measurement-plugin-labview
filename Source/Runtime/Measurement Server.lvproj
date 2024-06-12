@@ -161,7 +161,7 @@
 			<Item Name="ni.measurementlink.discovery.v1.lvlib" Type="Library" URL="../../gRPC/Generated APIs/ni/measurementlink/discovery/v1/ni.measurementlink.discovery.v1.lvlib"/>
 			<Item Name="Measurement Plugin Measurement Server Internal.lvlib" Type="Library" URL="../Generated/Measurement Plugin Measurement Server Internal/Measurement Plugin Measurement Server Internal.lvlib"/>
 			<Item Name="Measurement Plugin Measurement Service Base V2.lvlib" Type="Library" URL="../Generated/Measurement Plugin Measurement Service Base V2/Measurement Plugin Measurement Service Base V2.lvlib"/>
-			<Item Name="Measurement Plugin Pin Map Client.lvlib" Type="Library" URL="../Generated/Measurement Plugin Pin Map Client/Measurement Plugin Pin Map Client.lvlib"/>
+			<Item Name="ni.measurementlink.pinmap.v1.lvlib" Type="Library" URL="../../gRPC/Generated APIs/ni/measurementlink/pinmap/v1/ni.measurementlink.pinmap.v1.lvlib"/>
 			<Item Name="ni.measurementlink.sessionmanagement.v1.lvlib" Type="Library" URL="../../gRPC/Generated APIs/ni/measurementlink/sessionmanagement/v1/ni.measurementlink.sessionmanagement.v1.lvlib"/>
 			<Item Name="nidcpower_64.dll" Type="Document" URL="nidcpower_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
