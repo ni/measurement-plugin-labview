@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="20008000">
-	<Property Name="NI.Lib.DefaultMenu" Type="Str">MeasurementLink niScope.mnu</Property>
+	<Property Name="NI.Lib.DefaultMenu" Type="Str">Plug-In SDK niScope Sessions.mnu</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)]!!!*Q(C=\&gt;7^D2.2&amp;-8R!S)A&gt;1@),:Q7X)*&amp;"\="AEE&gt;OI8&lt;AAMA=1?L'R'OZ*D)EZ#2\0\H=?WVB)141!DN0$_PZ\SPH^_-:[6RP*@?[?H?M@PF1&lt;NWP,3=3$`6J6X&gt;@F06Z;:&gt;X8"J@RH`I]&gt;9Y(&lt;]\D,_?HJZUW7C-@[/`][BV_0V_,_0_T_#0`Y\?+0F151N;F+$;CX,0B6ZE2&gt;ZE2&gt;ZE3&gt;ZEC&gt;ZEC&gt;ZEA&gt;ZE!&gt;ZE!&gt;ZE*P=Z#9XO=F.0AKZS%5O=ED&amp;YM6#R;4&amp;"%6H+#L?#E`B+4S&amp;BV-6HM*4?!J0Y;',#E`B+4S&amp;J`!Q4)7H]"3?QF.YG'J);B2S0)7([:6Y%E`C34S*BS76?"*!MFAS=4)*$#7.S9@%EXA3$R_6?"*0YEE]C9&gt;G*:\%EXA34_*BS.C6(*KFE/.B'A7?Q".Y!E`A97I&amp;HM!4?!*0Y'%Z":\!%S##"90*)3A9&amp;(1)4A*0Y/'0!E`A#4S"*`$1.+Z1D*V:.%MBRW-]RG-]RG-]4#(D-2\D-2\D96I:D`%9D`%9$UP*?)T(?!T%,-LS-J/:A;;4#9S(V\B&lt;0+Z3$IF(E@LG6&gt;_5[JN.@2/J&lt;Q\V26&gt;@406&amp;5G__?F06G[8?"0785[06'05C[M&amp;,2]W]H[B([I'[JU\5,86$86.8S^$@X('?:ZV/*RW02RU/"_XX?UX4J/VWK]VGI`6[L&gt;6K&gt;8U-@+"=(QAPT[8(&lt;`&lt;$@0\Y]0HM,^`0U_.8@`J,`Z``A7?DXOJW$@&lt;I'&lt;0#:!I!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
@@ -17,6 +17,6 @@
 	<Item Name="Initialize Sessions - NSess.vi" Type="VI" URL="../Initialize Sessions - NSess.vi"/>
 	<Item Name="Initialize Sessions.vi" Type="VI" URL="../Initialize Sessions.vi"/>
 	<Item Name="Instrument Type ID.vi" Type="VI" URL="../Instrument Type ID.vi"/>
-	<Item Name="MeasurementLink niScope.mnu" Type="Document" URL="../MeasurementLink niScope.mnu"/>
+	<Item Name="Plug-In SDK niScope Sessions.mnu" Type="Document" URL="../Plug-In SDK niScope Sessions.mnu"/>
 	<Item Name="Session Factory.lvclass" Type="LVClass" URL="../Session Factory/Session Factory.lvclass"/>
 </Library>
