@@ -25,8 +25,8 @@
 				<Item Name="niScope Sessions.lvlib" Type="Library" URL="../Sessions/niScope Sessions/niScope Sessions.lvlib"/>
 				<Item Name="VISA Sessions.lvlib" Type="Library" URL="../Sessions/VISA Sessions/VISA Sessions.lvlib"/>
 			</Item>
-			<Item Name="Measurement Plugin Measurement Server.lvlib" Type="Library" URL="../Measurements/Measurement Plugin Measurement Server/Measurement Plugin Measurement Server.lvlib"/>
 			<Item Name="Plug-In SDK Discovery V1.lvlib" Type="Library" URL="../APIs/Discovery V1/Plug-In SDK Discovery V1.lvlib"/>
+			<Item Name="Plug-In SDK Measurement.lvlib" Type="Library" URL="../Measurements/Plug-In SDK Measurement.lvlib"/>
 			<Item Name="Plug-In SDK Session Management V1.lvlib" Type="Library" URL="../APIs/Session Management V1/Plug-In SDK Session Management V1.lvlib"/>
 			<Item Name="Plug-In SDK TestStand Integration.lvlib" Type="Library" URL="../APIs/TestStand Integration/Plug-In SDK TestStand Integration.lvlib"/>
 		</Item>
@@ -37,7 +37,7 @@
 			<Item Name="Session Reservation Test Utilities.lvlib" Type="Library" URL="../../TestUtilities/TestUtilities.Runtime/Session Reservation Test Utilities/Session Reservation Test Utilities.lvlib"/>
 		</Item>
 		<Item Name="Global VIs" Type="Folder">
-			<Item Name="Error Strings Global Internal.vi" Type="VI" URL="../Measurements/Measurement Plugin Measurement Server/Helpers/Error Strings Global Internal.vi"/>
+			<Item Name="Error Strings Global Internal.vi" Type="VI" URL="../Measurements/Helpers/Error Strings Global Internal.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
