@@ -158,7 +158,7 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Measurement Plugin Discovery Client.lvlib" Type="Library" URL="../Generated/Measurement Plugin Discovery Client/Measurement Plugin Discovery Client.lvlib"/>
+			<Item Name="ni.measurementlink.discovery.v1.lvlib" Type="Library" URL="../../gRPC/Generated APIs/ni/measurementlink/discovery/v1/ni.measurementlink.discovery.v1.lvlib"/>
 			<Item Name="Measurement Plugin Measurement Server Internal.lvlib" Type="Library" URL="../Generated/Measurement Plugin Measurement Server Internal/Measurement Plugin Measurement Server Internal.lvlib"/>
 			<Item Name="Measurement Plugin Measurement Service Base V2.lvlib" Type="Library" URL="../Generated/Measurement Plugin Measurement Service Base V2/Measurement Plugin Measurement Service Base V2.lvlib"/>
 			<Item Name="Measurement Plugin Pin Map Client.lvlib" Type="Library" URL="../Generated/Measurement Plugin Pin Map Client/Measurement Plugin Pin Map Client.lvlib"/>
