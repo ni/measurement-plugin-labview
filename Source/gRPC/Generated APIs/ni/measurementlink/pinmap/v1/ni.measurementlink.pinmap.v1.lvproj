@@ -12,15 +12,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="MeasurementLink Pin Map Client" Type="Folder">
-			<Item Name="MeasurementLink Pin Map Client.lvlib" Type="Library" URL="../MeasurementLink Pin Map Client/MeasurementLink Pin Map Client.lvlib"/>
+		<Item Name="ni.measurementlink.pinmap.v1" Type="Folder">
+			<Item Name="ni.measurementlink.pinmap.v1.lvlib" Type="Library" URL="../ni.measurementlink.pinmap.v1.lvlib"/>
 		</Item>
-		<Item Name="Tests.Runtime" Type="Folder">
-			<Item Name="Pin Map Client" Type="Folder" URL="../../Tests/Tests.Runtime/Pin Map Client">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
-			</Item>
-		</Item>
-		<Item Name="Pin Map Client Prototype Library.lvlib" Type="Library" URL="../Pin Map Client Prototype Library.lvlib"/>
+		<Item Name="ni.measurementlink.pinmap.v1.prototype.lvlib" Type="Library" URL="../ni.measurementlink.pinmap.v1.prototype.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
@@ -45,9 +40,6 @@
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="grpc-lvsupport-release.lvlib" Type="Library" URL="/&lt;vilib&gt;/gRPC/LabVIEW gRPC Library/grpc-lvsupport-release.lvlib"/>
-				<Item Name="Less Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Comparable/Less Comparable.lvclass"/>
-				<Item Name="Less Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Functor/Less Functor.lvclass"/>
-				<Item Name="Less.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Less.vim"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
@@ -58,19 +50,12 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="Sort 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Sort 1D Array Core.vim"/>
-				<Item Name="Sort 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 1D Array.vim"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Discovery Client - Resolve Service.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Runtime/Discovery Client - Resolve Service.vi"/>
-			<Item Name="Get Discovery Service Address.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Runtime/Service Lookup/Get Discovery Service Address.vi"/>
-			<Item Name="Get Pin Map Service Address.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Runtime/Service Lookup/Get Pin Map Service Address.vi"/>
-			<Item Name="MeasurementLink Discovery Client.lvlib" Type="Library" URL="../MeasurementLink Discovery Client/MeasurementLink Discovery Client.lvlib"/>
-			<Item Name="Pin Map Client - Create or Update Pin Map.vi" Type="VI" URL="../../TestUtilities/TestUtilities.Runtime/Pin Map Client - Create or Update Pin Map.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
