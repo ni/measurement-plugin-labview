@@ -25,12 +25,12 @@
 			</Item>
 			<Item Name="Sessions" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
-				<Item Name="Instrument Sessions.lvlib" Type="Library" URL="../Sessions/Instrument Sessions/Instrument Sessions.lvlib"/>
 				<Item Name="niDCPower Sessions.lvlib" Type="Library" URL="../Sessions/niDCPower Sessions/niDCPower Sessions.lvlib"/>
 				<Item Name="niDigital Sessions.lvlib" Type="Library" URL="../Sessions/niDigital Sessions/niDigital Sessions.lvlib"/>
 				<Item Name="niDMM Sessions.lvlib" Type="Library" URL="../Sessions/niDMM Sessions/niDMM Sessions.lvlib"/>
 				<Item Name="niFGEN Sessions.lvlib" Type="Library" URL="../Sessions/niFGEN Sessions/niFGEN Sessions.lvlib"/>
 				<Item Name="niScope Sessions.lvlib" Type="Library" URL="../Sessions/niScope Sessions/niScope Sessions.lvlib"/>
+				<Item Name="Plug-In SDK Instrument Sessions.lvlib" Type="Library" URL="../Sessions/Instrument Sessions/Plug-In SDK Instrument Sessions.lvlib"/>
 				<Item Name="VISA Sessions.lvlib" Type="Library" URL="../Sessions/VISA Sessions/VISA Sessions.lvlib"/>
 			</Item>
 		</Item>
