@@ -15,7 +15,15 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Libraries" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
-			<Item Name="Instruments" Type="Folder">
+			<Item Name="APIs" Type="Folder">
+				<Item Name="Plug-In SDK Discovery V1.lvlib" Type="Library" URL="../APIs/Discovery V1/Plug-In SDK Discovery V1.lvlib"/>
+				<Item Name="Plug-In SDK Session Management V1.lvlib" Type="Library" URL="../APIs/Session Management V1/Plug-In SDK Session Management V1.lvlib"/>
+				<Item Name="Plug-In SDK TestStand Integration.lvlib" Type="Library" URL="../APIs/TestStand Integration/Plug-In SDK TestStand Integration.lvlib"/>
+			</Item>
+			<Item Name="Measurements" Type="Folder">
+				<Item Name="Plug-In SDK Measurement.lvlib" Type="Library" URL="../Measurements/Plug-In SDK Measurement.lvlib"/>
+			</Item>
+			<Item Name="Sessions" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
 				<Item Name="Instrument Sessions.lvlib" Type="Library" URL="../Sessions/Instrument Sessions/Instrument Sessions.lvlib"/>
 				<Item Name="niDCPower Sessions.lvlib" Type="Library" URL="../Sessions/niDCPower Sessions/niDCPower Sessions.lvlib"/>
@@ -25,10 +33,6 @@
 				<Item Name="niScope Sessions.lvlib" Type="Library" URL="../Sessions/niScope Sessions/niScope Sessions.lvlib"/>
 				<Item Name="VISA Sessions.lvlib" Type="Library" URL="../Sessions/VISA Sessions/VISA Sessions.lvlib"/>
 			</Item>
-			<Item Name="Plug-In SDK Discovery V1.lvlib" Type="Library" URL="../APIs/Discovery V1/Plug-In SDK Discovery V1.lvlib"/>
-			<Item Name="Plug-In SDK Measurement.lvlib" Type="Library" URL="../Measurements/Plug-In SDK Measurement.lvlib"/>
-			<Item Name="Plug-In SDK Session Management V1.lvlib" Type="Library" URL="../APIs/Session Management V1/Plug-In SDK Session Management V1.lvlib"/>
-			<Item Name="Plug-In SDK TestStand Integration.lvlib" Type="Library" URL="../APIs/TestStand Integration/Plug-In SDK TestStand Integration.lvlib"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="MeasurementServerTests.lvlib" Type="Library" URL="../../Tests/Tests.Runtime/Measurement Server/MeasurementServerTests.lvlib"/>
