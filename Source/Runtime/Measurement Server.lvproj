@@ -16,9 +16,9 @@
 		<Item Name="Libraries" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="APIs" Type="Folder">
-				<Item Name="Plug-In SDK Discovery V1.lvlib" Type="Library" URL="../APIs/Discovery V1/Plug-In SDK Discovery V1.lvlib"/>
-				<Item Name="Plug-In SDK Session Management V1.lvlib" Type="Library" URL="../APIs/Session Management V1/Plug-In SDK Session Management V1.lvlib"/>
-				<Item Name="Plug-In SDK TestStand Integration.lvlib" Type="Library" URL="../APIs/TestStand Integration/Plug-In SDK TestStand Integration.lvlib"/>
+				<Item Name="Plug-In SDK Discovery V1 API.lvlib" Type="Library" URL="../APIs/Discovery V1/Plug-In SDK Discovery V1 API.lvlib"/>
+				<Item Name="Plug-In SDK Session Management V1 API.lvlib" Type="Library" URL="../APIs/Session Management V1/Plug-In SDK Session Management V1 API.lvlib"/>
+				<Item Name="Plug-In SDK TestStand Integration API.lvlib" Type="Library" URL="../APIs/TestStand Integration/Plug-In SDK TestStand Integration API.lvlib"/>
 			</Item>
 			<Item Name="Measurements" Type="Folder">
 				<Item Name="Plug-In SDK Measurement.lvlib" Type="Library" URL="../Measurements/Plug-In SDK Measurement.lvlib"/>

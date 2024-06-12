@@ -8,8 +8,8 @@
 
 </Property>
 	<Item Name="Friends List" Type="Friends List">
-		<Item Name="Plug-In SDK TestStand Integration.lvlib" Type="Friended Library" URL="../../TestStand Integration/Plug-In SDK TestStand Integration.lvlib"/>
-		<Item Name="Plug-In SDK Session Management V1.lvlib:Session Reservation.lvclass" Type="Friended Library" URL="../../Session Management V1/Session Reservation/Session Reservation.lvclass"/>
+		<Item Name="Plug-In SDK TestStand Integration API.lvlib" Type="Friended Library" URL="../../TestStand Integration/Plug-In SDK TestStand Integration API.lvlib"/>
+		<Item Name="Plug-In SDK Session Management V1 API.lvlib:Session Reservation.lvclass" Type="Friended Library" URL="../../Session Management V1/Session Reservation/Session Reservation.lvclass"/>
 		<Item Name="MeasurementServerTests.lvlib:Discovery Tests.lvlib" Type="Friended Library" URL="../../../../Tests/Tests.Runtime/Measurement Server/Discovery/Discovery Tests.lvlib"/>
 		<Item Name="MeasurementServerTests.lvlib" Type="Friended Library" URL="../../../../Tests/Tests.Runtime/Measurement Server/MeasurementServerTests.lvlib"/>
 	</Item>
