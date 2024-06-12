@@ -26,9 +26,9 @@
 				<Item Name="VISA Sessions.lvlib" Type="Library" URL="../Sessions/VISA Sessions/VISA Sessions.lvlib"/>
 			</Item>
 			<Item Name="Measurement Plugin Measurement Server.lvlib" Type="Library" URL="../Measurements/Measurement Plugin Measurement Server/Measurement Plugin Measurement Server.lvlib"/>
-			<Item Name="Measurement Plugin TestStand Integration.lvlib" Type="Library" URL="../Measurements/Measurement Plugin TestStand Integration/Measurement Plugin TestStand Integration.lvlib"/>
 			<Item Name="Plug-In SDK Discovery V1.lvlib" Type="Library" URL="../APIs/Discovery V1/Plug-In SDK Discovery V1.lvlib"/>
 			<Item Name="Plug-In SDK Session Management V1.lvlib" Type="Library" URL="../APIs/Session Management V1/Plug-In SDK Session Management V1.lvlib"/>
+			<Item Name="Plug-In SDK TestStand Integration.lvlib" Type="Library" URL="../APIs/TestStand Integration/Plug-In SDK TestStand Integration.lvlib"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="MeasurementServerTests.lvlib" Type="Library" URL="../../Tests/Tests.Runtime/Measurement Server/MeasurementServerTests.lvlib"/>
