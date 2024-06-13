@@ -162,11 +162,11 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ni.measurementlink.discovery.v1.lvlib" Type="Library" URL="../../gRPC/Generated APIs/ni/measurementlink/discovery/v1/ni.measurementlink.discovery.v1.lvlib"/>
-			<Item Name="ni.measurementlink.measurement.v1.lvlib" Type="Library" URL="../../gRPC/Generated APIs/ni/measurementlink/measurement/v1/ni.measurementlink.measurement.v1.lvlib"/>
-			<Item Name="ni.measurementlink.measurement.v2.lvlib" Type="Library" URL="../../gRPC/Generated APIs/ni/measurementlink/measurement/v2/ni.measurementlink.measurement.v2.lvlib"/>
-			<Item Name="ni.measurementlink.pinmap.v1.lvlib" Type="Library" URL="../../gRPC/Generated APIs/ni/measurementlink/pinmap/v1/ni.measurementlink.pinmap.v1.lvlib"/>
-			<Item Name="ni.measurementlink.sessionmanagement.v1.lvlib" Type="Library" URL="../../gRPC/Generated APIs/ni/measurementlink/sessionmanagement/v1/ni.measurementlink.sessionmanagement.v1.lvlib"/>
+			<Item Name="ni.measurementlink.discovery.v1.api.lvlib" Type="Library" URL="../../gRPC/Generated APIs/ni/measurementlink/discovery/v1/ni.measurementlink.discovery.v1.api.lvlib"/>
+			<Item Name="ni.measurementlink.measurement.v1.api.lvlib" Type="Library" URL="../../gRPC/Generated APIs/ni/measurementlink/measurement/v1/ni.measurementlink.measurement.v1.api.lvlib"/>
+			<Item Name="ni.measurementlink.measurement.v2.api.lvlib" Type="Library" URL="../../gRPC/Generated APIs/ni/measurementlink/measurement/v2/ni.measurementlink.measurement.v2.api.lvlib"/>
+			<Item Name="ni.measurementlink.pinmap.v1.api.lvlib" Type="Library" URL="../../gRPC/Generated APIs/ni/measurementlink/pinmap/v1/ni.measurementlink.pinmap.v1.api.lvlib"/>
+			<Item Name="ni.measurementlink.sessionmanagement.v1.api.lvlib" Type="Library" URL="../../gRPC/Generated APIs/ni/measurementlink/sessionmanagement/v1/ni.measurementlink.sessionmanagement.v1.api.lvlib"/>
 			<Item Name="nidcpower_64.dll" Type="Document" URL="nidcpower_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
