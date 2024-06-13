@@ -2,7 +2,6 @@
 <Library LVVersion="20008000">
 	<Property Name="NI.Lib.DefaultMenu" Type="Str">Plug-In SDK niDMM Sessions.mnu</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)T!!!*Q(C=\&gt;1RDB."%)8B"S)A^1W1L`#OY"Q2W%?I+TD&gt;U$&amp;:87%3]P56[AK_AD&gt;!1)&lt;ZJ\@E(1FJ41!)I?X?NDWP:[K`\2G...J&lt;[9W_XWJXT\9RLT(IUN0"Y[`(?@8]_&amp;L]8;`89HZZ?+WPR@T0^7_M`[T`2N.,?WH`&gt;\O\`%,\MY28ULT'Z6+-:!4$GJ?^&amp;(G2&amp;XG2&amp;XG2*XG3*XG3*XG3"XG1"XG1"XG1G^TE*D?ZS5U_/LH)23ZS3-8CR5*&amp;U;*!=4)5&amp;2_&amp;J`!5HM,$I1J0Y3E]B;@Q=)I+4_%J0)7H](#:#E`B+4S&amp;J`"1;EBK&gt;()]B9@S3DS**`%EHM4$EEI]#3":,#G=&amp;)'B:$,ZE8A34_,BJR*0YEE]C3@R-+X%EXA34_**0&amp;QS&gt;C7(:O\E?#CDQ".Y!E`A#4S56O!*0)%H]!1?FF0A#4Q")FAQ+!Z"Q58"#=&amp;"Y!E]@#HQ"*\!%XA#$V0D$M89G6ET&gt;X)]RG-]RG-]RE-*'9`R')`R'!^F:4T'9TT'9TQM*?-R(O-R%,-IS]M5-R?;EURA00S.J]8D,O71?(3J(V\V1[F_W.10E@LB5.^U^=V5XS4VZKMX6&lt;V:[EV1`X.KN"KD8E2^]8SCTHS?'%@'R$AQ^IQN9].9-V&lt;TJ&lt;`ZR00ZL.0JJ/0RK'G;&gt;$A=N.`PN&gt;VON&gt;FMN&amp;[PN6KNLK_"&gt;`4L#_(JP@4NQ`X$Z^X(^V^WU[?PO`O(_@DPP*@_B8?D8GOZ"HPU!]LS:8M!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>

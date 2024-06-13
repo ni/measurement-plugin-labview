@@ -3,7 +3,6 @@
 	<Property Name="NI.Lib.ContainingLib" Type="Str">Plug-In SDK Session Management V1 API.lvlib</Property>
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../Plug-In SDK Session Management V1 API.lvlib</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*#!!!*Q(C=\&gt;7R&lt;&gt;N1&amp;)8BES"&amp;7GW1K)LLOQ*8U!L8#Q2A[V+NST/!CGA$1HX38'1$L;!6G*^04Y,D!&amp;;4"%&amp;A5J?3$PHO_UR3N.37^^)\T&lt;?7[=6FW8_O?4JP,T8RVP:&gt;0U[NVXSO_&gt;H_0PZ*NV`(4Z=G]_8V&lt;-2F]`0_F`UX&amp;LUOL]P`P4T=`"(]]&gt;`"'SU0)KII5UG&amp;FGHH)C`S)C`S)C^SEZP=Z#9XO=G40-G40-G40-G$0-C$0-C$0-D&lt;3CZSE9M=5D&amp;Z-6(2N'B1(!R&amp;R;&lt;Q&amp;*\#5XDYKM*4?!J0Y3E](+,#5XA+4_%J0!R4Y3E]B;@Q&amp;"Z;.5GVF2R0Y;'^D-&gt;YD-&gt;YD)=J:4Q'9#9TD5U4'$)\T1@D-2\DY;/-RXC-RXC-B^US(O-R(O-R(I;UM_+G76:S0,22YEE]C3@R*"Z;+`%EHM34?")0USHR**Y%E5S9.)?A:&amp;"S10)F]31?XJ2Y%E`C34S*BVXN#G5\-YNG7=HR"*\!%XA#4_#BB1*0Y!E]A3@QU&amp;;"*`!%HM!4?*B+A3@Q"*Y!%ET+^!K;"1/$AY)A]0"K&gt;UOUK_1GC&lt;:+`?:6PSH6&lt;T&lt;VGUD^ZF#`[/I85`UCK:^]^:/K@L,54Y,[([?/6M?I4[)_?$F1*\:([E$NK3UV5BNKI.&lt;5;BH[GQ]]H5Y[(I][(!\;\`@;&lt;L=;RV'&lt;T5&lt;$-'C^8GOV7FU@!R^9LQ_%]X0JA=`_.N\N0AV@&gt;F`P\X9@BU&gt;```SYZ(`B``-`]'T57TW&gt;AX0U!R=9NO9!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.ClassNameVisibleInProbe" Type="Bool">true</Property>
