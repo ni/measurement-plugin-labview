@@ -15,8 +15,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Libraries" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
-			<Item Name="APIs" Type="Folder">
-				<Item Name="Plug-In SDK Discovery V1 API.lvlib" Type="Library" URL="../APIs/Discovery V1/Plug-In SDK Discovery V1 API.lvlib"/>
+			<Item Name="Clients" Type="Folder">
+				<Item Name="NI Discovery V1 Client.lvlib" Type="Library" URL="../Clients/Discovery V1/NI Discovery V1 Client.lvlib"/>
 				<Item Name="Plug-In SDK Session Management V1 API.lvlib" Type="Library" URL="../APIs/Session Management V1/Plug-In SDK Session Management V1 API.lvlib"/>
 				<Item Name="Plug-In SDK TestStand Integration API.lvlib" Type="Library" URL="../APIs/TestStand Integration/Plug-In SDK TestStand Integration API.lvlib"/>
 			</Item>
