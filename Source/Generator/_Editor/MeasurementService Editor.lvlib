@@ -25,6 +25,7 @@
 		<Item Name="Is Descendant of Class.vi" Type="VI" URL="../RenameRefactor/Is Descendant of Class.vi"/>
 		<Item Name="Is Nested Typedef.vi" Type="VI" URL="../RenameRefactor/Is Nested Typedef.vi"/>
 		<Item Name="Is Typedef.vim" Type="VI" URL="../RenameRefactor/Is Typedef.vim"/>
+		<Item Name="MeasurementLink Rename Refactor Data.vi" Type="VI" URL="../RenameRefactor/MeasurementLink Rename Refactor Data.vi"/>
 		<Item Name="Normalize Path.vi" Type="VI" URL="../RenameRefactor/Normalize Path.vi"/>
 		<Item Name="README.md" Type="Document" URL="../RenameRefactor/README.md"/>
 		<Item Name="Refactor Class Dynamic Dispatch Membersvi.vi" Type="VI" URL="../RenameRefactor/Refactor Class Dynamic Dispatch Membersvi.vi"/>
