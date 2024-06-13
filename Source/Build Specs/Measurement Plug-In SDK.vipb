@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2024-06-12 14:42:55" Creator="lvadmin" Comments="" ID="9c4d6fccb257501acec459595b8ef75c">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2024-06-13 14:41:58" Creator="lvadmin" Comments="" ID="aa67cb360fa624327e49f2f91e9abfbc">
   <Library_General_Settings>
     <Package_File_Name>ni_measurement_plugin_sdk</Package_File_Name>
     <Library_Version>3.0.0.2</Library_Version>
@@ -118,12 +118,6 @@
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>Runtime/APIs</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
         <Path>Runtime/Measurements</Path>
         <Destination>0</Destination>
         <Additional_Destination>false</Additional_Destination>
@@ -145,6 +139,24 @@
         <Path>Runtime/Palette Files/Measurement</Path>
         <Destination>0</Destination>
         <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Runtime/Palette Files</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Runtime/Clients</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Runtime/TestStand</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Password_Overrides>
@@ -176,25 +188,7 @@
         <Path>gRPC/Generated APIs/ni/measurementlink/discovery/v1/gRPC Client Test.vi</Path>
       </Exclusions>
       <Exclusions>
-        <Path>gRPC/Generated APIs/ni/measurementlink/discovery/v1/ni.measurementlink.discovery.v1.lvproj</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>gRPC/Generated APIs/ni/measurementlink/discovery/v1/ni.measurementlink.discovery.v1.prototype.lvlib</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>gRPC/Generated APIs/ni/measurementlink/measurement/v1/ni.measurementlink.measurement.v1.lvproj</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>gRPC/Generated APIs/ni/measurementlink/measurement/v2/ni.measurementlink.measurement.v2.lvproj</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>gRPC/Generated APIs/ni/measurementlink/pinmap/v1/ni.measurementlink.pinmap.v1.lvproj</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>gRPC/Generated APIs/ni/measurementlink/pinmap/v1/ni.measurementlink.pinmap.v1.prototype.lvlib</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>gRPC/Generated APIs/ni/measurementlink/sessionmanagement/v1/ni.measurementlink.sessionmanagement.v1.lvproj</Path>
       </Exclusions>
       <Exclusions>
         <Path>gRPC/Generated APIs/ni/measurementlink/sessionmanagement/v1/ni.measurementlink.sessionmanagement.v1.prototype.lvlib</Path>
@@ -210,6 +204,24 @@
       </Exclusions>
       <Exclusions>
         <Path>Tools</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>gRPC/Generated APIs/ni/measurementlink/discovery/v1/ni.measurementlink.discovery.v1.api.lvproj</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>gRPC/Generated APIs/ni/measurementlink/discovery/v1/ni.measurementlink.discovery.v1.prototype.lvlib</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>gRPC/Generated APIs/ni/measurementlink/measurement/v1/ni.measurementlink.measurement.v1.api.lvproj</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>gRPC/Generated APIs/ni/measurementlink/measurement/v2/ni.measurementlink.measurement.v2.api.lvproj</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>gRPC/Generated APIs/ni/measurementlink/pinmap/v1/ni.measurementlink.pinmap.v1.api.lvproj</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>gRPC/Generated APIs/ni/measurementlink/sessionmanagement/v1/ni.measurementlink.sessionmanagement.v1.api.lvproj</Path>
       </Exclusions>
       <Place_Folder_Contents>
         <Path/>
