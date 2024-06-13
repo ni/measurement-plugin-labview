@@ -24,13 +24,13 @@
 			</Item>
 			<Item Name="Sessions" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
-				<Item Name="Plug-In SDK Instrument Sessions.lvlib" Type="Library" URL="../Sessions/Instrument Sessions/Plug-In SDK Instrument Sessions.lvlib"/>
-				<Item Name="Plug-In SDK niDCPower Sessions.lvlib" Type="Library" URL="../Sessions/niDCPower Sessions/Plug-In SDK niDCPower Sessions.lvlib"/>
-				<Item Name="Plug-In SDK niDigital Sessions.lvlib" Type="Library" URL="../Sessions/niDigital Sessions/Plug-In SDK niDigital Sessions.lvlib"/>
-				<Item Name="Plug-In SDK niDMM Sessions.lvlib" Type="Library" URL="../Sessions/niDMM Sessions/Plug-In SDK niDMM Sessions.lvlib"/>
-				<Item Name="Plug-In SDK niFGEN Sessions.lvlib" Type="Library" URL="../Sessions/niFGEN Sessions/Plug-In SDK niFGEN Sessions.lvlib"/>
-				<Item Name="Plug-In SDK niScope Sessions.lvlib" Type="Library" URL="../Sessions/niScope Sessions/Plug-In SDK niScope Sessions.lvlib"/>
-				<Item Name="Plug-In SDK VISA Sessions.lvlib" Type="Library" URL="../Sessions/VISA Sessions/Plug-In SDK VISA Sessions.lvlib"/>
+				<Item Name="NI Session Management Instrument.lvlib" Type="Library" URL="../Sessions/Instrument/NI Session Management Instrument.lvlib"/>
+				<Item Name="NI Session Management niDCPower.lvlib" Type="Library" URL="../Sessions/niDCPower/NI Session Management niDCPower.lvlib"/>
+				<Item Name="NI Session Management niDigital.lvlib" Type="Library" URL="../Sessions/niDigital/NI Session Management niDigital.lvlib"/>
+				<Item Name="NI Session Management niDMM.lvlib" Type="Library" URL="../Sessions/niDMM/NI Session Management niDMM.lvlib"/>
+				<Item Name="NI Session Management niFGEN.lvlib" Type="Library" URL="../Sessions/niFGEN/NI Session Management niFGEN.lvlib"/>
+				<Item Name="NI Session Management niScope.lvlib" Type="Library" URL="../Sessions/niScope/NI Session Management niScope.lvlib"/>
+				<Item Name="NI Session Management VISA.lvlib" Type="Library" URL="../Sessions/VISA/NI Session Management VISA.lvlib"/>
 			</Item>
 			<Item Name="TestStand" Type="Folder">
 				<Item Name="NI Pin Map TestStand.lvlib" Type="Library" URL="../TestStand/NI Pin Map TestStand.lvlib"/>
