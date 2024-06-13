@@ -1080,11 +1080,11 @@
 		<ExcludedTests>"Unused Code"</ExcludedTests>
 	</Item>
 	<Item>
-		<Path>"..\\Runtime\\MeasurementLink Session Management V1\\Session Reservation\\Initialize Sessions Impl.vi"</Path>
+		<Path>"..\\Runtime\\APIs\\Session Management V1\\Session Reservation\\Initialize Sessions Impl.vi"</Path>
 		<ExcludedTests>"Depth of Nesting of Structures"</ExcludedTests>
 	</Item>
 	<Item>
-		<Path>"..\\Runtime\\MeasurementLink Session Management V1\\Connection Map\\Remove All Sessions.vi"</Path>
+		<Path>"..\\Runtime\\APIs\\Session Management V1\\Connection Map\\Remove All Sessions.vi"</Path>
 		<ExcludedTests>"Depth of Nesting of Structures"</ExcludedTests>
 	</Item>
 </ExclusionData>
