@@ -20,7 +20,7 @@
 				<Item Name="NI Session Management V1 Client.lvlib" Type="Library" URL="../Clients/Session Management V1/NI Session Management V1 Client.lvlib"/>
 			</Item>
 			<Item Name="Measurements" Type="Folder">
-				<Item Name="Plug-In SDK Measurement.lvlib" Type="Library" URL="../Measurements/Plug-In SDK Measurement.lvlib"/>
+				<Item Name="NI Measurement Plug-In SDK.lvlib" Type="Library" URL="../Measurements/NI Measurement Plug-In SDK.lvlib"/>
 			</Item>
 			<Item Name="Sessions" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
