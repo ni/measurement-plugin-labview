@@ -18,7 +18,6 @@
 			<Item Name="Clients" Type="Folder">
 				<Item Name="NI Discovery V1 Client.lvlib" Type="Library" URL="../Clients/Discovery V1/NI Discovery V1 Client.lvlib"/>
 				<Item Name="NI Session Management V1 Client.lvlib" Type="Library" URL="../Clients/Session Management V1/NI Session Management V1 Client.lvlib"/>
-				<Item Name="Plug-In SDK TestStand Integration API.lvlib" Type="Library" URL="../APIs/TestStand Integration/Plug-In SDK TestStand Integration API.lvlib"/>
 			</Item>
 			<Item Name="Measurements" Type="Folder">
 				<Item Name="Plug-In SDK Measurement.lvlib" Type="Library" URL="../Measurements/Plug-In SDK Measurement.lvlib"/>
@@ -32,6 +31,9 @@
 				<Item Name="Plug-In SDK niFGEN Sessions.lvlib" Type="Library" URL="../Sessions/niFGEN Sessions/Plug-In SDK niFGEN Sessions.lvlib"/>
 				<Item Name="Plug-In SDK niScope Sessions.lvlib" Type="Library" URL="../Sessions/niScope Sessions/Plug-In SDK niScope Sessions.lvlib"/>
 				<Item Name="Plug-In SDK VISA Sessions.lvlib" Type="Library" URL="../Sessions/VISA Sessions/Plug-In SDK VISA Sessions.lvlib"/>
+			</Item>
+			<Item Name="TestStand" Type="Folder">
+				<Item Name="NI Pin Map TestStand.lvlib" Type="Library" URL="../TestStand/NI Pin Map TestStand.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Tests" Type="Folder">
