@@ -17,7 +17,7 @@
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Clients" Type="Folder">
 				<Item Name="NI Discovery V1 Client.lvlib" Type="Library" URL="../Clients/Discovery V1/NI Discovery V1 Client.lvlib"/>
-				<Item Name="Plug-In SDK Session Management V1 API.lvlib" Type="Library" URL="../APIs/Session Management V1/Plug-In SDK Session Management V1 API.lvlib"/>
+				<Item Name="NI Session Management V1 Client.lvlib" Type="Library" URL="../Clients/Session Management V1/NI Session Management V1 Client.lvlib"/>
 				<Item Name="Plug-In SDK TestStand Integration API.lvlib" Type="Library" URL="../APIs/TestStand Integration/Plug-In SDK TestStand Integration API.lvlib"/>
 			</Item>
 			<Item Name="Measurements" Type="Folder">
