@@ -25,7 +25,6 @@
 		<Item Name="Is Descendant of Class.vi" Type="VI" URL="../RenameRefactor/Is Descendant of Class.vi"/>
 		<Item Name="Is Nested Typedef.vi" Type="VI" URL="../RenameRefactor/Is Nested Typedef.vi"/>
 		<Item Name="Is Typedef.vim" Type="VI" URL="../RenameRefactor/Is Typedef.vim"/>
-		<Item Name="MeasurementLink Rename Refactor Data.vi" Type="VI" URL="../RenameRefactor/MeasurementLink Rename Refactor Data.vi"/>
 		<Item Name="Normalize Path.vi" Type="VI" URL="../RenameRefactor/Normalize Path.vi"/>
 		<Item Name="README.md" Type="Document" URL="../RenameRefactor/README.md"/>
 		<Item Name="Refactor Class Dynamic Dispatch Membersvi.vi" Type="VI" URL="../RenameRefactor/Refactor Class Dynamic Dispatch Membersvi.vi"/>
@@ -43,6 +42,7 @@
 		<Item Name="Supports Front Panel.vi" Type="VI" URL="../RenameRefactor/Supports Front Panel.vi"/>
 		<Item Name="Update Control Labels.vi" Type="VI" URL="../Update Control Labels.vi"/>
 		<Item Name="Update String Constants.vi" Type="VI" URL="../Update String Constants.vi"/>
+		<Item Name="V2 To V3 Upgrade Refactory Data.vi" Type="VI" URL="../RenameRefactor/V2 To V3 Upgrade Refactory Data.vi"/>
 		<Item Name="V2 Upgrade Refactor Data.vi" Type="VI" URL="../RenameRefactor/V2 Upgrade Refactor Data.vi"/>
 		<Item Name="Valid Replacement Target.vi" Type="VI" URL="../RenameRefactor/Valid Replacement Target.vi"/>
 	</Item>
