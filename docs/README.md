@@ -1,6 +1,6 @@
-# Measurement Plug-In Support for LabVIEW
+# Measurement Plug-In SDK for LabVIEW
 
-- [Measurement Plug-In Support for LabVIEW](#measurement-plug-in-support-for-labview)
+- [Measurement Plug-In SDK for LabVIEW](#measurement-plug-in-support-for-labview)
   - [Introduction](#introduction)
   - [Software support](#software-support)
   - [Installation](#installation)
@@ -14,7 +14,7 @@
 
 ## Introduction
 
-The Measurement Plug-In Support for LabVIEW packages enable measurement developers to quickly create LabVIEW measurements and run them as a service. NI Measurement Plug-In Support allows users to interact with measurement services with a LabVIEW UI in InstrumentStudio.
+The Measurement Plug-In SDK for LabVIEW packages enable measurement developers to quickly create LabVIEW measurements and run them as a service. NI Measurement Plug-In Support allows users to interact with measurement services with a LabVIEW UI in InstrumentStudio.
 
 ---
 
@@ -30,7 +30,7 @@ The Measurement Plug-In Support for LabVIEW packages enable measurement develope
 
 1. Install a supported version of [InstrumentStudio](https://www.ni.com/en/support/downloads/software-products/download.instrumentstudio.html#494650)
 2. Install a supported version of [LabVIEW](https://www.ni.com/en/support/downloads/software-products/download.labview.html#487445)
-3. Install a supported version of [Measurement Plug-In Support for LabVIEW](https://www.ni.com/docs/en-US/bundle/measurementlink/page/labview-measurement-dependencies.html) from VIPM.
+3. Install a supported version of [Measurement Plug-In SDK for LabVIEW](https://www.ni.com/docs/en-US/bundle/measurementlink/page/labview-measurement-dependencies.html) from VIPM.
 
 ---
 
