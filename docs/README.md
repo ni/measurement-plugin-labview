@@ -1,6 +1,6 @@
-# MeasurementLink™ Support for LabVIEW
+# Measurement Plug-In Support for LabVIEW
 
-- [MeasurementLink™ Support for LabVIEW](#measurementlink-support-for-labview)
+- [Measurement Plug-In Support for LabVIEW](#measurement-plug-in-support-for-labview)
   - [Introduction](#introduction)
   - [Software support](#software-support)
   - [Installation](#installation)
@@ -14,14 +14,13 @@
 
 ## Introduction
 
-The MeasurementLink Support for LabVIEW packages enable measurement developers to quickly create LabVIEW measurements and run them as a service. MeasurementLink allows users to interact with measurement services with a LabVIEW UI in InstrumentStudio.
+The Measurement Plug-In Support for LabVIEW packages enable measurement developers to quickly create LabVIEW measurements and run them as a service. NI Measurement Plug-In Support allows users to interact with measurement services with a LabVIEW UI in InstrumentStudio.
 
 ---
 
 ## Software support
 
-- InstrumentStudio 2023 Q1 or later
-- MeasurementLink 2023 Q1 or later
+- InstrumentStudio 2024 Q3 or later
 - LabVIEW 2020 SP1 or later
   - JKI VI Package Manager 2020.1 or later
 
@@ -30,9 +29,8 @@ The MeasurementLink Support for LabVIEW packages enable measurement developers t
 ## Installation
 
 1. Install a supported version of [InstrumentStudio](https://www.ni.com/en/support/downloads/software-products/download.instrumentstudio.html#494650)
-2. Install a supported version of [MeasurementLink](https://www.ni.com/en/support/downloads/software-products/download.measurementlink.html#494508)
-3. Install a supported version of [LabVIEW](https://www.ni.com/en/support/downloads/software-products/download.labview.html#487445)
-4. Install a supported version of [MeasurementLink Support for LabVIEW](https://www.ni.com/docs/en-US/bundle/measurementlink/page/labview-measurement-dependencies.html) from VIPM.
+2. Install a supported version of [LabVIEW](https://www.ni.com/en/support/downloads/software-products/download.labview.html#487445)
+3. Install a supported version of [Measurement Plug-In Support for LabVIEW](https://www.ni.com/docs/en-US/bundle/measurementlink/page/labview-measurement-dependencies.html) from VIPM.
 
 ---
 
@@ -40,7 +38,7 @@ The MeasurementLink Support for LabVIEW packages enable measurement developers t
 
 1. Create and save a new LabVIEW project.
 
-2. From the project window, go to `Tools` → `MeasurementLink` → `Create Measurement Plug-in...`.
+2. From the project window, go to `Tools` → `Plug-In SDKs` → `Create Measurement Plug-in...`.
     - In the dialog, enter the `Measurement Plug-in Name` and `Measurement Plug-in Description`, then click `Create Measurement Plug-in`.
 
         ![New measurement dialog](images/New%20measurement%20dialog.png)
@@ -67,14 +65,14 @@ The MeasurementLink Support for LabVIEW packages enable measurement developers t
 
 7. Add your user interface to `Measurement UI.vi`. The control and indicator labels in the user interface must match the `Measurement Configuration` and `Measurement Results` labels. If the data types and labels match, then the data from the controls will be sent to the `Measurement Logic.vi` and the results will be published to the indicators after the measurement is run. By default, the UI file consists of an `array in` control and `array out` indicator.
 <br/><br/>
-If your user interface has dependencies that are not available in the LabVIEW runtime, you will have to build the UI into a packed library. For example, you will have to build a packed library if your UI contains VIs from vi.lib or if your UI depends on user created subVIs or controls. The packed library should be located in a directory at the same level as `Measurement Logic.vi`. The [Keysight 34401A DMM Measurement](../Source/Example%20Measurements/Keysight%2034401A%20DMM%20Measurement) example demonstrates how to use a packed library user interface. 
+If your user interface has dependencies that are not available in the LabVIEW runtime, you will have to build the UI into a packed library. For example, you will have to build a packed library if your UI contains VIs from vi.lib or if your UI depends on user created subVIs or controls. The packed library should be located in a directory at the same level as `Measurement Logic.vi`. The [Keysight 34401A DMM Measurement](../Source/Example%20Measurements/Keysight%2034401A%20DMM%20Measurement) example demonstrates how to use a packed library user interface.
 
     ![Measurement UI](images/Measurement%20UI.png)
 
 Note:
 
 - Additional information can be found in the to-do sections in the code, which can be viewed using the `Bookmark Manager`. You can open it from the `View` → `Bookmark Manager` menu. In this window, you will find the bookmark term `#MeasurementToDo`. Double-clicking on the items will take you to the VI locations where changes need to be made for creating your unique measurement service.
-- A list of supported datatypes for the `Configuration` and `Output` parameters of the measurement can be found in the MeasurementLink manual [here](https://www.ni.com/docs/en-US/bundle/measurementlink/page/supported-datatypes.html)
+- A list of supported datatypes for the `Configuration` and `Output` parameters of the measurement can be found in the NI Measurement Plug-In Support manual [here](https://www.ni.com/docs/en-US/bundle/measurementlink/page/supported-datatypes.html)
 
 ---
 
