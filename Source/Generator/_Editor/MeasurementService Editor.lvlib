@@ -42,6 +42,7 @@
 		<Item Name="Supports Front Panel.vi" Type="VI" URL="../RenameRefactor/Supports Front Panel.vi"/>
 		<Item Name="Update Control Labels.vi" Type="VI" URL="../Update Control Labels.vi"/>
 		<Item Name="Update String Constants.vi" Type="VI" URL="../Update String Constants.vi"/>
+		<Item Name="V2 To V3 Upgrade Refactor Data.vi" Type="VI" URL="../RenameRefactor/V2 To V3 Upgrade Refactor Data.vi"/>
 		<Item Name="V2 Upgrade Refactor Data.vi" Type="VI" URL="../RenameRefactor/V2 Upgrade Refactor Data.vi"/>
 		<Item Name="Valid Replacement Target.vi" Type="VI" URL="../RenameRefactor/Valid Replacement Target.vi"/>
 	</Item>
