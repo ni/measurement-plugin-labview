@@ -30,9 +30,9 @@ The source code can be found under the `Source` directory. The package definitio
 The source code is built into five LabVIEW packages
 
 * `ni_measurement_plugin_sdk`
-* `ni_measurement_plug_in_generator`
-* `ni_measurementlink`
-* `ni_measurement_plug_in_examples`
+* `ni_measurement_plugin_sdk_service`
+* `ni_measurement_plugin_sdk_generator`
+* `ni_measurement_plugin_sdk_examples`
 * `ni_protobuf_types`
 
 To build the packages:
@@ -41,9 +41,9 @@ To build the packages:
 2. Open the Specification file using VIPM 2023 or later
 3. Click Build - A .vip will be created in the `Build Output` folder under the repo root directory
 
-## `ni_measurement_plugin_sdk` Package
+## `ni_measurement_plugin_sdk_service` Package
 
-The `ni_measurement_plugin_sdk` package contains the libraries needed to run a LabVIEW measurement plug-in.
+The `ni_measurement_plugin_sdk_service` package contains the libraries needed to run a LabVIEW measurement plug-in.
 
 ### Code Generated Libraries
 
@@ -67,9 +67,9 @@ The `TestStand` library contains a single public VI that allows measurement auth
 
 The `NI Measurement Plug-In SDK` library contains much of the gRPC service framework. It also contains two public classes: `Measure Call Context` and `Measurement Plugin Service`. The `Measure Call Context` class is an input to the `Measurement Logic.vi` and contains information about the pinmap. It also has methods for reserving sessions, checking for cancelation, and updating measurement results. The `Measurement Plugin Service` class is a base class from which all measurements inherit. This inheritence is mostly hidden form the measurement author and is performed by the measurement generator.
 
-## `ni_measurement_plug_in_generator` Package
+## `ni_measurement_plugin_sdk_generator` Package
 
-The `ni_measurement_plug_in_generator` package contains the libraries needed to create new measurements.
+The `ni_measurement_plugin_sdk_generator` package contains the libraries needed to create new measurements.
 
 ### Measurement Plug-In Template
 
@@ -79,11 +79,11 @@ The `Measurement Plug-In  Template` library contains the VIs and controls that a
 
 The `MeasurementService Editor` library contains the scripting code required to generate a measurement. It starts with the `Measurement Plug-In Template` as the base library and then customizes it for a specific measurement. It also contains a script that can help when updating measurements between incompatible versions. See more details [here.](docs/Upgrading%20to%20Version%202.0.md)
 
-## `ni_measurementlink` Package
+## `ni_measurement_plugin_sdk` Package
 
-This is simply a top-level package that has dependencies on the `ni_measurement_plugin_*` packages so installing this should also bring along the other 3 packages.
+This is simply a top-level package that has dependencies on the other `ni_measurement_plugin_sdk_*` packages so installing this should also bring along the other 3 packages.
 
-## `ni_measurement_plugin_examples` Package
+## `ni_measurement_plugin_sdk_examples` Package
 
 This package contains all of the example projects from the repository. They are installed to the `examples` folder under the LabVIEW root directory.
 
