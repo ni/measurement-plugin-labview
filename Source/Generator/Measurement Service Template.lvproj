@@ -12,7 +12,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Tests.Generator" Type="Folder"/>
 		<Item Name="Measurement Template.lvlib" Type="Library" URL="../Measurement Plug-In Template/Measurement/Measurement Template.lvlib"/>
 		<Item Name="Measurement UI Template.lvlib" Type="Library" URL="../Measurement Plug-In Template/UI/Measurement UI Template.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
