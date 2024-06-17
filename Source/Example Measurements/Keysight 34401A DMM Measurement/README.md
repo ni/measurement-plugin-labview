@@ -1,11 +1,11 @@
 ## Keysight 34401A DMM Measurement
 
-This is a MeasurementLink example that performs a DMM measurement using an
+This is a measurement plug-in example that performs a DMM measurement using an
 HP/Agilent/Keysight 34401A DMM.
 
 ### Features
 
-- Demonstrates how to write a MeasurementLink plug-in that uses instrument drivers and NI-VISA
+- Demonstrates how to write a measurement plug-in that uses instrument drivers and NI-VISA
 - Pin-aware, supporting a custom instrument type and a single session/pin/site
 - Includes InstrumentStudio project file
 - Includes a TestStand sequence showing how to configure the pin map, register
@@ -42,7 +42,7 @@ or a custom alias).
 ### Using a LabVIEW UI with External Dependencies
 This example uses a LabVIEW UI with external dependencies. In order to display the
 LabVIEW UI in InstrumentStudio, you must first build the `Keysight 34401A DMM Measurement UI`
-packed library build specification. The packed library and its containing directory will 
+packed library build specification. The packed library and its containing directory will
 have all of the dependencies that the UI needs to load in InstrumentStudio.
 
 If you make changes to `Measurement UI.vi`, you must rebuild the packed library.

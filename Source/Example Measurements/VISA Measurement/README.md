@@ -1,6 +1,6 @@
 ## VISA Measurement
 
-This is a MeasurementLink example that shows how to write and read from a serial instrument using VISA.
+This is a measurement plug-in example that shows how to write and read from a serial instrument using VISA.
 
 ### Features
 

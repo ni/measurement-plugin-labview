@@ -1,6 +1,6 @@
 ## NI-FGEN Standard Function
 
-This is a MeasurementLink example that generates a waveform using standard function mode with an NI FGEN.
+This is a measurement plug-in example that generates a waveform using standard function mode with an NI FGEN.
 
 ### Features
 

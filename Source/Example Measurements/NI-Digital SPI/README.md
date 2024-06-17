@@ -1,6 +1,6 @@
 ## NI-Digital SPI
 
-This is a MeasurementLink example that tests an SPI device using an NI Digital Pattern instrument.
+This is a measurement plug-in example that tests an SPI device using an NI Digital Pattern instrument.
 
 ### Features
 
