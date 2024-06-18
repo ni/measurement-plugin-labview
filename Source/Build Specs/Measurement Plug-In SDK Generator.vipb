@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2024-06-18 09:01:19" Creator="lvadmin" Comments="" ID="69b1d990c09ba879e620ac650f98c164">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2024-06-18 10:13:42" Creator="lvadmin" Comments="" ID="f3ea138182e4176d7a1eb706a8f0cab3">
   <Library_General_Settings>
     <Package_File_Name>ni_measurement_plugin_sdk_generator</Package_File_Name>
     <Library_Version>3.0.0.1</Library_Version>
@@ -18,6 +18,7 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <Additional_External_Dependencies>ni_lib_labview_grpc_library &gt;=1.0.1.1</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_measurement_plugin_sdk_service &gt;=3.0.0.1</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
