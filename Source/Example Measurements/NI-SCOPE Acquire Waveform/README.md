@@ -1,6 +1,6 @@
 ## NI-SCOPE Acquire Waveform
 
-This is a MeasurementLink example that acquires waveforms from an NI SCOPE.
+This is a measurement plug-in example that acquires waveforms from an NI SCOPE.
 
 ### Features
 

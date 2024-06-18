@@ -1,6 +1,6 @@
 ## NI-DCPower Source DC Voltage
 
-This is a MeasurementLink example that sources and measures a DC voltage with an NI SMU.
+This is a measurement plug-in example that sources and measures a DC voltage with an NI SMU.
 
 ### Features
 
@@ -8,7 +8,7 @@ This is a MeasurementLink example that sources and measures a DC voltage with an
 - Pin-aware, supporting one session and multiple pins
   - Sources the same DC voltage level on all selected pin/site combinations
   - Measures the DC voltage and current for each selected pin/site combination
-- Includes InstrumentStudio and MeasurementLink UI Editor project files
+- Includes InstrumentStudio and Measurement Plug-In UI Editor project files
 - Includes multiple UI files. Note: InstrumentStudio only displays the 1st UI file.
   To change the UI file used for the example, switch the order of the array elements
   in `Get UI Details.vi`
