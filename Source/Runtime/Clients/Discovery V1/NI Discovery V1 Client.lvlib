@@ -35,6 +35,9 @@
 		<Item Name="Get Discovery Service Key File Path.vi" Type="VI" URL="../Get Discovery Service Key File Path.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Get Services JSON Path.vi" Type="VI" URL="../Get Services JSON Path.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Read Discovery Service Key File.vi" Type="VI" URL="../Read Discovery Service Key File.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
