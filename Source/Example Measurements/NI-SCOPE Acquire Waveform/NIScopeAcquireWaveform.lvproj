@@ -130,21 +130,21 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/build_output/NI-SCOPE Acquire Waveform</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/build_output/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/NIScopeAcquireWaveform.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6715D5E9-39B5-49CC-B014-E657E3B15C2B}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">NI-SCOPEAcquireWaveform.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/build_output/NI-SCOPE Acquire Waveform/NI-SCOPEAcquireWaveform.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/build_output/NI_AB_PROJECTNAME/NI-SCOPEAcquireWaveform.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/build_output/NI-SCOPE Acquire Waveform/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/build_output/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{762AFBA3-705F-4D01-87B3-7FCADBD8BDF5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{01D19DA5-19FD-415A-A3CC-D036EB33FB5A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NIScopeAcquireWaveform.lvlib/Get Measurement Details.vi</Property>
