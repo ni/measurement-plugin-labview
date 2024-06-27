@@ -24,7 +24,6 @@
 		<Item Name="NIDigitalSPI.lvlib" Type="Library" URL="../NI-Digital Measurement/NIDigitalSPI.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Agilent 34401.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent 34401/Agilent 34401.lvlib"/>
 				<Item Name="niDigital Apply Levels and Timing.vi" Type="VI" URL="/&lt;instrlib&gt;/niDigital/niDigital.llb/niDigital Apply Levels and Timing.vi"/>
 				<Item Name="niDigital Attach gRPC Session.vi" Type="VI" URL="/&lt;instrlib&gt;/niDigital/niDigital.llb/niDigital Attach gRPC Session.vi"/>
 				<Item Name="niDigital Burst Pattern (Pass Fail).vi" Type="VI" URL="/&lt;instrlib&gt;/niDigital/niDigital.llb/niDigital Burst Pattern (Pass Fail).vi"/>
@@ -67,9 +66,6 @@
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get Connections from Pin.vim" Type="VI" URL="/&lt;vilib&gt;/measurementlink/MeasurementLink Session Management V1/Session Reservation/Get Connections from Pin.vim"/>
-				<Item Name="Get Connections from Pins.vim" Type="VI" URL="/&lt;vilib&gt;/measurementlink/MeasurementLink Session Management V1/Session Reservation/Get Connections from Pins.vim"/>
-				<Item Name="Get Connections Impl.vi" Type="VI" URL="/&lt;vilib&gt;/measurementlink/MeasurementLink Session Management V1/Session Reservation/Get Connections Impl.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
@@ -98,13 +94,10 @@
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Pin to Pin Array.vi" Type="VI" URL="/&lt;vilib&gt;/measurementlink/MeasurementLink Session Management V1/Session Reservation/Pin to Pin Array.vi"/>
-				<Item Name="Pin Type.ctl" Type="VI" URL="/&lt;vilib&gt;/measurementlink/MeasurementLink Session Management V1/Session Reservation/Pin Type.ctl"/>
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
 				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Unsorted 1D Array.vim"/>
-				<Item Name="Session Reservation.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/measurementlink/MeasurementLink Session Management V1/Session Reservation/Session Reservation.lvclass"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set Difference.vim" Type="VI" URL="/&lt;vilib&gt;/set operations/Set Difference.vim"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
@@ -116,19 +109,11 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="VISA Format gRPC Resource Name.vi" Type="VI" URL="/&lt;vilib&gt;/NI-VISA/VISA Format gRPC Resource Name.vi"/>
-				<Item Name="VISA Format gRPC URI.vi" Type="VI" URL="/&lt;vilib&gt;/NI-VISA/VISA Format gRPC URI.vi"/>
-				<Item Name="VISA gRPC Open Close Behavior.ctl" Type="VI" URL="/&lt;vilib&gt;/NI-VISA/VISA gRPC Open Close Behavior.ctl"/>
-				<Item Name="VISA gRPC Options.ctl" Type="VI" URL="/&lt;vilib&gt;/NI-VISA/VISA gRPC Options.ctl"/>
-				<Item Name="VISA Open Access Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Open Access Mode.ctl"/>
-				<Item Name="VISA Open for gRPC Session.vi" Type="VI" URL="/&lt;vilib&gt;/NI-VISA/VISA Open for gRPC Session.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Keysight 34401A DMM Instrument.lvlib" Type="Library" URL="../../Keysight 34401A DMM Measurement/Keysight 34401A DMM Instrument/Keysight 34401A DMM Instrument.lvlib"/>
-			<Item Name="Keysight 34401A DMM Measurement.lvlib" Type="Library" URL="../../Keysight 34401A DMM Measurement/Keysight 34401A DMM Measurement/Keysight 34401A DMM Measurement.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="NI-Digital SPI Measurement" Type="EXE">
