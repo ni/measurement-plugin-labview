@@ -1,4 +1,4 @@
-# MeasurementLink Client
+# Measurement Plug-In Client
 
 This is an example that demonstrates how to write a measurement plug-in client in LabVIEW.
 
