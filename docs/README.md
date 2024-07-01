@@ -38,12 +38,12 @@ The Measurement Plug-In SDK for LabVIEW packages enable measurement developers t
 
 1. Create and save a new LabVIEW project.
 
-2. From the project window, go to `Tools` → `Plug-In SDKs` → `Create Measurement Plug-in...`.
+2. From the project window, go to `Tools` → `Plug-Ins` → `Measurement` → `Create Measurement Plug-in...`.
     - In the dialog, enter the `Measurement Plug-in Name` and `Measurement Plug-in Description`, then click `Create Measurement Plug-in`.
 
         ![New measurement dialog](images/New%20measurement%20dialog.png)
 
-    - This will create a new measurement service library.
+    - This will create a new measurement service library and a UI library
 
         ![Measurement library files](images/Measurement%20library%20files.png)
 
@@ -110,4 +110,4 @@ The `Source\Example Measurements` directory contains example measurement service
 
 ## Creating a LabVIEW executable for static registration
 
-A build specification is included with the generated measurement service. To create an executable for the measurement service, right-click the build specification and select `Build`.
+Two build specifications are included with the generated measurement service. The UI must be built before building the measurement service executable build specification is built. To create an executable for the measurement service, right-click the build specification and select `Build`.
