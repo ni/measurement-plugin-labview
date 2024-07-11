@@ -14,10 +14,8 @@ jobs:
       - rdss-measlinkbot-win-10-lv64
     strategy:
       matrix:
-        version: ["2020", "2021", "2022", "2023"]
+        version: ["2021", "2022", "2023"]
         include: 
-          - version: 2020
-            port: "3363"
           - version: 2021
             port: "3364"
           - version: 2022
