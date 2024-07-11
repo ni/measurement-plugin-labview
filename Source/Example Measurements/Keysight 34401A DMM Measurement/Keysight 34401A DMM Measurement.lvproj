@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="21008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -44,7 +44,6 @@
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get Connections from Pin.vim" Type="VI" URL="/&lt;vilib&gt;/measurementlink/MeasurementLink Session Management V1/Session Reservation/Get Connections from Pin.vim"/>
 				<Item Name="Get Connections from Pins.vim" Type="VI" URL="/&lt;vilib&gt;/measurementlink/MeasurementLink Session Management V1/Session Reservation/Get Connections from Pins.vim"/>
 				<Item Name="Get Connections Impl.vi" Type="VI" URL="/&lt;vilib&gt;/measurementlink/MeasurementLink Session Management V1/Session Reservation/Get Connections Impl.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
@@ -74,7 +73,6 @@
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Pin to Pin Array.vi" Type="VI" URL="/&lt;vilib&gt;/measurementlink/MeasurementLink Session Management V1/Session Reservation/Pin to Pin Array.vi"/>
 				<Item Name="Pin Type.ctl" Type="VI" URL="/&lt;vilib&gt;/measurementlink/MeasurementLink Session Management V1/Session Reservation/Pin Type.ctl"/>
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
