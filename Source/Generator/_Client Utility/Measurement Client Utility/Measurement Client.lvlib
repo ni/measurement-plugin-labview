@@ -15,6 +15,8 @@
 		<Item Name="Data Holder.ctl" Type="VI" URL="../subVIs/Data Holder.ctl"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
+		<Item Name="Create Client.vi" Type="VI" URL="../subVIs/Create Client.vi"/>
+		<Item Name="Get Configuration.vi" Type="VI" URL="../subVIs/Get Configuration.vi"/>
 		<Item Name="Interface.vi" Type="VI" URL="../subVIs/Interface.vi"/>
 	</Item>
 	<Item Name="Create Measurement Client.vi" Type="VI" URL="../../Mockup/Create Measurement Client.vi"/>
