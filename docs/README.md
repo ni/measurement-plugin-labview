@@ -1,6 +1,6 @@
 # Measurement Plug-In SDK for LabVIEW
 
-- [Measurement Plug-In SDK for LabVIEW](#measurement-plug-in-support-for-labview)
+- [Measurement Plug-In SDK for LabVIEW](#measurement-plug-in-sdk-for-labview)
   - [Introduction](#introduction)
   - [Software support](#software-support)
   - [Installation](#installation)
@@ -24,8 +24,8 @@ LabVIEW UI in InstrumentStudio.
 ## Software support
 
 - InstrumentStudio 2024 Q3 or later
-- LabVIEW 2020 SP1 or later
-  - JKI VI Package Manager 2020.1 or later
+- LabVIEW 2021 SP1 or later
+  - JKI VI Package Manager 2021 SP1 or later
 
 ---
 
@@ -36,7 +36,7 @@ LabVIEW UI in InstrumentStudio.
 2. Install a supported version of
    [LabVIEW](https://www.ni.com/en/support/downloads/software-products/download.labview.html#487445)
 3. Install a supported version of [Measurement Plug-In SDK for
-   LabVIEW](https://www.ni.com/docs/en-US/bundle/measurementlink/page/labview-measurement-dependencies.html)
+   LabVIEW](https://www.ni.com/docs/en-US/bundle/measurementplugins/page/labview-measurement-dependencies.html)
    from VIPM.
 
 ---
@@ -45,7 +45,7 @@ LabVIEW UI in InstrumentStudio.
 
 1. Create and save a new LabVIEW project.
 
-2. From the project window, go to `Tools` → `Plug-Ins` → `Measurement` → `Create
+2. From the project window, go to `Tools` → `Plug-In SDKs` → `Measurements` → `Create
    Measurement Plug-in...`.
     - In the dialog, enter the `Measurement Plug-in Name` and `Measurement Plug-in Description`, then click `Create Measurement Plug-in`.
 
@@ -104,7 +104,7 @@ Note:
   service.
 - A list of supported datatypes for the `Configuration` and `Output` parameters
   of the measurement can be found in the NI Measurement Plug-In Support manual
-  [here](https://www.ni.com/docs/en-US/bundle/measurementlink/page/supported-datatypes.html)
+  [here](https://www.ni.com/docs/en-US/bundle/measurementplugins/page/supported-datatypes.html)
 
 ---
 
