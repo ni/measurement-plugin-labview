@@ -44,6 +44,6 @@ Search open/closed issues before submitting. Someone may have reported the same 
 <!--- Include as many relevant details as possible about the environment you experienced the bug in -->
 
 * OS & Device: [e.g. macOS, Windows, Linux] on [Mac, PC]
-* `ni-measurement-service` version [e.g. 0.12.3]
-* MeasurementLink version [e.g. 23.0.0d123]
-* Python version [e.g. 3.9]
+* Measurement Plug-In SDK Service version [e.g. 3.0.0.3]
+* InstrumentStudio version [e.g. 24.3.0d123]
+* LabVIEW version [e.g. 2021 SP1]
