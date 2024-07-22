@@ -16,6 +16,7 @@
 	</Item>
 	<Item Name="subVIs" Type="Folder">
 		<Item Name="Create Client.vi" Type="VI" URL="../subVIs/Create Client.vi"/>
+		<Item Name="Get Cluster Refnum.vi" Type="VI" URL="../subVIs/Get Cluster Refnum.vi"/>
 		<Item Name="Get Configuration.vi" Type="VI" URL="../subVIs/Get Configuration.vi"/>
 		<Item Name="Interface.vi" Type="VI" URL="../subVIs/Interface.vi"/>
 	</Item>
