@@ -36,7 +36,7 @@ def run_full_diff(pr_number, token, commit_id):
     diff_vi = os.path.join(tools_directory , "run_diff.vi")
     _logger.debug(f"Launching {diff_vi}.")
 
-    kwargs = ["LabVIEWCLI", "-OperationName", "RunVI", "-VIPath", os.path.normpath(diff_vi), "-LabVIEWPath", "C:\\Program Files\\National Instruments\\LabVIEW 2021\\LabVIEW.exe", "-PortNumber", "3364"]
+    kwargs = ["LabVIEWCLI", "-OperationName", "RunVI", "-VIPath", os.path.normpath(diff_vi), "-LabVIEWPath", "C:\\Program Files\\National Instruments\\LabVIEW 2020\\LabVIEW.exe", "-PortNumber", "3363"]
     kwargs.extend(["--added_labview_files"])
     kwargs.extend(added_labview_files)
     kwargs.extend(["--modified_labview_files"])
@@ -91,13 +91,13 @@ def copy_target_branch_into_temp_directory(repo_root_directory):
     else:
         # use `git checkout` to populate the temp dir with the target branch content
         shutil.copytree(os.path.join(repo_root_directory, ".git"), os.path.join(temp_directory.name, ".git"))
-        subprocess.check_call(["git", "checkout", "-f", "origin/main"], cwd=temp_directory.name)
+        subprocess.check_call(["git", "checkout", "-f", "origin/users/mounika/check-diff-workflow"], cwd=temp_directory.name)
 
     return (temp_directory)
 
 
 def get_git_diff_changed_files():
-    diff_args = ["git", "diff", "--name-status", "--diff-filter=AM", "origin/main..."]
+    diff_args = ["git", "diff", "--name-status", "--diff-filter=AM", "origin/users/mounika/check-diff-workflow..."]
     diff_output = subprocess.check_output(diff_args).decode("utf-8")
 
     diff_regex = re.compile(r"^([AM])\s+(.*)$", re.MULTILINE)
@@ -239,7 +239,7 @@ def main(pull_req, token, commit_id):
     if pr_number is not None and token is not None:
         _logger.debug(f"Running for pull request #{pr_number} with provided token.")
 
-    run_full_diff(pr_number, token, commit_id)
+    run_full_diff(525, token, "5e89c3b56297872a85dfa256d901d0fc6fe91777")
 
     sys.exit(0)
 
