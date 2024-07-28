@@ -71,6 +71,7 @@
 		<Item Name="Measurement Service Version.ctl" Type="VI" URL="../Helpers/TypeDefs/Measurement Service Version.ctl"/>
 		<Item Name="Parameter Type Specialization.ctl" Type="VI" URL="../Helpers/TypeDefs/Parameter Type Specialization.ctl"/>
 		<Item Name="Pin Map Context.ctl" Type="VI" URL="../Helpers/TypeDefs/Pin Map Context.ctl"/>
+		<Item Name="Service Descriptor.ctl" Type="VI" URL="../Helpers/TypeDefs/Service Descriptor.ctl"/>
 		<Item Name="Stop Server User Event.ctl" Type="VI" URL="../Helpers/TypeDefs/Stop Server User Event.ctl"/>
 		<Item Name="Type Specialization Key.ctl" Type="VI" URL="../Helpers/TypeDefs/Type Specialization Key.ctl"/>
 		<Item Name="Type Specialization.ctl" Type="VI" URL="../Helpers/TypeDefs/Type Specialization.ctl"/>
