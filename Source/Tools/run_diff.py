@@ -32,7 +32,7 @@ def run_full_diff(pr_number, token, commit_id):
     diff_vi = os.path.join(tools_directory , "run_diff.vi")
     _logger.debug(f"Launching {diff_vi}.")
 
-    kwargs = ["LabVIEWCLI", "-OperationName", "RunVI", "-VIPath", os.path.normpath(diff_vi), "-LabVIEWPath", "C:\\Program Files\\National Instruments\\LabVIEW 2023\\LabVIEW.exe", "-PortNumber", "3366"]
+    kwargs = ["LabVIEWCLI", "-OperationName", "RunVI", "-VIPath", os.path.normpath(diff_vi), "-LabVIEWPath", "C:\\Program Files\\National Instruments\\LabVIEW 2021\\LabVIEW.exe", "-PortNumber", "3364"]
     kwargs.extend(["--added_labview_files"])
     kwargs.extend(added_labview_files)
     kwargs.extend(["--modified_labview_files"])
