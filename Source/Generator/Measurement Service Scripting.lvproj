@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="21008000">
+	<Property Name="NI.LV.All.SaveVersion" Type="Str">Editor version</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -78,6 +79,7 @@
 				<Item Name="AB_ChangeTargetFileName.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_ChangeTargetFileName.vi"/>
 				<Item Name="AB_CheckApplicationDestinations.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_CheckApplicationDestinations.vi"/>
 				<Item Name="AB_Close_VI_and_Library_Arrays.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Close_VI_and_Library_Arrays.vi"/>
+				<Item Name="AB_Compile_Before_Reading_VI_Exec.State.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Compile_Before_Reading_VI_Exec.State.vi"/>
 				<Item Name="AB_Consolidated_Save.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Consolidated_Save.vi"/>
 				<Item Name="AB_Convert_To_Relative_Path.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Convert_To_Relative_Path.vi"/>
 				<Item Name="AB_CopyFiles_Data.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_CopyFiles_Data.ctl"/>
@@ -102,6 +104,7 @@
 				<Item Name="AB_Engine_Check_for_nonVI_Link.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Check_for_nonVI_Link.vi"/>
 				<Item Name="AB_Engine_Check_For_Stress_Chars.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Check_For_Stress_Chars.vi"/>
 				<Item Name="AB_Engine_Close_LEIF_Cookie.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Close_LEIF_Cookie.vi"/>
+				<Item Name="AB_Engine_CodeSignMac.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_CodeSignMac.vi"/>
 				<Item Name="AB_Engine_Compute_PackedLib_Implied_Links.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Compute_PackedLib_Implied_Links.vi"/>
 				<Item Name="AB_Engine_Compute_Toplevel_Implied_Links.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Compute_Toplevel_Implied_Links.vi"/>
 				<Item Name="AB_Engine_Consolidated_Save_Item_Info.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Consolidated_Save_Item_Info.ctl"/>
@@ -114,9 +117,12 @@
 				<Item Name="AB_Engine_Delete_Internal_Files.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Delete_Internal_Files.vi"/>
 				<Item Name="AB_Engine_Detect_Additional_Dependencies.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Detect_Additional_Dependencies.vi"/>
 				<Item Name="AB_Engine_Disconnect_Typedefs.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Disconnect_Typedefs.vi"/>
+				<Item Name="AB_Engine_Enumerate_Symbolic_Paths.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Enumerate_Symbolic_Paths.vi"/>
 				<Item Name="AB_Engine_EXE_Call_Write_Icons.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_EXE_Call_Write_Icons.vi"/>
+				<Item Name="AB_Engine_Expand_Excluded_Directories.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Expand_Excluded_Directories.vi"/>
 				<Item Name="AB_Engine_Find_Unreferenced_Library_Members.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Find_Unreferenced_Library_Members.vi"/>
 				<Item Name="AB_Engine_FindVisitedVI.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_FindVisitedVI.vi"/>
+				<Item Name="AB_Engine_Fix_Up_Excluded_ExtraVILib_Directory.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Fix_Up_Excluded_ExtraVILib_Directory.vi"/>
 				<Item Name="AB_Engine_Get_AppShell.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Get_AppShell.vi"/>
 				<Item Name="AB_Engine_Get_LV_IconNameMac.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Get_LV_IconNameMac.vi"/>
 				<Item Name="AB_Engine_Get_LVRTE_Path.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Get_LVRTE_Path.vi"/>
@@ -131,6 +137,7 @@
 				<Item Name="AB_Engine_LinkerErrorVerboseShouldAnalyze.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_LinkerErrorVerboseShouldAnalyze.vi"/>
 				<Item Name="AB_Engine_Lock_or_Unlock_Instantiations.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Lock_or_Unlock_Instantiations.vi"/>
 				<Item Name="AB_Engine_Make_App_Flags.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Make_App_Flags.vi"/>
+				<Item Name="AB_Engine_May_Reference_Malleable_VIs.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_May_Reference_Malleable_VIs.vi"/>
 				<Item Name="AB_Engine_New_File_Flags.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_New_File_Flags.ctl"/>
 				<Item Name="AB_Engine_New_File_Info.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_New_File_Info.ctl"/>
 				<Item Name="AB_Engine_Package_App.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Package_App.vi"/>
@@ -143,6 +150,7 @@
 				<Item Name="AB_Engine_RTDEP_LibDeploymentInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_RTDEP_LibDeploymentInfo.ctl"/>
 				<Item Name="AB_Engine_RTDEP_ProjURL_To_NetworkURL.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_RTDEP_ProjURL_To_NetworkURL.vi"/>
 				<Item Name="AB_Engine_Should_Assume_Refee_Links.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Should_Assume_Refee_Links.vi"/>
+				<Item Name="AB_Engine_Should_Expand_Directory.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Should_Expand_Directory.vi"/>
 				<Item Name="AB_Engine_Update_CustCtl_Paths.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Update_CustCtl_Paths.vi"/>
 				<Item Name="AB_Engine_Update_Exe_Timestamp.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Update_Exe_Timestamp.vi"/>
 				<Item Name="AB_Engine_Update_INI_Header.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Update_INI_Header.vi"/>
@@ -160,11 +168,13 @@
 				<Item Name="AB_EXE.lvlib" Type="Library" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/EXE/common/AB_EXE.lvlib"/>
 				<Item Name="AB_EXE_SharedVar_Deploy.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/EXE/AB_EXE_SharedVar_Deploy.ctl"/>
 				<Item Name="AB_EXE_SharedVar_LibInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/EXE/AB_EXE_SharedVar_LibInfo.ctl"/>
+				<Item Name="AB_ExportAlwaysIncludedFromPPL.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/New_AB/AB_ExportAlwaysIncludedFromPPL.vi"/>
 				<Item Name="AB_ExportedVI_Define_VI_Prototype New.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Source/ExportedVI/AB_ExportedVI_Define_VI_Prototype New.vi"/>
 				<Item Name="AB_Generate_Error_Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Generate_Error_Cluster.vi"/>
 				<Item Name="AB_Get Current VI Settings.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Get Current VI Settings.vi"/>
 				<Item Name="AB_Get_Default_LVLang.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Get_Default_LVLang.vi"/>
 				<Item Name="AB_Get_Detailed_BrokenVI_Message.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Get_Detailed_BrokenVI_Message.vi"/>
+				<Item Name="AB_Get_Do_RepeatReadLinkInfo_Token.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Get_Do_RepeatReadLinkInfo_Token.vi"/>
 				<Item Name="AB_Get_Skip_Close_Token.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Get_Skip_Close_Token.vi"/>
 				<Item Name="AB_Get_Skip_Icon_Token.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Get_Skip_Icon_Token.vi"/>
 				<Item Name="AB_Get_VI_Checksum.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Get_VI_Checksum.vi"/>
@@ -175,7 +185,17 @@
 				<Item Name="AB_LabelType.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_LabelType.ctl"/>
 				<Item Name="AB_Load_Class.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/AB_Load_Class.vi"/>
 				<Item Name="AB_Log_Alloc_Memory.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_Alloc_Memory.vi"/>
+				<Item Name="AB_Log_Build_Destination_Data.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Log_Build_Destination_Data.vi"/>
+				<Item Name="AB_Log_Build_Installer_Advanced_Info.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Log_Build_Installer_Advanced_Info.vi"/>
+				<Item Name="AB_Log_Build_Installer_Dialog_Info.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Log_Build_Installer_Dialog_Info.vi"/>
+				<Item Name="AB_Log_Build_Installer_HW_Config.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Log_Build_Installer_HW_Config.vi"/>
+				<Item Name="AB_Log_Build_Installer_Registry_Info.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Log_Build_Installer_Registry_Info.vi"/>
+				<Item Name="AB_Log_Build_Installer_Security_Info.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Log_Build_Installer_Security_Info.vi"/>
 				<Item Name="AB_Log_Build_Preview.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_Build_Preview.vi"/>
+				<Item Name="AB_Log_Build_Source_File_Settings.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Log_Build_Source_File_Settings.vi"/>
+				<Item Name="AB_Log_Build_Source_File_Settings_Check.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Log_Build_Source_File_Settings_Check.vi"/>
+				<Item Name="AB_Log_Build_Source_File_Settings_Helper.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Log_Build_Source_File_Settings_Helper.vi"/>
+				<Item Name="AB_Log_Build_Usage_Data.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Log_Build_Usage_Data.vi"/>
 				<Item Name="AB_Log_ClassData.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_ClassData.vi"/>
 				<Item Name="AB_Log_Close.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_Close.vi"/>
 				<Item Name="AB_Log_Copy_File_VI_State.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_Copy_File_VI_State.vi"/>
@@ -189,10 +209,12 @@
 				<Item Name="AB_Log_Linker_Item.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_Linker_Item.vi"/>
 				<Item Name="AB_Log_Linker_Item_No_Class.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_Linker_Item_No_Class.vi"/>
 				<Item Name="AB_Log_LinkerInfo.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_LinkerInfo.vi"/>
+				<Item Name="AB_Log_Moddate_Msg.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_Moddate_Msg.vi"/>
 				<Item Name="AB_Log_NewBuild.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_NewBuild.vi"/>
 				<Item Name="AB_Log_Open.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_Open.vi"/>
 				<Item Name="AB_Log_Save_Action.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_Save_Action.ctl"/>
 				<Item Name="AB_Log_SaveClose_Source_Item.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_SaveClose_Source_Item.vi"/>
+				<Item Name="AB_Log_Start_Alloc_Memory.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_Start_Alloc_Memory.vi"/>
 				<Item Name="AB_Log_Write_Linker.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_Write_Linker.vi"/>
 				<Item Name="AB_Long_Path_Error.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Long_Path_Error.vi"/>
 				<Item Name="AB_PackedLibrary.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/PackedLib/AB_PackedLibrary.ctl"/>
@@ -315,10 +337,12 @@
 				<Item Name="Are Paths Equal.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Are Paths Equal.vi"/>
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 				<Item Name="build preview data.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/PreviewCache/build preview data.ctl"/>
+				<Item Name="BuildElements.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/New_AB/No-Op/BuildElements.ctl"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
+				<Item Name="Class File Info to Private Data Control File Info.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Class File Info to Private Data Control File Info.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Close Registry Key.vi"/>
 				<Item Name="Close Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Close Zip File.vi"/>
@@ -335,6 +359,7 @@
 				<Item Name="Copy In Or Out Of VI Library.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Copy In Or Out Of VI Library.vi"/>
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
 				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
+				<Item Name="Create NI GUID.vi" Type="VI" URL="/&lt;vilib&gt;/string/Create NI GUID.vi"/>
 				<Item Name="Delete Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Delete Directory Recursive.vi"/>
 				<Item Name="Delete From VI Library.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Delete From VI Library.vi"/>
 				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
@@ -377,6 +402,8 @@
 				<Item Name="Is Class Not Interface.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Is Class Not Interface.vi"/>
 				<Item Name="Is Name Multiplatform.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Is Name Multiplatform.vi"/>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
+				<Item Name="Is Path Relative to Symbolic Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Is Path Relative to Symbolic Path.vi"/>
+				<Item Name="LabVIEW Versioned Registry SubKey.lvlib" Type="Library" URL="/&lt;vilib&gt;/registry/LabVIEW SubKey/LabVIEW Versioned Registry SubKey.lvlib"/>
 				<Item Name="Librarian Copy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian Copy.vi"/>
 				<Item Name="Librarian Delete Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian Delete Dialog.vi"/>
 				<Item Name="Librarian Delete.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian Delete.vi"/>
@@ -388,6 +415,7 @@
 				<Item Name="Librarian Rename.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian Rename.vi"/>
 				<Item Name="Librarian.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="Load_From_LinkInfo.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/Load_From_LinkInfo.vi"/>
 				<Item Name="LogWSUsageData.vi" Type="VI" URL="/&lt;vilib&gt;/WebServerConfig/LogWSUsageData.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
@@ -404,6 +432,23 @@
 				<Item Name="MD5Checksum string.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum string.vi"/>
 				<Item Name="New VI Library.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/New VI Library.vi"/>
 				<Item Name="New Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/New Zip File.vi"/>
+				<Item Name="New_AB_Feature_Get_BuildSpecification_Attributes.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/New_AB/New_AB_Feature_Get_BuildSpecification_Attributes.vi"/>
+				<Item Name="New_AB_Feature_ModDate_Toggle.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/New_AB/New_AB_Feature_ModDate_Toggle.vi"/>
+				<Item Name="New_AB_Feature_Toggle_Enabled.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/New_AB/New_AB_Feature_Toggle_Enabled.vi"/>
+				<Item Name="New_AB_Find_BuildSpecifications_Xml_Node.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/New_AB/New_AB_Find_BuildSpecifications_Xml_Node.vi"/>
+				<Item Name="New_AB_Find_Dependencies_Xml_Node.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/New_AB/New_AB_Find_Dependencies_Xml_Node.vi"/>
+				<Item Name="New_AB_Get_Filtered_Project_XML.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/New_AB/New_AB_Get_Filtered_Project_XML.vi"/>
+				<Item Name="New_AB_Get_Unfiltered_Project_XML.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/New_AB/New_AB_Get_Unfiltered_Project_XML.vi"/>
+				<Item Name="New_AB_Is_Project_Xml_Node.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/New_AB/New_AB_Is_Project_Xml_Node.vi"/>
+				<Item Name="New_AB_Remove_Dependencies_And_BuildSpecifications_Xml_Node.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/New_AB/New_AB_Remove_Dependencies_And_BuildSpecifications_Xml_Node.vi"/>
+				<Item Name="New_AB_Set_Context_Tag_Build_Specification_Information.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/New_AB/New_AB_Set_Context_Tag_Build_Specification_Information.vi"/>
+				<Item Name="New_AB_Set_Feature_Toggle.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/New_AB/New_AB_Set_Feature_Toggle.vi"/>
+				<Item Name="New_AB_Supports_New_AppBuilderCache.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/New_AB/New_AB_Supports_New_AppBuilderCache.vi"/>
+				<Item Name="New_AB_Xml_Delete_Child_And_TextNode.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/New_AB/New_AB_Xml_Delete_Child_And_TextNode.vi"/>
+				<Item Name="New_AB_Xml_Filter_BuildSpec_Unrelated_Properties.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/New_AB/New_AB_Xml_Filter_BuildSpec_Unrelated_Properties.vi"/>
+				<Item Name="New_AB_XML_Helper.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/New_AB/New_AB_XML_Helper.vi"/>
+				<Item Name="New_AB_Xml_Node_Equals.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/New_AB/New_AB_Xml_Node_Equals.vi"/>
+				<Item Name="New_AB_Xml_Remove_All_Item_Siblings_Nodes.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/New_AB/New_AB_Xml_Remove_All_Item_Siblings_Nodes.vi"/>
 				<Item Name="NewVIObject_LVRelativeDirectionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/_script/New VI Object TypeDefs/NewVIObject_LVRelativeDirectionTypeDef.ctl"/>
 				<Item Name="NewVIObject_LVRelativePositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/_script/New VI Object TypeDefs/NewVIObject_LVRelativePositionTypeDef.ctl"/>
 				<Item Name="NI Measurement Plug-In SDK.lvlib" Type="Library" URL="/&lt;vilib&gt;/Plug-In SDKs/Measurements/NI Measurement Plug-In SDK.lvlib"/>
@@ -412,10 +457,17 @@
 				<Item Name="NI_AB_API_EXE.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/AB_API/EXE/NI_AB_API_EXE.lvclass"/>
 				<Item Name="NI_AB_API_PPL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/AB_API/PPL/NI_AB_API_PPL.lvclass"/>
 				<Item Name="NI_AB_API_Targetfile.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/AB_API/Targetfile/NI_AB_API_Targetfile.lvclass"/>
+				<Item Name="NI_Bit Manipulation.lvlib" Type="Library" URL="/&lt;vilib&gt;/Bit Manipulation/NI_Bit Manipulation.lvlib"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_Keccak.lvlib" Type="Library" URL="/&lt;vilib&gt;/security/Message Digest/Keccak/NI_Keccak.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="NI_Message Digest API.lvlib" Type="Library" URL="/&lt;vilib&gt;/security/Message Digest/API/NI_Message Digest API.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_SHA-3.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/security/Message Digest/SHA-3/NI_SHA-3.lvclass"/>
+				<Item Name="NI_SHA-256.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/security/Message Digest/SHA-2/SHA-256/NI_SHA-256.lvclass"/>
+				<Item Name="NI_SHA-512.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/security/Message Digest/SHA-2/SHA-512/NI_SHA-512.lvclass"/>
+				<Item Name="NI_SymbolicPaths.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Symbolic Paths/NI_SymbolicPaths.lvlib"/>
 				<Item Name="NI_Variable.lvlib" Type="Library" URL="/&lt;vilib&gt;/variable/NI_Variable.lvlib"/>
 				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
 				<Item Name="niceiplib.lvlib" Type="Library" URL="/&lt;vilib&gt;/UDC/niceiplib.lvlib"/>
@@ -437,6 +489,12 @@
 				<Item Name="Read Class Ancestry.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Read Class Ancestry.vi"/>
 				<Item Name="Read Palette.vi" Type="VI" URL="/&lt;vilib&gt;/Palette API/Read Palette.vi"/>
 				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
+				<Item Name="Read Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value DWORD.vi"/>
+				<Item Name="Read Registry Value Simple STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple STR.vi"/>
+				<Item Name="Read Registry Value STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value STR.vi"/>
+				<Item Name="Read Registry Value.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value.vi"/>
+				<Item Name="Read_LinkInfo_Actual.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/Read_LinkInfo_Actual.vi"/>
+				<Item Name="Read_LinkInfo_Repeat.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/Read_LinkInfo_Repeat.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="Registry Handle Master.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Handle Master.vi"/>
 				<Item Name="Registry refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry refnum.ctl"/>
@@ -453,6 +511,7 @@
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Set VI Library File Info.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Set VI Library File Info.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Single String To Qualified Name Array.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Single String To Qualified Name Array.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
 				<Item Name="sTypeDef_Languages.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/CodeSignAPI/sTypeDef_Languages.ctl"/>
@@ -466,6 +525,7 @@
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
 				<Item Name="TRef TravTarget.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef TravTarget.ctl"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
 				<Item Name="VIAnUtil Clear Specific Error.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Clear Specific Error.vi"/>
@@ -475,8 +535,10 @@
 				<Item Name="Write Palette.vi" Type="VI" URL="/&lt;vilib&gt;/Palette API/Write Palette.vi"/>
 			</Item>
 			<Item Name="_ChannelScriptingSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelScriptingSupport/_ChannelScriptingSupport.lvlib"/>
+			<Item Name="_LaunchHelpUrl.vi" Type="VI" URL="/&lt;helpdir&gt;/_LaunchHelpUrl.vi"/>
 			<Item Name="AB_Create_Build_AppInstance.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_Create_Build_AppInstance.vi"/>
 			<Item Name="AB_Create_Web_Service_Config_File.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_Create_Web_Service_Config_File.vi"/>
+			<Item Name="AB_Get_Info_From_GUID.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_Get_Info_From_GUID.vi"/>
 			<Item Name="AB_Get_Target_OS_CPU.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_Get_Target_OS_CPU.vi"/>
 			<Item Name="AB_Ignore_Unresolved_DLL_Ref.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_Ignore_Unresolved_DLL_Ref.vi"/>
 			<Item Name="AB_Is_Desktop_Target.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_Is_Desktop_Target.vi"/>
@@ -554,6 +616,7 @@
 			<Item Name="mxLvGetBooleanProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetBooleanProperty.vi"/>
 			<Item Name="mxLvGetIntProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetIntProperty.vi"/>
 			<Item Name="mxLvGetItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetItem.vi"/>
+			<Item Name="mxLvGetItemRef.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetItemRef.vi"/>
 			<Item Name="mxLvGetNIIM.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetNIIM.vi"/>
 			<Item Name="mxLvGetPathProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetPathProperty.vi"/>
 			<Item Name="mxLvGetProjectPath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetProjectPath.vi"/>
@@ -591,7 +654,7 @@
 			<Item Name="provcom_GenerateGUID.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GenerateGUID.vi"/>
 			<Item Name="provcom_GetAllChildrenOfItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GetAllChildrenOfItem.vi"/>
 			<Item Name="provcom_GetObjectItemFromProjectItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GetObjectItemFromProjectItem.vi"/>
-			<Item Name="provcom_GetProvidersDir.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GetProvidersDir.vi"/>
+			<Item Name="provcom_GetProvidersDirPseudo.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GetProvidersDirPseudo.vi"/>
 			<Item Name="provcom_GetTargetOS.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GetTargetOS.vi"/>
 			<Item Name="provcom_HideInBuildSpecBehavior.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_HideInBuildSpecBehavior.vi"/>
 			<Item Name="provcom_IsDesktopTargetBehavior.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_IsDesktopTargetBehavior.vi"/>

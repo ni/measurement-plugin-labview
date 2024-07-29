@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="21008000">
+	<Property Name="NI.LV.All.SaveVersion" Type="Str">Editor version</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -69,12 +70,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
 				<Item Name="JSONtext LVClass Serializer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JDP Science/JSONtext/LVClass Serializer/JSONtext LVClass Serializer.lvclass"/>
-				<Item Name="JSONtext.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JSONtext/JSONtext.lvlib"/>
-				<Item Name="JDP Utility.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/JDP Utility.lvlib"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
-				<Item Name="JDP Timestamp.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Timestamp/JDP Timestamp.lvlib"/>
-				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
-				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Base64/Base64 Support.lvlib"/>
 				<Item Name="Set Difference.vim" Type="VI" URL="/&lt;vilib&gt;/set operations/Set Difference.vim"/>
 				<Item Name="Create NI GUID.vi" Type="VI" URL="/&lt;vilib&gt;/string/Create NI GUID.vi"/>
 				<Item Name="Assert Array Dimension Count.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Array Dimension Count.vim"/>
@@ -120,6 +116,11 @@
 				<Item Name="VISA gRPC Options.ctl" Type="VI" URL="/&lt;vilib&gt;/NI-VISA/VISA gRPC Options.ctl"/>
 				<Item Name="VISA Format gRPC Resource Name.vi" Type="VI" URL="/&lt;vilib&gt;/NI-VISA/VISA Format gRPC Resource Name.vi"/>
 				<Item Name="VISA Format gRPC URI.vi" Type="VI" URL="/&lt;vilib&gt;/NI-VISA/VISA Format gRPC URI.vi"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
+				<Item Name="To JSON Text.vim" Type="VI" URL="/&lt;vilib&gt;/JDP Science/JSONtext/To JSON Text.vim"/>
+				<Item Name="Variant to JSON Text.vi" Type="VI" URL="/&lt;vilib&gt;/JDP Science/JSONtext/Variant to JSON Text.vi"/>
+				<Item Name="From JSON Text.vim" Type="VI" URL="/&lt;vilib&gt;/JDP Science/JSONtext/From JSON Text.vim"/>
+				<Item Name="JSON text to Variant.vi" Type="VI" URL="/&lt;vilib&gt;/JDP Science/JSONtext/JSON text to Variant.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niDCPower Initialize With Independent Channels for gRPC session.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Initialize With Independent Channels for gRPC session.vi"/>
@@ -148,17 +149,11 @@
 				<Item Name="niDigital Self Test.vi" Type="VI" URL="/&lt;instrlib&gt;/niDigital/niDigital.llb/niDigital Self Test.vi"/>
 				<Item Name="niDCPower Self Test.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Self Test.vi"/>
 				<Item Name="niDCPower gRPC Device Server.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower gRPC Device Server.ctl"/>
-				<Item Name="niDigital Get Session Reference.vi" Type="VI" URL="/&lt;instrlib&gt;/niDigital/niDigital.llb/niDigital Get Session Reference.vi"/>
-				<Item Name="niDigital gRPC Device Server.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDigital/niDigital.llb/niDigital gRPC Device Server.ctl"/>
 				<Item Name="niDMM gRPC Device Server.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDMM/nidmm.llb/niDMM gRPC Device Server.ctl"/>
-				<Item Name="niFgen Get Session Reference.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Get Session Reference.vi"/>
-				<Item Name="niFgen gRPC Device Server.ctl" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen gRPC Device Server.ctl"/>
 				<Item Name="niScope Get Session Reference.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Utility/niScope Get Session Reference.vi"/>
 				<Item Name="niScope gRPC Device Server.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/niScope gRPC Device Server.ctl"/>
 				<Item Name="niDCPower IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower IVI Error Converter.vi"/>
-				<Item Name="niDigital IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niDigital/niDigital.llb/niDigital IVI Error Converter.vi"/>
 				<Item Name="niDMM IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niDMM/nidmm.llb/niDMM IVI Error Converter.vi"/>
-				<Item Name="niFgen IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen IVI Error Converter.vi"/>
 				<Item Name="niScope LabVIEW Error.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Utility/niScope LabVIEW Error.vi"/>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
@@ -172,19 +167,16 @@
 			<Item Name="nidcpower_64.dll" Type="Document" URL="nidcpower_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niDigital_64.dll" Type="Document" URL="niDigital_64.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="nidmm_64.dll" Type="Document" URL="nidmm_64.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="niFgen_64.dll" Type="Document" URL="niFgen_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="niScope_64.dll" Type="Document" URL="niScope_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="ni.protobuf.types.lvlib" Type="Library" URL="../../gRPC/Generated APIs/ni/protobuf/types/ni.protobuf.types.lvlib"/>
+			<Item Name="nidmm_32.dll" Type="Document" URL="nidmm_32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
