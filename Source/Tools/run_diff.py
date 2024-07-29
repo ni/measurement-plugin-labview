@@ -135,7 +135,7 @@ def create_github_request_header_png_upload(token):
 def post_github_pr_text_comment(text, pr_number, token):
     # Using "issues" in this url allows for providing a pr-scoped comment.
     # If using "pulls" instead, subschema information (e.g. file or line) is required in the data.
-    url = f"https://api.github.com/repos/ni/measurementlink-labview/issues/{pr_number}/comments"
+    url = f"https://api.github.com/repos/ni/measurement-plugin-labview/issues/{pr_number}/comments"
     data = json.dumps({"body": text})
     header = create_github_request_header(token)
 
@@ -166,7 +166,7 @@ def post_github_pr_file_scoped_comment_with_images(file_id, directory_with_image
             raw_binary_data = image_binary_data.read()
 
         random_guid_filename = f"{str(uuid.uuid4())}.png"
-        upload_url = f"https://uploads.github.com/repos/ni/measurementlink-labview/releases/90459463/assets?name={random_guid_filename}"
+        upload_url = f"https://uploads.github.com/repos/ni/measurement-plugin-labview/releases/90459463/assets?name={random_guid_filename}"
 
         _logger.debug(f"   - Posting image to {upload_url}")
 
@@ -177,12 +177,12 @@ def post_github_pr_file_scoped_comment_with_images(file_id, directory_with_image
                 text = text + "<i>Before</i>:<br>"
             else:
                 text = text + "<i>After</i>:<br>"
-            text = text + f"<img title=\"{image_filename}\" src=\"https://github.com/ni/measurementlink-labview/releases/download/v0.12.1/{random_guid_filename}\"/><br>"
+            text = text + f"<img title=\"{image_filename}\" src=\"https://github.com/ni/measurement-plugin-labview/releases/download/v0.12.1/{random_guid_filename}\"/><br>"
         else:
             _logger.error(f"Bad response. url:{upload_url}, code:{response.status_code}, text:{response.text}")
             text = text + f"Failed to upload image `{image_filename}` as `{random_guid_filename}`<br><br>"
 
-    url = f"https://api.github.com/repos/ni/measurementlink-labview/pulls/{pr_number}/comments"
+    url = f"https://api.github.com/repos/ni/measurement-plugin-labview/pulls/{pr_number}/comments"
     data = json.dumps({"body": text, "subject_type": "file", "path": file_id, "commit_id": commit_id})
     header = create_github_request_header(token)
 
@@ -197,7 +197,7 @@ def post_github_pr_file_scoped_comment_with_images(file_id, directory_with_image
 
 
 def get_github_pr_changed_files(pr_number, token):
-    url = f"https://api.github.com/repos/ni/measurementlink-labview/pulls/{pr_number}/files"
+    url = f"https://api.github.com/repos/ni/measurement-plugin-labview/pulls/{pr_number}/files"
     header = create_github_request_header(token)
 
     _logger.debug(f"Getting files information from {url}")
