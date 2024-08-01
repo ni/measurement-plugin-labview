@@ -20,6 +20,9 @@
 		<Item Name="Discovery Client FGV.vi" Type="VI" URL="../Discovery Client FGV.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		</Item>
+		<Item Name="Enumerate Service.vi" Type="VI" URL="../Enumerate Service.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+		</Item>
 		<Item Name="Recreate Client.vi" Type="VI" URL="../Recreate Client.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
