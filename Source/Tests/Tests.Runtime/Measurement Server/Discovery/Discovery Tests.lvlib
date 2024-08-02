@@ -11,7 +11,7 @@
 </Property>
 	<Item Name="Discovery Client Wrapper Tests" Type="Folder">
 		<Item Name="test_DiscoveryWrapper_StopDiscoveryService_WrapperMethodsWorkWithoutError.vi" Type="VI" URL="../test_DiscoveryWrapper_StopDiscoveryService_WrapperMethodsWorkWithoutError.vi"/>
-		<Item Name="test_EnumerateServiceWrapper_RunEnumerateService_ReturnsActiveService.vi" Type="VI" URL="../test_EnumerateServiceWrapper_RunEnumerateService_ReturnsActiveService.vi"/>
+		<Item Name="test_EnumerateServicesWrapper_RunEnumerateServices_ReturnsAvailableServices.vi" Type="VI" URL="../test_EnumerateServicesWrapper_RunEnumerateServices_ReturnsAvailableServices.vi"/>
 	</Item>
 	<Item Name="gRPC Client Cache Tests" Type="Folder">
 		<Item Name="Assert Client Id.vi" Type="VI" URL="../Assert Client Id.vi"/>
