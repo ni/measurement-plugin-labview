@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Check if no Measurement Selected.vi" Type="VI" URL="../SubVIs/Check if no Measurement Selected.vi"/>
 		<Item Name="Close Project.vi" Type="VI" URL="../SubVIs/Close Project.vi"/>
 		<Item Name="Get Active Project Details.vi" Type="VI" URL="../SubVIs/Get Active Project Details.vi"/>
 		<Item Name="List Active Measurements.vi" Type="VI" URL="../SubVIs/List Active Measurements.vi"/>
