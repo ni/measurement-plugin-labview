@@ -5,13 +5,18 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Check if Library exists.vi" Type="VI" URL="../SubVIs/Check if Library exists.vi"/>
 		<Item Name="Check if no Measurement Selected.vi" Type="VI" URL="../SubVIs/Check if no Measurement Selected.vi"/>
 		<Item Name="Close Project.vi" Type="VI" URL="../SubVIs/Close Project.vi"/>
 		<Item Name="Get Active Project Details.vi" Type="VI" URL="../SubVIs/Get Active Project Details.vi"/>
 		<Item Name="List Active Measurements.vi" Type="VI" URL="../SubVIs/List Active Measurements.vi"/>
 		<Item Name="Measurement Selection Icons.vi" Type="VI" URL="../SubVIs/Measurement Selection Icons.vi"/>
 		<Item Name="Open Project.vi" Type="VI" URL="../SubVIs/Open Project.vi"/>
+		<Item Name="Reserved Names List.vi" Type="VI" URL="../SubVIs/Reserved Names List.vi"/>
 		<Item Name="Update Measurement Selection.vi" Type="VI" URL="../SubVIs/Update Measurement Selection.vi"/>
+		<Item Name="Validate Client Names.vi" Type="VI" URL="../SubVIs/Validate Client Names.vi"/>
+		<Item Name="Validate Measurement Client Name.vi" Type="VI" URL="../SubVIs/Validate Measurement Client Name.vi"/>
+		<Item Name="Validate User Input.vi" Type="VI" URL="../SubVIs/Validate User Input.vi"/>
 	</Item>
 	<Item Name="Create Measurement Client.vi" Type="VI" URL="../../Create Measurement Client.vi"/>
 </Library>
