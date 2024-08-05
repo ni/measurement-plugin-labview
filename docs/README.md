@@ -55,9 +55,9 @@ LabVIEW UI in InstrumentStudio.
 
         ![Measurement library files](images/Measurement%20library%20files.png)
 
-3. Add the measurement details to `Get Measurement Details.vi`.
+3. Add the measurement details to `Get Service Descriptor.vi`.
 
-    ![Get Measurement Details VI](images/Get%20Measurement%20Details%20VI.png)
+    ![Get Service Descriptor VI](images/Get%20Service%20Descriptor%20VI.png)
 
 4. Add the required configuration parameters to `Measurement Configuration.ctl`.
    By default, there are controls showing most of the supported data types.
