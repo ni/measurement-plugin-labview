@@ -8,6 +8,7 @@
 		<Item Name="Check if Library exists.vi" Type="VI" URL="../SubVIs/Check if Library exists.vi"/>
 		<Item Name="Check if no Measurement Selected.vi" Type="VI" URL="../SubVIs/Check if no Measurement Selected.vi"/>
 		<Item Name="Close Project.vi" Type="VI" URL="../SubVIs/Close Project.vi"/>
+		<Item Name="Generate Mouse Click.vi" Type="VI" URL="../SubVIs/Generate Mouse Click.vi"/>
 		<Item Name="Get Active Project Details.vi" Type="VI" URL="../SubVIs/Get Active Project Details.vi"/>
 		<Item Name="List Active Measurements.vi" Type="VI" URL="../SubVIs/List Active Measurements.vi"/>
 		<Item Name="Measurement Selection Icons.vi" Type="VI" URL="../SubVIs/Measurement Selection Icons.vi"/>

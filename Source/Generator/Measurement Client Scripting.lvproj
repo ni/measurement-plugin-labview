@@ -77,6 +77,9 @@
 			</Item>
 			<Item Name="NI Discovery V1 Client.lvlib" Type="Library" URL="../../Runtime/Clients/Discovery V1/NI Discovery V1 Client.lvlib"/>
 			<Item Name="ni.measurementlink.discovery.v1.api.lvlib" Type="Library" URL="../../gRPC/Generated APIs/ni/measurementlink/discovery/v1/ni.measurementlink.discovery.v1.api.lvlib"/>
+			<Item Name="user32.dll" Type="Document" URL="user32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
