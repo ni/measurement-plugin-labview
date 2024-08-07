@@ -4,6 +4,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -15,8 +16,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="MeasurementClient Editor.lvlib" Type="Library" URL="../_MeasurementClient Utility/MeasurementClient Editor.lvlib"/>
 		<Item Name="MeasurementService Editor.lvlib" Type="Library" URL="../_Editor/MeasurementService Editor.lvlib"/>
+		<Item Name="Generator Helpers.lvlib" Type="Library" URL="../_Editor/Generator Helpers.lvlib"/>
 		<Item Name="NI_AB_API_EXE_Extensions.lvclass" Type="LVClass" URL="../_Editor/NI_AB_API_EXE_Extensions/NI_AB_API_EXE_Extensions.lvclass"/>
-		<Item Name="Reusables.lvlib" Type="Library" URL="../_Editor/Reusables.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
