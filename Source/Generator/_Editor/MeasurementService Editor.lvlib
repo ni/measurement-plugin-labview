@@ -52,9 +52,11 @@
 		<Item Name="Check if Build Assets Exists.vi" Type="VI" URL="../Check if Build Assets Exists.vi"/>
 		<Item Name="Create Build Specification.vi" Type="VI" URL="../Create Build Specification.vi"/>
 		<Item Name="Create PPL Build Spec.vi" Type="VI" URL="../Create PPL Build Spec.vi"/>
+		<Item Name="Get Library.vi" Type="VI" URL="../Get Library.vi"/>
 		<Item Name="Save As Measurement Service template.vi" Type="VI" URL="../Save As Measurement Service template.vi"/>
 		<Item Name="Update Measurement Details.vi" Type="VI" URL="../Update Measurement Details.vi"/>
 		<Item Name="Update UI Details.vi" Type="VI" URL="../Update UI Details.vi"/>
+		<Item Name="Valid Measurement Service Name.vi" Type="VI" URL="../Valid Measurement Service Name.vi"/>
 	</Item>
 	<Item Name="Create Measurement Service.vi" Type="VI" URL="../../Create Measurement Service.vi"/>
 </Library>
