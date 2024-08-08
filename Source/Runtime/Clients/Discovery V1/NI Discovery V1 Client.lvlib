@@ -12,7 +12,6 @@
 		<Item Name="NI Session Management V1 Client.lvlib:Session Reservation.lvclass" Type="Friended Library" URL="../../Session Management V1/Session Reservation/Session Reservation.lvclass"/>
 		<Item Name="MeasurementServerTests.lvlib:Discovery Tests.lvlib" Type="Friended Library" URL="../../../../Tests/Tests.Runtime/Measurement Server/Discovery/Discovery Tests.lvlib"/>
 		<Item Name="MeasurementServerTests.lvlib" Type="Friended Library" URL="../../../../Tests/Tests.Runtime/Measurement Server/MeasurementServerTests.lvlib"/>
-		<Item Name="Create Measurement Plug-In Client.lvlib" Type="Friended Library" URL="../../../../Generator/_MeasurementClient Utility/Create Measurement Plug-In Client.lvlib"/>
 	</Item>
 	<Item Name="Discovery Client Wrapper" Type="Folder">
 		<Item Name="Create Client.vi" Type="VI" URL="../Create Client.vi">
