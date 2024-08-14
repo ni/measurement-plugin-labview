@@ -9,9 +9,9 @@
 </Property>
 	<Item Name="Private Helpers" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Change Font Colour.vi" Type="VI" URL="../Change Font Colour.vi"/>
 		<Item Name="Check if no Measurement Selected.vi" Type="VI" URL="../Check if no Measurement Selected.vi"/>
 		<Item Name="Get Library Names in Active Project.vi" Type="VI" URL="../Get Library Names in Active Project.vi"/>
+		<Item Name="Highlight Invalid Name.vi" Type="VI" URL="../Highlight Invalid Name.vi"/>
 		<Item Name="List Available Measurements.vi" Type="VI" URL="../List Available Measurements.vi"/>
 		<Item Name="Measurement Selection Icons.vi" Type="VI" URL="../Measurement Selection Icons.vi"/>
 		<Item Name="Update Measurement Selection.vi" Type="VI" URL="../Update Measurement Selection.vi"/>
