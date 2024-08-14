@@ -9,7 +9,6 @@
 </Property>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Check if no Measurement Selected.vi" Type="VI" URL="../SubVIs/Check if no Measurement Selected.vi"/>
-		<Item Name="Generate Mouse Click.vi" Type="VI" URL="../SubVIs/Generate Mouse Click.vi"/>
 		<Item Name="Get Library Names in Active Project.vi" Type="VI" URL="../SubVIs/Get Library Names in Active Project.vi"/>
 		<Item Name="List Available Measurements.vi" Type="VI" URL="../SubVIs/List Available Measurements.vi"/>
 		<Item Name="Measurement Selection Icons.vi" Type="VI" URL="../SubVIs/Measurement Selection Icons.vi"/>

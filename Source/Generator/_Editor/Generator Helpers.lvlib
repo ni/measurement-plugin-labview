@@ -5,6 +5,5 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Close Project.vi" Type="VI" URL="../Close Project.vi"/>
 	<Item Name="Get Active Project Details.vi" Type="VI" URL="../Get Active Project Details.vi"/>
-	<Item Name="Get Reserved Names.vi" Type="VI" URL="../Get Reserved Names.vi"/>
 	<Item Name="Open Project.vi" Type="VI" URL="../Open Project.vi"/>
 </Library>

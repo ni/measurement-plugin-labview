@@ -53,6 +53,7 @@
 		<Item Name="Create Build Specification.vi" Type="VI" URL="../Create Build Specification.vi"/>
 		<Item Name="Create PPL Build Spec.vi" Type="VI" URL="../Create PPL Build Spec.vi"/>
 		<Item Name="Get Library.vi" Type="VI" URL="../Get Library.vi"/>
+		<Item Name="Get Reserved Names.vi" Type="VI" URL="../Get Reserved Names.vi"/>
 		<Item Name="Save As Measurement Service template.vi" Type="VI" URL="../Save As Measurement Service template.vi"/>
 		<Item Name="Update Measurement Details.vi" Type="VI" URL="../Update Measurement Details.vi"/>
 		<Item Name="Update UI Details.vi" Type="VI" URL="../Update UI Details.vi"/>
