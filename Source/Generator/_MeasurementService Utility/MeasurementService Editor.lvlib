@@ -4,8 +4,11 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">553680896</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Private Helpers" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	<Item Name="Friends List" Type="Friends List">
+		<Item Name="MeasurementGenerator Tests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Generator/Dialog/MeasurementGenerator Tests.lvlib"/>
+	</Item>
+	<Item Name="Helpers" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Add Library To Project.vi" Type="VI" URL="../Add Library To Project.vi"/>
 		<Item Name="Check if Build Assets Exists.vi" Type="VI" URL="../Check if Build Assets Exists.vi"/>
@@ -19,8 +22,8 @@
 		<Item Name="Valid Measurement Service Name.vi" Type="VI" URL="../Valid Measurement Service Name.vi"/>
 	</Item>
 	<Item Name="RenameRefactor" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="typedefs" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="Refactor Dynamic Dispatch Member Result.ctl" Type="VI" URL="../RenameRefactor/Refactor Dynamic Dispatch Member Result.ctl"/>
 			<Item Name="Refactor Object Result.ctl" Type="VI" URL="../RenameRefactor/Refactor Object Result.ctl"/>
 			<Item Name="Refactor Project Result.ctl" Type="VI" URL="../RenameRefactor/Refactor Project Result.ctl"/>
@@ -30,36 +33,96 @@
 			<Item Name="Rename String Result.ctl" Type="VI" URL="../RenameRefactor/Rename String Result.ctl"/>
 			<Item Name="Rename String.ctl" Type="VI" URL="../RenameRefactor/Rename String.ctl"/>
 		</Item>
-		<Item Name="Add Dynamic to Static Dispatch Mappings.vi" Type="VI" URL="../RenameRefactor/Add Dynamic to Static Dispatch Mappings.vi"/>
-		<Item Name="Begins with Qualified Name.vi" Type="VI" URL="../RenameRefactor/Begins with Qualified Name.vi"/>
-		<Item Name="Build Qualified Name.vi" Type="VI" URL="../RenameRefactor/Build Qualified Name.vi"/>
-		<Item Name="Calculate Refactor Metrics for Project.vi" Type="VI" URL="../RenameRefactor/Calculate Refactor Metrics for Project.vi"/>
-		<Item Name="Calculate Relative Path from Directory.vi" Type="VI" URL="../RenameRefactor/Calculate Relative Path from Directory.vi"/>
-		<Item Name="Filter for Classes.vi" Type="VI" URL="../RenameRefactor/Filter for Classes.vi"/>
-		<Item Name="Get Parent Class Name.vi" Type="VI" URL="../RenameRefactor/Get Parent Class Name.vi"/>
-		<Item Name="Is Descendant of Class.vi" Type="VI" URL="../RenameRefactor/Is Descendant of Class.vi"/>
-		<Item Name="Is Nested Typedef.vi" Type="VI" URL="../RenameRefactor/Is Nested Typedef.vi"/>
-		<Item Name="Is Typedef.vim" Type="VI" URL="../RenameRefactor/Is Typedef.vim"/>
-		<Item Name="Normalize Path.vi" Type="VI" URL="../RenameRefactor/Normalize Path.vi"/>
-		<Item Name="README.md" Type="Document" URL="../RenameRefactor/README.md"/>
-		<Item Name="Refactor Class Dynamic Dispatch Membersvi.vi" Type="VI" URL="../RenameRefactor/Refactor Class Dynamic Dispatch Membersvi.vi"/>
-		<Item Name="Refactor Classes in Project.vi" Type="VI" URL="../RenameRefactor/Refactor Classes in Project.vi"/>
-		<Item Name="Refactor Dependencies for Project.vi" Type="VI" URL="../RenameRefactor/Refactor Dependencies for Project.vi"/>
-		<Item Name="Refactor Dependencies for Projects.vi" Type="VI" URL="../RenameRefactor/Refactor Dependencies for Projects.vi"/>
-		<Item Name="Refactor Dependencies for VI.vi" Type="VI" URL="../RenameRefactor/Refactor Dependencies for VI.vi"/>
-		<Item Name="Refactor Object for File Rename.vi" Type="VI" URL="../RenameRefactor/Refactor Object for File Rename.vi"/>
-		<Item Name="Refactor Object for Library Rename.vi" Type="VI" URL="../RenameRefactor/Refactor Object for Library Rename.vi"/>
-		<Item Name="Refactor Parent Class Dependency.vi" Type="VI" URL="../RenameRefactor/Refactor Parent Class Dependency.vi"/>
-		<Item Name="Rename and Refactor Dependency for Object.vi" Type="VI" URL="../RenameRefactor/Rename and Refactor Dependency for Object.vi"/>
-		<Item Name="Rename Dynamic Dispatch Member.vi" Type="VI" URL="../RenameRefactor/Rename Dynamic Dispatch Member.vi"/>
-		<Item Name="Strip Qualified Name.vi" Type="VI" URL="../RenameRefactor/Strip Qualified Name.vi"/>
-		<Item Name="Supports Block Diagram.vi" Type="VI" URL="../RenameRefactor/Supports Block Diagram.vi"/>
-		<Item Name="Supports Front Panel.vi" Type="VI" URL="../RenameRefactor/Supports Front Panel.vi"/>
-		<Item Name="Update Control Labels.vi" Type="VI" URL="../Update Control Labels.vi"/>
-		<Item Name="Update String Constants.vi" Type="VI" URL="../Update String Constants.vi"/>
-		<Item Name="V2 To V3 Upgrade Refactor Data.vi" Type="VI" URL="../RenameRefactor/V2 To V3 Upgrade Refactor Data.vi"/>
-		<Item Name="V2 Upgrade Refactor Data.vi" Type="VI" URL="../RenameRefactor/V2 Upgrade Refactor Data.vi"/>
-		<Item Name="Valid Replacement Target.vi" Type="VI" URL="../RenameRefactor/Valid Replacement Target.vi"/>
+		<Item Name="Add Dynamic to Static Dispatch Mappings.vi" Type="VI" URL="../RenameRefactor/Add Dynamic to Static Dispatch Mappings.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Begins with Qualified Name.vi" Type="VI" URL="../RenameRefactor/Begins with Qualified Name.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Build Qualified Name.vi" Type="VI" URL="../RenameRefactor/Build Qualified Name.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Calculate Refactor Metrics for Project.vi" Type="VI" URL="../RenameRefactor/Calculate Refactor Metrics for Project.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Calculate Relative Path from Directory.vi" Type="VI" URL="../RenameRefactor/Calculate Relative Path from Directory.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Filter for Classes.vi" Type="VI" URL="../RenameRefactor/Filter for Classes.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Get Parent Class Name.vi" Type="VI" URL="../RenameRefactor/Get Parent Class Name.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Is Descendant of Class.vi" Type="VI" URL="../RenameRefactor/Is Descendant of Class.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Is Nested Typedef.vi" Type="VI" URL="../RenameRefactor/Is Nested Typedef.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Is Typedef.vim" Type="VI" URL="../RenameRefactor/Is Typedef.vim">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Normalize Path.vi" Type="VI" URL="../RenameRefactor/Normalize Path.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="README.md" Type="Document" URL="../RenameRefactor/README.md">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Refactor Class Dynamic Dispatch Membersvi.vi" Type="VI" URL="../RenameRefactor/Refactor Class Dynamic Dispatch Membersvi.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Refactor Classes in Project.vi" Type="VI" URL="../RenameRefactor/Refactor Classes in Project.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Refactor Dependencies for Project.vi" Type="VI" URL="../RenameRefactor/Refactor Dependencies for Project.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Refactor Dependencies for Projects.vi" Type="VI" URL="../RenameRefactor/Refactor Dependencies for Projects.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Refactor Dependencies for VI.vi" Type="VI" URL="../RenameRefactor/Refactor Dependencies for VI.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Refactor Object for File Rename.vi" Type="VI" URL="../RenameRefactor/Refactor Object for File Rename.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Refactor Object for Library Rename.vi" Type="VI" URL="../RenameRefactor/Refactor Object for Library Rename.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Refactor Parent Class Dependency.vi" Type="VI" URL="../RenameRefactor/Refactor Parent Class Dependency.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Rename and Refactor Dependency for Object.vi" Type="VI" URL="../RenameRefactor/Rename and Refactor Dependency for Object.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Rename Dynamic Dispatch Member.vi" Type="VI" URL="../RenameRefactor/Rename Dynamic Dispatch Member.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Strip Qualified Name.vi" Type="VI" URL="../RenameRefactor/Strip Qualified Name.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Supports Block Diagram.vi" Type="VI" URL="../RenameRefactor/Supports Block Diagram.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Supports Front Panel.vi" Type="VI" URL="../RenameRefactor/Supports Front Panel.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Update Control Labels.vi" Type="VI" URL="../Update Control Labels.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Update String Constants.vi" Type="VI" URL="../Update String Constants.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="V2 To V3 Upgrade Refactor Data.vi" Type="VI" URL="../RenameRefactor/V2 To V3 Upgrade Refactor Data.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="V2 Upgrade Refactor Data.vi" Type="VI" URL="../RenameRefactor/V2 Upgrade Refactor Data.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Valid Replacement Target.vi" Type="VI" URL="../RenameRefactor/Valid Replacement Target.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 	</Item>
 	<Item Name="Create Measurement Service.vi" Type="VI" URL="../../Create Measurement Service.vi"/>
 </Library>
