@@ -14,10 +14,21 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="MeasurementClient Editor.lvlib" Type="Library" URL="../_MeasurementClient Utility/MeasurementClient Editor.lvlib"/>
-		<Item Name="MeasurementService Editor.lvlib" Type="Library" URL="../_MeasurementService Utility/MeasurementService Editor.lvlib"/>
-		<Item Name="Generator Helpers.lvlib" Type="Library" URL="../_Generator Helpers/Generator Helpers.lvlib"/>
-		<Item Name="NI_AB_API_EXE_Extensions.lvclass" Type="LVClass" URL="../_MeasurementService Utility/NI_AB_API_EXE_Extensions/NI_AB_API_EXE_Extensions.lvclass"/>
+		<Item Name="Generators" Type="Folder">
+			<Item Name="Client Generator" Type="Folder">
+				<Item Name="MeasurementClient Editor.lvlib" Type="Library" URL="../_MeasurementClient Utility/MeasurementClient Editor.lvlib"/>
+			</Item>
+			<Item Name="Service Generator" Type="Folder">
+				<Item Name="MeasurementService Editor.lvlib" Type="Library" URL="../_MeasurementService Utility/MeasurementService Editor.lvlib"/>
+				<Item Name="NI_AB_API_EXE_Extensions.lvclass" Type="LVClass" URL="../_MeasurementService Utility/NI_AB_API_EXE_Extensions/NI_AB_API_EXE_Extensions.lvclass"/>
+			</Item>
+			<Item Name="Generator Helpers" Type="Folder">
+				<Item Name="Generator Helpers.lvlib" Type="Library" URL="../_Generator Helpers/Generator Helpers.lvlib"/>
+			</Item>
+		</Item>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="MeasurementGenerator Tests.lvlib" Type="Library" URL="../../Tests/Tests.Generator/Dialog/MeasurementGenerator Tests.lvlib"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
@@ -655,6 +666,7 @@
 			<Item Name="UpdateVersionResource.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Common/SetLVAppVersion/UpdateVersionResource.vi"/>
 			<Item Name="VersionNumToString.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Common/SetLVAppVersion/VersionNumToString.vi"/>
 			<Item Name="win32_MBCSToUnicode.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Common/SetLVAppVersion/win32_MBCSToUnicode.vi"/>
+			<Item Name="DuplicateClientNames.vi" Type="VI" URL="../../Tests/Tests.Generator/Dialog/TestAssets/DuplicateClientNamesInListbox/DuplicateClientNames.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

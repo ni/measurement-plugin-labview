@@ -4,7 +4,22 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">553680896</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Private Helpers" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="Add Library To Project.vi" Type="VI" URL="../Add Library To Project.vi"/>
+		<Item Name="Check if Build Assets Exists.vi" Type="VI" URL="../Check if Build Assets Exists.vi"/>
+		<Item Name="Create Build Specification.vi" Type="VI" URL="../Create Build Specification.vi"/>
+		<Item Name="Create PPL Build Spec.vi" Type="VI" URL="../Create PPL Build Spec.vi"/>
+		<Item Name="Get Library.vi" Type="VI" URL="../Get Library.vi"/>
+		<Item Name="Get Reserved Names.vi" Type="VI" URL="../Get Reserved Names.vi"/>
+		<Item Name="Save As Measurement Service template.vi" Type="VI" URL="../Save As Measurement Service template.vi"/>
+		<Item Name="Update Measurement Details.vi" Type="VI" URL="../Update Measurement Details.vi"/>
+		<Item Name="Update UI Details.vi" Type="VI" URL="../Update UI Details.vi"/>
+		<Item Name="Valid Measurement Service Name.vi" Type="VI" URL="../Valid Measurement Service Name.vi"/>
+	</Item>
 	<Item Name="RenameRefactor" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="typedefs" Type="Folder">
 			<Item Name="Refactor Dynamic Dispatch Member Result.ctl" Type="VI" URL="../RenameRefactor/Refactor Dynamic Dispatch Member Result.ctl"/>
 			<Item Name="Refactor Object Result.ctl" Type="VI" URL="../RenameRefactor/Refactor Object Result.ctl"/>
@@ -45,19 +60,6 @@
 		<Item Name="V2 To V3 Upgrade Refactor Data.vi" Type="VI" URL="../RenameRefactor/V2 To V3 Upgrade Refactor Data.vi"/>
 		<Item Name="V2 Upgrade Refactor Data.vi" Type="VI" URL="../RenameRefactor/V2 Upgrade Refactor Data.vi"/>
 		<Item Name="Valid Replacement Target.vi" Type="VI" URL="../RenameRefactor/Valid Replacement Target.vi"/>
-	</Item>
-	<Item Name="SubVIs" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">0</Property>
-		<Item Name="Add Library To Project.vi" Type="VI" URL="../Add Library To Project.vi"/>
-		<Item Name="Check if Build Assets Exists.vi" Type="VI" URL="../Check if Build Assets Exists.vi"/>
-		<Item Name="Create Build Specification.vi" Type="VI" URL="../Create Build Specification.vi"/>
-		<Item Name="Create PPL Build Spec.vi" Type="VI" URL="../Create PPL Build Spec.vi"/>
-		<Item Name="Get Library.vi" Type="VI" URL="../Get Library.vi"/>
-		<Item Name="Get Reserved Names.vi" Type="VI" URL="../Get Reserved Names.vi"/>
-		<Item Name="Save As Measurement Service template.vi" Type="VI" URL="../Save As Measurement Service template.vi"/>
-		<Item Name="Update Measurement Details.vi" Type="VI" URL="../Update Measurement Details.vi"/>
-		<Item Name="Update UI Details.vi" Type="VI" URL="../Update UI Details.vi"/>
-		<Item Name="Valid Measurement Service Name.vi" Type="VI" URL="../Valid Measurement Service Name.vi"/>
 	</Item>
 	<Item Name="Create Measurement Service.vi" Type="VI" URL="../../Create Measurement Service.vi"/>
 </Library>
