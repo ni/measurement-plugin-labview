@@ -11,17 +11,36 @@
 		<Item Name="MeasurementGenerator Tests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Generator/Dialog/MeasurementGenerator Tests.lvlib"/>
 	</Item>
 	<Item Name="Helpers" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		<Item Name="Check if no Measurement Selected.vi" Type="VI" URL="../Check if no Measurement Selected.vi"/>
-		<Item Name="Get Library Names in Active Project.vi" Type="VI" URL="../Get Library Names in Active Project.vi"/>
-		<Item Name="Highlight Invalid Name.vi" Type="VI" URL="../Highlight Invalid Name.vi"/>
-		<Item Name="List Available Measurements.vi" Type="VI" URL="../List Available Measurements.vi"/>
-		<Item Name="Measurement Selection Icons.vi" Type="VI" URL="../Measurement Selection Icons.vi"/>
-		<Item Name="Update Measurement Selection.vi" Type="VI" URL="../Update Measurement Selection.vi"/>
-		<Item Name="Valid Measurement Client Name.vi" Type="VI" URL="../Valid Measurement Client Name.vi"/>
-		<Item Name="Validate Client Names.vi" Type="VI" URL="../Validate Client Names.vi"/>
-		<Item Name="Validate Selected Client Names.vi" Type="VI" URL="../Validate Selected Client Names.vi"/>
-		<Item Name="Validate User Input.vi" Type="VI" URL="../Validate User Input.vi"/>
+		<Item Name="Check if no Measurement Selected.vi" Type="VI" URL="../Check if no Measurement Selected.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Get Library Names in Active Project.vi" Type="VI" URL="../Get Library Names in Active Project.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Highlight Invalid Name.vi" Type="VI" URL="../Highlight Invalid Name.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="List Available Measurements.vi" Type="VI" URL="../List Available Measurements.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Measurement Selection Icons.vi" Type="VI" URL="../Measurement Selection Icons.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Update Measurement Selection.vi" Type="VI" URL="../Update Measurement Selection.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Valid Measurement Client Name.vi" Type="VI" URL="../Valid Measurement Client Name.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Validate Client Names.vi" Type="VI" URL="../Validate Client Names.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+		</Item>
+		<Item Name="Validate Selected Client Names.vi" Type="VI" URL="../Validate Selected Client Names.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Validate User Input.vi" Type="VI" URL="../Validate User Input.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 	</Item>
 	<Item Name="Create Measurement Client.vi" Type="VI" URL="../../Create Measurement Client.vi"/>
 </Library>

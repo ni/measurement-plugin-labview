@@ -8,18 +8,37 @@
 		<Item Name="MeasurementGenerator Tests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Generator/Dialog/MeasurementGenerator Tests.lvlib"/>
 	</Item>
 	<Item Name="Helpers" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
-		<Item Name="Add Library To Project.vi" Type="VI" URL="../Add Library To Project.vi"/>
-		<Item Name="Check if Build Assets Exists.vi" Type="VI" URL="../Check if Build Assets Exists.vi"/>
-		<Item Name="Create Build Specification.vi" Type="VI" URL="../Create Build Specification.vi"/>
-		<Item Name="Create PPL Build Spec.vi" Type="VI" URL="../Create PPL Build Spec.vi"/>
-		<Item Name="Get Library.vi" Type="VI" URL="../Get Library.vi"/>
-		<Item Name="Get Reserved Names.vi" Type="VI" URL="../Get Reserved Names.vi"/>
-		<Item Name="Save As Measurement Service template.vi" Type="VI" URL="../Save As Measurement Service template.vi"/>
-		<Item Name="Update Measurement Details.vi" Type="VI" URL="../Update Measurement Details.vi"/>
-		<Item Name="Update UI Details.vi" Type="VI" URL="../Update UI Details.vi"/>
-		<Item Name="Valid Measurement Service Name.vi" Type="VI" URL="../Valid Measurement Service Name.vi"/>
+		<Item Name="Add Library To Project.vi" Type="VI" URL="../Add Library To Project.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Check if Build Assets Exists.vi" Type="VI" URL="../Check if Build Assets Exists.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Create Build Specification.vi" Type="VI" URL="../Create Build Specification.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Create PPL Build Spec.vi" Type="VI" URL="../Create PPL Build Spec.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Get Library.vi" Type="VI" URL="../Get Library.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Get Reserved Names.vi" Type="VI" URL="../Get Reserved Names.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+		</Item>
+		<Item Name="Save As Measurement Service template.vi" Type="VI" URL="../Save As Measurement Service template.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Update Measurement Details.vi" Type="VI" URL="../Update Measurement Details.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Update UI Details.vi" Type="VI" URL="../Update UI Details.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Valid Measurement Service Name.vi" Type="VI" URL="../Valid Measurement Service Name.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+		</Item>
 	</Item>
 	<Item Name="RenameRefactor" Type="Folder">
 		<Item Name="typedefs" Type="Folder">
