@@ -17,6 +17,7 @@
 		<Item Name="Create Client.vi" Type="VI" URL="../Create Client.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Destroy Client.vi" Type="VI" URL="../Destroy Client.vi"/>
 		<Item Name="Discovery Client FGV.vi" Type="VI" URL="../Discovery Client FGV.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		</Item>
