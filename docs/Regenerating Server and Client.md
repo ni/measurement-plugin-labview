@@ -26,6 +26,12 @@ The following are instructions for regenerating the Discovery Client.
     - **Generated Library Suffix:** `.api`
     - **Generate:** `gRPC Client`
 - Run the generator
+- Move the generated code up one directory level to avoid long path issues
+    - Remove the newly generated library from its virtual folder - right-click on
+    `ni.measurementlink.discovery.v1.api.lvlib` and choose Remove from Project
+    - On disk, move the contents of `Source\gRPC\Generated APIs\ni\measurementlink\discovery\v1\ni.measurementlink.discovery.v1.api` up one level to `Source\gRPC\Generated APIs\ni\measurementlink\discovery\v1`
+    - Delete the `Source\gRPC\Generated APIs\ni\measurementlink\discovery\v1\ni.measurementlink.discovery.v1.api` folder
+    - In the project, re-add `Source\gRPC\Generated APIs\ni\measurementlink\discovery\v1\ni.measurementlink.discovery.v1.api.lvlib` to the `ni.measurementlink.discovery.v1.api` virtual folder
 - Save All and close the project
 
 ## Session Management Client
@@ -46,6 +52,12 @@ The following are instructions for regenerating the Session Management Client.
     - **Generated Library Suffix:** `.api`
     - **Generate:** `gRPC Client`
 - Run the generator
+- Move the generated code up one directory level to avoid long path issues
+    - Remove the newly generated library from its virtual folder - right-click on
+    `ni.measurementlink.sessionmanagement.v1.api.lvlib` and choose Remove from Project
+    - On disk, move the contents of `Source\gRPC\Generated APIs\ni\measurementlink\sessionmanagement\v1\ni.measurementlink.sessionmanagement.v1.api` up one level to `Source\gRPC\Generated APIs\ni\measurementlink\sessionmanagement\v1`
+    - Delete the `Source\gRPC\Generated APIs\ni\measurementlink\sessionmanagement\v1\ni.measurementlink.sessionmanagement.v1.api` folder
+    - In the project, re-add `Source\gRPC\Generated APIs\ni\measurementlink\sessionmanagement\v1\ni.measurementlink.sessionmanagement.v1.api.lvlib` to the `ni.measurementlink.sessionmanagement.v1.api` virtual folder
 - Save All and close the project
 
 ## Pin Map Client
@@ -66,6 +78,12 @@ The following are instructions for regenerating the Pin Map Client.
     - **Generated Library Suffix:** `.api`
     - **Generate:** `gRPC Client`
 - Run the generator
+- Move the generated code up one directory level to avoid long path issues
+    - Remove the newly generated library from its virtual folder - right-click on
+    `ni.measurementlink.pinmap.v1.api.lvlib` and choose Remove from Project
+    - On disk, move the contents of `Source\gRPC\Generated APIs\ni\measurementlink\pinmap\v1\ni.measurementlink.pinmap.v1.api` up one level to `Source\gRPC\Generated APIs\ni\measurementlink\pinmap\v1`
+    - Delete the `Source\gRPC\Generated APIs\ni\measurementlink\pinmap\v1\ni.measurementlink.pinmap.v1.api` folder
+    - In the project, re-add `Source\gRPC\Generated APIs\ni\measurementlink\pinmap\v1\ni.measurementlink.pinmap.v1.api.lvlib` to the `ni.measurementlink.pinmap.v1.api` virtual folder
 - Save All and close the project
 
 ## Measurement Service Base V1
@@ -89,6 +107,12 @@ The following are instructions for regenerating the V1 measurement service.
 - From the project, find `MeasurementService.lvclass`. It will be in the `ni.measurementlink.measurement.v1.api.lvlib` library
 - Right click on the class and select `Rename`
 - Rename the class to `MeasurementServiceBaseV1`
+- Move the generated code up one directory level to avoid long path issues
+    - Remove the newly generated library from its virtual folder - right-click on
+    `ni.measurementlink.measurement.v1.api.lvlib` and choose Remove from Project
+    - On disk, move the contents of `Source\gRPC\Generated APIs\ni\measurementlink\measurement\v1\ni.measurementlink.measurement.v1.api` up one level to `Source\gRPC\Generated APIs\ni\measurementlink\measurement\v1`
+    - Delete the `Source\gRPC\Generated APIs\ni\measurementlink\measurement\v1\ni.measurementlink.measurement.v1.api` folder
+    - In the project, re-add `Source\gRPC\Generated APIs\ni\measurementlink\measurement\v1\ni.measurementlink.measurement.v1.api.lvlib` to the `ni.measurementlink.measurement.v1.api` virtual folder
 - Save All and close the project
 
 ## Measurement Service Base V2
@@ -112,4 +136,10 @@ The following are instructions for regenerating the V2 measurement service.
 - From the project, find `MeasurementService.lvclass`. It will be in the `ni.measurementlink.measurement.v2.api.lvlib` library
 - Right click on the class and select `Rename`
 - Rename the class to `MeasurementServiceBaseV2`
+- Move the generated code up one directory level to avoid long path issues
+    - Remove the newly generated library from its virtual folder - right-click on
+    `ni.measurementlink.measurement.v2.api.lvlib` and choose Remove from Project
+    - On disk, move the contents of `Source\gRPC\Generated APIs\ni\measurementlink\measurement\v2\ni.measurementlink.measurement.v2.api` up one level to `Source\gRPC\Generated APIs\ni\measurementlink\measurement\v2`
+    - Delete the `Source\gRPC\Generated APIs\ni\measurementlink\measurement\v2\ni.measurementlink.measurement.v2.api` folder
+    - In the project, re-add `Source\gRPC\Generated APIs\ni\measurementlink\measurement\v2\ni.measurementlink.measurement.v2.api.lvlib` to the `ni.measurementlink.measurement.v2.api` virtual folder
 - Save All and close the project
