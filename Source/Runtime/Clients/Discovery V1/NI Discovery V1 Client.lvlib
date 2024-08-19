@@ -25,9 +25,7 @@
 		<Item Name="Recreate Client.vi" Type="VI" URL="../Recreate Client.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Resolve Service.vi" Type="VI" URL="../Resolve Service.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
+		<Item Name="Resolve Service.vi" Type="VI" URL="../Resolve Service.vi"/>
 	</Item>
 	<Item Name="Discovery Service Helpers" Type="Folder">
 		<Item Name="Ensure Discovery Service Started.vi" Type="VI" URL="../Ensure Discovery Service Started.vi">
