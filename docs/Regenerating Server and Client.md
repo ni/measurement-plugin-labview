@@ -13,8 +13,10 @@ Below are instructions for regenerating the grpc-labview code for measurement pl
 The following are instructions for regenerating the Discovery Client.
 
 - Open `\Source\gRPC\Generated APIs\ni\measurementlink\discovery\v1\ni.measurementlink.discovery.v1.api.lvproj`
-- Delete the entire `ni.measurementlink.discovery.v1` virtual folder and save the project
-- Delete the entire `ni.measurementlink.discovery.v1` on disc
+- Right-click on the `ni.measurementlink.discovery.v1.api` virtual folder,
+  choose `Remove from Project` and save the project
+- Delete the existing generated `ni.measurementlink.discovery.v1.api` content on disk
+    - Delete the contents of `Source\gRPC\Generated APIs\ni\measurementlink\discovery\v1` except for `ni.measurementlink.discovery.v1.api.lvproj` and `ni.measurementlink.discovery.v1.prototype.lvlib`
 - Open the gRPC Template Creation Utility. `Tools` » `gRPC` » `Open gRPC Server-Client [2] - Code Generator...`
 - Fill out the utility as follows:
     - **Proto File Path:** `\Source\Protos\ni\measurementlink\discovery\v1\discovery_service.proto`
@@ -39,8 +41,10 @@ The following are instructions for regenerating the Discovery Client.
 The following are instructions for regenerating the Session Management Client.
 
 - Open `\Source\gRPC\Generated APIs\ni\measurementlink\sessionmanagement\v1\ni.measurementlink.sessionmanagement.v1.api.lvproj`
-- Delete the entire `ni.measurementlink.sessionmanagement.v1.api` virtual folder and save the project
-- Delete the entire `ni.measurementlink.sessionmanagement.v1.api` on disc
+- Right-click on the `ni.measurementlink.sessionmanagement.v1.api` virtual folder,
+  choose `Remove from Project` and save the project
+- Delete the existing generated `ni.measurementlink.sessionmanagement.v1.api` content on disk
+    - Delete the contents of `Source\gRPC\Generated APIs\ni\measurementlink\sessionmanagement\v1` except for `ni.measurementlink.sessionmanagement.v1.api.lvproj` and `ni.measurementlink.sessionmanagement.v1.prototype.lvlib`
 - Open the gRPC Template Creation Utility. `Tools` » `gRPC` » `Open gRPC Server-Client [2] - Code Generator...`
 - Fill out the utility as follows:
     - **Proto File Path:** `\Source\Protos\ni\measurementlink\sessionmanagement\v1\session_management_service.proto`
@@ -65,8 +69,10 @@ The following are instructions for regenerating the Session Management Client.
 The following are instructions for regenerating the Pin Map Client.
 
 - Open `\Source\gRPC\Generated APIs\ni\measurementlink\pinmap\v1\ni.measurementlink.pinmap.v1.lvproj`
-- Delete the entire `ni.measurementlink.pinmap.v1.api` virtual folder and save the project
-- Delete the entire `ni.measurementlink.pinmap.v1.api` on disc
+- Right-click on the `ni.measurementlink.pinmap.v1.api` virtual folder,
+  choose `Remove from Project` and save the project
+- Delete the existing generated `ni.measurementlink.pinmap.v1.api` content on disk
+    - Delete the contents of `Source\gRPC\Generated APIs\ni\measurementlink\pinmap\v1` except for `ni.measurementlink.pinmap.v1.api.lvproj` and `ni.measurementlink.pinmap.v1.prototype.lvlib`
 - Open the gRPC Template Creation Utility. `Tools` » `gRPC` » `Open gRPC Server-Client [2] - Code Generator...`
 - Fill out the utility as follows:
     - **Proto File Path:** `\Source\Protos\ni\measurementlink\pinmap\v1\pin_map_service.proto`
@@ -91,6 +97,12 @@ The following are instructions for regenerating the Pin Map Client.
 The following are instructions for regenerating the V1 measurement service.
 
 - Open `\Source\gRPC\Generated APIs\ni\measurementlink\measurement\v1\ni.measurementlink.measurement.v1.lvproj`
+- Right-click on the `ni.measurementlink.measurement.v1.api` virtual folder,
+  choose `Remove from Project` and save the project
+- Delete the existing generated `ni.measurementlink.measurement.v1.api` content on disk
+    - Delete the contents of `Source\gRPC\Generated
+      APIs\ni\measurementlink\measurement\v1` except for
+      `ni.measurementlink.measurement.v1.api.lvproj`
 - Delete the entire `ni.measurementlink.measurement.v1.api` virtual folder and save the project
 - Delete the entire `ni.measurementlink.measurement.v1.api` on disc
 - Open the gRPC Template Creation Utility. `Tools` » `gRPC` » `Open gRPC Server-Client [2] - Code Generator...`
@@ -120,6 +132,12 @@ The following are instructions for regenerating the V1 measurement service.
 The following are instructions for regenerating the V2 measurement service.
 
 - Open `\Source\gRPC\Generated APIs\ni\measurementlink\measurement\v1\ni.measurementlink.measurement.v2.lvproj`
+- Right-click on the `ni.measurementlink.measurement.v2.api` virtual folder,
+  choose `Remove from Project` and save the project
+- Delete the existing generated `ni.measurementlink.measurement.v2.api` content on disk
+    - Delete the contents of `Source\gRPC\Generated
+      APIs\ni\measurementlink\measurement\v2` except for
+      `ni.measurementlink.measurement.v2.api.lvproj`
 - Delete the entire `ni.measurementlink.measurement.v2.api` virtual folder and save the project
 - Delete the entire `ni.measurementlink.measurement.v2.api` on disc
 - Open the gRPC Template Creation Utility. `Tools` » `gRPC` » `Open gRPC Server-Client [2] - Code Generator...`
