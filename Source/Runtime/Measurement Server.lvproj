@@ -18,7 +18,6 @@
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Clients" Type="Folder">
 				<Item Name="NI Discovery V1 Client.lvlib" Type="Library" URL="../Clients/Discovery V1/NI Discovery V1 Client.lvlib"/>
-				<Item Name="NI Measurement V2 Client.lvlib" Type="Library" URL="../Clients/Measurement V2/NI Measurement V2 Client.lvlib"/>
 				<Item Name="NI Session Management V1 Client.lvlib" Type="Library" URL="../Clients/Session Management V1/NI Session Management V1 Client.lvlib"/>
 			</Item>
 			<Item Name="Measurements" Type="Folder">
