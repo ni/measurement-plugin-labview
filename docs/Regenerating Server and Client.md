@@ -129,23 +129,21 @@ The following are instructions for regenerating the V1 measurement service.
 
 ## Measurement Service Base V2
 
-The following are instructions for regenerating the V2 measurement service.
+The following are instructions for regenerating the V2 measurement service and V2 measurement service client.
 
-- Open `\Source\gRPC\Generated APIs\ni\measurementlink\measurement\v1\ni.measurementlink.measurement.v2.lvproj`
+- Open `\Source\gRPC\Generated APIs\ni\measurementlink\measurement\v2\ni.measurementlink.measurement.v2.api.lvproj`
 - Right-click on the `ni.measurementlink.measurement.v2.api` virtual folder,
   choose `Remove from Project` and save the project
 - Delete the existing generated `ni.measurementlink.measurement.v2.api` content on disk
     - Delete the contents of `Source\gRPC\Generated
       APIs\ni\measurementlink\measurement\v2` except for
-      `ni.measurementlink.measurement.v2.api.lvproj`
-- Delete the entire `ni.measurementlink.measurement.v2.api` virtual folder and save the project
-- Delete the entire `ni.measurementlink.measurement.v2.api` on disc
+      `ni.measurementlink.measurement.v2.api.lvproj` and `ni.measurementlink.measurement.v2.prototype.lvlib`
 - Open the gRPC Template Creation Utility. `Tools` » `gRPC` » `Open gRPC Server-Client [2] - Code Generator...`
 - Fill out the utility as follows:
     - **Proto File Path:** `\Source\Protos\ni\measurementlink\measurement\v2\measurement_service.proto`
     - **Import Paths:** `\Source\Protos`
     - **Prototype Library:** (leave blank)
-    - **Target Project:** `\Source\gRPC\Generated APIs\ni\measurementlink\measurement\v1\ni.measurementlink.measurement.v2.lvproj`
+    - **Target Project:** `\Source\gRPC\Generated APIs\ni\measurementlink\measurement\v2\ni.measurementlink.measurement.v2.api.lvproj`
     - **Target Name:** `My Computer`
     - **Generated Library Name:** `ni.measurementlink.measurement.v2`
     - **Generated Library Suffix:** `.api`
@@ -160,4 +158,20 @@ The following are instructions for regenerating the V2 measurement service.
     - On disk, move the contents of `Source\gRPC\Generated APIs\ni\measurementlink\measurement\v2\ni.measurementlink.measurement.v2.api` up one level to `Source\gRPC\Generated APIs\ni\measurementlink\measurement\v2`
     - Delete the `Source\gRPC\Generated APIs\ni\measurementlink\measurement\v2\ni.measurementlink.measurement.v2.api` folder
     - In the project, re-add `Source\gRPC\Generated APIs\ni\measurementlink\measurement\v2\ni.measurementlink.measurement.v2.api.lvlib` to the `ni.measurementlink.measurement.v2.api` virtual folder
-- Save All and close the project
+    - Save the project
+- Follow the below instructions to regenerate the V2 measurement service client
+    - Open the gRPC Template Creation Utility. `Tools` » `gRPC` » `Open gRPC Server-Client [2] - Code Generator...`
+    - Fill out the utility as follows:
+        - **Proto File Path:** `\Source\Protos\ni\measurementlink\measurement\v2\measurement_service.proto`
+        - **Import Paths:** `\Source\Protos`
+        - **Prototype Library:** `\Source\gRPC\Generated APIs\ni\measurementlink\measurement\v2\ni.measurementlink.measurement.v2.prototype.lvlib`
+        - **Target Project:** `\Source\gRPC\Generated APIs\ni\measurementlink\measurement\v2\ni.measurementlink.measurement.v2.api.lvproj`
+        - **Target Name:** `My Computer`
+        - **Generated Library Name:** `Measurement Service`
+        - **Generated Library Suffix:** ` Client`
+        - **Generate:** `gRPC Client`
+    - Run the generator
+    - From the project, find `Measurement Service Client.lvlib`. It will be in the `Measurement Service Client` virtual folder
+    - Move the library under `ni.measurementlink.measurement.v2.api.lvlib` library
+    - Delete the empty `Measurement Service Client` virtual folder
+    - Save All and close the project
