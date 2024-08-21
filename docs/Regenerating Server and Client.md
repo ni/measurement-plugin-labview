@@ -68,7 +68,7 @@ The following are instructions for regenerating the Session Management Client.
 
 The following are instructions for regenerating the Pin Map Client.
 
-- Open `\Source\gRPC\Generated APIs\ni\measurementlink\pinmap\v1\ni.measurementlink.pinmap.v1.lvproj`
+- Open `\Source\gRPC\Generated APIs\ni\measurementlink\pinmap\v1\ni.measurementlink.pinmap.v1.api.lvproj`
 - Right-click on the `ni.measurementlink.pinmap.v1.api` virtual folder,
   choose `Remove from Project` and save the project
 - Delete the existing generated `ni.measurementlink.pinmap.v1.api` content on disk
@@ -78,7 +78,7 @@ The following are instructions for regenerating the Pin Map Client.
     - **Proto File Path:** `\Source\Protos\ni\measurementlink\pinmap\v1\pin_map_service.proto`
     - **Import Paths:** `\Source\Protos`
     - **Prototype Library:** `\Source\gRPC\Generated APIs\ni\measurementlink\pinmap\v1\ni.measurementlink.pinmap.v1.prototype.lvlib`
-    - **Target Project:** `\Source\gRPC\Generated APIs\ni\measurementlink\pinmap\v1\ni.measurementlink.pinmap.v1.lvproj`
+    - **Target Project:** `\Source\gRPC\Generated APIs\ni\measurementlink\pinmap\v1\ni.measurementlink.pinmap.v1.api.lvproj`
     - **Target Name:** `My Computer`
     - **Generated Library Name:** `ni.measurementlink.pinmap.v1`
     - **Generated Library Suffix:** `.api`
@@ -96,21 +96,19 @@ The following are instructions for regenerating the Pin Map Client.
 
 The following are instructions for regenerating the V1 measurement service.
 
-- Open `\Source\gRPC\Generated APIs\ni\measurementlink\measurement\v1\ni.measurementlink.measurement.v1.lvproj`
+- Open `\Source\gRPC\Generated APIs\ni\measurementlink\measurement\v1\ni.measurementlink.measurement.v1.api.lvproj`
 - Right-click on the `ni.measurementlink.measurement.v1.api` virtual folder,
   choose `Remove from Project` and save the project
 - Delete the existing generated `ni.measurementlink.measurement.v1.api` content on disk
     - Delete the contents of `Source\gRPC\Generated
       APIs\ni\measurementlink\measurement\v1` except for
       `ni.measurementlink.measurement.v1.api.lvproj`
-- Delete the entire `ni.measurementlink.measurement.v1.api` virtual folder and save the project
-- Delete the entire `ni.measurementlink.measurement.v1.api` on disc
 - Open the gRPC Template Creation Utility. `Tools` » `gRPC` » `Open gRPC Server-Client [2] - Code Generator...`
 - Fill out the utility as follows:
     - **Proto File Path:** `\Source\Protos\ni\measurementlink\measurement\v1\measurement_service.proto`
     - **Import Paths:** `\Source\Protos`
     - **Prototype Library:** (leave blank)
-    - **Target Project:** `\Source\gRPC\Generated APIs\ni\measurementlink\measurement\v1\ni.measurementlink.measurement.v1.lvproj`
+    - **Target Project:** `\Source\gRPC\Generated APIs\ni\measurementlink\measurement\v1\ni.measurementlink.measurement.v1.api.lvproj`
     - **Target Name:** `My Computer`
     - **Generated Library Name:** `ni.measurementlink.measurement.v1`
     - **Generated Library Suffix:** `.api`
