@@ -14,6 +14,15 @@
 		<Item Name="Check if no Measurement Selected.vi" Type="VI" URL="../Check if no Measurement Selected.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Copy Client Library.vi" Type="VI" URL="../Copy Client Library.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Create Measure VI for Client.vi" Type="VI" URL="../Create Measure VI for Client.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Generate Controls for Client.vi" Type="VI" URL="../Generate Controls for Client.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Get Library Names in Active Project.vi" Type="VI" URL="../Get Library Names in Active Project.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
