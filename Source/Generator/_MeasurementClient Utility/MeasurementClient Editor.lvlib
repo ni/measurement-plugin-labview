@@ -20,9 +20,6 @@
 		<Item Name="Create Measure VI for Client.vi" Type="VI" URL="../Create Measure VI for Client.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Generate Controls for Client.vi" Type="VI" URL="../Generate Controls for Client.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
 		<Item Name="Get Library Names in Active Project.vi" Type="VI" URL="../Get Library Names in Active Project.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
@@ -33,6 +30,9 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Measurement Selection Icons.vi" Type="VI" URL="../Measurement Selection Icons.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Modify Client Controls.vi" Type="VI" URL="../Modify Client Controls.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Update Measurement Selection.vi" Type="VI" URL="../Update Measurement Selection.vi">
