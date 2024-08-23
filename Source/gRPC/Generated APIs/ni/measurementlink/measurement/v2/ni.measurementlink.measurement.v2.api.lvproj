@@ -16,8 +16,10 @@
 		<Item Name="ni.measurementlink.measurement.v2.api" Type="Folder">
 			<Item Name="ni.measurementlink.measurement.v2.api.lvlib" Type="Library" URL="../ni.measurementlink.measurement.v2.api.lvlib"/>
 		</Item>
+		<Item Name="ni.measurementlink.measurement.v2.prototype.lvlib" Type="Library" URL="../ni.measurementlink.measurement.v2.prototype.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
