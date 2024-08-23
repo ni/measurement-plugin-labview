@@ -15,7 +15,9 @@
 		<Item Name="Create Client.vi" Type="VI" URL="../Create Client.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		</Item>
-		<Item Name="Destroy Client.vi" Type="VI" URL="../Destroy Client.vi"/>
+		<Item Name="Destroy Client.vi" Type="VI" URL="../Destroy Client.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+		</Item>
 		<Item Name="Pin Map Client FGV.vi" Type="VI" URL="../Pin Map Client FGV.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		</Item>
