@@ -17,6 +17,9 @@
 		<Item Name="Copy Client Library.vi" Type="VI" URL="../Copy Client Library.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Create Cluster Controls.vi" Type="VI" URL="../Create Cluster Controls.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Create Measure VI for Client.vi" Type="VI" URL="../Create Measure VI for Client.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
