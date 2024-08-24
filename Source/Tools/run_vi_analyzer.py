@@ -21,7 +21,7 @@ def run_all_tests():
     vi_analyzer_config_path = os.path.join(tools_directory, "PR.viancfg")
     _logger.debug(f"Analyzing VIs per {vi_analyzer_config_path}.")
     vi_analyzer_output_path = tempfile.TemporaryFile().name
-    kwargs = ["LabVIEWCLI", "-OperationName", "RunVIAnalyzer", "-ConfigPath", vi_analyzer_config_path, "-ReportPath", vi_analyzer_output_path,  "-LabVIEWPath", "C:\\Program Files\\National Instruments\\LabVIEW 2023\\LabVIEW.exe", "-PortNumber", "3366"]
+    kwargs = ["LabVIEWCLI", "-OperationName", "RunVIAnalyzer", "-ConfigPath", vi_analyzer_config_path, "-ReportPath", vi_analyzer_output_path,  "-LabVIEWPath", "C:\\Program Files\\National Instruments\\LabVIEW 2021\\LabVIEW.exe", "-PortNumber", "3363"]
     test_result = subprocess.run(kwargs, capture_output= True)
     
     formatted_stdout = test_result.stdout.decode().replace('\r\n','\n').strip()
