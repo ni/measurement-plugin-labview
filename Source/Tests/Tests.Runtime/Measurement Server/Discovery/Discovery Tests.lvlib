@@ -10,7 +10,8 @@
 
 </Property>
 	<Item Name="Discovery Client Wrapper Tests" Type="Folder">
-		<Item Name="test_DiscoveryWrapper_StopDiscoveryService_WrapperMethodsWorkWithoutError.vi" Type="VI" URL="../test_DiscoveryWrapper_StopDiscoveryService_WrapperMethodsWorkWithoutError.vi"/>
+		<Item Name="test_EnumerateServices_StopDiscoveryService_EnumerateServicesWorkWithoutError.vi" Type="VI" URL="../test_EnumerateServices_StopDiscoveryService_EnumerateServicesWorkWithoutError.vi"/>
+		<Item Name="test_ResolveService_StopDiscoveryService_ResolveServiceWorkWithoutError.vi" Type="VI" URL="../test_ResolveService_StopDiscoveryService_ResolveServiceWorkWithoutError.vi"/>
 	</Item>
 	<Item Name="gRPC Client Cache Tests" Type="Folder">
 		<Item Name="Assert Client Id.vi" Type="VI" URL="../Assert Client Id.vi"/>
