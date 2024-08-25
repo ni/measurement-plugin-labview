@@ -11,6 +11,9 @@
 		<Item Name="MeasurementGenerator Tests.lvlib" Type="Friended Library" URL="../../../Tests/Tests.Generator/Dialog/MeasurementGenerator Tests.lvlib"/>
 	</Item>
 	<Item Name="Helpers" Type="Folder">
+		<Item Name="Check Client Status.vi" Type="VI" URL="../Check Client Status.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Check if no Measurement Selected.vi" Type="VI" URL="../Check if no Measurement Selected.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
