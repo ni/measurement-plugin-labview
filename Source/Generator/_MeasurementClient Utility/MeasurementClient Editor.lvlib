@@ -26,6 +26,9 @@
 		<Item Name="Get Library Names in Active Project.vi" Type="VI" URL="../Get Library Names in Active Project.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Get Measurement Metadata.vi" Type="VI" URL="../Get Measurement Metadata.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Highlight Invalid Name.vi" Type="VI" URL="../Highlight Invalid Name.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
