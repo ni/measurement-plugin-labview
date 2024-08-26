@@ -17,7 +17,7 @@
 		<Item Name="Check if no Measurement Selected.vi" Type="VI" URL="../Check if no Measurement Selected.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Copy Client Library.vi" Type="VI" URL="../Copy Client Library.vi">
+		<Item Name="Copy Client Template Library.vi" Type="VI" URL="../Copy Client Template Library.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Create Cluster Controls.vi" Type="VI" URL="../Create Cluster Controls.vi">
@@ -48,6 +48,9 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Modify Client Controls.vi" Type="VI" URL="../Modify Client Controls.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Update Error Message Icon.vi" Type="VI" URL="../Update Error Message Icon.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Update Measurement Selection.vi" Type="VI" URL="../Update Measurement Selection.vi">
