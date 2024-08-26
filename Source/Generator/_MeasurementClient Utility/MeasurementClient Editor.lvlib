@@ -26,6 +26,12 @@
 		<Item Name="Create Measure VI for Client.vi" Type="VI" URL="../Create Measure VI for Client.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Display Client Creation Status.vi" Type="VI" URL="../Display Client Creation Status.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Error Message Icons.vi" Type="VI" URL="../Error Message Icons.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Get Library Names in Active Project.vi" Type="VI" URL="../Get Library Names in Active Project.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
