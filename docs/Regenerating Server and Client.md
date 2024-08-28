@@ -6,7 +6,7 @@ Below are instructions for regenerating the grpc-labview code for measurement pl
 
 - Install LabVIEW 2020 SP1
 - Install all `grpc-labview` VI packages from the desired `grpc-labview` [release](https://github.com/ni/grpc-labview/releases)
-- Clone the `measurement-plugin-labview` github repo
+- Clone the `measurement-plugin-labview` github repo with the `--recursive` option. This will initialize and clone the [ni-apis](https://github.com/ni/ni-apis) submodule located in `Source/Protos/ni-apis`
 
 ## Discovery Client
 
