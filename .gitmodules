@@ -1,0 +1,6 @@
+[submodule "third_party/ni-apis"]
+	path = third_party/ni-apis
+	url = https://github.com/ni/ni-apis.git
+[submodule "third_party/protobuf"]
+	path = third_party/protobuf
+	url = https://github.com/protocolbuffers/protobuf.git
