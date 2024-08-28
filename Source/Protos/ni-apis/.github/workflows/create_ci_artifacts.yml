@@ -1,0 +1,34 @@
+name: Create CI Artifacts
+
+on:
+  workflow_call:
+  workflow_dispatch:
+
+env:
+  POETRY_VERSION: 1.2.2
+  PYTHON_VERSION: 3.9
+    
+jobs:
+  build:
+    name: 'Proto Artifacts'
+    runs-on: 'ubuntu-latest'
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v4
+
+    - name: Create staging directory
+      run: |
+        mkdir -p ${{ runner.temp }}/staging/ni
+        
+    - name: Stage protos
+      run: |
+        rsync -av --prune-empty-dirs --include "*/" --include "*.proto" --exclude "*" ni/ ${{ runner.temp }}/staging/ni/
+
+    - name: Upload proto artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: ni-apis
+        path: |
+          ${{ runner.temp }}/staging
+        retention-days: 5
