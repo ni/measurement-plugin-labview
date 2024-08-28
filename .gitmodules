@@ -1,3 +1,0 @@
-[submodule "Source/Protos/ni-apis"]
-	path = Source/Protos/ni-apis
-	url = https://github.com/ni/ni-apis.git
