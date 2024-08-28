@@ -14,7 +14,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="ni.measurementlink.discovery.v1.api" Type="Folder">
+		<Item Name="ni.measurementlink.discovery.v1" Type="Folder">
 			<Item Name="ni.measurementlink.discovery.v1.api.lvlib" Type="Library" URL="../ni.measurementlink.discovery.v1.api.lvlib"/>
 		</Item>
 		<Item Name="ni.measurementlink.discovery.v1.prototype.lvlib" Type="Library" URL="../ni.measurementlink.discovery.v1.prototype.lvlib"/>
