@@ -6,7 +6,8 @@ Below are instructions for regenerating the grpc-labview code for measurement pl
 
 - Install LabVIEW 2020 SP1
 - Install all `grpc-labview` VI packages from the desired `grpc-labview` [release](https://github.com/ni/grpc-labview/releases)
-- Clone the `measurement-plugin-labview` github repo with the `--recursive` option. This will initialize and clone the [ni-apis](https://github.com/ni/ni-apis) submodule located in `Source/Protos/ni-apis`
+- Clone the `measurement-plugin-labview` github repo with the `--recursive` option. This will initialize and clone the [ni-apis](https://github.com/ni/ni-apis) and [protobuf](https://github.com/protocolbuffers/protobuf) submodules located in the `third_party` directory
+    - Note: If you forget to include the `--recursive` option while cloning, you can still obtain the submodules by doing `git submodule update --init`
 
 ## Discovery Client
 
@@ -60,7 +61,7 @@ The following are instructions for regenerating the Pin Map Client.
 - Delete the entire `ni.measurementlink.pinmap.v1.api` on disc
 - Open the gRPC Template Creation Utility. `Tools` » `gRPC` » `Open gRPC Server-Client [2] - Code Generator...`
 - Fill out the utility as follows:
-    - **Proto File Path:** `\Source\Protos\ni\measurementlink\pinmap\v1\pin_map_service.proto`
+    - **Proto File Path:** `\third_party\ni-apis\ni\measurementlink\pinmap\v1\pin_map_service.proto`
     - **Import Paths:** (none)
     - **Prototype Library:** `\Source\gRPC\Generated APIs\ni\measurementlink\pinmap\v1\ni.measurementlink.pinmap.v1.prototype.lvlib`
     - **Target Project:** `\Source\gRPC\Generated APIs\ni\measurementlink\pinmap\v1\ni.measurementlink.pinmap.v1.lvproj`
@@ -80,7 +81,7 @@ The following are instructions for regenerating the V1 measurement service.
 - Delete the entire `ni.measurementlink.measurement.v1.api` on disc
 - Open the gRPC Template Creation Utility. `Tools` » `gRPC` » `Open gRPC Server-Client [2] - Code Generator...`
 - Fill out the utility as follows:
-    - **Proto File Path:** `\Source\Protos\ni\measurementlink\measurement\v1\measurement_service.proto`
+    - **Proto File Path:** `\third_party\ni-apis\ni\measurementlink\measurement\v1\measurement_service.proto`
     - **Import Paths:** 
         - `\third_party\protobuf\src`
         - `\third_party\ni-apis`
@@ -105,7 +106,7 @@ The following are instructions for regenerating the V2 measurement service.
 - Delete the entire `ni.measurementlink.measurement.v2.api` on disc
 - Open the gRPC Template Creation Utility. `Tools` » `gRPC` » `Open gRPC Server-Client [2] - Code Generator...`
 - Fill out the utility as follows:
-    - **Proto File Path:** `\Source\Protos\ni\measurementlink\measurement\v2\measurement_service.proto`
+    - **Proto File Path:** `\third_party\ni-apis\ni\measurementlink\measurement\v2\measurement_service.proto`
     - **Import Paths:** 
         - `\third_party\protobuf\src`
         - `\third_party\ni-apis`
