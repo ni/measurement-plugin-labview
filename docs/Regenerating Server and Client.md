@@ -17,8 +17,8 @@ The following are instructions for regenerating the Discovery Client.
 - Delete the entire `ni.measurementlink.discovery.v1` on disc
 - Open the gRPC Template Creation Utility. `Tools` » `gRPC` » `Open gRPC Server-Client [2] - Code Generator...`
 - Fill out the utility as follows:
-    - **Proto File Path:** `\Source\Protos\ni\measurementlink\discovery\v1\discovery_service.proto`
-    - **Import Paths:** `\Source\Protos`
+    - **Proto File Path:** `\third_party\ni-apis\ni\measurementlink\discovery\v1\discovery_service.proto`
+    - **Import Paths:** (none)
     - **Prototype Library:** `\Source\gRPC\Generated APIs\ni\measurementlink\discovery\v1\ni.measurementlink.discovery.v1.prototype.lvlib`
     - **Target Project:** `\Source\gRPC\Generated APIs\ni\measurementlink\discovery\v1\ni.measurementlink.discovery.v1.api.lvproj`
     - **Target Name:** `My Computer`
@@ -37,8 +37,11 @@ The following are instructions for regenerating the Session Management Client.
 - Delete the entire `ni.measurementlink.sessionmanagement.v1.api` on disc
 - Open the gRPC Template Creation Utility. `Tools` » `gRPC` » `Open gRPC Server-Client [2] - Code Generator...`
 - Fill out the utility as follows:
-    - **Proto File Path:** `\Source\Protos\ni\measurementlink\sessionmanagement\v1\session_management_service.proto`
-    - **Import Paths:** `\Source\Protos`
+    - **Proto File Path:** `\third_party\ni-apis\ni\measurementlink\sessionmanagement\v1\session_management_service.proto`
+    - **Import Paths:** 
+        - `\third_party\protobuf\src`
+        - `\third_party\ni-apis\ni\grpcdevice\v1`
+        - `\third_party\ni-apis`
     - **Prototype Library:** `\Source\gRPC\Generated APIs\ni\measurementlink\sessionmanagement\v1\ni.measurementlink.sessionmanagement.v1.prototype.lvlib`
     - **Target Project:** `\Source\gRPC\Generated APIs\ni\measurementlink\sessionmanagement\v1\ni.measurementlink.sessionmanagement.v1.api.lvproj`
     - **Target Name:** `My Computer`
@@ -58,7 +61,7 @@ The following are instructions for regenerating the Pin Map Client.
 - Open the gRPC Template Creation Utility. `Tools` » `gRPC` » `Open gRPC Server-Client [2] - Code Generator...`
 - Fill out the utility as follows:
     - **Proto File Path:** `\Source\Protos\ni\measurementlink\pinmap\v1\pin_map_service.proto`
-    - **Import Paths:** `\Source\Protos`
+    - **Import Paths:** (none)
     - **Prototype Library:** `\Source\gRPC\Generated APIs\ni\measurementlink\pinmap\v1\ni.measurementlink.pinmap.v1.prototype.lvlib`
     - **Target Project:** `\Source\gRPC\Generated APIs\ni\measurementlink\pinmap\v1\ni.measurementlink.pinmap.v1.lvproj`
     - **Target Name:** `My Computer`
@@ -78,7 +81,9 @@ The following are instructions for regenerating the V1 measurement service.
 - Open the gRPC Template Creation Utility. `Tools` » `gRPC` » `Open gRPC Server-Client [2] - Code Generator...`
 - Fill out the utility as follows:
     - **Proto File Path:** `\Source\Protos\ni\measurementlink\measurement\v1\measurement_service.proto`
-    - **Import Paths:** `\Source\Protos`
+    - **Import Paths:** 
+        - `\third_party\protobuf\src`
+        - `\third_party\ni-apis`
     - **Prototype Library:** (leave blank)
     - **Target Project:** `\Source\gRPC\Generated APIs\ni\measurementlink\measurement\v1\ni.measurementlink.measurement.v1.lvproj`
     - **Target Name:** `My Computer`
@@ -101,7 +106,9 @@ The following are instructions for regenerating the V2 measurement service.
 - Open the gRPC Template Creation Utility. `Tools` » `gRPC` » `Open gRPC Server-Client [2] - Code Generator...`
 - Fill out the utility as follows:
     - **Proto File Path:** `\Source\Protos\ni\measurementlink\measurement\v2\measurement_service.proto`
-    - **Import Paths:** `\Source\Protos`
+    - **Import Paths:** 
+        - `\third_party\protobuf\src`
+        - `\third_party\ni-apis`
     - **Prototype Library:** (leave blank)
     - **Target Project:** `\Source\gRPC\Generated APIs\ni\measurementlink\measurement\v1\ni.measurementlink.measurement.v2.lvproj`
     - **Target Name:** `My Computer`
