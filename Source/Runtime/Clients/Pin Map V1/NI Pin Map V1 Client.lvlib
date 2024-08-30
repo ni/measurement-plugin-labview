@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="21008000">
+	<Property Name="NI.Lib.DefaultMenu" Type="Str">Pin Map.mnu</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*%!!!*Q(C=\&gt;7^41."%)&lt;B$U2![A[1!S1CAKE!S1H/H6$!*%2%4BW[B1E*#(!(Y";G"&lt;@A&amp;I\XVO-4!MF/!#(%(HO=P`V\W$M@5CPHUJG[9_8V9+'^^?&amp;8H&gt;J&amp;KVWV\RK[`7H@PO]ZD.`V'+:[.`\$`)X6$?N`&lt;N^@\F9[\$^3^&amp;`_S^]OC[.@AG``(JSI@R&amp;2ERJ5JZL[:&lt;ME4`)E4`)E4`)A$`)A$`)A$X)H&gt;X)H&gt;X)H&gt;X)D.X)D.X)D.`*WE)N=Z#+(F#S?,*2-GES1&gt;);CZ*2Y%E`C34R]6/**0)EH]31?OCDR**\%EXA3$]/5?"*0YEE]C9?JGC4&lt;19YH]4#^!E`A#4S"*`#QJ!*0!!A7#S9/*I'BI$'Y#$S"*`"QK=!4?!*0Y!E].#PQ"*\!%XA#$U0;LE44^!=Z(K;2YX%]DM@R/"[GFO.R0)\(]4A?FJ0D=4Q/QFH1G2S#H%&amp;/"_?$YX%]`*,D=4S/R`%Y(JL;(@+W-\WG0]DR'"\$9XA-D_&amp;B#BE?QW.Y$)`B96I:(M.D?!S0Y7%J'2\$9XA-C,%IS]O9T"BI&gt;$)#Q].0?VKMX;6I%GO(6!_P[K&amp;507SKBUDV=+BOOOJGKG[3;P.6G[L;,.5GK0YY&amp;6K&amp;53WC'NRXV*&lt;TBLKGLKB,[JQ[IU[I9_KI(`L&amp;(&lt;@&lt;L4;&lt;D&gt;&lt;LN6;LF:&lt;,J?&lt;TO7;TG3;4C=&lt;DM5;DU@!;O/!98AC\^^+#[Z@JZ=04P&gt;__X$U`0%[P&lt;R[H6T&gt;^`A0`HX`"OV'H?L]'?`1'D"#VLA!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">553680896</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
@@ -32,4 +33,5 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 	</Item>
+	<Item Name="Pin Map.mnu" Type="Document" URL="../Pin Map.mnu"/>
 </Library>
