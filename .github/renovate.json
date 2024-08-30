@@ -8,7 +8,7 @@
     "packageRules": [
       {
         "matchDepNames": ["third_party/ni-apis", "third_party/protobuf"],
-        "extends": ["schedule:monthly"]
+        "extends": ["schedule:monthly", ":dependencyDashboardApproval"]
       }
     ]
   }
