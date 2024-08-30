@@ -17,19 +17,25 @@
 		<Item Name="Check if no Measurement Selected.vi" Type="VI" URL="../Check if no Measurement Selected.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Client Creation Status.ctl" Type="VI" URL="../Client Creation Status.ctl">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Copy Client Template Library.vi" Type="VI" URL="../Copy Client Template Library.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Create Cluster Controls.vi" Type="VI" URL="../Create Cluster Controls.vi">
+		<Item Name="Create Control.vi" Type="VI" URL="../Create Control.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Create Measure VI for Client.vi" Type="VI" URL="../Create Measure VI for Client.vi">
+		<Item Name="Data Holder.ctl" Type="VI" URL="../Data Holder.ctl">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Display Client Creation Status.vi" Type="VI" URL="../Display Client Creation Status.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Error Message Icons.vi" Type="VI" URL="../Error Message Icons.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Folder Override Warning.vi" Type="VI" URL="../Folder Override Warning.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Get Library Names in Active Project.vi" Type="VI" URL="../Get Library Names in Active Project.vi">
@@ -44,13 +50,31 @@
 		<Item Name="List Available Measurements.vi" Type="VI" URL="../List Available Measurements.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Map Numeric Representation.vi" Type="VI" URL="../Map Numeric Representation.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Measurement Selection Icons.vi" Type="VI" URL="../Measurement Selection Icons.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Modify Client Controls.vi" Type="VI" URL="../Modify Client Controls.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Parse JSON Enum Values.vi" Type="VI" URL="../Parse JSON Enum Values.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Provided Interface Constant.vi" Type="VI" URL="../Provided Interface Constant.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Template Files List.vi" Type="VI" URL="../Template Files List.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Template Files Path.vi" Type="VI" URL="../Template Files Path.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Update Error Message Icon.vi" Type="VI" URL="../Update Error Message Icon.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Update Measurement from Metadata.vi" Type="VI" URL="../Update Measurement from Metadata.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Update Measurement Selection.vi" Type="VI" URL="../Update Measurement Selection.vi">
