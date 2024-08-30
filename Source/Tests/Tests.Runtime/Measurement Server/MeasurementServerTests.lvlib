@@ -23,12 +23,6 @@
 			<Item Name="Assert Number of Calls.vi" Type="VI" URL="../Helpers/Assertion Helpers/Assert Number of Calls.vi"/>
 			<Item Name="Assert Connections.vim" Type="VI" URL="../Helpers/Assertion Helpers/Assert Connections.vim"/>
 		</Item>
-		<Item Name="Pin Map Client Wrapper" Type="Folder">
-			<Item Name="Create Client.vi" Type="VI" URL="../Helpers/Create Client.vi"/>
-			<Item Name="Recreate Client.vi" Type="VI" URL="../Helpers/Recreate Client.vi"/>
-			<Item Name="Pin Map Client FGV.vi" Type="VI" URL="../Helpers/Pin Map Client FGV.vi"/>
-			<Item Name="Update Pin Map from XML.vi" Type="VI" URL="../Helpers/Update Pin Map from XML.vi"/>
-		</Item>
 		<Item Name="Check If Discovery Service is Running.vi" Type="VI" URL="../Helpers/Check If Discovery Service is Running.vi"/>
 		<Item Name="Create Connection Cluster.vim" Type="VI" URL="../Helpers/Create Connection Cluster.vim"/>
 		<Item Name="Kill Discovery Service.vi" Type="VI" URL="../Helpers/Kill Discovery Service.vi"/>
@@ -291,5 +285,11 @@
 	</Item>
 	<Item Name="Measurement Plugin Service" Type="Folder">
 		<Item Name="Measurement Plugin Service Tests.lvlib" Type="Library" URL="../Measurement Plugin Service/Measurement Plugin Service Tests.lvlib"/>
+	</Item>
+	<Item Name="Pin Map" Type="Folder">
+		<Item Name="TestAssets" Type="Folder">
+			<Item Name="NIDCPowerSourceDCVoltage.pinmap" Type="Document" URL="../Pin Map/TestAssets/NIDCPowerSourceDCVoltage.pinmap"/>
+		</Item>
+		<Item Name="Pin Map Tests.lvlib" Type="Library" URL="../Pin Map/Pin Map Tests.lvlib"/>
 	</Item>
 </Library>
