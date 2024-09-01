@@ -35,7 +35,7 @@
 		<Item Name="Error Message Icons.vi" Type="VI" URL="../Error Message Icons.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Folder Override Warning.vi" Type="VI" URL="../Folder Override Warning.vi">
+		<Item Name="Folder Reuse Warning.vi" Type="VI" URL="../Folder Reuse Warning.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Get Library Names in Active Project.vi" Type="VI" URL="../Get Library Names in Active Project.vi">
