@@ -242,5 +242,4 @@
 	<Item Name="Run Service.vi" Type="VI" URL="../Run Service.vi"/>
 	<Item Name="Register Descriptors.vi" Type="VI" URL="../RPC Messages/Register Descriptors.vi"/>
 	<Item Name="MeasurementServiceBaseV2.lvclass" Type="LVClass" URL="../RPC Service/MeasurementService/MeasurementServiceBaseV2.lvclass"/>
-	<Item Name="Measurement Service Client.lvlib" Type="Library" URL="../Measurement Service Client/Measurement Service Client.lvlib"/>
 </Library>

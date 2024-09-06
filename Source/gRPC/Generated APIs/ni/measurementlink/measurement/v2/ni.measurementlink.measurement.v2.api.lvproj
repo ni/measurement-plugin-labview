@@ -4,6 +4,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -15,6 +16,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="ni.measurementlink.measurement.v2.api" Type="Folder">
 			<Item Name="ni.measurementlink.measurement.v2.api.lvlib" Type="Library" URL="../ni.measurementlink.measurement.v2.api.lvlib"/>
+			<Item Name="Measurement Service Client V2.lvlib" Type="Library" URL="../Measurement Service Client V2/Measurement Service Client V2.lvlib"/>
 		</Item>
 		<Item Name="ni.measurementlink.measurement.v2.prototype.lvlib" Type="Library" URL="../ni.measurementlink.measurement.v2.prototype.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">

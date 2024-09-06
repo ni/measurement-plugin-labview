@@ -174,10 +174,10 @@ The following are instructions for regenerating the V2 measurement service and V
         - **Target Project:** `\Source\gRPC\Generated APIs\ni\measurementlink\measurement\v2\ni.measurementlink.measurement.v2.api.lvproj`
         - **Target Name:** `My Computer`
         - **Generated Library Name:** `Measurement Service`
-        - **Generated Library Suffix:** ` Client`
+        - **Generated Library Suffix:** ` Client V2`
         - **Generate:** `gRPC Client`
     - Run the generator
-    - From the project, find `Measurement Service Client.lvlib`. It will be in the `Measurement Service Client` virtual folder
-    - Move the library under `ni.measurementlink.measurement.v2.api.lvlib` library
-    - Delete the empty `Measurement Service Client` virtual folder
+    - From the project, find `Measurement Service Client V2.lvlib`. It will be in the `Measurement Service Client V2` virtual folder
+    - Move the library under `ni.measurementlink.measurement.v2.api` virtual folder
+    - Delete the empty `Measurement Service Client V2` virtual folder
     - Save All and close the project
