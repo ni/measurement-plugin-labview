@@ -41,6 +41,9 @@
 		<Item Name="Folder Reuse Warning.vi" Type="VI" URL="../Folder Reuse Warning.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Get Default Value.vi" Type="VI" URL="../Get Default Value.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Get Font Color.vi" Type="VI" URL="../Get Font Color.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
@@ -69,9 +72,6 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Template Files Path.vi" Type="VI" URL="../Template Files Path.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
-		<Item Name="Update Default Template from Metadata.vi" Type="VI" URL="../Update Default Template from Metadata.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Update Error Message Icon.vi" Type="VI" URL="../Update Error Message Icon.vi">
