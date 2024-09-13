@@ -62,9 +62,6 @@
 		<Item Name="Measurement Selection Icons.vi" Type="VI" URL="../Measurement Selection Icons.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Modify Client Controls.vi" Type="VI" URL="../Modify Client Controls.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
 		<Item Name="Parse JSON Enum Values.vi" Type="VI" URL="../Parse JSON Enum Values.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
@@ -72,6 +69,9 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Template Files Path.vi" Type="VI" URL="../Template Files Path.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Update Control from Metadata.vi" Type="VI" URL="../Update Control from Metadata.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Update Error Message Icon.vi" Type="VI" URL="../Update Error Message Icon.vi">
