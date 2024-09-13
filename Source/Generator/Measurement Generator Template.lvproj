@@ -4,6 +4,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -13,7 +14,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Measurement Client Template.lvlib" Type="Library" URL="../_Measurement Plug-In Client Template/Measurement Client Template.lvlib"/>
+		<Item Name="Default Value Template.lvlib" Type="Library" URL="../_Measurement Plug-In Client Template/Default Value/Default Value Template.lvlib"/>
+		<Item Name="Measurement Client Template.lvlib" Type="Library" URL="../_Measurement Plug-In Client Template/Client/Measurement Client Template.lvlib"/>
 		<Item Name="Measurement Template.lvlib" Type="Library" URL="../Measurement Plug-In Template/Measurement/Measurement Template.lvlib"/>
 		<Item Name="Measurement UI Template.lvlib" Type="Library" URL="../Measurement Plug-In Template/UI/Measurement UI Template.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">

@@ -17,6 +17,9 @@
 		<Item Name="Cleanup Client If Error.vi" Type="VI" URL="../Cleanup Client If Error.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Cleanup Default Value Template.vi" Type="VI" URL="../Cleanup Default Value Template.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Client Creation Status.ctl" Type="VI" URL="../Client Creation Status.ctl">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
@@ -38,6 +41,9 @@
 		<Item Name="Folder Reuse Warning.vi" Type="VI" URL="../Folder Reuse Warning.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Get Default Value.vi" Type="VI" URL="../Get Default Value.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Get Font Color.vi" Type="VI" URL="../Get Font Color.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
@@ -56,9 +62,6 @@
 		<Item Name="Measurement Selection Icons.vi" Type="VI" URL="../Measurement Selection Icons.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Modify Client Controls.vi" Type="VI" URL="../Modify Client Controls.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
 		<Item Name="Parse JSON Enum Values.vi" Type="VI" URL="../Parse JSON Enum Values.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
@@ -66,6 +69,9 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Template Files Path.vi" Type="VI" URL="../Template Files Path.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Update Control from Metadata.vi" Type="VI" URL="../Update Control from Metadata.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Update Error Message Icon.vi" Type="VI" URL="../Update Error Message Icon.vi">
