@@ -119,6 +119,55 @@ Note:
 
 ---
 
+## Developing a LabVIEW measurement client
+
+1. Create and save a new LabVIEW project.
+
+2. From the project window, go to `Tools` → `Plug-In SDKs` → `Measurements` → `Create Measurement Plug-in Client...`.
+    - In the dialog, select atleast one of the available V2 measurements, then click `Create Measurement Plug-in Client(s)`.
+
+      ![New measurement client dialog](images/New%20measurement%20client%20dialog.png)
+
+    - This will create a new measurement client library in the project.
+
+      ![Measurement client library files](images/Measurement%20client%20library%20files.png)
+
+Note:
+
+- The Measurement Plug-In Client is compatible with all datatypes supported by the Measurement Plug-In.
+- For Enum datatypes, the LabVIEW Client supports only contiguous enums.
+- Ring controls in the Measurement Plug-In will be represented as numeric controls in the client, maintaining the same representation.
+
+---
+
+## Running a LabVIEW measurement client
+
+1. Open your measurement client project.
+
+2. For non-pin based measurement, open the `Run Client.vi`.
+    - Set the inputs to the configuration control.
+    - Run the `Run Client.vi` to invoke the measurement logic and display the results.
+
+      ![Run Client VI](images/Run%20Client%20VI.png)
+
+3. For pin-based measurement
+    - Create and save a new VI.
+    - Navigate to `Measurement I/O` → `Measurement Plug-In SDK` → `Pin Map` → `Register Pin Map.vi` in the palette.
+
+      ![Register Pin Map VI](images/Register%20Pin%20Map%20VI.png)
+
+    - Drag the `Register Pin Map.vi` to the Block diagram.
+    - Wire the Pin Map path of the measurement to this VI to register the Pin Map.
+    - Wire the `pin map id` output of this VI to the `pin map context.pin_map_id` input of the Run Client.vi.
+    - Set the `pin map context.sites` input of the Run Client VI.
+    - Set the inputs to the configuration control.
+    - Run the `Run Client.vi` to invoke the measurement logic and display the results.
+
+Note: 
+- To run `Run Client.vi` without registering the pin map for a pin-based measurement, specify the IOResource name in the configuration control instead of the Pin name.
+
+---
+
 ## Examples
 
 The `Source\Example Measurements` directory contains example measurement
