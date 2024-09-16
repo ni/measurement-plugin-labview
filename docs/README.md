@@ -6,6 +6,8 @@
   - [Installation](#installation)
   - [Developing a LabVIEW measurement](#developing-a-labview-measurement)
   - [Running a LabVIEW measurement](#running-a-labview-measurement)
+  - [Developing a LabVIEW measurement client](#developing-a-labview-measurement-client)
+  - [Running a LabVIEW measurement client](#running-a-labview-measurement-client)
   - [Examples](#examples)
   - [Using a measurement in InstrumentStudio](#using-a-measurement-in-instrumentstudio)
   - [Creating a LabVIEW executable for static registration](#creating-a-labview-executable-for-static-registration)
@@ -15,7 +17,8 @@
 ## Introduction
 
 The Measurement Plug-In SDK for LabVIEW packages enable measurement developers
-to quickly create LabVIEW measurements and run them as a service. NI Measurement
+to quickly create LabVIEW measurements and run them as a service. They also enable
+the developers to create and run clients for the measurement service. NI Measurement
 Plug-In Support allows users to interact with measurement services with a
 LabVIEW UI in InstrumentStudio.
 
