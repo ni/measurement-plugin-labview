@@ -29,6 +29,9 @@
 		<Item Name="Tests" Type="Folder">
 			<Item Name="MeasurementGenerator Tests.lvlib" Type="Library" URL="../../Tests/Tests.Generator/Dialog/MeasurementGenerator Tests.lvlib"/>
 		</Item>
+		<Item Name="Global VIs" Type="Folder">
+			<Item Name="Generator Error Strings Global.vi" Type="VI" URL="../_MeasurementClient Utility/Generator Error Strings Global.vi"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
