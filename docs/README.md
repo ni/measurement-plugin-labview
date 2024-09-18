@@ -153,7 +153,7 @@ Note:
     - Set the inputs to the configuration control.
     - Run the `Run Client.vi` to invoke the measurement logic and display the results.
 
-      ![Run Client VI](images/Run%20Client%20VI.PNG)
+      ![Run Client VI](images/Run%20Client%20Template%20VI.PNG)
 
 3. For pin-based measurement
     - Create and save a new VI.
