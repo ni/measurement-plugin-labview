@@ -6,7 +6,7 @@
   - [Installation](#installation)
   - [Developing a LabVIEW measurement](#developing-a-labview-measurement)
   - [Running a LabVIEW measurement](#running-a-labview-measurement)
-  - [Developing a LabVIEW measurement client](#developing-a-labview-measurement-client)
+  - [Generating a LabVIEW measurement client](#generating-a-labview-measurement-client)
   - [Running a LabVIEW measurement client](#running-a-labview-measurement-client)
   - [Examples](#examples)
   - [Using a measurement in InstrumentStudio](#using-a-measurement-in-instrumentstudio)
@@ -17,8 +17,8 @@
 ## Introduction
 
 The Measurement Plug-In SDK for LabVIEW packages enable measurement developers
-to quickly create LabVIEW measurements and run them as a service. They also enable
-the developers to create and run clients for the measurement service. NI Measurement
+to quickly create LabVIEW measurements and run them as a service. They also allow developers
+to generate a LabVIEW client which communicates with the service over gRPC. NI Measurement
 Plug-In Support allows users to interact with measurement services with a
 LabVIEW UI in InstrumentStudio.
 
@@ -122,14 +122,16 @@ Note:
 
 ---
 
-## Developing a LabVIEW measurement client
+## Generating a LabVIEW measurement client
 
 1. Create and save a new LabVIEW project.
 
 2. From the project window, go to `Tools` → `Plug-In SDKs` → `Measurements` → `Create Measurement Plug-in Client...`.
-    - In the dialog, select atleast one of the available V2 measurements, then click `Create Measurement Plug-in Client(s)`.
+    - A dialog will open displaying the V2 measurement services that are currently running or deployed on the system.
 
       ![New measurement client dialog](images/New%20measurement%20client%20dialog.png)
+
+    - In the dialog, select one or more available measurements, then click `Create Measurement Plug-in Client(s)`.
 
     - This will create a new measurement client library in the project.
 
@@ -139,7 +141,7 @@ Note:
 
 - The Measurement Plug-In Client is compatible with all datatypes supported by the Measurement Plug-In.
 - For Enum datatypes, the LabVIEW Client supports only contiguous enums.
-- Ring controls in the Measurement Plug-In will be represented as numeric controls in the client, maintaining the same representation.
+- If the Measurement Plug-In uses a LabVIEW UI, ring controls in the UI will be represented as numeric controls in the client, maintaining the same representation.
 
 ---
 
@@ -151,7 +153,7 @@ Note:
     - Set the inputs to the configuration control.
     - Run the `Run Client.vi` to invoke the measurement logic and display the results.
 
-      ![Run Client VI](images/Run%20Client%20VI.png)
+      ![Run Client VI](images/Run%20Client%20VI.PNG)
 
 3. For pin-based measurement
     - Create and save a new VI.
@@ -161,12 +163,13 @@ Note:
 
     - Drag the `Register Pin Map.vi` to the Block diagram.
     - Wire the Pin Map path of the measurement to this VI to register the Pin Map.
-    - Wire the `pin map id` output of this VI to the `pin map context.pin_map_id` input of the Run Client.vi.
+    - Wire the `pin map id` output of this VI to the `pin map context.pin_map_id` input of the Run Client VI.
     - Set the `pin map context.sites` input of the Run Client VI.
     - Set the inputs to the configuration control.
     - Run the `Run Client.vi` to invoke the measurement logic and display the results.
 
-Note: 
+Note:
+
 - To run `Run Client.vi` without registering the pin map for a pin-based measurement, specify the IOResource name in the configuration control instead of the Pin name.
 
 ---
