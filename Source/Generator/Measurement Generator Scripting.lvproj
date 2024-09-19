@@ -29,9 +29,6 @@
 		<Item Name="Tests" Type="Folder">
 			<Item Name="MeasurementGenerator Tests.lvlib" Type="Library" URL="../../Tests/Tests.Generator/Dialog/MeasurementGenerator Tests.lvlib"/>
 		</Item>
-		<Item Name="Global VIs" Type="Folder">
-			<Item Name="Generator Error Strings Global.vi" Type="VI" URL="../_MeasurementClient Utility/Generator Error Strings Global.vi"/>
-		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
@@ -516,6 +513,7 @@
 				<Item Name="Write Palette.vi" Type="VI" URL="/&lt;vilib&gt;/Palette API/Write Palette.vi"/>
 				<Item Name="ni.measurementlink.measurement.v2.api.lvlib" Type="Library" URL="/&lt;vilib&gt;/gRPC/Generated APIs/ni/measurementlink/measurement/v2/ni.measurementlink.measurement.v2.api.lvlib"/>
 				<Item Name="Measurement Service Client V2.lvlib" Type="Library" URL="/&lt;vilib&gt;/gRPC/Generated APIs/ni/measurementlink/measurement/v2/Measurement Service Client V2/Measurement Service Client V2.lvlib"/>
+				<Item Name="Wait On Occurrence Wrapper.vi" Type="VI" URL="/&lt;vilib&gt;/gRPC/LabVIEW gRPC Library/Shared/Wait On Occurrence Wrapper.vi"/>
 			</Item>
 			<Item Name="_ChannelScriptingSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelScriptingSupport/_ChannelScriptingSupport.lvlib"/>
 			<Item Name="AB_Create_Build_AppInstance.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_Create_Build_AppInstance.vi"/>
