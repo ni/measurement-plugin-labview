@@ -23,6 +23,9 @@
 		<Item Name="Client Creation Status.ctl" Type="VI" URL="../Client Creation Status.ctl">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Client Generator Error Strings Global.vi" Type="VI" URL="../Client Generator Error Strings Global.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Copy Client Template Library.vi" Type="VI" URL="../Copy Client Template Library.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
