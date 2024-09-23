@@ -44,6 +44,9 @@
 		<Item Name="Folder Reuse Warning.vi" Type="VI" URL="../Folder Reuse Warning.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="FP Cleanup.vi" Type="VI" URL="../FP Cleanup.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Get Default Value.vi" Type="VI" URL="../Get Default Value.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
