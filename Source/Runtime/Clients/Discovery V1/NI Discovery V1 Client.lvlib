@@ -12,20 +12,22 @@
 		<Item Name="NI Session Management V1 Client.lvlib:Session Reservation.lvclass" Type="Friended Library" URL="../../Session Management V1/Session Reservation/Session Reservation.lvclass"/>
 		<Item Name="MeasurementServerTests.lvlib:Discovery Tests.lvlib" Type="Friended Library" URL="../../../../Tests/Tests.Runtime/Measurement Server/Discovery/Discovery Tests.lvlib"/>
 		<Item Name="MeasurementServerTests.lvlib" Type="Friended Library" URL="../../../../Tests/Tests.Runtime/Measurement Server/MeasurementServerTests.lvlib"/>
+		<Item Name="NI Pin Map V1 Client.lvlib" Type="Friended Library" URL="../../Pin Map V1/NI Pin Map V1 Client.lvlib"/>
+		<Item Name="MeasurementServerTests.lvlib:Pin Map Tests.lvlib" Type="Friended Library" URL="../../../../Tests/Tests.Runtime/Measurement Server/Pin Map/Pin Map Tests.lvlib"/>
 	</Item>
 	<Item Name="Discovery Client Wrapper" Type="Folder">
 		<Item Name="Create Client.vi" Type="VI" URL="../Create Client.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Destroy Client.vi" Type="VI" URL="../Destroy Client.vi"/>
 		<Item Name="Discovery Client FGV.vi" Type="VI" URL="../Discovery Client FGV.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		</Item>
+		<Item Name="Enumerate Services.vi" Type="VI" URL="../Enumerate Services.vi"/>
 		<Item Name="Recreate Client.vi" Type="VI" URL="../Recreate Client.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Resolve Service.vi" Type="VI" URL="../Resolve Service.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
+		<Item Name="Resolve Service.vi" Type="VI" URL="../Resolve Service.vi"/>
 	</Item>
 	<Item Name="Discovery Service Helpers" Type="Folder">
 		<Item Name="Ensure Discovery Service Started.vi" Type="VI" URL="../Ensure Discovery Service Started.vi">
