@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2024-08-27 15:29:37" Creator="lvadmin" Comments="" ID="37c3518efc99fa463cc09c5d40aa20e5">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2024-09-24 11:14:49" Creator="lvadmin" Comments="" ID="5536cd4b26f6cbbfe7569106366f02cd">
   <Library_General_Settings>
     <Package_File_Name>ni_measurement_plugin_sdk_generator</Package_File_Name>
-    <Library_Version>3.0.0.3</Library_Version>
+    <Library_Version>3.2.0.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Generator</Library_Source_Folder>
     <Library_Output_Folder>..\..\Build Output</Library_Output_Folder>
