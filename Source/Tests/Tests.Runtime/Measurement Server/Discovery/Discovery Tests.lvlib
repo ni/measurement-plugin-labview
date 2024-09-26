@@ -12,6 +12,7 @@
 	<Item Name="Discovery Client Wrapper Tests" Type="Folder">
 		<Item Name="test_EnumerateServices_StopDiscoveryService_EnumerateServicesWorkWithoutError.vi" Type="VI" URL="../test_EnumerateServices_StopDiscoveryService_EnumerateServicesWorkWithoutError.vi"/>
 		<Item Name="test_ResolveService_StopDiscoveryService_ResolveServiceWorkWithoutError.vi" Type="VI" URL="../test_ResolveService_StopDiscoveryService_ResolveServiceWorkWithoutError.vi"/>
+		<Item Name="test_ResolveServicewithInformation_StopDiscoveryService_ResolveServicewithInformationWorkWithoutError.vi" Type="VI" URL="../test_ResolveServicewithInformation_StopDiscoveryService_ResolveServicewithInformationWorkWithoutError.vi"/>
 	</Item>
 	<Item Name="gRPC Client Cache Tests" Type="Folder">
 		<Item Name="Assert Client Id.vi" Type="VI" URL="../Assert Client Id.vi"/>
