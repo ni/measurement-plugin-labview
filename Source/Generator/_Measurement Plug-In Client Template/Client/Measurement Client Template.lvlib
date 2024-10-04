@@ -14,7 +14,6 @@
 	</Item>
 	<Item Name="Measurement Client Wrapper" Type="Folder">
 		<Item Name="Run Client.vi" Type="VI" URL="../Run Client.vi"/>
-		<Item Name="Run Client Stream.vi" Type="VI" URL="../Run Client Stream.vi"/>
 	</Item>
 	<Item Name="Create Measurement.vi" Type="VI" URL="../Create Measurement.vi"/>
 	<Item Name="Close Measurement.vi" Type="VI" URL="../Close Measurement.vi"/>
