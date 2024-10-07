@@ -96,7 +96,7 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Validate Selected Client Names.vi" Type="VI" URL="../Validate Selected Client Names.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		</Item>
 	</Item>
 	<Item Name="Create Measurement Client.vi" Type="VI" URL="../../Create Measurement Client.vi"/>
