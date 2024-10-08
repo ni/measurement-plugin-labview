@@ -20,5 +20,5 @@
 	<Item Name="Start Measurement.vi" Type="VI" URL="../Start Measurement.vi"/>
 	<Item Name="Read Measurement.vi" Type="VI" URL="../Read Measurement.vi"/>
 	<Item Name="Stop Measurement.vi" Type="VI" URL="../Stop Measurement.vi"/>
-	<Item Name="Stop Measurement Client.vi" Type="VI" URL="../Stop Measurement Client.vi"/>
+	<Item Name="Abort Measurement.vi" Type="VI" URL="../Abort Measurement.vi"/>
 </Library>
