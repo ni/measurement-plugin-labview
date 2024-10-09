@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-03-06 15:09:40" Modified_Date="2024-09-24 11:49:49" Creator="ksreekan" Comments="" ID="250ca59b71147158112e3911fc2be355">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-03-06 15:09:40" Modified_Date="2024-10-09 14:58:03" Creator="ksreekan" Comments="" ID="5a9bd5deac4ecabc00916a30b2e93770">
   <Library_General_Settings>
     <Package_File_Name>ni_measurement_plugin_sdk</Package_File_Name>
-    <Library_Version>3.1.0.3</Library_Version>
+    <Library_Version>3.1.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\..\Build Output</Library_Output_Folder>
@@ -126,9 +126,6 @@
       </Exclusions>
       <Exclusions>
         <Path>gRPC</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Protos</Path>
       </Exclusions>
       <Exclusions>
         <Path>Runtime</Path>
