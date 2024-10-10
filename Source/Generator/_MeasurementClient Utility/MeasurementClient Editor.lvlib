@@ -71,6 +71,9 @@
 		<Item Name="Parse JSON Enum Values.vi" Type="VI" URL="../Parse JSON Enum Values.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Refresh Button.ctl" Type="VI" URL="../Refresh Button.ctl">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Template Files List.vi" Type="VI" URL="../Template Files List.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
