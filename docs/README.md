@@ -175,6 +175,12 @@ Note:
 - To run `Run Client.vi` without registering the pin map for a pin-based measurement,
 specify the IOResource name in the configuration control instead of the Pin name.
 - The `Run Client.vi` will support both stream and non-stream measurements.
+    - For non-streaming measurements, `Run Client.vi`  can be used as a standalone VI
+    or subVI without any modifications.
+    - For streaming measurements, when used as a subVI within a framework,
+    `Run Client.vi` will only provide the last successful value of the measurement results.
+    To obtain all responses from a streaming measurement, replicate the logic inside
+    `Run Client.vi` within the framework.
 
 ---
 
