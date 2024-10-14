@@ -140,8 +140,10 @@ Note:
 Note:
 
 - The Measurement Plug-In Client is compatible with all datatypes supported by the Measurement Plug-In.
-- For Enum datatypes, the LabVIEW Client supports only contiguous enums.
-- If the Measurement Plug-In uses a LabVIEW UI, ring controls in the UI will be represented as numeric controls in the client, maintaining the same representation.
+- For Enum datatype, contiguous enums will be represented as enum control
+and sparse enums will be represented as ring control in the client.
+- If the Measurement Plug-In uses a LabVIEW UI, ring controls in the UI will be represented as numeric controls in the client,
+maintaining the same representation.
 
 ---
 
@@ -170,7 +172,15 @@ Note:
 
 Note:
 
-- To run `Run Client.vi` without registering the pin map for a pin-based measurement, specify the IOResource name in the configuration control instead of the Pin name.
+- To run `Run Client.vi` without registering the pin map for a pin-based measurement,
+specify the IOResource name in the configuration control instead of the Pin name.
+- The `Run Client.vi` will support both stream and non-stream measurements.
+    - For non-stream measurements, `Run Client.vi`  can be used as a standalone VI
+    or subVI without any modifications.
+    - For stream measurements, when used as a subVI within a framework,
+    `Run Client.vi` will only provide the last successful value of the measurement results.
+    To obtain all responses from a stream measurement, replicate the logic inside
+    `Run Client.vi` within the framework.
 
 ---
 
