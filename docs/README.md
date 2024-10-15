@@ -128,6 +128,11 @@ Note:
 
 The gRPC library version 1.0.1.1 is recommended for the LabVIEW Measurement Client Generator. If you still want to work with a gRPC library version higher than 1.0.1.1, you should manually set the value of `EfficientMessageCopy` to FALSE in the `feature_config.ini` file located at `C:\Program Files\National Instruments\LabVIEW 20XX\vi.lib\gRPC\LabVIEW gRPC Library\Libraries\Win64\`.
 
+```.ini
+[data]
+EfficientMessageCopy = FALSE
+```
+
 1. Create and save a new LabVIEW project.
 
 2. From the project window, go to `Tools` → `Plug-In SDKs` → `Measurements` → `Create Measurement Plug-in Client...`.
