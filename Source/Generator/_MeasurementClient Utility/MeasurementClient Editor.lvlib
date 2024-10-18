@@ -71,6 +71,9 @@
 		<Item Name="Parse JSON Enum Values.vi" Type="VI" URL="../Parse JSON Enum Values.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Refresh Button.ctl" Type="VI" URL="../Refresh Button.ctl">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Template Files List.vi" Type="VI" URL="../Template Files List.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
@@ -95,11 +98,8 @@
 		<Item Name="Valid Measurement Client Name.vi" Type="VI" URL="../Valid Measurement Client Name.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Validate Client Names.vi" Type="VI" URL="../Validate Client Names.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		</Item>
 		<Item Name="Validate Selected Client Names.vi" Type="VI" URL="../Validate Selected Client Names.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		</Item>
 	</Item>
 	<Item Name="Create Measurement Client.vi" Type="VI" URL="../../Create Measurement Client.vi"/>

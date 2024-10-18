@@ -15,7 +15,10 @@
 	<Item Name="Measurement Client Wrapper" Type="Folder">
 		<Item Name="Run Client.vi" Type="VI" URL="../Run Client.vi"/>
 	</Item>
-	<Item Name="Close Measurement.vi" Type="VI" URL="../Close Measurement.vi"/>
 	<Item Name="Create Measurement.vi" Type="VI" URL="../Create Measurement.vi"/>
-	<Item Name="Measure.vi" Type="VI" URL="../Measure.vi"/>
+	<Item Name="Close Measurement.vi" Type="VI" URL="../Close Measurement.vi"/>
+	<Item Name="Start Measurement.vi" Type="VI" URL="../Start Measurement.vi"/>
+	<Item Name="Read Measurement.vi" Type="VI" URL="../Read Measurement.vi"/>
+	<Item Name="Stop Measurement.vi" Type="VI" URL="../Stop Measurement.vi"/>
+	<Item Name="Abort Measurement.vi" Type="VI" URL="../Abort Measurement.vi"/>
 </Library>
