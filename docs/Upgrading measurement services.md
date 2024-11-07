@@ -13,7 +13,7 @@ existing measurement services. To utilize the new script:
 1. Install Measurement Plug-In SDK Service and Measurement Plug-In SDK Generator
    3.0 or greater
 1. Navigate to and open `<LabVIEW
-   Root>/project/Plug-In SDKs/Measurement/_Editor/RenameRefactor/Refactor
+   Root>/Plug-In SDKs/Measurements/_MeasurementService Utility/RenameRefactor/Refactor
    Dependencies for Projects.vi`
 1. Ensure that the `Refactor Data` control is set to `V2 to V3 (July 2024)`
 1. Use the `project file or folder (recursive)` control to navigate to a folder
