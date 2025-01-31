@@ -671,13 +671,6 @@
 			<Item Name="VersionNumToString.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Common/SetLVAppVersion/VersionNumToString.vi"/>
 			<Item Name="win32_MBCSToUnicode.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Common/SetLVAppVersion/win32_MBCSToUnicode.vi"/>
 			<Item Name="DuplicateClientNames.vi" Type="VI" URL="../../Tests/Tests.Generator/Dialog/TestAssets/DuplicateClientNamesInListbox/DuplicateClientNames.vi"/>
-			<Item Name="Get Library Names in Active Project.vi" Type="VI" URL="../_MeasurementClient Utility/Get Library Names in Active Project.vi"/>
-			<Item Name="Valid Measurement Client Name.vi" Type="VI" URL="../_MeasurementClient Utility/Valid Measurement Client Name.vi"/>
-			<Item Name="V2 Measurement Service Constant.vi" Type="VI" URL="../_MeasurementClient Utility/V2 Measurement Service Constant.vi"/>
-			<Item Name="Get Measurement Metadata.vi" Type="VI" URL="../_MeasurementClient Utility/Get Measurement Metadata.vi"/>
-			<Item Name="Copy Client Template Library.vi" Type="VI" URL="../_MeasurementClient Utility/Copy Client Template Library.vi"/>
-			<Item Name="Update Measurement from Metadata.vi" Type="VI" URL="../_MeasurementClient Utility/Update Measurement from Metadata.vi"/>
-			<Item Name="Cleanup Client If Error.vi" Type="VI" URL="../_MeasurementClient Utility/Cleanup Client If Error.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

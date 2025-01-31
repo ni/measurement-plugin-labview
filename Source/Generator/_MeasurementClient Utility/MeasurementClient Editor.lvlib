@@ -29,7 +29,13 @@
 		<Item Name="Folder Reuse Warning.vi" Type="VI" URL="../Folder Reuse Warning.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Get Error Description.vi" Type="VI" URL="../Get Error Description.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Get Font Color.vi" Type="VI" URL="../Get Font Color.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="Handle Error in Client Generation.vi" Type="VI" URL="../Handle Error in Client Generation.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="List Available Measurements.vi" Type="VI" URL="../List Available Measurements.vi">
