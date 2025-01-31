@@ -15,6 +15,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Generators" Type="Folder">
+			<Item Name="Client Generator Runtime" Type="Folder">
+				<Item Name="NI Measurement V2 Client Generator Runtime.lvlib" Type="Library" URL="../Measurement V2 Client Generator Runtime/NI Measurement V2 Client Generator Runtime.lvlib"/>
+			</Item>
 			<Item Name="Client Generator" Type="Folder">
 				<Item Name="MeasurementClient Editor.lvlib" Type="Library" URL="../_MeasurementClient Utility/MeasurementClient Editor.lvlib"/>
 			</Item>
@@ -511,7 +514,6 @@
 				<Item Name="VIAnUtil Has Panel.vi" Type="VI" URL="/&lt;vilib&gt;/Addons/analyzer/_analyzerutils.llb/VIAnUtil Has Panel.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write Palette.vi" Type="VI" URL="/&lt;vilib&gt;/Palette API/Write Palette.vi"/>
-				<Item Name="ni.measurementlink.measurement.v2.api.lvlib" Type="Library" URL="/&lt;vilib&gt;/gRPC/Generated APIs/ni/measurementlink/measurement/v2/ni.measurementlink.measurement.v2.api.lvlib"/>
 				<Item Name="Measurement Service Client V2.lvlib" Type="Library" URL="/&lt;vilib&gt;/gRPC/Generated APIs/ni/measurementlink/measurement/v2/Measurement Service Client V2/Measurement Service Client V2.lvlib"/>
 			</Item>
 			<Item Name="_ChannelScriptingSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelScriptingSupport/_ChannelScriptingSupport.lvlib"/>
@@ -669,6 +671,13 @@
 			<Item Name="VersionNumToString.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Common/SetLVAppVersion/VersionNumToString.vi"/>
 			<Item Name="win32_MBCSToUnicode.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Common/SetLVAppVersion/win32_MBCSToUnicode.vi"/>
 			<Item Name="DuplicateClientNames.vi" Type="VI" URL="../../Tests/Tests.Generator/Dialog/TestAssets/DuplicateClientNamesInListbox/DuplicateClientNames.vi"/>
+			<Item Name="Get Library Names in Active Project.vi" Type="VI" URL="../_MeasurementClient Utility/Get Library Names in Active Project.vi"/>
+			<Item Name="Valid Measurement Client Name.vi" Type="VI" URL="../_MeasurementClient Utility/Valid Measurement Client Name.vi"/>
+			<Item Name="V2 Measurement Service Constant.vi" Type="VI" URL="../_MeasurementClient Utility/V2 Measurement Service Constant.vi"/>
+			<Item Name="Get Measurement Metadata.vi" Type="VI" URL="../_MeasurementClient Utility/Get Measurement Metadata.vi"/>
+			<Item Name="Copy Client Template Library.vi" Type="VI" URL="../_MeasurementClient Utility/Copy Client Template Library.vi"/>
+			<Item Name="Update Measurement from Metadata.vi" Type="VI" URL="../_MeasurementClient Utility/Update Measurement from Metadata.vi"/>
+			<Item Name="Cleanup Client If Error.vi" Type="VI" URL="../_MeasurementClient Utility/Cleanup Client If Error.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
