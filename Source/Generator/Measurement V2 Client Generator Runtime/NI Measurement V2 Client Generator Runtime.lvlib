@@ -11,6 +11,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">553680896</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Friends List" Type="Friends List">
+		<Item Name="MeasurementClient Editor.lvlib" Type="Friended Library" URL="../../_MeasurementClient Utility/MeasurementClient Editor.lvlib"/>
+	</Item>
 	<Item Name="Helpers" Type="Folder">
 		<Item Name="Cleanup Client If Error.vi" Type="VI" URL="../Cleanup Client If Error.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -34,7 +37,7 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Get Library Names in Active Project.vi" Type="VI" URL="../Get Library Names in Active Project.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		</Item>
 		<Item Name="Get Measurement Metadata.vi" Type="VI" URL="../Get Measurement Metadata.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -58,10 +61,10 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="V2 Measurement Service Constant.vi" Type="VI" URL="../V2 Measurement Service Constant.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		</Item>
 		<Item Name="Valid Measurement Client Name.vi" Type="VI" URL="../Valid Measurement Client Name.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		</Item>
 	</Item>
 	<Item Name="Generate Client.vi" Type="VI" URL="../Generate Client.vi"/>
