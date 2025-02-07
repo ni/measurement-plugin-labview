@@ -14,22 +14,7 @@
 		<Item Name="Check if no Measurement Selected.vi" Type="VI" URL="../Check if no Measurement Selected.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Cleanup Client If Error.vi" Type="VI" URL="../Cleanup Client If Error.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
-		<Item Name="Cleanup Default Value Template.vi" Type="VI" URL="../Cleanup Default Value Template.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
 		<Item Name="Client Creation Status.ctl" Type="VI" URL="../Client Creation Status.ctl">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
-		<Item Name="Client Generator Error Strings Global.vi" Type="VI" URL="../Client Generator Error Strings Global.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
-		<Item Name="Copy Client Template Library.vi" Type="VI" URL="../Copy Client Template Library.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
-		<Item Name="Create Control.vi" Type="VI" URL="../Create Control.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Data Holder.ctl" Type="VI" URL="../Data Holder.ctl">
@@ -44,58 +29,28 @@
 		<Item Name="Folder Reuse Warning.vi" Type="VI" URL="../Folder Reuse Warning.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Front Panel Cleanup.vi" Type="VI" URL="../Front Panel Cleanup.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
-		<Item Name="Get Default Value.vi" Type="VI" URL="../Get Default Value.vi">
+		<Item Name="Get Error Description.vi" Type="VI" URL="../Get Error Description.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Get Font Color.vi" Type="VI" URL="../Get Font Color.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Get Library Names in Active Project.vi" Type="VI" URL="../Get Library Names in Active Project.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
-		<Item Name="Get Measurement Metadata.vi" Type="VI" URL="../Get Measurement Metadata.vi">
+		<Item Name="Handle Error in Client Generation.vi" Type="VI" URL="../Handle Error in Client Generation.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="List Available Measurements.vi" Type="VI" URL="../List Available Measurements.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Map Numeric Representation.vi" Type="VI" URL="../Map Numeric Representation.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
 		<Item Name="Measurement Selection Icons.vi" Type="VI" URL="../Measurement Selection Icons.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
-		<Item Name="Parse JSON Enum Values.vi" Type="VI" URL="../Parse JSON Enum Values.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Refresh Button.ctl" Type="VI" URL="../Refresh Button.ctl">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Template Files List.vi" Type="VI" URL="../Template Files List.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
-		<Item Name="Template Files Path.vi" Type="VI" URL="../Template Files Path.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
-		<Item Name="Update Control from Metadata.vi" Type="VI" URL="../Update Control from Metadata.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
 		<Item Name="Update Error Message Icon.vi" Type="VI" URL="../Update Error Message Icon.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Update Measurement from Metadata.vi" Type="VI" URL="../Update Measurement from Metadata.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
 		<Item Name="Update Measurement Selection.vi" Type="VI" URL="../Update Measurement Selection.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
-		<Item Name="V2 Measurement Service Constant.vi" Type="VI" URL="../V2 Measurement Service Constant.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
-		<Item Name="Valid Measurement Client Name.vi" Type="VI" URL="../Valid Measurement Client Name.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Validate Selected Client Names.vi" Type="VI" URL="../Validate Selected Client Names.vi">
