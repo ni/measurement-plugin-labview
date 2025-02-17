@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2024-09-24 11:14:49" Creator="lvadmin" Comments="" ID="5536cd4b26f6cbbfe7569106366f02cd">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2025-02-12 18:22:59" Creator="lvadmin" Comments="" ID="0f325e36655ec76d1fbf42bf768df4cf">
   <Library_General_Settings>
     <Package_File_Name>ni_measurement_plugin_sdk_generator</Package_File_Name>
     <Library_Version>3.2.0.1</Library_Version>
@@ -24,8 +24,8 @@
       <Pre-Build_VI/>
       <Post-Build_VI/>
       <Pre-Install_VI/>
-      <Post-Install_VI/>
-      <Pre-Uninstall_VI/>
+      <Post-Install_VI>Install Custom Actions\Post-Install Custom Action - Generator.vi</Post-Install_VI>
+      <Pre-Uninstall_VI>Install Custom Actions\Pre-Uninstall Custom Action - Generator.vi</Pre-Uninstall_VI>
       <Post-Uninstall_VI/>
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>Measurement Plug-In SDK Generator.vipc</VI_Package_Configuration_File>
@@ -96,6 +96,12 @@
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path/>
       </QuickDrop_Plugins>
+      <Additional_Destination>
+        <Name>Client Generator Runtime</Name>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path>&lt;vi.lib&gt;\Plug-In SDKs</Path>
+      </Additional_Destination>
     </Destinations>
     <Source_Files>
       <Destination_Overrides>
@@ -147,9 +153,9 @@
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>_Measurement Plug-In Client Template</Path>
-        <Destination>7</Destination>
-        <Additional_Destination>false</Additional_Destination>
+        <Path>Measurement V2 Client Generator Runtime</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Password_Overrides>
