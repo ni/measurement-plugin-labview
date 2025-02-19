@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2025-02-19 05:07:57" Creator="lvadmin" Comments="" ID="25fee2218090d3938fe8757ef7c68f3e">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2025-02-19 09:08:07" Creator="lvadmin" Comments="" ID="0d03d6e608f6dba047158ed7f3675ca8">
   <Library_General_Settings>
     <Package_File_Name>ni_measurement_plugin_sdk_generator</Package_File_Name>
     <Library_Version>3.2.0.1</Library_Version>
@@ -21,11 +21,11 @@
       <Additional_External_Dependencies>ni_measurement_plugin_sdk_service &gt;=3.0.0.1</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
-      <Pre-Build_VI/>
-      <Post-Build_VI/>
+      <Pre-Build_VI>Build Custom Actions\Pre-Build Custom Action.vi</Pre-Build_VI>
+      <Post-Build_VI>Build Custom Actions\Post-Build Custom Action.vi</Post-Build_VI>
       <Pre-Install_VI/>
       <Post-Install_VI>Install Custom Actions\Post-Install Custom Action.vi</Post-Install_VI>
-      <Pre-Uninstall_VI>Install Custom Actions\Pre-Uninstall Custom Action.vi</Pre-Uninstall_VI>
+      <Pre-Uninstall_VI/>
       <Post-Uninstall_VI/>
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>Measurement Plug-In SDK Generator.vipc</VI_Package_Configuration_File>
@@ -102,6 +102,12 @@
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path>&lt;vi.lib&gt;\Plug-In SDKs</Path>
       </Additional_Destination>
+      <Additional_Destination>
+        <Name>Palette Files</Name>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path>&lt;menus&gt;\Categories</Path>
+      </Additional_Destination>
     </Destinations>
     <Source_Files>
       <Destination_Overrides>
@@ -170,6 +176,12 @@
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Runtime/Palette Files/Measurement</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>1</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -190,9 +202,6 @@
         <Path>gRPC</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Runtime</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>Tests</Path>
       </Exclusions>
       <Exclusions>
@@ -209,6 +218,27 @@
       </Exclusions>
       <Exclusions>
         <Path>Generator/Measurement Generator Template.lvproj</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Runtime/Clients</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Runtime/Measurements</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Runtime/Sessions</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Runtime/TestStand</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Runtime/Measurement Server.lvproj</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Runtime/Palette Files/Measurement/Measurement Plug-In SDK.mnu</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Runtime/Palette Files/Measurement/_Measurement Plug-In SDK/readonly.txt</Path>
       </Exclusions>
       <Place_Folder_Contents>
         <Path/>
@@ -383,7 +413,7 @@
         <Path>..\Tools</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D77AFEC3444095CFEBC906FBFF966C54</GUID>
+      <GUID>6E59116ACF06C3B324AE566049BEC1F8</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -530,7 +560,7 @@
         <Path>..\Example Measurements\VISA Measurement</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>509CFCF59553B9A8E27BA8D88201E615</GUID>
+      <GUID>E9DC0D8E59EF36263D7778DDCF0C5882</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -579,7 +609,7 @@
         <Path>..\Generator\Measurement Plug-In Template</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>604749965C8AD4C82BD434F16F640CD0</GUID>
+      <GUID>907447E9B97958E8117CEA1E91CDBDFD</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -614,7 +644,7 @@
         <Path>..\gRPC\Generated APIs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F4FD7B3218AB376F4D77B3D35FC08A76</GUID>
+      <GUID>D9317A320F3354C1BA16FCB69D4F64AD</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -677,7 +707,7 @@
         <Path>..\Runtime\Sessions</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A313A0157EFBF707F83AB18CABC9BC60</GUID>
+      <GUID>D84741C35C6D7FBE7EBFD9AB08918418</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -712,7 +742,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>59B30975996307C7656E01D5678A0011</GUID>
+      <GUID>8047A59F51AD2F216AAA9E802F2BF3B4</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -747,7 +777,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>3235CAC7729B656624D5A184ED980ED5</GUID>
+      <GUID>07DE26C626FF23B49765EAA2172E228B</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -782,7 +812,7 @@
         <Path>..\Example Measurements\Game Of Life\Game Of Life</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>96FE44279D796C111A2098353C936DFD</GUID>
+      <GUID>52897F39576ED5BF19B3ABF439F0FA27</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -831,7 +861,7 @@
         <Path>..\Example Measurements\Keysight 34401A DMM Measurement\Keysight 34401A DMM Measurement</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>54D845A0722615308AAD7375D1811A94</GUID>
+      <GUID>3028BD120DD85854B556B792AB7DD794</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -880,7 +910,7 @@
         <Path>..\Example Measurements\Measurement Plug-In Client\Service</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C7311218CB44C9D077D256BAA21FFACD</GUID>
+      <GUID>D47318EF250C3BE0871D7849E08DA8B4</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -915,7 +945,7 @@
         <Path>..\Example Measurements\NI-DCPower Source DC Voltage\NI-DCPower Measurement</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>055006E71FB37B8B89A03FC2F78E6BA3</GUID>
+      <GUID>763449028450C7DF788173CA360087E9</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -950,7 +980,7 @@
         <Path>..\Example Measurements\NI-Digital SPI\NI-Digital Measurement</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>76F295862565021FC18F8D8511F88572</GUID>
+      <GUID>B9C0005A491FBBC3EA95EB4C4E909CFC</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -985,7 +1015,7 @@
         <Path>..\Example Measurements\NI-DMM Measurement\NIDmmMeasurement</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FFD2D81EF0071EE947D70FFEFB55DE59</GUID>
+      <GUID>7443B13FDD0EA275E0E2BD82911C9334</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1020,7 +1050,7 @@
         <Path>..\Example Measurements\NI-FGEN Standard Function\NIFgenStandardFunction</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>812F2E8F5A0FAF2F3AA459C495A3C420</GUID>
+      <GUID>66F6B69ED107A0C45BA8786C1F31C96A</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1055,7 +1085,7 @@
         <Path>..\Example Measurements\NI-SCOPE Acquire Waveform\NI-SCOPE Acquire Waveform</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F7A3486921FB23A5BC8983B0F56EA004</GUID>
+      <GUID>E788DDB544517ECBD98CDD91FBCC9D29</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1090,7 +1120,7 @@
         <Path>..\Example Measurements\VISA Measurement\VISA Measurement</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F2B94C24CA4F328D6C3A49D1DDF0789D</GUID>
+      <GUID>C3D46AD67A5A176C05EFA4C0406E180C</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1139,7 +1169,7 @@
         <Path>..\Example Measurements\Game Of Life\Game Of Life\Measurement Results.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A21A42291B1EB51BD6D99C26ACA706F7</GUID>
+      <GUID>065A87E804DA3E3330C963AAFB516B1F</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -1174,7 +1204,7 @@
         <Path>..\Example Measurements\Keysight 34401A DMM Measurement\Keysight 34401A DMM Instrument\Connection with Session.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6F9B48ED79BC8F8ADFE9C818D4A12794</GUID>
+      <GUID>6CA41C6E2809EBDAF13F98709EF08159</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>8</Parent_Palette_Index>
@@ -1237,7 +1267,7 @@
         <Path>..\Example Measurements\Keysight 34401A DMM Measurement\Keysight 34401A DMM Measurement\Measurement Results.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1BD7FFF068FF36E3FDA99B712033D0F7</GUID>
+      <GUID>F971FEBB0D0B4FB753101C5453736A15</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>18</Parent_Palette_Index>
@@ -1272,7 +1302,7 @@
         <Path>..\Example Measurements\Keysight 34401A DMM Measurement\Keysight 34401A DMM Measurement\subVIs\Keysight 34401A Function.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>434D8D49177926CB058D853BE1E514C8</GUID>
+      <GUID>89CA403482C4CCAFC802C5BA8AA30F5B</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -1307,7 +1337,7 @@
         <Path>..\Example Measurements\Measurement Plug-In Client\Client\Measurement Service Client V2</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4CA17EC7B8A7C6E67315DE3A74257DDC</GUID>
+      <GUID>427A64D984732A41433642833C6E31FB</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -1342,7 +1372,7 @@
         <Path>..\Example Measurements\Measurement Plug-In Client\Service\Service</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F6A1486525115B51E1614109AACDBA23</GUID>
+      <GUID>946AC77603FC498D8C6D83D570F971D1</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>20</Parent_Palette_Index>
@@ -1377,7 +1407,7 @@
         <Path>..\Example Measurements\Measurement Plug-In Client\Client\Measurement Service Client V2\RPC Messages</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>36FE231BDEAB5DFDD307C6E7F6ADECE3</GUID>
+      <GUID>4D5A9F41C40C173645127F6838B3F33F</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>22</Parent_Palette_Index>
@@ -2014,7 +2044,7 @@
         <Path>..\Example Measurements\Measurement Plug-In Client\Client\Measurement Service Client V2\RPC Messages\ni_measurementlink_PinMapContext_Flat.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A1E89E12AF95B11A13FFB35C0D359A2F</GUID>
+      <GUID>E65CEE6AC9015681ECD0DF38D5D3702A</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>21</Parent_Palette_Index>
@@ -2063,7 +2093,7 @@
         <Path>..\Example Measurements\Measurement Plug-In Client\Service\Service\Measurement Results.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0F037DAB4F8E5BAEBAD3696130C9E0E6</GUID>
+      <GUID>67D1C1A2A3E174DCB98FDC88E0286219</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -2112,7 +2142,7 @@
         <Path>..\Example Measurements\NI-DCPower Source DC Voltage\NI-DCPower Measurement\Measurement Results.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BDA5E6D9465CFCFEA74BE96B9AA942D4</GUID>
+      <GUID>D49C6DE9B093338F3D6AA3A3451D1A4F</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -2161,7 +2191,7 @@
         <Path>..\Example Measurements\NI-Digital SPI\NI-Digital Measurement\Measurement Results.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EDD0A6E3C166A76DBC57352F98228251</GUID>
+      <GUID>D9F71624FF79504B014FD939E46ADE17</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>12</Parent_Palette_Index>
@@ -2238,7 +2268,7 @@
         <Path>..\Example Measurements\NI-DMM Measurement\NIDmmMeasurement\ResolutionInDigits.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BEE126D01B956F5711443C7B8430575C</GUID>
+      <GUID>7252DB92399C64B337B8B67D390B0DE6</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>13</Parent_Palette_Index>
@@ -2301,7 +2331,7 @@
         <Path>..\Example Measurements\NI-FGEN Standard Function\NIFgenStandardFunction\Waveform.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>52CDFEF8F4DE5B15B3E3F17C9825F9D1</GUID>
+      <GUID>B1CBF62692E865A9A14B2E4DF05CCF0E</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>14</Parent_Palette_Index>
@@ -2350,7 +2380,7 @@
         <Path>..\Example Measurements\NI-SCOPE Acquire Waveform\NI-SCOPE Acquire Waveform\Measurement Results.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E8F75D25B8938B2F55E86346202B0222</GUID>
+      <GUID>665A6AD3AB927D9BE82DBAC12DFDE0E8</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>15</Parent_Palette_Index>
@@ -2399,7 +2429,7 @@
         <Path>..\Example Measurements\VISA Measurement\VISA Measurement\Measurement Results.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0BA70889FBC6053EE62309B7459CC763</GUID>
+      <GUID>B71F3A6DAA04A9859FA7FABDC60590EE</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2448,7 +2478,7 @@
         <Path>..\Generator\Measurement Plug-In Client Template\Default Value</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2AD635C691ED75D5EA15F7928D865C38</GUID>
+      <GUID>80FEFCA3AD6D3B316812047818B68A00</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -2483,7 +2513,7 @@
         <Path>..\Generator\Measurement Plug-In Template\Measurement</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8EC5ABF4FAC0B671BEA32A7B2B3C3352</GUID>
+      <GUID>CB8E183CD17BD61A7B5DAFCCA57673F5</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>31</Parent_Palette_Index>
@@ -2518,7 +2548,7 @@
         <Path>..\Generator\Measurement Plug-In Client Template\Client\controls</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>00D473C70E41B95B542328C8ADA9CC04</GUID>
+      <GUID>CC19F5C0248662380C06C995C6F3FB89</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>31</Parent_Palette_Index>
@@ -2553,7 +2583,7 @@
         <Path>..\Generator\Measurement Plug-In Client Template\Default Value\Configuration.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6D16F841A9C7222CEC57AD7510757E92</GUID>
+      <GUID>D00EDD782CAA0F537FCB5E0CA30939AD</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>33</Parent_Palette_Index>
@@ -2602,7 +2632,7 @@
         <Path>..\Generator\Measurement Plug-In Client Template\Client\controls\Measurement Results.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>85C6FE20A42E8EDC3357A08F69E3672E</GUID>
+      <GUID>6D00D607763DFE54071AAF5F1705F416</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>32</Parent_Palette_Index>
@@ -2651,7 +2681,7 @@
         <Path>..\Generator\Measurement Plug-In Template\Measurement\Measurement Results.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>08AC558B2127F29CEA65A2560E8B17FD</GUID>
+      <GUID>6359A0749D08CA7AA489289A66215898</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -2686,7 +2716,7 @@
         <Path>..\gRPC\Generated APIs\ni</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3F6CB22808115B5EF76DA67FEFE60EF1</GUID>
+      <GUID>EE3AFCDB868E90B2D1684CB87D85CC6D</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>37</Parent_Palette_Index>
@@ -2735,7 +2765,7 @@
         <Path>..\gRPC\Generated APIs\ni\protobuf</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3C7E7D5F7D72D3319BB490EB03B3EE9F</GUID>
+      <GUID>B879A860772AA211097A21691CA20EA4</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>38</Parent_Palette_Index>
@@ -2812,7 +2842,7 @@
         <Path>..\gRPC\Generated APIs\ni\measurementlink\sessionmanagement</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F07418DA574997A7958CE66B5639AF11</GUID>
+      <GUID>01F59FAC09F536B8EA0399E14E5AABB9</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>38</Parent_Palette_Index>
@@ -2847,7 +2877,7 @@
         <Path>..\gRPC\Generated APIs\ni\protobuf\types</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FA581B9C0B986DC01646F43F68852A1F</GUID>
+      <GUID>EEB8BB6078DBE0622DCB4EAAB08824A5</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>39</Parent_Palette_Index>
@@ -2882,7 +2912,7 @@
         <Path>..\gRPC\Generated APIs\ni\measurementlink\discovery\v1</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C0EED4FAC4CE3A6F1ED90C68CED1E9EC</GUID>
+      <GUID>20AC7A865FD8F0E1886C42FE0389623E</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>39</Parent_Palette_Index>
@@ -2931,7 +2961,7 @@
         <Path>..\gRPC\Generated APIs\ni\measurementlink\measurement\v2</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>92A5714A0AFD4FFC10F76FBFBE20B042</GUID>
+      <GUID>2181BD4BE219CBD5F4C5B7663D76A91E</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>39</Parent_Palette_Index>
@@ -2966,7 +2996,7 @@
         <Path>..\gRPC\Generated APIs\ni\measurementlink\pinmap\v1</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AE0F0CD0252480D88493E1665BE4001F</GUID>
+      <GUID>E0E183EFCA57F4E9BEB4F84E9E62EE0A</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>39</Parent_Palette_Index>
@@ -3001,7 +3031,7 @@
         <Path>..\gRPC\Generated APIs\ni\measurementlink\sessionmanagement\v1</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9DC9086E0E5C135EB5148D461D8EFD29</GUID>
+      <GUID>2198F09C66A8BD6C2207E9A4F99F1B3A</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>41</Parent_Palette_Index>
@@ -3036,7 +3066,7 @@
         <Path>..\gRPC\Generated APIs\ni\measurementlink\discovery\v1\RPC Messages</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0BE01049EB9E9BB830F83C85E58F0236</GUID>
+      <GUID>1EC8207A0D050ABCACEB06DF13362631</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>45</Parent_Palette_Index>
@@ -3477,7 +3507,7 @@
         <Path>..\gRPC\Generated APIs\ni\measurementlink\discovery\v1\RPC Messages\ni_measurementlink_discovery_v1_UnregisterServiceResponse_Flat.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9FA1F7486E18333B79F8D7243ECBCE1D</GUID>
+      <GUID>2A8F01CC467193A0FB5A1B31ADDFE5D9</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>42</Parent_Palette_Index>
@@ -3526,7 +3556,7 @@
         <Path>..\gRPC\Generated APIs\ni\measurementlink\measurement\v1\RPC Service</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0683F4F9AF2A0A79FE56383E7569AFC4</GUID>
+      <GUID>CD1FBDE31E920E4CE8653FFEF5FF2B14</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>42</Parent_Palette_Index>
@@ -3589,7 +3619,7 @@
         <Path>..\gRPC\Generated APIs\ni\measurementlink\measurement\v2\RPC Service</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>49806CF5F84A78FE49EC2E3E701A83DB</GUID>
+      <GUID>2D69D989817A8E1D2D5558C72F2557E9</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>47</Parent_Palette_Index>
@@ -4198,7 +4228,7 @@
         <Path>..\gRPC\Generated APIs\ni\measurementlink\measurement\v1\RPC Messages\ni_measurementlink_PinMapContext_Flat.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>39553C4772FFBD6F3191ABEBCB63636D</GUID>
+      <GUID>47F8EFCA07F4F51F20BF4BB0F9FB919C</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>47</Parent_Palette_Index>
@@ -4233,7 +4263,7 @@
         <Path>..\gRPC\Generated APIs\ni\measurementlink\measurement\v1\RPC Service\MeasurementService</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9387F0B49031D3C05FB179CDB3ACE724</GUID>
+      <GUID>6D42FA1E6E8DA3BDF4BB56672C78BE2A</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>50</Parent_Palette_Index>
@@ -4268,7 +4298,7 @@
         <Path>..\gRPC\Generated APIs\ni\measurementlink\measurement\v1\RPC Service\MeasurementService\typeDefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F8F4959669965BB99E51DDDCF8AFDBCB</GUID>
+      <GUID>AA91F0D308FF9B712E17463ADFC9C031</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>51</Parent_Palette_Index>
@@ -4345,7 +4375,7 @@
         <Path>..\gRPC\Generated APIs\ni\measurementlink\measurement\v1\RPC Service\MeasurementService\typeDefs\Server Internal UEs.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>75CC0A23668C1AFA0C89862D742626A4</GUID>
+      <GUID>3DB2E815DA2F31BEF0D5D6774D916A6B</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>48</Parent_Palette_Index>
@@ -4380,7 +4410,7 @@
         <Path>..\gRPC\Generated APIs\ni\measurementlink\measurement\v2\Measurement Service Client V2\RPC Messages</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F69DA469D1319CF615FEACD89B6787DE</GUID>
+      <GUID>E366703250553DBA5CEFF16C06484FF9</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>48</Parent_Palette_Index>
@@ -5017,7 +5047,7 @@
         <Path>..\gRPC\Generated APIs\ni\measurementlink\measurement\v2\RPC Messages\ni_measurementlink_PinMapContext_Flat.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>25CE53D8BC843843711CD12E6B662F7B</GUID>
+      <GUID>CE8EB85763BDE4CD4BDA5B8B646F7EC8</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>48</Parent_Palette_Index>
@@ -5052,7 +5082,7 @@
         <Path>..\gRPC\Generated APIs\ni\measurementlink\measurement\v2\RPC Service\MeasurementService</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1445AA6CFFB8B41D3AE0C8ACDF6A9D96</GUID>
+      <GUID>9112176D1D1C7C099B491D883AF0FA1F</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>53</Parent_Palette_Index>
@@ -5689,7 +5719,7 @@
         <Path>..\gRPC\Generated APIs\ni\measurementlink\measurement\v2\Measurement Service Client V2\RPC Messages\ni_measurementlink_PinMapContext_Flat.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B72457786AAEEEB028FAACFE30698A09</GUID>
+      <GUID>3186C67926AD99DAC45AEF8996D9AA8E</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>55</Parent_Palette_Index>
@@ -5724,7 +5754,7 @@
         <Path>..\gRPC\Generated APIs\ni\measurementlink\measurement\v2\RPC Service\MeasurementService\typeDefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>42975A340EDB08157B2D8ECB7660CD2B</GUID>
+      <GUID>460A3C967ACC9FD2E6C0127F3F0A1DB2</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>57</Parent_Palette_Index>
@@ -5801,7 +5831,7 @@
         <Path>..\gRPC\Generated APIs\ni\measurementlink\measurement\v2\RPC Service\MeasurementService\typeDefs\Server Internal UEs.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B4EB3DE66C7AB7C48FDA1F7A1148BB00</GUID>
+      <GUID>7E260B2F8A74DB68685934885B5A8D06</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>43</Parent_Palette_Index>
@@ -5836,7 +5866,7 @@
         <Path>..\gRPC\Generated APIs\ni\measurementlink\pinmap\v1\RPC Messages</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EC93B45D8B0B1748C9DF87ED0E6580C8</GUID>
+      <GUID>5E84D0EFA0333BF1073C43BE622C0247</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>59</Parent_Palette_Index>
@@ -6361,7 +6391,7 @@
         <Path>..\gRPC\Generated APIs\ni\measurementlink\pinmap\v1\RPC Messages\ni_measurementlink_pinmap_v1_UpdatePinMapFromXmlRequest_Flat.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>164326135B2BA9D44AB654A9F90C9430</GUID>
+      <GUID>0E96BA51DB34255540DBDA30987DD486</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>44</Parent_Palette_Index>
@@ -6396,7 +6426,7 @@
         <Path>..\gRPC\Generated APIs\ni\measurementlink\sessionmanagement\v1\RPC Messages</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8F9E4C81D9C90DCC56F4E06B7D157EB4</GUID>
+      <GUID>FD25EC994C02943C3914F9B718330CF5</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>61</Parent_Palette_Index>
@@ -7145,7 +7175,7 @@
         <Path>..\gRPC\Generated APIs\ni\measurementlink\sessionmanagement\v1\RPC Messages\nidevice_grpc_SessionInitializationBehavior_Flat.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7C887D8020645771475C1346213E6E3C</GUID>
+      <GUID>1FEF9E5E60CE9BBF92147BDC8D1E0624</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>40</Parent_Palette_Index>
@@ -7180,7 +7210,7 @@
         <Path>..\gRPC\Generated APIs\ni\protobuf\types\RPC Messages</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4A145C4739AFF32444010CEF999812C5</GUID>
+      <GUID>035C31FBCED0F33D25CB170EF3D18069</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>63</Parent_Palette_Index>
@@ -7341,7 +7371,7 @@
         <Path>..\gRPC\Generated APIs\ni\protobuf\types\RPC Messages\ni_protobuf_types_WaveformAttributeValue_Flat.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7ED8394AECE3DBA09143560BD6E716D2</GUID>
+      <GUID>5A14999B59AA7D109921A8F88E9F121F</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -7390,7 +7420,7 @@
         <Path>..\Runtime\Clients\Session Management V1</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4EA488F357CB1B120174439E7C717C46</GUID>
+      <GUID>C34C3C0AB053E988DF6F5CA9B4F71E30</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -7467,7 +7497,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>3FB39941D6E7B9CE2047E6E575507FFA</GUID>
+      <GUID>519408BBB8C99AD51BD247B2AE4D821F</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -7586,7 +7616,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>3C8068404B9A2F6DBFC1825F06D63C7C</GUID>
+      <GUID>990BEEEFE5ADDC72149C266551A5633B</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>65</Parent_Palette_Index>
@@ -7621,7 +7651,7 @@
         <Path>..\Runtime\Clients\Discovery V1\TypeDefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2619854D024A4F0EA52B51552A44962B</GUID>
+      <GUID>52834B818B503753E887DDD4C78872DB</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>65</Parent_Palette_Index>
@@ -7656,7 +7686,7 @@
         <Path>..\Runtime\Clients\Session Management V1\Session Reservation</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C1312310572D9220ABDC1D0AE71284D3</GUID>
+      <GUID>5B3A1029C1B3EC40CC90C33ADD1F4EFB</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>68</Parent_Palette_Index>
@@ -7733,7 +7763,7 @@
         <Path>..\Runtime\Clients\Discovery V1\TypeDefs\Service Location Map Value.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E08684E0336AE8744A1C0BDB23EB2037</GUID>
+      <GUID>74B64BA4B5C49853058633004734BE3E</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>69</Parent_Palette_Index>
@@ -7852,7 +7882,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>B91CA7AE99A73C73F358915553EE5731</GUID>
+      <GUID>C42776BDC973D1E2A80CB3F39BF73453</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>66</Parent_Palette_Index>
@@ -7887,7 +7917,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>B0895563373852BFE84EFA86FC25C2C3</GUID>
+      <GUID>D002C2556ADC07AB37B24F6B27824E65</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>66</Parent_Palette_Index>
@@ -7922,7 +7952,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>446A781FD40477552A3A8882D7AB6712</GUID>
+      <GUID>1477C9923D66814F926BB6022ED2205B</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>66</Parent_Palette_Index>
@@ -7957,7 +7987,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>5B37C4C419643E7D9052861219661F32</GUID>
+      <GUID>B27A077C284F412C5383B4D85EECB909</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>66</Parent_Palette_Index>
@@ -7992,7 +8022,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>383717F15E89B647CA847BC99437B072</GUID>
+      <GUID>2867F6FBDCFF6F7A216DFF23E2ABA67D</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>73</Parent_Palette_Index>
@@ -8293,7 +8323,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>0B0CE3577524BDF2AED4E39F72FA9F41</GUID>
+      <GUID>A4858F171AA3597920018F2C752AE6C0</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>67</Parent_Palette_Index>
@@ -8328,7 +8358,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>544CDD1085A771BDEC425F0651EFF5B1</GUID>
+      <GUID>EDA0E475D35270ECC13614B232F04E3E</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>67</Parent_Palette_Index>
@@ -8363,7 +8393,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>2B1BF46E818430C15C6192AA0376BB45</GUID>
+      <GUID>01B7115220888DE25B97D970FAE4D48A</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>67</Parent_Palette_Index>
@@ -8398,7 +8428,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>8A2B9EB3A90246EC25DB9125ECD59FAA</GUID>
+      <GUID>CFE28CF7344E69174D29F6BF4A6BBD60</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>67</Parent_Palette_Index>
@@ -8433,7 +8463,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>0F6F7F3B44D05F782D1B279FB6EA434D</GUID>
+      <GUID>C7E8C331159121649A1227F4126F6CCD</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>67</Parent_Palette_Index>
@@ -8468,7 +8498,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>8490ABA39ABED66616B86682112348F9</GUID>
+      <GUID>714282F756761C74DE86E36B2119BBC8</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>67</Parent_Palette_Index>
@@ -8503,7 +8533,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>4EB82F9BE4D7C2C56C27C32B5A152347</GUID>
+      <GUID>12225FCF62A230C7C6E6A51220759374</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>67</Parent_Palette_Index>
@@ -8538,7 +8568,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>E62D2166180E062022C452EE0FC29666</GUID>
+      <GUID>711BDAD0420AB664CA4B259B00EF33BF</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>77</Parent_Palette_Index>
@@ -8601,7 +8631,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>0A012EC2B7B7D311B7B4CB96FE774E55</GUID>
+      <GUID>EF7EC77E4028858BEB26480E5F834CB5</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -8636,7 +8666,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>DFDC3C1E940B46B599F7D6B45A242C26</GUID>
+      <GUID>D391CDE9E3A3B295667D97316294DE43</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>85</Parent_Palette_Index>
@@ -8699,7 +8729,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>327D5EF7493635D6E2CD6BECB85F039C</GUID>
+      <GUID>239951238DB1C120FE24141305EA37CB</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>86</Parent_Palette_Index>
@@ -8748,7 +8778,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>6720C673D3AA0654D4E8EC2DC171B86F</GUID>
+      <GUID>86C9A43DFFFB42835C766E9B3F13D756</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>86</Parent_Palette_Index>
@@ -8783,7 +8813,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>5F43EF15C69D96C2EA138CEA7C47D856</GUID>
+      <GUID>3082D64F962345AEA5598418A6B11425</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>86</Parent_Palette_Index>
@@ -8902,7 +8932,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>2101C159A5400647BFA20E930F96FB85</GUID>
+      <GUID>68638CC7D83C481510145D063C58DD90</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>88</Parent_Palette_Index>
@@ -8937,7 +8967,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>C0BFB4C5E9D24F1BF71B1DF88DE9478F</GUID>
+      <GUID>B1E044F62FBF594A73DD7F3AD95FA572</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>89</Parent_Palette_Index>
@@ -8972,7 +9002,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>47F42D193ED17BA0A99BE58B8A333944</GUID>
+      <GUID>902E42960801B0318D0EC29D301D0568</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -9007,7 +9037,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>51256D21187ABBFC890DA351FE9216CE</GUID>
+      <GUID>D332079D037F21484C6E6EF089AFA765</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
