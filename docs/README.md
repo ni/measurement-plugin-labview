@@ -7,6 +7,7 @@
   - [Developing a LabVIEW measurement](#developing-a-labview-measurement)
   - [Running a LabVIEW measurement](#running-a-labview-measurement)
   - [Generating a LabVIEW measurement client](#generating-a-labview-measurement-client)
+    - [Generating a LabVIEW measurement client programmatically](#generating-a-labview-measurement-client-programmatically)
   - [Running a LabVIEW measurement client](#running-a-labview-measurement-client)
   - [Examples](#examples)
   - [Using a measurement in InstrumentStudio](#using-a-measurement-in-instrumentstudio)
@@ -136,6 +137,26 @@ Note:
     - This will create a new measurement client library in the project.
 
       ![Measurement client library files](images/Measurement%20client%20library%20files.png)
+
+### Generating a LabVIEW measurement client programmatically
+
+This helps to facilitate the integration and automation of the client generation process in LabVIEW
+applications, which in turn helps in streamlining the process of invoking measurements within the
+user application.
+
+- For generating a LabVIEW measurement client programmatically  
+  - Open the Block Diagram of your application (or) Create and save a new VI.
+  - Navigate to `Measurement I/O` → `Measurement Plug-In SDK` → `Client Generator` → `Generate
+    Client.vi` in the palette.
+
+    ![Generate Client VI](images/Generate%20Client%20VI.png)
+
+  - Drag the `Generate Client.vi` to the Block diagram.
+  - Wire the `service class` name of any available measurement plug-in and a valid `project path` to
+    this VI to generate client for the measurement plug-in.
+  - By default, the `Generate Client.vi` creates a measurement plug-in client library named after
+    the service class. If you want to use a different name for the client library, you can provide a
+    custom name through the `client name` input of the VI.
 
 Note:
 
