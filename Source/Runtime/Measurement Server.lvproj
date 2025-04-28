@@ -86,7 +86,6 @@
 				<Item Name="VISA gRPC Open Close Behavior.ctl" Type="VI" URL="/&lt;vilib&gt;/NI-VISA/VISA gRPC Open Close Behavior.ctl"/>
 				<Item Name="VISA Open Access Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Open Access Mode.ctl"/>
 				<Item Name="VISA Open for gRPC Session.vi" Type="VI" URL="/&lt;vilib&gt;/NI-VISA/VISA Open for gRPC Session.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
@@ -175,9 +174,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="ni.protobuf.types.lvlib" Type="Library" URL="../../gRPC/Generated APIs/ni/protobuf/types/ni.protobuf.types.lvlib"/>
-			<Item Name="nidmm_32.dll" Type="Document" URL="nidmm_32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
