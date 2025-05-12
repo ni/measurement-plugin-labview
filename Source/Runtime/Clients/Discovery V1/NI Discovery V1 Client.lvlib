@@ -13,6 +13,7 @@
 		<Item Name="MeasurementServerTests.lvlib" Type="Friended Library" URL="../../../../Tests/Tests.Runtime/Measurement Server/MeasurementServerTests.lvlib"/>
 		<Item Name="NI Pin Map V1 Client.lvlib" Type="Friended Library" URL="../../Pin Map V1/NI Pin Map V1 Client.lvlib"/>
 		<Item Name="MeasurementServerTests.lvlib:Pin Map Tests.lvlib" Type="Friended Library" URL="../../../../Tests/Tests.Runtime/Measurement Server/Pin Map/Pin Map Tests.lvlib"/>
+		<Item Name="NI Measurement Plug-In SDK.lvlib" Type="Friended Library" URL="../../../Measurements/NI Measurement Plug-In SDK.lvlib"/>
 	</Item>
 	<Item Name="Discovery Client Wrapper" Type="Folder">
 		<Item Name="Create Client.vi" Type="VI" URL="../Create Client.vi">
