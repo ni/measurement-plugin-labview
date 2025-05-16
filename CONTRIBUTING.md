@@ -32,11 +32,19 @@ When making changes to LabVIEW code, it is recommended that you use LabVIEW 2024
 ### LabVIEW Code Style Guidelines
 
 While this is not intended to be a comprehensive list of all coding conventions, it does call out some of the more important guidelines to retain consistency across this repo.
-1. Use book title casing for VI names.
+1. Use book title casing for VI names. 
+   - :heavy_check_mark: `My Custom Measurement.vi`
+   - :x: `my custom measurement.vi` 
+   - :x: `myCustomMeasurement.vi`
+   - :x: `MyCustomMeasurement.vi`
+   - :x: `my_custom_measurement.vi`
 1. Terminal names should be all lower case.
-1. Control and indicator labels should be placed to the left and right respectively on the block diagram.
-1. Keep block diagrams neat and tidy. In general, straight "railroad" tracks are preferred when possible.
-1. Do not use icons for front panel terminals on the block diagram.
+   - :heavy_check_mark: `my terminal name.vi`
+   - :x: `My Terminal Name.vi`
+1. Control and indicator labels should be placed to the left and right respectively on the block diagram. Consider making this the default behavior by updating block diagram options under the LabVIEW Tools -> Options menu.
+1. Do not use icons for front panel terminals on the block diagram. Consider making this the default behavior by updating block diagram options under the LabVIEW Tools -> Options menu.
+1. Keep block diagrams neat and tidy. In general, straight "railroad" tracks are preferred when possible. Use `Clean Up Diagram` **(Ctrl + U)** at your discretion to help manage this.
+1. All front panels should have the `Clean Up Panel` command **(Ctrl + U)** applied to them. Do not spend time manually aligning the panels to a custom layout unless it is a dialog or some other UI presented to the user.
 1. Mark terminals as Required/Recommended as appropriate. Use of Optional terminals is discouraged. It is recommended you change the LabVIEW front panel options so that "Connector pane terminals default to Required" is enabled.
 1. Provide a reasonable text icon for all VIs.
 1. Be mindful of VI reentrancy settings. This repo utilizes reentrant VIs more than typical LabVIEW code as it is often required to achieve parallelism of multiple RPCs operating in parallel. A single non-reentrant VI in the call chain can destroy this parallelism.
@@ -137,7 +145,7 @@ Once you have installed the required software, you can run all tests by opening 
 
 ### Running Automated Tests
 
-Automated testing for the repo is controlled by the ["Run G Tests"](.github/workflows/run_g_tests.yml) workflow and is triggered by pull requests and pushes to the main branch. In addition to the requirements described for manual testing, this workflow utilizes the LabVIEW CLI to run tests and is invoked from the [run_tests.py](Source/Tests/run_tests.py) script. This requires that VI Server is enabled for each version of LabVIEW tested and that unique ports are configured for each LabVIEW version. The self hosted runner used for the workflow is managed internal to NI and utilizes an AWS AMI to execute the tests. When testing against new versions of dependencies is desired or required, the image for the self hosted runner must be updated and redeployed. There is a pipeline internal to NI which can be manually triggered to perform this update. 
+Automated testing for the repo is controlled by the ["Run G Tests"](.github/workflows/run_g_tests.yml) workflow and is triggered by pull requests and pushes to the main branch. In addition to the requirements described for manual testing, this workflow utilizes the LabVIEW CLI to run tests and is invoked from the [run_tests.py](Source/Tests/run_tests.py) script. This requires that VI Server is enabled for each version of LabVIEW tested and that unique ports are configured for each LabVIEW version. The self hosted runner used for the workflow is managed internal to NI and utilizes an [AWS AMI](https://forums.ni.com/t5/LabVIEW-Idea-Exchange/Overhaul-the-LabVIEW-Style-Checklist-inside-LabVIEW-help/idi-p/4388337) to execute the tests. When testing against new versions of dependencies is desired or required, the image for the self hosted runner must be updated and redeployed. There is a pipeline internal to NI which can be manually triggered to perform this update. 
 
 The VIPM packages are also part of this self hosted runner image (they are not installed as part of each run of the workflow). The configuration controlling which versions of these packages are installed currently points at assets attached to a release in the repo. So if you want to update the version of `grpc-labview` utilized by automated tests, you will need to:
 1. Create a new release for this repo that is exactly the same as the previous release except that newer versions of `grpc-labview` packages are attached to the release. See release [v3.3.1.2](https://github.com/ni/measurement-plugin-labview/releases/tag/v3.3.1.2) as an example of this.
