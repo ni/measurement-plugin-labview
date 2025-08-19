@@ -1,0 +1,2 @@
+This test measurement exists to test compatibility with older versions of the measurement template where the plugin VIs were called by reference using VI server.
+As such, its implementation should not be updated to reflect the latest measurement template.

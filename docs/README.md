@@ -81,7 +81,19 @@ LabVIEW UI in InstrumentStudio.
 
     ![Measurement Logic VI](images/Measurement%20Logic%20VI.png)
 
-7. Add your user interface to `Measurement UI.vi`. The control and indicator
+7. Add cancellation logic to `Wait Until Cancelled or Complete.vi` if needed. For long
+   running or indeterminate measurements (e.g. triggered measurements), it is
+   recommended the measurement monitor for cancellation requests from the client
+   so it can abort the measurement and free up resources for subsequent calls in a
+   timely manner. Failure to do so may result in user interfaces that do not seem responsive
+   when stopped before completing normally from the client. Since the cancellation logic will
+   be specific to each measurement, modify the connector pane to pass inputs as required in
+   order to cancel the measurement. If the measurement will always complete in a short
+   period of time, cancellation logic can be omitted from the measurement. 
+
+    ![Measurement Cancellation](images/Measurement%20Cancellation.png)
+
+8. Add your user interface to `Measurement UI.vi`. The control and indicator
 labels in the user interface must match the `Measurement Configuration` and
 `Measurement Results` labels. If the data types and labels match, then the data
 from the controls will be sent to the `Measurement Logic.vi` and the results
@@ -105,7 +117,10 @@ Note:
   `Bookmark Manager` menu. In this window, you will find the bookmark term
   `#MeasurementToDo`. Double-clicking on the items will take you to the VI
   locations where changes need to be made for creating your unique measurement
-  service.
+  service. VIs generated under the `Framework Defined` project folder do not
+  contain to-dos and should not require modification except in advanced use
+  cases. In contrast, VIs generated under the `User Defined` project folder
+  contain to-dos where measurement specific customization should be implemented.
 - A list of supported datatypes for the `Configuration` and `Output` parameters
   of the measurement can be found in the NI Measurement Plug-In Support manual
   [here](https://www.ni.com/docs/en-US/bundle/measurementplugins/page/supported-datatypes.html)

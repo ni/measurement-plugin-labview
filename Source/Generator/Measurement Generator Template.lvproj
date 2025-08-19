@@ -16,7 +16,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Default Value Template.lvlib" Type="Library" URL="../Measurement Plug-In Client Template/Default Value/Default Value Template.lvlib"/>
 		<Item Name="Measurement Client Template.lvlib" Type="Library" URL="../Measurement Plug-In Client Template/Client/Measurement Client Template.lvlib"/>
-		<Item Name="Measurement Template.lvlib" Type="Library" URL="../Measurement Plug-In Template/Measurement/Measurement Template.lvlib"/>
+		<Item Name="Measurement Plugin Template.lvclass" Type="LVClass" URL="../Measurement Plug-In Template/Measurement/Measurement Plugin Template.lvclass"/>
 		<Item Name="Measurement UI Template.lvlib" Type="Library" URL="../Measurement Plug-In Template/UI/Measurement UI Template.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -89,6 +89,7 @@
 				<Item Name="Measurement Service Client V2.lvlib" Type="Library" URL="/&lt;vilib&gt;/gRPC/Generated APIs/ni/measurementlink/measurement/v2/Measurement Service Client V2/Measurement Service Client V2.lvlib"/>
 				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
+				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
