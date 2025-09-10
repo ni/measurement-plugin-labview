@@ -23,13 +23,12 @@
 	<Item Name="Assert All Sessions Exist.vi" Type="VI" URL="../Assert All Sessions Exist.vi"/>
 	<Item Name="Assert Session Count.vi" Type="VI" URL="../Assert Session Count.vi"/>
 	<Item Name="Assert Session Reservation Session Count.vi" Type="VI" URL="../Assert Session Reservation Session Count.vi"/>
+	<Item Name="test_SessionReservationInfo_ReserveSessions_SessionAnnotationsPopulated.vi" Type="VI" URL="../test_SessionReservationInfo_ReserveSessions_SessionAnnotationsPopulated.vi"/>
+	<Item Name="test_SessionReservationInfo_ReserveSessions_SessionReservedBooleanTrue.vi" Type="VI" URL="../test_SessionReservationInfo_ReserveSessions_SessionReservedBooleanTrue.vi"/>
 	<Item Name="test_SessionsRegistered_ReserveRegisteredSessions_ReservesAllSessions.vi" Type="VI" URL="../test_SessionsRegistered_ReserveRegisteredSessions_ReservesAllSessions.vi"/>
 	<Item Name="test_SessionsRegistered_ReserveSessions_IndicatesSessionsExist.vi" Type="VI" URL="../test_SessionsRegistered_ReserveSessions_IndicatesSessionsExist.vi"/>
 	<Item Name="test_SessionsReserved_ReserveSessions_ReturnsError.vi" Type="VI" URL="../test_SessionsReserved_ReserveSessions_ReturnsError.vi"/>
 	<Item Name="test_SessionsReserved_UnreserveSessions_SessionsCanBeReservedAgain.vi" Type="VI" URL="../test_SessionsReserved_UnreserveSessions_SessionsCanBeReservedAgain.vi"/>
 	<Item Name="test_SessionsUnregistered_ReserveSessions_IndicatesSessionsDoNotExist.vi" Type="VI" URL="../test_SessionsUnregistered_ReserveSessions_IndicatesSessionsDoNotExist.vi"/>
 	<Item Name="test_SessionsUnreserved_AnyActionOtherThanReserve_ReturnsError.vi" Type="VI" URL="../test_SessionsUnreserved_AnyActionOtherThanReserve_ReturnsError.vi"/>
-	<Item Name="test_SessionReservationInfo_ReserveSessions_SessionReservedBooleanTrue.vi" Type="VI" URL="../test_SessionReservationInfo_ReserveSessions_SessionReservedBooleanTrue.vi"/>
-	<Item Name="test_SessionReservationInfo_ReserveSessions_SessionAnnotationsPopulated.vi" Type="VI" URL="../test_SessionReservationInfo_ReserveSessions_SessionAnnotationsPopulated.vi"/>
-	<Item Name="test_SessionReservationInfo_ReserveSessions_SessionNamePrependedByInstrumentTypeId.vi" Type="VI" URL="../test_SessionReservationInfo_ReserveSessions_SessionNamePrependedByInstrumentTypeId.vi"/>
 </Library>
