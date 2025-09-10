@@ -29,4 +29,7 @@
 	<Item Name="test_SessionsReserved_UnreserveSessions_SessionsCanBeReservedAgain.vi" Type="VI" URL="../test_SessionsReserved_UnreserveSessions_SessionsCanBeReservedAgain.vi"/>
 	<Item Name="test_SessionsUnregistered_ReserveSessions_IndicatesSessionsDoNotExist.vi" Type="VI" URL="../test_SessionsUnregistered_ReserveSessions_IndicatesSessionsDoNotExist.vi"/>
 	<Item Name="test_SessionsUnreserved_AnyActionOtherThanReserve_ReturnsError.vi" Type="VI" URL="../test_SessionsUnreserved_AnyActionOtherThanReserve_ReturnsError.vi"/>
+	<Item Name="test_SessionReservationInfo_ReserveSessions_SessionReservedBooleanTrue.vi" Type="VI" URL="../test_SessionReservationInfo_ReserveSessions_SessionReservedBooleanTrue.vi"/>
+	<Item Name="test_SessionReservationInfo_ReserveSessions_SessionAnnotationsPopulated.vi" Type="VI" URL="../test_SessionReservationInfo_ReserveSessions_SessionAnnotationsPopulated.vi"/>
+	<Item Name="test_SessionReservationInfo_ReserveSessions_SessionNamePrependedByInstrumentTypeId.vi" Type="VI" URL="../test_SessionReservationInfo_ReserveSessions_SessionNamePrependedByInstrumentTypeId.vi"/>
 </Library>
