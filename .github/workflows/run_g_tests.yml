@@ -7,7 +7,7 @@ on:
 jobs:
   run_g_tests:
     name: Run G Tests LV${{ matrix.version }}
-    runs-on: 
+    runs-on:
       - self-hosted
       - windows
       - x64
@@ -15,7 +15,7 @@ jobs:
     strategy:
       matrix:
         version: ["2021", "2022", "2023"]
-        include: 
+        include:
           - version: 2021
             port: "3364"
           - version: 2022
@@ -33,6 +33,10 @@ jobs:
       with:
         python-version: '3.13'
 
+    - name: Update LabVIEW ini
+      run:
+        python ${{runner.workspace}}/measurement-plugin-labview/Source/Tests/update_labview_ini.py ${{ matrix.version }}
+
     - name: Open LabVIEW ${{ matrix.version }}
       run: |
         Start-Process "C:\\Program Files\\National Instruments\\LabVIEW ${{ matrix.version }}\\LabVIEW.exe"
@@ -44,7 +48,7 @@ jobs:
       timeout-minutes: 20
 
     - name: Close LabVIEW ${{ matrix.version }}
-      run: 
+      run:
         wmic process where name="LabVIEW.exe" call terminate
       shell: cmd
       if: always()
