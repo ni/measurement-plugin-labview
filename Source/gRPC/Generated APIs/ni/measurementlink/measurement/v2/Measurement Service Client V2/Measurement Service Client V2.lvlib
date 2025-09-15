@@ -107,15 +107,6 @@
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
 		</Item>
-		<Item Name="ni_measurementlink_PinMapContext" Type="Folder">
-			<Item Name="ni_measurementlink_PinMapContext.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_PinMapContext.ctl"/>
-			<Item Name="FlatToRichni_measurementlink_PinMapContext.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_PinMapContext.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-			<Item Name="RichToFlatni_measurementlink_PinMapContext.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_PinMapContext.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-		</Item>
 		<Item Name="google_protobuf_Any" Type="Folder">
 			<Item Name="google_protobuf_Any.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Any.ctl"/>
 			<Item Name="FlatToRichgoogle_protobuf_Any.vi" Type="VI" URL="../RPC Messages/FlatToRichgoogle_protobuf_Any.vi">
@@ -125,12 +116,12 @@
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
 		</Item>
-		<Item Name="google_protobuf_SourceContext" Type="Folder">
-			<Item Name="google_protobuf_SourceContext.ctl" Type="VI" URL="../RPC Messages/google_protobuf_SourceContext.ctl"/>
-			<Item Name="FlatToRichgoogle_protobuf_SourceContext.vi" Type="VI" URL="../RPC Messages/FlatToRichgoogle_protobuf_SourceContext.vi">
+		<Item Name="ni_measurementlink_PinMapContext" Type="Folder">
+			<Item Name="ni_measurementlink_PinMapContext.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_PinMapContext.ctl"/>
+			<Item Name="FlatToRichni_measurementlink_PinMapContext.vi" Type="VI" URL="../RPC Messages/FlatToRichni_measurementlink_PinMapContext.vi">
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
-			<Item Name="RichToFlatgoogle_protobuf_SourceContext.vi" Type="VI" URL="../RPC Messages/RichToFlatgoogle_protobuf_SourceContext.vi">
+			<Item Name="RichToFlatni_measurementlink_PinMapContext.vi" Type="VI" URL="../RPC Messages/RichToFlatni_measurementlink_PinMapContext.vi">
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
 		</Item>
@@ -176,6 +167,15 @@
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
 			<Item Name="RichToFlatgoogle_protobuf_Option.vi" Type="VI" URL="../RPC Messages/RichToFlatgoogle_protobuf_Option.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+		</Item>
+		<Item Name="google_protobuf_SourceContext" Type="Folder">
+			<Item Name="google_protobuf_SourceContext.ctl" Type="VI" URL="../RPC Messages/google_protobuf_SourceContext.ctl"/>
+			<Item Name="FlatToRichgoogle_protobuf_SourceContext.vi" Type="VI" URL="../RPC Messages/FlatToRichgoogle_protobuf_SourceContext.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+			<Item Name="RichToFlatgoogle_protobuf_SourceContext.vi" Type="VI" URL="../RPC Messages/RichToFlatgoogle_protobuf_SourceContext.vi">
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
 		</Item>
@@ -249,18 +249,13 @@
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
 		</Item>
-		<Item Name="ni_measurementlink_PinMapContext_Flat" Type="Folder">
-			<Item Name="ni_measurementlink_PinMapContext_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_PinMapContext_Flat.ctl">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-		</Item>
 		<Item Name="google_protobuf_Any_Flat" Type="Folder">
 			<Item Name="google_protobuf_Any_Flat.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Any_Flat.ctl">
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
 		</Item>
-		<Item Name="google_protobuf_SourceContext_Flat" Type="Folder">
-			<Item Name="google_protobuf_SourceContext_Flat.ctl" Type="VI" URL="../RPC Messages/google_protobuf_SourceContext_Flat.ctl">
+		<Item Name="ni_measurementlink_PinMapContext_Flat" Type="Folder">
+			<Item Name="ni_measurementlink_PinMapContext_Flat.ctl" Type="VI" URL="../RPC Messages/ni_measurementlink_PinMapContext_Flat.ctl">
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
 		</Item>
@@ -286,6 +281,11 @@
 		</Item>
 		<Item Name="google_protobuf_Option_Flat" Type="Folder">
 			<Item Name="google_protobuf_Option_Flat.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Option_Flat.ctl">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+		</Item>
+		<Item Name="google_protobuf_SourceContext_Flat" Type="Folder">
+			<Item Name="google_protobuf_SourceContext_Flat.ctl" Type="VI" URL="../RPC Messages/google_protobuf_SourceContext_Flat.ctl">
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
 		</Item>
