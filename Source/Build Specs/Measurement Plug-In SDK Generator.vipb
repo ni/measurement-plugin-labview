@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2025-08-19 15:18:42" Creator="lvadmin" Comments="" ID="45489d0519c02d0500f499429f891cd7">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-01-23 14:05:21" Modified_Date="2025-10-03 08:06:14" Creator="lvadmin" Comments="" ID="4b2cea3bbfd4f5b7dc689e5b01fd3316">
   <Library_General_Settings>
     <Package_File_Name>ni_measurement_plugin_sdk_generator</Package_File_Name>
-    <Library_Version>3.6.0.1</Library_Version>
+    <Library_Version>3.5.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\..\Build Output</Library_Output_Folder>
@@ -18,7 +18,7 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <Additional_External_Dependencies>ni_lib_labview_grpc_library &gt;=1.2.7.1</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_measurement_plugin_sdk_service &gt;=3.6.0.1</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_measurement_plugin_sdk_service &gt;=3.5.0.2</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI>Build Custom Actions\Pre-Build Custom Action.vi</Pre-Build_VI>
