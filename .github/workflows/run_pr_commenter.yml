@@ -17,9 +17,9 @@ jobs:
     - name: Enable git long paths
       run: git config  --global core.longpaths true
 
-    - uses: actions/checkout@v5
+    - uses: actions/checkout@v6
 
-    - uses: actions/checkout@v5
+    - uses: actions/checkout@v6
       with:
         ref: main
         path: target_for_diff
