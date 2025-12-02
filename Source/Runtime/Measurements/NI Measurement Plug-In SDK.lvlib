@@ -37,6 +37,7 @@
 		<Item Name="Is Enum Control.vi" Type="VI" URL="../Helpers/Is Enum Control.vi"/>
 		<Item Name="Is Latched Boolean.vi" Type="VI" URL="../Helpers/Is Latched Boolean.vi"/>
 		<Item Name="Is Supported Cluster.vi" Type="VI" URL="../Helpers/Is Supported Cluster.vi"/>
+		<Item Name="Read Environment Variable.vi" Type="VI" URL="../Helpers/Read Environment Variable.vi"/>
 		<Item Name="Register Configuration and Results.vi" Type="VI" URL="../Helpers/Register Configuration and Results.vi"/>
 		<Item Name="Register to Discovery Service.vi" Type="VI" URL="../Helpers/Register to Discovery Service.vi"/>
 		<Item Name="Validate Enum Strings.vi" Type="VI" URL="../Helpers/Validate Enum Strings.vi"/>
