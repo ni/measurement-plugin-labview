@@ -46,7 +46,9 @@
 		<Item Name="Read Discovery Service Key File.vi" Type="VI" URL="../Read Discovery Service Key File.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Read Environment Variable.vi" Type="VI" URL="../Read Environment Variable.vi"/>
+		<Item Name="Read Environment Variable.vi" Type="VI" URL="../Read Environment Variable.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 		<Item Name="Start Discovery Service.vi" Type="VI" URL="../Start Discovery Service.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
