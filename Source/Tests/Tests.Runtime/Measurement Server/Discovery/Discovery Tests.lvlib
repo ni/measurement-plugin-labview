@@ -13,6 +13,7 @@
 		<Item Name="test_EnumerateComputeNodes_StopDiscoveryService_EnumerateComputeNodesWorkWithoutError.vi" Type="VI" URL="../test_EnumerateComputeNodes_StopDiscoveryService_EnumerateComputeNodesWorkWithoutError.vi"/>
 		<Item Name="test_EnumerateServices_StopDiscoveryService_EnumerateServicesWorkWithoutError.vi" Type="VI" URL="../test_EnumerateServices_StopDiscoveryService_EnumerateServicesWorkWithoutError.vi"/>
 		<Item Name="test_ResolveService_StopDiscoveryService_ResolveServiceWorkWithoutError.vi" Type="VI" URL="../test_ResolveService_StopDiscoveryService_ResolveServiceWorkWithoutError.vi"/>
+		<Item Name="test_ResolveService_WithNewClusterId_RetriesAndSucceeds.vi" Type="VI" URL="../test_ResolveService_WithNewClusterId_RetriesAndSucceeds.vi"/>
 		<Item Name="test_ResolveServicewithInformation_StopDiscoveryService_ResolveServicewithInformationWorkWithoutError.vi" Type="VI" URL="../test_ResolveServicewithInformation_StopDiscoveryService_ResolveServicewithInformationWorkWithoutError.vi"/>
 	</Item>
 	<Item Name="gRPC Client Cache Tests" Type="Folder">
@@ -27,6 +28,7 @@
 		<Item Name="test_ClientFGV_GetClientThenRecreateClient_ClientCreatedTwice.vi" Type="VI" URL="../test_ClientFGV_GetClientThenRecreateClient_ClientCreatedTwice.vi"/>
 		<Item Name="test_ClientFGV_GetClientThenRecreateClientWithWrongUniqueId_ClientCreatedOnce.vi" Type="VI" URL="../test_ClientFGV_GetClientThenRecreateClientWithWrongUniqueId_ClientCreatedOnce.vi"/>
 		<Item Name="test_ClientFGV_GetClientTwice_ClientOnlyCreatedOnce.vi" Type="VI" URL="../test_ClientFGV_GetClientTwice_ClientOnlyCreatedOnce.vi"/>
+		<Item Name="test_ClientFGV_GetClientWithDifferentClusterId_Errors.vi" Type="VI" URL="../test_ClientFGV_GetClientWithDifferentClusterId_Errors.vi"/>
 		<Item Name="test_ClientFGV_RecreateClient_ClientCreated.vi" Type="VI" URL="../test_ClientFGV_RecreateClient_ClientCreated.vi"/>
 		<Item Name="test_ClientFGV_RecreateClientErrors_ClientNotCreated.vi" Type="VI" URL="../test_ClientFGV_RecreateClientErrors_ClientNotCreated.vi"/>
 		<Item Name="test_ClientFGV_RecreateClientTwice_ClientCreatedTwice.vi" Type="VI" URL="../test_ClientFGV_RecreateClientTwice_ClientCreatedTwice.vi"/>
