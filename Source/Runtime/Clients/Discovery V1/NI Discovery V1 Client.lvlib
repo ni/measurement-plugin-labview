@@ -36,7 +36,6 @@
 		<Item Name="Ensure Discovery Service Started.vi" Type="VI" URL="../Ensure Discovery Service Started.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Get Cluster Id.vi" Type="VI" URL="../Get Cluster Id.vi"/>
 		<Item Name="Get Deployment Target.vi" Type="VI" URL="../Get Deployment Target.vi"/>
 		<Item Name="Get Discovery Service Address.vi" Type="VI" URL="../Get Discovery Service Address.vi"/>
 		<Item Name="Get Discovery Service Key File Path.vi" Type="VI" URL="../Get Discovery Service Key File Path.vi">
@@ -51,7 +50,6 @@
 		<Item Name="Read Environment Variable.vi" Type="VI" URL="../Read Environment Variable.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-		<Item Name="Set Cluster Id.vi" Type="VI" URL="../Set Cluster Id.vi"/>
 		<Item Name="Start Discovery Service.vi" Type="VI" URL="../Start Discovery Service.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
@@ -60,9 +58,6 @@
 		</Item>
 	</Item>
 	<Item Name="gRPC Client Cache" Type="Folder">
-		<Item Name="Cluster Id FGV.vi" Type="VI" URL="../Cluster Id FGV.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
 		<Item Name="gRPC Client Cache FGV Action.ctl" Type="VI" URL="../TypeDefs/gRPC Client Cache FGV Action.ctl"/>
 		<Item Name="gRPC Client Cache FGV Impl.vi" Type="VI" URL="../gRPC Client Cache FGV Impl.vi"/>
 		<Item Name="gRPC Client Cache VI References.ctl" Type="VI" URL="../TypeDefs/gRPC Client Cache VI References.ctl"/>
