@@ -13,7 +13,7 @@
 		<Item Name="test_EnumerateComputeNodes_StopDiscoveryService_EnumerateComputeNodesWorkWithoutError.vi" Type="VI" URL="../test_EnumerateComputeNodes_StopDiscoveryService_EnumerateComputeNodesWorkWithoutError.vi"/>
 		<Item Name="test_EnumerateServices_StopDiscoveryService_EnumerateServicesWorkWithoutError.vi" Type="VI" URL="../test_EnumerateServices_StopDiscoveryService_EnumerateServicesWorkWithoutError.vi"/>
 		<Item Name="test_ResolveService_StopDiscoveryService_ResolveServiceWorkWithoutError.vi" Type="VI" URL="../test_ResolveService_StopDiscoveryService_ResolveServiceWorkWithoutError.vi"/>
-		<Item Name="test_ResolveService_WithNewClusterId_RetriesAndSucceeds.vi" Type="VI" URL="../test_ResolveService_WithNewClusterId_RetriesAndSucceeds.vi"/>
+		<Item Name="test_ResolveService_UpdateClusterId_ResolveServiceWorksWithoutError.vi" Type="VI" URL="../test_ResolveService_UpdateClusterId_ResolveServiceWorksWithoutError.vi"/>
 		<Item Name="test_ResolveServicewithInformation_StopDiscoveryService_ResolveServicewithInformationWorkWithoutError.vi" Type="VI" URL="../test_ResolveServicewithInformation_StopDiscoveryService_ResolveServicewithInformationWorkWithoutError.vi"/>
 	</Item>
 	<Item Name="gRPC Client Cache Tests" Type="Folder">

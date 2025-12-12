@@ -33,6 +33,7 @@
 		<Item Name="Resolve Service.vi" Type="VI" URL="../Resolve Service.vi"/>
 	</Item>
 	<Item Name="Discovery Service Helpers" Type="Folder">
+		<Item Name="Cluster Id Constant.vi" Type="VI" URL="../Cluster Id Constant.vi"/>
 		<Item Name="Ensure Discovery Service Started.vi" Type="VI" URL="../Ensure Discovery Service Started.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
