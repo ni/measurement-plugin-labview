@@ -8,6 +8,9 @@ on:
   issue_comment:
     types: [created, edited, deleted]
 
+permissions:
+  contents: read
+
 jobs:
   alert:
     if: ${{ !github.event.issue.pull_request && github.event.issue.title != 'Dependency Dashboard' }}
