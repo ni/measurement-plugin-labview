@@ -4,6 +4,8 @@ on:
   workflow_call:
   workflow_dispatch:
 
+permissions: {}
+
 jobs:
   run_vi_analyzer:
     name: Run VI Analyzer
