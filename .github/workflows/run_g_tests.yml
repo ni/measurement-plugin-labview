@@ -4,6 +4,8 @@ on:
   workflow_call:
   workflow_dispatch:
 
+permissions: {}
+
 jobs:
   run_g_tests:
     name: Run G Tests LV${{ matrix.version }}
