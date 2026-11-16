@@ -28,6 +28,8 @@ jobs:
       run: git config  --global core.longpaths true
 
     - uses: actions/checkout@v7
+      with:
+        persist-credentials: false
 
     - uses: actions/setup-python@v7
       with:

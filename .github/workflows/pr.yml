@@ -27,3 +27,9 @@ jobs:
            (github.repository == 'ni/measurement-plugin-labview' ||
             github.event.pull_request.head.repo.full_name == 'ni/measurement-plugin-labview') }}
     uses: ./.github/workflows/run_pr_commenter.yml
+
+  check_workflows:
+    name: Check workflows
+    uses: ./.github/workflows/check_workflows.yml
+    permissions:
+      security-events: write
