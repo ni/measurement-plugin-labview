@@ -5,7 +5,7 @@ on:
     # Omit "labeled" and "unlabeled" to work around https://github.com/danhellem/github-actions-issue-to-work-item/issues/70
     types:
       [opened, edited, deleted, closed, reopened, assigned]
-  issue_comment:
+  issue_comment: # zizmor: ignore[dangerous-triggers] # does not checkout repo or run any code other than danhellem/github-actions-issue-to-work-item
     types: [created, edited, deleted]
 
 permissions: {}
@@ -25,7 +25,7 @@ jobs:
           else
             echo "work_item_type=Bug" >> $GITHUB_OUTPUT
           fi
-      - uses: danhellem/github-actions-issue-to-work-item@v2.5
+      - uses: danhellem/github-actions-issue-to-work-item@8d0ead9b49a65aa66dac6949b1ff149d7ef8b4de # v2.5
         env:
           ado_token: "${{ secrets.AZDO_WORK_ITEM_TOKEN }}"
           github_token: "${{ secrets.GH_REPO_TOKEN }}"
