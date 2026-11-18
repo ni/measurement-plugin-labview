@@ -19,14 +19,17 @@ jobs:
     - name: Enable git long paths
       run: git config  --global core.longpaths true
 
-    - uses: actions/checkout@v7
-
-    - uses: actions/checkout@v7
+    - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       with:
+        persist-credentials: false
+
+    - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      with:
+        persist-credentials: false
         ref: main
         path: target_for_diff
 
-    - uses: actions/setup-python@v7
+    - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
       with:
         python-version: '3.15'
     - run: pip install click requests
@@ -38,12 +41,14 @@ jobs:
 
     - name: Run G Diff
       id: run-diff
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PR_NUMBER: ${{ github.event.pull_request.number }}
+        HEAD_SHA: ${{ github.event.pull_request.head.sha }}
       run: |
-        python ${{runner.workspace}}/measurement-plugin-labview/Source/Tools/run_diff.py --token ${{secrets.GITHUB_TOKEN}} --pull-req ${{github.event.pull_request.number}} --commit-id ${{github.event.pull_request.head.sha}}
+        python "$env:RUNNER_WORKSPACE/measurement-plugin-labview/Source/Tools/run_diff.py" --token "$env:GH_TOKEN" --pull-req "$env:PR_NUMBER" --commit-id "$env:HEAD_SHA"
       timeout-minutes: 10
 
     - name: Close LabVIEW 2023
-      run: 
-        wmic process where name="LabVIEW.exe" call terminate
-      shell: cmd
+      run: Stop-Process -Name LabVIEW -Force -ErrorAction SilentlyContinue
       if: always()

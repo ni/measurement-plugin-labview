@@ -29,24 +29,29 @@ jobs:
     - name: Enable git long paths
       run: git config  --global core.longpaths true
 
-    - uses: actions/checkout@v7
+    - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      with:
+        persist-credentials: false
 
-    - uses: actions/setup-python@v7
+    - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
       with:
         python-version: '3.15'
 
     - name: Open LabVIEW ${{ matrix.version }}
+      env:
+        LV_VERSION: ${{ matrix.version }}
       run: |
-        Start-Process "C:\\Program Files\\National Instruments\\LabVIEW ${{ matrix.version }}\\LabVIEW.exe"
+        Start-Process "C:\Program Files\National Instruments\LabVIEW $env:LV_VERSION\LabVIEW.exe"
         Start-Sleep 60
 
     - name: Run G Tests
+      env:
+        LV_VERSION: ${{ matrix.version }}
+        LV_PORT: ${{ matrix.port }}
       run:
-        python ${{runner.workspace}}/measurement-plugin-labview/Source/Tests/run_tests.py --labview-path "C:\Program Files\National Instruments\LabVIEW ${{ matrix.version }}\LabVIEW.exe" --port-number ${{ matrix.port }}
+        python "$env:RUNNER_WORKSPACE/measurement-plugin-labview/Source/Tests/run_tests.py" --labview-path "C:\Program Files\National Instruments\LabVIEW $env:LV_VERSION\LabVIEW.exe" --port-number "$env:LV_PORT"
       timeout-minutes: 20
 
     - name: Close LabVIEW ${{ matrix.version }}
-      run: 
-        wmic process where name="LabVIEW.exe" call terminate
-      shell: cmd
+      run: Stop-Process -Name LabVIEW -Force -ErrorAction SilentlyContinue
       if: always()
